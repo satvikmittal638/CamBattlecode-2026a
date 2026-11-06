@@ -1,0 +1,21 @@
+{
+  "version": "2.1.0",
+  "source": "loop",
+  "timestamp": "2026-10-31T14:40:37.480616+00:00",
+  "status": "COMPLETE",
+  "stop_reason": "PLATEAU: seven consecutive candidate checks without a kept improvement",
+  "results_tsv": "autoresearch/loop-261031-0923/results.tsv",
+  "findings": [
+    "Iteration 15 fight-risk reduction failed archived layouts: 10/24 versus incumbent 14/24.",
+    "Iteration 16 early outmatched escape failed archived layouts: 3/24.",
+    "Iteration 17 crowded one-target planner gained two local wins but failed archived layouts: 11/24.",
+    "All three candidates reverted; v135 remains active and selected."
+  ],
+  "config": {
+    "goal": "Improve v114 lineage from v121 using loss-driven paired local and online checks",
+    "scope": "workspace/bots/ar-v121/src",
+    "metric": "paired local wins with online confirmation and no-regression holdout",
+    "direction": "higher_is_better",
+    "verify": "python3 autoresearch/local_check.py candidate <label>"
+  }
+}

@@ -1,0 +1,338 @@
+{
+ "group": {
+  "id": "31611df6-8a35-48a0-bb91-f84bd925dc31",
+  "kind": "unranked",
+  "gameCount": 5,
+  "status": "finished",
+  "winnerTeamId": "6b04505b-d16c-4196-b7c6-53a4688a32ca",
+  "createdAt": "2026-10-29T16:11:31.950Z",
+  "finishedAt": "2026-10-29T16:13:09.693Z",
+  "ratedAt": null,
+  "sides": [
+   {
+    "side": "a",
+    "teamId": "6b04505b-d16c-4196-b7c6-53a4688a32ca",
+    "teamName": "Agentic Loop Builders",
+    "submissionId": "c31510a8-9504-469e-8e2d-4ad2e5efc6ec",
+    "version": 121,
+    "wins": 4,
+    "ratingBefore": null,
+    "ratingAfter": null
+   },
+   {
+    "side": "b",
+    "teamId": "962f04b9-033a-42f9-bc38-0505066c19ef",
+    "teamName": "Midnight Wardens",
+    "submissionId": null,
+    "version": null,
+    "wins": 1,
+    "ratingBefore": null,
+    "ratingAfter": null
+   }
+  ]
+ },
+ "admin": false,
+ "myTeamId": "6b04505b-d16c-4196-b7c6-53a4688a32ca",
+ "matches": [
+  {
+   "id": "5eb872ad-dc6c-4766-b5f7-850081a208e6",
+   "kind": "unranked",
+   "label": null,
+   "status": "finished",
+   "progress": "finished",
+   "errorCode": null,
+   "mapId": "20aedb4d-faa0-49b9-a4eb-93bea93916f5",
+   "summaryAvailable": true,
+   "patchId": "2.0.0:85aa7167b44db7cea97509f55e997750520e33d644e9f4f90d6128c50eba1d21:1",
+   "coinflip": false,
+   "endReason": "gems",
+   "map": "00the_line",
+   "rounds": 676,
+   "replayUrl": "/api/v1/matches/5eb872ad-dc6c-4766-b5f7-850081a208e6/bundle",
+   "error": null,
+   "createdAt": "2026-10-29T16:11:31.958Z",
+   "startedAt": "2026-10-29T16:12:56.620Z",
+   "finishedAt": "2026-10-29T16:13:07.216Z",
+   "sides": [
+    {
+     "side": "a",
+     "teamId": "6b04505b-d16c-4196-b7c6-53a4688a32ca",
+     "teamName": "Agentic Loop Builders",
+     "version": 121,
+     "result": "win",
+     "score": 1041,
+     "draft": [
+      "11",
+      "1",
+      "0",
+      "6"
+     ],
+     "botError": null,
+     "ratingBefore": null,
+     "ratingAfter": null,
+     "hasLog": true
+    },
+    {
+     "side": "b",
+     "teamId": "962f04b9-033a-42f9-bc38-0505066c19ef",
+     "teamName": "Midnight Wardens",
+     "version": null,
+     "result": "loss",
+     "score": 217,
+     "draft": [
+      "11",
+      "1",
+      "6",
+      "2"
+     ],
+     "botError": null,
+     "ratingBefore": null,
+     "ratingAfter": null,
+     "hasLog": false
+    }
+   ],
+   "position": 1,
+   "showcase": true
+  },
+  {
+   "id": "29233f2f-6bf9-4462-aa9b-529fab5d39ce",
+   "kind": "unranked",
+   "label": null,
+   "status": "finished",
+   "progress": "finished",
+   "errorCode": null,
+   "mapId": "310a18b1-70ce-44df-896e-ce121a568bb3",
+   "summaryAvailable": true,
+   "patchId": "2.0.0:85aa7167b44db7cea97509f55e997750520e33d644e9f4f90d6128c50eba1d21:1",
+   "coinflip": false,
+   "endReason": "gems",
+   "map": "00gemfight",
+   "rounds": 916,
+   "replayUrl": "/api/v1/matches/29233f2f-6bf9-4462-aa9b-529fab5d39ce/bundle",
+   "error": null,
+   "createdAt": "2026-10-29T16:11:31.983Z",
+   "startedAt": "2026-10-29T16:12:56.926Z",
+   "finishedAt": "2026-10-29T16:13:07.748Z",
+   "sides": [
+    {
+     "side": "a",
+     "teamId": "6b04505b-d16c-4196-b7c6-53a4688a32ca",
+     "teamName": "Agentic Loop Builders",
+     "version": 121,
+     "result": "win",
+     "score": 1054,
+     "draft": [
+      "11",
+      "1",
+      "0",
+      "6"
+     ],
+     "botError": null,
+     "ratingBefore": null,
+     "ratingAfter": null,
+     "hasLog": true
+    },
+    {
+     "side": "b",
+     "teamId": "962f04b9-033a-42f9-bc38-0505066c19ef",
+     "teamName": "Midnight Wardens",
+     "version": null,
+     "result": "loss",
+     "score": 268,
+     "draft": [
+      "11",
+      "1",
+      "6",
+      "2"
+     ],
+     "botError": null,
+     "ratingBefore": null,
+     "ratingAfter": null,
+     "hasLog": false
+    }
+   ],
+   "position": 2,
+   "showcase": true
+  },
+  {
+   "id": "28fd9494-a173-4e1c-8142-4af464ee9104",
+   "kind": "unranked",
+   "label": null,
+   "status": "finished",
+   "progress": "finished",
+   "errorCode": null,
+   "mapId": "8c2c2d26-7bca-43e2-9b67-7de966014f56",
+   "summaryAvailable": true,
+   "patchId": "2.0.0:85aa7167b44db7cea97509f55e997750520e33d644e9f4f90d6128c50eba1d21:1",
+   "coinflip": false,
+   "endReason": "gems",
+   "map": "00road_of_riches",
+   "rounds": 905,
+   "replayUrl": "/api/v1/matches/28fd9494-a173-4e1c-8142-4af464ee9104/bundle",
+   "error": null,
+   "createdAt": "2026-10-29T16:11:32.001Z",
+   "startedAt": "2026-10-29T16:12:57.161Z",
+   "finishedAt": "2026-10-29T16:13:08.972Z",
+   "sides": [
+    {
+     "side": "a",
+     "teamId": "962f04b9-033a-42f9-bc38-0505066c19ef",
+     "teamName": "Midnight Wardens",
+     "version": null,
+     "result": "win",
+     "score": 1007,
+     "draft": [
+      "11",
+      "1",
+      "6",
+      "2",
+      "10"
+     ],
+     "botError": null,
+     "ratingBefore": null,
+     "ratingAfter": null,
+     "hasLog": false
+    },
+    {
+     "side": "b",
+     "teamId": "6b04505b-d16c-4196-b7c6-53a4688a32ca",
+     "teamName": "Agentic Loop Builders",
+     "version": 121,
+     "result": "loss",
+     "score": 231,
+     "draft": [
+      "11",
+      "1",
+      "0",
+      "6",
+      "2"
+     ],
+     "botError": null,
+     "ratingBefore": null,
+     "ratingAfter": null,
+     "hasLog": true
+    }
+   ],
+   "position": 3,
+   "showcase": true
+  },
+  {
+   "id": "ca104ba1-e61a-456d-9d9c-dffd1b1a5926",
+   "kind": "unranked",
+   "label": null,
+   "status": "finished",
+   "progress": "finished",
+   "errorCode": null,
+   "mapId": "24c4b196-106b-4d69-a9de-e893c24169dc",
+   "summaryAvailable": true,
+   "patchId": "2.0.0:85aa7167b44db7cea97509f55e997750520e33d644e9f4f90d6128c50eba1d21:1",
+   "coinflip": false,
+   "endReason": "gems",
+   "map": "00rows",
+   "rounds": 1299,
+   "replayUrl": "/api/v1/matches/ca104ba1-e61a-456d-9d9c-dffd1b1a5926/bundle",
+   "error": null,
+   "createdAt": "2026-10-29T16:11:32.111Z",
+   "startedAt": "2026-10-29T16:12:57.203Z",
+   "finishedAt": "2026-10-29T16:13:09.626Z",
+   "sides": [
+    {
+     "side": "a",
+     "teamId": "6b04505b-d16c-4196-b7c6-53a4688a32ca",
+     "teamName": "Agentic Loop Builders",
+     "version": 121,
+     "result": "win",
+     "score": 1074,
+     "draft": [
+      "11",
+      "1",
+      "0",
+      "6"
+     ],
+     "botError": null,
+     "ratingBefore": null,
+     "ratingAfter": null,
+     "hasLog": true
+    },
+    {
+     "side": "b",
+     "teamId": "962f04b9-033a-42f9-bc38-0505066c19ef",
+     "teamName": "Midnight Wardens",
+     "version": null,
+     "result": "loss",
+     "score": 770,
+     "draft": [
+      "11",
+      "1",
+      "6",
+      "2"
+     ],
+     "botError": null,
+     "ratingBefore": null,
+     "ratingAfter": null,
+     "hasLog": false
+    }
+   ],
+   "position": 4,
+   "showcase": true
+  },
+  {
+   "id": "2abf3c61-8e13-4deb-a910-e700f75cbf1c",
+   "kind": "unranked",
+   "label": null,
+   "status": "finished",
+   "progress": "finished",
+   "errorCode": null,
+   "mapId": "36d449b1-3441-4c48-ae8c-49e5a6c111dd",
+   "summaryAvailable": true,
+   "patchId": "2.0.0:85aa7167b44db7cea97509f55e997750520e33d644e9f4f90d6128c50eba1d21:1",
+   "coinflip": false,
+   "endReason": "gems",
+   "map": "01gold_rush",
+   "rounds": 1397,
+   "replayUrl": "/api/v1/matches/2abf3c61-8e13-4deb-a910-e700f75cbf1c/bundle",
+   "error": null,
+   "createdAt": "2026-10-29T16:11:32.754Z",
+   "startedAt": "2026-10-29T16:12:57.583Z",
+   "finishedAt": "2026-10-29T16:13:08.629Z",
+   "sides": [
+    {
+     "side": "a",
+     "teamId": "6b04505b-d16c-4196-b7c6-53a4688a32ca",
+     "teamName": "Agentic Loop Builders",
+     "version": 121,
+     "result": "win",
+     "score": 1007,
+     "draft": [
+      "11",
+      "1",
+      "2"
+     ],
+     "botError": null,
+     "ratingBefore": null,
+     "ratingAfter": null,
+     "hasLog": true
+    },
+    {
+     "side": "b",
+     "teamId": "962f04b9-033a-42f9-bc38-0505066c19ef",
+     "teamName": "Midnight Wardens",
+     "version": null,
+     "result": "loss",
+     "score": 330,
+     "draft": [
+      "11",
+      "1",
+      "6"
+     ],
+     "botError": null,
+     "ratingBefore": null,
+     "ratingAfter": null,
+     "hasLog": false
+    }
+   ],
+   "position": 5,
+   "showcase": true
+  }
+ ]
+}

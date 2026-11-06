@@ -1,0 +1,47 @@
+{
+  "games": 500,
+  "normal": [
+    {
+      "games": 474,
+      "clearsPerGame": 48.79535864978903,
+      "capturesPerGame": 47.88607594936709,
+      "stolenCaptures": 561,
+      "lostClears": 707,
+      "splitCaps": 243,
+      "meanClearToCapture": 9.747731077627984,
+      "medianClearToCapture": 6
+    },
+    {
+      "games": 474,
+      "clearsPerGame": 55.09282700421941,
+      "capturesPerGame": 54.81856540084388,
+      "stolenCaptures": 707,
+      "lostClears": 561,
+      "splitCaps": 1091,
+      "meanClearToCapture": 11.401978140394089,
+      "medianClearToCapture": 7
+    }
+  ],
+  "boss": [
+    {
+      "games": 14,
+      "clearsPerGame": 47.5,
+      "capturesPerGame": 44.285714285714285,
+      "stolenCaptures": 42,
+      "lostClears": 83,
+      "splitCaps": 8,
+      "meanClearToCapture": 12.12741935483871,
+      "medianClearToCapture": 8
+    },
+    {
+      "games": 14,
+      "clearsPerGame": 97.35714285714286,
+      "capturesPerGame": 99.85714285714286,
+      "stolenCaptures": 83,
+      "lostClears": 42,
+      "splitCaps": 73,
+      "meanClearToCapture": 10.245350500715308,
+      "medianClearToCapture": 7
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+diff --color -r analysis/iterations/v43x-D/src/boss/bot.cpp analysis/iterations/v43x-G/src/boss/bot.cpp
+352c352,357
+<     if(bossOnly) {
+---
+>     if(bossOnly && X_BOSSRAID) {
+>         // Tung build (as the main bot's X_TBUILD), open-ended.
+>         const int dmg = myType == bc::champion_type::heart_of_ruin ? 1 : 0;
+>         plan = {{3, ranged ? 0 : 2, 5}, {4, dmg, 5}, {6, 2, 5}, {2, 2, 5}, {6, dmg, 5}};
+>         for (int n = 10; n <= 400; n += 5) { plan.push_back({6, 2, n}); plan.push_back({6, dmg, n}); }
+>     } else if(bossOnly) {
+1070c1075,1076
+<         if(bossOnly && g.monolith && g.state!=2) {
+---
+>         const bool raid=bossOnly && g.monolith && X_BOSSRAID && (round>=X_RAIDROUND || me.max_health()>=X_RAIDHP) && me.health()>=0.6f*me.max_health();
+>         if(bossOnly && g.monolith && g.state!=2 && !raid) {
+1091c1097
+<         if(bossOnly && g.monolith){
+---
+>         if(bossOnly && g.monolith && !raid){
+1105c1111,1112
+<         if (cnt[g.id] > 0) score *= 0.6f;
+---
+>         if (raid) score *= 1.0f + 0.5f * cnt[g.id];  // converge: the whole team takes the monolith
+>         else if (cnt[g.id] > 0) score *= 0.6f;
+1170c1177,1178
+<     if(bossOnly && g.monolith && g.state!=2) {
+---
+>     const bool raiding=X_BOSSRAID && (round>=X_RAIDROUND || me.max_health()>=X_RAIDHP);
+>     if(bossOnly && g.monolith && g.state!=2 && !raiding) {
+diff --color -r analysis/iterations/v43x-D/src/boss/draft.cpp analysis/iterations/v43x-G/src/boss/draft.cpp
+8a9
+> #include "../fishx_features.h"
+64a66,68
+>     // X_BOSSRAID: procless/Tung take boss-only maps with the meta team (build up, then raid monoliths together).
+>     static constexpr std::array raiders{cambc::champion_draft::heart_of_ruin,cambc::champion_draft::vesper_vale,cambc::champion_draft::ryth,cambc::champion_draft::marcella,cambc::champion_draft::vendetta};
+>     if(bossOnlyMap&&X_BOSSRAID)for(auto pick:raiders)if(std::find(mine.begin(),mine.end(),pick)==mine.end()){cambc::draft::pick(pick);return;}
+diff --color -r analysis/iterations/v43x-D/src/bot.cpp analysis/iterations/v43x-G/src/bot.cpp
+194c194
+<         g.eligible=g.gems>0 && !g.monolith && g.dOwn!=UNR && g.dOwn<=g.dEnemy+4;
+---
+>         g.eligible=g.gems>0 && !g.monolith && g.dOwn!=UNR && g.dOwn<=g.dEnemy+X_SIDESLACK;
+399a400,401
+>         // X_HOME: Home Health third (recall 5 -> 3 turn ends; Fish and procless buy it).
+>         if (X_HOME) plan.insert(plan.begin() + 2, Step{5, 2, 5});
+403a406,407
+>         // X_LOCKATK/X_LOCKDEF: carry one altar lock (10 gold), bought before shards.
+>         if (X_LOCKATK || X_LOCKDEF) try { if (me.consumables()[bc::consumable_type::altar_lock].count() == 0 && me.can_buy(bc::consumable_type::altar_lock)) ACT(me.buy(bc::consumable_type::altar_lock)); } catch (const TurnAbort&) { throw; } catch (...) {}
+463c467
+< bool Bot::useDashToward(const Route& route) {
+---
+> bool Bot::useDashToward(const Route& route, const std::vector<vec2>* avoid) {
+479c483,487
+<         for(auto t:reach.positions()){if(!enough(28000))break;int d=recoveryActive?recoveryAt(t):routeAt(&route,t);if(d<0 && !recoveryActive)d=heuristic(route.roots,t);if(d>=0 && d!=UNR && d+1<current)options.push_back({d,t});}
+---
+>         // X_SAFEDASH: a retreat dash must not land nearer any threat than we stand now (v47: a 34%-HP Vesper
+>         // dashed home along a route past an enemy Ryth and died next to it).
+>         auto nearest=[&](vec2 q){int m=99;if(avoid)for(auto e:*avoid)m=std::min(m,cheb(e,q));return m;};
+>         const int here=nearest(pos);
+>         for(auto t:reach.positions()){if(!enough(28000))break;if(X_SAFEDASH&&avoid&&!avoid->empty()&&nearest(t)<here)continue;int d=recoveryActive?recoveryAt(t):routeAt(&route,t);if(d<0 && !recoveryActive)d=heuristic(route.roots,t);if(d>=0 && d!=UNR && d+1<current)options.push_back({d,t});}
+657c665
+<         useDashToward(*homeRoute);
+---
+>         useDashToward(*homeRoute, &threats);
+806a815,825
+> // X_FOEMEM: enemy positions seen in the last X_FOEMEM rounds (bushes hide them; v47 gold_rush: a
+> // stunned 17%-HP Vendetta recalled 3 tiles from a hidden Ryth and died).
+> static std::vector<std::pair<vec2,int>> recentFoes;
+> static void noteFoes(int round){
+>     if(!X_FOEMEM)return;
+>     std::erase_if(recentFoes,[&](const auto& f){return round-f.second>X_FOEMEM;});
+>     for(auto p:bc::vision::champion_tiles(team::enemy).positions()){
+>         bool known=false;for(auto& f:recentFoes)if(f.first==p){f.second=round;known=true;}
+>         if(!known&&recentFoes.size()<12)recentFoes.push_back({p,round});
+>     }
+> }
+823,824c842,843
+<     if (!lowMode && (hpf < 0.35f || partnerRise)) lowMode = true;
+<     if (lowMode && hpf >= 0.6f && !partnerLow) lowMode = false;
+---
+>     if (!lowMode && (hpf < X_LOWENTER || partnerRise)) lowMode = true;
+>     if (lowMode && hpf >= X_LOWEXIT && !partnerLow) lowMode = false;
+839a859,862
+>     if (X_FOEMEM) {
+>         const auto seen = bc::vision::visible_tiles(); const auto foesNow = bc::vision::champion_tiles(team::enemy);
+>         for (const auto& f : recentFoes) if (f.second < round && cheb(f.first, pos) <= 6 && !(seen.is_set(f.first) && !foesNow.is_set(f.first))) threats.push_back(f.first);
+>     }
+854a878,884
+>         // X_RECALLSAFE: a visible enemy within this range can still reach us during the 5-turn recall
+>         // (v47: ~0.6 deaths/game after repeated cancelled recalls); walk home instead.
+>         if (X_RECALLSAFE > 6) {
+>             bool near = false;
+>             for (auto p : bc::vision::champion_tiles(team::enemy).positions()) if (cheb(p, pos) <= X_RECALLSAFE && !enemySpawnBB.is_set(p)) { near = true; break; }
+>             if (near && escapeHome(threats)) { stage = "x-recall-safe"; return true; }
+>         }
+1080a1111
+>             if(X_LOCKDEF&&gems>=X_LOCKDEFMIN)placeLock(ap);
+1089c1120
+<         try{if(removeBankLock(altar.pos))return true;ACT(me.submit_gems(altar.pos));}catch(const TurnAbort&){throw;}catch(...){}
+---
+>         try{if(removeBankLock(altar.pos))return true;if(X_LOCKDEF&&gems>=X_LOCKDEFMIN)placeLock(altar.pos);ACT(me.submit_gems(altar.pos));}catch(const TurnAbort&){throw;}catch(...){}
+1249c1280,1284
+<             if (!threat && homeFirst && round - captureSince >= 1 && static_cast<int>(me.gold_count()) + g.gold >= 150 && !me.is_recalling()) {
+---
+>             // A Home emblem shortens recall to 3 turn ends: start it 2 turns later, or the champion leaves
+>             // before the 5-turn capture completes (X_HOME local test: -40 games until this was fixed).
+>             bool homeEmblem = false;
+>             try { auto ic = me.item_count(); for (int k = 31; k <= 35; k += 2) homeEmblem |= ic[bc::item_type{static_cast<std::uint32_t>(k)}] > 0; } catch (const TurnAbort&) { throw; } catch (...) {}
+>             if (!threat && homeFirst && round - captureSince >= (homeEmblem ? 3 : 1) && static_cast<int>(me.gold_count()) + g.gold >= 150 && !me.is_recalling()) {
+1353a1389
+>     noteFoes(round);
+1397a1434
+>     if(lockEnemyTribute()){}
+diff --color -r analysis/iterations/v43x-D/src/bot.h analysis/iterations/v43x-G/src/bot.h
+168a169,170
+>     bool placeLock(cambc::vec2 altar);
+>     bool lockEnemyTribute();
+191c193
+<     bool useDashToward(const Route& route);
+---
+>     bool useDashToward(const Route& route, const std::vector<cambc::vec2>* avoid = nullptr);
+diff --color -r analysis/iterations/v43x-D/src/fishx_features.h analysis/iterations/v43x-G/src/fishx_features.h
+22c22
+< constexpr float X_GOLDW = 0.5f;       // gem-equivalents per gold in camp scoring (tm30: 0.15)
+---
+> constexpr float X_GOLDW = 0.3f;       // gem-equivalents per gold in camp scoring (tm30: 0.15)
+46a47,66
+> constexpr int X_GROUPR = 0;           // cohesion: groups farther than this from every ally / ally claim score x X_GROUPF (0 = off)
+> constexpr float X_GROUPF = 0.5f;
+> constexpr int X_GROUPTEAM = 5;        // cohesion applies when our team has at most this many champions
+> constexpr bool X_LOCKATK = false;     // lock an altar where a visible enemy is tributing (cancels the channel; 5 hits to clear)
+> constexpr bool X_LOCKDEF = false;     // lock our tribute altar first (an altar with a lock cannot be locked again; enemy cannot use it)
+> constexpr int X_LOCKDEFMIN = 30;      // X_LOCKDEF only for bags of at least this many gems
+> constexpr int X_SIDESLACK = 4;        // camp groups are ours if our spawn distance <= enemy spawn distance + this (v43: 4)
+> constexpr bool X_HOME = false;        // X_TBUILD: Home Health emblem third (recall 3 turn ends instead of 5)
+> constexpr int X_RECALLSAFE = 6;       // low HP: recall only with no visible enemy within this range, else walk home (6 = v43 behaviour)
+> constexpr bool X_SAFEDASH = false;    // retreat (moveAway) dashes home only to tiles no nearer any visible threat
+> constexpr int X_FOEMEM = 0;           // low-HP retreat: enemies seen within this many rounds still count as threats unless their tile is visibly empty (0 = off)
+> constexpr float X_LOWENTER = 0.35f;   // low-HP retreat starts below this HP fraction (v43: .35)
+> constexpr float X_LOWEXIT = 0.6f;     // and ends at or above this (v43: .6)
+> constexpr bool X_BOSSRAID = false;    // boss-only maps: meta draft + Tung builds; raid monoliths as a team once ready
+> constexpr int X_RAIDROUND = 400;      // raid from this round ...
+> constexpr float X_RAIDHP = 1600.0f;   // ... or once this champion has this much max HP (and is above 60% HP)
+> constexpr bool X_FOCUS = false;       // shared focus target (byte 5): allies prefer the enemy a teammate just committed to
+> constexpr float X_FOCUSBONUS = 80.0f;
+> constexpr int X_GOLDT = 250;          // from this round gold weight is multiplied by X_GOLDTW (100000 = off)
+> constexpr float X_GOLDTW = 0.5f;
+diff --color -r analysis/iterations/v43x-D/src/main.cpp analysis/iterations/v43x-G/src/main.cpp
+42c42
+<     std::puts("build v43x-D");
+---
+>     std::puts("build v43x-G");
+diff --color -r analysis/iterations/v43x-D/src/v1_bank_access.h analysis/iterations/v43x-G/src/v1_bank_access.h
+49a50,79
+> // X_LOCKATK / X_LOCKDEF: placing an altar lock (within 2) cancels enemy tributes at that altar and
+> // needs 5 enemy basic attacks to clear; an altar already carrying a lock cannot be locked again, so our
+> // own lock also shields our tribute channel. Consumables do not use the walk/attack/cast allowance.
+> bool Bot::placeLock(vec2 altar){
+>     if(!enough(24000))return false;
+>     auto& me=bc::self();
+>     try{
+>         if(me.consumables()[bc::consumable_type::altar_lock].count()==0||cheb(me.position(),altar)>2)return false;
+>         if((bc::vision::altar_lock_tiles(team::ally)|bc::vision::altar_lock_tiles(team::enemy)).is_set(altar))return false;
+>         if(ACT(me.consumables()[bc::consumable_type::altar_lock].use(altar))){stage="x-lock";return true;}
+>     }catch(const TurnAbort&){throw;}catch(...){}
+>     return false;
+> }
+> bool Bot::lockEnemyTribute(){
+>     if(!X_LOCKATK||!enough(30000))return false;
+>     // Cheap first: only altars within lock range with a visible enemy beside them.
+>     const auto pos=bc::self().position();bc::bitboard foes;bool any=false;
+>     for(const auto& a:altars){
+>         if(cheb(a.pos,pos)>2)continue;
+>         if(!any){foes=bc::vision::champion_tiles(team::enemy);any=true;}
+>         bc::bitboard ring;ring.draw_chebyshev(a.pos,1);ring&=foes;
+>         for(auto p:ring.positions()){
+>             unsigned id;bc::detail::champion_info i{};
+>             if(bc::detail::sdk_champion_at(p.x,p.y,&id)||bc::detail::sdk_champion(id,&i)||!(i.state&1)||!(i.state&4))continue;
+>             if(placeLock(a.pos))return true;
+>         }
+>     }
+>     return false;
+> }
+> 
+diff --color -r analysis/iterations/v43x-D/src/v1_cycle.h analysis/iterations/v43x-G/src/v1_cycle.h
+15c15
+<         const bool gold=X_GOLDGROUPS&&g.gems==0&&g.gold>0&&!g.monolith&&g.dOwn!=UNR&&g.dOwn<=g.dEnemy+4;
+---
+>         const bool gold=X_GOLDGROUPS&&g.gems==0&&g.gold>0&&!g.monolith&&g.dOwn!=UNR&&g.dOwn<=g.dEnemy+X_SIDESLACK;
+41c41
+<         if(!stale&&target>=0&&target<static_cast<int>(groups.size())&&(groups[target].eligible||(groups[target].totalStr==0&&groups[target].gold>0&&!groups[target].monolith&&groups[target].dOwn!=UNR&&groups[target].dOwn<=groups[target].dEnemy+4))&&stalledUntil[target]<=round&&!allyCapturing(target))return target;
+---
+>         if(!stale&&target>=0&&target<static_cast<int>(groups.size())&&(groups[target].eligible||(groups[target].totalStr==0&&groups[target].gold>0&&!groups[target].monolith&&groups[target].dOwn!=UNR&&groups[target].dOwn<=groups[target].dEnemy+X_SIDESLACK))&&stalledUntil[target]<=round&&!allyCapturing(target))return target;
+54c54
+<     {int shards=0;for(int i=0;i<42;++i)if(items[i])shards+=items[i]*((i&1)?((i/6)==1?6:5):1);v1GoldW=X_GOLDW*(shards>=X_GOLDRICH?X_GOLDRICHW:1.0f);}
+---
+>     {int shards=0;for(int i=0;i<42;++i)if(items[i])shards+=items[i]*((i&1)?((i/6)==1?6:5):1);v1GoldW=X_GOLDW*(shards>=X_GOLDRICH?X_GOLDRICHW:1.0f)*(round>=X_GOLDT?X_GOLDTW:1.0f);}
+105a106,112
+>     // X_GROUPR: camp groups farther than X_GROUPR from every visible ally and every ally's claimed
+>     // group score x X_GROUPF (v46: packs 0-28 kills in a 3v3 mirror; their three moved together).
+>     std::vector<vec2> anchors;
+>     if(X_GROUPR>0&&nAllies<=X_GROUPTEAM){
+>         for(const auto& a:allies)if(a.id!=selfId)anchors.push_back({a.info.x,a.info.y});
+>         for(int i=0;i<nAllies&&i<6;++i)if(i!=slot&&!(shared[i]&0x80)){const int c=(shared[i]&63)-1;if(c>=0&&c<static_cast<int>(groups.size()))anchors.push_back(groups[c].center);}
+>     }
+111c118
+<         const bool goldOnly=X_GOLDGROUPS&&g.gems<=0&&g.gold>0&&!g.monolith&&g.dOwn!=UNR&&g.dOwn<=g.dEnemy+4;
+---
+>         const bool goldOnly=X_GOLDGROUPS&&g.gems<=0&&g.gold>0&&!g.monolith&&g.dOwn!=UNR&&g.dOwn<=g.dEnemy+X_SIDESLACK;
+171a179
+>         if(!anchors.empty()){int da=99;for(auto p:anchors)da=std::min(da,cheb(p,g.center));if(da>X_GROUPR)score*=X_GROUPF;}
+176c184
+<         if(g.gems>0||g.gold<=0||g.totalStr>0||g.monolith||g.dOwn==UNR||g.dOwn>g.dEnemy+4||stalledUntil[g.id]>round||allyCapturing(g.id))continue;
+---
+>         if(g.gems>0||g.gold<=0||g.totalStr>0||g.monolith||g.dOwn==UNR||g.dOwn>g.dEnemy+X_SIDESLACK||stalledUntil[g.id]>round||allyCapturing(g.id))continue;
+diff --color -r analysis/iterations/v43x-D/src/v1_tactical.h analysis/iterations/v43x-G/src/v1_tactical.h
+51a52,54
+> // X_FOCUS: shared byte 5 = focus target (handle % 63 + 1) | (round & 3) << 6, fresh for 2 rounds.
+> static int v1FocusRead(const std::uint8_t* shared,int round){const unsigned b=shared[5];if(!(b&63))return 0;return ((round-static_cast<int>(b>>6))&3)<=1?static_cast<int>(b&63):0;}
+> static int v1FocusKey(unsigned id){return static_cast<int>(id%63)+1;}
+138a142,143
+>     const int focus=X_FOCUS?v1FocusRead(shared,round):0;
+>     if(focus)for(const auto& f:foes)if(v1FocusKey(f.id)==focus&&std::find(choices.begin(),choices.end(),&f)==choices.end()&&cheb(origin,f.position())<=reach+2)choices.push_back(&f);
+170a176
+>             if(focus&&dealt>0&&v1FocusKey(target.id)==focus)value+=X_FOCUSBONUS;
+230a237,240
+>     if(acted&&X_FOCUS&&enough(20000)){
+>         const std::uint8_t v=static_cast<std::uint8_t>(v1FocusKey(target.id)|((round&3)<<6));
+>         if(shared[5]!=v)try{bc::shared_memory[5]=v;shared[5]=v;}catch(const TurnAbort&){throw;}catch(...){}
+>     }

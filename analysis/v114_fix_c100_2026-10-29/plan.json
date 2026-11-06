@@ -1,0 +1,47 @@
+{
+  "challenges": 20,
+  "games": 100,
+  "distinctOpponents": 20,
+  "rankAtPlanning": 106,
+  "strongRanks": [
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57
+  ],
+  "nearRanks": [
+    100,
+    101,
+    102,
+    103,
+    105,
+    107,
+    108,
+    109,
+    110,
+    111
+  ],
+  "mapCoverage": 70,
+  "diagnosticMaps": [
+    "01elk_arena",
+    "02treasure_box",
+    "00lanes",
+    "01broken_curve",
+    "02stalactites",
+    "00gemfight",
+    "01boss_battle",
+    "02cuts",
+    "00collision",
+    "00the_line"
+  ],
+  "diagnosticGamesPerMap": 4,
+  "sideA": 50,
+  "sideB": 50,
+  "basis": "10 opponents near half our rank, 10 near our rank; 2 diagnostic maps plus 3 broad-coverage maps per challenge. Every diagnostic map appears on each side in both rank pools."
+}

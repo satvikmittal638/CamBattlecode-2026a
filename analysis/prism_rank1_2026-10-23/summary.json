@@ -1,0 +1,6000 @@
+{
+  "games": 35,
+  "wins": 21,
+  "steps": 7349919,
+  "errors": [],
+  "uniqueMaps": 23,
+  "prismFocusResidualMax": 0,
+  "prismAliveTurns": 38050,
+  "prismMedianBagAllTurns": 28.0,
+  "prismMeanBagAllTurns": 79.13053876478318,
+  "prismMedianMaxBagPerGame": 133,
+  "prismMaxBag": 1312,
+  "prismMaxFocus": 2256,
+  "prismPassiveFractionMean": 0.2922083094019278,
+  "prismAllyWithin5Fraction": 0.7019710906701708,
+  "prismGamesNoBank": 16,
+  "prismWinsNoBank": 4,
+  "roleTotals": {
+    "Prism": {
+      "games": 35,
+      "goldCaptured": 29883,
+      "gemsCaptured": 7662,
+      "gemsBanked": 4935,
+      "deaths": 63,
+      "gemsLost": 2368,
+      "gemsStolen": 1595,
+      "campDamage": 1138010.0173950195,
+      "enemyDamage": 368860.8168258667,
+      "wards": 1018,
+      "kills": 71,
+      "slot0": 1907,
+      "slot1": 2104
+    },
+    "VesperVale": {
+      "games": 33,
+      "goldCaptured": 105364,
+      "gemsCaptured": 13456,
+      "gemsBanked": 8878,
+      "deaths": 49,
+      "gemsLost": 857,
+      "gemsStolen": 2959,
+      "campDamage": 1698646.8191165924,
+      "enemyDamage": 635104.8980369568,
+      "wards": 1028,
+      "kills": 119,
+      "slot0": 2154,
+      "slot1": 2470
+    },
+    "Marcella": {
+      "games": 32,
+      "goldCaptured": 41590,
+      "gemsCaptured": 7349,
+      "gemsBanked": 7222,
+      "deaths": 56,
+      "gemsLost": 1526,
+      "gemsStolen": 2580,
+      "campDamage": 949873.9390087128,
+      "enemyDamage": 397627.3147010803,
+      "wards": 935,
+      "kills": 117,
+      "slot0": 1041,
+      "slot1": 1702
+    },
+    "Ryth": {
+      "games": 23,
+      "goldCaptured": 12325,
+      "gemsCaptured": 2233,
+      "gemsBanked": 1399,
+      "deaths": 67,
+      "gemsLost": 866,
+      "gemsStolen": 324,
+      "campDamage": 436551.0516204834,
+      "enemyDamage": 90572.23321151733,
+      "wards": 618,
+      "kills": 23,
+      "slot0": 1272,
+      "slot1": 759
+    },
+    "HeartOfRuin": {
+      "games": 28,
+      "goldCaptured": 17093,
+      "gemsCaptured": 3237,
+      "gemsBanked": 3312,
+      "deaths": 60,
+      "gemsLost": 107,
+      "gemsStolen": 313,
+      "campDamage": 433099.11245536804,
+      "enemyDamage": 121638.360496521,
+      "wards": 1016,
+      "kills": 47,
+      "slot0": 1525,
+      "slot1": 2692
+    },
+    "Vendetta": {
+      "games": 13,
+      "goldCaptured": 7959,
+      "gemsCaptured": 1352,
+      "gemsBanked": 947,
+      "deaths": 31,
+      "gemsLost": 362,
+      "gemsStolen": 40,
+      "campDamage": 297596.91897392273,
+      "enemyDamage": 21976.664234161377,
+      "wards": 322,
+      "kills": 9,
+      "slot0": 699,
+      "slot1": 1067
+    }
+  },
+  "rows": [
+    {
+      "matchId": "fc02eb84-aedb-4e02-b706-843e5d4a30ba",
+      "map": "00corners",
+      "opponent": "procless",
+      "win": false,
+      "score": [
+        496,
+        1006
+      ],
+      "rounds": 1029,
+      "prismGemsCaptured": 30,
+      "teamGemsCaptured": 392,
+      "prismGoldShare": 0.051,
+      "prismBanked": 0,
+      "prismDeaths": 2,
+      "prismGemsLost": 30,
+      "prismStolen": 0,
+      "prismMaxBag": 30,
+      "prismMaxFocus": 125,
+      "prismFocusResidualMax": 0,
+      "prismMedianBag": 19.0,
+      "prismMedianHp": 880.0,
+      "nearestAllyWithin5": 0.8590308370044053,
+      "bankAttempts": [],
+      "banks": [],
+      "firstBuys": [
+        {
+          "r": 396,
+          "item": "Durability Shard of Health",
+          "count": 3
+        },
+        {
+          "r": 782,
+          "item": "Durability Shard of Health",
+          "count": 1
+        }
+      ],
+      "finalItems": {
+        "Durability Shard of Health": 4
+      },
+      "first100": null,
+      "first300": null,
+      "first500": null,
+      "prismDamage": [
+        18751.49658203125,
+        6345.9892578125
+      ],
+      "teamDamage": [
+        71003.31427001953,
+        51595.39904785156
+      ],
+      "checkpoints": {
+        "100": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 0,
+          "hp": 700,
+          "maxHp": 700,
+          "items": {}
+        },
+        "200": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 0,
+          "hp": 580,
+          "maxHp": 700,
+          "items": {}
+        },
+        "300": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 0,
+          "hp": 700,
+          "maxHp": 700,
+          "items": {}
+        },
+        "500": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 19,
+          "hp": 880,
+          "maxHp": 880,
+          "items": {
+            "Durability Shard of Health": 3
+          }
+        },
+        "600": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 30,
+          "hp": 820,
+          "maxHp": 880,
+          "items": {
+            "Durability Shard of Health": 3
+          }
+        },
+        "900": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 30,
+          "hp": 940,
+          "maxHp": 940,
+          "items": {
+            "Durability Shard of Health": 4
+          }
+        }
+      },
+      "prismTurns": 908
+    },
+    {
+      "matchId": "7379da5c-8945-48e9-a43f-308f9b33b73b",
+      "map": "00lanes",
+      "opponent": "procless",
+      "win": false,
+      "score": [
+        725,
+        1003
+      ],
+      "rounds": 1058,
+      "prismGemsCaptured": 266,
+      "teamGemsCaptured": 980,
+      "prismGoldShare": 0.222,
+      "prismBanked": 0,
+      "prismDeaths": 0,
+      "prismGemsLost": 0,
+      "prismStolen": 0,
+      "prismMaxBag": 266,
+      "prismMaxFocus": 583,
+      "prismFocusResidualMax": 0,
+      "prismMedianBag": 100,
+      "prismMedianHp": 1180,
+      "nearestAllyWithin5": 0.4749290444654683,
+      "bankAttempts": [
+        {
+          "r": 1040,
+          "bag": 266,
+          "hp": 2569.599609375,
+          "maxHp": 2620,
+          "pos": {
+            "x": 59,
+            "y": 3
+          }
+        }
+      ],
+      "banks": [],
+      "firstBuys": [
+        {
+          "r": 128,
+          "item": "Durability Shard of Health",
+          "count": 3
+        },
+        {
+          "r": 248,
+          "item": "Durability Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 248,
+          "item": "Monster Shard of Focus",
+          "count": 3
+        },
+        {
+          "r": 404,
+          "item": "Monster Emblem of Focus",
+          "count": 1
+        },
+        {
+          "r": 404,
+          "item": "Jungle Shard of Health",
+          "count": 3
+        },
+        {
+          "r": 534,
+          "item": "Jungle Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 534,
+          "item": "Home Shard of Health",
+          "count": 4
+        },
+        {
+          "r": 656,
+          "item": "Home Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 721,
+          "item": "Bruiser Shard of Health",
+          "count": 4
+        },
+        {
+          "r": 807,
+          "item": "Bruiser Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 807,
+          "item": "Bruiser Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 807,
+          "item": "Bruiser Shard of Health",
+          "count": 1
+        }
+      ],
+      "finalItems": {
+        "Monster Emblem of Focus": 1,
+        "Durability Emblem of Health": 1,
+        "Jungle Emblem of Health": 1,
+        "Home Emblem of Health": 1,
+        "Bruiser Emblem of Focus": 1,
+        "Bruiser Shard of Health": 1,
+        "Bruiser Emblem of Health": 3
+      },
+      "first100": 520,
+      "first300": null,
+      "first500": null,
+      "prismDamage": [
+        38380.929595947266,
+        1985.1749267578125
+      ],
+      "teamDamage": [
+        150564.39950561523,
+        25047.505004882812
+      ],
+      "checkpoints": {
+        "100": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 4,
+          "hp": 680,
+          "maxHp": 700,
+          "items": {}
+        },
+        "200": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 4,
+          "hp": 700,
+          "maxHp": 880,
+          "items": {
+            "Durability Shard of Health": 3
+          }
+        },
+        "300": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 30,
+          "hp": 1000,
+          "maxHp": 1000,
+          "items": {
+            "Monster Shard of Focus": 3,
+            "Durability Emblem of Health": 1
+          }
+        },
+        "500": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 78,
+          "hp": 1036,
+          "maxHp": 1180,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Shard of Health": 3
+          }
+        },
+        "600": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 100,
+          "hp": 1502.2000732421875,
+          "maxHp": 1540,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Emblem of Health": 1,
+            "Home Shard of Health": 4
+          }
+        },
+        "900": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 203,
+          "hp": 2440,
+          "maxHp": 2440,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Emblem of Health": 1,
+            "Home Emblem of Health": 1,
+            "Bruiser Shard of Health": 4,
+            "Bruiser Emblem of Health": 2
+          }
+        }
+      },
+      "prismTurns": 1057
+    },
+    {
+      "matchId": "e77c31f9-79cf-498a-8f9c-bbf075f18363",
+      "map": "00road_of_riches",
+      "opponent": "procless",
+      "win": true,
+      "score": [
+        1018,
+        76
+      ],
+      "rounds": 496,
+      "prismGemsCaptured": 200,
+      "teamGemsCaptured": 762,
+      "prismGoldShare": 0.038,
+      "prismBanked": 293,
+      "prismDeaths": 0,
+      "prismGemsLost": 0,
+      "prismStolen": 93,
+      "prismMaxBag": 293,
+      "prismMaxFocus": 543.5,
+      "prismFocusResidualMax": 0,
+      "prismMedianBag": 49,
+      "prismMedianHp": 700,
+      "nearestAllyWithin5": 0.7656565656565657,
+      "bankAttempts": [
+        {
+          "r": 466,
+          "bag": 293,
+          "hp": 520,
+          "maxHp": 700,
+          "pos": {
+            "x": 18,
+            "y": 18
+          }
+        }
+      ],
+      "banks": [
+        {
+          "r": 496,
+          "type": "Prism",
+          "team": 1,
+          "amount": 293,
+          "bagBefore": 293
+        }
+      ],
+      "firstBuys": [
+        {
+          "r": 265,
+          "item": "Monster Shard of Focus",
+          "count": 1
+        },
+        {
+          "r": 314,
+          "item": "Monster Shard of Focus",
+          "count": 2
+        }
+      ],
+      "finalItems": {
+        "Monster Shard of Focus": 3
+      },
+      "first100": 306,
+      "first300": null,
+      "first500": null,
+      "prismDamage": [
+        12236.018684387207,
+        415.099853515625
+      ],
+      "teamDamage": [
+        71996.5,
+        4040.469970703125
+      ],
+      "checkpoints": {
+        "100": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 21,
+          "hp": 700,
+          "maxHp": 700,
+          "items": {}
+        },
+        "200": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 49,
+          "hp": 700,
+          "maxHp": 700,
+          "items": {}
+        },
+        "300": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 66,
+          "hp": 640,
+          "maxHp": 700,
+          "items": {
+            "Monster Shard of Focus": 1
+          }
+        }
+      },
+      "prismTurns": 495
+    },
+    {
+      "matchId": "9b6be73c-4254-4d39-9f4d-5d1dbe833b73",
+      "map": "01boss_battle",
+      "opponent": "procless",
+      "win": false,
+      "score": [
+        262,
+        339
+      ],
+      "rounds": 2000,
+      "prismGemsCaptured": 525,
+      "teamGemsCaptured": 3500,
+      "prismGoldShare": 0.089,
+      "prismBanked": 46,
+      "prismDeaths": 1,
+      "prismGemsLost": 113,
+      "prismStolen": 946,
+      "prismMaxBag": 1312,
+      "prismMaxFocus": 2256,
+      "prismFocusResidualMax": 0,
+      "prismMedianBag": 46.0,
+      "prismMedianHp": 1240.0,
+      "nearestAllyWithin5": 0.8716494845360825,
+      "bankAttempts": [
+        {
+          "r": 936,
+          "bag": 46,
+          "hp": 1240,
+          "maxHp": 1240,
+          "pos": {
+            "x": 24,
+            "y": 20
+          }
+        },
+        {
+          "r": 1613,
+          "bag": 592,
+          "hp": 2919.39990234375,
+          "maxHp": 3940,
+          "pos": {
+            "x": 24,
+            "y": 20
+          }
+        },
+        {
+          "r": 1659,
+          "bag": 1086,
+          "hp": 3940,
+          "maxHp": 3940,
+          "pos": {
+            "x": 24,
+            "y": 20
+          }
+        },
+        {
+          "r": 1666,
+          "bag": 1086,
+          "hp": 3940,
+          "maxHp": 3940,
+          "pos": {
+            "x": 24,
+            "y": 20
+          }
+        },
+        {
+          "r": 1901,
+          "bag": 1263,
+          "hp": 3732.399658203125,
+          "maxHp": 4420,
+          "pos": {
+            "x": 24,
+            "y": 20
+          }
+        }
+      ],
+      "banks": [
+        {
+          "r": 941,
+          "type": "Prism",
+          "team": 1,
+          "amount": 46,
+          "bagBefore": 46
+        }
+      ],
+      "firstBuys": [
+        {
+          "r": 453,
+          "item": "Durability Shard of Health",
+          "count": 4
+        },
+        {
+          "r": 495,
+          "item": "Durability Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 495,
+          "item": "Monster Shard of Focus",
+          "count": 2
+        },
+        {
+          "r": 583,
+          "item": "Monster Emblem of Focus",
+          "count": 1
+        },
+        {
+          "r": 583,
+          "item": "Jungle Shard of Health",
+          "count": 2
+        },
+        {
+          "r": 801,
+          "item": "Jungle Shard of Health",
+          "count": 2
+        },
+        {
+          "r": 995,
+          "item": "Jungle Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 995,
+          "item": "Home Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 995,
+          "item": "Bruiser Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 1051,
+          "item": "Bruiser Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 1051,
+          "item": "Bruiser Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 1051,
+          "item": "Bruiser Shard of Focus",
+          "count": 2
+        }
+      ],
+      "finalItems": {
+        "Monster Emblem of Focus": 1,
+        "Durability Emblem of Health": 1,
+        "Jungle Emblem of Health": 1,
+        "Home Emblem of Health": 1,
+        "Bruiser Shard of Focus": 2,
+        "Bruiser Emblem of Focus": 2,
+        "Bruiser Emblem of Health": 9
+      },
+      "first100": 1028,
+      "first300": 1313,
+      "first500": 1553,
+      "prismDamage": [
+        99817.09968566895,
+        114251.70153808594
+      ],
+      "teamDamage": [
+        497866.125,
+        241360.958984375
+      ],
+      "checkpoints": {
+        "100": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 0,
+          "hp": 700,
+          "maxHp": 700,
+          "items": {}
+        },
+        "200": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 0,
+          "hp": 400,
+          "maxHp": 700,
+          "items": {}
+        },
+        "300": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 0,
+          "hp": 560,
+          "maxHp": 700,
+          "items": {}
+        },
+        "500": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 27,
+          "hp": 1000,
+          "maxHp": 1000,
+          "items": {
+            "Monster Shard of Focus": 2,
+            "Durability Emblem of Health": 1
+          }
+        },
+        "600": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 46,
+          "hp": 1066,
+          "maxHp": 1120,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Shard of Health": 2
+          }
+        },
+        "900": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 46,
+          "hp": 818.37939453125,
+          "maxHp": 1240,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Shard of Health": 4
+          }
+        },
+        "1200": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 0,
+          "hp": 2500,
+          "maxHp": 2500,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Emblem of Health": 1,
+            "Home Emblem of Health": 1,
+            "Bruiser Shard of Focus": 2,
+            "Bruiser Emblem of Health": 3
+          }
+        }
+      },
+      "prismTurns": 1940
+    },
+    {
+      "matchId": "f495633c-7f64-4772-ae41-e50b13de07e1",
+      "map": "01fracture",
+      "opponent": "procless",
+      "win": false,
+      "score": [
+        779,
+        1029
+      ],
+      "rounds": 1005,
+      "prismGemsCaptured": 104,
+      "teamGemsCaptured": 913,
+      "prismGoldShare": 0.126,
+      "prismBanked": 0,
+      "prismDeaths": 2,
+      "prismGemsLost": 104,
+      "prismStolen": 0,
+      "prismMaxBag": 74,
+      "prismMaxFocus": 231,
+      "prismFocusResidualMax": 0,
+      "prismMedianBag": 15.0,
+      "prismMedianHp": 1240.0,
+      "nearestAllyWithin5": 0.5226244343891403,
+      "bankAttempts": [],
+      "banks": [],
+      "firstBuys": [
+        {
+          "r": 371,
+          "item": "Durability Shard of Health",
+          "count": 4
+        },
+        {
+          "r": 439,
+          "item": "Durability Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 439,
+          "item": "Monster Emblem of Focus",
+          "count": 1
+        },
+        {
+          "r": 439,
+          "item": "Jungle Shard of Health",
+          "count": 4
+        },
+        {
+          "r": 855,
+          "item": "Jungle Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 855,
+          "item": "Home Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 855,
+          "item": "Bruiser Shard of Health",
+          "count": 1
+        }
+      ],
+      "finalItems": {
+        "Monster Emblem of Focus": 1,
+        "Durability Emblem of Health": 1,
+        "Jungle Emblem of Health": 1,
+        "Home Emblem of Health": 1,
+        "Bruiser Shard of Health": 1
+      },
+      "first100": null,
+      "first300": null,
+      "first500": null,
+      "prismDamage": [
+        22633.5955657959,
+        1651.75
+      ],
+      "teamDamage": [
+        138251.7265625,
+        6431.204345703125
+      ],
+      "checkpoints": {
+        "100": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 0,
+          "hp": 700,
+          "maxHp": 700,
+          "items": {}
+        },
+        "200": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 0,
+          "hp": 700,
+          "maxHp": 700,
+          "items": {}
+        },
+        "300": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 15,
+          "hp": 700,
+          "maxHp": 700,
+          "items": {}
+        },
+        "500": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 74,
+          "hp": 970,
+          "maxHp": 1240,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Shard of Health": 4
+          }
+        },
+        "600": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 74,
+          "hp": 1240,
+          "maxHp": 1240,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Shard of Health": 4
+          }
+        },
+        "900": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 30,
+          "hp": 903.999267578125,
+          "maxHp": 1660,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Emblem of Health": 1,
+            "Home Emblem of Health": 1,
+            "Bruiser Shard of Health": 1
+          }
+        }
+      },
+      "prismTurns": 884
+    },
+    {
+      "matchId": "38f8be8a-c4af-439c-8d6b-54cc3e94d8f3",
+      "map": "00eight",
+      "opponent": "Intercontinental Fish",
+      "win": true,
+      "score": [
+        1187,
+        579
+      ],
+      "rounds": 1004,
+      "prismGemsCaptured": 368,
+      "teamGemsCaptured": 1060,
+      "prismGoldShare": 0.306,
+      "prismBanked": 489,
+      "prismDeaths": 0,
+      "prismGemsLost": 0,
+      "prismStolen": 121,
+      "prismMaxBag": 489,
+      "prismMaxFocus": 981.5,
+      "prismFocusResidualMax": 0,
+      "prismMedianBag": 135,
+      "prismMedianHp": 2200,
+      "nearestAllyWithin5": 0.7926221335992024,
+      "bankAttempts": [
+        {
+          "r": 938,
+          "bag": 372,
+          "hp": 3760,
+          "maxHp": 3760,
+          "pos": {
+            "x": 19,
+            "y": 15
+          }
+        },
+        {
+          "r": 955,
+          "bag": 489,
+          "hp": 3760,
+          "maxHp": 3760,
+          "pos": {
+            "x": 19,
+            "y": 14
+          }
+        }
+      ],
+      "banks": [
+        {
+          "r": 1004,
+          "type": "Prism",
+          "team": 0,
+          "amount": 489,
+          "bagBefore": 489
+        }
+      ],
+      "firstBuys": [
+        {
+          "r": 71,
+          "item": "Durability Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 71,
+          "item": "Monster Shard of Focus",
+          "count": 2
+        },
+        {
+          "r": 226,
+          "item": "Monster Emblem of Focus",
+          "count": 1
+        },
+        {
+          "r": 226,
+          "item": "Jungle Shard of Health",
+          "count": 1
+        },
+        {
+          "r": 362,
+          "item": "Jungle Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 362,
+          "item": "Home Shard of Health",
+          "count": 2
+        },
+        {
+          "r": 392,
+          "item": "Home Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 392,
+          "item": "Bruiser Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 392,
+          "item": "Bruiser Shard of Health",
+          "count": 2
+        },
+        {
+          "r": 478,
+          "item": "Bruiser Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 594,
+          "item": "Bruiser Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 594,
+          "item": "Bruiser Shard of Focus",
+          "count": 3
+        }
+      ],
+      "finalItems": {
+        "Monster Emblem of Focus": 1,
+        "Durability Emblem of Health": 1,
+        "Jungle Emblem of Health": 1,
+        "Home Emblem of Health": 1,
+        "Bruiser Emblem of Focus": 2,
+        "Bruiser Shard of Health": 4,
+        "Bruiser Emblem of Health": 6
+      },
+      "first100": 387,
+      "first300": 886,
+      "first500": null,
+      "prismDamage": [
+        67891.37029266357,
+        7183.474792480469
+      ],
+      "teamDamage": [
+        156711.88192749023,
+        29448.855041503906
+      ],
+      "checkpoints": {
+        "100": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 8,
+          "hp": 784,
+          "maxHp": 1000,
+          "items": {
+            "Monster Shard of Focus": 2,
+            "Durability Emblem of Health": 1
+          }
+        },
+        "200": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 16,
+          "hp": 874,
+          "maxHp": 1000,
+          "items": {
+            "Monster Shard of Focus": 2,
+            "Durability Emblem of Health": 1
+          }
+        },
+        "300": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 46,
+          "hp": 1006,
+          "maxHp": 1060,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Shard of Health": 1
+          }
+        },
+        "500": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 135,
+          "hp": 2187.39990234375,
+          "maxHp": 2200,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Emblem of Health": 1,
+            "Home Emblem of Health": 1,
+            "Bruiser Emblem of Health": 2
+          }
+        },
+        "600": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 171,
+          "hp": 2424.3994140625,
+          "maxHp": 2500,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Emblem of Health": 1,
+            "Home Emblem of Health": 1,
+            "Bruiser Shard of Focus": 3,
+            "Bruiser Emblem of Health": 3
+          }
+        },
+        "900": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 313,
+          "hp": 3760,
+          "maxHp": 3760,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Emblem of Health": 1,
+            "Home Emblem of Health": 1,
+            "Bruiser Emblem of Focus": 2,
+            "Bruiser Shard of Health": 4,
+            "Bruiser Emblem of Health": 6
+          }
+        }
+      },
+      "prismTurns": 1003
+    },
+    {
+      "matchId": "3119447e-6249-4a86-8323-147176e60778",
+      "map": "00monolith",
+      "opponent": "Intercontinental Fish",
+      "win": true,
+      "score": [
+        1124,
+        936
+      ],
+      "rounds": 979,
+      "prismGemsCaptured": 653,
+      "teamGemsCaptured": 1165,
+      "prismGoldShare": 0.23,
+      "prismBanked": 653,
+      "prismDeaths": 0,
+      "prismGemsLost": 0,
+      "prismStolen": 0,
+      "prismMaxBag": 653,
+      "prismMaxFocus": 1123.5,
+      "prismFocusResidualMax": 0,
+      "prismMedianBag": 115.0,
+      "prismMedianHp": 1360.0,
+      "nearestAllyWithin5": 0.5388548057259713,
+      "bankAttempts": [
+        {
+          "r": 913,
+          "bag": 653,
+          "hp": 2149,
+          "maxHp": 2500,
+          "pos": {
+            "x": 4,
+            "y": 2
+          }
+        }
+      ],
+      "banks": [
+        {
+          "r": 979,
+          "type": "Prism",
+          "team": 0,
+          "amount": 653,
+          "bagBefore": 653
+        }
+      ],
+      "firstBuys": [
+        {
+          "r": 126,
+          "item": "Durability Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 126,
+          "item": "Monster Shard of Focus",
+          "count": 1
+        },
+        {
+          "r": 259,
+          "item": "Monster Emblem of Focus",
+          "count": 1
+        },
+        {
+          "r": 259,
+          "item": "Jungle Shard of Health",
+          "count": 1
+        },
+        {
+          "r": 350,
+          "item": "Jungle Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 409,
+          "item": "Home Shard of Health",
+          "count": 1
+        },
+        {
+          "r": 579,
+          "item": "Home Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 579,
+          "item": "Bruiser Shard of Health",
+          "count": 2
+        },
+        {
+          "r": 672,
+          "item": "Bruiser Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 799,
+          "item": "Bruiser Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 799,
+          "item": "Bruiser Emblem of Health",
+          "count": 1
+        }
+      ],
+      "finalItems": {
+        "Monster Emblem of Focus": 1,
+        "Durability Emblem of Health": 1,
+        "Jungle Emblem of Health": 1,
+        "Home Emblem of Health": 1,
+        "Bruiser Emblem of Health": 3
+      },
+      "first100": 454,
+      "first300": 796,
+      "first500": 898,
+      "prismDamage": [
+        43760.119400024414,
+        9471.799743652344
+      ],
+      "teamDamage": [
+        163956.13696289062,
+        22057.046020507812
+      ],
+      "checkpoints": {
+        "100": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 26,
+          "hp": 700,
+          "maxHp": 700,
+          "items": {}
+        },
+        "200": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 37,
+          "hp": 946,
+          "maxHp": 1000,
+          "items": {
+            "Monster Shard of Focus": 1,
+            "Durability Emblem of Health": 1
+          }
+        },
+        "300": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 78,
+          "hp": 934,
+          "maxHp": 1060,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Shard of Health": 1
+          }
+        },
+        "500": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 115,
+          "hp": 1271.8001708984375,
+          "maxHp": 1360,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Emblem of Health": 1,
+            "Home Shard of Health": 1
+          }
+        },
+        "600": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 126,
+          "hp": 1606.6002197265625,
+          "maxHp": 1720,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Emblem of Health": 1,
+            "Home Emblem of Health": 1,
+            "Bruiser Shard of Health": 2
+          }
+        },
+        "900": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 653,
+          "hp": 2149,
+          "maxHp": 2500,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Emblem of Health": 1,
+            "Home Emblem of Health": 1,
+            "Bruiser Emblem of Health": 3
+          }
+        }
+      },
+      "prismTurns": 978
+    },
+    {
+      "matchId": "16db9ed8-405f-4a03-8471-a934479ae5d6",
+      "map": "00stampede",
+      "opponent": "Intercontinental Fish",
+      "win": false,
+      "score": [
+        0,
+        1120
+      ],
+      "rounds": 1564,
+      "prismGemsCaptured": 0,
+      "teamGemsCaptured": 0,
+      "prismGoldShare": 0.102,
+      "prismBanked": 0,
+      "prismDeaths": 7,
+      "prismGemsLost": 0,
+      "prismStolen": 0,
+      "prismMaxBag": 0,
+      "prismMaxFocus": 120,
+      "prismFocusResidualMax": 0,
+      "prismMedianBag": 0,
+      "prismMedianHp": 1000,
+      "nearestAllyWithin5": 0.9151356080489939,
+      "bankAttempts": [],
+      "banks": [],
+      "firstBuys": [
+        {
+          "r": 105,
+          "item": "Durability Shard of Health",
+          "count": 3
+        },
+        {
+          "r": 728,
+          "item": "Durability Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 728,
+          "item": "Monster Shard of Focus",
+          "count": 3
+        },
+        {
+          "r": 1192,
+          "item": "Monster Emblem of Focus",
+          "count": 1
+        },
+        {
+          "r": 1192,
+          "item": "Jungle Shard of Health",
+          "count": 4
+        },
+        {
+          "r": 1476,
+          "item": "Jungle Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 1476,
+          "item": "Home Shard of Health",
+          "count": 2
+        }
+      ],
+      "finalItems": {
+        "Monster Emblem of Focus": 1,
+        "Durability Emblem of Health": 1,
+        "Jungle Emblem of Health": 1,
+        "Home Shard of Health": 2
+      },
+      "first100": null,
+      "first300": null,
+      "first500": null,
+      "prismDamage": [
+        4560,
+        5127.3000411987305
+      ],
+      "teamDamage": [
+        19073,
+        36008.60272216797
+      ],
+      "checkpoints": {
+        "100": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 700,
+          "maxHp": 700,
+          "items": {}
+        },
+        "200": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 880,
+          "maxHp": 880,
+          "items": {
+            "Durability Shard of Health": 3
+          }
+        },
+        "300": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 880,
+          "maxHp": 880,
+          "items": {
+            "Durability Shard of Health": 3
+          }
+        },
+        "500": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 0,
+          "maxHp": 880,
+          "items": {
+            "Durability Shard of Health": 3
+          }
+        },
+        "600": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 770,
+          "maxHp": 880,
+          "items": {
+            "Durability Shard of Health": 3
+          }
+        },
+        "900": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 0,
+          "maxHp": 1000,
+          "items": {
+            "Monster Shard of Focus": 3,
+            "Durability Emblem of Health": 1
+          }
+        },
+        "1200": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 1240,
+          "maxHp": 1240,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Shard of Health": 4
+          }
+        }
+      },
+      "prismTurns": 1143
+    },
+    {
+      "matchId": "2251a3bb-db67-46d6-bf08-f81208a88d9b",
+      "map": "01elk_arena",
+      "opponent": "Intercontinental Fish",
+      "win": true,
+      "score": [
+        948,
+        420
+      ],
+      "rounds": 2000,
+      "prismGemsCaptured": 232,
+      "teamGemsCaptured": 936,
+      "prismGoldShare": 0.163,
+      "prismBanked": 96,
+      "prismDeaths": 8,
+      "prismGemsLost": 136,
+      "prismStolen": 0,
+      "prismMaxBag": 96,
+      "prismMaxFocus": 392,
+      "prismFocusResidualMax": 0,
+      "prismMedianBag": 0.0,
+      "prismMedianHp": 2140.0,
+      "nearestAllyWithin5": 0.6644736842105263,
+      "bankAttempts": [
+        {
+          "r": 1930,
+          "bag": 96,
+          "hp": 3580,
+          "maxHp": 3580,
+          "pos": {
+            "x": 23,
+            "y": 23
+          }
+        }
+      ],
+      "banks": [
+        {
+          "r": 1940,
+          "type": "Prism",
+          "team": 0,
+          "amount": 96,
+          "bagBefore": 96
+        }
+      ],
+      "firstBuys": [
+        {
+          "r": 37,
+          "item": "Durability Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 37,
+          "item": "Monster Shard of Focus",
+          "count": 1
+        },
+        {
+          "r": 147,
+          "item": "Monster Shard of Focus",
+          "count": 2
+        },
+        {
+          "r": 278,
+          "item": "Monster Shard of Focus",
+          "count": 1
+        },
+        {
+          "r": 387,
+          "item": "Monster Emblem of Focus",
+          "count": 1
+        },
+        {
+          "r": 387,
+          "item": "Jungle Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 537,
+          "item": "Home Shard of Health",
+          "count": 2
+        },
+        {
+          "r": 650,
+          "item": "Home Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 650,
+          "item": "Bruiser Shard of Health",
+          "count": 1
+        },
+        {
+          "r": 908,
+          "item": "Bruiser Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 908,
+          "item": "Bruiser Shard of Health",
+          "count": 4
+        },
+        {
+          "r": 1107,
+          "item": "Bruiser Emblem of Health",
+          "count": 1
+        }
+      ],
+      "finalItems": {
+        "Monster Emblem of Focus": 1,
+        "Durability Emblem of Health": 1,
+        "Jungle Emblem of Health": 1,
+        "Home Emblem of Health": 1,
+        "Bruiser Emblem of Focus": 2,
+        "Bruiser Shard of Health": 1,
+        "Bruiser Emblem of Health": 6
+      },
+      "first100": null,
+      "first300": null,
+      "first500": null,
+      "prismDamage": [
+        21135.483963012695,
+        33864.529235839844
+      ],
+      "teamDamage": [
+        87405.19454956055,
+        277788.92154312134
+      ],
+      "checkpoints": {
+        "100": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 1000,
+          "maxHp": 1000,
+          "items": {
+            "Monster Shard of Focus": 1,
+            "Durability Emblem of Health": 1
+          }
+        },
+        "200": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 401.29364013671875,
+          "maxHp": 1000,
+          "items": {
+            "Monster Shard of Focus": 3,
+            "Durability Emblem of Health": 1
+          }
+        },
+        "300": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 910,
+          "maxHp": 1000,
+          "items": {
+            "Monster Shard of Focus": 4,
+            "Durability Emblem of Health": 1
+          }
+        },
+        "500": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 0,
+          "maxHp": 1300,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Emblem of Health": 1
+          }
+        },
+        "600": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 1000.0380859375,
+          "maxHp": 1420,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Emblem of Health": 1,
+            "Home Shard of Health": 2
+          }
+        },
+        "900": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 701.4996337890625,
+          "maxHp": 1660,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Emblem of Health": 1,
+            "Home Emblem of Health": 1,
+            "Bruiser Shard of Health": 1
+          }
+        },
+        "1200": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 0,
+          "maxHp": 2500,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Emblem of Health": 1,
+            "Home Emblem of Health": 1,
+            "Bruiser Shard of Focus": 4,
+            "Bruiser Emblem of Health": 3
+          }
+        }
+      },
+      "prismTurns": 1520
+    },
+    {
+      "matchId": "d36e6beb-8241-43f6-a74b-e00ec6cb71d0",
+      "map": "01starfish",
+      "opponent": "Intercontinental Fish",
+      "win": false,
+      "score": [
+        178,
+        1042
+      ],
+      "rounds": 1045,
+      "prismGemsCaptured": 0,
+      "teamGemsCaptured": 214,
+      "prismGoldShare": 0.0,
+      "prismBanked": 0,
+      "prismDeaths": 8,
+      "prismGemsLost": 0,
+      "prismStolen": 0,
+      "prismMaxBag": 0,
+      "prismMaxFocus": 80,
+      "prismFocusResidualMax": 0,
+      "prismMedianBag": 0,
+      "prismMedianHp": 880,
+      "nearestAllyWithin5": 0.8042414355628059,
+      "bankAttempts": [],
+      "banks": [],
+      "firstBuys": [
+        {
+          "r": 486,
+          "item": "Durability Shard of Health",
+          "count": 3
+        }
+      ],
+      "finalItems": {
+        "Durability Shard of Health": 3
+      },
+      "first100": null,
+      "first300": null,
+      "first500": null,
+      "prismDamage": [
+        5870,
+        5096.98844909668
+      ],
+      "teamDamage": [
+        70789.23455810547,
+        47056.54877471924
+      ],
+      "checkpoints": {
+        "100": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 0,
+          "maxHp": 700,
+          "items": {}
+        },
+        "200": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 51.5384521484375,
+          "maxHp": 700,
+          "items": {}
+        },
+        "300": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 0,
+          "maxHp": 700,
+          "items": {}
+        },
+        "500": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 0,
+          "maxHp": 880,
+          "items": {
+            "Durability Shard of Health": 3
+          }
+        },
+        "600": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 200,
+          "maxHp": 880,
+          "items": {
+            "Durability Shard of Health": 3
+          }
+        },
+        "900": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 340,
+          "maxHp": 880,
+          "items": {
+            "Durability Shard of Health": 3
+          }
+        }
+      },
+      "prismTurns": 613
+    },
+    {
+      "matchId": "c9ab8c2d-9920-43d6-9599-7b3e92f69d52",
+      "map": "00ambush",
+      "opponent": ":3",
+      "win": false,
+      "score": [
+        690,
+        1048
+      ],
+      "rounds": 1094,
+      "prismGemsCaptured": 246,
+      "teamGemsCaptured": 973,
+      "prismGoldShare": 0.213,
+      "prismBanked": 0,
+      "prismDeaths": 0,
+      "prismGemsLost": 0,
+      "prismStolen": 0,
+      "prismMaxBag": 246,
+      "prismMaxFocus": 505,
+      "prismFocusResidualMax": 0,
+      "prismMedianBag": 121,
+      "prismMedianHp": 1300,
+      "nearestAllyWithin5": 0.6578225068618482,
+      "bankAttempts": [],
+      "banks": [],
+      "firstBuys": [
+        {
+          "r": 183,
+          "item": "Durability Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 183,
+          "item": "Monster Shard of Focus",
+          "count": 1
+        },
+        {
+          "r": 354,
+          "item": "Monster Emblem of Focus",
+          "count": 1
+        },
+        {
+          "r": 354,
+          "item": "Jungle Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 721,
+          "item": "Home Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 721,
+          "item": "Bruiser Shard of Health",
+          "count": 2
+        },
+        {
+          "r": 823,
+          "item": "Bruiser Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 823,
+          "item": "Bruiser Shard of Health",
+          "count": 3
+        },
+        {
+          "r": 982,
+          "item": "Bruiser Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 982,
+          "item": "Bruiser Shard of Health",
+          "count": 4
+        }
+      ],
+      "finalItems": {
+        "Monster Emblem of Focus": 1,
+        "Durability Emblem of Health": 1,
+        "Jungle Emblem of Health": 1,
+        "Home Emblem of Health": 1,
+        "Bruiser Shard of Health": 4,
+        "Bruiser Emblem of Health": 2
+      },
+      "first100": 349,
+      "first300": null,
+      "first500": null,
+      "prismDamage": [
+        26895.48900604248,
+        1648.800048828125
+      ],
+      "teamDamage": [
+        118853.05004882812,
+        1981.800048828125
+      ],
+      "checkpoints": {
+        "100": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 0,
+          "hp": 200,
+          "maxHp": 700,
+          "items": {}
+        },
+        "200": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 51,
+          "hp": 1000,
+          "maxHp": 1000,
+          "items": {
+            "Monster Shard of Focus": 1,
+            "Durability Emblem of Health": 1
+          }
+        },
+        "300": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 70,
+          "hp": 1000,
+          "maxHp": 1000,
+          "items": {
+            "Monster Shard of Focus": 1,
+            "Durability Emblem of Health": 1
+          }
+        },
+        "500": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 121,
+          "hp": 732.999755859375,
+          "maxHp": 1300,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Emblem of Health": 1
+          }
+        },
+        "600": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 121,
+          "hp": 1300,
+          "maxHp": 1300,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Emblem of Health": 1
+          }
+        },
+        "900": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 195,
+          "hp": 2080,
+          "maxHp": 2080,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Emblem of Health": 1,
+            "Home Emblem of Health": 1,
+            "Bruiser Shard of Health": 3,
+            "Bruiser Emblem of Health": 1
+          }
+        }
+      },
+      "prismTurns": 1093
+    },
+    {
+      "matchId": "81edc3f5-8cef-43c7-8203-c76cb99d25f1",
+      "map": "00elkring",
+      "opponent": ":3",
+      "win": true,
+      "score": [
+        1012,
+        748
+      ],
+      "rounds": 734,
+      "prismGemsCaptured": 231,
+      "teamGemsCaptured": 1012,
+      "prismGoldShare": 0.207,
+      "prismBanked": 231,
+      "prismDeaths": 1,
+      "prismGemsLost": 0,
+      "prismStolen": 0,
+      "prismMaxBag": 231,
+      "prismMaxFocus": 482.5,
+      "prismFocusResidualMax": 0,
+      "prismMedianBag": 55,
+      "prismMedianHp": 1000,
+      "nearestAllyWithin5": 0.7682020802377415,
+      "bankAttempts": [
+        {
+          "r": 710,
+          "bag": 231,
+          "hp": 1730.79931640625,
+          "maxHp": 2260,
+          "pos": {
+            "x": 26,
+            "y": 4
+          }
+        }
+      ],
+      "banks": [
+        {
+          "r": 734,
+          "type": "Prism",
+          "team": 1,
+          "amount": 231,
+          "bagBefore": 231
+        }
+      ],
+      "firstBuys": [
+        {
+          "r": 329,
+          "item": "Durability Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 431,
+          "item": "Monster Emblem of Focus",
+          "count": 1
+        },
+        {
+          "r": 431,
+          "item": "Jungle Shard of Health",
+          "count": 1
+        },
+        {
+          "r": 481,
+          "item": "Jungle Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 481,
+          "item": "Home Shard of Health",
+          "count": 3
+        },
+        {
+          "r": 549,
+          "item": "Home Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 549,
+          "item": "Bruiser Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 608,
+          "item": "Bruiser Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 608,
+          "item": "Bruiser Shard of Health",
+          "count": 1
+        }
+      ],
+      "finalItems": {
+        "Monster Emblem of Focus": 1,
+        "Durability Emblem of Health": 1,
+        "Jungle Emblem of Health": 1,
+        "Home Emblem of Health": 1,
+        "Bruiser Shard of Health": 1,
+        "Bruiser Emblem of Health": 2
+      },
+      "first100": 476,
+      "first300": null,
+      "first500": null,
+      "prismDamage": [
+        25821.98586654663,
+        2255
+      ],
+      "teamDamage": [
+        121065.78601074219,
+        15229.767150878906
+      ],
+      "checkpoints": {
+        "100": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 0,
+          "hp": 600,
+          "maxHp": 700,
+          "items": {}
+        },
+        "200": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 0,
+          "hp": 700,
+          "maxHp": 700,
+          "items": {}
+        },
+        "300": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 11,
+          "hp": 520,
+          "maxHp": 700,
+          "items": {}
+        },
+        "500": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 110,
+          "hp": 1480,
+          "maxHp": 1480,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Emblem of Health": 1,
+            "Home Shard of Health": 3
+          }
+        },
+        "600": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 165,
+          "hp": 1689.39990234375,
+          "maxHp": 1900,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Emblem of Health": 1,
+            "Home Emblem of Health": 1,
+            "Bruiser Emblem of Health": 1
+          }
+        }
+      },
+      "prismTurns": 673
+    },
+    {
+      "matchId": "d5f976aa-b97e-47f0-a42b-3f6f1075a872",
+      "map": "00fragment",
+      "opponent": ":3",
+      "win": true,
+      "score": [
+        1002,
+        70
+      ],
+      "rounds": 1436,
+      "prismGemsCaptured": 329,
+      "teamGemsCaptured": 984,
+      "prismGoldShare": 0.289,
+      "prismBanked": 341,
+      "prismDeaths": 0,
+      "prismGemsLost": 0,
+      "prismStolen": 12,
+      "prismMaxBag": 341,
+      "prismMaxFocus": 839.5,
+      "prismFocusResidualMax": 0,
+      "prismMedianBag": 95,
+      "prismMedianHp": 2020,
+      "nearestAllyWithin5": 0.7491289198606271,
+      "bankAttempts": [
+        {
+          "r": 1401,
+          "bag": 341,
+          "hp": 4932.400390625,
+          "maxHp": 5260,
+          "pos": {
+            "x": 16,
+            "y": 25
+          }
+        }
+      ],
+      "banks": [
+        {
+          "r": 1436,
+          "type": "Prism",
+          "team": 1,
+          "amount": 341,
+          "bagBefore": 341
+        }
+      ],
+      "firstBuys": [
+        {
+          "r": 193,
+          "item": "Durability Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 193,
+          "item": "Monster Emblem of Focus",
+          "count": 1
+        },
+        {
+          "r": 193,
+          "item": "Jungle Shard of Health",
+          "count": 1
+        },
+        {
+          "r": 325,
+          "item": "Jungle Shard of Health",
+          "count": 2
+        },
+        {
+          "r": 441,
+          "item": "Jungle Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 530,
+          "item": "Home Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 649,
+          "item": "Bruiser Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 649,
+          "item": "Bruiser Shard of Health",
+          "count": 2
+        },
+        {
+          "r": 762,
+          "item": "Bruiser Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 762,
+          "item": "Bruiser Shard of Health",
+          "count": 4
+        },
+        {
+          "r": 813,
+          "item": "Bruiser Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 813,
+          "item": "Bruiser Emblem of Focus",
+          "count": 1
+        }
+      ],
+      "finalItems": {
+        "Monster Emblem of Focus": 1,
+        "Durability Emblem of Health": 1,
+        "Jungle Emblem of Health": 1,
+        "Home Emblem of Health": 1,
+        "Bruiser Emblem of Focus": 3,
+        "Bruiser Shard of Health": 3,
+        "Bruiser Emblem of Health": 11
+      },
+      "first100": 754,
+      "first300": 1252,
+      "first500": null,
+      "prismDamage": [
+        91362.84159851074,
+        11480.828006744385
+      ],
+      "teamDamage": [
+        174101.35998535156,
+        76199.97491455078
+      ],
+      "checkpoints": {
+        "100": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 0,
+          "hp": 700,
+          "maxHp": 700,
+          "items": {}
+        },
+        "200": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 36,
+          "hp": 1060,
+          "maxHp": 1060,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Shard of Health": 1
+          }
+        },
+        "300": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 36,
+          "hp": 754,
+          "maxHp": 1060,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Shard of Health": 1
+          }
+        },
+        "500": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 57,
+          "hp": 921.9996948242188,
+          "maxHp": 1300,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Emblem of Health": 1
+          }
+        },
+        "600": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 65,
+          "hp": 1486.60009765625,
+          "maxHp": 1600,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Emblem of Health": 1,
+            "Home Emblem of Health": 1
+          }
+        },
+        "900": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 151,
+          "hp": 2456.199462890625,
+          "maxHp": 2620,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Emblem of Health": 1,
+            "Home Emblem of Health": 1,
+            "Bruiser Emblem of Focus": 1,
+            "Bruiser Shard of Health": 1,
+            "Bruiser Emblem of Health": 3
+          }
+        },
+        "1200": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 264,
+          "hp": 4240,
+          "maxHp": 4240,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Emblem of Health": 1,
+            "Home Emblem of Health": 1,
+            "Bruiser Emblem of Focus": 2,
+            "Bruiser Shard of Health": 2,
+            "Bruiser Emblem of Health": 8
+          }
+        }
+      },
+      "prismTurns": 1435
+    },
+    {
+      "matchId": "467e1de8-06f0-407e-b60a-9a54ae038094",
+      "map": "00gemfight",
+      "opponent": ":3",
+      "win": true,
+      "score": [
+        1002,
+        317
+      ],
+      "rounds": 933,
+      "prismGemsCaptured": 376,
+      "teamGemsCaptured": 901,
+      "prismGoldShare": 0.299,
+      "prismBanked": 457,
+      "prismDeaths": 2,
+      "prismGemsLost": 69,
+      "prismStolen": 150,
+      "prismMaxBag": 457,
+      "prismMaxFocus": 869.5,
+      "prismFocusResidualMax": 0,
+      "prismMedianBag": 178.0,
+      "prismMedianHp": 1000.0,
+      "nearestAllyWithin5": 0.7364532019704434,
+      "bankAttempts": [
+        {
+          "r": 874,
+          "bag": 457,
+          "hp": 2582.19970703125,
+          "maxHp": 2620,
+          "pos": {
+            "x": 16,
+            "y": 13
+          }
+        },
+        {
+          "r": 887,
+          "bag": 457,
+          "hp": 2582.19970703125,
+          "maxHp": 2620,
+          "pos": {
+            "x": 16,
+            "y": 12
+          }
+        }
+      ],
+      "banks": [
+        {
+          "r": 933,
+          "type": "Prism",
+          "team": 1,
+          "amount": 457,
+          "bagBefore": 457
+        }
+      ],
+      "firstBuys": [
+        {
+          "r": 233,
+          "item": "Durability Shard of Health",
+          "count": 4
+        },
+        {
+          "r": 397,
+          "item": "Durability Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 397,
+          "item": "Monster Shard of Focus",
+          "count": 2
+        },
+        {
+          "r": 533,
+          "item": "Monster Emblem of Focus",
+          "count": 1
+        },
+        {
+          "r": 533,
+          "item": "Jungle Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 634,
+          "item": "Home Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 634,
+          "item": "Bruiser Shard of Health",
+          "count": 1
+        },
+        {
+          "r": 727,
+          "item": "Bruiser Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 727,
+          "item": "Bruiser Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 727,
+          "item": "Bruiser Shard of Health",
+          "count": 2
+        },
+        {
+          "r": 797,
+          "item": "Bruiser Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 797,
+          "item": "Bruiser Emblem of Focus",
+          "count": 1
+        }
+      ],
+      "finalItems": {
+        "Monster Emblem of Focus": 1,
+        "Durability Emblem of Health": 1,
+        "Jungle Emblem of Health": 1,
+        "Home Emblem of Health": 1,
+        "Bruiser Emblem of Focus": 1,
+        "Bruiser Shard of Health": 1,
+        "Bruiser Emblem of Health": 3
+      },
+      "first100": 485,
+      "first300": 724,
+      "first500": null,
+      "prismDamage": [
+        23849.11785507202,
+        15029.100021362305
+      ],
+      "teamDamage": [
+        68876.27815246582,
+        35523.78399658203
+      ],
+      "checkpoints": {
+        "100": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 0,
+          "hp": 0,
+          "maxHp": 700,
+          "items": {}
+        },
+        "200": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 14,
+          "hp": 680,
+          "maxHp": 700,
+          "items": {}
+        },
+        "300": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 40,
+          "hp": 940,
+          "maxHp": 940,
+          "items": {
+            "Durability Shard of Health": 4
+          }
+        },
+        "500": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 139,
+          "hp": 784,
+          "maxHp": 1000,
+          "items": {
+            "Monster Shard of Focus": 2,
+            "Durability Emblem of Health": 1
+          }
+        },
+        "600": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 189,
+          "hp": 1033.60009765625,
+          "maxHp": 1300,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Emblem of Health": 1
+          }
+        },
+        "900": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 457,
+          "hp": 2582.19970703125,
+          "maxHp": 2620,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Emblem of Health": 1,
+            "Home Emblem of Health": 1,
+            "Bruiser Emblem of Focus": 1,
+            "Bruiser Shard of Health": 1,
+            "Bruiser Emblem of Health": 3
+          }
+        }
+      },
+      "prismTurns": 812
+    },
+    {
+      "matchId": "22d1aa56-f869-46f1-81c1-443d6b26d912",
+      "map": "01boss_battle",
+      "opponent": ":3",
+      "win": false,
+      "score": [
+        0,
+        1029
+      ],
+      "rounds": 889,
+      "prismGemsCaptured": 76,
+      "teamGemsCaptured": 1046,
+      "prismGoldShare": 0.058,
+      "prismBanked": 0,
+      "prismDeaths": 0,
+      "prismGemsLost": 0,
+      "prismStolen": 0,
+      "prismMaxBag": 76,
+      "prismMaxFocus": 234,
+      "prismFocusResidualMax": 0,
+      "prismMedianBag": 17.0,
+      "prismMedianHp": 700.0,
+      "nearestAllyWithin5": 0.8603603603603603,
+      "bankAttempts": [],
+      "banks": [],
+      "firstBuys": [
+        {
+          "r": 453,
+          "item": "Durability Shard of Health",
+          "count": 4
+        },
+        {
+          "r": 495,
+          "item": "Durability Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 495,
+          "item": "Monster Shard of Focus",
+          "count": 2
+        },
+        {
+          "r": 743,
+          "item": "Monster Shard of Focus",
+          "count": 2
+        },
+        {
+          "r": 856,
+          "item": "Monster Emblem of Focus",
+          "count": 1
+        },
+        {
+          "r": 856,
+          "item": "Jungle Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 856,
+          "item": "Home Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 856,
+          "item": "Bruiser Shard of Health",
+          "count": 1
+        }
+      ],
+      "finalItems": {
+        "Monster Emblem of Focus": 1,
+        "Durability Emblem of Health": 1,
+        "Jungle Emblem of Health": 1,
+        "Home Emblem of Health": 1,
+        "Bruiser Shard of Health": 1
+      },
+      "first100": null,
+      "first300": null,
+      "first500": null,
+      "prismDamage": [
+        35137.7497253418,
+        0
+      ],
+      "teamDamage": [
+        229297.14990234375,
+        6726.599609375
+      ],
+      "checkpoints": {
+        "100": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 0,
+          "hp": 700,
+          "maxHp": 700,
+          "items": {}
+        },
+        "200": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 0,
+          "hp": 400,
+          "maxHp": 700,
+          "items": {}
+        },
+        "300": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 0,
+          "hp": 560,
+          "maxHp": 700,
+          "items": {}
+        },
+        "500": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 27,
+          "hp": 1000,
+          "maxHp": 1000,
+          "items": {
+            "Monster Shard of Focus": 2,
+            "Durability Emblem of Health": 1
+          }
+        },
+        "600": {
+          "type": "Prism",
+          "team": 1,
+          "bag": 27,
+          "hp": 802,
+          "maxHp": 1000,
+          "items": {
+            "Monster Shard of Focus": 2,
+            "Durability Emblem of Health": 1
+          }
+        }
+      },
+      "prismTurns": 888
+    },
+    {
+      "matchId": "312c5e7c-eaef-4a20-bf47-031d868e6886",
+      "map": "00ambush",
+      "opponent": "new team(4)",
+      "win": true,
+      "score": [
+        1080,
+        997
+      ],
+      "rounds": 1252,
+      "prismGemsCaptured": 208,
+      "teamGemsCaptured": 1080,
+      "prismGoldShare": 0.152,
+      "prismBanked": 259,
+      "prismDeaths": 0,
+      "prismGemsLost": 0,
+      "prismStolen": 51,
+      "prismMaxBag": 259,
+      "prismMaxFocus": 516.5,
+      "prismFocusResidualMax": 0,
+      "prismMedianBag": 101,
+      "prismMedianHp": 1180,
+      "nearestAllyWithin5": 0.60431654676259,
+      "bankAttempts": [
+        {
+          "r": 1215,
+          "bag": 259,
+          "hp": 1819.599609375,
+          "maxHp": 2140,
+          "pos": {
+            "x": 61,
+            "y": 41
+          }
+        },
+        {
+          "r": 1226,
+          "bag": 259,
+          "hp": 1819.599609375,
+          "maxHp": 2140,
+          "pos": {
+            "x": 62,
+            "y": 41
+          }
+        }
+      ],
+      "banks": [
+        {
+          "r": 1252,
+          "type": "Prism",
+          "team": 0,
+          "amount": 259,
+          "bagBefore": 259
+        }
+      ],
+      "firstBuys": [
+        {
+          "r": 183,
+          "item": "Durability Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 183,
+          "item": "Monster Shard of Focus",
+          "count": 1
+        },
+        {
+          "r": 579,
+          "item": "Monster Emblem of Focus",
+          "count": 1
+        },
+        {
+          "r": 579,
+          "item": "Jungle Shard of Health",
+          "count": 3
+        },
+        {
+          "r": 670,
+          "item": "Jungle Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 670,
+          "item": "Home Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 889,
+          "item": "Bruiser Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 889,
+          "item": "Bruiser Shard of Health",
+          "count": 4
+        }
+      ],
+      "finalItems": {
+        "Monster Emblem of Focus": 1,
+        "Durability Emblem of Health": 1,
+        "Jungle Emblem of Health": 1,
+        "Home Emblem of Health": 1,
+        "Bruiser Shard of Health": 4,
+        "Bruiser Emblem of Health": 1
+      },
+      "first100": 574,
+      "first300": null,
+      "first500": null,
+      "prismDamage": [
+        32700.75686264038,
+        5681.1749267578125
+      ],
+      "teamDamage": [
+        138944.0749206543,
+        8286.884399414062
+      ],
+      "checkpoints": {
+        "100": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 200,
+          "maxHp": 700,
+          "items": {}
+        },
+        "200": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 51,
+          "hp": 1000,
+          "maxHp": 1000,
+          "items": {
+            "Monster Shard of Focus": 1,
+            "Durability Emblem of Health": 1
+          }
+        },
+        "300": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 51,
+          "hp": 1000,
+          "maxHp": 1000,
+          "items": {
+            "Monster Shard of Focus": 1,
+            "Durability Emblem of Health": 1
+          }
+        },
+        "500": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 68,
+          "hp": 874,
+          "maxHp": 1000,
+          "items": {
+            "Monster Shard of Focus": 1,
+            "Durability Emblem of Health": 1
+          }
+        },
+        "600": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 101,
+          "hp": 1180,
+          "maxHp": 1180,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Shard of Health": 3
+          }
+        },
+        "900": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 208,
+          "hp": 2140,
+          "maxHp": 2140,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Emblem of Health": 1,
+            "Home Emblem of Health": 1,
+            "Bruiser Shard of Health": 4,
+            "Bruiser Emblem of Health": 1
+          }
+        },
+        "1200": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 259,
+          "hp": 2089.599609375,
+          "maxHp": 2140,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Emblem of Health": 1,
+            "Home Emblem of Health": 1,
+            "Bruiser Shard of Health": 4,
+            "Bruiser Emblem of Health": 1
+          }
+        }
+      },
+      "prismTurns": 1251
+    },
+    {
+      "matchId": "e22ad193-38a9-45c2-bacd-ec9c143cc424",
+      "map": "00pilgrimage",
+      "opponent": "new team(4)",
+      "win": true,
+      "score": [
+        1023,
+        234
+      ],
+      "rounds": 1190,
+      "prismGemsCaptured": 0,
+      "teamGemsCaptured": 978,
+      "prismGoldShare": 0.034,
+      "prismBanked": 0,
+      "prismDeaths": 1,
+      "prismGemsLost": 0,
+      "prismStolen": 0,
+      "prismMaxBag": 0,
+      "prismMaxFocus": 96,
+      "prismFocusResidualMax": 0,
+      "prismMedianBag": 0.0,
+      "prismMedianHp": 880.0,
+      "nearestAllyWithin5": 0.5345132743362832,
+      "bankAttempts": [],
+      "banks": [],
+      "firstBuys": [
+        {
+          "r": 143,
+          "item": "Durability Shard of Health",
+          "count": 1
+        },
+        {
+          "r": 301,
+          "item": "Durability Shard of Health",
+          "count": 1
+        },
+        {
+          "r": 454,
+          "item": "Durability Shard of Health",
+          "count": 1
+        },
+        {
+          "r": 662,
+          "item": "Durability Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 947,
+          "item": "Monster Shard of Focus",
+          "count": 1
+        },
+        {
+          "r": 1115,
+          "item": "Monster Shard of Focus",
+          "count": 1
+        }
+      ],
+      "finalItems": {
+        "Monster Shard of Focus": 2,
+        "Durability Emblem of Health": 1
+      },
+      "first100": null,
+      "first300": null,
+      "first500": null,
+      "prismDamage": [
+        18480.79998779297,
+        768.39990234375
+      ],
+      "teamDamage": [
+        123929.8899307251,
+        13631.826110839844
+      ],
+      "checkpoints": {
+        "100": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 630,
+          "maxHp": 700,
+          "items": {}
+        },
+        "200": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 700,
+          "maxHp": 760,
+          "items": {
+            "Durability Shard of Health": 1
+          }
+        },
+        "300": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 760,
+          "maxHp": 760,
+          "items": {
+            "Durability Shard of Health": 1
+          }
+        },
+        "500": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 880,
+          "maxHp": 880,
+          "items": {
+            "Durability Shard of Health": 3
+          }
+        },
+        "600": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 660,
+          "maxHp": 880,
+          "items": {
+            "Durability Shard of Health": 3
+          }
+        },
+        "900": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 604,
+          "maxHp": 1000,
+          "items": {
+            "Durability Emblem of Health": 1
+          }
+        }
+      },
+      "prismTurns": 1130
+    },
+    {
+      "matchId": "6f39b71a-06a3-42b5-95c2-5a1f163349c1",
+      "map": "00road_of_riches",
+      "opponent": "new team(4)",
+      "win": true,
+      "score": [
+        1037,
+        0
+      ],
+      "rounds": 572,
+      "prismGemsCaptured": 310,
+      "teamGemsCaptured": 974,
+      "prismGoldShare": 0.054,
+      "prismBanked": 310,
+      "prismDeaths": 0,
+      "prismGemsLost": 0,
+      "prismStolen": 0,
+      "prismMaxBag": 310,
+      "prismMaxFocus": 593,
+      "prismFocusResidualMax": 0,
+      "prismMedianBag": 63,
+      "prismMedianHp": 700,
+      "nearestAllyWithin5": 0.553415061295972,
+      "bankAttempts": [
+        {
+          "r": 541,
+          "bag": 310,
+          "hp": 700,
+          "maxHp": 700,
+          "pos": {
+            "x": 19,
+            "y": 22
+          }
+        }
+      ],
+      "banks": [
+        {
+          "r": 572,
+          "type": "Prism",
+          "team": 0,
+          "amount": 310,
+          "bagBefore": 310
+        }
+      ],
+      "firstBuys": [
+        {
+          "r": 257,
+          "item": "Monster Shard of Focus",
+          "count": 1
+        },
+        {
+          "r": 320,
+          "item": "Monster Shard of Focus",
+          "count": 2
+        },
+        {
+          "r": 508,
+          "item": "Monster Emblem of Focus",
+          "count": 1
+        },
+        {
+          "r": 508,
+          "item": "Power Shard of Focus",
+          "count": 1
+        }
+      ],
+      "finalItems": {
+        "Monster Emblem of Focus": 1,
+        "Power Shard of Focus": 1
+      },
+      "first100": 315,
+      "first300": 503,
+      "first500": null,
+      "prismDamage": [
+        8055.8502197265625,
+        265.25
+      ],
+      "teamDamage": [
+        86533.60990142822,
+        2717.25
+      ],
+      "checkpoints": {
+        "100": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 28,
+          "hp": 340,
+          "maxHp": 700,
+          "items": {}
+        },
+        "200": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 35,
+          "hp": 700,
+          "maxHp": 700,
+          "items": {}
+        },
+        "300": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 84,
+          "hp": 700,
+          "maxHp": 700,
+          "items": {
+            "Monster Shard of Focus": 1
+          }
+        },
+        "500": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 274,
+          "hp": 700,
+          "maxHp": 700,
+          "items": {
+            "Monster Shard of Focus": 3
+          }
+        }
+      },
+      "prismTurns": 571
+    },
+    {
+      "matchId": "c1652376-a6e8-42cb-ad02-d93f6ff58f59",
+      "map": "01islands",
+      "opponent": "new team(4)",
+      "win": true,
+      "score": [
+        1004,
+        125
+      ],
+      "rounds": 790,
+      "prismGemsCaptured": 30,
+      "teamGemsCaptured": 1000,
+      "prismGoldShare": 0.041,
+      "prismBanked": 30,
+      "prismDeaths": 0,
+      "prismGemsLost": 0,
+      "prismStolen": 0,
+      "prismMaxBag": 30,
+      "prismMaxFocus": 141,
+      "prismFocusResidualMax": 0,
+      "prismMedianBag": 30.0,
+      "prismMedianHp": 1000.0,
+      "nearestAllyWithin5": 0.7911392405063291,
+      "bankAttempts": [
+        {
+          "r": 785,
+          "bag": 30,
+          "hp": 1000,
+          "maxHp": 1000,
+          "pos": {
+            "x": 26,
+            "y": 4
+          }
+        }
+      ],
+      "banks": [
+        {
+          "r": 788,
+          "type": "Prism",
+          "team": 0,
+          "amount": 30,
+          "bagBefore": 30
+        }
+      ],
+      "firstBuys": [
+        {
+          "r": 386,
+          "item": "Durability Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 386,
+          "item": "Monster Shard of Focus",
+          "count": 2
+        }
+      ],
+      "finalItems": {
+        "Monster Shard of Focus": 2,
+        "Durability Emblem of Health": 1
+      },
+      "first100": null,
+      "first300": null,
+      "first500": null,
+      "prismDamage": [
+        18648.73822784424,
+        80
+      ],
+      "teamDamage": [
+        130520.0,
+        300
+      ],
+      "checkpoints": {
+        "100": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 700,
+          "maxHp": 700,
+          "items": {}
+        },
+        "200": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 340,
+          "maxHp": 700,
+          "items": {}
+        },
+        "300": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 700,
+          "maxHp": 700,
+          "items": {}
+        },
+        "500": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 30,
+          "hp": 1000,
+          "maxHp": 1000,
+          "items": {
+            "Monster Shard of Focus": 2,
+            "Durability Emblem of Health": 1
+          }
+        },
+        "600": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 30,
+          "hp": 1000,
+          "maxHp": 1000,
+          "items": {
+            "Monster Shard of Focus": 2,
+            "Durability Emblem of Health": 1
+          }
+        }
+      },
+      "prismTurns": 790
+    },
+    {
+      "matchId": "2c4f834d-7277-492d-8a8d-e54211e68b77",
+      "map": "01starvation",
+      "opponent": "new team(4)",
+      "win": true,
+      "score": [
+        1270,
+        202
+      ],
+      "rounds": 1767,
+      "prismGemsCaptured": 352,
+      "teamGemsCaptured": 1224,
+      "prismGoldShare": 0.114,
+      "prismBanked": 396,
+      "prismDeaths": 1,
+      "prismGemsLost": 0,
+      "prismStolen": 44,
+      "prismMaxBag": 396,
+      "prismMaxFocus": 714,
+      "prismFocusResidualMax": 0,
+      "prismMedianBag": 100.0,
+      "prismMedianHp": 1000.0,
+      "nearestAllyWithin5": 0.5234466588511137,
+      "bankAttempts": [
+        {
+          "r": 1727,
+          "bag": 396,
+          "hp": 1360,
+          "maxHp": 1360,
+          "pos": {
+            "x": 43,
+            "y": 14
+          }
+        }
+      ],
+      "banks": [
+        {
+          "r": 1767,
+          "type": "Prism",
+          "team": 0,
+          "amount": 396,
+          "bagBefore": 396
+        }
+      ],
+      "firstBuys": [
+        {
+          "r": 493,
+          "item": "Durability Shard of Health",
+          "count": 1
+        },
+        {
+          "r": 716,
+          "item": "Durability Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 1044,
+          "item": "Monster Shard of Focus",
+          "count": 4
+        },
+        {
+          "r": 1212,
+          "item": "Monster Emblem of Focus",
+          "count": 1
+        },
+        {
+          "r": 1414,
+          "item": "Jungle Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 1414,
+          "item": "Home Shard of Health",
+          "count": 1
+        }
+      ],
+      "finalItems": {
+        "Monster Emblem of Focus": 1,
+        "Durability Emblem of Health": 1,
+        "Jungle Emblem of Health": 1,
+        "Home Shard of Health": 1
+      },
+      "first100": 828,
+      "first300": 1702,
+      "first500": null,
+      "prismDamage": [
+        18334.73191833496,
+        12448.17221069336
+      ],
+      "teamDamage": [
+        106705.89533996582,
+        44231.385803222656
+      ],
+      "checkpoints": {
+        "100": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 700,
+          "maxHp": 700,
+          "items": {}
+        },
+        "200": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 700,
+          "maxHp": 700,
+          "items": {}
+        },
+        "300": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 370,
+          "maxHp": 700,
+          "items": {}
+        },
+        "500": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 4,
+          "hp": 760,
+          "maxHp": 760,
+          "items": {
+            "Durability Shard of Health": 1
+          }
+        },
+        "600": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 4,
+          "hp": 760,
+          "maxHp": 760,
+          "items": {
+            "Durability Shard of Health": 1
+          }
+        },
+        "900": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 100,
+          "hp": 1000,
+          "maxHp": 1000,
+          "items": {
+            "Durability Emblem of Health": 1
+          }
+        },
+        "1200": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 132,
+          "hp": 784,
+          "maxHp": 1000,
+          "items": {
+            "Monster Shard of Focus": 4,
+            "Durability Emblem of Health": 1
+          }
+        }
+      },
+      "prismTurns": 1706
+    },
+    {
+      "matchId": "77b845e5-0855-4b09-9d66-3624aea319b1",
+      "map": "00corners",
+      "opponent": "Univardisty of Shingtonwash",
+      "win": false,
+      "score": [
+        133,
+        1002
+      ],
+      "rounds": 1235,
+      "prismGemsCaptured": 11,
+      "teamGemsCaptured": 166,
+      "prismGoldShare": 0.037,
+      "prismBanked": 0,
+      "prismDeaths": 8,
+      "prismGemsLost": 11,
+      "prismStolen": 0,
+      "prismMaxBag": 11,
+      "prismMaxFocus": 96.5,
+      "prismFocusResidualMax": 0,
+      "prismMedianBag": 0.0,
+      "prismMedianHp": 760.0,
+      "nearestAllyWithin5": 0.7148541114058355,
+      "bankAttempts": [],
+      "banks": [],
+      "firstBuys": [
+        {
+          "r": 256,
+          "item": "Durability Shard of Health",
+          "count": 1
+        }
+      ],
+      "finalItems": {
+        "Durability Shard of Health": 1
+      },
+      "first100": null,
+      "first300": null,
+      "first500": null,
+      "prismDamage": [
+        5452.787956237793,
+        7619.6612548828125
+      ],
+      "teamDamage": [
+        33178.0876159668,
+        48207.25305938721
+      ],
+      "checkpoints": {
+        "100": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 0,
+          "maxHp": 700,
+          "items": {}
+        },
+        "200": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 700,
+          "maxHp": 700,
+          "items": {}
+        },
+        "300": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 11,
+          "hp": 510,
+          "maxHp": 760,
+          "items": {
+            "Durability Shard of Health": 1
+          }
+        },
+        "500": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 760,
+          "maxHp": 760,
+          "items": {
+            "Durability Shard of Health": 1
+          }
+        },
+        "600": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 760,
+          "maxHp": 760,
+          "items": {
+            "Durability Shard of Health": 1
+          }
+        },
+        "900": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 0,
+          "maxHp": 760,
+          "items": {
+            "Durability Shard of Health": 1
+          }
+        },
+        "1200": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 0,
+          "maxHp": 760,
+          "items": {
+            "Durability Shard of Health": 1
+          }
+        }
+      },
+      "prismTurns": 754
+    },
+    {
+      "matchId": "80a1581a-1db5-4eaf-a1bc-b569cc00703a",
+      "map": "00fragment",
+      "opponent": "Univardisty of Shingtonwash",
+      "win": false,
+      "score": [
+        248,
+        796
+      ],
+      "rounds": 2000,
+      "prismGemsCaptured": 141,
+      "teamGemsCaptured": 424,
+      "prismGoldShare": 0.285,
+      "prismBanked": 0,
+      "prismDeaths": 2,
+      "prismGemsLost": 209,
+      "prismStolen": 68,
+      "prismMaxBag": 133,
+      "prismMaxFocus": 399.5,
+      "prismFocusResidualMax": 0,
+      "prismMedianBag": 38,
+      "prismMedianHp": 1660,
+      "nearestAllyWithin5": 0.7792343995804929,
+      "bankAttempts": [],
+      "banks": [],
+      "firstBuys": [
+        {
+          "r": 176,
+          "item": "Durability Shard of Health",
+          "count": 3
+        },
+        {
+          "r": 257,
+          "item": "Durability Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 309,
+          "item": "Monster Emblem of Focus",
+          "count": 1
+        },
+        {
+          "r": 414,
+          "item": "Jungle Shard of Health",
+          "count": 2
+        },
+        {
+          "r": 457,
+          "item": "Jungle Shard of Health",
+          "count": 2
+        },
+        {
+          "r": 742,
+          "item": "Jungle Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 742,
+          "item": "Home Shard of Health",
+          "count": 2
+        },
+        {
+          "r": 833,
+          "item": "Home Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 833,
+          "item": "Bruiser Shard of Health",
+          "count": 1
+        },
+        {
+          "r": 1073,
+          "item": "Bruiser Shard of Health",
+          "count": 2
+        },
+        {
+          "r": 1197,
+          "item": "Bruiser Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 1361,
+          "item": "Bruiser Emblem of Health",
+          "count": 1
+        }
+      ],
+      "finalItems": {
+        "Monster Emblem of Focus": 1,
+        "Durability Emblem of Health": 1,
+        "Jungle Emblem of Health": 1,
+        "Home Emblem of Health": 1,
+        "Bruiser Emblem of Focus": 1,
+        "Bruiser Shard of Health": 2,
+        "Bruiser Emblem of Health": 5
+      },
+      "first100": 1843,
+      "first300": null,
+      "first500": null,
+      "prismDamage": [
+        48108.67735290527,
+        35064.49169921875
+      ],
+      "teamDamage": [
+        116284.47373962402,
+        111929.9267578125
+      ],
+      "checkpoints": {
+        "100": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 400.79998779296875,
+          "maxHp": 700,
+          "items": {}
+        },
+        "200": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 38,
+          "hp": 880,
+          "maxHp": 880,
+          "items": {
+            "Durability Shard of Health": 3
+          }
+        },
+        "300": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 68,
+          "hp": 716.7423095703125,
+          "maxHp": 1000,
+          "items": {
+            "Durability Emblem of Health": 1
+          }
+        },
+        "500": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 76,
+          "hp": 1240,
+          "maxHp": 1240,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Shard of Health": 4
+          }
+        },
+        "600": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 1240,
+          "maxHp": 1240,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Shard of Health": 4
+          }
+        },
+        "900": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 30,
+          "hp": 1660,
+          "maxHp": 1660,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Emblem of Health": 1,
+            "Home Emblem of Health": 1,
+            "Bruiser Shard of Health": 1
+          }
+        },
+        "1200": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 38,
+          "hp": 1900,
+          "maxHp": 1900,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Emblem of Health": 1,
+            "Home Emblem of Health": 1,
+            "Bruiser Emblem of Health": 1
+          }
+        }
+      },
+      "prismTurns": 1907
+    },
+    {
+      "matchId": "4965619a-ab9a-42a0-afbb-5b80453a0a6b",
+      "map": "00interlock",
+      "opponent": "Univardisty of Shingtonwash",
+      "win": true,
+      "score": [
+        1002,
+        255
+      ],
+      "rounds": 1043,
+      "prismGemsCaptured": 107,
+      "teamGemsCaptured": 983,
+      "prismGoldShare": 0.087,
+      "prismBanked": 0,
+      "prismDeaths": 1,
+      "prismGemsLost": 107,
+      "prismStolen": 0,
+      "prismMaxBag": 107,
+      "prismMaxFocus": 280.5,
+      "prismFocusResidualMax": 0,
+      "prismMedianBag": 22,
+      "prismMedianHp": 1000,
+      "nearestAllyWithin5": 0.7700915564598169,
+      "bankAttempts": [],
+      "banks": [],
+      "firstBuys": [
+        {
+          "r": 55,
+          "item": "Durability Shard of Health",
+          "count": 1
+        },
+        {
+          "r": 195,
+          "item": "Durability Shard of Health",
+          "count": 3
+        },
+        {
+          "r": 398,
+          "item": "Durability Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 398,
+          "item": "Monster Emblem of Focus",
+          "count": 1
+        },
+        {
+          "r": 513,
+          "item": "Jungle Shard of Health",
+          "count": 3
+        },
+        {
+          "r": 616,
+          "item": "Jungle Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 616,
+          "item": "Home Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 724,
+          "item": "Bruiser Shard of Health",
+          "count": 3
+        }
+      ],
+      "finalItems": {
+        "Monster Emblem of Focus": 1,
+        "Durability Emblem of Health": 1,
+        "Jungle Emblem of Health": 1,
+        "Home Emblem of Health": 1,
+        "Bruiser Shard of Health": 3
+      },
+      "first100": 611,
+      "first300": null,
+      "first500": null,
+      "prismDamage": [
+        26624.350006103516,
+        8237.449951171875
+      ],
+      "teamDamage": [
+        117730.74890136719,
+        31158.2998046875
+      ],
+      "checkpoints": {
+        "100": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 640,
+          "maxHp": 760,
+          "items": {
+            "Durability Shard of Health": 1
+          }
+        },
+        "200": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 22,
+          "hp": 940,
+          "maxHp": 940,
+          "items": {
+            "Durability Shard of Health": 4
+          }
+        },
+        "300": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 22,
+          "hp": 940,
+          "maxHp": 940,
+          "items": {
+            "Durability Shard of Health": 4
+          }
+        },
+        "500": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 66,
+          "hp": 489.1148681640625,
+          "maxHp": 1000,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1
+          }
+        },
+        "600": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 88,
+          "hp": 1180,
+          "maxHp": 1180,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Shard of Health": 3
+          }
+        },
+        "900": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 0,
+          "maxHp": 1780,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Emblem of Health": 1,
+            "Home Emblem of Health": 1,
+            "Bruiser Shard of Health": 3
+          }
+        }
+      },
+      "prismTurns": 983
+    },
+    {
+      "matchId": "946340ba-0110-4793-9ecc-98caf6d30244",
+      "map": "01boss_battle",
+      "opponent": "Univardisty of Shingtonwash",
+      "win": true,
+      "score": [
+        158,
+        30
+      ],
+      "rounds": 2000,
+      "prismGemsCaptured": 449,
+      "teamGemsCaptured": 2896,
+      "prismGoldShare": 0.06,
+      "prismBanked": 49,
+      "prismDeaths": 2,
+      "prismGemsLost": 400,
+      "prismStolen": 0,
+      "prismMaxBag": 200,
+      "prismMaxFocus": 436,
+      "prismFocusResidualMax": 0,
+      "prismMedianBag": 0.0,
+      "prismMedianHp": 700.0,
+      "nearestAllyWithin5": 0.8606382978723405,
+      "bankAttempts": [
+        {
+          "r": 985,
+          "bag": 30,
+          "hp": 640,
+          "maxHp": 700,
+          "pos": {
+            "x": 24,
+            "y": 20
+          }
+        },
+        {
+          "r": 1674,
+          "bag": 19,
+          "hp": 1290.39990234375,
+          "maxHp": 1780,
+          "pos": {
+            "x": 24,
+            "y": 20
+          }
+        },
+        {
+          "r": 1878,
+          "bag": 200,
+          "hp": 2380,
+          "maxHp": 2380,
+          "pos": {
+            "x": 24,
+            "y": 20
+          }
+        }
+      ],
+      "banks": [
+        {
+          "r": 988,
+          "type": "Prism",
+          "team": 0,
+          "amount": 30,
+          "bagBefore": 30
+        },
+        {
+          "r": 1676,
+          "type": "Prism",
+          "team": 0,
+          "amount": 19,
+          "bagBefore": 19
+        }
+      ],
+      "firstBuys": [
+        {
+          "r": 1000,
+          "item": "Durability Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 1000,
+          "item": "Monster Shard of Focus",
+          "count": 2
+        },
+        {
+          "r": 1143,
+          "item": "Monster Emblem of Focus",
+          "count": 1
+        },
+        {
+          "r": 1143,
+          "item": "Jungle Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 1143,
+          "item": "Home Shard of Health",
+          "count": 2
+        },
+        {
+          "r": 1556,
+          "item": "Home Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 1556,
+          "item": "Bruiser Shard of Health",
+          "count": 3
+        },
+        {
+          "r": 1807,
+          "item": "Bruiser Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 1807,
+          "item": "Bruiser Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 1807,
+          "item": "Bruiser Shard of Health",
+          "count": 3
+        }
+      ],
+      "finalItems": {
+        "Monster Emblem of Focus": 1,
+        "Durability Emblem of Health": 1,
+        "Jungle Emblem of Health": 1,
+        "Home Emblem of Health": 1,
+        "Bruiser Shard of Health": 3,
+        "Bruiser Emblem of Health": 2
+      },
+      "first100": 1138,
+      "first300": null,
+      "first500": null,
+      "prismDamage": [
+        41004.472900390625,
+        15761.47705078125
+      ],
+      "teamDamage": [
+        473725.20263671875,
+        133702.78314208984
+      ],
+      "checkpoints": {
+        "100": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 460,
+          "maxHp": 700,
+          "items": {}
+        },
+        "200": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 400,
+          "maxHp": 700,
+          "items": {}
+        },
+        "300": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 700,
+          "maxHp": 700,
+          "items": {}
+        },
+        "500": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 460,
+          "maxHp": 700,
+          "items": {}
+        },
+        "600": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 560,
+          "maxHp": 700,
+          "items": {}
+        },
+        "900": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 700,
+          "maxHp": 700,
+          "items": {}
+        },
+        "1200": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 200,
+          "hp": 1117.599609375,
+          "maxHp": 1420,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Emblem of Health": 1,
+            "Home Shard of Health": 2
+          }
+        }
+      },
+      "prismTurns": 1880
+    },
+    {
+      "matchId": "a5994aa2-2f6d-4727-ad6b-741161bb753c",
+      "map": "01fracture",
+      "opponent": "Univardisty of Shingtonwash",
+      "win": true,
+      "score": [
+        1032,
+        608
+      ],
+      "rounds": 1449,
+      "prismGemsCaptured": 2,
+      "teamGemsCaptured": 1020,
+      "prismGoldShare": 0.005,
+      "prismBanked": 0,
+      "prismDeaths": 2,
+      "prismGemsLost": 2,
+      "prismStolen": 0,
+      "prismMaxBag": 2,
+      "prismMaxFocus": 83,
+      "prismFocusResidualMax": 0,
+      "prismMedianBag": 0,
+      "prismMedianHp": 880,
+      "nearestAllyWithin5": 0.6064710308502633,
+      "bankAttempts": [],
+      "banks": [],
+      "firstBuys": [
+        {
+          "r": 456,
+          "item": "Durability Shard of Health",
+          "count": 3
+        }
+      ],
+      "finalItems": {
+        "Durability Shard of Health": 3
+      },
+      "first100": null,
+      "first300": null,
+      "first500": null,
+      "prismDamage": [
+        12726.320819854736,
+        2160.9728240966797
+      ],
+      "teamDamage": [
+        143329.86520767212,
+        38885.60692214966
+      ],
+      "checkpoints": {
+        "100": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 700,
+          "maxHp": 700,
+          "items": {}
+        },
+        "200": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 700,
+          "maxHp": 700,
+          "items": {}
+        },
+        "300": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 700,
+          "maxHp": 700,
+          "items": {}
+        },
+        "500": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 880,
+          "maxHp": 880,
+          "items": {
+            "Durability Shard of Health": 3
+          }
+        },
+        "600": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 880,
+          "maxHp": 880,
+          "items": {
+            "Durability Shard of Health": 3
+          }
+        },
+        "900": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 2,
+          "hp": 820,
+          "maxHp": 880,
+          "items": {
+            "Durability Shard of Health": 3
+          }
+        },
+        "1200": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 880,
+          "maxHp": 880,
+          "items": {
+            "Durability Shard of Health": 3
+          }
+        }
+      },
+      "prismTurns": 1329
+    },
+    {
+      "matchId": "d392dd14-06a6-4ad7-a5fc-3a94fbc5c9e0",
+      "map": "00pilgrimage",
+      "opponent": "policy wonk",
+      "win": true,
+      "score": [
+        1002,
+        326
+      ],
+      "rounds": 1418,
+      "prismGemsCaptured": 30,
+      "teamGemsCaptured": 869,
+      "prismGoldShare": 0.072,
+      "prismBanked": 0,
+      "prismDeaths": 3,
+      "prismGemsLost": 30,
+      "prismStolen": 0,
+      "prismMaxBag": 15,
+      "prismMaxFocus": 142.5,
+      "prismFocusResidualMax": 0,
+      "prismMedianBag": 0,
+      "prismMedianHp": 1000,
+      "nearestAllyWithin5": 0.582053354890865,
+      "bankAttempts": [],
+      "banks": [],
+      "firstBuys": [
+        {
+          "r": 159,
+          "item": "Durability Shard of Health",
+          "count": 1
+        },
+        {
+          "r": 348,
+          "item": "Durability Shard of Health",
+          "count": 3
+        },
+        {
+          "r": 551,
+          "item": "Durability Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 551,
+          "item": "Monster Shard of Focus",
+          "count": 1
+        },
+        {
+          "r": 710,
+          "item": "Monster Emblem of Focus",
+          "count": 1
+        },
+        {
+          "r": 786,
+          "item": "Jungle Shard of Health",
+          "count": 1
+        },
+        {
+          "r": 994,
+          "item": "Jungle Shard of Health",
+          "count": 1
+        },
+        {
+          "r": 1090,
+          "item": "Jungle Emblem of Health",
+          "count": 1
+        }
+      ],
+      "finalItems": {
+        "Monster Emblem of Focus": 1,
+        "Durability Emblem of Health": 1,
+        "Jungle Emblem of Health": 1
+      },
+      "first100": null,
+      "first300": null,
+      "first500": null,
+      "prismDamage": [
+        21498.77685546875,
+        2483
+      ],
+      "teamDamage": [
+        134295.08374023438,
+        32983.25288772583
+      ],
+      "checkpoints": {
+        "100": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 700,
+          "maxHp": 700,
+          "items": {}
+        },
+        "200": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 0,
+          "maxHp": 760,
+          "items": {
+            "Durability Shard of Health": 1
+          }
+        },
+        "300": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 606,
+          "maxHp": 760,
+          "items": {
+            "Durability Shard of Health": 1
+          }
+        },
+        "500": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 940,
+          "maxHp": 940,
+          "items": {
+            "Durability Shard of Health": 4
+          }
+        },
+        "600": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 946,
+          "maxHp": 1000,
+          "items": {
+            "Monster Shard of Focus": 1,
+            "Durability Emblem of Health": 1
+          }
+        },
+        "900": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 1060,
+          "maxHp": 1060,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Shard of Health": 1
+          }
+        },
+        "1200": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 1300,
+          "maxHp": 1300,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Emblem of Health": 1
+          }
+        }
+      },
+      "prismTurns": 1237
+    },
+    {
+      "matchId": "01150853-c456-483b-989a-fd178424b45f",
+      "map": "00swirl",
+      "opponent": "policy wonk",
+      "win": true,
+      "score": [
+        1037,
+        93
+      ],
+      "rounds": 974,
+      "prismGemsCaptured": 177,
+      "teamGemsCaptured": 1066,
+      "prismGoldShare": 0.136,
+      "prismBanked": 185,
+      "prismDeaths": 1,
+      "prismGemsLost": 27,
+      "prismStolen": 35,
+      "prismMaxBag": 185,
+      "prismMaxFocus": 525.5,
+      "prismFocusResidualMax": 0,
+      "prismMedianBag": 27.0,
+      "prismMedianHp": 1600.0,
+      "nearestAllyWithin5": 0.8730853391684902,
+      "bankAttempts": [
+        {
+          "r": 953,
+          "bag": 185,
+          "hp": 3520,
+          "maxHp": 3520,
+          "pos": {
+            "x": 24,
+            "y": 9
+          }
+        }
+      ],
+      "banks": [
+        {
+          "r": 972,
+          "type": "Prism",
+          "team": 0,
+          "amount": 185,
+          "bagBefore": 185
+        }
+      ],
+      "firstBuys": [
+        {
+          "r": 51,
+          "item": "Durability Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 51,
+          "item": "Monster Shard of Focus",
+          "count": 1
+        },
+        {
+          "r": 117,
+          "item": "Monster Emblem of Focus",
+          "count": 1
+        },
+        {
+          "r": 262,
+          "item": "Jungle Shard of Health",
+          "count": 3
+        },
+        {
+          "r": 376,
+          "item": "Jungle Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 376,
+          "item": "Home Shard of Health",
+          "count": 1
+        },
+        {
+          "r": 503,
+          "item": "Home Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 559,
+          "item": "Bruiser Shard of Health",
+          "count": 3
+        },
+        {
+          "r": 619,
+          "item": "Bruiser Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 619,
+          "item": "Bruiser Shard of Health",
+          "count": 2
+        },
+        {
+          "r": 670,
+          "item": "Bruiser Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 670,
+          "item": "Bruiser Shard of Health",
+          "count": 4
+        }
+      ],
+      "finalItems": {
+        "Monster Emblem of Focus": 1,
+        "Durability Emblem of Health": 1,
+        "Jungle Emblem of Health": 1,
+        "Home Emblem of Health": 1,
+        "Bruiser Emblem of Focus": 2,
+        "Bruiser Emblem of Health": 6
+      },
+      "first100": 762,
+      "first300": null,
+      "first500": null,
+      "prismDamage": [
+        46766.67626953125,
+        12611.72486114502
+      ],
+      "teamDamage": [
+        191743.20001220703,
+        55148.999572753906
+      ],
+      "checkpoints": {
+        "100": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 15,
+          "hp": 730,
+          "maxHp": 1000,
+          "items": {
+            "Monster Shard of Focus": 1,
+            "Durability Emblem of Health": 1
+          }
+        },
+        "200": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 0,
+          "maxHp": 1000,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1
+          }
+        },
+        "300": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 12,
+          "hp": 590.5,
+          "maxHp": 1180,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Shard of Health": 3
+          }
+        },
+        "500": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 12,
+          "hp": 884.800048828125,
+          "maxHp": 1360,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Emblem of Health": 1,
+            "Home Shard of Health": 1
+          }
+        },
+        "600": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 50,
+          "hp": 1590.999755859375,
+          "maxHp": 1780,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Emblem of Health": 1,
+            "Home Emblem of Health": 1,
+            "Bruiser Shard of Health": 3
+          }
+        },
+        "900": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 185,
+          "hp": 2105.19775390625,
+          "maxHp": 3340,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Emblem of Health": 1,
+            "Home Emblem of Health": 1,
+            "Bruiser Emblem of Focus": 1,
+            "Bruiser Shard of Health": 3,
+            "Bruiser Emblem of Health": 5
+          }
+        }
+      },
+      "prismTurns": 914
+    },
+    {
+      "matchId": "e85c128e-af2d-4d02-bc31-5852ed91b2d6",
+      "map": "01boss_battle",
+      "opponent": "policy wonk",
+      "win": false,
+      "score": [
+        837,
+        1013
+      ],
+      "rounds": 1349,
+      "prismGemsCaptured": 91,
+      "teamGemsCaptured": 1721,
+      "prismGoldShare": 0.069,
+      "prismBanked": 110,
+      "prismDeaths": 0,
+      "prismGemsLost": 0,
+      "prismStolen": 19,
+      "prismMaxBag": 110,
+      "prismMaxFocus": 301,
+      "prismFocusResidualMax": 0,
+      "prismMedianBag": 57.0,
+      "prismMedianHp": 1300.0,
+      "nearestAllyWithin5": 0.8419881305637982,
+      "bankAttempts": [
+        {
+          "r": 1058,
+          "bag": 91,
+          "hp": 1894,
+          "maxHp": 2020,
+          "pos": {
+            "x": 24,
+            "y": 20
+          }
+        },
+        {
+          "r": 1294,
+          "bag": 110,
+          "hp": 1864,
+          "maxHp": 2260,
+          "pos": {
+            "x": 24,
+            "y": 20
+          }
+        }
+      ],
+      "banks": [
+        {
+          "r": 1305,
+          "type": "Prism",
+          "team": 0,
+          "amount": 110,
+          "bagBefore": 110
+        }
+      ],
+      "firstBuys": [
+        {
+          "r": 293,
+          "item": "Durability Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 541,
+          "item": "Monster Emblem of Focus",
+          "count": 1
+        },
+        {
+          "r": 620,
+          "item": "Jungle Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 804,
+          "item": "Home Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 804,
+          "item": "Bruiser Shard of Health",
+          "count": 4
+        },
+        {
+          "r": 867,
+          "item": "Bruiser Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 867,
+          "item": "Bruiser Shard of Health",
+          "count": 2
+        },
+        {
+          "r": 1194,
+          "item": "Bruiser Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 1194,
+          "item": "Bruiser Shard of Health",
+          "count": 1
+        }
+      ],
+      "finalItems": {
+        "Monster Emblem of Focus": 1,
+        "Durability Emblem of Health": 1,
+        "Jungle Emblem of Health": 1,
+        "Home Emblem of Health": 1,
+        "Bruiser Shard of Health": 1,
+        "Bruiser Emblem of Health": 2
+      },
+      "first100": 1150,
+      "first300": null,
+      "first500": null,
+      "prismDamage": [
+        47546.72427368164,
+        10260.451755523682
+      ],
+      "teamDamage": [
+        314339.9249267578,
+        87495.70705032349
+      ],
+      "checkpoints": {
+        "100": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 540,
+          "maxHp": 700,
+          "items": {}
+        },
+        "200": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 700,
+          "maxHp": 700,
+          "items": {}
+        },
+        "300": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 19,
+          "hp": 1000,
+          "maxHp": 1000,
+          "items": {
+            "Durability Emblem of Health": 1
+          }
+        },
+        "500": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 34,
+          "hp": 622,
+          "maxHp": 1000,
+          "items": {
+            "Durability Emblem of Health": 1
+          }
+        },
+        "600": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 57,
+          "hp": 748,
+          "maxHp": 1000,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1
+          }
+        },
+        "900": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 91,
+          "hp": 2020,
+          "maxHp": 2020,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Emblem of Health": 1,
+            "Home Emblem of Health": 1,
+            "Bruiser Shard of Health": 2,
+            "Bruiser Emblem of Health": 1
+          }
+        },
+        "1200": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 110,
+          "hp": 2260,
+          "maxHp": 2260,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Emblem of Health": 1,
+            "Home Emblem of Health": 1,
+            "Bruiser Shard of Health": 1,
+            "Bruiser Emblem of Health": 2
+          }
+        }
+      },
+      "prismTurns": 1348
+    },
+    {
+      "matchId": "505fd81e-4e92-4718-be7a-abf2bd46aa8b",
+      "map": "01hooks",
+      "opponent": "policy wonk",
+      "win": true,
+      "score": [
+        1034,
+        44
+      ],
+      "rounds": 1084,
+      "prismGemsCaptured": 121,
+      "teamGemsCaptured": 1012,
+      "prismGoldShare": 0.154,
+      "prismBanked": 121,
+      "prismDeaths": 0,
+      "prismGemsLost": 0,
+      "prismStolen": 0,
+      "prismMaxBag": 121,
+      "prismMaxFocus": 413.5,
+      "prismFocusResidualMax": 0,
+      "prismMedianBag": 66,
+      "prismMedianHp": 2380,
+      "nearestAllyWithin5": 0.8679593721144968,
+      "bankAttempts": [
+        {
+          "r": 1071,
+          "bag": 121,
+          "hp": 3422.199951171875,
+          "maxHp": 3460,
+          "pos": {
+            "x": 14,
+            "y": 15
+          }
+        }
+      ],
+      "banks": [
+        {
+          "r": 1084,
+          "type": "Prism",
+          "team": 0,
+          "amount": 121,
+          "bagBefore": 121
+        }
+      ],
+      "firstBuys": [
+        {
+          "r": 74,
+          "item": "Durability Shard of Health",
+          "count": 4
+        },
+        {
+          "r": 113,
+          "item": "Durability Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 113,
+          "item": "Monster Shard of Focus",
+          "count": 1
+        },
+        {
+          "r": 154,
+          "item": "Monster Shard of Focus",
+          "count": 1
+        },
+        {
+          "r": 202,
+          "item": "Monster Emblem of Focus",
+          "count": 1
+        },
+        {
+          "r": 202,
+          "item": "Jungle Shard of Health",
+          "count": 4
+        },
+        {
+          "r": 270,
+          "item": "Jungle Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 270,
+          "item": "Home Shard of Health",
+          "count": 4
+        },
+        {
+          "r": 406,
+          "item": "Home Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 406,
+          "item": "Bruiser Shard of Health",
+          "count": 1
+        },
+        {
+          "r": 459,
+          "item": "Bruiser Shard of Health",
+          "count": 2
+        },
+        {
+          "r": 537,
+          "item": "Bruiser Emblem of Health",
+          "count": 1
+        }
+      ],
+      "finalItems": {
+        "Monster Emblem of Focus": 1,
+        "Durability Emblem of Health": 1,
+        "Jungle Emblem of Health": 1,
+        "Home Emblem of Health": 1,
+        "Bruiser Shard of Focus": 3,
+        "Bruiser Emblem of Focus": 1,
+        "Bruiser Emblem of Health": 6
+      },
+      "first100": 625,
+      "first300": null,
+      "first500": null,
+      "prismDamage": [
+        49319.27523803711,
+        7962
+      ],
+      "teamDamage": [
+        132868.5,
+        40170.5
+      ],
+      "checkpoints": {
+        "100": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 22,
+          "hp": 550,
+          "maxHp": 940,
+          "items": {
+            "Durability Shard of Health": 4
+          }
+        },
+        "200": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 33,
+          "hp": 838,
+          "maxHp": 1000,
+          "items": {
+            "Monster Shard of Focus": 2,
+            "Durability Emblem of Health": 1
+          }
+        },
+        "300": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 66,
+          "hp": 1540,
+          "maxHp": 1540,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Emblem of Health": 1,
+            "Home Shard of Health": 4
+          }
+        },
+        "500": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 66,
+          "hp": 1780,
+          "maxHp": 1780,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Emblem of Health": 1,
+            "Home Emblem of Health": 1,
+            "Bruiser Shard of Health": 3
+          }
+        },
+        "600": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 88,
+          "hp": 2500,
+          "maxHp": 2500,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Emblem of Health": 1,
+            "Home Emblem of Health": 1,
+            "Bruiser Shard of Focus": 4,
+            "Bruiser Emblem of Health": 3
+          }
+        },
+        "900": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 121,
+          "hp": 2860,
+          "maxHp": 2860,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Emblem of Health": 1,
+            "Home Emblem of Health": 1,
+            "Bruiser Emblem of Focus": 1,
+            "Bruiser Emblem of Health": 4
+          }
+        }
+      },
+      "prismTurns": 1083
+    },
+    {
+      "matchId": "7f825cc7-7f4a-4b55-9a84-04ba5fad57f1",
+      "map": "01starvation",
+      "opponent": "policy wonk",
+      "win": false,
+      "score": [
+        216,
+        1050
+      ],
+      "rounds": 1724,
+      "prismGemsCaptured": 28,
+      "teamGemsCaptured": 304,
+      "prismGoldShare": 0.0,
+      "prismBanked": 0,
+      "prismDeaths": 3,
+      "prismGemsLost": 70,
+      "prismStolen": 42,
+      "prismMaxBag": 70,
+      "prismMaxFocus": 217,
+      "prismFocusResidualMax": 0,
+      "prismMedianBag": 0,
+      "prismMedianHp": 1000,
+      "nearestAllyWithin5": 0.3298768632534025,
+      "bankAttempts": [],
+      "banks": [],
+      "firstBuys": [
+        {
+          "r": 678,
+          "item": "Durability Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 678,
+          "item": "Monster Shard of Focus",
+          "count": 1
+        },
+        {
+          "r": 936,
+          "item": "Monster Shard of Focus",
+          "count": 3
+        }
+      ],
+      "finalItems": {
+        "Monster Shard of Focus": 4,
+        "Durability Emblem of Health": 1
+      },
+      "first100": null,
+      "first300": null,
+      "first500": null,
+      "prismDamage": [
+        3627,
+        9530.55517578125
+      ],
+      "teamDamage": [
+        36304.97627258301,
+        37104.23793029785
+      ],
+      "checkpoints": {
+        "100": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 501,
+          "maxHp": 700,
+          "items": {}
+        },
+        "200": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 700,
+          "maxHp": 700,
+          "items": {}
+        },
+        "300": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 700,
+          "maxHp": 700,
+          "items": {}
+        },
+        "500": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 700,
+          "maxHp": 700,
+          "items": {}
+        },
+        "600": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 700,
+          "maxHp": 700,
+          "items": {}
+        },
+        "900": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 42,
+          "hp": 1000,
+          "maxHp": 1000,
+          "items": {
+            "Monster Shard of Focus": 1,
+            "Durability Emblem of Health": 1
+          }
+        },
+        "1200": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 0,
+          "maxHp": 1000,
+          "items": {
+            "Monster Shard of Focus": 4,
+            "Durability Emblem of Health": 1
+          }
+        }
+      },
+      "prismTurns": 1543
+    },
+    {
+      "matchId": "a2a7ff19-e778-4f9d-a730-913a79369453",
+      "map": "00fragment",
+      "opponent": "Pantheon",
+      "win": true,
+      "score": [
+        1022,
+        81
+      ],
+      "rounds": 1402,
+      "prismGemsCaptured": 294,
+      "teamGemsCaptured": 998,
+      "prismGoldShare": 0.265,
+      "prismBanked": 294,
+      "prismDeaths": 0,
+      "prismGemsLost": 0,
+      "prismStolen": 0,
+      "prismMaxBag": 294,
+      "prismMaxFocus": 729,
+      "prismFocusResidualMax": 0,
+      "prismMedianBag": 112,
+      "prismMedianHp": 2020,
+      "nearestAllyWithin5": 0.7637401855817273,
+      "bankAttempts": [
+        {
+          "r": 1372,
+          "bag": 294,
+          "hp": 4124.80029296875,
+          "maxHp": 4420,
+          "pos": {
+            "x": 15,
+            "y": 6
+          }
+        }
+      ],
+      "banks": [
+        {
+          "r": 1402,
+          "type": "Prism",
+          "team": 0,
+          "amount": 294,
+          "bagBefore": 294
+        }
+      ],
+      "firstBuys": [
+        {
+          "r": 174,
+          "item": "Durability Shard of Health",
+          "count": 2
+        },
+        {
+          "r": 297,
+          "item": "Durability Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 297,
+          "item": "Monster Shard of Focus",
+          "count": 3
+        },
+        {
+          "r": 342,
+          "item": "Monster Emblem of Focus",
+          "count": 1
+        },
+        {
+          "r": 342,
+          "item": "Jungle Shard of Health",
+          "count": 3
+        },
+        {
+          "r": 517,
+          "item": "Jungle Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 634,
+          "item": "Home Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 634,
+          "item": "Bruiser Shard of Health",
+          "count": 2
+        },
+        {
+          "r": 672,
+          "item": "Bruiser Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 672,
+          "item": "Bruiser Shard of Health",
+          "count": 2
+        },
+        {
+          "r": 730,
+          "item": "Bruiser Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 730,
+          "item": "Bruiser Shard of Health",
+          "count": 3
+        }
+      ],
+      "finalItems": {
+        "Monster Emblem of Focus": 1,
+        "Durability Emblem of Health": 1,
+        "Jungle Emblem of Health": 1,
+        "Home Emblem of Health": 1,
+        "Bruiser Shard of Focus": 2,
+        "Bruiser Emblem of Focus": 2,
+        "Bruiser Emblem of Health": 9
+      },
+      "first100": 669,
+      "first300": null,
+      "first500": null,
+      "prismDamage": [
+        84389.96290588379,
+        7055.552520751953
+      ],
+      "teamDamage": [
+        174967.99783325195,
+        18105.38832092285
+      ],
+      "checkpoints": {
+        "100": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 700,
+          "maxHp": 700,
+          "items": {}
+        },
+        "200": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 13,
+          "hp": 680,
+          "maxHp": 820,
+          "items": {
+            "Durability Shard of Health": 2
+          }
+        },
+        "300": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 26,
+          "hp": 1000,
+          "maxHp": 1000,
+          "items": {
+            "Monster Shard of Focus": 3,
+            "Durability Emblem of Health": 1
+          }
+        },
+        "500": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 56,
+          "hp": 886.8448486328125,
+          "maxHp": 1180,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Shard of Health": 3
+          }
+        },
+        "600": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 60,
+          "hp": 1174.000244140625,
+          "maxHp": 1300,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Emblem of Health": 1
+          }
+        },
+        "900": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 228,
+          "hp": 3296.198974609375,
+          "maxHp": 3460,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Emblem of Health": 1,
+            "Home Emblem of Health": 1,
+            "Bruiser Shard of Focus": 1,
+            "Bruiser Emblem of Focus": 1,
+            "Bruiser Emblem of Health": 6
+          }
+        },
+        "1200": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 282,
+          "hp": 4117,
+          "maxHp": 4180,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Emblem of Health": 1,
+            "Home Emblem of Health": 1,
+            "Bruiser Emblem of Focus": 2,
+            "Bruiser Shard of Health": 1,
+            "Bruiser Emblem of Health": 8
+          }
+        }
+      },
+      "prismTurns": 1401
+    },
+    {
+      "matchId": "3fc2330b-520a-4874-87a4-0d2b759721df",
+      "map": "00gem_fields",
+      "opponent": "Pantheon",
+      "win": true,
+      "score": [
+        1313,
+        361
+      ],
+      "rounds": 681,
+      "prismGemsCaptured": 797,
+      "teamGemsCaptured": 1292,
+      "prismGoldShare": 0.545,
+      "prismBanked": 107,
+      "prismDeaths": 1,
+      "prismGemsLost": 704,
+      "prismStolen": 14,
+      "prismMaxBag": 704,
+      "prismMaxFocus": 1240,
+      "prismFocusResidualMax": 0,
+      "prismMedianBag": 285,
+      "prismMedianHp": 1600,
+      "nearestAllyWithin5": 0.644122383252818,
+      "bankAttempts": [
+        {
+          "r": 483,
+          "bag": 704,
+          "hp": 2560,
+          "maxHp": 2560,
+          "pos": {
+            "x": 32,
+            "y": 11
+          }
+        },
+        {
+          "r": 617,
+          "bag": 71,
+          "hp": 2819.799560546875,
+          "maxHp": 3160,
+          "pos": {
+            "x": 18,
+            "y": 29
+          }
+        },
+        {
+          "r": 649,
+          "bag": 36,
+          "hp": 2819.799560546875,
+          "maxHp": 3160,
+          "pos": {
+            "x": 3,
+            "y": 36
+          }
+        }
+      ],
+      "banks": [
+        {
+          "r": 625,
+          "type": "Prism",
+          "team": 0,
+          "amount": 71,
+          "bagBefore": 71
+        },
+        {
+          "r": 653,
+          "type": "Prism",
+          "team": 0,
+          "amount": 36,
+          "bagBefore": 36
+        }
+      ],
+      "firstBuys": [
+        {
+          "r": 105,
+          "item": "Durability Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 105,
+          "item": "Monster Shard of Focus",
+          "count": 1
+        },
+        {
+          "r": 147,
+          "item": "Monster Emblem of Focus",
+          "count": 1
+        },
+        {
+          "r": 147,
+          "item": "Jungle Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 147,
+          "item": "Home Shard of Health",
+          "count": 2
+        },
+        {
+          "r": 229,
+          "item": "Home Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 353,
+          "item": "Bruiser Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 353,
+          "item": "Bruiser Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 353,
+          "item": "Bruiser Shard of Health",
+          "count": 4
+        },
+        {
+          "r": 422,
+          "item": "Bruiser Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 422,
+          "item": "Bruiser Emblem of Focus",
+          "count": 1
+        },
+        {
+          "r": 517,
+          "item": "Bruiser Emblem of Health",
+          "count": 1
+        }
+      ],
+      "finalItems": {
+        "Monster Emblem of Focus": 1,
+        "Durability Emblem of Health": 1,
+        "Jungle Emblem of Health": 1,
+        "Home Emblem of Health": 1,
+        "Bruiser Shard of Focus": 1,
+        "Bruiser Emblem of Focus": 1,
+        "Bruiser Emblem of Health": 6
+      },
+      "first100": 100,
+      "first300": 266,
+      "first500": 390,
+      "prismDamage": [
+        24527.274826049805,
+        8053.171813964844
+      ],
+      "teamDamage": [
+        67654.40014648438,
+        19347.6748046875
+      ],
+      "checkpoints": {
+        "100": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 71,
+          "hp": 520,
+          "maxHp": 700,
+          "items": {}
+        },
+        "200": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 285,
+          "hp": 1420,
+          "maxHp": 1420,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Emblem of Health": 1,
+            "Home Shard of Health": 2
+          }
+        },
+        "300": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 356,
+          "hp": 1600,
+          "maxHp": 1600,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Emblem of Health": 1,
+            "Home Emblem of Health": 1
+          }
+        },
+        "500": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 704,
+          "hp": 2015.5,
+          "maxHp": 2560,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Emblem of Health": 1,
+            "Home Emblem of Health": 1,
+            "Bruiser Emblem of Focus": 1,
+            "Bruiser Emblem of Health": 3
+          }
+        },
+        "600": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 2933.19970703125,
+          "maxHp": 3160,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Emblem of Health": 1,
+            "Home Emblem of Health": 1,
+            "Bruiser Emblem of Focus": 1,
+            "Bruiser Emblem of Health": 5
+          }
+        }
+      },
+      "prismTurns": 621
+    },
+    {
+      "matchId": "fd15fe83-bf12-4778-8636-9aea5182cb68",
+      "map": "00lanes",
+      "opponent": "Pantheon",
+      "win": false,
+      "score": [
+        606,
+        1022
+      ],
+      "rounds": 956,
+      "prismGemsCaptured": 98,
+      "teamGemsCaptured": 774,
+      "prismGoldShare": 0.111,
+      "prismBanked": 0,
+      "prismDeaths": 1,
+      "prismGemsLost": 44,
+      "prismStolen": 0,
+      "prismMaxBag": 54,
+      "prismMaxFocus": 201,
+      "prismFocusResidualMax": 0,
+      "prismMedianBag": 28.0,
+      "prismMedianHp": 1000.0,
+      "nearestAllyWithin5": 0.5636160714285714,
+      "bankAttempts": [],
+      "banks": [],
+      "firstBuys": [
+        {
+          "r": 112,
+          "item": "Durability Shard of Health",
+          "count": 1
+        },
+        {
+          "r": 235,
+          "item": "Durability Shard of Health",
+          "count": 3
+        },
+        {
+          "r": 355,
+          "item": "Durability Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 355,
+          "item": "Monster Shard of Focus",
+          "count": 2
+        },
+        {
+          "r": 450,
+          "item": "Monster Emblem of Focus",
+          "count": 1
+        },
+        {
+          "r": 587,
+          "item": "Jungle Shard of Health",
+          "count": 1
+        },
+        {
+          "r": 725,
+          "item": "Jungle Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 725,
+          "item": "Home Shard of Health",
+          "count": 2
+        }
+      ],
+      "finalItems": {
+        "Monster Emblem of Focus": 1,
+        "Durability Emblem of Health": 1,
+        "Jungle Emblem of Health": 1,
+        "Home Shard of Health": 2
+      },
+      "first100": null,
+      "first300": null,
+      "first500": null,
+      "prismDamage": [
+        19581.93800354004,
+        654.300048828125
+      ],
+      "teamDamage": [
+        124369.44003295898,
+        3652.3155822753906
+      ],
+      "checkpoints": {
+        "100": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 560,
+          "maxHp": 700,
+          "items": {}
+        },
+        "200": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 760,
+          "maxHp": 760,
+          "items": {
+            "Durability Shard of Health": 1
+          }
+        },
+        "300": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 22,
+          "hp": 940,
+          "maxHp": 940,
+          "items": {
+            "Durability Shard of Health": 4
+          }
+        },
+        "500": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 44,
+          "hp": 1000,
+          "maxHp": 1000,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1
+          }
+        },
+        "600": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 0,
+          "maxHp": 1060,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Shard of Health": 1
+          }
+        },
+        "900": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 32,
+          "hp": 1420,
+          "maxHp": 1420,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Emblem of Health": 1,
+            "Home Shard of Health": 2
+          }
+        }
+      },
+      "prismTurns": 896
+    },
+    {
+      "matchId": "b74302c8-7e26-48a6-bc07-d0491b55eb5c",
+      "map": "00lost_world",
+      "opponent": "Pantheon",
+      "win": false,
+      "score": [
+        0,
+        1001
+      ],
+      "rounds": 489,
+      "prismGemsCaptured": 21,
+      "teamGemsCaptured": 56,
+      "prismGoldShare": 0.0,
+      "prismBanked": 0,
+      "prismDeaths": 5,
+      "prismGemsLost": 21,
+      "prismStolen": 0,
+      "prismMaxBag": 21,
+      "prismMaxFocus": 111.5,
+      "prismFocusResidualMax": 0,
+      "prismMedianBag": 0.0,
+      "prismMedianHp": 700.0,
+      "nearestAllyWithin5": 0.8085106382978723,
+      "bankAttempts": [],
+      "banks": [],
+      "firstBuys": [],
+      "finalItems": {},
+      "first100": null,
+      "first300": null,
+      "first500": null,
+      "prismDamage": [
+        250,
+        2753.4749755859375
+      ],
+      "teamDamage": [
+        1301.75,
+        14017.989364624023
+      ],
+      "checkpoints": {
+        "100": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 700,
+          "maxHp": 700,
+          "items": {}
+        },
+        "200": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 700,
+          "maxHp": 700,
+          "items": {}
+        },
+        "300": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 700,
+          "maxHp": 700,
+          "items": {}
+        }
+      },
+      "prismTurns": 188
+    },
+    {
+      "matchId": "8712e41c-e62a-4d46-804e-91bf03e5d993",
+      "map": "01shortcut",
+      "opponent": "Pantheon",
+      "win": true,
+      "score": [
+        1216,
+        208
+      ],
+      "rounds": 1137,
+      "prismGemsCaptured": 759,
+      "teamGemsCaptured": 1614,
+      "prismGoldShare": 0.424,
+      "prismBanked": 468,
+      "prismDeaths": 1,
+      "prismGemsLost": 291,
+      "prismStolen": 0,
+      "prismMaxBag": 291,
+      "prismMaxFocus": 616.5,
+      "prismFocusResidualMax": 0,
+      "prismMedianBag": 64.0,
+      "prismMedianHp": 2500.0,
+      "nearestAllyWithin5": 0.6719330855018587,
+      "bankAttempts": [
+        {
+          "r": 912,
+          "bag": 203,
+          "hp": 2514.998779296875,
+          "maxHp": 3460,
+          "pos": {
+            "x": 31,
+            "y": 26
+          }
+        },
+        {
+          "r": 1059,
+          "bag": 30,
+          "hp": 4240,
+          "maxHp": 4240,
+          "pos": {
+            "x": 31,
+            "y": 13
+          }
+        },
+        {
+          "r": 1113,
+          "bag": 235,
+          "hp": 2854,
+          "maxHp": 4240,
+          "pos": {
+            "x": 31,
+            "y": 13
+          }
+        }
+      ],
+      "banks": [
+        {
+          "r": 933,
+          "type": "Prism",
+          "team": 0,
+          "amount": 203,
+          "bagBefore": 203
+        },
+        {
+          "r": 1062,
+          "type": "Prism",
+          "team": 0,
+          "amount": 30,
+          "bagBefore": 30
+        },
+        {
+          "r": 1137,
+          "type": "Prism",
+          "team": 0,
+          "amount": 235,
+          "bagBefore": 235
+        }
+      ],
+      "firstBuys": [
+        {
+          "r": 188,
+          "item": "Durability Shard of Health",
+          "count": 4
+        },
+        {
+          "r": 204,
+          "item": "Durability Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 204,
+          "item": "Monster Emblem of Focus",
+          "count": 1
+        },
+        {
+          "r": 204,
+          "item": "Jungle Shard of Health",
+          "count": 1
+        },
+        {
+          "r": 293,
+          "item": "Jungle Shard of Health",
+          "count": 2
+        },
+        {
+          "r": 344,
+          "item": "Jungle Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 344,
+          "item": "Home Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 399,
+          "item": "Bruiser Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 399,
+          "item": "Bruiser Shard of Health",
+          "count": 3
+        },
+        {
+          "r": 429,
+          "item": "Bruiser Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 429,
+          "item": "Bruiser Emblem of Health",
+          "count": 1
+        },
+        {
+          "r": 470,
+          "item": "Bruiser Shard of Focus",
+          "count": 4
+        }
+      ],
+      "finalItems": {
+        "Monster Emblem of Focus": 1,
+        "Durability Emblem of Health": 1,
+        "Jungle Emblem of Health": 1,
+        "Home Emblem of Health": 1,
+        "Bruiser Emblem of Focus": 2,
+        "Bruiser Shard of Health": 2,
+        "Bruiser Emblem of Health": 8
+      },
+      "first100": 293,
+      "first300": null,
+      "first500": null,
+      "prismDamage": [
+        72261.60494995117,
+        3601.9999389648438
+      ],
+      "teamDamage": [
+        165239.59997558594,
+        18205.568817138672
+      ],
+      "checkpoints": {
+        "100": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 21,
+          "hp": 640,
+          "maxHp": 700,
+          "items": {}
+        },
+        "200": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 94,
+          "hp": 940,
+          "maxHp": 940,
+          "items": {
+            "Durability Shard of Health": 4
+          }
+        },
+        "300": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 123,
+          "hp": 964,
+          "maxHp": 1180,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Shard of Health": 3
+          }
+        },
+        "500": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 291,
+          "hp": 912.39990234375,
+          "maxHp": 2500,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Emblem of Health": 1,
+            "Home Emblem of Health": 1,
+            "Bruiser Shard of Focus": 4,
+            "Bruiser Emblem of Health": 3
+          }
+        },
+        "600": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 0,
+          "hp": 2462.19970703125,
+          "maxHp": 2500,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Emblem of Health": 1,
+            "Home Emblem of Health": 1,
+            "Bruiser Shard of Focus": 4,
+            "Bruiser Emblem of Health": 3
+          }
+        },
+        "900": {
+          "type": "Prism",
+          "team": 0,
+          "bag": 203,
+          "hp": 2514.998779296875,
+          "maxHp": 3460,
+          "items": {
+            "Monster Emblem of Focus": 1,
+            "Durability Emblem of Health": 1,
+            "Jungle Emblem of Health": 1,
+            "Home Emblem of Health": 1,
+            "Bruiser Shard of Focus": 4,
+            "Bruiser Emblem of Focus": 1,
+            "Bruiser Emblem of Health": 6
+          }
+        }
+      },
+      "prismTurns": 1076
+    }
+  ]
+}

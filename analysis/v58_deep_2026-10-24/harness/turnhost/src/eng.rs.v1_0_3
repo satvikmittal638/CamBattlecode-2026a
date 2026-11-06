@@ -1,0 +1,374 @@
+// Game-engine wasm bridge: one engine instance holding the recorded replay (R) and a live game (L) built
+// from the map. L is driven turn by turn; bots read it through the Game_API exports and act on it through
+// Game_Action_*.
+use anyhow::{anyhow, bail, Result};
+use std::collections::HashMap;
+use wasmtime::*;
+
+pub const SNAPSHOT_SIZE: usize = 40152;
+pub const ITEM_TYPES: usize = 42;
+pub const CHAMPION_TYPES: [&str; 13] = ["Ryth", "VesperVale", "Vendetta", "Cassi", "Issac", "Stellar", "Prism", "Marcella", "Willow", "Ren", "Varg", "Tavi", "HeartOfRuin"];
+
+pub fn rd32(d: &[u8], p: usize) -> u32 { u32::from_le_bytes(d[p..p + 4].try_into().unwrap()) }
+pub fn wr32(d: &mut [u8], p: usize, v: u32) { d[p..p + 4].copy_from_slice(&v.to_le_bytes()); }
+pub fn mem_of<T>(c: &mut Caller<'_, T>) -> Memory { c.get_export("memory").and_then(|e| e.into_memory()).expect("guest memory export") }
+
+pub fn add_wasi<T: 'static>(l: &mut Linker<T>, sink: fn(&mut T, i32, &[u8])) -> Result<()> {
+    let m = "wasi_snapshot_preview1";
+    l.func_wrap(m, "args_get", |_: Caller<'_, T>, _: i32, _: i32| -> i32 { 0 })?;
+    l.func_wrap(m, "args_sizes_get", |mut c: Caller<'_, T>, a: i32, b: i32| -> i32 {
+        let mem = mem_of(&mut c);
+        let d = mem.data_mut(&mut c);
+        wr32(d, a as usize, 0);
+        wr32(d, b as usize, 0);
+        0
+    })?;
+    l.func_wrap(m, "environ_get", |_: Caller<'_, T>, _: i32, _: i32| -> i32 { 0 })?;
+    l.func_wrap(m, "environ_sizes_get", |mut c: Caller<'_, T>, a: i32, b: i32| -> i32 {
+        let mem = mem_of(&mut c);
+        let d = mem.data_mut(&mut c);
+        wr32(d, a as usize, 0);
+        wr32(d, b as usize, 0);
+        0
+    })?;
+    l.func_wrap(m, "fd_close", |_: Caller<'_, T>, fd: i32| -> i32 { if fd <= 2 { 0 } else { 8 } })?;
+    l.func_wrap(m, "fd_fdstat_get", |mut c: Caller<'_, T>, fd: i32, p: i32| -> i32 {
+        if fd > 2 { return 8; }
+        let mem = mem_of(&mut c);
+        let d = mem.data_mut(&mut c);
+        d[p as usize..p as usize + 24].fill(0);
+        d[p as usize] = 2;
+        0
+    })?;
+    l.func_wrap(m, "fd_prestat_get", |_: Caller<'_, T>, _: i32, _: i32| -> i32 { 8 })?;
+    l.func_wrap(m, "fd_prestat_dir_name", |_: Caller<'_, T>, _: i32, _: i32, _: i32| -> i32 { 8 })?;
+    l.func_wrap(m, "fd_read", |_: Caller<'_, T>, _: i32, _: i32, _: i32, _: i32| -> i32 { 8 })?;
+    l.func_wrap(m, "fd_seek", |_: Caller<'_, T>, _: i32, _: i64, _: i32, _: i32| -> i32 { 8 })?;
+    l.func_wrap(m, "fd_write", move |mut c: Caller<'_, T>, fd: i32, iovs: i32, n: i32, written: i32| -> i32 {
+        let mem = mem_of(&mut c);
+        let mut buf = Vec::new();
+        {
+            let d = mem.data(&c);
+            for i in 0..n as usize {
+                let p = rd32(d, iovs as usize + i * 8) as usize;
+                let len = rd32(d, iovs as usize + i * 8 + 4) as usize;
+                buf.extend_from_slice(&d[p..p + len]);
+            }
+        }
+        wr32(mem.data_mut(&mut c), written as usize, buf.len() as u32);
+        sink(c.data_mut(), fd, &buf);
+        0
+    })?;
+    l.func_wrap(m, "proc_exit", |_: Caller<'_, T>, code: i32| -> wasmtime::Result<()> { Err(wasmtime::Error::msg(format!("proc_exit {code}"))) })?;
+    // Deterministic, as on the official runner.
+    l.func_wrap(m, "random_get", |mut c: Caller<'_, T>, p: i32, n: i32| -> i32 {
+        let mem = mem_of(&mut c);
+        let d = mem.data_mut(&mut c);
+        let mut x: u32 = 0x9e3779b9;
+        for b in &mut d[p as usize..(p + n) as usize] {
+            x ^= x << 13;
+            x ^= x >> 17;
+            x ^= x << 5;
+            *b = x as u8;
+        }
+        0
+    })?;
+    l.func_wrap(m, "clock_time_get", |mut c: Caller<'_, T>, _: i32, _: i64, p: i32| -> i32 {
+        let mem = mem_of(&mut c);
+        mem.data_mut(&mut c)[p as usize..p as usize + 8].fill(0);
+        0
+    })?;
+    Ok(())
+}
+
+pub fn load_module(engine: &Engine, path: &str) -> Result<Module> {
+    let cache = format!("{path}.turnhost-{}.cwasm", env!("CARGO_PKG_VERSION"));
+    let src_t = std::fs::metadata(path)?.modified()?;
+    if let Ok(m) = std::fs::metadata(&cache) {
+        if m.modified()? >= src_t {
+            if let Ok(module) = unsafe { Module::deserialize_file(engine, &cache) } { return Ok(module); }
+        }
+    }
+    let module = Module::from_file(engine, path).map_err(|e| anyhow!("compile {path}: {e:?}"))?;
+    if let Ok(bytes) = module.serialize() { let _ = std::fs::write(&cache, bytes); }
+    Ok(module)
+}
+
+#[derive(Clone, Debug)]
+pub struct Ch { pub idx: u32, pub team: u32, pub typ: u32, pub pos: Option<(i32, i32)>, pub hp: f32, pub mhp: f32, pub alive: bool, pub gold: u32, pub gems: u32, pub kills: u32, pub items: Vec<u32>, pub cons: [u32; 4] }
+#[derive(Clone, Debug)]
+pub struct Camp { pub idx: u32, pub typ: u32, pub pos: (i32, i32), pub hp: f32 }
+#[derive(Clone, Debug)]
+pub struct St {
+    pub round: u32, pub phase: u32, pub cur: u32, pub awaiting: bool, pub outcome: u32, pub submitted: [u64; 2],
+    pub timeline: u64, pub input_pos: u32,
+    pub sphase: u32, pub kind: u32, pub actor_kind: u32, pub actor: u32, pub to: (i32, i32), pub slot: Option<u32>, pub prio: i32,
+    pub step_pos: u32, pub substep: u32,
+    pub drafts: [Vec<i32>; 2],
+    pub ch: Vec<Ch>, pub camps: Vec<Camp>,
+    pub wards: Vec<(u32, bool)>,
+}
+
+pub struct Eng {
+    pub store: Store<()>,
+    pub mem: Memory,
+    pub f: HashMap<String, (Func, usize)>,
+    pub replay: i64,
+    pub game: i64,
+    pub persp: i32,
+    pub out: i32,
+    pub args: i32,
+    pub slots: Vec<i32>,
+    pub slot_size: usize,
+    pub snap: i32,
+    pub meta: i32,
+    pub meta_bytes: [u8; 28],
+    pub w: i32,
+    pub h: i32,
+    pub cw: usize,
+    pub stride: usize,
+    pub bb: usize,
+    pub df: usize,
+    pub last_err: String,
+    pub layout: Option<Vec<u32>>,
+    pub traps: u64,
+}
+
+impl Eng {
+    pub fn new(engine_wasm: &str, replay: &[u8], map: &[u8]) -> Result<Eng> {
+        let mut cfg = Config::new();
+        cfg.max_wasm_stack(8 << 20);
+        cfg.async_stack_size(16 << 20);
+        let engine = Engine::new(&cfg)?;
+        let module = load_module(&engine, engine_wasm)?;
+        let mut linker: Linker<()> = Linker::new(&engine);
+        add_wasi(&mut linker, |_, _, _| {})?;
+        linker.define_unknown_imports_as_traps(&module)?;
+        let mut store = Store::new(&engine, ());
+        let inst = linker.instantiate(&mut store, &module)?;
+        let mut f = HashMap::new();
+        let names: Vec<String> = module.exports().map(|e| e.name().to_string()).collect();
+        for n in names {
+            if let Some(func) = inst.get_func(&mut store, &n) {
+                let nres = func.ty(&store).results().len();
+                f.insert(n, (func, nres));
+            }
+        }
+        let mem = inst.get_memory(&mut store, "memory").ok_or_else(|| anyhow!("engine memory"))?;
+        let mut e = Eng { store, mem, f, replay: 0, game: 0, persp: 0, out: 0, args: 0, slots: vec![], slot_size: 0, snap: 0, meta: 0, meta_bytes: [0; 28], w: 0, h: 0, cw: 0, stride: 0, bb: 0, df: 0, last_err: String::new(), layout: None, traps: 0 };
+        if e.f.contains_key("_initialize") { e.call("_initialize", &[]); }
+        e.out = e.malloc(64);
+        e.args = e.malloc(256);
+        e.persp = e.malloc(16);
+        e.meta = e.malloc(64);
+        e.snap = e.malloc(SNAPSHOT_SIZE as i32);
+        // Recorded replay.
+        let p = e.malloc(replay.len() as i32);
+        e.write(p, replay);
+        let rc = e.call("Game_FromReplayFileBytes", &[Val::I32(p), Val::I32(replay.len() as i32), Val::I32(e.out)]);
+        if rc != 0 { bail!("Game_FromReplayFileBytes: {} {}", rc, e.err_msg()); }
+        e.replay = e.r64(e.out) as i64;
+        e.call("Engine_Free", &[Val::I32(p)]);
+        let rc = e.call("Game_Visualiser_Timeline_GetMain", &[Val::I64(e.replay), Val::I32(e.out)]);
+        if rc != 0 { bail!("timeline {rc}"); }
+        let main = e.r64(e.out) as i64;
+        e.call("Game_Visualiser_Timeline_Seek", &[Val::I64(e.replay), Val::I64(main), Val::I32(0), Val::I32(0)]);
+        // Live game from the map.
+        let p = e.malloc(map.len() as i32);
+        e.write(p, map);
+        let rc = e.call("Game_FromMapFileBytes", &[Val::I32(p), Val::I32(map.len() as i32), Val::I32(e.out), Val::I32(0)]);
+        if rc != 0 { bail!("Game_FromMapFileBytes: {} {}", rc, e.err_msg()); }
+        e.game = e.r64(e.out) as i64;
+        e.call("Engine_Free", &[Val::I32(p)]);
+        let g = e.game;
+        if e.call("Game_Runner_SetCheckpointsEnabled", &[Val::I64(g), Val::I32(1)]) != 0 { bail!("checkpoints: {}", e.err_msg()); }
+        // Map metadata (the bot's metadata struct adds raw board / field sizes).
+        let rc = e.call("Game_GetBitboardMetadata", &[Val::I64(g), Val::I32(e.meta)]);
+        if rc != 0 { bail!("metadata {rc}"); }
+        e.w = e.r32(e.meta) as i32;
+        e.h = e.r32(e.meta + 4) as i32;
+        e.cw = e.r32(e.meta + 8) as usize;
+        e.stride = e.r32(e.meta + 16) as usize;
+        e.call("Bitboard_GetRawBufferSize", &[Val::I32(e.meta), Val::I32(e.out)]);
+        e.bb = e.r32(e.out) as usize;
+        e.call("DistanceField_GetRawBufferSize", &[Val::I32(e.meta), Val::I32(e.out)]);
+        e.df = e.r32(e.out) as usize;
+        let m = e.read(e.meta, 20);
+        e.meta_bytes[..20].copy_from_slice(&m);
+        e.meta_bytes[20..24].copy_from_slice(&(e.bb as u32).to_le_bytes());
+        e.meta_bytes[24..28].copy_from_slice(&(e.df as u32).to_le_bytes());
+        e.slot_size = (65536usize).max((e.w * e.h) as usize * 8 + 64).max(e.df + 64);
+        for _ in 0..8 {
+            let s = e.malloc(e.slot_size as i32);
+            e.slots.push(s);
+        }
+        Ok(e)
+    }
+    pub fn try_call(&mut self, name: &str, args: &[Val]) -> Result<i32> {
+        let (func, nres) = *self.f.get(name).ok_or_else(|| anyhow!("engine export {name} missing"))?;
+        let mut res = [Val::I32(0)];
+        func.call(&mut self.store, args, &mut res[..nres]).map_err(|e| anyhow!("engine {name} trapped: {e:?}"))?;
+        Ok(if nres == 1 { res[0].unwrap_i32() } else { 0 })
+    }
+    pub fn call(&mut self, name: &str, args: &[Val]) -> i32 { self.try_call(name, args).unwrap_or_else(|e| panic!("{e}")) }
+    pub fn malloc(&mut self, n: i32) -> i32 { self.call("Engine_Malloc", &[Val::I32(n)]) }
+    pub fn data(&mut self) -> &mut [u8] { self.mem.data_mut(&mut self.store) }
+    pub fn r32(&mut self, p: i32) -> u32 { rd32(self.data(), p as usize) }
+    pub fn r64(&mut self, p: i32) -> u64 { u64::from_le_bytes(self.data()[p as usize..p as usize + 8].try_into().unwrap()) }
+    pub fn write(&mut self, p: i32, b: &[u8]) { self.data()[p as usize..p as usize + b.len()].copy_from_slice(b); }
+    pub fn read(&mut self, p: i32, n: usize) -> Vec<u8> { self.data()[p as usize..p as usize + n].to_vec() }
+    pub fn err_msg(&mut self) -> String {
+        let p = self.call("GetLastErrorMsg", &[]) as usize;
+        let d = self.data();
+        let mut e = p;
+        while e < d.len() && d[e] != 0 { e += 1; }
+        String::from_utf8_lossy(&d[p..e]).into_owned()
+    }
+    pub fn set_persp(&mut self, team: u32, champ: i32) {
+        let p = self.persp;
+        let d = self.data();
+        wr32(d, p as usize, team);
+        wr32(d, p as usize + 4, champ as u32);
+    }
+    pub fn ent(&mut self, kind: u32, idx: u32) -> i32 {
+        let a = self.args;
+        let d = self.data();
+        wr32(d, a as usize, kind);
+        wr32(d, a as usize + 4, idx);
+        a
+    }
+    pub fn pos(&mut self, x: i32, y: i32) -> i32 {
+        let a = self.args + 32;
+        let d = self.data();
+        wr32(d, a as usize, x as u32);
+        wr32(d, a as usize + 4, y as u32);
+        a
+    }
+    // Replay timeline stepping.
+    pub fn replay_next(&mut self) -> bool { self.call("Game_Visualiser_Timeline_ReplayNext", &[Val::I64(self.replay), Val::I32(1)]) == 0 }
+    pub fn state_of(&mut self, game: i64) -> St {
+        let rc = self.call("Game_Visualiser_ReadTimelineState", &[Val::I64(game), Val::I32(self.snap)]);
+        assert_eq!(rc, 0, "ReadTimelineState");
+        let t = self.snap as usize;
+        let d = self.data();
+        let u = |o: usize| rd32(d, t + o);
+        let i = |o: usize| rd32(d, t + o) as i32;
+        let f = |o: usize| f32::from_bits(rd32(d, t + o));
+        let u64at = |o: usize| u64::from_le_bytes(d[t + o..t + o + 8].try_into().unwrap());
+        assert!(u(0) == 1 && u(4) as usize == SNAPSHOT_SIZE, "timeline snapshot ABI");
+        let slot = u(108);
+        let kind = u(68);
+        let n = u(172) as usize;
+        let mut ch = Vec::with_capacity(n);
+        for k in 0..n {
+            let b = 196 + k * 252;
+            let pos = if i(b + 16) >= 0 && i(b + 20) >= 0 { Some((i(b + 16), i(b + 20))) } else { None };
+            let items = (0..ITEM_TYPES).map(|q| u(b + 48 + 4 * q)).collect();
+            let cons = [u(b + 216), u(b + 220), u(b + 224), u(b + 228)];
+            ch.push(Ch { idx: u(b + 4), team: u(b + 8), typ: u(b + 12), pos, hp: f(b + 24), mhp: f(b + 28), alive: u(b + 32) != 0, gold: u(b + 36), gems: u(b + 40), kills: u(b + 44), items, cons });
+        }
+        let nc = u(176) as usize;
+        let mut camps = Vec::with_capacity(nc);
+        for k in 0..nc {
+            let b = 4228 + k * 28;
+            camps.push(Camp { idx: u(b + 4), typ: u(b + 12), pos: (i(b + 16), i(b + 20)), hp: f(b + 24) });
+        }
+        let nw = (u(184) as usize).min(128);
+        let wards = (0..nw).map(|k| (u(22228 + k * 8), u(22228 + k * 8 + 4) != 0)).collect();
+        let r = 120;
+        let mut drafts = [vec![], vec![]];
+        for (e, dr) in drafts.iter_mut().enumerate() {
+            let cnt = u(r + 4 + 4 * e) as usize;
+            for k in 0..cnt.min(5) { dr.push(i(r + 12 + e * 20 + k * 4)); }
+        }
+        St {
+            round: u(8), phase: u(24), cur: u(60), awaiting: u(20) != 0, outcome: u(28), submitted: [u64at(32), u64at(40)],
+            timeline: u64at(48), input_pos: u(56),
+            sphase: u(64), kind, actor_kind: u(72), actor: u(76), to: (i(88), i(92)),
+            slot: if slot != 0xffff_ffff && kind != 19 { Some(slot) } else { None },
+            prio: i(116), step_pos: u(100), substep: u(104), drafts, ch, camps, wards,
+        }
+    }
+    // Live timeline position of the latest step: (timeline, step position, substep).
+    pub fn point(&mut self) -> (u64, u32, u32) {
+        let (g, sn) = (self.game, self.snap);
+        assert_eq!(self.call("Game_Visualiser_ReadTimelineState", &[Val::I64(g), Val::I32(sn)]), 0);
+        let t = sn as usize;
+        let d = self.data();
+        (u64::from_le_bytes(d[t + 48..t + 56].try_into().unwrap()), rd32(d, t + 100), rd32(d, t + 104))
+    }
+    // Live runner.
+    pub fn runner(&mut self) -> (u32, u32, u32, i32) {
+        let (g, o) = (self.game, self.out);
+        assert_eq!(self.call("Game_Runner_GetState", &[Val::I64(g), Val::I32(o)]), 0);
+        (self.r32(o), self.r32(o + 4), self.r32(o + 8), self.r32(o + 12) as i32)
+    }
+    pub fn camp_layout(&mut self) -> Vec<u32> {
+        if let Some(l) = &self.layout { return l.clone(); }
+        let (g, s0, s1, s2) = (self.game, self.slots[0], self.slots[1], self.slots[2]);
+        let cap = (self.slot_size / 4) as i32;
+        assert_eq!(self.call("Game_API_Map_GetCampGroups", &[Val::I64(g), Val::I32(s0), Val::I32(cap), Val::I32(s1)]), 0);
+        let n = self.r32(s1) as usize;
+        let groups: Vec<u32> = (0..n).map(|k| self.r32(s0 + 4 * k as i32)).collect();
+        let mut words = Vec::new();
+        for gid in groups {
+            assert_eq!(self.call("Game_API_Map_CampGroup_Get", &[Val::I64(g), Val::I32(gid as i32), Val::I32(s0)]), 0);
+            let (gems, gold) = (self.r32(s0), self.r32(s0 + 4));
+            assert_eq!(self.call("Game_API_Map_CampGroup_GetRespawnTime", &[Val::I64(g), Val::I32(gid as i32), Val::I32(s0)]), 0);
+            let respawn = self.r32(s0);
+            assert_eq!(self.call("Game_API_Map_CampGroup_GetCampInfo", &[Val::I64(g), Val::I32(gid as i32), Val::I32(s0), Val::I32(cap), Val::I32(s1)]), 0);
+            let m = self.r32(s1) as usize;
+            let camps: Vec<u32> = (0..m).map(|k| self.r32(s0 + 4 * k as i32)).collect();
+            words.extend_from_slice(&[gid, gold, gems, respawn, m as u32]);
+            for cid in camps {
+                assert_eq!(self.call("Game_API_Map_CampInfo_Get", &[Val::I64(g), Val::I32(cid as i32), Val::I32(s2)]), 0);
+                let (x, y, ty) = (self.r32(s2), self.r32(s2 + 4), self.r32(s2 + 8));
+                words.extend_from_slice(&[cid, ty, x, y]);
+            }
+        }
+        self.layout = Some(words.clone());
+        words
+    }
+    // Native bitboard / distance-field addressing (checked against the engine by self_test).
+    pub fn bit(&self, x: i32, y: i32) -> (usize, u32) {
+        let word = (y as usize >> 3) * self.stride + (x as usize >> 3);
+        let b = ((y & 7) * 8 + (x & 7)) as usize;
+        (word * 8 + (b >> 3), b as u32 & 7)
+    }
+    pub fn df_off(&self, x: i32, y: i32) -> usize { (((y as usize >> 3) * self.cw + (x as usize >> 3)) * 64 + ((y & 7) * 8 + (x & 7)) as usize) * 2 }
+    pub fn inb(&self, x: i32, y: i32) -> bool { x >= 0 && y >= 0 && x < self.w && y < self.h }
+
+    pub fn self_test(&mut self) -> Result<()> {
+        let (m, s0, s1, s2, s3, s4, o) = (self.meta, self.slots[0], self.slots[1], self.slots[2], self.slots[3], self.slots[4], self.out);
+        let (bb, df, w, h) = (self.bb, self.df, self.w, self.h);
+        self.call("Bitboard_Zero", &[Val::I32(m), Val::I32(s0)]);
+        let pts = [(0, 0), (w - 1, h - 1), (w / 2, h / 3), (3, h - 2), (w - 2, 5)];
+        for &(x, y) in &pts { self.call("Bitboard_Set", &[Val::I32(m), Val::I32(s0), Val::I32(x), Val::I32(y), Val::I32(1)]); }
+        let board = self.read(s0, bb);
+        for y in 0..h {
+            for x in 0..w {
+                let (off, b) = self.bit(x, y);
+                if (board[off] >> b) & 1 != pts.contains(&(x, y)) as u8 { bail!("bitboard layout mismatch at {x},{y}"); }
+            }
+        }
+        let g = self.game;
+        self.call("Game_GetWallBuffer", &[Val::I64(g), Val::I32(o)]);
+        let wp = self.r32(o) as i32;
+        let walls = self.read(wp, bb);
+        self.write(s1, &walls);
+        self.call("Bitboard_Zero", &[Val::I32(m), Val::I32(s2)]);
+        self.call("Bitboard_Set", &[Val::I32(m), Val::I32(s2), Val::I32(w / 2), Val::I32(h / 2), Val::I32(1)]);
+        let rc = self.call("DistanceField_ComputeWithExpansionCount", &[Val::I32(m), Val::I32(s1), Val::I32(s2), Val::I32(s3), Val::I32(s4), Val::I32(65535), Val::I32(o)]);
+        if rc != 0 { bail!("df compute {rc}"); }
+        let field = self.read(s4, df);
+        for y in 0..h {
+            for x in 0..w {
+                self.call("DistanceField_Get", &[Val::I32(m), Val::I32(s4), Val::I32(x), Val::I32(y), Val::I32(o)]);
+                let want = self.read(o, 2);
+                let off = self.df_off(x, y);
+                if field[off..off + 2] != want[..] { bail!("distance-field layout mismatch at {x},{y}"); }
+            }
+        }
+        Ok(())
+    }
+}

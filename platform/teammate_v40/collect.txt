@@ -1,0 +1,56 @@
+opsec_level_opera_gx#1 2/5  avg gem diff -106
+opsec_level_opera_gx#2 2/5  avg gem diff -339
+Mate_in_One#1 2/5  avg gem diff -120
+Mate_in_One#2 1/5  avg gem diff -328
+Sic_Mundus_Creatus_E#1 3/5  avg gem diff 61
+Sic_Mundus_Creatus_E#2 2/5  avg gem diff -228
+2_27TELEVIZR_1_6EIT#1 3/5  avg gem diff -237
+2_27TELEVIZR_1_6EIT#2 1/5  avg gem diff -54
+Lucky_Lock_Pickers#1 4/5  avg gem diff 414
+Lucky_Lock_Pickers#2 3/5  avg gem diff 137
+Supaswag#1 1/5  avg gem diff -84
+Supaswag#2 0/5  avg gem diff -566
+_#1        2/5  avg gem diff -271
+_#2        1/5  avg gem diff -240
+Nameless#1 2/5  avg gem diff -191
+Nameless#2 0/5  avg gem diff -558
+EggsAfter11AM#1 1/5  avg gem diff -525
+EggsAfter11AM#2 1/5  avg gem diff -559
+SSSA#1     3/5  avg gem diff 169
+SSSA#2     2/5  avg gem diff -181
+TOTAL 36/100
+  00ambush                 opsec_level_opera_gx#1:La Lucky_Lock_Pickers#2:La Supaswag#1:La SSSA#2:La
+  00collision              opsec_level_opera_gx#1:Wa Lucky_Lock_Pickers#2:Wa Supaswag#1:Wa SSSA#2:La
+  00contest                opsec_level_opera_gx#1:La Lucky_Lock_Pickers#2:Wa Supaswag#1:La SSSA#2:La
+  00corners                opsec_level_opera_gx#1:Wa Supaswag#1:La
+  00eight                  opsec_level_opera_gx#1:La Supaswag#1:La
+  00elkring                opsec_level_opera_gx#2:Wa Supaswag#2:La
+  00expanse                opsec_level_opera_gx#2:La Supaswag#2:La
+  00fragment               opsec_level_opera_gx#2:Wa Mate_in_One#1:La Supaswag#2:La _#1:La
+  00interlock              opsec_level_opera_gx#2:La Mate_in_One#1:Wa Supaswag#2:La _#1:La
+  00lanes                  opsec_level_opera_gx#2:La Mate_in_One#1:La Supaswag#2:La _#1:La
+  00monolith               Mate_in_One#1:La _#1:Wa
+  00packs                  Mate_in_One#1:Wa _#1:Wa
+  00pilgrimage             Mate_in_One#2:La _#2:La
+  00quadrants              Mate_in_One#2:Wa _#2:La
+  00reverse_spiral         Mate_in_One#2:La Sic_Mundus_Creatus_E#1:La _#2:Wa Nameless#1:Wa
+  00rows                   Mate_in_One#2:La Sic_Mundus_Creatus_E#1:La _#2:La Nameless#1:La
+  00rushbait_v2            Mate_in_One#2:La Sic_Mundus_Creatus_E#1:Wa _#2:La Nameless#1:La
+  00split                  Sic_Mundus_Creatus_E#1:Wa Nameless#1:La
+  00stampede               Sic_Mundus_Creatus_E#1:Wa Nameless#1:Wa
+  00swirl                  Sic_Mundus_Creatus_E#2:La Nameless#2:La
+  01big_world              Sic_Mundus_Creatus_E#2:Wa Nameless#2:La
+  01boss_battle            Sic_Mundus_Creatus_E#2:Wa 2_27TELEVIZR_1_6EIT#1:La Nameless#2:La EggsAfter11AM#1:La
+  01broken_curve           Sic_Mundus_Creatus_E#2:La 2_27TELEVIZR_1_6EIT#1:La Nameless#2:La EggsAfter11AM#1:Wa
+  01concentrated_wealth    Sic_Mundus_Creatus_E#2:La 2_27TELEVIZR_1_6EIT#1:Wa Nameless#2:La EggsAfter11AM#1:La
+  01corridors              2_27TELEVIZR_1_6EIT#1:Wa EggsAfter11AM#1:La
+  01elk_arena              2_27TELEVIZR_1_6EIT#1:Wa EggsAfter11AM#1:La
+  01fracture               2_27TELEVIZR_1_6EIT#2:La EggsAfter11AM#2:La
+  01gold_rush              2_27TELEVIZR_1_6EIT#2:La EggsAfter11AM#2:Wa
+  01hooks                  2_27TELEVIZR_1_6EIT#2:Wa Lucky_Lock_Pickers#1:Wa EggsAfter11AM#2:La SSSA#1:La
+  01islands                2_27TELEVIZR_1_6EIT#2:La Lucky_Lock_Pickers#1:Wa EggsAfter11AM#2:La SSSA#1:La
+  01shortcut               2_27TELEVIZR_1_6EIT#2:La Lucky_Lock_Pickers#1:La EggsAfter11AM#2:La SSSA#1:Wa
+  01starfish               Lucky_Lock_Pickers#1:Wa SSSA#1:Wa
+  01starvation             Lucky_Lock_Pickers#1:Wa SSSA#1:Wa
+  01the_farm               Lucky_Lock_Pickers#2:Wa SSSA#2:Wa
+  01yellow_brick_road      Lucky_Lock_Pickers#2:La SSSA#2:Wa

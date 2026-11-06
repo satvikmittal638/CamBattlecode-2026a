@@ -1,0 +1,4012 @@
+{
+ "dir": "platform/v27/games_them",
+ "overall": {
+  "games": 50,
+  "winRate": 0.98,
+  "fights": 1778,
+  "fightsPer100Rounds": 2.8,
+  "significantFights": 966,
+  "initiatedByUs": 0.69,
+  "kills": [
+   468,
+   87
+  ],
+  "killsPerGame": [
+   9.36,
+   1.74
+  ],
+  "campDeathsPerGame": [
+   6.94,
+   18.86
+  ],
+  "fightWinRate": 0.72,
+  "killTradeWhenWeInitiate": [
+   345,
+   38
+  ],
+  "killTradeWhenTheyInitiate": [
+   123,
+   49
+  ],
+  "gemsStolenPerGame": [
+   31.2,
+   8.4
+  ],
+  "hpTraded": [
+   401403,
+   645600
+  ],
+  "avgDuration": 4.061,
+  "avgSize": [
+   1.427,
+   1.31
+  ],
+  "sizeDist": {
+   "4v2": 20,
+   "2v2": 88,
+   "1v1": 358,
+   "4v1": 4,
+   "2v1": 211,
+   "3v3": 22,
+   "5v2": 1,
+   "5v3": 1,
+   "3v1": 32,
+   "3v2": 46,
+   "1v2": 101,
+   "3v4": 11,
+   "4v4": 6,
+   "1v3": 13,
+   "5v4": 6,
+   "2v3": 23,
+   "1v4": 4,
+   "4v3": 8,
+   "5v5": 2,
+   "5v6": 1,
+   "2v4": 2,
+   "6v6": 2,
+   "2v5": 2,
+   "3v5": 1,
+   "4v5": 1
+  },
+  "zone": {
+   "own": 0.05,
+   "mid": 0.78,
+   "enemy": 0.16
+  },
+  "atOurSpawn": 0,
+  "atTheirSpawn": 0.01,
+  "nearAltar": 0.13,
+  "nearCamp": 0.7,
+  "weInitiateOnChannel": 0.21,
+  "channelTypesWhenWeInitiate": {
+   "tribute": 14,
+   "recall": 48,
+   "capture-tile": 201
+  },
+  "weInitiateOnCarrier": 0.22,
+  "avgFirstTargetGemsWhenWeInitiate": 3.292,
+  "weInitiateFromBush": 0.13,
+  "bushHitFrac": [
+   0.117,
+   0.154
+  ],
+  "firstActionsWhenWeInitiate": {
+   "Cast:Damage": 152,
+   "Cast:Cc": 437,
+   "Attack": 170,
+   "Cast:AoeDamage": 474
+  },
+  "firstActionsWhenTheyInitiate": {
+   "Cast:AoeDamage": 120,
+   "Cast:Cc": 240,
+   "Cast:Damage": 122,
+   "Attack": 63
+  },
+  "startHpWhenWeInitiate": [
+   0.847,
+   0.792
+  ],
+  "abilitiesPerFight": [
+   {
+    "Attack": 1.77,
+    "AoeDamage": 0.61,
+    "Cc": 0.59,
+    "Damage": 0.35,
+    "Shield": 0.09,
+    "Heal": 0
+   },
+   {
+    "Attack": 1.17,
+    "Cc": 0.32,
+    "AoeDamage": 0.26,
+    "Damage": 0.25,
+    "Shield": 0.06
+   }
+  ],
+  "supportPerFight": [
+   0.093,
+   0.059
+  ],
+  "dashes": [
+   {
+    "engage": 284,
+    "escape": 384
+   },
+   {
+    "engage": 273,
+    "escape": 347
+   }
+  ],
+  "focus": [
+   0.872,
+   0.859
+  ],
+  "targetChoice": [
+   {
+    "lowestHp": 0.749,
+    "mostGems": 0.132,
+    "ranged": 0.379
+   },
+   {
+    "lowestHp": 0.87,
+    "mostGems": 0.184,
+    "ranged": 0.443
+   }
+  ],
+  "openerTypeWhenWeInitiate": {
+   "Stellar:Cast:AoeDamage": 228,
+   "Ryth:Cast:AoeDamage": 222,
+   "Ren:Cast:Cc": 221,
+   "Cassi:Cast:Cc": 125,
+   "Stellar:Cast:Damage": 88,
+   "Tavi:Cast:Cc": 73,
+   "Cassi:Cast:Damage": 64,
+   "Varg:Attack": 53
+  },
+  "killConversionWhenWeInitiateOnRecall": 0.48,
+  "killConversionWhenWeInitiate": 0.25,
+  "timeToKillRounds": [
+   4.31,
+   4.943
+  ],
+  "campDeathContext": [
+   {
+    "n": 347,
+    "afterChampFight": 0.12,
+    "hpfAtEngage": 0.86,
+    "lowHpEngage": 0.1
+   },
+   {
+    "n": 943,
+    "afterChampFight": 0.1,
+    "hpfAtEngage": 0.92,
+    "lowHpEngage": 0.02
+   }
+  ],
+  "lastActHp": [
+   0.755,
+   0.738
+  ],
+  "recallHpInFight": [
+   0.596,
+   0.323
+  ]
+ },
+ "byMap": {
+  "00ambush": {
+   "games": 2,
+   "winRate": 1,
+   "fights": 54,
+   "fightsPer100Rounds": 1.85,
+   "significantFights": 28,
+   "initiatedByUs": 0.59,
+   "kills": [
+    7,
+    6
+   ],
+   "killsPerGame": [
+    3.5,
+    3
+   ],
+   "campDeathsPerGame": [
+    6,
+    6
+   ],
+   "fightWinRate": 0.46,
+   "killTradeWhenWeInitiate": [
+    4,
+    0
+   ],
+   "killTradeWhenTheyInitiate": [
+    3,
+    6
+   ],
+   "gemsStolenPerGame": [
+    0,
+    42
+   ],
+   "hpTraded": [
+    11878,
+    9560
+   ],
+   "avgDuration": 4.167,
+   "avgSize": [
+    1.204,
+    1.204
+   ],
+   "sizeDist": {
+    "2v1": 3,
+    "3v2": 3,
+    "1v1": 17,
+    "2v2": 2,
+    "1v2": 2,
+    "1v4": 1
+   },
+   "zone": {
+    "own": 0,
+    "mid": 1,
+    "enemy": 0
+   },
+   "atOurSpawn": 0,
+   "atTheirSpawn": 0,
+   "nearAltar": 0.07,
+   "nearCamp": 0.26,
+   "weInitiateOnChannel": 0.16,
+   "channelTypesWhenWeInitiate": {
+    "tribute": 0,
+    "recall": 1,
+    "capture-tile": 4
+   },
+   "weInitiateOnCarrier": 0,
+   "avgFirstTargetGemsWhenWeInitiate": 0,
+   "weInitiateFromBush": 0.06,
+   "bushHitFrac": [
+    0.12,
+    0.178
+   ],
+   "firstActionsWhenWeInitiate": {
+    "Cast:Cc": 24,
+    "Cast:AoeDamage": 6,
+    "Attack": 2
+   },
+   "firstActionsWhenTheyInitiate": {
+    "Cast:Damage": 4,
+    "Attack": 5,
+    "Cast:Cc": 10,
+    "Cast:AoeDamage": 3
+   },
+   "startHpWhenWeInitiate": [
+    0.821,
+    0.746
+   ],
+   "abilitiesPerFight": [
+    {
+     "Attack": 1.98,
+     "Cc": 0.8,
+     "AoeDamage": 0.28,
+     "Damage": 0.11,
+     "Shield": 0.02
+    },
+    {
+     "Attack": 1.89,
+     "Cc": 0.31,
+     "AoeDamage": 0.3,
+     "Damage": 0.26,
+     "Shield": 0.07
+    }
+   ],
+   "supportPerFight": [
+    0.019,
+    0.074
+   ],
+   "dashes": [
+    {
+     "engage": 10,
+     "escape": 19
+    },
+    {
+     "engage": 7,
+     "escape": 7
+    }
+   ],
+   "focus": [
+    0.857,
+    0.9
+   ],
+   "targetChoice": [
+    {
+     "lowestHp": 0.792,
+     "mostGems": 0,
+     "ranged": 0.583
+    },
+    {
+     "lowestHp": 1,
+     "mostGems": 0,
+     "ranged": 0.5
+    }
+   ],
+   "openerTypeWhenWeInitiate": {
+    "Ren:Cast:Cc": 19,
+    "Ryth:Cast:AoeDamage": 5,
+    "Tavi:Cast:Cc": 3,
+    "Cassi:Cast:Cc": 2,
+    "Ren:Attack": 2,
+    "Stellar:Cast:AoeDamage": 1
+   },
+   "killConversionWhenWeInitiateOnRecall": 0,
+   "killConversionWhenWeInitiate": 0.13,
+   "timeToKillRounds": [
+    7.375,
+    3.667
+   ],
+   "campDeathContext": [
+    {
+     "n": 12,
+     "afterChampFight": 0.08,
+     "hpfAtEngage": 0.859,
+     "lowHpEngage": 0.08
+    },
+    {
+     "n": 12,
+     "afterChampFight": 0,
+     "hpfAtEngage": 0.977,
+     "lowHpEngage": 0
+    }
+   ],
+   "lastActHp": [
+    0.658,
+    0.696
+   ],
+   "recallHpInFight": [
+    0.526,
+    0.539
+   ],
+   "mapFeatures": {
+    "altars": 4,
+    "bushTiles": 132,
+    "wallTiles": 540,
+    "symmetry": "rotational180"
+   },
+   "size": "100x100",
+   "drafts": {
+    "Ren/Stellar/CassiAndIssac/Ryth/Varg": 1,
+    "Varg/Stellar/CassiAndIssac/Tavi/Ren": 1
+   }
+  },
+  "00collision": {
+   "games": 2,
+   "winRate": 1,
+   "fights": 76,
+   "fightsPer100Rounds": 3.59,
+   "significantFights": 42,
+   "initiatedByUs": 0.59,
+   "kills": [
+    22,
+    2
+   ],
+   "killsPerGame": [
+    11,
+    1
+   ],
+   "campDeathsPerGame": [
+    2.5,
+    15.5
+   ],
+   "fightWinRate": 0.74,
+   "killTradeWhenWeInitiate": [
+    16,
+    1
+   ],
+   "killTradeWhenTheyInitiate": [
+    6,
+    1
+   ],
+   "gemsStolenPerGame": [
+    100.5,
+    5.5
+   ],
+   "hpTraded": [
+    16611,
+    25527
+   ],
+   "avgDuration": 3.776,
+   "avgSize": [
+    1.566,
+    1.355
+   ],
+   "sizeDist": {
+    "3v3": 1,
+    "1v2": 4,
+    "2v1": 12,
+    "3v1": 3,
+    "2v2": 9,
+    "1v1": 8,
+    "1v3": 1,
+    "4v4": 1,
+    "3v4": 1,
+    "4v2": 2
+   },
+   "zone": {
+    "own": 0.01,
+    "mid": 0.93,
+    "enemy": 0.05
+   },
+   "atOurSpawn": 0,
+   "atTheirSpawn": 0,
+   "nearAltar": 0.03,
+   "nearCamp": 0.92,
+   "weInitiateOnChannel": 0.13,
+   "channelTypesWhenWeInitiate": {
+    "tribute": 1,
+    "recall": 2,
+    "capture-tile": 3
+   },
+   "weInitiateOnCarrier": 0.64,
+   "avgFirstTargetGemsWhenWeInitiate": 6.622,
+   "weInitiateFromBush": 0,
+   "bushHitFrac": [
+    0,
+    0
+   ],
+   "firstActionsWhenWeInitiate": {
+    "Cast:Cc": 12,
+    "Cast:Damage": 8,
+    "Cast:AoeDamage": 19,
+    "Attack": 6
+   },
+   "firstActionsWhenTheyInitiate": {
+    "Cast:Damage": 7,
+    "Attack": 5,
+    "Cast:Cc": 16,
+    "Cast:AoeDamage": 3
+   },
+   "startHpWhenWeInitiate": [
+    0.913,
+    0.806
+   ],
+   "abilitiesPerFight": [
+    {
+     "Attack": 1.58,
+     "AoeDamage": 0.59,
+     "Damage": 0.43,
+     "Cc": 0.42,
+     "Shield": 0.17
+    },
+    {
+     "Attack": 1.04,
+     "Cc": 0.41,
+     "Damage": 0.39,
+     "AoeDamage": 0.2
+    }
+   ],
+   "supportPerFight": [
+    0.171,
+    0
+   ],
+   "dashes": [
+    {
+     "engage": 13,
+     "escape": 18
+    },
+    {
+     "engage": 20,
+     "escape": 8
+    }
+   ],
+   "focus": [
+    0.864,
+    0.75
+   ],
+   "targetChoice": [
+    {
+     "lowestHp": 0.935,
+     "mostGems": 0.69,
+     "ranged": 0.452
+    },
+    {
+     "lowestHp": 0.908,
+     "mostGems": 0.244,
+     "ranged": 0.269
+    }
+   ],
+   "openerTypeWhenWeInitiate": {
+    "Ren:Cast:Cc": 10,
+    "Stellar:Cast:AoeDamage": 10,
+    "Ryth:Cast:AoeDamage": 9,
+    "Stellar:Cast:Damage": 4,
+    "Issac:Attack": 4,
+    "Cassi:Cast:Damage": 4,
+    "Cassi:Cast:Cc": 2,
+    "Ren:Attack": 1
+   },
+   "killConversionWhenWeInitiateOnRecall": 0,
+   "killConversionWhenWeInitiate": 0.31,
+   "timeToKillRounds": [
+    2.5,
+    5.5
+   ],
+   "campDeathContext": [
+    {
+     "n": 5,
+     "afterChampFight": 0.2,
+     "hpfAtEngage": 0.907,
+     "lowHpEngage": 0
+    },
+    {
+     "n": 31,
+     "afterChampFight": 0.03,
+     "hpfAtEngage": 0.935,
+     "lowHpEngage": 0
+    }
+   ],
+   "lastActHp": [
+    0.825,
+    0.753
+   ],
+   "recallHpInFight": [
+    0.647,
+    0.293
+   ],
+   "mapFeatures": {
+    "altars": 2,
+    "bushTiles": 222,
+    "wallTiles": 84,
+    "symmetry": "vertical"
+   },
+   "size": "41x41",
+   "drafts": {
+    "Ren/Stellar/CassiAndIssac": 1,
+    "Varg/Ryth/CassiAndIssac": 1
+   }
+  },
+  "00contest": {
+   "games": 2,
+   "winRate": 1,
+   "fights": 245,
+   "fightsPer100Rounds": 6.13,
+   "significantFights": 142,
+   "initiatedByUs": 0.69,
+   "kills": [
+    69,
+    8
+   ],
+   "killsPerGame": [
+    34.5,
+    4
+   ],
+   "campDeathsPerGame": [
+    10,
+    65.5
+   ],
+   "fightWinRate": 0.78,
+   "killTradeWhenWeInitiate": [
+    49,
+    4
+   ],
+   "killTradeWhenTheyInitiate": [
+    20,
+    4
+   ],
+   "gemsStolenPerGame": [
+    0,
+    0
+   ],
+   "hpTraded": [
+    50501,
+    124846
+   ],
+   "avgDuration": 4.588,
+   "avgSize": [
+    1.58,
+    1.388
+   ],
+   "sizeDist": {
+    "5v5": 1,
+    "5v6": 1,
+    "5v4": 1,
+    "3v2": 13,
+    "3v1": 5,
+    "2v2": 13,
+    "2v1": 35,
+    "1v2": 15,
+    "4v2": 3,
+    "1v1": 41,
+    "4v3": 2,
+    "4v5": 1,
+    "3v3": 4,
+    "4v4": 1,
+    "6v6": 1,
+    "2v3": 3,
+    "1v3": 2
+   },
+   "zone": {
+    "own": 0,
+    "mid": 0.92,
+    "enemy": 0.08
+   },
+   "atOurSpawn": 0,
+   "atTheirSpawn": 0,
+   "nearAltar": 0.13,
+   "nearCamp": 0.69,
+   "weInitiateOnChannel": 0.16,
+   "channelTypesWhenWeInitiate": {
+    "tribute": 0,
+    "recall": 11,
+    "capture-tile": 16
+   },
+   "weInitiateOnCarrier": 0,
+   "avgFirstTargetGemsWhenWeInitiate": 0,
+   "weInitiateFromBush": 0.15,
+   "bushHitFrac": [
+    0.171,
+    0.174
+   ],
+   "firstActionsWhenWeInitiate": {
+    "Cast:Damage": 28,
+    "Cast:Cc": 45,
+    "Cast:AoeDamage": 70,
+    "Attack": 25
+   },
+   "firstActionsWhenTheyInitiate": {
+    "Cast:Cc": 63,
+    "Cast:Damage": 9,
+    "Attack": 5
+   },
+   "startHpWhenWeInitiate": [
+    0.928,
+    0.838
+   ],
+   "abilitiesPerFight": [
+    {
+     "Attack": 1.96,
+     "AoeDamage": 0.76,
+     "Cc": 0.53,
+     "Damage": 0.5,
+     "Shield": 0.14
+    },
+    {
+     "Attack": 1.72,
+     "Cc": 0.57,
+     "AoeDamage": 0.24,
+     "Damage": 0.22
+    }
+   ],
+   "supportPerFight": [
+    0.139,
+    0
+   ],
+   "dashes": [
+    {
+     "engage": 67,
+     "escape": 62
+    },
+    {
+     "engage": 37,
+     "escape": 58
+    }
+   ],
+   "focus": [
+    0.872,
+    0.786
+   ],
+   "targetChoice": [
+    {
+     "lowestHp": 0.764,
+     "mostGems": 0,
+     "ranged": 0.595
+    },
+    {
+     "lowestHp": 0.909,
+     "mostGems": 0,
+     "ranged": 0.574
+    }
+   ],
+   "openerTypeWhenWeInitiate": {
+    "Ryth:Cast:AoeDamage": 34,
+    "Stellar:Cast:AoeDamage": 29,
+    "Ren:Cast:Cc": 20,
+    "Cassi:Cast:Cc": 20,
+    "Cassi:Cast:Damage": 16,
+    "Stellar:Cast:Damage": 12,
+    "Varg:Attack": 10,
+    "Prism:Cast:AoeDamage": 7
+   },
+   "killConversionWhenWeInitiateOnRecall": 0.64,
+   "killConversionWhenWeInitiate": 0.27,
+   "timeToKillRounds": [
+    4.871,
+    5.5
+   ],
+   "campDeathContext": [
+    {
+     "n": 20,
+     "afterChampFight": 0.05,
+     "hpfAtEngage": 0.898,
+     "lowHpEngage": 0.1
+    },
+    {
+     "n": 131,
+     "afterChampFight": 0.07,
+     "hpfAtEngage": 0.961,
+     "lowHpEngage": 0
+    }
+   ],
+   "lastActHp": [
+    0.858,
+    0.771
+   ],
+   "recallHpInFight": [
+    0.73,
+    0.297
+   ],
+   "mapFeatures": {
+    "altars": 2,
+    "bushTiles": 26,
+    "wallTiles": 40,
+    "symmetry": "rotational180"
+   },
+   "size": "50x50",
+   "drafts": {
+    "Prism/Stellar/CassiAndIssac/Ryth/Ren": 1,
+    "Ren/Stellar/CassiAndIssac/Ryth/Varg": 1
+   }
+  },
+  "00corners": {
+   "games": 2,
+   "winRate": 1,
+   "fights": 114,
+   "fightsPer100Rounds": 5.53,
+   "significantFights": 59,
+   "initiatedByUs": 0.68,
+   "kills": [
+    21,
+    7
+   ],
+   "killsPerGame": [
+    10.5,
+    3.5
+   ],
+   "campDeathsPerGame": [
+    7.5,
+    16
+   ],
+   "fightWinRate": 0.64,
+   "killTradeWhenWeInitiate": [
+    15,
+    4
+   ],
+   "killTradeWhenTheyInitiate": [
+    6,
+    3
+   ],
+   "gemsStolenPerGame": [
+    93,
+    13
+   ],
+   "hpTraded": [
+    26033,
+    31802
+   ],
+   "avgDuration": 3.491,
+   "avgSize": [
+    1.447,
+    1.202
+   ],
+   "sizeDist": {
+    "2v2": 4,
+    "2v1": 20,
+    "4v2": 1,
+    "1v1": 19,
+    "3v2": 6,
+    "4v1": 1,
+    "1v2": 6,
+    "2v3": 1,
+    "3v1": 1
+   },
+   "zone": {
+    "own": 0.11,
+    "mid": 0.88,
+    "enemy": 0.01
+   },
+   "atOurSpawn": 0,
+   "atTheirSpawn": 0,
+   "nearAltar": 0.18,
+   "nearCamp": 0.69,
+   "weInitiateOnChannel": 0.25,
+   "channelTypesWhenWeInitiate": {
+    "tribute": 3,
+    "recall": 5,
+    "capture-tile": 11
+   },
+   "weInitiateOnCarrier": 0.61,
+   "avgFirstTargetGemsWhenWeInitiate": 8.675,
+   "weInitiateFromBush": 0.04,
+   "bushHitFrac": [
+    0.025,
+    0.049
+   ],
+   "firstActionsWhenWeInitiate": {
+    "Cast:AoeDamage": 37,
+    "Cast:Cc": 23,
+    "Cast:Damage": 8,
+    "Attack": 9
+   },
+   "firstActionsWhenTheyInitiate": {
+    "Cast:AoeDamage": 9,
+    "Cast:Cc": 16,
+    "Cast:Damage": 9,
+    "Attack": 3
+   },
+   "startHpWhenWeInitiate": [
+    0.783,
+    0.735
+   ],
+   "abilitiesPerFight": [
+    {
+     "Attack": 1.38,
+     "AoeDamage": 0.68,
+     "Cc": 0.51,
+     "Damage": 0.3,
+     "Shield": 0.02
+    },
+    {
+     "Attack": 0.82,
+     "Cc": 0.31,
+     "AoeDamage": 0.18,
+     "Damage": 0.16,
+     "Shield": 0.14
+    }
+   ],
+   "supportPerFight": [
+    0.018,
+    0.14
+   ],
+   "dashes": [
+    {
+     "engage": 17,
+     "escape": 30
+    },
+    {
+     "engage": 13,
+     "escape": 25
+    }
+   ],
+   "focus": [
+    0.845,
+    0.607
+   ],
+   "targetChoice": [
+    {
+     "lowestHp": 0.733,
+     "mostGems": 0.3,
+     "ranged": 0.3
+    },
+    {
+     "lowestHp": 1,
+     "mostGems": 0.231,
+     "ranged": 0.5
+    }
+   ],
+   "openerTypeWhenWeInitiate": {
+    "Ryth:Cast:AoeDamage": 23,
+    "Stellar:Cast:AoeDamage": 14,
+    "Ren:Cast:Cc": 14,
+    "Cassi:Cast:Cc": 9,
+    "Stellar:Cast:Damage": 4,
+    "Cassi:Cast:Damage": 4,
+    "Ryth:Attack": 4,
+    "Issac:Attack": 3
+   },
+   "killConversionWhenWeInitiateOnRecall": 0.6,
+   "killConversionWhenWeInitiate": 0.19,
+   "timeToKillRounds": [
+    4.667,
+    4.429
+   ],
+   "campDeathContext": [
+    {
+     "n": 15,
+     "afterChampFight": 0.33,
+     "hpfAtEngage": 0.874,
+     "lowHpEngage": 0.07
+    },
+    {
+     "n": 32,
+     "afterChampFight": 0.19,
+     "hpfAtEngage": 0.923,
+     "lowHpEngage": 0.03
+    }
+   ],
+   "lastActHp": [
+    0.682,
+    0.712
+   ],
+   "recallHpInFight": [
+    0.464,
+    0.347
+   ],
+   "mapFeatures": {
+    "altars": 5,
+    "bushTiles": 60,
+    "wallTiles": 44,
+    "symmetry": "horizontal"
+   },
+   "size": "71x71",
+   "drafts": {
+    "Varg/Stellar/CassiAndIssac/Ryth/Ren": 1,
+    "Ren/Stellar/CassiAndIssac/Ryth/Varg": 1
+   }
+  },
+  "00eight": {
+   "games": 2,
+   "winRate": 1,
+   "fights": 72,
+   "fightsPer100Rounds": 4.4,
+   "significantFights": 31,
+   "initiatedByUs": 0.76,
+   "kills": [
+    20,
+    2
+   ],
+   "killsPerGame": [
+    10,
+    1
+   ],
+   "campDeathsPerGame": [
+    4.5,
+    18
+   ],
+   "fightWinRate": 0.87,
+   "killTradeWhenWeInitiate": [
+    18,
+    2
+   ],
+   "killTradeWhenTheyInitiate": [
+    2,
+    0
+   ],
+   "gemsStolenPerGame": [
+    70,
+    0
+   ],
+   "hpTraded": [
+    12859,
+    25795
+   ],
+   "avgDuration": 3.667,
+   "avgSize": [
+    1.431,
+    1.306
+   ],
+   "sizeDist": {
+    "1v1": 11,
+    "2v1": 10,
+    "3v1": 1,
+    "4v2": 1,
+    "6v6": 1,
+    "3v3": 1,
+    "5v5": 1,
+    "2v2": 2,
+    "3v2": 1,
+    "1v2": 1,
+    "2v5": 1
+   },
+   "zone": {
+    "own": 0.03,
+    "mid": 0.75,
+    "enemy": 0.22
+   },
+   "atOurSpawn": 0,
+   "atTheirSpawn": 0,
+   "nearAltar": 0.21,
+   "nearCamp": 0.67,
+   "weInitiateOnChannel": 0.27,
+   "channelTypesWhenWeInitiate": {
+    "tribute": 2,
+    "recall": 5,
+    "capture-tile": 8
+   },
+   "weInitiateOnCarrier": 0.53,
+   "avgFirstTargetGemsWhenWeInitiate": 11.6,
+   "weInitiateFromBush": 0.13,
+   "bushHitFrac": [
+    0.145,
+    0.152
+   ],
+   "firstActionsWhenWeInitiate": {
+    "Cast:AoeDamage": 27,
+    "Attack": 9,
+    "Cast:Damage": 10,
+    "Cast:Cc": 9
+   },
+   "firstActionsWhenTheyInitiate": {
+    "Cast:AoeDamage": 10,
+    "Attack": 3,
+    "Cast:Cc": 2,
+    "Cast:Damage": 2
+   },
+   "startHpWhenWeInitiate": [
+    0.842,
+    0.763
+   ],
+   "abilitiesPerFight": [
+    {
+     "Attack": 1.85,
+     "AoeDamage": 0.75,
+     "Damage": 0.38,
+     "Cc": 0.32,
+     "Shield": 0.1,
+     "Heal": 0.06
+    },
+    {
+     "Attack": 0.94,
+     "AoeDamage": 0.36,
+     "Damage": 0.19,
+     "Cc": 0.14,
+     "Shield": 0.1
+    }
+   ],
+   "supportPerFight": [
+    0.153,
+    0.097
+   ],
+   "dashes": [
+    {
+     "engage": 14,
+     "escape": 16
+    },
+    {
+     "engage": 6,
+     "escape": 16
+    }
+   ],
+   "focus": [
+    0.855,
+    0.7
+   ],
+   "targetChoice": [
+    {
+     "lowestHp": 0.708,
+     "mostGems": 0.25,
+     "ranged": 0.042
+    },
+    {
+     "lowestHp": 1,
+     "mostGems": 0.182,
+     "ranged": 0.273
+    }
+   ],
+   "openerTypeWhenWeInitiate": {
+    "Ryth:Cast:AoeDamage": 21,
+    "Cassi:Cast:Cc": 7,
+    "Stellar:Cast:AoeDamage": 6,
+    "Stellar:Cast:Damage": 6,
+    "Cassi:Cast:Damage": 4,
+    "Willow:Attack": 3,
+    "Ren:Cast:Cc": 2,
+    "Varg:Attack": 2
+   },
+   "killConversionWhenWeInitiateOnRecall": 0.4,
+   "killConversionWhenWeInitiate": 0.25,
+   "timeToKillRounds": [
+    3.143,
+    9.5
+   ],
+   "campDeathContext": [
+    {
+     "n": 9,
+     "afterChampFight": 0.33,
+     "hpfAtEngage": 0.939,
+     "lowHpEngage": 0
+    },
+    {
+     "n": 36,
+     "afterChampFight": 0.11,
+     "hpfAtEngage": 0.931,
+     "lowHpEngage": 0.03
+    }
+   ],
+   "lastActHp": [
+    0.743,
+    0.724
+   ],
+   "recallHpInFight": [
+    0.498,
+    0.394
+   ],
+   "mapFeatures": {
+    "altars": 1,
+    "bushTiles": 24,
+    "wallTiles": 36,
+    "symmetry": "horizontal"
+   },
+   "size": "41x30",
+   "drafts": {
+    "Varg/Stellar/CassiAndIssac/Ryth/Ren": 1,
+    "Varg/Vendetta/CassiAndIssac/Willow/Ryth": 1
+   }
+  },
+  "00elkring": {
+   "games": 2,
+   "winRate": 1,
+   "fights": 78,
+   "fightsPer100Rounds": 5.66,
+   "significantFights": 44,
+   "initiatedByUs": 0.86,
+   "kills": [
+    24,
+    1
+   ],
+   "killsPerGame": [
+    12,
+    0.5
+   ],
+   "campDeathsPerGame": [
+    1,
+    11.5
+   ],
+   "fightWinRate": 0.77,
+   "killTradeWhenWeInitiate": [
+    23,
+    1
+   ],
+   "killTradeWhenTheyInitiate": [
+    1,
+    0
+   ],
+   "gemsStolenPerGame": [
+    104.5,
+    5.5
+   ],
+   "hpTraded": [
+    13061,
+    25877
+   ],
+   "avgDuration": 3.872,
+   "avgSize": [
+    1.346,
+    1.321
+   ],
+   "sizeDist": {
+    "1v1": 19,
+    "3v4": 2,
+    "2v1": 10,
+    "1v2": 3,
+    "2v2": 5,
+    "2v3": 2,
+    "3v1": 1,
+    "4v3": 1,
+    "2v4": 1
+   },
+   "zone": {
+    "own": 0,
+    "mid": 0.5,
+    "enemy": 0.5
+   },
+   "atOurSpawn": 0,
+   "atTheirSpawn": 0,
+   "nearAltar": 0.04,
+   "nearCamp": 0.83,
+   "weInitiateOnChannel": 0.18,
+   "channelTypesWhenWeInitiate": {
+    "tribute": 1,
+    "recall": 1,
+    "capture-tile": 10
+   },
+   "weInitiateOnCarrier": 0.46,
+   "avgFirstTargetGemsWhenWeInitiate": 9.522,
+   "weInitiateFromBush": 0.01,
+   "bushHitFrac": [
+    0.006,
+    0
+   ],
+   "firstActionsWhenWeInitiate": {
+    "Cast:Cc": 29,
+    "Cast:AoeDamage": 22,
+    "Cast:Damage": 11,
+    "Attack": 5
+   },
+   "firstActionsWhenTheyInitiate": {
+    "Cast:Damage": 5,
+    "Attack": 1,
+    "Cast:AoeDamage": 4,
+    "Cast:Cc": 1
+   },
+   "startHpWhenWeInitiate": [
+    0.795,
+    0.73
+   ],
+   "abilitiesPerFight": [
+    {
+     "Attack": 1.67,
+     "Cc": 0.88,
+     "AoeDamage": 0.55,
+     "Damage": 0.4,
+     "Shield": 0.01
+    },
+    {
+     "Attack": 0.62,
+     "Damage": 0.24,
+     "AoeDamage": 0.21,
+     "Cc": 0.1,
+     "Shield": 0.1
+    }
+   ],
+   "supportPerFight": [
+    0.013,
+    0.103
+   ],
+   "dashes": [
+    {
+     "engage": 9,
+     "escape": 16
+    },
+    {
+     "engage": 8,
+     "escape": 15
+    }
+   ],
+   "focus": [
+    0.833,
+    0.917
+   ],
+   "targetChoice": [
+    {
+     "lowestHp": 0.813,
+     "mostGems": 0.375,
+     "ranged": 0.313
+    },
+    {
+     "lowestHp": 0.96,
+     "mostGems": 0.56,
+     "ranged": 0.2
+    }
+   ],
+   "openerTypeWhenWeInitiate": {
+    "Ren:Cast:Cc": 11,
+    "Stellar:Cast:AoeDamage": 10,
+    "Cassi:Cast:Cc": 9,
+    "Tavi:Cast:Cc": 8,
+    "Prism:Cast:AoeDamage": 6,
+    "Cassi:Cast:Damage": 6,
+    "Ryth:Cast:AoeDamage": 6,
+    "Stellar:Cast:Damage": 5
+   },
+   "killConversionWhenWeInitiateOnRecall": 0,
+   "killConversionWhenWeInitiate": 0.33,
+   "timeToKillRounds": [
+    3.375,
+    14
+   ],
+   "campDeathContext": [
+    {
+     "n": 2,
+     "afterChampFight": 0,
+     "hpfAtEngage": 0.965,
+     "lowHpEngage": 0
+    },
+    {
+     "n": 23,
+     "afterChampFight": 0.22,
+     "hpfAtEngage": 0.935,
+     "lowHpEngage": 0.04
+    }
+   ],
+   "lastActHp": [
+    0.743,
+    0.71
+   ],
+   "recallHpInFight": [
+    0.514,
+    0.241
+   ],
+   "mapFeatures": {
+    "altars": 2,
+    "bushTiles": 36,
+    "wallTiles": 0,
+    "symmetry": "rotational180"
+   },
+   "size": "30x30",
+   "drafts": {
+    "Stellar/CassiAndIssac/Ren/Tavi/Prism": 1,
+    "Ren/Stellar/CassiAndIssac/Ryth/Varg": 1
+   }
+  },
+  "00expanse": {
+   "games": 4,
+   "winRate": 1,
+   "fights": 17,
+   "fightsPer100Rounds": 0.37,
+   "significantFights": 3,
+   "initiatedByUs": 0.82,
+   "kills": [
+    1,
+    0
+   ],
+   "killsPerGame": [
+    0.25,
+    0
+   ],
+   "campDeathsPerGame": [
+    1.75,
+    1
+   ],
+   "fightWinRate": 0.67,
+   "killTradeWhenWeInitiate": [
+    1,
+    0
+   ],
+   "killTradeWhenTheyInitiate": [
+    0,
+    0
+   ],
+   "gemsStolenPerGame": [
+    0,
+    0
+   ],
+   "hpTraded": [
+    500,
+    2189
+   ],
+   "avgDuration": 1.529,
+   "avgSize": [
+    1,
+    1
+   ],
+   "sizeDist": {
+    "1v1": 3
+   },
+   "zone": {
+    "own": 0,
+    "mid": 0.88,
+    "enemy": 0.12
+   },
+   "atOurSpawn": 0,
+   "atTheirSpawn": 0,
+   "nearAltar": 0.06,
+   "nearCamp": 0.53,
+   "weInitiateOnChannel": 0.21,
+   "channelTypesWhenWeInitiate": {
+    "tribute": 0,
+    "recall": 1,
+    "capture-tile": 2
+   },
+   "weInitiateOnCarrier": 0.07,
+   "avgFirstTargetGemsWhenWeInitiate": 3.143,
+   "weInitiateFromBush": 0,
+   "bushHitFrac": [
+    0,
+    0
+   ],
+   "firstActionsWhenWeInitiate": {
+    "Cast:Cc": 8,
+    "Cast:AoeDamage": 6
+   },
+   "firstActionsWhenTheyInitiate": {
+    "Cast:Cc": 2,
+    "Cast:Damage": 1
+   },
+   "startHpWhenWeInitiate": [
+    0.867,
+    0.7
+   ],
+   "abilitiesPerFight": [
+    {
+     "Cc": 0.47,
+     "AoeDamage": 0.35,
+     "Damage": 0.24,
+     "Attack": 0.24,
+     "Shield": 0.06
+    },
+    {
+     "Attack": 0.18,
+     "Cc": 0.12,
+     "Shield": 0.12,
+     "Damage": 0.06
+    }
+   ],
+   "supportPerFight": [
+    0.059,
+    0.118
+   ],
+   "dashes": [
+    {
+     "engage": 2,
+     "escape": 1
+    },
+    {
+     "engage": 0,
+     "escape": 3
+    }
+   ],
+   "focus": [
+    null,
+    null
+   ],
+   "targetChoice": [
+    {
+     "lowestHp": null,
+     "mostGems": null,
+     "ranged": null
+    },
+    {
+     "lowestHp": null,
+     "mostGems": null,
+     "ranged": null
+    }
+   ],
+   "openerTypeWhenWeInitiate": {
+    "Ryth:Cast:AoeDamage": 6,
+    "Ren:Cast:Cc": 4,
+    "Cassi:Cast:Cc": 4
+   },
+   "killConversionWhenWeInitiateOnRecall": 0,
+   "killConversionWhenWeInitiate": 0.07,
+   "timeToKillRounds": [
+    1,
+    null
+   ],
+   "campDeathContext": [
+    {
+     "n": 7,
+     "afterChampFight": 0,
+     "hpfAtEngage": 0.921,
+     "lowHpEngage": 0
+    },
+    {
+     "n": 4,
+     "afterChampFight": 0.25,
+     "hpfAtEngage": 0.88,
+     "lowHpEngage": 0
+    }
+   ],
+   "lastActHp": [
+    0.867,
+    0.884
+   ],
+   "recallHpInFight": [
+    0.837,
+    0.194
+   ],
+   "mapFeatures": {
+    "altars": 10,
+    "bushTiles": 0,
+    "wallTiles": 224,
+    "symmetry": "rotational180"
+   },
+   "size": "80x80",
+   "drafts": {
+    "Ren/Stellar/CassiAndIssac/Ryth/Varg": 2,
+    "CassiAndIssac/Stellar/Varg/Tavi/Ren": 1,
+    "Varg/Ryth/CassiAndIssac/Ren/Stellar": 1
+   }
+  },
+  "00fragment": {
+   "games": 2,
+   "winRate": 1,
+   "fights": 97,
+   "fightsPer100Rounds": 3.29,
+   "significantFights": 52,
+   "initiatedByUs": 0.7,
+   "kills": [
+    23,
+    5
+   ],
+   "killsPerGame": [
+    11.5,
+    2.5
+   ],
+   "campDeathsPerGame": [
+    6.5,
+    40.5
+   ],
+   "fightWinRate": 0.65,
+   "killTradeWhenWeInitiate": [
+    19,
+    4
+   ],
+   "killTradeWhenTheyInitiate": [
+    4,
+    1
+   ],
+   "gemsStolenPerGame": [
+    12,
+    6
+   ],
+   "hpTraded": [
+    27354,
+    34489
+   ],
+   "avgDuration": 4.021,
+   "avgSize": [
+    1.412,
+    1.526
+   ],
+   "sizeDist": {
+    "1v2": 9,
+    "3v4": 2,
+    "1v1": 12,
+    "3v3": 5,
+    "1v4": 1,
+    "2v1": 10,
+    "3v2": 1,
+    "2v2": 5,
+    "1v3": 2,
+    "2v3": 4,
+    "4v3": 1
+   },
+   "zone": {
+    "own": 0,
+    "mid": 0.47,
+    "enemy": 0.53
+   },
+   "atOurSpawn": 0,
+   "atTheirSpawn": 0,
+   "nearAltar": 0.01,
+   "nearCamp": 0.66,
+   "weInitiateOnChannel": 0.07,
+   "channelTypesWhenWeInitiate": {
+    "tribute": 0,
+    "recall": 0,
+    "capture-tile": 5
+   },
+   "weInitiateOnCarrier": 0.18,
+   "avgFirstTargetGemsWhenWeInitiate": 0.765,
+   "weInitiateFromBush": 0.04,
+   "bushHitFrac": [
+    0.046,
+    0.141
+   ],
+   "firstActionsWhenWeInitiate": {
+    "Cast:Cc": 33,
+    "Cast:AoeDamage": 21,
+    "Cast:Damage": 11,
+    "Attack": 3
+   },
+   "firstActionsWhenTheyInitiate": {
+    "Cast:AoeDamage": 2,
+    "Cast:Cc": 14,
+    "Cast:Damage": 8,
+    "Attack": 5
+   },
+   "startHpWhenWeInitiate": [
+    0.849,
+    0.893
+   ],
+   "abilitiesPerFight": [
+    {
+     "Attack": 1.18,
+     "Cc": 0.75,
+     "AoeDamage": 0.45,
+     "Damage": 0.37
+    },
+    {
+     "Attack": 1.31,
+     "Cc": 0.44,
+     "Damage": 0.36,
+     "AoeDamage": 0.26
+    }
+   ],
+   "supportPerFight": [
+    0,
+    0
+   ],
+   "dashes": [
+    {
+     "engage": 21,
+     "escape": 28
+    },
+    {
+     "engage": 31,
+     "escape": 28
+    }
+   ],
+   "focus": [
+    0.731,
+    0.902
+   ],
+   "targetChoice": [
+    {
+     "lowestHp": 0.69,
+     "mostGems": 0.083,
+     "ranged": 0.798
+    },
+    {
+     "lowestHp": 0.909,
+     "mostGems": 0.273,
+     "ranged": 0.364
+    }
+   ],
+   "openerTypeWhenWeInitiate": {
+    "Stellar:Cast:AoeDamage": 21,
+    "Ren:Cast:Cc": 18,
+    "Stellar:Cast:Damage": 10,
+    "Tavi:Cast:Cc": 9,
+    "Cassi:Cast:Cc": 6,
+    "Ren:Attack": 2,
+    "Issac:Attack": 1,
+    "Cassi:Cast:Damage": 1
+   },
+   "killConversionWhenWeInitiateOnRecall": null,
+   "killConversionWhenWeInitiate": 0.22,
+   "timeToKillRounds": [
+    3.083,
+    4.8
+   ],
+   "campDeathContext": [
+    {
+     "n": 13,
+     "afterChampFight": 0.23,
+     "hpfAtEngage": 0.872,
+     "lowHpEngage": 0
+    },
+    {
+     "n": 81,
+     "afterChampFight": 0.09,
+     "hpfAtEngage": 0.98,
+     "lowHpEngage": 0
+    }
+   ],
+   "lastActHp": [
+    0.737,
+    0.732
+   ],
+   "recallHpInFight": [
+    0.615,
+    0.279
+   ],
+   "mapFeatures": {
+    "altars": 2,
+    "bushTiles": 24,
+    "wallTiles": 24,
+    "symmetry": "rotational180"
+   },
+   "size": "30x30",
+   "drafts": {
+    "Stellar/Ren/Tavi": 1,
+    "Ren/Stellar/CassiAndIssac": 1
+   }
+  },
+  "00interlock": {
+   "games": 4,
+   "winRate": 1,
+   "fights": 206,
+   "fightsPer100Rounds": 4.49,
+   "significantFights": 119,
+   "initiatedByUs": 0.66,
+   "kills": [
+    64,
+    6
+   ],
+   "killsPerGame": [
+    16,
+    1.5
+   ],
+   "campDeathsPerGame": [
+    5.75,
+    15.75
+   ],
+   "fightWinRate": 0.79,
+   "killTradeWhenWeInitiate": [
+    42,
+    2
+   ],
+   "killTradeWhenTheyInitiate": [
+    22,
+    4
+   ],
+   "gemsStolenPerGame": [
+    21.8,
+    2.8
+   ],
+   "hpTraded": [
+    37552,
+    67517
+   ],
+   "avgDuration": 4.325,
+   "avgSize": [
+    1.369,
+    1.204
+   ],
+   "sizeDist": {
+    "4v2": 3,
+    "2v2": 7,
+    "1v1": 55,
+    "4v1": 1,
+    "2v1": 26,
+    "3v3": 1,
+    "5v2": 1,
+    "5v3": 1,
+    "3v1": 4,
+    "3v2": 3,
+    "1v2": 13,
+    "5v4": 1,
+    "2v3": 2,
+    "1v3": 1
+   },
+   "zone": {
+    "own": 0.02,
+    "mid": 0.93,
+    "enemy": 0.05
+   },
+   "atOurSpawn": 0,
+   "atTheirSpawn": 0,
+   "nearAltar": 0.09,
+   "nearCamp": 0.25,
+   "weInitiateOnChannel": 0.1,
+   "channelTypesWhenWeInitiate": {
+    "tribute": 5,
+    "recall": 6,
+    "capture-tile": 3
+   },
+   "weInitiateOnCarrier": 0.24,
+   "avgFirstTargetGemsWhenWeInitiate": 2.007,
+   "weInitiateFromBush": 0.15,
+   "bushHitFrac": [
+    0.119,
+    0.101
+   ],
+   "firstActionsWhenWeInitiate": {
+    "Cast:Damage": 17,
+    "Cast:Cc": 53,
+    "Attack": 18,
+    "Cast:AoeDamage": 47
+   },
+   "firstActionsWhenTheyInitiate": {
+    "Cast:AoeDamage": 33,
+    "Cast:Cc": 15,
+    "Cast:Damage": 17,
+    "Attack": 6
+   },
+   "startHpWhenWeInitiate": [
+    0.822,
+    0.752
+   ],
+   "abilitiesPerFight": [
+    {
+     "Attack": 1.8,
+     "Cc": 0.64,
+     "AoeDamage": 0.54,
+     "Damage": 0.36,
+     "Shield": 0.06
+    },
+    {
+     "Attack": 0.79,
+     "AoeDamage": 0.36,
+     "Cc": 0.24,
+     "Damage": 0.23
+    }
+   ],
+   "supportPerFight": [
+    0.058,
+    0
+   ],
+   "dashes": [
+    {
+     "engage": 27,
+     "escape": 40
+    },
+    {
+     "engage": 33,
+     "escape": 37
+    }
+   ],
+   "focus": [
+    0.861,
+    0.988
+   ],
+   "targetChoice": [
+    {
+     "lowestHp": 0.885,
+     "mostGems": 0.084,
+     "ranged": 0.451
+    },
+    {
+     "lowestHp": 0.806,
+     "mostGems": 0.111,
+     "ranged": 0.417
+    }
+   ],
+   "openerTypeWhenWeInitiate": {
+    "Ren:Cast:Cc": 28,
+    "Ryth:Cast:AoeDamage": 25,
+    "Stellar:Cast:AoeDamage": 22,
+    "Tavi:Cast:Cc": 15,
+    "Stellar:Cast:Damage": 10,
+    "Cassi:Cast:Cc": 10,
+    "Cassi:Cast:Damage": 7,
+    "Tavi:Attack": 4
+   },
+   "killConversionWhenWeInitiateOnRecall": 0.83,
+   "killConversionWhenWeInitiate": 0.3,
+   "timeToKillRounds": [
+    4.609,
+    5.167
+   ],
+   "campDeathContext": [
+    {
+     "n": 23,
+     "afterChampFight": 0.22,
+     "hpfAtEngage": 0.857,
+     "lowHpEngage": 0.09
+    },
+    {
+     "n": 63,
+     "afterChampFight": 0.19,
+     "hpfAtEngage": 0.932,
+     "lowHpEngage": 0
+    }
+   ],
+   "lastActHp": [
+    0.741,
+    0.712
+   ],
+   "recallHpInFight": [
+    0.615,
+    0.373
+   ],
+   "mapFeatures": {
+    "altars": 4,
+    "bushTiles": 38,
+    "wallTiles": 76,
+    "symmetry": "rotational180"
+   },
+   "size": "40x40",
+   "drafts": {
+    "Ren/Stellar/CassiAndIssac/Ryth": 2,
+    "Stellar/Ren/Tavi/CassiAndIssac": 1,
+    "CassiAndIssac/Stellar/Varg/Ryth": 1
+   }
+  },
+  "00lanes": {
+   "games": 2,
+   "winRate": 1,
+   "fights": 78,
+   "fightsPer100Rounds": 2.9,
+   "significantFights": 33,
+   "initiatedByUs": 0.76,
+   "kills": [
+    13,
+    2
+   ],
+   "killsPerGame": [
+    6.5,
+    1
+   ],
+   "campDeathsPerGame": [
+    10.5,
+    12
+   ],
+   "fightWinRate": 0.79,
+   "killTradeWhenWeInitiate": [
+    11,
+    0
+   ],
+   "killTradeWhenTheyInitiate": [
+    2,
+    2
+   ],
+   "gemsStolenPerGame": [
+    4,
+    17
+   ],
+   "hpTraded": [
+    15112,
+    22958
+   ],
+   "avgDuration": 3.769,
+   "avgSize": [
+    1.385,
+    1.256
+   ],
+   "sizeDist": {
+    "3v3": 2,
+    "2v1": 9,
+    "3v4": 2,
+    "1v1": 12,
+    "4v4": 1,
+    "2v2": 2,
+    "3v1": 2,
+    "1v2": 2,
+    "4v2": 1
+   },
+   "zone": {
+    "own": 0.1,
+    "mid": 0.81,
+    "enemy": 0.09
+   },
+   "atOurSpawn": 0,
+   "atTheirSpawn": 0,
+   "nearAltar": 0.06,
+   "nearCamp": 0.82,
+   "weInitiateOnChannel": 0.1,
+   "channelTypesWhenWeInitiate": {
+    "tribute": 0,
+    "recall": 1,
+    "capture-tile": 5
+   },
+   "weInitiateOnCarrier": 0.12,
+   "avgFirstTargetGemsWhenWeInitiate": 0.847,
+   "weInitiateFromBush": 0.05,
+   "bushHitFrac": [
+    0.046,
+    0.033
+   ],
+   "firstActionsWhenWeInitiate": {
+    "Attack": 6,
+    "Cast:AoeDamage": 26,
+    "Cast:Damage": 10,
+    "Cast:Cc": 17
+   },
+   "firstActionsWhenTheyInitiate": {
+    "Cast:Cc": 6,
+    "Cast:AoeDamage": 8,
+    "Attack": 1,
+    "Cast:Damage": 4
+   },
+   "startHpWhenWeInitiate": [
+    0.686,
+    0.727
+   ],
+   "abilitiesPerFight": [
+    {
+     "Attack": 2.38,
+     "AoeDamage": 0.72,
+     "Cc": 0.47,
+     "Damage": 0.22,
+     "Shield": 0.14
+    },
+    {
+     "Attack": 1.15,
+     "AoeDamage": 0.24,
+     "Cc": 0.23,
+     "Shield": 0.18,
+     "Damage": 0.15
+    }
+   ],
+   "supportPerFight": [
+    0.141,
+    0.179
+   ],
+   "dashes": [
+    {
+     "engage": 14,
+     "escape": 13
+    },
+    {
+     "engage": 9,
+     "escape": 19
+    }
+   ],
+   "focus": [
+    0.886,
+    0.737
+   ],
+   "targetChoice": [
+    {
+     "lowestHp": 0.85,
+     "mostGems": 0.256,
+     "ranged": 0.461
+    },
+    {
+     "lowestHp": 1,
+     "mostGems": 0.692,
+     "ranged": 0.3
+    }
+   ],
+   "openerTypeWhenWeInitiate": {
+    "Ryth:Cast:AoeDamage": 18,
+    "Ren:Cast:Cc": 10,
+    "Stellar:Cast:AoeDamage": 6,
+    "Stellar:Cast:Damage": 5,
+    "Cassi:Cast:Damage": 5,
+    "Tavi:Cast:Cc": 5,
+    "Issac:Attack": 2,
+    "Ren:Attack": 2
+   },
+   "killConversionWhenWeInitiateOnRecall": 0,
+   "killConversionWhenWeInitiate": 0.17,
+   "timeToKillRounds": [
+    7.385,
+    5
+   ],
+   "campDeathContext": [
+    {
+     "n": 21,
+     "afterChampFight": 0.24,
+     "hpfAtEngage": 0.743,
+     "lowHpEngage": 0.24
+    },
+    {
+     "n": 24,
+     "afterChampFight": 0.29,
+     "hpfAtEngage": 0.869,
+     "lowHpEngage": 0.04
+    }
+   ],
+   "lastActHp": [
+    0.649,
+    0.666
+   ],
+   "recallHpInFight": [
+    0.331,
+    0.314
+   ],
+   "mapFeatures": {
+    "altars": 18,
+    "bushTiles": 144,
+    "wallTiles": 0,
+    "symmetry": "horizontal"
+   },
+   "size": "90x30",
+   "drafts": {
+    "Ren/Stellar/CassiAndIssac/Ryth/Varg": 1,
+    "Stellar/Tavi/CassiAndIssac/Ren/Prism": 1
+   }
+  },
+  "00monolith": {
+   "games": 2,
+   "winRate": 1,
+   "fights": 59,
+   "fightsPer100Rounds": 2.96,
+   "significantFights": 23,
+   "initiatedByUs": 0.78,
+   "kills": [
+    9,
+    0
+   ],
+   "killsPerGame": [
+    4.5,
+    0
+   ],
+   "campDeathsPerGame": [
+    0,
+    15
+   ],
+   "fightWinRate": 0.65,
+   "killTradeWhenWeInitiate": [
+    5,
+    0
+   ],
+   "killTradeWhenTheyInitiate": [
+    4,
+    0
+   ],
+   "gemsStolenPerGame": [
+    24,
+    0
+   ],
+   "hpTraded": [
+    6876,
+    12916
+   ],
+   "avgDuration": 2.949,
+   "avgSize": [
+    1.085,
+    1.169
+   ],
+   "sizeDist": {
+    "1v1": 15,
+    "1v2": 3,
+    "2v2": 3,
+    "2v1": 2
+   },
+   "zone": {
+    "own": 0.07,
+    "mid": 0.71,
+    "enemy": 0.22
+   },
+   "atOurSpawn": 0,
+   "atTheirSpawn": 0,
+   "nearAltar": 0.22,
+   "nearCamp": 0.44,
+   "weInitiateOnChannel": 0.11,
+   "channelTypesWhenWeInitiate": {
+    "tribute": 1,
+    "recall": 1,
+    "capture-tile": 3
+   },
+   "weInitiateOnCarrier": 0.3,
+   "avgFirstTargetGemsWhenWeInitiate": 3.391,
+   "weInitiateFromBush": 0.02,
+   "bushHitFrac": [
+    0.018,
+    0.043
+   ],
+   "firstActionsWhenWeInitiate": {
+    "Cast:AoeDamage": 30,
+    "Cast:Damage": 3,
+    "Cast:Cc": 8,
+    "Attack": 5
+   },
+   "firstActionsWhenTheyInitiate": {
+    "Cast:AoeDamage": 4,
+    "Cast:Damage": 3,
+    "Cast:Cc": 4,
+    "Attack": 2
+   },
+   "startHpWhenWeInitiate": [
+    0.86,
+    0.795
+   ],
+   "abilitiesPerFight": [
+    {
+     "Attack": 1.05,
+     "AoeDamage": 0.64,
+     "Damage": 0.27,
+     "Cc": 0.25,
+     "Shield": 0.1
+    },
+    {
+     "Attack": 0.88,
+     "Damage": 0.19,
+     "AoeDamage": 0.19,
+     "Shield": 0.1,
+     "Cc": 0.08
+    }
+   ],
+   "supportPerFight": [
+    0.102,
+    0.102
+   ],
+   "dashes": [
+    {
+     "engage": 4,
+     "escape": 13
+    },
+    {
+     "engage": 5,
+     "escape": 10
+    }
+   ],
+   "focus": [
+    0.667,
+    1
+   ],
+   "targetChoice": [
+    {
+     "lowestHp": 0.75,
+     "mostGems": 0.75,
+     "ranged": 0.5
+    },
+    {
+     "lowestHp": 1,
+     "mostGems": 0,
+     "ranged": 0
+    }
+   ],
+   "openerTypeWhenWeInitiate": {
+    "Stellar:Cast:AoeDamage": 24,
+    "Ren:Cast:Cc": 7,
+    "Ryth:Cast:AoeDamage": 6,
+    "Stellar:Cast:Damage": 3,
+    "Varg:Attack": 3,
+    "Issac:Attack": 1,
+    "Cassi:Cast:Cc": 1,
+    "Ren:Attack": 1
+   },
+   "killConversionWhenWeInitiateOnRecall": 0,
+   "killConversionWhenWeInitiate": 0.11,
+   "timeToKillRounds": [
+    3,
+    null
+   ],
+   "campDeathContext": [
+    {
+     "n": 0,
+     "afterChampFight": null,
+     "hpfAtEngage": null,
+     "lowHpEngage": null
+    },
+    {
+     "n": 30,
+     "afterChampFight": 0.03,
+     "hpfAtEngage": 0.9,
+     "lowHpEngage": 0.03
+    }
+   ],
+   "lastActHp": [
+    0.781,
+    0.669
+   ],
+   "recallHpInFight": [
+    0.605,
+    0.27
+   ],
+   "mapFeatures": {
+    "altars": 6,
+    "bushTiles": 66,
+    "wallTiles": 98,
+    "symmetry": "rotational180"
+   },
+   "size": "50x50",
+   "drafts": {
+    "Varg/Stellar/CassiAndIssac/Ryth/Ren": 1,
+    "Ren/Stellar/CassiAndIssac/Ryth/Varg": 1
+   }
+  },
+  "01big_world": {
+   "games": 4,
+   "winRate": 1,
+   "fights": 0,
+   "fightsPer100Rounds": 0,
+   "significantFights": 0,
+   "initiatedByUs": null,
+   "kills": [
+    0,
+    0
+   ],
+   "killsPerGame": [
+    0,
+    0
+   ],
+   "campDeathsPerGame": [
+    1.25,
+    3
+   ],
+   "fightWinRate": null,
+   "killTradeWhenWeInitiate": [
+    0,
+    0
+   ],
+   "killTradeWhenTheyInitiate": [
+    0,
+    0
+   ],
+   "gemsStolenPerGame": [
+    0,
+    0
+   ],
+   "hpTraded": [
+    0,
+    0
+   ],
+   "avgDuration": null,
+   "avgSize": [
+    null,
+    null
+   ],
+   "sizeDist": {},
+   "zone": {
+    "own": null,
+    "mid": null,
+    "enemy": null
+   },
+   "atOurSpawn": null,
+   "atTheirSpawn": null,
+   "nearAltar": null,
+   "nearCamp": null,
+   "weInitiateOnChannel": null,
+   "channelTypesWhenWeInitiate": {
+    "tribute": 0,
+    "recall": 0,
+    "capture-tile": 0
+   },
+   "weInitiateOnCarrier": null,
+   "avgFirstTargetGemsWhenWeInitiate": null,
+   "weInitiateFromBush": null,
+   "bushHitFrac": [
+    null,
+    null
+   ],
+   "firstActionsWhenWeInitiate": {},
+   "firstActionsWhenTheyInitiate": {},
+   "startHpWhenWeInitiate": [
+    null,
+    null
+   ],
+   "abilitiesPerFight": [
+    {},
+    {}
+   ],
+   "supportPerFight": [
+    null,
+    null
+   ],
+   "dashes": [
+    {
+     "engage": 0,
+     "escape": 0
+    },
+    {
+     "engage": 0,
+     "escape": 0
+    }
+   ],
+   "focus": [
+    null,
+    null
+   ],
+   "targetChoice": [
+    {
+     "lowestHp": null,
+     "mostGems": null,
+     "ranged": null
+    },
+    {
+     "lowestHp": null,
+     "mostGems": null,
+     "ranged": null
+    }
+   ],
+   "openerTypeWhenWeInitiate": {},
+   "killConversionWhenWeInitiateOnRecall": null,
+   "killConversionWhenWeInitiate": null,
+   "timeToKillRounds": [
+    null,
+    null
+   ],
+   "campDeathContext": [
+    {
+     "n": 5,
+     "afterChampFight": 0,
+     "hpfAtEngage": 0.894,
+     "lowHpEngage": 0.2
+    },
+    {
+     "n": 12,
+     "afterChampFight": 0,
+     "hpfAtEngage": 0.912,
+     "lowHpEngage": 0
+    }
+   ],
+   "lastActHp": [
+    null,
+    null
+   ],
+   "recallHpInFight": [
+    null,
+    null
+   ],
+   "mapFeatures": {
+    "altars": 6,
+    "bushTiles": 302,
+    "wallTiles": 636,
+    "symmetry": "rotational180"
+   },
+   "size": "100x100",
+   "drafts": {
+    "Varg/Ryth/CassiAndIssac/Ren/Stellar": 1,
+    "Ren/Stellar/CassiAndIssac/Ryth/Varg": 1,
+    "Varg/Vendetta/CassiAndIssac/Willow/Ryth": 1,
+    "Varg/Stellar/CassiAndIssac/Tavi/Ren": 1
+   }
+  },
+  "01boss_battle": {
+   "games": 2,
+   "winRate": 0.5,
+   "fights": 1,
+   "fightsPer100Rounds": 0.03,
+   "significantFights": 0,
+   "initiatedByUs": 1,
+   "kills": [
+    0,
+    0
+   ],
+   "killsPerGame": [
+    0,
+    0
+   ],
+   "campDeathsPerGame": [
+    8,
+    14.5
+   ],
+   "fightWinRate": null,
+   "killTradeWhenWeInitiate": [
+    0,
+    0
+   ],
+   "killTradeWhenTheyInitiate": [
+    0,
+    0
+   ],
+   "gemsStolenPerGame": [
+    0,
+    0
+   ],
+   "hpTraded": [
+    0,
+    60
+   ],
+   "avgDuration": 1,
+   "avgSize": [
+    1,
+    1
+   ],
+   "sizeDist": {},
+   "zone": {
+    "own": 0,
+    "mid": 1,
+    "enemy": 0
+   },
+   "atOurSpawn": 0,
+   "atTheirSpawn": 0,
+   "nearAltar": 1,
+   "nearCamp": 1,
+   "weInitiateOnChannel": 0,
+   "channelTypesWhenWeInitiate": {
+    "tribute": 0,
+    "recall": 0,
+    "capture-tile": 0
+   },
+   "weInitiateOnCarrier": 0,
+   "avgFirstTargetGemsWhenWeInitiate": 0,
+   "weInitiateFromBush": 0,
+   "bushHitFrac": [
+    0,
+    null
+   ],
+   "firstActionsWhenWeInitiate": {
+    "Cast:AoeDamage": 1
+   },
+   "firstActionsWhenTheyInitiate": {},
+   "startHpWhenWeInitiate": [
+    0.982,
+    1
+   ],
+   "abilitiesPerFight": [
+    {
+     "AoeDamage": 1
+    },
+    {}
+   ],
+   "supportPerFight": [
+    0,
+    0
+   ],
+   "dashes": [
+    {
+     "engage": 0,
+     "escape": 0
+    },
+    {
+     "engage": 0,
+     "escape": 0
+    }
+   ],
+   "focus": [
+    null,
+    null
+   ],
+   "targetChoice": [
+    {
+     "lowestHp": null,
+     "mostGems": null,
+     "ranged": null
+    },
+    {
+     "lowestHp": null,
+     "mostGems": null,
+     "ranged": null
+    }
+   ],
+   "openerTypeWhenWeInitiate": {
+    "Ryth:Cast:AoeDamage": 1
+   },
+   "killConversionWhenWeInitiateOnRecall": null,
+   "killConversionWhenWeInitiate": 0,
+   "timeToKillRounds": [
+    null,
+    null
+   ],
+   "campDeathContext": [
+    {
+     "n": 16,
+     "afterChampFight": 0,
+     "hpfAtEngage": 0.719,
+     "lowHpEngage": 0.19
+    },
+    {
+     "n": 29,
+     "afterChampFight": 0,
+     "hpfAtEngage": 0.954,
+     "lowHpEngage": 0
+    }
+   ],
+   "lastActHp": [
+    0.982,
+    null
+   ],
+   "recallHpInFight": [
+    null,
+    null
+   ],
+   "mapFeatures": {
+    "altars": 1,
+    "bushTiles": 2,
+    "wallTiles": 139,
+    "symmetry": "vertical"
+   },
+   "size": "50x41",
+   "drafts": {
+    "Varg/Vendetta/CassiAndIssac/Willow/Ryth": 1,
+    "Varg/Stellar/CassiAndIssac/Ryth/Ren": 1
+   }
+  },
+  "01broken_curve": {
+   "games": 2,
+   "winRate": 1,
+   "fights": 68,
+   "fightsPer100Rounds": 2.76,
+   "significantFights": 35,
+   "initiatedByUs": 0.54,
+   "kills": [
+    15,
+    11
+   ],
+   "killsPerGame": [
+    7.5,
+    5.5
+   ],
+   "campDeathsPerGame": [
+    12,
+    17
+   ],
+   "fightWinRate": 0.46,
+   "killTradeWhenWeInitiate": [
+    7,
+    2
+   ],
+   "killTradeWhenTheyInitiate": [
+    8,
+    9
+   ],
+   "gemsStolenPerGame": [
+    21,
+    7
+   ],
+   "hpTraded": [
+    16922,
+    16189
+   ],
+   "avgDuration": 3.647,
+   "avgSize": [
+    1.235,
+    1.206
+   ],
+   "sizeDist": {
+    "1v2": 6,
+    "2v3": 1,
+    "2v1": 5,
+    "1v1": 18,
+    "4v2": 1,
+    "2v2": 3,
+    "3v2": 1
+   },
+   "zone": {
+    "own": 0.01,
+    "mid": 0.97,
+    "enemy": 0.01
+   },
+   "atOurSpawn": 0,
+   "atTheirSpawn": 0,
+   "nearAltar": 0.13,
+   "nearCamp": 1,
+   "weInitiateOnChannel": 0.27,
+   "channelTypesWhenWeInitiate": {
+    "tribute": 0,
+    "recall": 2,
+    "capture-tile": 8
+   },
+   "weInitiateOnCarrier": 0.43,
+   "avgFirstTargetGemsWhenWeInitiate": 2.216,
+   "weInitiateFromBush": 0.46,
+   "bushHitFrac": [
+    0.362,
+    0.419
+   ],
+   "firstActionsWhenWeInitiate": {
+    "Cast:Cc": 7,
+    "Cast:Damage": 5,
+    "Attack": 12,
+    "Cast:AoeDamage": 13
+   },
+   "firstActionsWhenTheyInitiate": {
+    "Cast:Cc": 16,
+    "Cast:Damage": 7,
+    "Attack": 7,
+    "Cast:AoeDamage": 1
+   },
+   "startHpWhenWeInitiate": [
+    0.832,
+    0.77
+   ],
+   "abilitiesPerFight": [
+    {
+     "Attack": 1.6,
+     "AoeDamage": 0.35,
+     "Cc": 0.31,
+     "Damage": 0.24,
+     "Shield": 0.18
+    },
+    {
+     "Attack": 1.35,
+     "Cc": 0.43,
+     "Damage": 0.34,
+     "AoeDamage": 0.15
+    }
+   ],
+   "supportPerFight": [
+    0.176,
+    0
+   ],
+   "dashes": [
+    {
+     "engage": 3,
+     "escape": 18
+    },
+    {
+     "engage": 14,
+     "escape": 7
+    }
+   ],
+   "focus": [
+    1,
+    1
+   ],
+   "targetChoice": [
+    {
+     "lowestHp": 0.643,
+     "mostGems": 0.143,
+     "ranged": 0.357
+    },
+    {
+     "lowestHp": 0.283,
+     "mostGems": 0.556,
+     "ranged": 0.278
+    }
+   ],
+   "openerTypeWhenWeInitiate": {
+    "Ryth:Cast:AoeDamage": 8,
+    "Varg:Attack": 8,
+    "Stellar:Cast:AoeDamage": 5,
+    "Cassi:Cast:Cc": 4,
+    "Cassi:Cast:Damage": 4,
+    "Ren:Cast:Cc": 3,
+    "Issac:Attack": 3,
+    "Stellar:Cast:Damage": 1
+   },
+   "killConversionWhenWeInitiateOnRecall": 0.5,
+   "killConversionWhenWeInitiate": 0.19,
+   "timeToKillRounds": [
+    3.563,
+    4.545
+   ],
+   "campDeathContext": [
+    {
+     "n": 24,
+     "afterChampFight": 0.08,
+     "hpfAtEngage": 0.819,
+     "lowHpEngage": 0.17
+    },
+    {
+     "n": 34,
+     "afterChampFight": 0.26,
+     "hpfAtEngage": 0.896,
+     "lowHpEngage": 0.06
+    }
+   ],
+   "lastActHp": [
+    0.683,
+    0.735
+   ],
+   "recallHpInFight": [
+    0.473,
+    0.517
+   ],
+   "mapFeatures": {
+    "altars": 4,
+    "bushTiles": 68,
+    "wallTiles": 274,
+    "symmetry": "rotational180"
+   },
+   "size": "40x40",
+   "drafts": {
+    "Ren/Stellar/CassiAndIssac": 1,
+    "Varg/Ryth/CassiAndIssac": 1
+   }
+  },
+  "01concentrated_wealth": {
+   "games": 2,
+   "winRate": 1,
+   "fights": 53,
+   "fightsPer100Rounds": 1.94,
+   "significantFights": 30,
+   "initiatedByUs": 0.85,
+   "kills": [
+    20,
+    3
+   ],
+   "killsPerGame": [
+    10,
+    1.5
+   ],
+   "campDeathsPerGame": [
+    1,
+    6.5
+   ],
+   "fightWinRate": 0.8,
+   "killTradeWhenWeInitiate": [
+    13,
+    2
+   ],
+   "killTradeWhenTheyInitiate": [
+    7,
+    1
+   ],
+   "gemsStolenPerGame": [
+    63.5,
+    0
+   ],
+   "hpTraded": [
+    10500,
+    17889
+   ],
+   "avgDuration": 4.472,
+   "avgSize": [
+    1.377,
+    1.377
+   ],
+   "sizeDist": {
+    "1v4": 1,
+    "2v1": 7,
+    "3v1": 1,
+    "3v2": 1,
+    "2v2": 2,
+    "1v1": 10,
+    "4v4": 1,
+    "2v3": 1,
+    "1v2": 3,
+    "1v3": 2,
+    "3v3": 1
+   },
+   "zone": {
+    "own": 0.06,
+    "mid": 0.94,
+    "enemy": 0
+   },
+   "atOurSpawn": 0,
+   "atTheirSpawn": 0,
+   "nearAltar": 0.06,
+   "nearCamp": 0.91,
+   "weInitiateOnChannel": 0.42,
+   "channelTypesWhenWeInitiate": {
+    "tribute": 0,
+    "recall": 4,
+    "capture-tile": 15
+   },
+   "weInitiateOnCarrier": 0.13,
+   "avgFirstTargetGemsWhenWeInitiate": 4.289,
+   "weInitiateFromBush": 0.2,
+   "bushHitFrac": [
+    0.182,
+    0.248
+   ],
+   "firstActionsWhenWeInitiate": {
+    "Attack": 7,
+    "Cast:AoeDamage": 12,
+    "Cast:Cc": 22,
+    "Cast:Damage": 4
+   },
+   "firstActionsWhenTheyInitiate": {
+    "Cast:Damage": 2,
+    "Cast:AoeDamage": 4,
+    "Cast:Cc": 1,
+    "Attack": 1
+   },
+   "startHpWhenWeInitiate": [
+    0.828,
+    0.638
+   ],
+   "abilitiesPerFight": [
+    {
+     "Attack": 2.64,
+     "Cc": 0.72,
+     "AoeDamage": 0.47,
+     "Damage": 0.32,
+     "Shield": 0.15
+    },
+    {
+     "Attack": 1.74,
+     "AoeDamage": 0.3,
+     "Damage": 0.25,
+     "Shield": 0.17,
+     "Cc": 0.15
+    }
+   ],
+   "supportPerFight": [
+    0.151,
+    0.17
+   ],
+   "dashes": [
+    {
+     "engage": 9,
+     "escape": 7
+    },
+    {
+     "engage": 6,
+     "escape": 9
+    }
+   ],
+   "focus": [
+    0.927,
+    0.892
+   ],
+   "targetChoice": [
+    {
+     "lowestHp": 0.708,
+     "mostGems": 0,
+     "ranged": 0.083
+    },
+    {
+     "lowestHp": 1,
+     "mostGems": 0,
+     "ranged": 0.536
+    }
+   ],
+   "openerTypeWhenWeInitiate": {
+    "Ren:Cast:Cc": 14,
+    "Ryth:Cast:AoeDamage": 8,
+    "Cassi:Cast:Cc": 6,
+    "Stellar:Cast:AoeDamage": 4,
+    "Ren:Attack": 2,
+    "Cassi:Cast:Damage": 2,
+    "Tavi:Cast:Cc": 2,
+    "Stellar:Cast:Damage": 2
+   },
+   "killConversionWhenWeInitiateOnRecall": 1,
+   "killConversionWhenWeInitiate": 0.24,
+   "timeToKillRounds": [
+    5.286,
+    8
+   ],
+   "campDeathContext": [
+    {
+     "n": 2,
+     "afterChampFight": 0,
+     "hpfAtEngage": 0.545,
+     "lowHpEngage": 0.5
+    },
+    {
+     "n": 13,
+     "afterChampFight": 0.15,
+     "hpfAtEngage": 0.864,
+     "lowHpEngage": 0
+    }
+   ],
+   "lastActHp": [
+    0.721,
+    0.666
+   ],
+   "recallHpInFight": [
+    0.592,
+    0.408
+   ],
+   "mapFeatures": {
+    "altars": 2,
+    "bushTiles": 256,
+    "wallTiles": 210,
+    "symmetry": "rotational180"
+   },
+   "size": "61x61",
+   "drafts": {
+    "Ren/Stellar/CassiAndIssac/Ryth/Varg": 1,
+    "Varg/Stellar/CassiAndIssac/Tavi/Ren": 1
+   }
+  },
+  "01corridors": {
+   "games": 2,
+   "winRate": 1,
+   "fights": 46,
+   "fightsPer100Rounds": 1.62,
+   "significantFights": 26,
+   "initiatedByUs": 0.67,
+   "kills": [
+    9,
+    2
+   ],
+   "killsPerGame": [
+    4.5,
+    1
+   ],
+   "campDeathsPerGame": [
+    31.5,
+    44.5
+   ],
+   "fightWinRate": 0.77,
+   "killTradeWhenWeInitiate": [
+    5,
+    1
+   ],
+   "killTradeWhenTheyInitiate": [
+    4,
+    1
+   ],
+   "gemsStolenPerGame": [
+    26,
+    0
+   ],
+   "hpTraded": [
+    8796,
+    12176
+   ],
+   "avgDuration": 3.696,
+   "avgSize": [
+    1.152,
+    1.13
+   ],
+   "sizeDist": {
+    "1v1": 15,
+    "1v3": 1,
+    "2v1": 5,
+    "1v2": 4,
+    "3v1": 1
+   },
+   "zone": {
+    "own": 0,
+    "mid": 0.61,
+    "enemy": 0.39
+   },
+   "atOurSpawn": 0,
+   "atTheirSpawn": 0.02,
+   "nearAltar": 0.02,
+   "nearCamp": 0.48,
+   "weInitiateOnChannel": 0.19,
+   "channelTypesWhenWeInitiate": {
+    "tribute": 0,
+    "recall": 0,
+    "capture-tile": 6
+   },
+   "weInitiateOnCarrier": 0.13,
+   "avgFirstTargetGemsWhenWeInitiate": 1.032,
+   "weInitiateFromBush": 0.35,
+   "bushHitFrac": [
+    0.216,
+    0.348
+   ],
+   "firstActionsWhenWeInitiate": {
+    "Cast:Cc": 10,
+    "Cast:AoeDamage": 17,
+    "Attack": 4
+   },
+   "firstActionsWhenTheyInitiate": {
+    "Cast:AoeDamage": 5,
+    "Attack": 1,
+    "Cast:Cc": 4,
+    "Cast:Damage": 5
+   },
+   "startHpWhenWeInitiate": [
+    0.89,
+    0.761
+   ],
+   "abilitiesPerFight": [
+    {
+     "Attack": 1.8,
+     "AoeDamage": 0.57,
+     "Cc": 0.46,
+     "Damage": 0.13,
+     "Shield": 0.07
+    },
+    {
+     "Attack": 1.3,
+     "AoeDamage": 0.28,
+     "Shield": 0.26,
+     "Cc": 0.13,
+     "Damage": 0.13
+    }
+   ],
+   "supportPerFight": [
+    0.065,
+    0.261
+   ],
+   "dashes": [
+    {
+     "engage": 2,
+     "escape": 6
+    },
+    {
+     "engage": 2,
+     "escape": 4
+    }
+   ],
+   "focus": [
+    0.833,
+    0.75
+   ],
+   "targetChoice": [
+    {
+     "lowestHp": 0.75,
+     "mostGems": 0,
+     "ranged": 0
+    },
+    {
+     "lowestHp": 1,
+     "mostGems": 0.5,
+     "ranged": 0.5
+    }
+   ],
+   "openerTypeWhenWeInitiate": {
+    "Ryth:Cast:AoeDamage": 14,
+    "Ren:Cast:Cc": 8,
+    "Stellar:Cast:AoeDamage": 3,
+    "Cassi:Cast:Cc": 2,
+    "Ryth:Attack": 2,
+    "Ren:Attack": 1,
+    "Varg:Attack": 1
+   },
+   "killConversionWhenWeInitiateOnRecall": null,
+   "killConversionWhenWeInitiate": 0.16,
+   "timeToKillRounds": [
+    3.667,
+    5
+   ],
+   "campDeathContext": [
+    {
+     "n": 63,
+     "afterChampFight": 0,
+     "hpfAtEngage": 0.92,
+     "lowHpEngage": 0.02
+    },
+    {
+     "n": 89,
+     "afterChampFight": 0.02,
+     "hpfAtEngage": 0.934,
+     "lowHpEngage": 0.03
+    }
+   ],
+   "lastActHp": [
+    0.741,
+    0.624
+   ],
+   "recallHpInFight": [
+    0.513,
+    0.334
+   ],
+   "mapFeatures": {
+    "altars": 2,
+    "bushTiles": 144,
+    "wallTiles": 378,
+    "symmetry": "vertical"
+   },
+   "size": "51x40",
+   "drafts": {
+    "Ren/Stellar/CassiAndIssac/Ryth/Varg": 1,
+    "Stellar/CassiAndIssac/Ryth/Varg/Prism": 1
+   }
+  },
+  "01elk_arena": {
+   "games": 2,
+   "winRate": 1,
+   "fights": 157,
+   "fightsPer100Rounds": 5.46,
+   "significantFights": 98,
+   "initiatedByUs": 0.67,
+   "kills": [
+    53,
+    16
+   ],
+   "killsPerGame": [
+    26.5,
+    8
+   ],
+   "campDeathsPerGame": [
+    11.5,
+    20.5
+   ],
+   "fightWinRate": 0.7,
+   "killTradeWhenWeInitiate": [
+    39,
+    9
+   ],
+   "killTradeWhenTheyInitiate": [
+    14,
+    7
+   ],
+   "gemsStolenPerGame": [
+    108,
+    108
+   ],
+   "hpTraded": [
+    61787,
+    86360
+   ],
+   "avgDuration": 5.032,
+   "avgSize": [
+    1.726,
+    1.446
+   ],
+   "sizeDist": {
+    "3v1": 6,
+    "1v1": 27,
+    "2v2": 8,
+    "2v1": 19,
+    "3v3": 4,
+    "3v2": 8,
+    "1v4": 1,
+    "1v2": 8,
+    "4v3": 2,
+    "4v4": 1,
+    "4v2": 4,
+    "5v4": 4,
+    "2v3": 4,
+    "4v1": 2
+   },
+   "zone": {
+    "own": 0.06,
+    "mid": 0.57,
+    "enemy": 0.38
+   },
+   "atOurSpawn": 0.01,
+   "atTheirSpawn": 0.1,
+   "nearAltar": 0.15,
+   "nearCamp": 0.83,
+   "weInitiateOnChannel": 0.27,
+   "channelTypesWhenWeInitiate": {
+    "tribute": 0,
+    "recall": 1,
+    "capture-tile": 27
+   },
+   "weInitiateOnCarrier": 0.04,
+   "avgFirstTargetGemsWhenWeInitiate": 2.743,
+   "weInitiateFromBush": 0.3,
+   "bushHitFrac": [
+    0.253,
+    0.299
+   ],
+   "firstActionsWhenWeInitiate": {
+    "Cast:Cc": 45,
+    "Attack": 24,
+    "Cast:AoeDamage": 24,
+    "Cast:Damage": 12
+   },
+   "firstActionsWhenTheyInitiate": {
+    "Attack": 7,
+    "Cast:Cc": 26,
+    "Cast:AoeDamage": 11,
+    "Cast:Damage": 8
+   },
+   "startHpWhenWeInitiate": [
+    0.886,
+    0.863
+   ],
+   "abilitiesPerFight": [
+    {
+     "Attack": 2.64,
+     "Cc": 0.89,
+     "AoeDamage": 0.69,
+     "Damage": 0.46,
+     "Shield": 0.13
+    },
+    {
+     "Attack": 1.51,
+     "Cc": 0.41,
+     "Damage": 0.32,
+     "AoeDamage": 0.29,
+     "Shield": 0.13
+    }
+   ],
+   "supportPerFight": [
+    0.127,
+    0.127
+   ],
+   "dashes": [
+    {
+     "engage": 24,
+     "escape": 49
+    },
+    {
+     "engage": 18,
+     "escape": 39
+    }
+   ],
+   "focus": [
+    0.928,
+    0.878
+   ],
+   "targetChoice": [
+    {
+     "lowestHp": 0.713,
+     "mostGems": 0.071,
+     "ranged": 0.19
+    },
+    {
+     "lowestHp": 0.88,
+     "mostGems": 0.12,
+     "ranged": 0.429
+    }
+   ],
+   "openerTypeWhenWeInitiate": {
+    "Ren:Cast:Cc": 19,
+    "Cassi:Cast:Cc": 15,
+    "Ryth:Cast:AoeDamage": 11,
+    "Stellar:Cast:AoeDamage": 9,
+    "Tavi:Cast:Cc": 9,
+    "Cassi:Cast:Damage": 7,
+    "Varg:Attack": 7,
+    "Issac:Attack": 6
+   },
+   "killConversionWhenWeInitiateOnRecall": 0,
+   "killConversionWhenWeInitiate": 0.32,
+   "timeToKillRounds": [
+    4.528,
+    4.25
+   ],
+   "campDeathContext": [
+    {
+     "n": 23,
+     "afterChampFight": 0.09,
+     "hpfAtEngage": 0.887,
+     "lowHpEngage": 0.13
+    },
+    {
+     "n": 41,
+     "afterChampFight": 0.17,
+     "hpfAtEngage": 0.946,
+     "lowHpEngage": 0.02
+    }
+   ],
+   "lastActHp": [
+    0.77,
+    0.807
+   ],
+   "recallHpInFight": [
+    0.513,
+    0.278
+   ],
+   "mapFeatures": {
+    "altars": 2,
+    "bushTiles": 186,
+    "wallTiles": 222,
+    "symmetry": "rotational180"
+   },
+   "size": "50x50",
+   "drafts": {
+    "Ren/Stellar/CassiAndIssac/Ryth/Varg": 1,
+    "Stellar/Tavi/Prism/Ren/CassiAndIssac": 1
+   }
+  },
+  "01fracture": {
+   "games": 4,
+   "winRate": 1,
+   "fights": 45,
+   "fightsPer100Rounds": 0.95,
+   "significantFights": 26,
+   "initiatedByUs": 0.62,
+   "kills": [
+    14,
+    1
+   ],
+   "killsPerGame": [
+    3.5,
+    0.25
+   ],
+   "campDeathsPerGame": [
+    6.5,
+    21.5
+   ],
+   "fightWinRate": 0.88,
+   "killTradeWhenWeInitiate": [
+    9,
+    1
+   ],
+   "killTradeWhenTheyInitiate": [
+    5,
+    0
+   ],
+   "gemsStolenPerGame": [
+    38.5,
+    0
+   ],
+   "hpTraded": [
+    8007,
+    12581
+   ],
+   "avgDuration": 3.511,
+   "avgSize": [
+    1.044,
+    1.111
+   ],
+   "sizeDist": {
+    "1v1": 20,
+    "2v2": 1,
+    "1v2": 4,
+    "2v1": 1
+   },
+   "zone": {
+    "own": 0,
+    "mid": 1,
+    "enemy": 0
+   },
+   "atOurSpawn": 0,
+   "atTheirSpawn": 0,
+   "nearAltar": 0.67,
+   "nearCamp": 0.96,
+   "weInitiateOnChannel": 0.36,
+   "channelTypesWhenWeInitiate": {
+    "tribute": 0,
+    "recall": 1,
+    "capture-tile": 9
+   },
+   "weInitiateOnCarrier": 0.75,
+   "avgFirstTargetGemsWhenWeInitiate": 9.036,
+   "weInitiateFromBush": 0.18,
+   "bushHitFrac": [
+    0.139,
+    0.1
+   ],
+   "firstActionsWhenWeInitiate": {
+    "Cast:AoeDamage": 7,
+    "Cast:Cc": 8,
+    "Attack": 8,
+    "Cast:Damage": 5
+   },
+   "firstActionsWhenTheyInitiate": {
+    "Cast:Cc": 6,
+    "Cast:Damage": 7,
+    "Cast:AoeDamage": 2,
+    "Attack": 2
+   },
+   "startHpWhenWeInitiate": [
+    0.739,
+    0.591
+   ],
+   "abilitiesPerFight": [
+    {
+     "Attack": 1.82,
+     "Damage": 0.33,
+     "AoeDamage": 0.29,
+     "Shield": 0.29,
+     "Cc": 0.22
+    },
+    {
+     "Attack": 1.16,
+     "AoeDamage": 0.33,
+     "Damage": 0.22,
+     "Cc": 0.2,
+     "Shield": 0.04
+    }
+   ],
+   "supportPerFight": [
+    0.289,
+    0.044
+   ],
+   "dashes": [
+    {
+     "engage": 0,
+     "escape": 1
+    },
+    {
+     "engage": 2,
+     "escape": 1
+    }
+   ],
+   "focus": [
+    0.833,
+    1
+   ],
+   "targetChoice": [
+    {
+     "lowestHp": 0.733,
+     "mostGems": 0.6,
+     "ranged": 0.333
+    },
+    {
+     "lowestHp": 1,
+     "mostGems": 0,
+     "ranged": 1
+    }
+   ],
+   "openerTypeWhenWeInitiate": {
+    "Stellar:Cast:AoeDamage": 5,
+    "Cassi:Cast:Cc": 5,
+    "Varg:Attack": 5,
+    "Stellar:Cast:Damage": 5,
+    "Ryth:Cast:AoeDamage": 2,
+    "Ren:Cast:Cc": 2,
+    "Issac:Attack": 2,
+    "Stellar:Attack": 1
+   },
+   "killConversionWhenWeInitiateOnRecall": 1,
+   "killConversionWhenWeInitiate": 0.32,
+   "timeToKillRounds": [
+    4.786,
+    11
+   ],
+   "campDeathContext": [
+    {
+     "n": 26,
+     "afterChampFight": 0.04,
+     "hpfAtEngage": 0.887,
+     "lowHpEngage": 0.04
+    },
+    {
+     "n": 86,
+     "afterChampFight": 0.02,
+     "hpfAtEngage": 0.799,
+     "lowHpEngage": 0.09
+    }
+   ],
+   "lastActHp": [
+    0.629,
+    0.654
+   ],
+   "recallHpInFight": [
+    0.613,
+    0.239
+   ],
+   "mapFeatures": {
+    "altars": 3,
+    "bushTiles": 276,
+    "wallTiles": 374,
+    "symmetry": "rotational180"
+   },
+   "size": "61x71",
+   "drafts": {
+    "Ren/Stellar/CassiAndIssac/Ryth/Varg": 2,
+    "Stellar/CassiAndIssac/Varg/Ryth/Tavi": 1,
+    "Varg/Ryth/CassiAndIssac/Ren/Stellar": 1
+   }
+  },
+  "01gold_rush": {
+   "games": 2,
+   "winRate": 1,
+   "fights": 140,
+   "fightsPer100Rounds": 3.83,
+   "significantFights": 60,
+   "initiatedByUs": 0.66,
+   "kills": [
+    24,
+    8
+   ],
+   "killsPerGame": [
+    12,
+    4
+   ],
+   "campDeathsPerGame": [
+    15.5,
+    49.5
+   ],
+   "fightWinRate": 0.6,
+   "killTradeWhenWeInitiate": [
+    19,
+    1
+   ],
+   "killTradeWhenTheyInitiate": [
+    5,
+    7
+   ],
+   "gemsStolenPerGame": [
+    0,
+    0
+   ],
+   "hpTraded": [
+    23835,
+    32102
+   ],
+   "avgDuration": 3.179,
+   "avgSize": [
+    1.3,
+    1.271
+   ],
+   "sizeDist": {
+    "1v3": 2,
+    "1v1": 22,
+    "1v2": 5,
+    "2v2": 9,
+    "3v3": 2,
+    "3v2": 1,
+    "2v1": 13,
+    "2v3": 2,
+    "3v4": 2,
+    "4v3": 1,
+    "4v2": 1
+   },
+   "zone": {
+    "own": 0.29,
+    "mid": 0.58,
+    "enemy": 0.13
+   },
+   "atOurSpawn": 0.03,
+   "atTheirSpawn": 0,
+   "nearAltar": 0.1,
+   "nearCamp": 0.79,
+   "weInitiateOnChannel": 0.48,
+   "channelTypesWhenWeInitiate": {
+    "tribute": 0,
+    "recall": 1,
+    "capture-tile": 44
+   },
+   "weInitiateOnCarrier": 0,
+   "avgFirstTargetGemsWhenWeInitiate": 0,
+   "weInitiateFromBush": 0.09,
+   "bushHitFrac": [
+    0.08,
+    0.195
+   ],
+   "firstActionsWhenWeInitiate": {
+    "Cast:Cc": 39,
+    "Cast:Damage": 8,
+    "Cast:AoeDamage": 36,
+    "Attack": 10
+   },
+   "firstActionsWhenTheyInitiate": {
+    "Cast:Cc": 21,
+    "Cast:AoeDamage": 6,
+    "Cast:Damage": 17,
+    "Attack": 3
+   },
+   "startHpWhenWeInitiate": [
+    0.875,
+    0.871
+   ],
+   "abilitiesPerFight": [
+    {
+     "Attack": 0.94,
+     "Cc": 0.52,
+     "AoeDamage": 0.4,
+     "Damage": 0.3,
+     "Shield": 0.11
+    },
+    {
+     "Attack": 0.74,
+     "Damage": 0.36,
+     "Cc": 0.31,
+     "AoeDamage": 0.14
+    }
+   ],
+   "supportPerFight": [
+    0.107,
+    0
+   ],
+   "dashes": [
+    {
+     "engage": 13,
+     "escape": 13
+    },
+    {
+     "engage": 28,
+     "escape": 17
+    }
+   ],
+   "focus": [
+    0.876,
+    0.95
+   ],
+   "targetChoice": [
+    {
+     "lowestHp": 0.63,
+     "mostGems": 0,
+     "ranged": 0.333
+    },
+    {
+     "lowestHp": 0.667,
+     "mostGems": 0.333,
+     "ranged": 0.444
+    }
+   ],
+   "openerTypeWhenWeInitiate": {
+    "Stellar:Cast:AoeDamage": 36,
+    "Tavi:Cast:Cc": 16,
+    "Cassi:Cast:Cc": 14,
+    "Ren:Cast:Cc": 9,
+    "Varg:Attack": 7,
+    "Stellar:Cast:Damage": 6,
+    "Issac:Attack": 3,
+    "Cassi:Cast:Damage": 2
+   },
+   "killConversionWhenWeInitiateOnRecall": 0,
+   "killConversionWhenWeInitiate": 0.18,
+   "timeToKillRounds": [
+    3.577,
+    4.556
+   ],
+   "campDeathContext": [
+    {
+     "n": 31,
+     "afterChampFight": 0.13,
+     "hpfAtEngage": 0.871,
+     "lowHpEngage": 0.1
+    },
+    {
+     "n": 99,
+     "afterChampFight": 0.04,
+     "hpfAtEngage": 0.946,
+     "lowHpEngage": 0
+    }
+   ],
+   "lastActHp": [
+    0.784,
+    0.822
+   ],
+   "recallHpInFight": [
+    0.54,
+    0.361
+   ],
+   "mapFeatures": {
+    "altars": 4,
+    "bushTiles": 46,
+    "wallTiles": 0,
+    "symmetry": "rotational180"
+   },
+   "size": "31x31",
+   "drafts": {
+    "Stellar/Tavi/Ren": 1,
+    "Varg/Stellar/CassiAndIssac": 1
+   }
+  },
+  "01hooks": {
+   "games": 2,
+   "winRate": 1,
+   "fights": 146,
+   "fightsPer100Rounds": 5.68,
+   "significantFights": 97,
+   "initiatedByUs": 0.73,
+   "kills": [
+    53,
+    6
+   ],
+   "killsPerGame": [
+    26.5,
+    3
+   ],
+   "campDeathsPerGame": [
+    9,
+    30
+   ],
+   "fightWinRate": 0.72,
+   "killTradeWhenWeInitiate": [
+    44,
+    3
+   ],
+   "killTradeWhenTheyInitiate": [
+    9,
+    3
+   ],
+   "gemsStolenPerGame": [
+    33,
+    0
+   ],
+   "hpTraded": [
+    44313,
+    73633
+   ],
+   "avgDuration": 4.589,
+   "avgSize": [
+    1.623,
+    1.432
+   ],
+   "sizeDist": {
+    "4v2": 3,
+    "3v2": 8,
+    "3v1": 7,
+    "4v4": 1,
+    "2v1": 20,
+    "1v1": 27,
+    "2v2": 10,
+    "3v4": 1,
+    "1v2": 11,
+    "4v3": 1,
+    "1v3": 2,
+    "3v5": 1,
+    "2v4": 1,
+    "3v3": 1,
+    "2v3": 2,
+    "2v5": 1
+   },
+   "zone": {
+    "own": 0.04,
+    "mid": 0.81,
+    "enemy": 0.15
+   },
+   "atOurSpawn": 0,
+   "atTheirSpawn": 0,
+   "nearAltar": 0.21,
+   "nearCamp": 0.96,
+   "weInitiateOnChannel": 0.23,
+   "channelTypesWhenWeInitiate": {
+    "tribute": 1,
+    "recall": 5,
+    "capture-tile": 19
+   },
+   "weInitiateOnCarrier": 0.13,
+   "avgFirstTargetGemsWhenWeInitiate": 3.701,
+   "weInitiateFromBush": 0.07,
+   "bushHitFrac": [
+    0.078,
+    0.129
+   ],
+   "firstActionsWhenWeInitiate": {
+    "Cast:Cc": 42,
+    "Cast:AoeDamage": 45,
+    "Attack": 12,
+    "Cast:Damage": 8
+   },
+   "firstActionsWhenTheyInitiate": {
+    "Cast:Damage": 6,
+    "Cast:Cc": 14,
+    "Cast:AoeDamage": 14,
+    "Attack": 5
+   },
+   "startHpWhenWeInitiate": [
+    0.851,
+    0.844
+   ],
+   "abilitiesPerFight": [
+    {
+     "Attack": 1.79,
+     "AoeDamage": 0.89,
+     "Cc": 0.85,
+     "Damage": 0.29
+    },
+    {
+     "Attack": 1.12,
+     "AoeDamage": 0.39,
+     "Cc": 0.32,
+     "Damage": 0.23
+    }
+   ],
+   "supportPerFight": [
+    0,
+    0
+   ],
+   "dashes": [
+    {
+     "engage": 31,
+     "escape": 31
+    },
+    {
+     "engage": 29,
+     "escape": 38
+    }
+   ],
+   "focus": [
+    0.859,
+    0.933
+   ],
+   "targetChoice": [
+    {
+     "lowestHp": 0.723,
+     "mostGems": 0.068,
+     "ranged": 0.325
+    },
+    {
+     "lowestHp": 0.86,
+     "mostGems": 0.091,
+     "ranged": 0.557
+    }
+   ],
+   "openerTypeWhenWeInitiate": {
+    "Ryth:Cast:AoeDamage": 22,
+    "Ren:Cast:Cc": 20,
+    "Stellar:Cast:AoeDamage": 18,
+    "Cassi:Cast:Cc": 9,
+    "Stellar:Cast:Damage": 8,
+    "Prism:Cast:Cc": 8,
+    "Tavi:Cast:Cc": 5,
+    "Prism:Cast:AoeDamage": 5
+   },
+   "killConversionWhenWeInitiateOnRecall": 0,
+   "killConversionWhenWeInitiate": 0.38,
+   "timeToKillRounds": [
+    4.036,
+    3.667
+   ],
+   "campDeathContext": [
+    {
+     "n": 18,
+     "afterChampFight": 0.33,
+     "hpfAtEngage": 0.818,
+     "lowHpEngage": 0.17
+    },
+    {
+     "n": 60,
+     "afterChampFight": 0.18,
+     "hpfAtEngage": 0.962,
+     "lowHpEngage": 0
+    }
+   ],
+   "lastActHp": [
+    0.749,
+    0.737
+   ],
+   "recallHpInFight": [
+    0.572,
+    0.283
+   ],
+   "mapFeatures": {
+    "altars": 1,
+    "bushTiles": 60,
+    "wallTiles": 88,
+    "symmetry": "rotational180"
+   },
+   "size": "31x31",
+   "drafts": {
+    "Stellar/Tavi/Ren/Prism": 1,
+    "Ren/Stellar/CassiAndIssac/Ryth": 1
+   }
+  },
+  "01islands": {
+   "games": 2,
+   "winRate": 1,
+   "fights": 26,
+   "fightsPer100Rounds": 1.4,
+   "significantFights": 18,
+   "initiatedByUs": 0.77,
+   "kills": [
+    7,
+    1
+   ],
+   "killsPerGame": [
+    3.5,
+    0.5
+   ],
+   "campDeathsPerGame": [
+    6,
+    6.5
+   ],
+   "fightWinRate": 0.67,
+   "killTradeWhenWeInitiate": [
+    6,
+    1
+   ],
+   "killTradeWhenTheyInitiate": [
+    1,
+    0
+   ],
+   "gemsStolenPerGame": [
+    0,
+    0
+   ],
+   "hpTraded": [
+    8906,
+    11134
+   ],
+   "avgDuration": 4.846,
+   "avgSize": [
+    1.423,
+    1.385
+   ],
+   "sizeDist": {
+    "1v1": 7,
+    "2v3": 1,
+    "1v2": 2,
+    "2v1": 4,
+    "2v2": 3,
+    "3v4": 1
+   },
+   "zone": {
+    "own": 0.08,
+    "mid": 0.62,
+    "enemy": 0.31
+   },
+   "atOurSpawn": 0,
+   "atTheirSpawn": 0,
+   "nearAltar": 0,
+   "nearCamp": 0.62,
+   "weInitiateOnChannel": 0.15,
+   "channelTypesWhenWeInitiate": {
+    "tribute": 0,
+    "recall": 0,
+    "capture-tile": 3
+   },
+   "weInitiateOnCarrier": 0,
+   "avgFirstTargetGemsWhenWeInitiate": 0,
+   "weInitiateFromBush": 0.05,
+   "bushHitFrac": [
+    0.04,
+    0.063
+   ],
+   "firstActionsWhenWeInitiate": {
+    "Cast:Damage": 4,
+    "Attack": 5,
+    "Cast:AoeDamage": 8,
+    "Cast:Cc": 3
+   },
+   "firstActionsWhenTheyInitiate": {
+    "Cast:AoeDamage": 1,
+    "Attack": 1,
+    "Cast:Cc": 3,
+    "Cast:Damage": 1
+   },
+   "startHpWhenWeInitiate": [
+    0.865,
+    0.828
+   ],
+   "abilitiesPerFight": [
+    {
+     "Attack": 2.19,
+     "AoeDamage": 0.85,
+     "Damage": 0.31,
+     "Cc": 0.27,
+     "Shield": 0.12
+    },
+    {
+     "Attack": 1.65,
+     "Cc": 0.35,
+     "Damage": 0.35,
+     "AoeDamage": 0.31,
+     "Shield": 0.19
+    }
+   ],
+   "supportPerFight": [
+    0.115,
+    0.192
+   ],
+   "dashes": [
+    {
+     "engage": 4,
+     "escape": 3
+    },
+    {
+     "engage": 5,
+     "escape": 6
+    }
+   ],
+   "focus": [
+    0.899,
+    0.833
+   ],
+   "targetChoice": [
+    {
+     "lowestHp": 0.834,
+     "mostGems": 0,
+     "ranged": 0.167
+    },
+    {
+     "lowestHp": 1,
+     "mostGems": 0,
+     "ranged": 0.25
+    }
+   ],
+   "openerTypeWhenWeInitiate": {
+    "Stellar:Cast:AoeDamage": 5,
+    "Issac:Attack": 3,
+    "Ryth:Cast:AoeDamage": 3,
+    "Ren:Cast:Cc": 3,
+    "Cassi:Cast:Damage": 2,
+    "Stellar:Cast:Damage": 2,
+    "Varg:Attack": 1,
+    "Stellar:Attack": 1
+   },
+   "killConversionWhenWeInitiateOnRecall": null,
+   "killConversionWhenWeInitiate": 0.2,
+   "timeToKillRounds": [
+    6.25,
+    3
+   ],
+   "campDeathContext": [
+    {
+     "n": 12,
+     "afterChampFight": 0.08,
+     "hpfAtEngage": 0.828,
+     "lowHpEngage": 0.17
+    },
+    {
+     "n": 13,
+     "afterChampFight": 0.15,
+     "hpfAtEngage": 0.884,
+     "lowHpEngage": 0.08
+    }
+   ],
+   "lastActHp": [
+    0.705,
+    0.744
+   ],
+   "recallHpInFight": [
+    0.571,
+    0.348
+   ],
+   "mapFeatures": {
+    "altars": 10,
+    "bushTiles": 406,
+    "wallTiles": 0,
+    "symmetry": "rotational180"
+   },
+   "size": "60x60",
+   "drafts": {
+    "Varg/Ryth/CassiAndIssac/Ren/Stellar": 1,
+    "Ren/Stellar/CassiAndIssac/Ryth/Varg": 1
+   }
+  }
+ }
+}

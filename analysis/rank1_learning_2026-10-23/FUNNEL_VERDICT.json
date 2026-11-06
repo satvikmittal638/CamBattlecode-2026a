@@ -1,0 +1,107 @@
+{
+  "at": "2026-10-23T07:25:34.991003+00:00",
+  "selected": false,
+  "uploaded": false,
+  "retainedActiveBot": "v57",
+  "reason": "Initial win/margin gain did not pass the predeclared stronger-opponent holdout:114/160 versus118/160 and -9.5 margin. Across all560 paired schedules, net gain is only5 wins with offsetting regressions. Do not select a fixed income-carry priority from the initial self-play gain.",
+  "totals": {
+    "base": {
+      "games": 560,
+      "wins": 438,
+      "normalHeavyLosses": 46,
+      "faults": 0
+    },
+    "v58-funnel": {
+      "games": 560,
+      "wins": 443,
+      "normalHeavyLosses": 41,
+      "faults": 0
+    }
+  },
+  "schedules": [
+    {
+      "schedule": "funnel_experiment",
+      "base": {
+        "games": 240,
+        "finished": 240,
+        "wins": 164,
+        "gemDiff": 269.5,
+        "myFaults": 0,
+        "oppFaults": 0,
+        "errors": 0
+      },
+      "candidate": {
+        "games": 240,
+        "finished": 240,
+        "wins": 172,
+        "gemDiff": 294.1,
+        "myFaults": 0,
+        "oppFaults": 0,
+        "errors": 0
+      },
+      "paired": {
+        "paired": 240,
+        "gained": 35,
+        "lost": 27,
+        "net": 8,
+        "gemDiffDelta": 24.6
+      }
+    },
+    {
+      "schedule": "funnel_holdout",
+      "base": {
+        "games": 160,
+        "finished": 160,
+        "wins": 156,
+        "gemDiff": 839.3,
+        "myFaults": 0,
+        "oppFaults": 0,
+        "errors": 0
+      },
+      "candidate": {
+        "games": 160,
+        "finished": 160,
+        "wins": 157,
+        "gemDiff": 830.2,
+        "myFaults": 0,
+        "oppFaults": 0,
+        "errors": 0
+      },
+      "paired": {
+        "paired": 160,
+        "gained": 3,
+        "lost": 2,
+        "net": 1,
+        "gemDiffDelta": -9.1
+      }
+    },
+    {
+      "schedule": "funnel_strong_holdout",
+      "base": {
+        "games": 160,
+        "finished": 160,
+        "wins": 118,
+        "gemDiff": 302,
+        "myFaults": 0,
+        "oppFaults": 0,
+        "errors": 0
+      },
+      "candidate": {
+        "games": 160,
+        "finished": 160,
+        "wins": 114,
+        "gemDiff": 292.5,
+        "myFaults": 0,
+        "oppFaults": 0,
+        "errors": 0
+      },
+      "paired": {
+        "paired": 160,
+        "gained": 15,
+        "lost": 19,
+        "net": -4,
+        "gemDiffDelta": -9.5
+      }
+    }
+  ]
+}

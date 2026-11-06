@@ -1,0 +1,54 @@
+{
+  "verifiedAt": "2026-10-29T12:51:07.532645+00:00",
+  "scope": "Five official exports only. Handbook pages and patch-note index were not refreshed.",
+  "workflow": "tools/scrape_docs.js downloaded all five exports before being stopped at the user request to avoid browsers. Subsequent review uses existing CLI and replay scripts only.",
+  "localCliVersion": "4.0.0",
+  "localSdkVersion": "4.0.0",
+  "files": [
+    {
+      "path": "official/BotAPICpp.md",
+      "bytes": 231951,
+      "lines": 10295,
+      "sha256": "68b3a410f426fe4da31654baa7712c6aff7bfb66d312b28ffb7c7f8469d9370f",
+      "previousSha256": "59c88e086a713cc80eb414f31b25e4ed5ff1be6dbcf311822eeab687cbb2d71a",
+      "downloadWrittenAt": "2026-10-29T12:47:07.755893+00:00",
+      "source": "https://2026a.battlecode.co.uk/game/docs/agents"
+    },
+    {
+      "path": "official/BotAPIOCaml.md",
+      "bytes": 186543,
+      "lines": 8391,
+      "sha256": "c9b0d8f0a99263850efbcd678129260cfefc4ee4aff4f83ddf8b14261a2986a2",
+      "previousSha256": "d9a4e9674f51c66ca25b95ee14063daae3cfd9cb93c5ec994f6c7b7ac94028b9",
+      "downloadWrittenAt": "2026-10-29T12:47:08.772662+00:00",
+      "source": "https://2026a.battlecode.co.uk/game/docs/agents"
+    },
+    {
+      "path": "official/BotAPIPython.md",
+      "bytes": 170131,
+      "lines": 8270,
+      "sha256": "3c7d24c76e315897ea621811f1b1e75d7d5504e5deaf3402eba1730e6cff4bf0",
+      "previousSha256": "0eb4a1291b467c526126d994f0a8e3d38dbfcad2b00850e05a5723e698ce121f",
+      "downloadWrittenAt": "2026-10-29T12:47:08.088224+00:00",
+      "source": "https://2026a.battlecode.co.uk/game/docs/agents"
+    },
+    {
+      "path": "official/BotAPIRust.md",
+      "bytes": 185357,
+      "lines": 8274,
+      "sha256": "aeed45163a0fd6a585d998c2c701334c8eedd7fdd6f6459da3f38076c94278ee",
+      "previousSha256": "298a04569c3a59915b35a3dcbbdc9e16d7357de08ac4c7a320eec5d917d8ad0c",
+      "downloadWrittenAt": "2026-10-29T12:47:08.437817+00:00",
+      "source": "https://2026a.battlecode.co.uk/game/docs/agents"
+    },
+    {
+      "path": "official/GameRules.md",
+      "bytes": 37022,
+      "lines": 836,
+      "sha256": "5d6ac9da2a932c28f12a1cd394118ba2dda28202eee79a0fc0155b5c31d5be34",
+      "previousSha256": "d0ffc1267709acc546a3ad54c9861aca1ae2707f2a7196cdb804392955d13f94",
+      "downloadWrittenAt": "2026-10-29T12:47:07.422031+00:00",
+      "source": "https://2026a.battlecode.co.uk/game/docs/agents"
+    }
+  ]
+}

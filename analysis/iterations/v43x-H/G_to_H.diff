@@ -1,0 +1,12 @@
+diff --color -r analysis/iterations/v43x-G/src/fishx_features.h analysis/iterations/v43x-H/src/fishx_features.h
+28,29c28,29
+< constexpr bool X_RALLY = false;        // healthy champions within X_RALLYRANGE converge on an engaged ally when our local power matches theirs
+< constexpr int X_RALLYRANGE = 12;
+---
+> constexpr bool X_RALLY = true;         // healthy champions within X_RALLYRANGE converge on an engaged ally when our local power matches theirs
+> constexpr int X_RALLYRANGE = 8; 
+diff --color -r analysis/iterations/v43x-G/src/main.cpp analysis/iterations/v43x-H/src/main.cpp
+42c42
+<     std::puts("build v43x-G");
+---
+>     std::puts("build v43x-H");

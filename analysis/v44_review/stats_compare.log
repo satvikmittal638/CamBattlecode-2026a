@@ -1,0 +1,10 @@
+rows 420, missing/unreadable stats 0
+group                variant n  wins  score-opp | per game: deaths kills monDmgTaken champDmgTaken collected submitted earnedGold | fuelExhausted gemLossEvents(amount) submissions
+contest(boss-only)   base   6    6  0.0-0.0 | 62.0 27.2 14.9k 83.0k 0.0 0.0 10030.0 | 0.0 62.0(0.0) 0.0
+contest(boss-only)   fix    6    6  0.0-0.0 | 56.7 32.3 15.9k 77.8k 0.0 0.0 10893.3 | 0.0 56.7(0.0) 0.0
+boss-battle          base   6    6  300.2-81.0 | 6.0 2.5 79.8k 0.7k 3937.7 300.2 33791.7 | 0.0 6.0(406.0) 1.8
+boss-battle          fix    6    5  161.8-195.5 | 6.7 1.5 82.4k 0.1k 3873.8 161.8 33303.3 | 0.0 6.7(227.5) 1.5
+monolith             base   6    5  1004.7-760.3 | 4.0 10.0 20.3k 12.3k 1037.5 1004.7 9413.8 | 0.0 4.0(21.0) 67.8
+monolith             fix    6    6  1004.7-693.7 | 2.7 9.7 20.8k 8.6k 1051.8 1004.7 9268.8 | 0.0 2.7(21.7) 65.5
+other32              base 192  177  963.9-366.7 | 5.7 12.9 28.7k 14.7k 1019.2 963.9 7954.8 | 0.0 5.7(31.0) 36.7
+other32              fix  192  178  971.9-370.4 | 5.4 13.2 29.2k 13.8k 1029.4 971.9 8090.4 | 0.1 5.4(31.9) 36.6

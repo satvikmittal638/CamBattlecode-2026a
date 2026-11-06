@@ -1,0 +1,171 @@
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe984943-base
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/dmitt/Library/Caches/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe984943-base/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe984943-base/src/main.cpp.obj
+[2/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe984943-base/src/boss_main.cpp.obj
+[3/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe984943-base/src/draft.cpp.obj
+[4/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe984943-base/src/boss/draft.cpp.obj
+[5/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe984943-base/src/boss/bot.cpp.obj
+[6/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe984943-base/src/bot.cpp.obj
+[7/8] Linking CXX executable bot.wasm
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/codex-v57
+codex-v57 is up to date
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/prism-v58-control
+prism-v58-control is up to date
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe984943-esc
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/dmitt/Library/Caches/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe984943-esc/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe984943-esc/src/boss_main.cpp.obj
+[2/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe984943-esc/src/main.cpp.obj
+[3/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe984943-esc/src/boss/draft.cpp.obj
+[4/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe984943-esc/src/draft.cpp.obj
+[5/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe984943-esc/src/boss/bot.cpp.obj
+[6/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe984943-esc/src/bot.cpp.obj
+[7/8] Linking CXX executable bot.wasm
+[|] STARTING  fe984943-base vs codex-v57  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/base/codex-v57/00lanes/a.repl26a
+[|] STARTING  codex-v57 vs fe984943-base  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/base/codex-v57/00lanes/b.repl26a
+[|] STARTING  fe984943-base vs codex-v57  00gem-fields
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/base/codex-v57/00gem-fields/a.repl26a
+[|] STARTING  codex-v57 vs fe984943-base  00gem-fields
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/base/codex-v57/00gem-fields/b.repl26a
+[|] STARTING  fe984943-base vs codex-v57  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/base/codex-v57/00corners/a.repl26a
+[|] STARTING  codex-v57 vs fe984943-base  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/base/codex-v57/00corners/b.repl26a
+[+] TEAM B WIN (codex-v57)  fe984943-base vs codex-v57  00gem-fields  Round 0611/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/base/codex-v57/00gem-fields/a.repl26a
+[+] TEAM B WIN (fe984943-base)  codex-v57 vs fe984943-base  00gem-fields  Round 0630/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/base/codex-v57/00gem-fields/b.repl26a
+[|] STARTING  fe984943-base vs codex-v57  01hooks
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/base/codex-v57/01hooks/a.repl26a
+[|] STARTING  codex-v57 vs fe984943-base  01hooks
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/base/codex-v57/01hooks/b.repl26a
+[+] TEAM B WIN (fe984943-base)  codex-v57 vs fe984943-base  00corners  Round 1169/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/base/codex-v57/00corners/b.repl26a
+[|] STARTING  fe984943-base vs prism-v58-control  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/base/prism-v58-control/00lanes/a.repl26a
+[+] TEAM B WIN (fe984943-base)  codex-v57 vs fe984943-base  00lanes  Round 1092/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/base/codex-v57/00lanes/b.repl26a
+[|] STARTING  prism-v58-control vs fe984943-base  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/base/prism-v58-control/00lanes/b.repl26a
+[+] TEAM A WIN (fe984943-base)  fe984943-base vs codex-v57  00lanes  Round 1114/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/base/codex-v57/00lanes/a.repl26a
+[+] TEAM B WIN (codex-v57)  fe984943-base vs codex-v57  00corners  Round 1322/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/base/codex-v57/00corners/a.repl26a
+[|] STARTING  fe984943-base vs prism-v58-control  00gem-fields
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/base/prism-v58-control/00gem-fields/a.repl26a
+[|] STARTING  prism-v58-control vs fe984943-base  00gem-fields
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/base/prism-v58-control/00gem-fields/b.repl26a
+[+] TEAM A WIN (fe984943-base)  fe984943-base vs codex-v57  01hooks  Round 1200/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/base/codex-v57/01hooks/a.repl26a
+[+] TEAM B WIN (fe984943-base)  codex-v57 vs fe984943-base  01hooks  Round 1199/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/base/codex-v57/01hooks/b.repl26a
+[|] STARTING  fe984943-base vs prism-v58-control  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/base/prism-v58-control/00corners/a.repl26a
+[|] STARTING  prism-v58-control vs fe984943-base  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/base/prism-v58-control/00corners/b.repl26a
+[+] TEAM A WIN (fe984943-base)  fe984943-base vs prism-v58-control  00gem-fields  Round 0625/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/base/prism-v58-control/00gem-fields/a.repl26a
+[+] TEAM B WIN (fe984943-base)  prism-v58-control vs fe984943-base  00gem-fields  Round 0646/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/base/prism-v58-control/00gem-fields/b.repl26a
+[|] STARTING  fe984943-base vs prism-v58-control  01hooks
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/base/prism-v58-control/01hooks/a.repl26a
+[|] STARTING  prism-v58-control vs fe984943-base  01hooks
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/base/prism-v58-control/01hooks/b.repl26a
+[+] TEAM A WIN (fe984943-base)  fe984943-base vs prism-v58-control  00lanes  Round 1069/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/base/prism-v58-control/00lanes/a.repl26a
+[|] STARTING  fe984943-esc vs codex-v57  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/esc/codex-v57/00lanes/a.repl26a
+[+] TEAM B WIN (fe984943-base)  prism-v58-control vs fe984943-base  00lanes  Round 1159/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/base/prism-v58-control/00lanes/b.repl26a
+[|] STARTING  codex-v57 vs fe984943-esc  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/esc/codex-v57/00lanes/b.repl26a
+[+] TEAM A WIN (fe984943-base)  fe984943-base vs prism-v58-control  01hooks  Round 1339/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/base/prism-v58-control/01hooks/a.repl26a
+[+] TEAM B WIN (fe984943-base)  prism-v58-control vs fe984943-base  01hooks  Round 1273/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/base/prism-v58-control/01hooks/b.repl26a
+[|] STARTING  fe984943-esc vs codex-v57  00gem-fields
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/esc/codex-v57/00gem-fields/a.repl26a
+[|] STARTING  codex-v57 vs fe984943-esc  00gem-fields
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/esc/codex-v57/00gem-fields/b.repl26a
+[+] TEAM A WIN (fe984943-base)  fe984943-base vs prism-v58-control  00corners  Round 1183/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/base/prism-v58-control/00corners/a.repl26a
+[|] STARTING  fe984943-esc vs codex-v57  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/esc/codex-v57/00corners/a.repl26a
+[+] TEAM A WIN (prism-v58-control)  prism-v58-control vs fe984943-base  00corners  Round 1235/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/base/prism-v58-control/00corners/b.repl26a
+[|] STARTING  codex-v57 vs fe984943-esc  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/esc/codex-v57/00corners/b.repl26a
+[+] TEAM A WIN (fe984943-esc)  fe984943-esc vs codex-v57  00lanes  Round 1170/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/esc/codex-v57/00lanes/a.repl26a
+[|] STARTING  fe984943-esc vs codex-v57  01hooks
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/esc/codex-v57/01hooks/a.repl26a
+[+] TEAM A WIN (codex-v57)  codex-v57 vs fe984943-esc  00lanes  Round 1130/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/esc/codex-v57/00lanes/b.repl26a
+[+] TEAM B WIN (codex-v57)  fe984943-esc vs codex-v57  00gem-fields  Round 0650/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/esc/codex-v57/00gem-fields/a.repl26a
+[+] TEAM A WIN (codex-v57)  codex-v57 vs fe984943-esc  00gem-fields  Round 0627/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/esc/codex-v57/00gem-fields/b.repl26a
+[|] STARTING  codex-v57 vs fe984943-esc  01hooks
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/esc/codex-v57/01hooks/b.repl26a
+[|] STARTING  fe984943-esc vs prism-v58-control  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/esc/prism-v58-control/00lanes/a.repl26a
+[|] STARTING  prism-v58-control vs fe984943-esc  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/esc/prism-v58-control/00lanes/b.repl26a
+[+] TEAM A WIN (codex-v57)  codex-v57 vs fe984943-esc  00corners  Round 0970/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/esc/codex-v57/00corners/b.repl26a
+[+] TEAM A WIN (fe984943-esc)  fe984943-esc vs codex-v57  01hooks  Round 1342/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/esc/codex-v57/01hooks/a.repl26a
+[|] STARTING  fe984943-esc vs prism-v58-control  00gem-fields
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/esc/prism-v58-control/00gem-fields/a.repl26a
+[|] STARTING  prism-v58-control vs fe984943-esc  00gem-fields
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/esc/prism-v58-control/00gem-fields/b.repl26a
+[+] TEAM B WIN (codex-v57)  fe984943-esc vs codex-v57  00corners  Round 1249/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/esc/codex-v57/00corners/a.repl26a
+[|] STARTING  fe984943-esc vs prism-v58-control  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/esc/prism-v58-control/00corners/a.repl26a
+[+] TEAM B WIN (fe984943-esc)  codex-v57 vs fe984943-esc  01hooks  Round 1261/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/esc/codex-v57/01hooks/b.repl26a
+[+] TEAM B WIN (prism-v58-control)  fe984943-esc vs prism-v58-control  00gem-fields  Round 0639/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/esc/prism-v58-control/00gem-fields/a.repl26a
+[+] TEAM B WIN (fe984943-esc)  prism-v58-control vs fe984943-esc  00gem-fields  Round 0605/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/esc/prism-v58-control/00gem-fields/b.repl26a
+[|] STARTING  prism-v58-control vs fe984943-esc  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/esc/prism-v58-control/00corners/b.repl26a
+[|] STARTING  fe984943-esc vs prism-v58-control  01hooks
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/esc/prism-v58-control/01hooks/a.repl26a
+[|] STARTING  prism-v58-control vs fe984943-esc  01hooks
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/esc/prism-v58-control/01hooks/b.repl26a
+[+] TEAM A WIN (fe984943-esc)  fe984943-esc vs prism-v58-control  00lanes  Round 1100/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/esc/prism-v58-control/00lanes/a.repl26a
+[+] TEAM A WIN (prism-v58-control)  prism-v58-control vs fe984943-esc  00lanes  Round 1165/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/esc/prism-v58-control/00lanes/b.repl26a
+[+] TEAM B WIN (prism-v58-control)  fe984943-esc vs prism-v58-control  00corners  Round 1239/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/esc/prism-v58-control/00corners/a.repl26a
+[+] TEAM A WIN (fe984943-esc)  fe984943-esc vs prism-v58-control  01hooks  Round 1258/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/esc/prism-v58-control/01hooks/a.repl26a
+[+] TEAM B WIN (fe984943-esc)  prism-v58-control vs fe984943-esc  01hooks  Round 1377/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/esc/prism-v58-control/01hooks/b.repl26a
+[+] TEAM A WIN (prism-v58-control)  prism-v58-control vs fe984943-esc  00corners  Round 1275/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_esc_smoke/games/esc/prism-v58-control/00corners/b.repl26a
+Finished: 32 replay bundles saved, 0 failed
+injected 0 checks into 0 functions
+injected 0 checks into 0 functions

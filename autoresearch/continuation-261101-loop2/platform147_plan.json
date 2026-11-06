@@ -1,0 +1,17 @@
+{
+  "candidate": 147,
+  "sourceCommit": "f160a66",
+  "design": "100 matches;50near50half;70weak30strong;S26freshrank88andS21frozenrank102;exactopponentbots;maptargetflagsarelegacystrata,noteligibilityofglobalcombocorrection.",
+  "arms": [
+    {
+      "baseline": "s26_v141",
+      "candidate": "s26_v147",
+      "plan": "autoresearch/online_plan_s26.json"
+    },
+    {
+      "baseline": "s21_v141",
+      "candidate": "s21_v147",
+      "plan": "autoresearch/online_plan_s21.json"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+ "dir": "local_eval/e2_edge_vs_v21",
+ "games": 34,
+ "nextTarget": {
+  "n": 844,
+  "nearestShare": 0.37,
+  "top2Share": 0.54,
+  "avgDist": 15.61,
+  "avgNearest": 8.48,
+  "avgDelay": 31.8,
+  "extraDist": 7.12,
+  "commonSkips": {
+   "GoldCluster1 -> GoldCluster3": 40,
+   "Wolf1 -> Wolf1": 36,
+   "GoldCluster1 -> Wolf1": 35,
+   "Elk1 -> Wolf1": 33,
+   "GoldCluster1 -> Monolith1": 28,
+   "Elk1+GoldCluster1 -> Elk1+GoldCluster1": 24,
+   "Elk2+GemCluster1 -> Elk1+GoldCluster3": 23,
+   "GoldCluster2 -> GoldCluster2": 19
+  }
+ },
+ "tribute": {
+  "perGame": 11.6,
+  "gemsAvg": 72.09,
+  "gemsP25": 36,
+  "gemsP50": 66,
+  "gemsP75": 80,
+  "capturesBetween": 1.56,
+  "roundsBetween": 134.22
+ },
+ "recall": {
+  "perGame": 45.7,
+  "hpfAvg": 0.52,
+  "hpfP50": 0.43,
+  "goldAvg": 80.66,
+  "afterTributeShare": 0,
+  "healthyRecallShare": 0.32,
+  "carryingGemsShare": 0.32
+ }
+}

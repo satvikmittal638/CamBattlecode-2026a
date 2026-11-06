@@ -1,0 +1,269 @@
+{
+ "n": 60,
+ "winRate": 0.817,
+ "avgGemDiff": 371.1,
+ "avgRounds": 510.47,
+ "draft": {
+  "Varg,Ryth,Vendetta": 22,
+  "Varg,Ryth,Vendetta,Ren": 14,
+  "Varg,Ryth,Vendetta,Ren,Marcella": 24
+ },
+ "captures": 26.95,
+ "capPer100": 5.28,
+ "firstCapture": 31,
+ "capLabels": {
+  "D2G2": 53,
+  "W2": 143,
+  "W1": 676,
+  "G3": 49,
+  "K1": 124,
+  "G3K1": 29,
+  "D1": 2,
+  "W3": 119,
+  "G2": 222,
+  "G1": 57,
+  "D1K1": 139,
+  "D2": 3,
+  "G1K2": 1
+ },
+ "capShare": {
+  "1": 1546,
+  "2": 71
+ },
+ "tributes": 20.23,
+ "tribPer100": 3.96,
+ "gemsPerTribute": {
+  "mean": 51.9,
+  "p10": 22,
+  "p25": 44,
+  "median": 48,
+  "p75": 66,
+  "p90": 72
+ },
+ "firstTribute": 77,
+ "tribHpMedian": 1,
+ "tribEnemyNearFrac": 0.19,
+ "carryMaxMedian": 66,
+ "recalls": 20.17,
+ "recallsPer100": 3.95,
+ "recallHp": {
+  "p10": 0.16,
+  "p25": 0.26875,
+  "median": 0.42,
+  "p75": 0.65,
+  "p90": 0.7846153846153846
+ },
+ "recallGoldMedian": 90,
+ "recallGemsMedian": 0,
+ "recallReasons": {
+  "lowHp": 742,
+  "other": 127,
+  "gold>=150": 213,
+  "gems": 128
+ },
+ "recallSpawnDistMedian": 20,
+ "shopGold": {
+  "p10": 90,
+  "median": 185,
+  "p90": 300
+ },
+ "kills": 5.77,
+ "deaths": 2.1,
+ "deathCause": {
+  "nearEnemy": 140,
+  "noEnemyNear": 1
+ },
+ "gemsAtDeathMedian": 0,
+ "attackMix": {
+  "champion": 7501,
+  "camp": 29960,
+  "other": 126,
+  "champFrac": 0.2
+ },
+ "campTargets": {
+  "GoldCluster": 1306,
+  "GemCluster": 4510,
+  "Wolf": 17923,
+  "Elk": 6221
+ },
+ "monolithAttacks": 0,
+ "champTargetTypes": {
+  "Varg": 1983,
+  "Cassi": 632,
+  "Vendetta": 1481,
+  "Issac": 1164,
+  "Ryth": 1460,
+  "Tavi": 302,
+  "Marcella": 208,
+  "Ren": 26,
+  "VesperVale": 20,
+  "Stellar": 205,
+  "Prism": 20
+ },
+ "targetChoice": {
+  "lowestHp": 1058,
+  "notLowest": 292,
+  "single": 6151
+ },
+ "abilitiesPer100ChampRounds": {
+  "Vendetta:Dash->tile": 6.53,
+  "Vendetta:AttackReset->self/ally": 5.68,
+  "Varg:Shield->self/ally": 6.46,
+  "Ryth:AttackReset->self/ally": 4.42,
+  "Ryth:AoeDamage->camp": 3.18,
+  "Varg:AttackReset->self/ally": 4.54,
+  "Ryth:AoeDamage->enemy": 1.12,
+  "Ren:Dash->tile": 6.59,
+  "Ren:Cc->camp": 3.44,
+  "Ren:Cc->enemy": 1.21,
+  "Marcella:AttackReset->self/ally": 4.47,
+  "Marcella:Damage->camp": 3.02,
+  "Marcella:Damage->enemy": 1.44
+ },
+ "altarLocks": 2.78,
+ "lockContext": {
+  "noEnemy": 158,
+  "enemyAdjacent": 1,
+  "enemyTributing": 8
+ },
+ "lockRoundMedian": 289,
+ "engagement": {
+  "hp60+": {
+   "move": 1389,
+   "atkChamp": 4138,
+   "atkCamp": 111,
+   "idle": 424,
+   "recall": 7,
+   "tribute": 15
+  },
+  "hp30-60": {
+   "atkChamp": 1566,
+   "idle": 212,
+   "move": 532,
+   "recall": 35,
+   "atkCamp": 27,
+   "tribute": 2
+  },
+  "hp<30": {
+   "move": 230,
+   "atkChamp": 460,
+   "idle": 146,
+   "recall": 34,
+   "atkCamp": 9
+  }
+ },
+ "spatial": {
+  "enemyHalf": 0.23,
+  "spawnDist": 0.38,
+  "grouped": 0.4
+ },
+ "openingFirstCamp": {
+  "collision:Ryth:W1": 9,
+  "collision:Varg:W1": 9,
+  "collision:Vendetta:W1": 9,
+  "corners:Marcella:G2": 8,
+  "corners:Marcella:K1": 1,
+  "corners:Ren:G2": 8,
+  "corners:Ren:W1": 1,
+  "corners:Ryth:G2": 8,
+  "corners:Ryth:W1": 1,
+  "corners:Varg:G2": 9,
+  "corners:Vendetta:W1": 9,
+  "elkring:Marcella:D1K1": 5,
+  "elkring:Ren:D1K1": 5,
+  "elkring:Ryth:D1K1": 5,
+  "elkring:Varg:D1K1": 5,
+  "elkring:Vendetta:D1K1": 5,
+  "expanse:Ryth:G2": 7,
+  "expanse:Varg:G2": 7,
+  "expanse:Vendetta:G2": 7,
+  "interlock:Ren:W1": 7,
+  "interlock:Ryth:G3": 5,
+  "interlock:Ryth:W1": 2,
+  "interlock:Varg:G3": 7,
+  "interlock:Vendetta:W1": 7,
+  "lanes:Marcella:K1": 1,
+  "lanes:Marcella:W1": 4,
+  "lanes:Ren:W1": 5,
+  "lanes:Ryth:K1": 5,
+  "lanes:Varg:W1": 5,
+  "lanes:Vendetta:W1": 5,
+  "monolith:Marcella:W2": 5,
+  "monolith:Ren:W2": 5,
+  "monolith:Ryth:W1": 5,
+  "monolith:Varg:W1": 5,
+  "monolith:Vendetta:W1": 5,
+  "packs:Ryth:D2G2": 6,
+  "packs:Varg:D2G2": 6,
+  "packs:Vendetta:D2G2": 6,
+  "rows:Ren:W3": 7,
+  "rows:Ryth:W3": 7,
+  "rows:Varg:W3": 7,
+  "rows:Vendetta:W3": 7
+ },
+ "perMap": {
+  "packs": {
+   "n": 6,
+   "winRate": 0.67,
+   "caps": 18.67,
+   "tribs": 19.5,
+   "gd": 326.67
+  },
+  "interlock": {
+   "n": 7,
+   "winRate": 0.71,
+   "caps": 24.71,
+   "tribs": 18.57,
+   "gd": 304.57
+  },
+  "collision": {
+   "n": 9,
+   "winRate": 1,
+   "caps": 31.44,
+   "tribs": 24.44,
+   "gd": 788.89
+  },
+  "rows": {
+   "n": 7,
+   "winRate": 1,
+   "caps": 17,
+   "tribs": 14,
+   "gd": 235.71
+  },
+  "expanse": {
+   "n": 7,
+   "winRate": 0.86,
+   "caps": 28.14,
+   "tribs": 21.71,
+   "gd": 137.43
+  },
+  "monolith": {
+   "n": 5,
+   "winRate": 1,
+   "caps": 31.4,
+   "tribs": 23,
+   "gd": 365.6
+  },
+  "lanes": {
+   "n": 5,
+   "winRate": 0.6,
+   "caps": 38.6,
+   "tribs": 22.6,
+   "gd": 182.4
+  },
+  "elkring": {
+   "n": 5,
+   "winRate": 0.6,
+   "caps": 27.8,
+   "tribs": 14.2,
+   "gd": 169.2
+  },
+  "corners": {
+   "n": 9,
+   "winRate": 0.78,
+   "caps": 27.11,
+   "tribs": 22,
+   "gd": 541.78
+  }
+ }
+}

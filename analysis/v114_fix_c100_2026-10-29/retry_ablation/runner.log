@@ -1,0 +1,519 @@
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/febad353-base
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/dmitt/Library/Caches/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/dmitt/Desktop/CamBattlecode/workspace/bots/febad353-base/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/febad353-base/src/main.cpp.obj
+[2/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/febad353-base/src/draft.cpp.obj
+[3/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/febad353-base/src/bot.cpp.obj
+[4/5] Linking CXX executable bot.wasm
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/v114
+v114 is up to date
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/fish62_f84
+fish62_f84 is up to date
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/tm30_f84
+tm30_f84 is up to date
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/febad353-retry
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/dmitt/Library/Caches/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/dmitt/Desktop/CamBattlecode/workspace/bots/febad353-retry/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/febad353-retry/src/main.cpp.obj
+[2/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/febad353-retry/src/draft.cpp.obj
+[3/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/febad353-retry/src/bot.cpp.obj
+[4/5] Linking CXX executable bot.wasm
+[|] STARTING  febad353-base vs v114  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/v114/00lanes/a.repl26a
+[|] STARTING  v114 vs febad353-base  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/v114/00lanes/b.repl26a
+[|] STARTING  febad353-base vs v114  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/v114/01elk-arena/a.repl26a
+[|] STARTING  v114 vs febad353-base  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/v114/01elk-arena/b.repl26a
+[|] STARTING  febad353-base vs v114  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/v114/02treasure-box/a.repl26a
+[|] STARTING  v114 vs febad353-base  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/v114/02treasure-box/b.repl26a
+[+] TEAM A WIN (v114)  v114 vs febad353-base  02treasure-box  Round 1287/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/v114/02treasure-box/b.repl26a
+[|] STARTING  febad353-base vs v114  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/v114/01broken-curve/a.repl26a
+[+] TEAM A WIN (febad353-base)  febad353-base vs v114  00lanes  Round 1259/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/v114/00lanes/a.repl26a
+[+] TEAM B WIN (febad353-base)  v114 vs febad353-base  00lanes  Round 1318/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/v114/00lanes/b.repl26a
+[+] TEAM A WIN (v114)  v114 vs febad353-base  01elk-arena  Round 1253/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/v114/01elk-arena/b.repl26a
+[|] STARTING  v114 vs febad353-base  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/v114/01broken-curve/b.repl26a
+[|] STARTING  febad353-base vs v114  02stalactites
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/v114/02stalactites/a.repl26a
+[|] STARTING  v114 vs febad353-base  02stalactites
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/v114/02stalactites/b.repl26a
+[+] TEAM A WIN (febad353-base)  febad353-base vs v114  01elk-arena  Round 1968/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/v114/01elk-arena/a.repl26a
+[|] STARTING  febad353-base vs v114  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/v114/02cuts/a.repl26a
+[+] TEAM B WIN (v114)  febad353-base vs v114  01broken-curve  Round 1094/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/v114/01broken-curve/a.repl26a
+[+] TEAM B WIN (v114)  febad353-base vs v114  02stalactites  Round 0521/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/v114/02stalactites/a.repl26a
+[+] TEAM A WIN (v114)  v114 vs febad353-base  02stalactites  Round 0501/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/v114/02stalactites/b.repl26a
+[|] STARTING  v114 vs febad353-base  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/v114/02cuts/b.repl26a
+[|] STARTING  febad353-base vs v114  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/v114/00gemfight/a.repl26a
+[|] STARTING  v114 vs febad353-base  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/v114/00gemfight/b.repl26a
+[+] TEAM B WIN (v114)  febad353-base vs v114  02treasure-box  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/v114/02treasure-box/a.repl26a
+[+] TEAM B WIN (febad353-base)  v114 vs febad353-base  01broken-curve  Round 1131/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/v114/01broken-curve/b.repl26a
+[|] STARTING  febad353-base vs v114  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/v114/01boss-battle/a.repl26a
+[|] STARTING  v114 vs febad353-base  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/v114/01boss-battle/b.repl26a
+[+] TEAM B WIN (v114)  febad353-base vs v114  02cuts  Round 1012/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/v114/02cuts/a.repl26a
+[|] STARTING  febad353-base vs v114  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/v114/01gold-rush/a.repl26a
+[+] TEAM B WIN (v114)  febad353-base vs v114  00gemfight  Round 0913/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/v114/00gemfight/a.repl26a
+[|] STARTING  v114 vs febad353-base  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/v114/01gold-rush/b.repl26a
+[+] TEAM B WIN (febad353-base)  v114 vs febad353-base  00gemfight  Round 0986/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/v114/00gemfight/b.repl26a
+[+] TEAM B WIN (v114)  febad353-base vs v114  01gold-rush  Round 1685/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/v114/01gold-rush/a.repl26a
+[|] STARTING  febad353-base vs v114  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/v114/00vault/a.repl26a
+[|] STARTING  v114 vs febad353-base  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/v114/00vault/b.repl26a
+[+] TEAM A WIN (v114)  v114 vs febad353-base  02cuts  Round 1039/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/v114/02cuts/b.repl26a
+[+] TEAM B WIN (v114)  febad353-base vs v114  01boss-battle  Round 1080/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/v114/01boss-battle/a.repl26a
+[+] TEAM B WIN (febad353-base)  v114 vs febad353-base  01boss-battle  Round 1198/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/v114/01boss-battle/b.repl26a
+[|] STARTING  febad353-base vs fish62_f84  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/fish62_f84/00lanes/a.repl26a
+[|] STARTING  fish62_f84 vs febad353-base  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/fish62_f84/00lanes/b.repl26a
+[|] STARTING  febad353-base vs fish62_f84  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/fish62_f84/01elk-arena/a.repl26a
+[+] TEAM A WIN (febad353-base)  febad353-base vs v114  00vault  Round 0425/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/v114/00vault/a.repl26a
+[|] STARTING  fish62_f84 vs febad353-base  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/fish62_f84/01elk-arena/b.repl26a
+[+] TEAM B WIN (febad353-base)  v114 vs febad353-base  00vault  Round 0979/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/v114/00vault/b.repl26a
+[|] STARTING  febad353-base vs fish62_f84  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/fish62_f84/02treasure-box/a.repl26a
+[+] TEAM A WIN (v114)  v114 vs febad353-base  01gold-rush  Round 1760/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/v114/01gold-rush/b.repl26a
+[|] STARTING  fish62_f84 vs febad353-base  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/fish62_f84/02treasure-box/b.repl26a
+[+] TEAM A WIN (febad353-base)  febad353-base vs fish62_f84  01elk-arena  Round 1333/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/fish62_f84/01elk-arena/a.repl26a
+[|] STARTING  febad353-base vs fish62_f84  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/fish62_f84/01broken-curve/a.repl26a
+[+] TEAM A WIN (febad353-base)  febad353-base vs fish62_f84  00lanes  Round 1257/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/fish62_f84/00lanes/a.repl26a
+[+] TEAM B WIN (febad353-base)  fish62_f84 vs febad353-base  00lanes  Round 1251/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/fish62_f84/00lanes/b.repl26a
+[|] STARTING  fish62_f84 vs febad353-base  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/fish62_f84/01broken-curve/b.repl26a
+[|] STARTING  febad353-base vs fish62_f84  02stalactites
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/fish62_f84/02stalactites/a.repl26a
+[+] TEAM B WIN (fish62_f84)  febad353-base vs fish62_f84  02treasure-box  Round 1265/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/fish62_f84/02treasure-box/a.repl26a
+[+] TEAM A WIN (fish62_f84)  fish62_f84 vs febad353-base  02treasure-box  Round 1321/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/fish62_f84/02treasure-box/b.repl26a
+[|] STARTING  fish62_f84 vs febad353-base  02stalactites
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/fish62_f84/02stalactites/b.repl26a
+[|] STARTING  febad353-base vs fish62_f84  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/fish62_f84/02cuts/a.repl26a
+[+] TEAM B WIN (febad353-base)  fish62_f84 vs febad353-base  01elk-arena  Round 1507/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/fish62_f84/01elk-arena/b.repl26a
+[|] STARTING  fish62_f84 vs febad353-base  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/fish62_f84/02cuts/b.repl26a
+[+] TEAM A WIN (febad353-base)  febad353-base vs fish62_f84  01broken-curve  Round 1168/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/fish62_f84/01broken-curve/a.repl26a
+[+] TEAM A WIN (febad353-base)  febad353-base vs fish62_f84  02stalactites  Round 0608/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/fish62_f84/02stalactites/a.repl26a
+[|] STARTING  febad353-base vs fish62_f84  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/fish62_f84/00gemfight/a.repl26a
+[|] STARTING  fish62_f84 vs febad353-base  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/fish62_f84/00gemfight/b.repl26a
+[+] TEAM B WIN (febad353-base)  fish62_f84 vs febad353-base  01broken-curve  Round 0985/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/fish62_f84/01broken-curve/b.repl26a
+[|] STARTING  febad353-base vs fish62_f84  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/fish62_f84/01boss-battle/a.repl26a
+[+] TEAM A WIN (fish62_f84)  fish62_f84 vs febad353-base  02stalactites  Round 0541/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/fish62_f84/02stalactites/b.repl26a
+[|] STARTING  fish62_f84 vs febad353-base  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/fish62_f84/01boss-battle/b.repl26a
+[+] TEAM B WIN (fish62_f84)  febad353-base vs fish62_f84  00gemfight  Round 0940/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/fish62_f84/00gemfight/a.repl26a
+[+] TEAM B WIN (febad353-base)  fish62_f84 vs febad353-base  00gemfight  Round 0835/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/fish62_f84/00gemfight/b.repl26a
+[|] STARTING  febad353-base vs fish62_f84  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/fish62_f84/01gold-rush/a.repl26a
+[|] STARTING  fish62_f84 vs febad353-base  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/fish62_f84/01gold-rush/b.repl26a
+[+] TEAM A WIN (febad353-base)  febad353-base vs fish62_f84  02cuts  Round 1015/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/fish62_f84/02cuts/a.repl26a
+[+] TEAM B WIN (febad353-base)  fish62_f84 vs febad353-base  02cuts  Round 1050/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/fish62_f84/02cuts/b.repl26a
+[|] STARTING  febad353-base vs fish62_f84  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/fish62_f84/00vault/a.repl26a
+[|] STARTING  fish62_f84 vs febad353-base  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/fish62_f84/00vault/b.repl26a
+[+] TEAM B WIN (fish62_f84)  febad353-base vs fish62_f84  01boss-battle  Round 1933/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/fish62_f84/01boss-battle/a.repl26a
+[+] TEAM A WIN (febad353-base)  febad353-base vs fish62_f84  00vault  Round 0419/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/fish62_f84/00vault/a.repl26a
+[|] STARTING  febad353-base vs tm30_f84  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/tm30_f84/00lanes/a.repl26a
+[|] STARTING  tm30_f84 vs febad353-base  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/tm30_f84/00lanes/b.repl26a
+[+] TEAM A WIN (fish62_f84)  fish62_f84 vs febad353-base  00vault  Round 0610/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/fish62_f84/00vault/b.repl26a
+[|] STARTING  febad353-base vs tm30_f84  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/tm30_f84/01elk-arena/a.repl26a
+[+] TEAM B WIN (febad353-base)  fish62_f84 vs febad353-base  01boss-battle  Round 1306/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/fish62_f84/01boss-battle/b.repl26a
+[|] STARTING  tm30_f84 vs febad353-base  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/tm30_f84/01elk-arena/b.repl26a
+[+] TEAM A WIN (fish62_f84)  fish62_f84 vs febad353-base  01gold-rush  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/fish62_f84/01gold-rush/b.repl26a
+[|] STARTING  febad353-base vs tm30_f84  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/tm30_f84/02treasure-box/a.repl26a
+[+] TEAM B WIN (fish62_f84)  febad353-base vs fish62_f84  01gold-rush  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/fish62_f84/01gold-rush/a.repl26a
+[|] STARTING  tm30_f84 vs febad353-base  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/tm30_f84/02treasure-box/b.repl26a
+[+] TEAM A WIN (febad353-base)  febad353-base vs tm30_f84  02treasure-box  Round 1229/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/tm30_f84/02treasure-box/a.repl26a
+[|] STARTING  febad353-base vs tm30_f84  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/tm30_f84/01broken-curve/a.repl26a
+[+] TEAM A WIN (febad353-base)  febad353-base vs tm30_f84  00lanes  Round 1360/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/tm30_f84/00lanes/a.repl26a
+[+] TEAM A WIN (febad353-base)  febad353-base vs tm30_f84  01elk-arena  Round 1433/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/tm30_f84/01elk-arena/a.repl26a
+[+] TEAM B WIN (febad353-base)  tm30_f84 vs febad353-base  01elk-arena  Round 1509/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/tm30_f84/01elk-arena/b.repl26a
+[|] STARTING  tm30_f84 vs febad353-base  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/tm30_f84/01broken-curve/b.repl26a
+[|] STARTING  febad353-base vs tm30_f84  02stalactites
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/tm30_f84/02stalactites/a.repl26a
+[|] STARTING  tm30_f84 vs febad353-base  02stalactites
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/tm30_f84/02stalactites/b.repl26a
+[+] TEAM B WIN (febad353-base)  tm30_f84 vs febad353-base  00lanes  Round 1463/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/tm30_f84/00lanes/b.repl26a
+[|] STARTING  febad353-base vs tm30_f84  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/tm30_f84/02cuts/a.repl26a
+[+] TEAM B WIN (febad353-base)  tm30_f84 vs febad353-base  02stalactites  Round 0392/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/tm30_f84/02stalactites/b.repl26a
+[|] STARTING  tm30_f84 vs febad353-base  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/tm30_f84/02cuts/b.repl26a
+[+] TEAM A WIN (febad353-base)  febad353-base vs tm30_f84  01broken-curve  Round 1019/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/tm30_f84/01broken-curve/a.repl26a
+[+] TEAM A WIN (febad353-base)  febad353-base vs tm30_f84  02stalactites  Round 0649/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/tm30_f84/02stalactites/a.repl26a
+[|] STARTING  febad353-base vs tm30_f84  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/tm30_f84/00gemfight/a.repl26a
+[|] STARTING  tm30_f84 vs febad353-base  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/tm30_f84/00gemfight/b.repl26a
+[+] TEAM A WIN (tm30_f84)  tm30_f84 vs febad353-base  01broken-curve  Round 1174/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/tm30_f84/01broken-curve/b.repl26a
+[|] STARTING  febad353-base vs tm30_f84  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/tm30_f84/01boss-battle/a.repl26a
+[+] TEAM A WIN (febad353-base)  febad353-base vs tm30_f84  02cuts  Round 1211/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/tm30_f84/02cuts/a.repl26a
+[|] STARTING  tm30_f84 vs febad353-base  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/tm30_f84/01boss-battle/b.repl26a
+[+] TEAM B WIN (febad353-base)  tm30_f84 vs febad353-base  02treasure-box  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/tm30_f84/02treasure-box/b.repl26a
+[+] TEAM B WIN (febad353-base)  tm30_f84 vs febad353-base  00gemfight  Round 0832/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/tm30_f84/00gemfight/b.repl26a
+[|] STARTING  febad353-base vs tm30_f84  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/tm30_f84/01gold-rush/a.repl26a
+[|] STARTING  tm30_f84 vs febad353-base  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/tm30_f84/01gold-rush/b.repl26a
+[+] TEAM A WIN (febad353-base)  febad353-base vs tm30_f84  00gemfight  Round 1095/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/tm30_f84/00gemfight/a.repl26a
+[|] STARTING  febad353-base vs tm30_f84  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/tm30_f84/00vault/a.repl26a
+[+] TEAM B WIN (febad353-base)  tm30_f84 vs febad353-base  02cuts  Round 1190/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/tm30_f84/02cuts/b.repl26a
+[|] STARTING  tm30_f84 vs febad353-base  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/tm30_f84/00vault/b.repl26a
+[+] TEAM B WIN (tm30_f84)  febad353-base vs tm30_f84  01boss-battle  Round 1752/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/tm30_f84/01boss-battle/a.repl26a
+[+] TEAM A WIN (febad353-base)  febad353-base vs tm30_f84  00vault  Round 0588/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/tm30_f84/00vault/a.repl26a
+[|] STARTING  febad353-retry vs v114  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/v114/00lanes/a.repl26a
+[|] STARTING  v114 vs febad353-retry  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/v114/00lanes/b.repl26a
+[+] TEAM B WIN (febad353-base)  tm30_f84 vs febad353-base  01gold-rush  Round 1146/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/tm30_f84/01gold-rush/b.repl26a
+[|] STARTING  febad353-retry vs v114  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/v114/01elk-arena/a.repl26a
+[+] TEAM A WIN (febad353-base)  febad353-base vs tm30_f84  01gold-rush  Round 1250/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/tm30_f84/01gold-rush/a.repl26a
+[|] STARTING  v114 vs febad353-retry  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/v114/01elk-arena/b.repl26a
+[+] TEAM B WIN (febad353-base)  tm30_f84 vs febad353-base  01boss-battle  Round 0963/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/tm30_f84/01boss-battle/b.repl26a
+[|] STARTING  febad353-retry vs v114  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/v114/02treasure-box/a.repl26a
+[+] TEAM B WIN (febad353-base)  tm30_f84 vs febad353-base  00vault  Round 0610/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/base/tm30_f84/00vault/b.repl26a
+[|] STARTING  v114 vs febad353-retry  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/v114/02treasure-box/b.repl26a
+[+] TEAM A WIN (febad353-retry)  febad353-retry vs v114  00lanes  Round 1257/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/v114/00lanes/a.repl26a
+[+] TEAM B WIN (febad353-retry)  v114 vs febad353-retry  00lanes  Round 1318/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/v114/00lanes/b.repl26a
+[|] STARTING  febad353-retry vs v114  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/v114/01broken-curve/a.repl26a
+[|] STARTING  v114 vs febad353-retry  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/v114/01broken-curve/b.repl26a
+[+] TEAM A WIN (febad353-retry)  febad353-retry vs v114  01elk-arena  Round 1542/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/v114/01elk-arena/a.repl26a
+[+] TEAM A WIN (v114)  v114 vs febad353-retry  01elk-arena  Round 1387/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/v114/01elk-arena/b.repl26a
+[+] TEAM A WIN (v114)  v114 vs febad353-retry  02treasure-box  Round 1287/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/v114/02treasure-box/b.repl26a
+[|] STARTING  febad353-retry vs v114  02stalactites
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/v114/02stalactites/a.repl26a
+[|] STARTING  v114 vs febad353-retry  02stalactites
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/v114/02stalactites/b.repl26a
+[|] STARTING  febad353-retry vs v114  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/v114/02cuts/a.repl26a
+[+] TEAM B WIN (v114)  febad353-retry vs v114  01broken-curve  Round 1094/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/v114/01broken-curve/a.repl26a
+[+] TEAM B WIN (febad353-retry)  v114 vs febad353-retry  01broken-curve  Round 1131/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/v114/01broken-curve/b.repl26a
+[+] TEAM B WIN (v114)  febad353-retry vs v114  02stalactites  Round 0521/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/v114/02stalactites/a.repl26a
+[+] TEAM A WIN (v114)  v114 vs febad353-retry  02stalactites  Round 0501/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/v114/02stalactites/b.repl26a
+[|] STARTING  v114 vs febad353-retry  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/v114/02cuts/b.repl26a
+[|] STARTING  febad353-retry vs v114  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/v114/00gemfight/a.repl26a
+[|] STARTING  v114 vs febad353-retry  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/v114/00gemfight/b.repl26a
+[|] STARTING  febad353-retry vs v114  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/v114/01boss-battle/a.repl26a
+[+] TEAM B WIN (v114)  febad353-retry vs v114  02cuts  Round 1012/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/v114/02cuts/a.repl26a
+[|] STARTING  v114 vs febad353-retry  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/v114/01boss-battle/b.repl26a
+[+] TEAM B WIN (v114)  febad353-retry vs v114  02treasure-box  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/v114/02treasure-box/a.repl26a
+[|] STARTING  febad353-retry vs v114  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/v114/01gold-rush/a.repl26a
+[+] TEAM B WIN (v114)  febad353-retry vs v114  00gemfight  Round 0873/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/v114/00gemfight/a.repl26a
+[+] TEAM B WIN (febad353-retry)  v114 vs febad353-retry  00gemfight  Round 0986/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/v114/00gemfight/b.repl26a
+[|] STARTING  v114 vs febad353-retry  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/v114/01gold-rush/b.repl26a
+[|] STARTING  febad353-retry vs v114  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/v114/00vault/a.repl26a
+[+] TEAM A WIN (v114)  v114 vs febad353-retry  02cuts  Round 1039/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/v114/02cuts/b.repl26a
+[+] TEAM B WIN (v114)  febad353-retry vs v114  01boss-battle  Round 1080/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/v114/01boss-battle/a.repl26a
+[+] TEAM B WIN (febad353-retry)  v114 vs febad353-retry  01boss-battle  Round 1198/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/v114/01boss-battle/b.repl26a
+[+] TEAM B WIN (v114)  febad353-retry vs v114  01gold-rush  Round 1685/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/v114/01gold-rush/a.repl26a
+[|] STARTING  v114 vs febad353-retry  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/v114/00vault/b.repl26a
+[|] STARTING  febad353-retry vs fish62_f84  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/fish62_f84/00lanes/a.repl26a
+[|] STARTING  fish62_f84 vs febad353-retry  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/fish62_f84/00lanes/b.repl26a
+[|] STARTING  febad353-retry vs fish62_f84  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/fish62_f84/01elk-arena/a.repl26a
+[+] TEAM A WIN (febad353-retry)  febad353-retry vs v114  00vault  Round 0425/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/v114/00vault/a.repl26a
+[|] STARTING  fish62_f84 vs febad353-retry  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/fish62_f84/01elk-arena/b.repl26a
+[+] TEAM A WIN (v114)  v114 vs febad353-retry  01gold-rush  Round 1760/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/v114/01gold-rush/b.repl26a
+[|] STARTING  febad353-retry vs fish62_f84  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/fish62_f84/02treasure-box/a.repl26a
+[+] TEAM B WIN (febad353-retry)  v114 vs febad353-retry  00vault  Round 0979/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/v114/00vault/b.repl26a
+[|] STARTING  fish62_f84 vs febad353-retry  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/fish62_f84/02treasure-box/b.repl26a
+[+] TEAM A WIN (febad353-retry)  febad353-retry vs fish62_f84  00lanes  Round 1257/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/fish62_f84/00lanes/a.repl26a
+[+] TEAM B WIN (febad353-retry)  fish62_f84 vs febad353-retry  00lanes  Round 1251/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/fish62_f84/00lanes/b.repl26a
+[|] STARTING  febad353-retry vs fish62_f84  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/fish62_f84/01broken-curve/a.repl26a
+[|] STARTING  fish62_f84 vs febad353-retry  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/fish62_f84/01broken-curve/b.repl26a
+[+] TEAM B WIN (fish62_f84)  febad353-retry vs fish62_f84  01elk-arena  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/fish62_f84/01elk-arena/a.repl26a
+[|] STARTING  febad353-retry vs fish62_f84  02stalactites
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/fish62_f84/02stalactites/a.repl26a
+[+] TEAM B WIN (fish62_f84)  febad353-retry vs fish62_f84  02treasure-box  Round 1265/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/fish62_f84/02treasure-box/a.repl26a
+[|] STARTING  fish62_f84 vs febad353-retry  02stalactites
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/fish62_f84/02stalactites/b.repl26a
+[+] TEAM A WIN (fish62_f84)  fish62_f84 vs febad353-retry  02treasure-box  Round 1321/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/fish62_f84/02treasure-box/b.repl26a
+[|] STARTING  febad353-retry vs fish62_f84  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/fish62_f84/02cuts/a.repl26a
+[+] TEAM B WIN (febad353-retry)  fish62_f84 vs febad353-retry  01elk-arena  Round 1553/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/fish62_f84/01elk-arena/b.repl26a
+[|] STARTING  fish62_f84 vs febad353-retry  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/fish62_f84/02cuts/b.repl26a
+[+] TEAM A WIN (febad353-retry)  febad353-retry vs fish62_f84  01broken-curve  Round 1168/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/fish62_f84/01broken-curve/a.repl26a
+[+] TEAM B WIN (febad353-retry)  fish62_f84 vs febad353-retry  01broken-curve  Round 0985/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/fish62_f84/01broken-curve/b.repl26a
+[+] TEAM A WIN (febad353-retry)  febad353-retry vs fish62_f84  02stalactites  Round 0608/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/fish62_f84/02stalactites/a.repl26a
+[+] TEAM A WIN (fish62_f84)  fish62_f84 vs febad353-retry  02stalactites  Round 0541/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/fish62_f84/02stalactites/b.repl26a
+[|] STARTING  febad353-retry vs fish62_f84  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/fish62_f84/00gemfight/a.repl26a
+[|] STARTING  fish62_f84 vs febad353-retry  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/fish62_f84/00gemfight/b.repl26a
+[|] STARTING  febad353-retry vs fish62_f84  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/fish62_f84/01boss-battle/a.repl26a
+[|] STARTING  fish62_f84 vs febad353-retry  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/fish62_f84/01boss-battle/b.repl26a
+[+] TEAM A WIN (febad353-retry)  febad353-retry vs fish62_f84  02cuts  Round 1015/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/fish62_f84/02cuts/a.repl26a
+[+] TEAM B WIN (febad353-retry)  fish62_f84 vs febad353-retry  02cuts  Round 1050/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/fish62_f84/02cuts/b.repl26a
+[|] STARTING  febad353-retry vs fish62_f84  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/fish62_f84/01gold-rush/a.repl26a
+[|] STARTING  fish62_f84 vs febad353-retry  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/fish62_f84/01gold-rush/b.repl26a
+[+] TEAM B WIN (febad353-retry)  fish62_f84 vs febad353-retry  00gemfight  Round 0835/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/fish62_f84/00gemfight/b.repl26a
+[|] STARTING  febad353-retry vs fish62_f84  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/fish62_f84/00vault/a.repl26a
+[+] TEAM B WIN (fish62_f84)  febad353-retry vs fish62_f84  00gemfight  Round 0940/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/fish62_f84/00gemfight/a.repl26a
+[|] STARTING  fish62_f84 vs febad353-retry  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/fish62_f84/00vault/b.repl26a
+[+] TEAM A WIN (febad353-retry)  febad353-retry vs fish62_f84  00vault  Round 0419/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/fish62_f84/00vault/a.repl26a
+[|] STARTING  febad353-retry vs tm30_f84  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/tm30_f84/00lanes/a.repl26a
+[+] TEAM B WIN (febad353-retry)  fish62_f84 vs febad353-retry  01boss-battle  Round 1306/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/fish62_f84/01boss-battle/b.repl26a
+[+] TEAM A WIN (fish62_f84)  fish62_f84 vs febad353-retry  00vault  Round 0508/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/fish62_f84/00vault/b.repl26a
+[|] STARTING  tm30_f84 vs febad353-retry  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/tm30_f84/00lanes/b.repl26a
+[|] STARTING  febad353-retry vs tm30_f84  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/tm30_f84/01elk-arena/a.repl26a
+[+] TEAM B WIN (fish62_f84)  febad353-retry vs fish62_f84  01boss-battle  Round 1933/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/fish62_f84/01boss-battle/a.repl26a
+[|] STARTING  tm30_f84 vs febad353-retry  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/tm30_f84/01elk-arena/b.repl26a
+[+] TEAM B WIN (fish62_f84)  febad353-retry vs fish62_f84  01gold-rush  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/fish62_f84/01gold-rush/a.repl26a
+[+] TEAM A WIN (fish62_f84)  fish62_f84 vs febad353-retry  01gold-rush  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/fish62_f84/01gold-rush/b.repl26a
+[|] STARTING  febad353-retry vs tm30_f84  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/tm30_f84/02treasure-box/a.repl26a
+[|] STARTING  tm30_f84 vs febad353-retry  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/tm30_f84/02treasure-box/b.repl26a
+[+] TEAM A WIN (febad353-retry)  febad353-retry vs tm30_f84  01elk-arena  Round 1433/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/tm30_f84/01elk-arena/a.repl26a
+[+] TEAM B WIN (febad353-retry)  tm30_f84 vs febad353-retry  01elk-arena  Round 1561/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/tm30_f84/01elk-arena/b.repl26a
+[+] TEAM A WIN (febad353-retry)  febad353-retry vs tm30_f84  02treasure-box  Round 1229/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/tm30_f84/02treasure-box/a.repl26a
+[|] STARTING  febad353-retry vs tm30_f84  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/tm30_f84/01broken-curve/a.repl26a
+[|] STARTING  tm30_f84 vs febad353-retry  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/tm30_f84/01broken-curve/b.repl26a
+[|] STARTING  febad353-retry vs tm30_f84  02stalactites
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/tm30_f84/02stalactites/a.repl26a
+[+] TEAM A WIN (febad353-retry)  febad353-retry vs tm30_f84  00lanes  Round 1360/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/tm30_f84/00lanes/a.repl26a
+[|] STARTING  tm30_f84 vs febad353-retry  02stalactites
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/tm30_f84/02stalactites/b.repl26a
+[+] TEAM B WIN (febad353-retry)  tm30_f84 vs febad353-retry  00lanes  Round 1463/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/tm30_f84/00lanes/b.repl26a
+[|] STARTING  febad353-retry vs tm30_f84  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/tm30_f84/02cuts/a.repl26a
+[+] TEAM B WIN (febad353-retry)  tm30_f84 vs febad353-retry  02stalactites  Round 0392/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/tm30_f84/02stalactites/b.repl26a
+[|] STARTING  tm30_f84 vs febad353-retry  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/tm30_f84/02cuts/b.repl26a
+[+] TEAM A WIN (febad353-retry)  febad353-retry vs tm30_f84  02stalactites  Round 0649/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/tm30_f84/02stalactites/a.repl26a
+[|] STARTING  febad353-retry vs tm30_f84  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/tm30_f84/00gemfight/a.repl26a
+[+] TEAM A WIN (febad353-retry)  febad353-retry vs tm30_f84  01broken-curve  Round 1019/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/tm30_f84/01broken-curve/a.repl26a
+[|] STARTING  tm30_f84 vs febad353-retry  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/tm30_f84/00gemfight/b.repl26a
+[+] TEAM B WIN (febad353-retry)  tm30_f84 vs febad353-retry  01broken-curve  Round 1208/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/tm30_f84/01broken-curve/b.repl26a
+[|] STARTING  febad353-retry vs tm30_f84  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/tm30_f84/01boss-battle/a.repl26a
+[+] TEAM A WIN (febad353-retry)  febad353-retry vs tm30_f84  00gemfight  Round 1095/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/tm30_f84/00gemfight/a.repl26a
+[|] STARTING  tm30_f84 vs febad353-retry  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/tm30_f84/01boss-battle/b.repl26a
+[+] TEAM B WIN (febad353-retry)  tm30_f84 vs febad353-retry  00gemfight  Round 0832/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/tm30_f84/00gemfight/b.repl26a
+[|] STARTING  febad353-retry vs tm30_f84  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/tm30_f84/01gold-rush/a.repl26a
+[+] TEAM B WIN (febad353-retry)  tm30_f84 vs febad353-retry  02treasure-box  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/tm30_f84/02treasure-box/b.repl26a
+[+] TEAM A WIN (febad353-retry)  febad353-retry vs tm30_f84  02cuts  Round 1211/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/tm30_f84/02cuts/a.repl26a
+[|] STARTING  tm30_f84 vs febad353-retry  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/tm30_f84/01gold-rush/b.repl26a
+[|] STARTING  febad353-retry vs tm30_f84  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/tm30_f84/00vault/a.repl26a
+[+] TEAM B WIN (febad353-retry)  tm30_f84 vs febad353-retry  02cuts  Round 1190/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/tm30_f84/02cuts/b.repl26a
+[|] STARTING  tm30_f84 vs febad353-retry  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/tm30_f84/00vault/b.repl26a
+[+] TEAM B WIN (tm30_f84)  febad353-retry vs tm30_f84  01boss-battle  Round 1752/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/tm30_f84/01boss-battle/a.repl26a
+[+] TEAM A WIN (febad353-retry)  febad353-retry vs tm30_f84  00vault  Round 0588/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/tm30_f84/00vault/a.repl26a
+[+] TEAM A WIN (febad353-retry)  febad353-retry vs tm30_f84  01gold-rush  Round 1250/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/tm30_f84/01gold-rush/a.repl26a
+[+] TEAM B WIN (febad353-retry)  tm30_f84 vs febad353-retry  01gold-rush  Round 1146/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/tm30_f84/01gold-rush/b.repl26a
+[+] TEAM B WIN (febad353-retry)  tm30_f84 vs febad353-retry  00vault  Round 0610/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/tm30_f84/00vault/b.repl26a
+[+] TEAM B WIN (febad353-retry)  tm30_f84 vs febad353-retry  01boss-battle  Round 0963/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/retry_ablation/games/retry/tm30_f84/01boss-battle/b.repl26a
+Finished: 120 replay bundles saved, 0 failed
+injected 0 checks into 0 functions
+injected 0 checks into 0 functions

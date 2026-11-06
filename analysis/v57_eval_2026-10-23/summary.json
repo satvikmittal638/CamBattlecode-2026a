@@ -1,0 +1,7145 @@
+{
+  "coverage": {
+    "n": 500,
+    "fail": [],
+    "exits": 0
+  },
+  "sets": {
+    "all": {
+      "n": 500,
+      "wins": 228,
+      "us": {
+        "capGems": 741.51,
+        "deaths": 10.82,
+        "killerKnown": 92.1,
+        "deathOutnumber": 52.4,
+        "deathNoEnemy": 3.3,
+        "death1v1": 14.1,
+        "deathBag": 7.07,
+        "deathHp3round": 0.45,
+        "deathRecentLow": 86.5,
+        "episodes": 16622,
+        "resolved": 16543,
+        "lowDies": 28.3,
+        "lowDies10": 26.1,
+        "lowEscapeSpawn": 71.7,
+        "lowAttemptRecall": 71.1,
+        "recallsPerGame": 51.13,
+        "spawnReturnPerGame": 45.09,
+        "recallMid": 15.5,
+        "recallHealthy": 34,
+        "recallLow": 50.5,
+        "teamWalkMovesPerGroup": 68.39,
+        "meanDeposit": 25.22,
+        "smallDepositShare": 48.9,
+        "gemsPerGemCapture": 23.67,
+        "groupCapsPer100Rounds": 3.8,
+        "gemGroupCapsPer100Rounds": 2.51,
+        "goldOnlyRewardShare": 33.9,
+        "rewardReceiptsPer100Rounds": 3.84,
+        "gemRewardReceiptsPer100Rounds": 2.54,
+        "moveTurns": 65.7,
+        "stunTurns": 0.6,
+        "deadTurns": 11.3,
+        "endBag": 27.86,
+        "submitStarts": 28.38,
+        "bankEvents": 27.6,
+        "nativeErrors": 0,
+        "potentialWinRounds": 15.08,
+        "checkpoint500": {
+          "bank": 169.9,
+          "shards": 62.04
+        }
+      },
+      "opponent": {
+        "capGems": 858.95,
+        "deaths": 7.42,
+        "killerKnown": 80.5,
+        "deathOutnumber": 27.3,
+        "deathNoEnemy": 12.9,
+        "death1v1": 17.6,
+        "deathBag": 10.05,
+        "deathHp3round": 0.4,
+        "deathRecentLow": 92.5,
+        "episodes": 12486,
+        "resolved": 12407,
+        "lowDies": 27.7,
+        "lowDies10": 25.1,
+        "lowEscapeSpawn": 71.8,
+        "lowAttemptRecall": 67.4,
+        "recallsPerGame": 320.11,
+        "spawnReturnPerGame": 48.99,
+        "recallMid": 17.1,
+        "recallHealthy": 74.7,
+        "recallLow": 8.2,
+        "teamWalkMovesPerGroup": 59.8,
+        "meanDeposit": 31.92,
+        "smallDepositShare": 36.3,
+        "gemsPerGemCapture": 21.63,
+        "groupCapsPer100Rounds": 4.48,
+        "gemGroupCapsPer100Rounds": 3.18,
+        "goldOnlyRewardShare": 29,
+        "rewardReceiptsPer100Rounds": 4.75,
+        "gemRewardReceiptsPer100Rounds": 3.42,
+        "moveTurns": 64.1,
+        "stunTurns": 0.5,
+        "deadTurns": 7.7,
+        "endBag": 59.14,
+        "submitStarts": 27.71,
+        "bankEvents": 25.04,
+        "nativeErrors": 0,
+        "potentialWinRounds": 28.48,
+        "checkpoint500": {
+          "bank": 208.5,
+          "shards": 70.48
+        }
+      }
+    },
+    "win": {
+      "n": 228,
+      "wins": 228,
+      "us": {
+        "capGems": 1011.5,
+        "deaths": 4.7,
+        "killerKnown": 86.9,
+        "deathOutnumber": 50.7,
+        "deathNoEnemy": 5.4,
+        "death1v1": 16,
+        "deathBag": 11.11,
+        "deathHp3round": 0.32,
+        "deathRecentLow": 96.6,
+        "episodes": 5901,
+        "resolved": 5875,
+        "lowDies": 17.6,
+        "lowDies10": 15.6,
+        "lowEscapeSpawn": 82.4,
+        "lowAttemptRecall": 83.1,
+        "recallsPerGame": 59.07,
+        "spawnReturnPerGame": 51.9,
+        "recallMid": 17.9,
+        "recallHealthy": 42.3,
+        "recallLow": 39.8,
+        "teamWalkMovesPerGroup": 60.68,
+        "meanDeposit": 28.16,
+        "smallDepositShare": 46,
+        "gemsPerGemCapture": 26.28,
+        "groupCapsPer100Rounds": 4.56,
+        "gemGroupCapsPer100Rounds": 2.94,
+        "goldOnlyRewardShare": 35.4,
+        "rewardReceiptsPer100Rounds": 4.61,
+        "gemRewardReceiptsPer100Rounds": 2.98,
+        "moveTurns": 65.2,
+        "stunTurns": 0.5,
+        "deadTurns": 4.8,
+        "endBag": 22.61,
+        "submitStarts": 36.93,
+        "bankEvents": 35.92,
+        "nativeErrors": 0,
+        "potentialWinRounds": 31.83,
+        "checkpoint500": {
+          "bank": 206.31,
+          "shards": 74.71
+        }
+      },
+      "opponent": {
+        "capGems": 649.2,
+        "deaths": 11.19,
+        "killerKnown": 84.2,
+        "deathOutnumber": 28.7,
+        "deathNoEnemy": 10.4,
+        "death1v1": 18.2,
+        "deathBag": 7.57,
+        "deathHp3round": 0.43,
+        "deathRecentLow": 91.3,
+        "episodes": 6712,
+        "resolved": 6679,
+        "lowDies": 34.9,
+        "lowDies10": 32.3,
+        "lowEscapeSpawn": 64.7,
+        "lowAttemptRecall": 61.9,
+        "recallsPerGame": 251.37,
+        "spawnReturnPerGame": 45.15,
+        "recallMid": 18,
+        "recallHealthy": 71.9,
+        "recallLow": 10.1,
+        "teamWalkMovesPerGroup": 68.94,
+        "meanDeposit": 27.5,
+        "smallDepositShare": 43.3,
+        "gemsPerGemCapture": 19.4,
+        "groupCapsPer100Rounds": 3.89,
+        "gemGroupCapsPer100Rounds": 2.56,
+        "goldOnlyRewardShare": 34.2,
+        "rewardReceiptsPer100Rounds": 4.1,
+        "gemRewardReceiptsPer100Rounds": 2.75,
+        "moveTurns": 66.7,
+        "stunTurns": 0.5,
+        "deadTurns": 11.1,
+        "endBag": 74.56,
+        "submitStarts": 20.1,
+        "bankEvents": 19.64,
+        "nativeErrors": 0,
+        "potentialWinRounds": 13.07,
+        "checkpoint500": {
+          "bank": 151.05,
+          "shards": 53.68
+        }
+      }
+    },
+    "loss": {
+      "n": 272,
+      "wins": 0,
+      "us": {
+        "capGems": 515.19,
+        "deaths": 15.94,
+        "killerKnown": 93.4,
+        "deathOutnumber": 52.8,
+        "deathNoEnemy": 2.8,
+        "death1v1": 13.7,
+        "deathBag": 6.07,
+        "deathHp3round": 0.48,
+        "deathRecentLow": 84,
+        "episodes": 10721,
+        "resolved": 10668,
+        "lowDies": 34.1,
+        "lowDies10": 31.8,
+        "lowEscapeSpawn": 65.9,
+        "lowAttemptRecall": 64.4,
+        "recallsPerGame": 44.48,
+        "spawnReturnPerGame": 39.39,
+        "recallMid": 12.8,
+        "recallHealthy": 24.9,
+        "recallLow": 62.3,
+        "teamWalkMovesPerGroup": 78.73,
+        "meanDeposit": 20.92,
+        "smallDepositShare": 53.2,
+        "gemsPerGemCapture": 20.35,
+        "groupCapsPer100Rounds": 3.11,
+        "gemGroupCapsPer100Rounds": 2.11,
+        "goldOnlyRewardShare": 32,
+        "rewardReceiptsPer100Rounds": 3.14,
+        "gemRewardReceiptsPer100Rounds": 2.14,
+        "moveTurns": 66.3,
+        "stunTurns": 0.7,
+        "deadTurns": 17.3,
+        "endBag": 32.26,
+        "submitStarts": 21.21,
+        "bankEvents": 20.64,
+        "nativeErrors": 0,
+        "potentialWinRounds": 1.04,
+        "checkpoint500": {
+          "bank": 139.03,
+          "shards": 51.3
+        }
+      },
+      "opponent": {
+        "capGems": 1034.77,
+        "deaths": 4.26,
+        "killerKnown": 72.3,
+        "deathOutnumber": 24.2,
+        "deathNoEnemy": 18.3,
+        "death1v1": 16.3,
+        "deathBag": 15.52,
+        "deathHp3round": 0.35,
+        "deathRecentLow": 95.3,
+        "episodes": 5774,
+        "resolved": 5728,
+        "lowDies": 19.3,
+        "lowDies10": 16.6,
+        "lowEscapeSpawn": 80,
+        "lowAttemptRecall": 73.8,
+        "recallsPerGame": 377.74,
+        "spawnReturnPerGame": 52.2,
+        "recallMid": 16.5,
+        "recallHealthy": 76.3,
+        "recallLow": 7.1,
+        "teamWalkMovesPerGroup": 53.34,
+        "meanDeposit": 34.38,
+        "smallDepositShare": 32.4,
+        "gemsPerGemCapture": 23.02,
+        "groupCapsPer100Rounds": 5.02,
+        "gemGroupCapsPer100Rounds": 3.75,
+        "goldOnlyRewardShare": 25.3,
+        "rewardReceiptsPer100Rounds": 5.33,
+        "gemRewardReceiptsPer100Rounds": 4.04,
+        "moveTurns": 61.9,
+        "stunTurns": 0.5,
+        "deadTurns": 4.7,
+        "endBag": 46.21,
+        "submitStarts": 34.08,
+        "bankEvents": 29.57,
+        "nativeErrors": 0,
+        "potentialWinRounds": 41.4,
+        "checkpoint500": {
+          "bank": 257.2,
+          "shards": 84.72
+        }
+      }
+    },
+    "normal": {
+      "n": 474,
+      "wins": 220,
+      "us": {
+        "capGems": 742.42,
+        "deaths": 10.28,
+        "killerKnown": 92.2,
+        "deathOutnumber": 52.4,
+        "deathNoEnemy": 3.2,
+        "death1v1": 14.5,
+        "deathBag": 4.78,
+        "deathHp3round": 0.45,
+        "deathRecentLow": 86.7,
+        "episodes": 14915,
+        "resolved": 14844,
+        "lowDies": 28.5,
+        "lowDies10": 26.2,
+        "lowEscapeSpawn": 71.5,
+        "lowAttemptRecall": 70.8,
+        "recallsPerGame": 49.69,
+        "spawnReturnPerGame": 44.01,
+        "recallMid": 15.7,
+        "recallHealthy": 35.7,
+        "recallLow": 48.6,
+        "teamWalkMovesPerGroup": 67.46,
+        "meanDeposit": 24.57,
+        "smallDepositShare": 49.2,
+        "gemsPerGemCapture": 23,
+        "groupCapsPer100Rounds": 3.86,
+        "gemGroupCapsPer100Rounds": 2.61,
+        "goldOnlyRewardShare": 32.4,
+        "rewardReceiptsPer100Rounds": 3.9,
+        "gemRewardReceiptsPer100Rounds": 2.64,
+        "moveTurns": 66.2,
+        "stunTurns": 0.6,
+        "deadTurns": 11,
+        "endBag": 24.11,
+        "submitStarts": 29.64,
+        "bankEvents": 28.97,
+        "nativeErrors": 0,
+        "potentialWinRounds": 13.78,
+        "checkpoint500": {
+          "bank": 179.28,
+          "shards": 61.38
+        }
+      },
+      "opponent": {
+        "capGems": 832.62,
+        "deaths": 7.2,
+        "killerKnown": 81.4,
+        "deathOutnumber": 26.8,
+        "deathNoEnemy": 12.3,
+        "death1v1": 18.3,
+        "deathBag": 6.85,
+        "deathHp3round": 0.41,
+        "deathRecentLow": 92.1,
+        "episodes": 11431,
+        "resolved": 11360,
+        "lowDies": 27.7,
+        "lowDies10": 25.1,
+        "lowEscapeSpawn": 71.8,
+        "lowAttemptRecall": 67.1,
+        "recallsPerGame": 332.98,
+        "spawnReturnPerGame": 47.54,
+        "recallMid": 16.9,
+        "recallHealthy": 75.3,
+        "recallLow": 7.8,
+        "teamWalkMovesPerGroup": 59.39,
+        "meanDeposit": 30.56,
+        "smallDepositShare": 36.6,
+        "gemsPerGemCapture": 20.65,
+        "groupCapsPer100Rounds": 4.49,
+        "gemGroupCapsPer100Rounds": 3.26,
+        "goldOnlyRewardShare": 27.4,
+        "rewardReceiptsPer100Rounds": 4.76,
+        "gemRewardReceiptsPer100Rounds": 3.51,
+        "moveTurns": 64.2,
+        "stunTurns": 0.5,
+        "deadTurns": 7.6,
+        "endBag": 29.86,
+        "submitStarts": 26.74,
+        "bankEvents": 26.18,
+        "nativeErrors": 0,
+        "potentialWinRounds": 18.25,
+        "checkpoint500": {
+          "bank": 220.01,
+          "shards": 68.55
+        }
+      }
+    },
+    "normalLoss": {
+      "n": 254,
+      "wins": 0,
+      "us": {
+        "capGems": 520.44,
+        "deaths": 15.2,
+        "killerKnown": 93.5,
+        "deathOutnumber": 52.7,
+        "deathNoEnemy": 2.6,
+        "death1v1": 14.1,
+        "deathBag": 4.43,
+        "deathHp3round": 0.48,
+        "deathRecentLow": 83.9,
+        "episodes": 9409,
+        "resolved": 9363,
+        "lowDies": 34.6,
+        "lowDies10": 32.1,
+        "lowEscapeSpawn": 65.4,
+        "lowAttemptRecall": 63.8,
+        "recallsPerGame": 42.35,
+        "spawnReturnPerGame": 37.77,
+        "recallMid": 13.1,
+        "recallHealthy": 26.5,
+        "recallLow": 60.4,
+        "teamWalkMovesPerGroup": 77.2,
+        "meanDeposit": 20.5,
+        "smallDepositShare": 53.3,
+        "gemsPerGemCapture": 19.88,
+        "groupCapsPer100Rounds": 3.18,
+        "gemGroupCapsPer100Rounds": 2.22,
+        "goldOnlyRewardShare": 30.1,
+        "rewardReceiptsPer100Rounds": 3.21,
+        "gemRewardReceiptsPer100Rounds": 2.25,
+        "moveTurns": 66.9,
+        "stunTurns": 0.7,
+        "deadTurns": 17,
+        "endBag": 26.24,
+        "submitStarts": 22.56,
+        "bankEvents": 22.04,
+        "nativeErrors": 0,
+        "potentialWinRounds": 0.16,
+        "checkpoint500": {
+          "bank": 149,
+          "shards": 50.23
+        }
+      },
+      "opponent": {
+        "capGems": 1005.88,
+        "deaths": 3.95,
+        "killerKnown": 74.5,
+        "deathOutnumber": 23.4,
+        "deathNoEnemy": 16.7,
+        "death1v1": 17.2,
+        "deathBag": 7.62,
+        "deathHp3round": 0.35,
+        "deathRecentLow": 95.1,
+        "episodes": 5086,
+        "resolved": 5045,
+        "lowDies": 18.9,
+        "lowDies10": 16.3,
+        "lowEscapeSpawn": 80.4,
+        "lowAttemptRecall": 73.7,
+        "recallsPerGame": 398.31,
+        "spawnReturnPerGame": 50.33,
+        "recallMid": 16.3,
+        "recallHealthy": 77,
+        "recallLow": 6.7,
+        "teamWalkMovesPerGroup": 52.25,
+        "meanDeposit": 32.48,
+        "smallDepositShare": 32.8,
+        "gemsPerGemCapture": 21.77,
+        "groupCapsPer100Rounds": 5.1,
+        "gemGroupCapsPer100Rounds": 3.92,
+        "goldOnlyRewardShare": 23.1,
+        "rewardReceiptsPer100Rounds": 5.42,
+        "gemRewardReceiptsPer100Rounds": 4.22,
+        "moveTurns": 62,
+        "stunTurns": 0.5,
+        "deadTurns": 4.4,
+        "endBag": 25.43,
+        "submitStarts": 31.9,
+        "bankEvents": 31.26,
+        "nativeErrors": 0,
+        "potentialWinRounds": 31.11,
+        "checkpoint500": {
+          "bank": 275.64,
+          "shards": 82.21
+        }
+      }
+    },
+    "near": {
+      "n": 250,
+      "wins": 156,
+      "us": {
+        "capGems": 830.98,
+        "deaths": 9.7,
+        "killerKnown": 91.3,
+        "deathOutnumber": 53.6,
+        "deathNoEnemy": 3.7,
+        "death1v1": 11.8,
+        "deathBag": 7.7,
+        "deathHp3round": 0.43,
+        "deathRecentLow": 90.1,
+        "episodes": 8260,
+        "resolved": 8221,
+        "lowDies": 26.6,
+        "lowDies10": 24.1,
+        "lowEscapeSpawn": 73.4,
+        "lowAttemptRecall": 73.1,
+        "recallsPerGame": 55.06,
+        "spawnReturnPerGame": 48.48,
+        "recallMid": 16.2,
+        "recallHealthy": 35.9,
+        "recallLow": 47.9,
+        "teamWalkMovesPerGroup": 65.66,
+        "meanDeposit": 26.09,
+        "smallDepositShare": 48.3,
+        "gemsPerGemCapture": 24.34,
+        "groupCapsPer100Rounds": 4,
+        "gemGroupCapsPer100Rounds": 2.64,
+        "goldOnlyRewardShare": 34,
+        "rewardReceiptsPer100Rounds": 4.04,
+        "gemRewardReceiptsPer100Rounds": 2.68,
+        "moveTurns": 65.1,
+        "stunTurns": 0.6,
+        "deadTurns": 9.8,
+        "endBag": 29.22,
+        "submitStarts": 31.64,
+        "bankEvents": 30.66,
+        "nativeErrors": 0,
+        "potentialWinRounds": 20.52,
+        "checkpoint500": {
+          "bank": 179.53,
+          "shards": 66.47
+        }
+      },
+      "opponent": {
+        "capGems": 802.7,
+        "deaths": 9.08,
+        "killerKnown": 83.1,
+        "deathOutnumber": 27.2,
+        "deathNoEnemy": 10.8,
+        "death1v1": 17.3,
+        "deathBag": 10.15,
+        "deathHp3round": 0.41,
+        "deathRecentLow": 91.3,
+        "episodes": 7073,
+        "resolved": 7028,
+        "lowDies": 29.5,
+        "lowDies10": 26.5,
+        "lowEscapeSpawn": 70,
+        "lowAttemptRecall": 65.5,
+        "recallsPerGame": 54.28,
+        "spawnReturnPerGame": 47.81,
+        "recallMid": 28.8,
+        "recallHealthy": 32.1,
+        "recallLow": 39.2,
+        "teamWalkMovesPerGroup": 63.68,
+        "meanDeposit": 30.53,
+        "smallDepositShare": 37.5,
+        "gemsPerGemCapture": 21.33,
+        "groupCapsPer100Rounds": 4.23,
+        "gemGroupCapsPer100Rounds": 2.91,
+        "goldOnlyRewardShare": 31.1,
+        "rewardReceiptsPer100Rounds": 4.51,
+        "gemRewardReceiptsPer100Rounds": 3.17,
+        "moveTurns": 65,
+        "stunTurns": 0.5,
+        "deadTurns": 9,
+        "endBag": 73.14,
+        "submitStarts": 27.95,
+        "bankEvents": 23.24,
+        "nativeErrors": 0,
+        "potentialWinRounds": 28.54,
+        "checkpoint500": {
+          "bank": 183.64,
+          "shards": 63.66
+        }
+      }
+    },
+    "half": {
+      "n": 250,
+      "wins": 72,
+      "us": {
+        "capGems": 652.03,
+        "deaths": 11.93,
+        "killerKnown": 92.8,
+        "deathOutnumber": 51.4,
+        "deathNoEnemy": 3,
+        "death1v1": 16,
+        "deathBag": 6.55,
+        "deathHp3round": 0.47,
+        "deathRecentLow": 83.6,
+        "episodes": 8362,
+        "resolved": 8322,
+        "lowDies": 30,
+        "lowDies10": 27.9,
+        "lowEscapeSpawn": 70,
+        "lowAttemptRecall": 69.1,
+        "recallsPerGame": 47.21,
+        "spawnReturnPerGame": 41.7,
+        "recallMid": 14.6,
+        "recallHealthy": 31.9,
+        "recallLow": 53.5,
+        "teamWalkMovesPerGroup": 71.67,
+        "meanDeposit": 24.13,
+        "smallDepositShare": 49.8,
+        "gemsPerGemCapture": 22.87,
+        "groupCapsPer100Rounds": 3.59,
+        "gemGroupCapsPer100Rounds": 2.37,
+        "goldOnlyRewardShare": 33.9,
+        "rewardReceiptsPer100Rounds": 3.62,
+        "gemRewardReceiptsPer100Rounds": 2.4,
+        "moveTurns": 66.5,
+        "stunTurns": 0.6,
+        "deadTurns": 13,
+        "endBag": 26.49,
+        "submitStarts": 25.13,
+        "bankEvents": 24.54,
+        "nativeErrors": 0,
+        "potentialWinRounds": 9.65,
+        "checkpoint500": {
+          "bank": 160.23,
+          "shards": 57.58
+        }
+      },
+      "opponent": {
+        "capGems": 915.2,
+        "deaths": 5.77,
+        "killerKnown": 76.3,
+        "deathOutnumber": 27.5,
+        "deathNoEnemy": 16.1,
+        "death1v1": 18,
+        "deathBag": 9.9,
+        "deathHp3round": 0.38,
+        "deathRecentLow": 94.5,
+        "episodes": 5413,
+        "resolved": 5379,
+        "lowDies": 25.3,
+        "lowDies10": 23.2,
+        "lowEscapeSpawn": 74.1,
+        "lowAttemptRecall": 69.8,
+        "recallsPerGame": 585.94,
+        "spawnReturnPerGame": 50.16,
+        "recallMid": 16,
+        "recallHealthy": 78.7,
+        "recallLow": 5.3,
+        "teamWalkMovesPerGroup": 56.1,
+        "meanDeposit": 33.12,
+        "smallDepositShare": 35.3,
+        "gemsPerGemCapture": 21.9,
+        "groupCapsPer100Rounds": 4.75,
+        "gemGroupCapsPer100Rounds": 3.47,
+        "goldOnlyRewardShare": 27,
+        "rewardReceiptsPer100Rounds": 5,
+        "gemRewardReceiptsPer100Rounds": 3.7,
+        "moveTurns": 63.1,
+        "stunTurns": 0.5,
+        "deadTurns": 6.3,
+        "endBag": 45.14,
+        "submitStarts": 27.46,
+        "bankEvents": 26.84,
+        "nativeErrors": 0,
+        "potentialWinRounds": 28.43,
+        "checkpoint500": {
+          "bank": 233.46,
+          "shards": 77.33
+        }
+      }
+    },
+    "economic": {
+      "n": 72,
+      "wins": 16,
+      "us": {
+        "capGems": 687.72,
+        "deaths": 3.28,
+        "killerKnown": 82.6,
+        "deathOutnumber": 38.1,
+        "deathNoEnemy": 7.2,
+        "death1v1": 27.1,
+        "deathBag": 8.39,
+        "deathHp3round": 0.37,
+        "deathRecentLow": 90.3,
+        "episodes": 1253,
+        "resolved": 1245,
+        "lowDies": 17.1,
+        "lowDies10": 14.6,
+        "lowEscapeSpawn": 82.9,
+        "lowAttemptRecall": 85.9,
+        "recallsPerGame": 41.31,
+        "spawnReturnPerGame": 39.04,
+        "recallMid": 18.1,
+        "recallHealthy": 43.3,
+        "recallLow": 38.6,
+        "teamWalkMovesPerGroup": 75.71,
+        "meanDeposit": 20.85,
+        "smallDepositShare": 53.2,
+        "gemsPerGemCapture": 20.01,
+        "groupCapsPer100Rounds": 3.64,
+        "gemGroupCapsPer100Rounds": 3.04,
+        "goldOnlyRewardShare": 16.3,
+        "rewardReceiptsPer100Rounds": 3.67,
+        "gemRewardReceiptsPer100Rounds": 3.07,
+        "moveTurns": 68.7,
+        "stunTurns": 0.2,
+        "deadTurns": 4,
+        "endBag": 26.15,
+        "submitStarts": 31.75,
+        "bankEvents": 31.4,
+        "nativeErrors": 0,
+        "potentialWinRounds": 6.93,
+        "checkpoint500": {
+          "bank": 148.78,
+          "shards": 53.18
+        }
+      },
+      "opponent": {
+        "capGems": 1024.81,
+        "deaths": 2.22,
+        "killerKnown": 61.3,
+        "deathOutnumber": 25,
+        "deathNoEnemy": 30.6,
+        "death1v1": 21.9,
+        "deathBag": 12.18,
+        "deathHp3round": 0.38,
+        "deathRecentLow": 91.3,
+        "episodes": 991,
+        "resolved": 980,
+        "lowDies": 14.9,
+        "lowDies10": 12.4,
+        "lowEscapeSpawn": 84.5,
+        "lowAttemptRecall": 78.4,
+        "recallsPerGame": 184.69,
+        "spawnReturnPerGame": 45.6,
+        "recallMid": 16.3,
+        "recallHealthy": 75,
+        "recallLow": 8.6,
+        "teamWalkMovesPerGroup": 46.24,
+        "meanDeposit": 30.27,
+        "smallDepositShare": 39.9,
+        "gemsPerGemCapture": 19.02,
+        "groupCapsPer100Rounds": 5.5,
+        "gemGroupCapsPer100Rounds": 4.77,
+        "goldOnlyRewardShare": 13.2,
+        "rewardReceiptsPer100Rounds": 5.82,
+        "gemRewardReceiptsPer100Rounds": 5.08,
+        "moveTurns": 61.1,
+        "stunTurns": 0.1,
+        "deadTurns": 2.7,
+        "endBag": 40.78,
+        "submitStarts": 32.81,
+        "bankEvents": 32.43,
+        "nativeErrors": 0,
+        "potentialWinRounds": 34.25,
+        "checkpoint500": {
+          "bank": 278.5,
+          "shards": 74.5
+        }
+      }
+    }
+  },
+  "maps": {
+    "00ambush": {
+      "n": 14,
+      "wins": 10,
+      "us": {
+        "capGems": 1002.5,
+        "deaths": 1.79,
+        "killerKnown": 92,
+        "deathOutnumber": 44,
+        "deathNoEnemy": 4,
+        "death1v1": 20,
+        "deathBag": 2.04,
+        "deathHp3round": 0.18,
+        "deathRecentLow": 100,
+        "episodes": 149,
+        "resolved": 147,
+        "lowDies": 17,
+        "lowDies10": 12.2,
+        "lowEscapeSpawn": 83,
+        "lowAttemptRecall": 84.4,
+        "recallsPerGame": 43.29,
+        "spawnReturnPerGame": 42.71,
+        "recallMid": 19.3,
+        "recallHealthy": 59.6,
+        "recallLow": 21.1,
+        "teamWalkMovesPerGroup": 108.31,
+        "meanDeposit": 38.99,
+        "smallDepositShare": 1.7,
+        "gemsPerGemCapture": 39.31,
+        "groupCapsPer100Rounds": 3.47,
+        "gemGroupCapsPer100Rounds": 1.92,
+        "goldOnlyRewardShare": 44.8,
+        "rewardReceiptsPer100Rounds": 3.5,
+        "gemRewardReceiptsPer100Rounds": 1.93,
+        "moveTurns": 76.4,
+        "stunTurns": 0.1,
+        "deadTurns": 1.6,
+        "endBag": 32.29,
+        "submitStarts": 25.14,
+        "bankEvents": 24.86,
+        "nativeErrors": 0,
+        "potentialWinRounds": 25.79,
+        "checkpoint500": {
+          "bank": 45.64,
+          "shards": 59.29
+        }
+      },
+      "opponent": {
+        "capGems": 923.21,
+        "deaths": 4.71,
+        "killerKnown": 77.3,
+        "deathOutnumber": 39.4,
+        "deathNoEnemy": 27.3,
+        "death1v1": 19.7,
+        "deathBag": 2.89,
+        "deathHp3round": 0.4,
+        "deathRecentLow": 87.9,
+        "episodes": 321,
+        "resolved": 319,
+        "lowDies": 18.2,
+        "lowDies10": 17.2,
+        "lowEscapeSpawn": 81.5,
+        "lowAttemptRecall": 85,
+        "recallsPerGame": 469.64,
+        "spawnReturnPerGame": 48.93,
+        "recallMid": 10.8,
+        "recallHealthy": 82.7,
+        "recallLow": 6.5,
+        "teamWalkMovesPerGroup": 102.61,
+        "meanDeposit": 39.72,
+        "smallDepositShare": 8.1,
+        "gemsPerGemCapture": 36.2,
+        "groupCapsPer100Rounds": 3.46,
+        "gemGroupCapsPer100Rounds": 1.92,
+        "goldOnlyRewardShare": 44.7,
+        "rewardReceiptsPer100Rounds": 3.69,
+        "gemRewardReceiptsPer100Rounds": 2.11,
+        "moveTurns": 71,
+        "stunTurns": 0.1,
+        "deadTurns": 4,
+        "endBag": 42.29,
+        "submitStarts": 22.07,
+        "bankEvents": 21.93,
+        "nativeErrors": 0,
+        "potentialWinRounds": 12.14,
+        "checkpoint500": {
+          "bank": 131.07,
+          "shards": 42.86
+        }
+      }
+    },
+    "00collision": {
+      "n": 14,
+      "wins": 9,
+      "us": {
+        "capGems": 894.07,
+        "deaths": 6.79,
+        "killerKnown": 100,
+        "deathOutnumber": 56.8,
+        "deathNoEnemy": 0,
+        "death1v1": 10.5,
+        "deathBag": 17.6,
+        "deathHp3round": 0.41,
+        "deathRecentLow": 84.2,
+        "episodes": 430,
+        "resolved": 428,
+        "lowDies": 18.7,
+        "lowDies10": 16.4,
+        "lowEscapeSpawn": 81.3,
+        "lowAttemptRecall": 80.1,
+        "recallsPerGame": 47.64,
+        "spawnReturnPerGame": 46.07,
+        "recallMid": 16,
+        "recallHealthy": 30.7,
+        "recallLow": 53.2,
+        "teamWalkMovesPerGroup": 39.94,
+        "meanDeposit": 28.49,
+        "smallDepositShare": 50.5,
+        "gemsPerGemCapture": 21.88,
+        "groupCapsPer100Rounds": 3.74,
+        "gemGroupCapsPer100Rounds": 3.12,
+        "goldOnlyRewardShare": 16.7,
+        "rewardReceiptsPer100Rounds": 3.76,
+        "gemRewardReceiptsPer100Rounds": 3.13,
+        "moveTurns": 55.3,
+        "stunTurns": 0.9,
+        "deadTurns": 9.9,
+        "endBag": 26,
+        "submitStarts": 28.36,
+        "bankEvents": 27.57,
+        "nativeErrors": 0,
+        "potentialWinRounds": 39.43,
+        "checkpoint500": {
+          "bank": 153.21,
+          "shards": 61.36
+        }
+      },
+      "opponent": {
+        "capGems": 717.93,
+        "deaths": 5.14,
+        "killerKnown": 100,
+        "deathOutnumber": 27.8,
+        "deathNoEnemy": 0,
+        "death1v1": 34.7,
+        "deathBag": 7.19,
+        "deathHp3round": 0.28,
+        "deathRecentLow": 97.2,
+        "episodes": 243,
+        "resolved": 241,
+        "lowDies": 29,
+        "lowDies10": 26.6,
+        "lowEscapeSpawn": 71,
+        "lowAttemptRecall": 61.8,
+        "recallsPerGame": 43.86,
+        "spawnReturnPerGame": 39.93,
+        "recallMid": 29.6,
+        "recallHealthy": 40.6,
+        "recallLow": 29.8,
+        "teamWalkMovesPerGroup": 31.37,
+        "meanDeposit": 24.16,
+        "smallDepositShare": 59.6,
+        "gemsPerGemCapture": 14.32,
+        "groupCapsPer100Rounds": 5.03,
+        "gemGroupCapsPer100Rounds": 3.82,
+        "goldOnlyRewardShare": 24,
+        "rewardReceiptsPer100Rounds": 5.27,
+        "gemRewardReceiptsPer100Rounds": 4.04,
+        "moveTurns": 56.9,
+        "stunTurns": 0.4,
+        "deadTurns": 7.4,
+        "endBag": 27.21,
+        "submitStarts": 32.86,
+        "bankEvents": 32,
+        "nativeErrors": 0,
+        "potentialWinRounds": 10.21,
+        "checkpoint500": {
+          "bank": 159.14,
+          "shards": 64.43
+        }
+      }
+    },
+    "00contest": {
+      "n": 14,
+      "wins": 6,
+      "us": {
+        "capGems": 657.14,
+        "deaths": 28.86,
+        "killerKnown": 92.1,
+        "deathOutnumber": 56.2,
+        "deathNoEnemy": 3.7,
+        "death1v1": 10.4,
+        "deathBag": 4.95,
+        "deathHp3round": 0.43,
+        "deathRecentLow": 87.4,
+        "episodes": 954,
+        "resolved": 951,
+        "lowDies": 37.1,
+        "lowDies10": 34.6,
+        "lowEscapeSpawn": 62.9,
+        "lowAttemptRecall": 63.7,
+        "recallsPerGame": 76.14,
+        "spawnReturnPerGame": 58.21,
+        "recallMid": 14,
+        "recallHealthy": 16.1,
+        "recallLow": 69.9,
+        "teamWalkMovesPerGroup": 85.27,
+        "meanDeposit": 200,
+        "smallDepositShare": 0,
+        "gemsPerGemCapture": 200,
+        "groupCapsPer100Rounds": 3.07,
+        "gemGroupCapsPer100Rounds": 0.21,
+        "goldOnlyRewardShare": 93.1,
+        "rewardReceiptsPer100Rounds": 3.11,
+        "gemRewardReceiptsPer100Rounds": 0.21,
+        "moveTurns": 66.7,
+        "stunTurns": 1.3,
+        "deadTurns": 21.7,
+        "endBag": 0,
+        "submitStarts": 5.43,
+        "bankEvents": 2.79,
+        "nativeErrors": 0,
+        "potentialWinRounds": 20.79,
+        "checkpoint500": {
+          "bank": 0,
+          "shards": 74.79
+        }
+      },
+      "opponent": {
+        "capGems": 557.14,
+        "deaths": 16.21,
+        "killerKnown": 81.5,
+        "deathOutnumber": 38.3,
+        "deathNoEnemy": 7,
+        "death1v1": 12.3,
+        "deathBag": 2.64,
+        "deathHp3round": 0.33,
+        "deathRecentLow": 99.1,
+        "episodes": 630,
+        "resolved": 625,
+        "lowDies": 36,
+        "lowDies10": 33.3,
+        "lowEscapeSpawn": 64,
+        "lowAttemptRecall": 65.3,
+        "recallsPerGame": 79.57,
+        "spawnReturnPerGame": 64.71,
+        "recallMid": 24.3,
+        "recallHealthy": 29.4,
+        "recallLow": 46.3,
+        "teamWalkMovesPerGroup": 75.52,
+        "meanDeposit": 200,
+        "smallDepositShare": 0,
+        "gemsPerGemCapture": 200,
+        "groupCapsPer100Rounds": 4.12,
+        "gemGroupCapsPer100Rounds": 0.18,
+        "goldOnlyRewardShare": 95.6,
+        "rewardReceiptsPer100Rounds": 4.19,
+        "gemRewardReceiptsPer100Rounds": 0.18,
+        "moveTurns": 71.1,
+        "stunTurns": 1,
+        "deadTurns": 12.5,
+        "endBag": 28.57,
+        "submitStarts": 4.07,
+        "bankEvents": 3.14,
+        "nativeErrors": 0,
+        "potentialWinRounds": 21.5,
+        "checkpoint500": {
+          "bank": 0,
+          "shards": 57.86
+        }
+      }
+    },
+    "00corners": {
+      "n": 14,
+      "wins": 7,
+      "us": {
+        "capGems": 836.71,
+        "deaths": 13.71,
+        "killerKnown": 98.4,
+        "deathOutnumber": 62,
+        "deathNoEnemy": 1,
+        "death1v1": 9.4,
+        "deathBag": 8.81,
+        "deathHp3round": 0.45,
+        "deathRecentLow": 88.5,
+        "episodes": 698,
+        "resolved": 693,
+        "lowDies": 24.5,
+        "lowDies10": 23.5,
+        "lowEscapeSpawn": 75.5,
+        "lowAttemptRecall": 77.1,
+        "recallsPerGame": 63.86,
+        "spawnReturnPerGame": 58.93,
+        "recallMid": 13.8,
+        "recallHealthy": 23.4,
+        "recallLow": 62.9,
+        "teamWalkMovesPerGroup": 60.48,
+        "meanDeposit": 23.86,
+        "smallDepositShare": 44.2,
+        "gemsPerGemCapture": 22.23,
+        "groupCapsPer100Rounds": 4.18,
+        "gemGroupCapsPer100Rounds": 3.4,
+        "goldOnlyRewardShare": 18.7,
+        "rewardReceiptsPer100Rounds": 4.25,
+        "gemRewardReceiptsPer100Rounds": 3.47,
+        "moveTurns": 59.1,
+        "stunTurns": 1,
+        "deadTurns": 14.5,
+        "endBag": 37.21,
+        "submitStarts": 31.64,
+        "bankEvents": 30.21,
+        "nativeErrors": 0,
+        "potentialWinRounds": 19.86,
+        "checkpoint500": {
+          "bank": 187.07,
+          "shards": 76.79
+        }
+      },
+      "opponent": {
+        "capGems": 822.21,
+        "deaths": 5,
+        "killerKnown": 88.6,
+        "deathOutnumber": 22.9,
+        "deathNoEnemy": 4.3,
+        "death1v1": 14.3,
+        "deathBag": 8.57,
+        "deathHp3round": 0.28,
+        "deathRecentLow": 100,
+        "episodes": 377,
+        "resolved": 375,
+        "lowDies": 18.7,
+        "lowDies10": 15.2,
+        "lowEscapeSpawn": 78.9,
+        "lowAttemptRecall": 73.3,
+        "recallsPerGame": 338.57,
+        "spawnReturnPerGame": 65.64,
+        "recallMid": 16.4,
+        "recallHealthy": 76.5,
+        "recallLow": 7.1,
+        "teamWalkMovesPerGroup": 55.64,
+        "meanDeposit": 33.22,
+        "smallDepositShare": 22.6,
+        "gemsPerGemCapture": 18.63,
+        "groupCapsPer100Rounds": 5.25,
+        "gemGroupCapsPer100Rounds": 3.98,
+        "goldOnlyRewardShare": 24.1,
+        "rewardReceiptsPer100Rounds": 5.45,
+        "gemRewardReceiptsPer100Rounds": 4.12,
+        "moveTurns": 61.7,
+        "stunTurns": 0.7,
+        "deadTurns": 5.2,
+        "endBag": 50.79,
+        "submitStarts": 26.43,
+        "bankEvents": 25.57,
+        "nativeErrors": 0,
+        "potentialWinRounds": 19,
+        "checkpoint500": {
+          "bank": 146.5,
+          "shards": 88.36
+        }
+      }
+    },
+    "00eight": {
+      "n": 14,
+      "wins": 8,
+      "us": {
+        "capGems": 804.43,
+        "deaths": 17.43,
+        "killerKnown": 90.6,
+        "deathOutnumber": 57.4,
+        "deathNoEnemy": 5.7,
+        "death1v1": 6.1,
+        "deathBag": 6.78,
+        "deathHp3round": 0.53,
+        "deathRecentLow": 77.9,
+        "episodes": 797,
+        "resolved": 793,
+        "lowDies": 24,
+        "lowDies10": 22.2,
+        "lowEscapeSpawn": 76,
+        "lowAttemptRecall": 77.7,
+        "recallsPerGame": 64.29,
+        "spawnReturnPerGame": 60.79,
+        "recallMid": 10.2,
+        "recallHealthy": 18.8,
+        "recallLow": 71,
+        "teamWalkMovesPerGroup": 86.59,
+        "meanDeposit": 25.64,
+        "smallDepositShare": 59.3,
+        "gemsPerGemCapture": 24.86,
+        "groupCapsPer100Rounds": 2.79,
+        "gemGroupCapsPer100Rounds": 2.79,
+        "goldOnlyRewardShare": 0,
+        "rewardReceiptsPer100Rounds": 2.8,
+        "gemRewardReceiptsPer100Rounds": 2.8,
+        "moveTurns": 58.4,
+        "stunTurns": 1.1,
+        "deadTurns": 17.4,
+        "endBag": 39.43,
+        "submitStarts": 30.64,
+        "bankEvents": 28.57,
+        "nativeErrors": 0,
+        "potentialWinRounds": 20.29,
+        "checkpoint500": {
+          "bank": 206.57,
+          "shards": 68
+        }
+      },
+      "opponent": {
+        "capGems": 761.36,
+        "deaths": 9.86,
+        "killerKnown": 80.4,
+        "deathOutnumber": 21,
+        "deathNoEnemy": 11.6,
+        "death1v1": 8.7,
+        "deathBag": 10.39,
+        "deathHp3round": 0.37,
+        "deathRecentLow": 94.9,
+        "episodes": 508,
+        "resolved": 500,
+        "lowDies": 26.2,
+        "lowDies10": 22.4,
+        "lowEscapeSpawn": 72.2,
+        "lowAttemptRecall": 73,
+        "recallsPerGame": 69.86,
+        "spawnReturnPerGame": 62.21,
+        "recallMid": 28.8,
+        "recallHealthy": 28.7,
+        "recallLow": 42.4,
+        "teamWalkMovesPerGroup": 102.31,
+        "meanDeposit": 32.78,
+        "smallDepositShare": 42.1,
+        "gemsPerGemCapture": 23.43,
+        "groupCapsPer100Rounds": 2.8,
+        "gemGroupCapsPer100Rounds": 2.8,
+        "goldOnlyRewardShare": 0,
+        "rewardReceiptsPer100Rounds": 3.3,
+        "gemRewardReceiptsPer100Rounds": 3.3,
+        "moveTurns": 63.5,
+        "stunTurns": 0.7,
+        "deadTurns": 10,
+        "endBag": 64.43,
+        "submitStarts": 23.36,
+        "bankEvents": 21.57,
+        "nativeErrors": 0,
+        "potentialWinRounds": 17.79,
+        "checkpoint500": {
+          "bank": 162,
+          "shards": 63.64
+        }
+      }
+    },
+    "00elkring": {
+      "n": 14,
+      "wins": 3,
+      "us": {
+        "capGems": 809.29,
+        "deaths": 13.07,
+        "killerKnown": 99.5,
+        "deathOutnumber": 65.6,
+        "deathNoEnemy": 0,
+        "death1v1": 10.9,
+        "deathBag": 10.22,
+        "deathHp3round": 0.42,
+        "deathRecentLow": 89.1,
+        "episodes": 520,
+        "resolved": 519,
+        "lowDies": 31.4,
+        "lowDies10": 30.3,
+        "lowEscapeSpawn": 68.6,
+        "lowAttemptRecall": 65.7,
+        "recallsPerGame": 44.93,
+        "spawnReturnPerGame": 42.71,
+        "recallMid": 10.8,
+        "recallHealthy": 32.3,
+        "recallLow": 56.9,
+        "teamWalkMovesPerGroup": 53.15,
+        "meanDeposit": 23.07,
+        "smallDepositShare": 0.9,
+        "gemsPerGemCapture": 22,
+        "groupCapsPer100Rounds": 4.2,
+        "gemGroupCapsPer100Rounds": 4.2,
+        "goldOnlyRewardShare": 0,
+        "rewardReceiptsPer100Rounds": 4.23,
+        "gemRewardReceiptsPer100Rounds": 4.23,
+        "moveTurns": 53.8,
+        "stunTurns": 0.9,
+        "deadTurns": 17.1,
+        "endBag": 22,
+        "submitStarts": 31,
+        "bankEvents": 30.5,
+        "nativeErrors": 0,
+        "potentialWinRounds": 4.5,
+        "checkpoint500": {
+          "bank": 380,
+          "shards": 89.86
+        }
+      },
+      "opponent": {
+        "capGems": 931.86,
+        "deaths": 3,
+        "killerKnown": 88.1,
+        "deathOutnumber": 23.8,
+        "deathNoEnemy": 11.9,
+        "death1v1": 14.3,
+        "deathBag": 16.67,
+        "deathHp3round": 0.29,
+        "deathRecentLow": 100,
+        "episodes": 251,
+        "resolved": 248,
+        "lowDies": 16.9,
+        "lowDies10": 15.3,
+        "lowEscapeSpawn": 81.5,
+        "lowAttemptRecall": 70.6,
+        "recallsPerGame": 512.57,
+        "spawnReturnPerGame": 48,
+        "recallMid": 18,
+        "recallHealthy": 77.3,
+        "recallLow": 4.6,
+        "teamWalkMovesPerGroup": 57.24,
+        "meanDeposit": 35.87,
+        "smallDepositShare": 3.4,
+        "gemsPerGemCapture": 22,
+        "groupCapsPer100Rounds": 4.84,
+        "gemGroupCapsPer100Rounds": 4.84,
+        "goldOnlyRewardShare": 0,
+        "rewardReceiptsPer100Rounds": 5.28,
+        "gemRewardReceiptsPer100Rounds": 5.28,
+        "moveTurns": 56.7,
+        "stunTurns": 0.5,
+        "deadTurns": 3.7,
+        "endBag": 36.64,
+        "submitStarts": 27.93,
+        "bankEvents": 27.29,
+        "nativeErrors": 0,
+        "potentialWinRounds": 41.86,
+        "checkpoint500": {
+          "bank": 426.14,
+          "shards": 116.43
+        }
+      }
+    },
+    "00expanse": {
+      "n": 14,
+      "wins": 13,
+      "us": {
+        "capGems": 1015.93,
+        "deaths": 1.29,
+        "killerKnown": 100,
+        "deathOutnumber": 66.7,
+        "deathNoEnemy": 0,
+        "death1v1": 22.2,
+        "deathBag": 0,
+        "deathHp3round": 0.28,
+        "deathRecentLow": 94.4,
+        "episodes": 154,
+        "resolved": 152,
+        "lowDies": 11.2,
+        "lowDies10": 8.6,
+        "lowEscapeSpawn": 88.8,
+        "lowAttemptRecall": 88.8,
+        "recallsPerGame": 43.93,
+        "spawnReturnPerGame": 43.79,
+        "recallMid": 24.4,
+        "recallHealthy": 53.7,
+        "recallLow": 22,
+        "teamWalkMovesPerGroup": 62.27,
+        "meanDeposit": 26.77,
+        "smallDepositShare": 52.4,
+        "gemsPerGemCapture": 26.89,
+        "groupCapsPer100Rounds": 5.37,
+        "gemGroupCapsPer100Rounds": 3.66,
+        "goldOnlyRewardShare": 31.9,
+        "rewardReceiptsPer100Rounds": 5.37,
+        "gemRewardReceiptsPer100Rounds": 3.66,
+        "moveTurns": 67.8,
+        "stunTurns": 0.1,
+        "deadTurns": 1.5,
+        "endBag": 9.43,
+        "submitStarts": 38.07,
+        "bankEvents": 38,
+        "nativeErrors": 0,
+        "potentialWinRounds": 12.36,
+        "checkpoint500": {
+          "bank": 241.64,
+          "shards": 96.79
+        }
+      },
+      "opponent": {
+        "capGems": 865.86,
+        "deaths": 1.36,
+        "killerKnown": 73.7,
+        "deathOutnumber": 21.1,
+        "deathNoEnemy": 26.3,
+        "death1v1": 36.8,
+        "deathBag": 7.84,
+        "deathHp3round": 0.32,
+        "deathRecentLow": 100,
+        "episodes": 163,
+        "resolved": 163,
+        "lowDies": 11.7,
+        "lowDies10": 11,
+        "lowEscapeSpawn": 86.5,
+        "lowAttemptRecall": 88.3,
+        "recallsPerGame": 693,
+        "spawnReturnPerGame": 47,
+        "recallMid": 11.3,
+        "recallHealthy": 86.2,
+        "recallLow": 2.5,
+        "teamWalkMovesPerGroup": 53,
+        "meanDeposit": 27.39,
+        "smallDepositShare": 55.5,
+        "gemsPerGemCapture": 18.85,
+        "groupCapsPer100Rounds": 6.2,
+        "gemGroupCapsPer100Rounds": 4.45,
+        "goldOnlyRewardShare": 28.3,
+        "rewardReceiptsPer100Rounds": 6.59,
+        "gemRewardReceiptsPer100Rounds": 4.78,
+        "moveTurns": 64.8,
+        "stunTurns": 0.1,
+        "deadTurns": 1.4,
+        "endBag": 41.21,
+        "submitStarts": 29.79,
+        "bankEvents": 29.71,
+        "nativeErrors": 0,
+        "potentialWinRounds": 3.71,
+        "checkpoint500": {
+          "bank": 241.79,
+          "shards": 89.29
+        }
+      }
+    },
+    "00fragment": {
+      "n": 14,
+      "wins": 3,
+      "us": {
+        "capGems": 381.43,
+        "deaths": 25.64,
+        "killerKnown": 97.8,
+        "deathOutnumber": 53.2,
+        "deathNoEnemy": 0.3,
+        "death1v1": 11.1,
+        "deathBag": 1.9,
+        "deathHp3round": 0.6,
+        "deathRecentLow": 72.4,
+        "episodes": 822,
+        "resolved": 820,
+        "lowDies": 31.7,
+        "lowDies10": 31.3,
+        "lowEscapeSpawn": 68.3,
+        "lowAttemptRecall": 56.3,
+        "recallsPerGame": 50,
+        "spawnReturnPerGame": 43.93,
+        "recallMid": 9.1,
+        "recallHealthy": 20.9,
+        "recallLow": 70,
+        "teamWalkMovesPerGroup": 43.95,
+        "meanDeposit": 9.15,
+        "smallDepositShare": 78.3,
+        "gemsPerGemCapture": 8.77,
+        "groupCapsPer100Rounds": 2.41,
+        "gemGroupCapsPer100Rounds": 2.41,
+        "goldOnlyRewardShare": 0,
+        "rewardReceiptsPer100Rounds": 2.45,
+        "gemRewardReceiptsPer100Rounds": 2.45,
+        "moveTurns": 48.9,
+        "stunTurns": 1.3,
+        "deadTurns": 27.8,
+        "endBag": 2.71,
+        "submitStarts": 39.86,
+        "bankEvents": 39.21,
+        "nativeErrors": 0,
+        "potentialWinRounds": 0,
+        "checkpoint500": {
+          "bank": 92.14,
+          "shards": 41.79
+        }
+      },
+      "opponent": {
+        "capGems": 854.14,
+        "deaths": 6.86,
+        "killerKnown": 89.6,
+        "deathOutnumber": 18.8,
+        "deathNoEnemy": 4.2,
+        "death1v1": 11.5,
+        "deathBag": 4.29,
+        "deathHp3round": 0.47,
+        "deathRecentLow": 94.8,
+        "episodes": 337,
+        "resolved": 334,
+        "lowDies": 27.2,
+        "lowDies10": 25.4,
+        "lowEscapeSpawn": 72.2,
+        "lowAttemptRecall": 39.5,
+        "recallsPerGame": 591.21,
+        "spawnReturnPerGame": 63.71,
+        "recallMid": 11.7,
+        "recallHealthy": 85.2,
+        "recallLow": 3.1,
+        "teamWalkMovesPerGroup": 41.71,
+        "meanDeposit": 22.99,
+        "smallDepositShare": 36.7,
+        "gemsPerGemCapture": 12.75,
+        "groupCapsPer100Rounds": 3.72,
+        "gemGroupCapsPer100Rounds": 3.72,
+        "goldOnlyRewardShare": 0,
+        "rewardReceiptsPer100Rounds": 4.01,
+        "gemRewardReceiptsPer100Rounds": 4.01,
+        "moveTurns": 55.4,
+        "stunTurns": 0.5,
+        "deadTurns": 7.4,
+        "endBag": 6.43,
+        "submitStarts": 37.86,
+        "bankEvents": 37.71,
+        "nativeErrors": 0,
+        "potentialWinRounds": 8.93,
+        "checkpoint500": {
+          "bank": 144.57,
+          "shards": 66.93
+        }
+      }
+    },
+    "00gem_fields": {
+      "n": 14,
+      "wins": 6,
+      "us": {
+        "capGems": 749.79,
+        "deaths": 10.5,
+        "killerKnown": 95.9,
+        "deathOutnumber": 70.7,
+        "deathNoEnemy": 0.7,
+        "death1v1": 9.5,
+        "deathBag": 4.7,
+        "deathHp3round": 0.44,
+        "deathRecentLow": 85.7,
+        "episodes": 386,
+        "resolved": 382,
+        "lowDies": 33,
+        "lowDies10": 30.6,
+        "lowEscapeSpawn": 67,
+        "lowAttemptRecall": 66.5,
+        "recallsPerGame": 26.79,
+        "spawnReturnPerGame": 23.07,
+        "recallMid": 10.7,
+        "recallHealthy": 14.4,
+        "recallLow": 74.9,
+        "teamWalkMovesPerGroup": 72.01,
+        "meanDeposit": 29.85,
+        "smallDepositShare": 45.1,
+        "gemsPerGemCapture": 28.6,
+        "groupCapsPer100Rounds": 3.58,
+        "gemGroupCapsPer100Rounds": 3.58,
+        "goldOnlyRewardShare": 0,
+        "rewardReceiptsPer100Rounds": 3.68,
+        "gemRewardReceiptsPer100Rounds": 3.68,
+        "moveTurns": 61.9,
+        "stunTurns": 0.8,
+        "deadTurns": 16.6,
+        "endBag": 10.71,
+        "submitStarts": 25,
+        "bankEvents": 24.57,
+        "nativeErrors": 0,
+        "potentialWinRounds": 3.93,
+        "checkpoint500": {
+          "bank": 470.14,
+          "shards": 43.07
+        }
+      },
+      "opponent": {
+        "capGems": 896.93,
+        "deaths": 6,
+        "killerKnown": 86.9,
+        "deathOutnumber": 39.3,
+        "deathNoEnemy": 4.8,
+        "death1v1": 10.7,
+        "deathBag": 8.6,
+        "deathHp3round": 0.36,
+        "deathRecentLow": 100,
+        "episodes": 229,
+        "resolved": 229,
+        "lowDies": 36.7,
+        "lowDies10": 31,
+        "lowEscapeSpawn": 62.4,
+        "lowAttemptRecall": 62,
+        "recallsPerGame": 439.64,
+        "spawnReturnPerGame": 25.93,
+        "recallMid": 14,
+        "recallHealthy": 79.7,
+        "recallLow": 6.2,
+        "teamWalkMovesPerGroup": 61.37,
+        "meanDeposit": 33.14,
+        "smallDepositShare": 42.1,
+        "gemsPerGemCapture": 25.89,
+        "groupCapsPer100Rounds": 4.74,
+        "gemGroupCapsPer100Rounds": 4.74,
+        "goldOnlyRewardShare": 0,
+        "rewardReceiptsPer100Rounds": 5.53,
+        "gemRewardReceiptsPer100Rounds": 5.53,
+        "moveTurns": 64.9,
+        "stunTurns": 0.7,
+        "deadTurns": 9.8,
+        "endBag": 20.71,
+        "submitStarts": 27,
+        "bankEvents": 26.14,
+        "nativeErrors": 0,
+        "potentialWinRounds": 11.29,
+        "checkpoint500": {
+          "bank": 521.07,
+          "shards": 57.14
+        }
+      }
+    },
+    "00gemfight": {
+      "n": 14,
+      "wins": 7,
+      "us": {
+        "capGems": 633.64,
+        "deaths": 16.29,
+        "killerKnown": 98.2,
+        "deathOutnumber": 60.1,
+        "deathNoEnemy": 0,
+        "death1v1": 7.9,
+        "deathBag": 6.75,
+        "deathHp3round": 0.41,
+        "deathRecentLow": 89.9,
+        "episodes": 424,
+        "resolved": 423,
+        "lowDies": 48.5,
+        "lowDies10": 44.2,
+        "lowEscapeSpawn": 51.5,
+        "lowAttemptRecall": 51.1,
+        "recallsPerGame": 25.14,
+        "spawnReturnPerGame": 22.43,
+        "recallMid": 11.1,
+        "recallHealthy": 22.4,
+        "recallLow": 66.5,
+        "teamWalkMovesPerGroup": 60.24,
+        "meanDeposit": 31.09,
+        "smallDepositShare": 48.5,
+        "gemsPerGemCapture": 24.64,
+        "groupCapsPer100Rounds": 3.13,
+        "gemGroupCapsPer100Rounds": 2.64,
+        "goldOnlyRewardShare": 15.7,
+        "rewardReceiptsPer100Rounds": 3.15,
+        "gemRewardReceiptsPer100Rounds": 2.66,
+        "moveTurns": 62,
+        "stunTurns": 1.2,
+        "deadTurns": 24.1,
+        "endBag": 7.29,
+        "submitStarts": 19.86,
+        "bankEvents": 19,
+        "nativeErrors": 0,
+        "potentialWinRounds": 5.36,
+        "checkpoint500": {
+          "bank": 264,
+          "shards": 46.93
+        }
+      },
+      "opponent": {
+        "capGems": 657.07,
+        "deaths": 8.29,
+        "killerKnown": 96.6,
+        "deathOutnumber": 42.2,
+        "deathNoEnemy": 0,
+        "death1v1": 12.9,
+        "deathBag": 9.03,
+        "deathHp3round": 0.37,
+        "deathRecentLow": 94.8,
+        "episodes": 263,
+        "resolved": 262,
+        "lowDies": 42,
+        "lowDies10": 38.5,
+        "lowEscapeSpawn": 56.1,
+        "lowAttemptRecall": 55.7,
+        "recallsPerGame": 203,
+        "spawnReturnPerGame": 28.07,
+        "recallMid": 27.4,
+        "recallHealthy": 62.4,
+        "recallLow": 10.1,
+        "teamWalkMovesPerGroup": 52.5,
+        "meanDeposit": 32.18,
+        "smallDepositShare": 35.3,
+        "gemsPerGemCapture": 17.42,
+        "groupCapsPer100Rounds": 4.29,
+        "gemGroupCapsPer100Rounds": 3.87,
+        "goldOnlyRewardShare": 9.9,
+        "rewardReceiptsPer100Rounds": 4.61,
+        "gemRewardReceiptsPer100Rounds": 4.19,
+        "moveTurns": 64.6,
+        "stunTurns": 1,
+        "deadTurns": 12.6,
+        "endBag": 21.07,
+        "submitStarts": 21.14,
+        "bankEvents": 20.86,
+        "nativeErrors": 0,
+        "potentialWinRounds": 17.29,
+        "checkpoint500": {
+          "bank": 242.21,
+          "shards": 49.29
+        }
+      }
+    },
+    "00great_wall": {
+      "n": 12,
+      "wins": 8,
+      "us": {
+        "capGems": 816.42,
+        "deaths": 3.25,
+        "killerKnown": 82.1,
+        "deathOutnumber": 28.2,
+        "deathNoEnemy": 10.3,
+        "death1v1": 28.2,
+        "deathBag": 9.87,
+        "deathHp3round": 0.29,
+        "deathRecentLow": 97.4,
+        "episodes": 298,
+        "resolved": 298,
+        "lowDies": 12.8,
+        "lowDies10": 11.4,
+        "lowEscapeSpawn": 87.2,
+        "lowAttemptRecall": 89.6,
+        "recallsPerGame": 44.17,
+        "spawnReturnPerGame": 41.17,
+        "recallMid": 19.1,
+        "recallHealthy": 27.9,
+        "recallLow": 53,
+        "teamWalkMovesPerGroup": 89.76,
+        "meanDeposit": 32.3,
+        "smallDepositShare": 47,
+        "gemsPerGemCapture": 25.06,
+        "groupCapsPer100Rounds": 3.89,
+        "gemGroupCapsPer100Rounds": 2.93,
+        "goldOnlyRewardShare": 24.8,
+        "rewardReceiptsPer100Rounds": 3.89,
+        "gemRewardReceiptsPer100Rounds": 2.93,
+        "moveTurns": 72.1,
+        "stunTurns": 0.1,
+        "deadTurns": 3.1,
+        "endBag": 60.17,
+        "submitStarts": 28.5,
+        "bankEvents": 28.17,
+        "nativeErrors": 0,
+        "potentialWinRounds": 50.08,
+        "checkpoint500": {
+          "bank": 272.25,
+          "shards": 50.92
+        }
+      },
+      "opponent": {
+        "capGems": 969.17,
+        "deaths": 5.5,
+        "killerKnown": 68.2,
+        "deathOutnumber": 25.8,
+        "deathNoEnemy": 30.3,
+        "death1v1": 27.3,
+        "deathBag": 39.76,
+        "deathHp3round": 0.43,
+        "deathRecentLow": 86.4,
+        "episodes": 230,
+        "resolved": 229,
+        "lowDies": 24.9,
+        "lowDies10": 21,
+        "lowEscapeSpawn": 75.1,
+        "lowAttemptRecall": 77.7,
+        "recallsPerGame": 54.67,
+        "spawnReturnPerGame": 48.58,
+        "recallMid": 31.4,
+        "recallHealthy": 35.8,
+        "recallLow": 32.8,
+        "teamWalkMovesPerGroup": 73.96,
+        "meanDeposit": 58.05,
+        "smallDepositShare": 13.7,
+        "gemsPerGemCapture": 23.17,
+        "groupCapsPer100Rounds": 4.5,
+        "gemGroupCapsPer100Rounds": 3.76,
+        "goldOnlyRewardShare": 16.5,
+        "rewardReceiptsPer100Rounds": 4.78,
+        "gemRewardReceiptsPer100Rounds": 3.99,
+        "moveTurns": 66.7,
+        "stunTurns": 0.3,
+        "deadTurns": 5.4,
+        "endBag": 75,
+        "submitStarts": 12.92,
+        "bankEvents": 12.17,
+        "nativeErrors": 0,
+        "potentialWinRounds": 31.08,
+        "checkpoint500": {
+          "bank": 160.67,
+          "shards": 54.67
+        }
+      }
+    },
+    "00interlock": {
+      "n": 12,
+      "wins": 7,
+      "us": {
+        "capGems": 871.75,
+        "deaths": 9,
+        "killerKnown": 92.6,
+        "deathOutnumber": 45.4,
+        "deathNoEnemy": 0.9,
+        "death1v1": 20.4,
+        "deathBag": 1.69,
+        "deathHp3round": 0.32,
+        "deathRecentLow": 95.4,
+        "episodes": 346,
+        "resolved": 345,
+        "lowDies": 29.9,
+        "lowDies10": 26.7,
+        "lowEscapeSpawn": 70.1,
+        "lowAttemptRecall": 70.4,
+        "recallsPerGame": 48,
+        "spawnReturnPerGame": 45.17,
+        "recallMid": 18.8,
+        "recallHealthy": 35.8,
+        "recallLow": 45.5,
+        "teamWalkMovesPerGroup": 59.83,
+        "meanDeposit": 23.42,
+        "smallDepositShare": 52.2,
+        "gemsPerGemCapture": 23.46,
+        "groupCapsPer100Rounds": 3.84,
+        "gemGroupCapsPer100Rounds": 2.74,
+        "goldOnlyRewardShare": 28.8,
+        "rewardReceiptsPer100Rounds": 3.84,
+        "gemRewardReceiptsPer100Rounds": 2.74,
+        "moveTurns": 63.6,
+        "stunTurns": 0.7,
+        "deadTurns": 9.7,
+        "endBag": 14.08,
+        "submitStarts": 37.58,
+        "bankEvents": 37.17,
+        "nativeErrors": 0,
+        "potentialWinRounds": 9.67,
+        "checkpoint500": {
+          "bank": 140.33,
+          "shards": 61
+        }
+      },
+      "opponent": {
+        "capGems": 793.83,
+        "deaths": 8.17,
+        "killerKnown": 83.7,
+        "deathOutnumber": 27.6,
+        "deathNoEnemy": 8.2,
+        "death1v1": 33.7,
+        "deathBag": 3.58,
+        "deathHp3round": 0.34,
+        "deathRecentLow": 91.8,
+        "episodes": 321,
+        "resolved": 319,
+        "lowDies": 28.2,
+        "lowDies10": 25.7,
+        "lowEscapeSpawn": 71.8,
+        "lowAttemptRecall": 70.2,
+        "recallsPerGame": 788.25,
+        "spawnReturnPerGame": 52.33,
+        "recallMid": 18,
+        "recallHealthy": 75.1,
+        "recallLow": 6.8,
+        "teamWalkMovesPerGroup": 54.43,
+        "meanDeposit": 29.1,
+        "smallDepositShare": 42.6,
+        "gemsPerGemCapture": 17.26,
+        "groupCapsPer100Rounds": 4.31,
+        "gemGroupCapsPer100Rounds": 3.39,
+        "goldOnlyRewardShare": 21.5,
+        "rewardReceiptsPer100Rounds": 4.39,
+        "gemRewardReceiptsPer100Rounds": 3.45,
+        "moveTurns": 63.1,
+        "stunTurns": 0.8,
+        "deadTurns": 8.7,
+        "endBag": 40.25,
+        "submitStarts": 26.08,
+        "bankEvents": 25.42,
+        "nativeErrors": 0,
+        "potentialWinRounds": 15.33,
+        "checkpoint500": {
+          "bank": 154.92,
+          "shards": 61.75
+        }
+      }
+    },
+    "00lanes": {
+      "n": 12,
+      "wins": 4,
+      "us": {
+        "capGems": 742,
+        "deaths": 8,
+        "killerKnown": 87.5,
+        "deathOutnumber": 47.9,
+        "deathNoEnemy": 5.2,
+        "death1v1": 17.7,
+        "deathBag": 1.38,
+        "deathHp3round": 0.39,
+        "deathRecentLow": 85.4,
+        "episodes": 313,
+        "resolved": 312,
+        "lowDies": 26.3,
+        "lowDies10": 22.1,
+        "lowEscapeSpawn": 73.7,
+        "lowAttemptRecall": 78.2,
+        "recallsPerGame": 51.17,
+        "spawnReturnPerGame": 45.08,
+        "recallMid": 21.8,
+        "recallHealthy": 33.7,
+        "recallLow": 44.5,
+        "teamWalkMovesPerGroup": 45.13,
+        "meanDeposit": 12.91,
+        "smallDepositShare": 59.7,
+        "gemsPerGemCapture": 11.89,
+        "groupCapsPer100Rounds": 6.16,
+        "gemGroupCapsPer100Rounds": 5.47,
+        "goldOnlyRewardShare": 11.3,
+        "rewardReceiptsPer100Rounds": 6.17,
+        "gemRewardReceiptsPer100Rounds": 5.48,
+        "moveTurns": 60.5,
+        "stunTurns": 0.4,
+        "deadTurns": 8.2,
+        "endBag": 11.33,
+        "submitStarts": 57.5,
+        "bankEvents": 57.08,
+        "nativeErrors": 0,
+        "potentialWinRounds": 3.5,
+        "checkpoint500": {
+          "bank": 163,
+          "shards": 56
+        }
+      },
+      "opponent": {
+        "capGems": 989.83,
+        "deaths": 2.5,
+        "killerKnown": 56.7,
+        "deathOutnumber": 16.7,
+        "deathNoEnemy": 26.7,
+        "death1v1": 6.7,
+        "deathBag": 8.43,
+        "deathHp3round": 0.41,
+        "deathRecentLow": 83.3,
+        "episodes": 206,
+        "resolved": 203,
+        "lowDies": 12.3,
+        "lowDies10": 10.3,
+        "lowEscapeSpawn": 85.7,
+        "lowAttemptRecall": 86.7,
+        "recallsPerGame": 419.08,
+        "spawnReturnPerGame": 52.67,
+        "recallMid": 15.3,
+        "recallHealthy": 76,
+        "recallLow": 8.7,
+        "teamWalkMovesPerGroup": 34.03,
+        "meanDeposit": 18.73,
+        "smallDepositShare": 48.8,
+        "gemsPerGemCapture": 11.4,
+        "groupCapsPer100Rounds": 8.54,
+        "gemGroupCapsPer100Rounds": 7.61,
+        "goldOnlyRewardShare": 10.9,
+        "rewardReceiptsPer100Rounds": 8.74,
+        "gemRewardReceiptsPer100Rounds": 7.78,
+        "moveTurns": 58.5,
+        "stunTurns": 0.3,
+        "deadTurns": 2.6,
+        "endBag": 18.92,
+        "submitStarts": 51.33,
+        "bankEvents": 51.25,
+        "nativeErrors": 0,
+        "potentialWinRounds": 9.67,
+        "checkpoint500": {
+          "bank": 287.42,
+          "shards": 81
+        }
+      }
+    },
+    "00lost_world": {
+      "n": 12,
+      "wins": 2,
+      "us": {
+        "capGems": 442.75,
+        "deaths": 6.42,
+        "killerKnown": 83.1,
+        "deathOutnumber": 51.9,
+        "deathNoEnemy": 5.2,
+        "death1v1": 19.5,
+        "deathBag": 9.32,
+        "deathHp3round": 0.34,
+        "deathRecentLow": 98.7,
+        "episodes": 232,
+        "resolved": 230,
+        "lowDies": 33,
+        "lowDies10": 29.1,
+        "lowEscapeSpawn": 67,
+        "lowAttemptRecall": 72.6,
+        "recallsPerGame": 27.17,
+        "spawnReturnPerGame": 24.17,
+        "recallMid": 24.2,
+        "recallHealthy": 18.1,
+        "recallLow": 57.7,
+        "teamWalkMovesPerGroup": 59.23,
+        "meanDeposit": 26.23,
+        "smallDepositShare": 28.2,
+        "gemsPerGemCapture": 18.58,
+        "groupCapsPer100Rounds": 5.24,
+        "gemGroupCapsPer100Rounds": 3.32,
+        "goldOnlyRewardShare": 36.7,
+        "rewardReceiptsPer100Rounds": 5.29,
+        "gemRewardReceiptsPer100Rounds": 3.36,
+        "moveTurns": 69,
+        "stunTurns": 0.9,
+        "deadTurns": 9.9,
+        "endBag": 11.67,
+        "submitStarts": 16,
+        "bankEvents": 15.08,
+        "nativeErrors": 0,
+        "potentialWinRounds": 7.5,
+        "checkpoint500": {
+          "bank": 130.67,
+          "shards": 52.44
+        }
+      },
+      "opponent": {
+        "capGems": 959.67,
+        "deaths": 8.42,
+        "killerKnown": 65.3,
+        "deathOutnumber": 20.8,
+        "deathNoEnemy": 22.8,
+        "death1v1": 7.9,
+        "deathBag": 3.83,
+        "deathHp3round": 0.43,
+        "deathRecentLow": 92.1,
+        "episodes": 201,
+        "resolved": 199,
+        "lowDies": 46.7,
+        "lowDies10": 41.7,
+        "lowEscapeSpawn": 53.3,
+        "lowAttemptRecall": 61.8,
+        "recallsPerGame": 340.25,
+        "spawnReturnPerGame": 20.08,
+        "recallMid": 17.9,
+        "recallHealthy": 75.3,
+        "recallLow": 6.8,
+        "teamWalkMovesPerGroup": 30.08,
+        "meanDeposit": 17.96,
+        "smallDepositShare": 49.9,
+        "gemsPerGemCapture": 16.02,
+        "groupCapsPer100Rounds": 9.12,
+        "gemGroupCapsPer100Rounds": 8.34,
+        "goldOnlyRewardShare": 8.5,
+        "rewardReceiptsPer100Rounds": 9.39,
+        "gemRewardReceiptsPer100Rounds": 8.6,
+        "moveTurns": 61.5,
+        "stunTurns": 0.7,
+        "deadTurns": 13.5,
+        "endBag": 20.83,
+        "submitStarts": 53.83,
+        "bankEvents": 53.25,
+        "nativeErrors": 0,
+        "potentialWinRounds": 5.33,
+        "checkpoint500": {
+          "bank": 719.11,
+          "shards": 40.56
+        }
+      }
+    },
+    "00monolith": {
+      "n": 12,
+      "wins": 4,
+      "us": {
+        "capGems": 781.42,
+        "deaths": 10.25,
+        "killerKnown": 93.5,
+        "deathOutnumber": 43.1,
+        "deathNoEnemy": 4.9,
+        "death1v1": 26,
+        "deathBag": 4.24,
+        "deathHp3round": 0.33,
+        "deathRecentLow": 94.3,
+        "episodes": 317,
+        "resolved": 314,
+        "lowDies": 36.9,
+        "lowDies10": 32.8,
+        "lowEscapeSpawn": 63.1,
+        "lowAttemptRecall": 65.9,
+        "recallsPerGame": 54.25,
+        "spawnReturnPerGame": 51.67,
+        "recallMid": 15.5,
+        "recallHealthy": 51,
+        "recallLow": 33.5,
+        "teamWalkMovesPerGroup": 48.24,
+        "meanDeposit": 14.13,
+        "smallDepositShare": 78.9,
+        "gemsPerGemCapture": 13.24,
+        "groupCapsPer100Rounds": 5.75,
+        "gemGroupCapsPer100Rounds": 4.8,
+        "goldOnlyRewardShare": 16.6,
+        "rewardReceiptsPer100Rounds": 5.77,
+        "gemRewardReceiptsPer100Rounds": 4.81,
+        "moveTurns": 61.5,
+        "stunTurns": 0.6,
+        "deadTurns": 9.8,
+        "endBag": 18.42,
+        "submitStarts": 53.42,
+        "bankEvents": 52.5,
+        "nativeErrors": 0,
+        "potentialWinRounds": 10.75,
+        "checkpoint500": {
+          "bank": 219.58,
+          "shards": 90.25
+        }
+      },
+      "opponent": {
+        "capGems": 949,
+        "deaths": 6.58,
+        "killerKnown": 87.3,
+        "deathOutnumber": 26.6,
+        "deathNoEnemy": 16.5,
+        "death1v1": 19,
+        "deathBag": 3.46,
+        "deathHp3round": 0.42,
+        "deathRecentLow": 82.3,
+        "episodes": 274,
+        "resolved": 270,
+        "lowDies": 24.1,
+        "lowDies10": 21.5,
+        "lowEscapeSpawn": 75.6,
+        "lowAttemptRecall": 79.3,
+        "recallsPerGame": 1232.67,
+        "spawnReturnPerGame": 54.92,
+        "recallMid": 14.3,
+        "recallHealthy": 81.2,
+        "recallLow": 4.5,
+        "teamWalkMovesPerGroup": 53.75,
+        "meanDeposit": 28.5,
+        "smallDepositShare": 46.6,
+        "gemsPerGemCapture": 16.85,
+        "groupCapsPer100Rounds": 5.57,
+        "gemGroupCapsPer100Rounds": 4.58,
+        "goldOnlyRewardShare": 17.8,
+        "rewardReceiptsPer100Rounds": 5.94,
+        "gemRewardReceiptsPer100Rounds": 4.91,
+        "moveTurns": 61.2,
+        "stunTurns": 0.4,
+        "deadTurns": 6,
+        "endBag": 16.25,
+        "submitStarts": 34.17,
+        "bankEvents": 33.42,
+        "nativeErrors": 0,
+        "potentialWinRounds": 23.25,
+        "checkpoint500": {
+          "bank": 263.17,
+          "shards": 96.25
+        }
+      }
+    },
+    "00packs": {
+      "n": 12,
+      "wins": 8,
+      "us": {
+        "capGems": 768,
+        "deaths": 7.83,
+        "killerKnown": 100,
+        "deathOutnumber": 42.6,
+        "deathNoEnemy": 0,
+        "death1v1": 18.1,
+        "deathBag": 1.81,
+        "deathHp3round": 0.49,
+        "deathRecentLow": 73.4,
+        "episodes": 331,
+        "resolved": 330,
+        "lowDies": 20.9,
+        "lowDies10": 20,
+        "lowEscapeSpawn": 79.1,
+        "lowAttemptRecall": 79.1,
+        "recallsPerGame": 45.5,
+        "spawnReturnPerGame": 42.08,
+        "recallMid": 14.8,
+        "recallHealthy": 34.2,
+        "recallLow": 50.9,
+        "teamWalkMovesPerGroup": 58.6,
+        "meanDeposit": 23.85,
+        "smallDepositShare": 24.5,
+        "gemsPerGemCapture": 24.32,
+        "groupCapsPer100Rounds": 2.69,
+        "gemGroupCapsPer100Rounds": 2.69,
+        "goldOnlyRewardShare": 0,
+        "rewardReceiptsPer100Rounds": 2.71,
+        "gemRewardReceiptsPer100Rounds": 2.71,
+        "moveTurns": 60.3,
+        "stunTurns": 1.2,
+        "deadTurns": 13.1,
+        "endBag": 2.33,
+        "submitStarts": 32.92,
+        "bankEvents": 32.67,
+        "nativeErrors": 0,
+        "potentialWinRounds": 4.17,
+        "checkpoint500": {
+          "bank": 242.67,
+          "shards": 64.33
+        }
+      },
+      "opponent": {
+        "capGems": 581.5,
+        "deaths": 7.33,
+        "killerKnown": 100,
+        "deathOutnumber": 31.8,
+        "deathNoEnemy": 0,
+        "death1v1": 17,
+        "deathBag": 3.77,
+        "deathHp3round": 0.39,
+        "deathRecentLow": 96.6,
+        "episodes": 259,
+        "resolved": 257,
+        "lowDies": 33.1,
+        "lowDies10": 31.9,
+        "lowEscapeSpawn": 66.9,
+        "lowAttemptRecall": 62.3,
+        "recallsPerGame": 697.25,
+        "spawnReturnPerGame": 35.5,
+        "recallMid": 23,
+        "recallHealthy": 70.2,
+        "recallLow": 6.8,
+        "teamWalkMovesPerGroup": 63.15,
+        "meanDeposit": 21.72,
+        "smallDepositShare": 41.3,
+        "gemsPerGemCapture": 19.38,
+        "groupCapsPer100Rounds": 2.55,
+        "gemGroupCapsPer100Rounds": 2.55,
+        "goldOnlyRewardShare": 0,
+        "rewardReceiptsPer100Rounds": 2.67,
+        "gemRewardReceiptsPer100Rounds": 2.67,
+        "moveTurns": 61.2,
+        "stunTurns": 0.7,
+        "deadTurns": 12.3,
+        "endBag": 15.83,
+        "submitStarts": 25.83,
+        "bankEvents": 25.42,
+        "nativeErrors": 0,
+        "potentialWinRounds": 4,
+        "checkpoint500": {
+          "bank": 210.67,
+          "shards": 62.92
+        }
+      }
+    },
+    "00pilgrimage": {
+      "n": 12,
+      "wins": 6,
+      "us": {
+        "capGems": 784.17,
+        "deaths": 8.67,
+        "killerKnown": 99,
+        "deathOutnumber": 57.7,
+        "deathNoEnemy": 0,
+        "death1v1": 21.2,
+        "deathBag": 4.18,
+        "deathHp3round": 0.37,
+        "deathRecentLow": 90.4,
+        "episodes": 321,
+        "resolved": 318,
+        "lowDies": 29.6,
+        "lowDies10": 25.5,
+        "lowEscapeSpawn": 70.4,
+        "lowAttemptRecall": 73.3,
+        "recallsPerGame": 57.17,
+        "spawnReturnPerGame": 55.08,
+        "recallMid": 12.7,
+        "recallHealthy": 51.5,
+        "recallLow": 35.9,
+        "teamWalkMovesPerGroup": 80.12,
+        "meanDeposit": 27.64,
+        "smallDepositShare": 71.3,
+        "gemsPerGemCapture": 29.5,
+        "groupCapsPer100Rounds": 4.52,
+        "gemGroupCapsPer100Rounds": 1.53,
+        "goldOnlyRewardShare": 66.1,
+        "rewardReceiptsPer100Rounds": 4.53,
+        "gemRewardReceiptsPer100Rounds": 1.55,
+        "moveTurns": 76.9,
+        "stunTurns": 0.4,
+        "deadTurns": 5.9,
+        "endBag": 31.92,
+        "submitStarts": 27.17,
+        "bankEvents": 27,
+        "nativeErrors": 0,
+        "potentialWinRounds": 30.83,
+        "checkpoint500": {
+          "bank": 75.17,
+          "shards": 70.5
+        }
+      },
+      "opponent": {
+        "capGems": 762.33,
+        "deaths": 9.67,
+        "killerKnown": 90.5,
+        "deathOutnumber": 21.6,
+        "deathNoEnemy": 5.2,
+        "death1v1": 28.4,
+        "deathBag": 3.67,
+        "deathHp3round": 0.42,
+        "deathRecentLow": 92.2,
+        "episodes": 285,
+        "resolved": 282,
+        "lowDies": 37.9,
+        "lowDies10": 35.8,
+        "lowEscapeSpawn": 60.6,
+        "lowAttemptRecall": 68.1,
+        "recallsPerGame": 699.5,
+        "spawnReturnPerGame": 50.08,
+        "recallMid": 8.6,
+        "recallHealthy": 86.5,
+        "recallLow": 4.9,
+        "teamWalkMovesPerGroup": 71.75,
+        "meanDeposit": 41.43,
+        "smallDepositShare": 33.5,
+        "gemsPerGemCapture": 26.99,
+        "groupCapsPer100Rounds": 4.78,
+        "gemGroupCapsPer100Rounds": 1.63,
+        "goldOnlyRewardShare": 65.9,
+        "rewardReceiptsPer100Rounds": 4.94,
+        "gemRewardReceiptsPer100Rounds": 1.76,
+        "moveTurns": 72.5,
+        "stunTurns": 0.4,
+        "deadTurns": 6.5,
+        "endBag": 20.75,
+        "submitStarts": 18,
+        "bankEvents": 17.92,
+        "nativeErrors": 0,
+        "potentialWinRounds": 12,
+        "checkpoint500": {
+          "bank": 70.25,
+          "shards": 60.92
+        }
+      }
+    },
+    "00quadrants": {
+      "n": 12,
+      "wins": 4,
+      "us": {
+        "capGems": 832.25,
+        "deaths": 6.67,
+        "killerKnown": 76.3,
+        "deathOutnumber": 50,
+        "deathNoEnemy": 12.5,
+        "death1v1": 25,
+        "deathBag": 6.9,
+        "deathHp3round": 0.32,
+        "deathRecentLow": 87.5,
+        "episodes": 278,
+        "resolved": 276,
+        "lowDies": 25.4,
+        "lowDies10": 18.5,
+        "lowEscapeSpawn": 74.6,
+        "lowAttemptRecall": 76.4,
+        "recallsPerGame": 26.25,
+        "spawnReturnPerGame": 22.58,
+        "recallMid": 13.7,
+        "recallHealthy": 10.5,
+        "recallLow": 75.9,
+        "teamWalkMovesPerGroup": 78.19,
+        "meanDeposit": 36.83,
+        "smallDepositShare": 9.9,
+        "gemsPerGemCapture": 38.71,
+        "groupCapsPer100Rounds": 3.38,
+        "gemGroupCapsPer100Rounds": 3.38,
+        "goldOnlyRewardShare": 0,
+        "rewardReceiptsPer100Rounds": 3.54,
+        "gemRewardReceiptsPer100Rounds": 3.54,
+        "moveTurns": 60.1,
+        "stunTurns": 0.4,
+        "deadTurns": 12,
+        "endBag": 55.42,
+        "submitStarts": 21.75,
+        "bankEvents": 21.08,
+        "nativeErrors": 0,
+        "potentialWinRounds": 7.33,
+        "checkpoint500": {
+          "bank": 577.92,
+          "shards": 50.33
+        }
+      },
+      "opponent": {
+        "capGems": 988.83,
+        "deaths": 4,
+        "killerKnown": 64.6,
+        "deathOutnumber": 14.6,
+        "deathNoEnemy": 25,
+        "death1v1": 33.3,
+        "deathBag": 11.79,
+        "deathHp3round": 0.32,
+        "deathRecentLow": 89.6,
+        "episodes": 213,
+        "resolved": 209,
+        "lowDies": 20.6,
+        "lowDies10": 17.2,
+        "lowEscapeSpawn": 78.9,
+        "lowAttemptRecall": 69.4,
+        "recallsPerGame": 236.25,
+        "spawnReturnPerGame": 28.58,
+        "recallMid": 16.5,
+        "recallHealthy": 76.8,
+        "recallLow": 6.7,
+        "teamWalkMovesPerGroup": 64.74,
+        "meanDeposit": 42.84,
+        "smallDepositShare": 12.2,
+        "gemsPerGemCapture": 35.85,
+        "groupCapsPer100Rounds": 4.34,
+        "gemGroupCapsPer100Rounds": 4.34,
+        "goldOnlyRewardShare": 0,
+        "rewardReceiptsPer100Rounds": 4.7,
+        "gemRewardReceiptsPer100Rounds": 4.7,
+        "moveTurns": 59.5,
+        "stunTurns": 0.3,
+        "deadTurns": 7.3,
+        "endBag": 21.75,
+        "submitStarts": 23.42,
+        "bankEvents": 22.5,
+        "nativeErrors": 0,
+        "potentialWinRounds": 14.67,
+        "checkpoint500": {
+          "bank": 629.92,
+          "shards": 66.17
+        }
+      }
+    },
+    "00reverse_spiral": {
+      "n": 12,
+      "wins": 6,
+      "us": {
+        "capGems": 779.25,
+        "deaths": 11.67,
+        "killerKnown": 86.4,
+        "deathOutnumber": 42.9,
+        "deathNoEnemy": 6.4,
+        "death1v1": 25,
+        "deathBag": 5.2,
+        "deathHp3round": 0.37,
+        "deathRecentLow": 87.9,
+        "episodes": 436,
+        "resolved": 436,
+        "lowDies": 28.2,
+        "lowDies10": 23.6,
+        "lowEscapeSpawn": 71.8,
+        "lowAttemptRecall": 70.6,
+        "recallsPerGame": 45.25,
+        "spawnReturnPerGame": 40.42,
+        "recallMid": 16.8,
+        "recallHealthy": 21.9,
+        "recallLow": 61.3,
+        "teamWalkMovesPerGroup": 94.21,
+        "meanDeposit": 24.99,
+        "smallDepositShare": 47.6,
+        "gemsPerGemCapture": 21.35,
+        "groupCapsPer100Rounds": 2.54,
+        "gemGroupCapsPer100Rounds": 2.54,
+        "goldOnlyRewardShare": 0,
+        "rewardReceiptsPer100Rounds": 2.55,
+        "gemRewardReceiptsPer100Rounds": 2.55,
+        "moveTurns": 68.1,
+        "stunTurns": 0.7,
+        "deadTurns": 12.1,
+        "endBag": 29.5,
+        "submitStarts": 31.42,
+        "bankEvents": 30.83,
+        "nativeErrors": 0,
+        "potentialWinRounds": 21.42,
+        "checkpoint500": {
+          "bank": 128.83,
+          "shards": 22.92
+        }
+      },
+      "opponent": {
+        "capGems": 805.33,
+        "deaths": 10.17,
+        "killerKnown": 76.2,
+        "deathOutnumber": 26.2,
+        "deathNoEnemy": 17.2,
+        "death1v1": 30.3,
+        "deathBag": 9.65,
+        "deathHp3round": 0.35,
+        "deathRecentLow": 91,
+        "episodes": 311,
+        "resolved": 310,
+        "lowDies": 35.8,
+        "lowDies10": 31.9,
+        "lowEscapeSpawn": 63.9,
+        "lowAttemptRecall": 66.8,
+        "recallsPerGame": 359.92,
+        "spawnReturnPerGame": 38.67,
+        "recallMid": 20.6,
+        "recallHealthy": 69.8,
+        "recallLow": 9.5,
+        "teamWalkMovesPerGroup": 68.15,
+        "meanDeposit": 39.59,
+        "smallDepositShare": 17.5,
+        "gemsPerGemCapture": 15.56,
+        "groupCapsPer100Rounds": 3.6,
+        "gemGroupCapsPer100Rounds": 3.6,
+        "goldOnlyRewardShare": 0,
+        "rewardReceiptsPer100Rounds": 3.63,
+        "gemRewardReceiptsPer100Rounds": 3.63,
+        "moveTurns": 67,
+        "stunTurns": 0.6,
+        "deadTurns": 10.4,
+        "endBag": 47.33,
+        "submitStarts": 18.92,
+        "bankEvents": 18.08,
+        "nativeErrors": 0,
+        "potentialWinRounds": 17,
+        "checkpoint500": {
+          "bank": 141.75,
+          "shards": 32
+        }
+      }
+    },
+    "00road_of_riches": {
+      "n": 12,
+      "wins": 1,
+      "us": {
+        "capGems": 319.58,
+        "deaths": 5.25,
+        "killerKnown": 77.8,
+        "deathOutnumber": 39.7,
+        "deathNoEnemy": 12.7,
+        "death1v1": 25.4,
+        "deathBag": 8.86,
+        "deathHp3round": 0.31,
+        "deathRecentLow": 93.7,
+        "episodes": 191,
+        "resolved": 187,
+        "lowDies": 31.6,
+        "lowDies10": 24.6,
+        "lowEscapeSpawn": 68.4,
+        "lowAttemptRecall": 71.7,
+        "recallsPerGame": 18.25,
+        "spawnReturnPerGame": 17.17,
+        "recallMid": 21,
+        "recallHealthy": 14.6,
+        "recallLow": 64.4,
+        "teamWalkMovesPerGroup": 124.37,
+        "meanDeposit": 30.24,
+        "smallDepositShare": 23,
+        "gemsPerGemCapture": 24.43,
+        "groupCapsPer100Rounds": 3.09,
+        "gemGroupCapsPer100Rounds": 1.46,
+        "goldOnlyRewardShare": 52.7,
+        "rewardReceiptsPer100Rounds": 3.14,
+        "gemRewardReceiptsPer100Rounds": 1.49,
+        "moveTurns": 82.4,
+        "stunTurns": 0.2,
+        "deadTurns": 6.5,
+        "endBag": 62.92,
+        "submitStarts": 7.67,
+        "bankEvents": 7.25,
+        "nativeErrors": 0,
+        "potentialWinRounds": 5.58,
+        "checkpoint500": {
+          "bank": 68,
+          "shards": 26.25
+        }
+      },
+      "opponent": {
+        "capGems": 1094.25,
+        "deaths": 1.75,
+        "killerKnown": 42.9,
+        "deathOutnumber": 14.3,
+        "deathNoEnemy": 38.1,
+        "death1v1": 28.6,
+        "deathBag": 17.19,
+        "deathHp3round": 0.33,
+        "deathRecentLow": 90.5,
+        "episodes": 156,
+        "resolved": 155,
+        "lowDies": 12.3,
+        "lowDies10": 9.7,
+        "lowEscapeSpawn": 87.1,
+        "lowAttemptRecall": 84.5,
+        "recallsPerGame": 334.58,
+        "spawnReturnPerGame": 32.67,
+        "recallMid": 10.7,
+        "recallHealthy": 85,
+        "recallLow": 4.3,
+        "teamWalkMovesPerGroup": 39.13,
+        "meanDeposit": 38.23,
+        "smallDepositShare": 16.9,
+        "gemsPerGemCapture": 18.16,
+        "groupCapsPer100Rounds": 8.3,
+        "gemGroupCapsPer100Rounds": 6.74,
+        "goldOnlyRewardShare": 18.8,
+        "rewardReceiptsPer100Rounds": 8.8,
+        "gemRewardReceiptsPer100Rounds": 7.24,
+        "moveTurns": 63,
+        "stunTurns": 0.1,
+        "deadTurns": 2.2,
+        "endBag": 81.83,
+        "submitStarts": 27.92,
+        "bankEvents": 26.67,
+        "nativeErrors": 0,
+        "potentialWinRounds": 69.92,
+        "checkpoint500": {
+          "bank": 413.5,
+          "shards": 48.92
+        }
+      }
+    },
+    "00rows": {
+      "n": 12,
+      "wins": 2,
+      "us": {
+        "capGems": 858.08,
+        "deaths": 0.75,
+        "killerKnown": 44.4,
+        "deathOutnumber": 0,
+        "deathNoEnemy": 22.2,
+        "death1v1": 55.6,
+        "deathBag": 27.44,
+        "deathHp3round": 0.56,
+        "deathRecentLow": 77.8,
+        "episodes": 52,
+        "resolved": 52,
+        "lowDies": 13.5,
+        "lowDies10": 13.5,
+        "lowEscapeSpawn": 86.5,
+        "lowAttemptRecall": 86.5,
+        "recallsPerGame": 51.08,
+        "spawnReturnPerGame": 50.5,
+        "recallMid": 8.3,
+        "recallHealthy": 83.8,
+        "recallLow": 7.8,
+        "teamWalkMovesPerGroup": 74.3,
+        "meanDeposit": 18.14,
+        "smallDepositShare": 70.1,
+        "gemsPerGemCapture": 18.62,
+        "groupCapsPer100Rounds": 3.72,
+        "gemGroupCapsPer100Rounds": 3.34,
+        "goldOnlyRewardShare": 10.2,
+        "rewardReceiptsPer100Rounds": 3.81,
+        "gemRewardReceiptsPer100Rounds": 3.43,
+        "moveTurns": 69.5,
+        "stunTurns": 0,
+        "deadTurns": 0.8,
+        "endBag": 9.92,
+        "submitStarts": 47,
+        "bankEvents": 46.75,
+        "nativeErrors": 0,
+        "potentialWinRounds": 2.75,
+        "checkpoint500": {
+          "bank": 124,
+          "shards": 64.75
+        }
+      },
+      "opponent": {
+        "capGems": 1036.5,
+        "deaths": 2.33,
+        "killerKnown": 39.3,
+        "deathOutnumber": 32.1,
+        "deathNoEnemy": 53.6,
+        "death1v1": 10.7,
+        "deathBag": 10.57,
+        "deathHp3round": 0.55,
+        "deathRecentLow": 92.9,
+        "episodes": 109,
+        "resolved": 108,
+        "lowDies": 24.1,
+        "lowDies10": 20.4,
+        "lowEscapeSpawn": 75.9,
+        "lowAttemptRecall": 75.9,
+        "recallsPerGame": 61.42,
+        "spawnReturnPerGame": 60.75,
+        "recallMid": 13.4,
+        "recallHealthy": 75.2,
+        "recallLow": 11.4,
+        "teamWalkMovesPerGroup": 65.9,
+        "meanDeposit": 30.96,
+        "smallDepositShare": 45.2,
+        "gemsPerGemCapture": 22.45,
+        "groupCapsPer100Rounds": 3.76,
+        "gemGroupCapsPer100Rounds": 3.34,
+        "goldOnlyRewardShare": 11.1,
+        "rewardReceiptsPer100Rounds": 4.37,
+        "gemRewardReceiptsPer100Rounds": 3.95,
+        "moveTurns": 62.1,
+        "stunTurns": 0.1,
+        "deadTurns": 2.5,
+        "endBag": 5.67,
+        "submitStarts": 33.25,
+        "bankEvents": 33.17,
+        "nativeErrors": 0,
+        "potentialWinRounds": 28.08,
+        "checkpoint500": {
+          "bank": 201.25,
+          "shards": 94.67
+        }
+      }
+    },
+    "00rushbait_v2": {
+      "n": 12,
+      "wins": 4,
+      "us": {
+        "capGems": 776.83,
+        "deaths": 4.83,
+        "killerKnown": 89.7,
+        "deathOutnumber": 32.8,
+        "deathNoEnemy": 1.7,
+        "death1v1": 37.9,
+        "deathBag": 11.91,
+        "deathHp3round": 0.32,
+        "deathRecentLow": 94.8,
+        "episodes": 277,
+        "resolved": 277,
+        "lowDies": 19.9,
+        "lowDies10": 18.8,
+        "lowEscapeSpawn": 80.1,
+        "lowAttemptRecall": 81.9,
+        "recallsPerGame": 45,
+        "spawnReturnPerGame": 42.67,
+        "recallMid": 25.4,
+        "recallHealthy": 31.3,
+        "recallLow": 43.3,
+        "teamWalkMovesPerGroup": 61.29,
+        "meanDeposit": 17.73,
+        "smallDepositShare": 47.9,
+        "gemsPerGemCapture": 14.75,
+        "groupCapsPer100Rounds": 4.03,
+        "gemGroupCapsPer100Rounds": 4.03,
+        "goldOnlyRewardShare": 0,
+        "rewardReceiptsPer100Rounds": 4.11,
+        "gemRewardReceiptsPer100Rounds": 4.11,
+        "moveTurns": 65.3,
+        "stunTurns": 0.6,
+        "deadTurns": 5.4,
+        "endBag": 32.33,
+        "submitStarts": 43.83,
+        "bankEvents": 43.17,
+        "nativeErrors": 0,
+        "potentialWinRounds": 18.33,
+        "checkpoint500": {
+          "bank": 157.75,
+          "shards": 50.08
+        }
+      },
+      "opponent": {
+        "capGems": 974.58,
+        "deaths": 4.92,
+        "killerKnown": 93.2,
+        "deathOutnumber": 18.6,
+        "deathNoEnemy": 3.4,
+        "death1v1": 50.8,
+        "deathBag": 16.68,
+        "deathHp3round": 0.24,
+        "deathRecentLow": 96.6,
+        "episodes": 230,
+        "resolved": 229,
+        "lowDies": 24.9,
+        "lowDies10": 19.7,
+        "lowEscapeSpawn": 75.1,
+        "lowAttemptRecall": 74.2,
+        "recallsPerGame": 354.75,
+        "spawnReturnPerGame": 50.17,
+        "recallMid": 25.5,
+        "recallHealthy": 68.3,
+        "recallLow": 6.2,
+        "teamWalkMovesPerGroup": 53.97,
+        "meanDeposit": 36.62,
+        "smallDepositShare": 12.3,
+        "gemsPerGemCapture": 17.15,
+        "groupCapsPer100Rounds": 4.35,
+        "gemGroupCapsPer100Rounds": 4.35,
+        "goldOnlyRewardShare": 0,
+        "rewardReceiptsPer100Rounds": 4.6,
+        "gemRewardReceiptsPer100Rounds": 4.6,
+        "moveTurns": 60.7,
+        "stunTurns": 0.5,
+        "deadTurns": 5.5,
+        "endBag": 34.33,
+        "submitStarts": 26.08,
+        "bankEvents": 25,
+        "nativeErrors": 0,
+        "potentialWinRounds": 40.92,
+        "checkpoint500": {
+          "bank": 169.08,
+          "shards": 59.58
+        }
+      }
+    },
+    "00split": {
+      "n": 12,
+      "wins": 7,
+      "us": {
+        "capGems": 930.08,
+        "deaths": 3,
+        "killerKnown": 88.9,
+        "deathOutnumber": 55.6,
+        "deathNoEnemy": 11.1,
+        "death1v1": 8.3,
+        "deathBag": 6.72,
+        "deathHp3round": 0.28,
+        "deathRecentLow": 100,
+        "episodes": 209,
+        "resolved": 206,
+        "lowDies": 17.5,
+        "lowDies10": 16,
+        "lowEscapeSpawn": 82.5,
+        "lowAttemptRecall": 84.5,
+        "recallsPerGame": 42.42,
+        "spawnReturnPerGame": 40.75,
+        "recallMid": 21.4,
+        "recallHealthy": 42.4,
+        "recallLow": 36.1,
+        "teamWalkMovesPerGroup": 59.38,
+        "meanDeposit": 23.09,
+        "smallDepositShare": 49.9,
+        "gemsPerGemCapture": 23.16,
+        "groupCapsPer100Rounds": 4.8,
+        "gemGroupCapsPer100Rounds": 4.55,
+        "goldOnlyRewardShare": 5.1,
+        "rewardReceiptsPer100Rounds": 4.83,
+        "gemRewardReceiptsPer100Rounds": 4.58,
+        "moveTurns": 59.2,
+        "stunTurns": 0.3,
+        "deadTurns": 3.8,
+        "endBag": 38.17,
+        "submitStarts": 39.33,
+        "bankEvents": 38.92,
+        "nativeErrors": 0,
+        "potentialWinRounds": 12.42,
+        "checkpoint500": {
+          "bank": 340.42,
+          "shards": 82.75
+        }
+      },
+      "opponent": {
+        "capGems": 976.58,
+        "deaths": 3.58,
+        "killerKnown": 83.7,
+        "deathOutnumber": 37.2,
+        "deathNoEnemy": 25.6,
+        "death1v1": 14,
+        "deathBag": 8.02,
+        "deathHp3round": 0.37,
+        "deathRecentLow": 93,
+        "episodes": 212,
+        "resolved": 211,
+        "lowDies": 19,
+        "lowDies10": 17.1,
+        "lowEscapeSpawn": 80.6,
+        "lowAttemptRecall": 82.9,
+        "recallsPerGame": 368.42,
+        "spawnReturnPerGame": 43.5,
+        "recallMid": 15.7,
+        "recallHealthy": 76.8,
+        "recallLow": 7.6,
+        "teamWalkMovesPerGroup": 50.97,
+        "meanDeposit": 31.51,
+        "smallDepositShare": 27.2,
+        "gemsPerGemCapture": 23.02,
+        "groupCapsPer100Rounds": 5.53,
+        "gemGroupCapsPer100Rounds": 4.81,
+        "goldOnlyRewardShare": 13.1,
+        "rewardReceiptsPer100Rounds": 6.16,
+        "gemRewardReceiptsPer100Rounds": 5.43,
+        "moveTurns": 58.4,
+        "stunTurns": 0.2,
+        "deadTurns": 4.7,
+        "endBag": 41,
+        "submitStarts": 30.08,
+        "bankEvents": 29.42,
+        "nativeErrors": 0,
+        "potentialWinRounds": 12.92,
+        "checkpoint500": {
+          "bank": 341.92,
+          "shards": 84.5
+        }
+      }
+    },
+    "00stampede": {
+      "n": 12,
+      "wins": 9,
+      "us": {
+        "capGems": 733.33,
+        "deaths": 10.42,
+        "killerKnown": 100,
+        "deathOutnumber": 66.4,
+        "deathNoEnemy": 0,
+        "death1v1": 13.6,
+        "deathBag": 0,
+        "deathHp3round": 0.31,
+        "deathRecentLow": 95.2,
+        "episodes": 472,
+        "resolved": 469,
+        "lowDies": 25.4,
+        "lowDies10": 21.5,
+        "lowEscapeSpawn": 74.6,
+        "lowAttemptRecall": 78.3,
+        "recallsPerGame": 74.42,
+        "spawnReturnPerGame": 69.42,
+        "recallMid": 8.1,
+        "recallHealthy": 47.1,
+        "recallLow": 44.8,
+        "teamWalkMovesPerGroup": 63.08,
+        "meanDeposit": 146.63,
+        "smallDepositShare": 0,
+        "gemsPerGemCapture": 160,
+        "groupCapsPer100Rounds": 5.54,
+        "gemGroupCapsPer100Rounds": 0.24,
+        "goldOnlyRewardShare": 95.6,
+        "rewardReceiptsPer100Rounds": 5.55,
+        "gemRewardReceiptsPer100Rounds": 0.24,
+        "moveTurns": 74.6,
+        "stunTurns": 0.7,
+        "deadTurns": 6.6,
+        "endBag": 0,
+        "submitStarts": 5.33,
+        "bankEvents": 5.33,
+        "nativeErrors": 0,
+        "potentialWinRounds": 21.67,
+        "checkpoint500": {
+          "bank": 0,
+          "shards": 67.67
+        }
+      },
+      "opponent": {
+        "capGems": 333.33,
+        "deaths": 15.75,
+        "killerKnown": 93.7,
+        "deathOutnumber": 36.5,
+        "deathNoEnemy": 7.4,
+        "death1v1": 19.6,
+        "deathBag": 3.09,
+        "deathHp3round": 0.46,
+        "deathRecentLow": 87.3,
+        "episodes": 397,
+        "resolved": 397,
+        "lowDies": 41.6,
+        "lowDies10": 38,
+        "lowEscapeSpawn": 57.9,
+        "lowAttemptRecall": 62,
+        "recallsPerGame": 75.67,
+        "spawnReturnPerGame": 66,
+        "recallMid": 33.1,
+        "recallHealthy": 36.5,
+        "recallLow": 30.4,
+        "teamWalkMovesPerGroup": 76.57,
+        "meanDeposit": 96.69,
+        "smallDepositShare": 0,
+        "gemsPerGemCapture": 160,
+        "groupCapsPer100Rounds": 4.61,
+        "gemGroupCapsPer100Rounds": 0.11,
+        "goldOnlyRewardShare": 97.6,
+        "rewardReceiptsPer100Rounds": 4.79,
+        "gemRewardReceiptsPer100Rounds": 0.24,
+        "moveTurns": 74,
+        "stunTurns": 0.6,
+        "deadTurns": 9.3,
+        "endBag": 2.67,
+        "submitStarts": 2.92,
+        "bankEvents": 2.92,
+        "nativeErrors": 0,
+        "potentialWinRounds": 0,
+        "checkpoint500": {
+          "bank": 13.33,
+          "shards": 55.42
+        }
+      }
+    },
+    "00swirl": {
+      "n": 12,
+      "wins": 4,
+      "us": {
+        "capGems": 553.25,
+        "deaths": 26.08,
+        "killerKnown": 97.1,
+        "deathOutnumber": 54.3,
+        "deathNoEnemy": 0.3,
+        "death1v1": 9.3,
+        "deathBag": 1.19,
+        "deathHp3round": 0.54,
+        "deathRecentLow": 76,
+        "episodes": 602,
+        "resolved": 600,
+        "lowDies": 39.7,
+        "lowDies10": 37.3,
+        "lowEscapeSpawn": 60.3,
+        "lowAttemptRecall": 50.2,
+        "recallsPerGame": 51.92,
+        "spawnReturnPerGame": 39.25,
+        "recallMid": 17,
+        "recallHealthy": 27.9,
+        "recallLow": 55.1,
+        "teamWalkMovesPerGroup": 61.43,
+        "meanDeposit": 29.54,
+        "smallDepositShare": 47.8,
+        "gemsPerGemCapture": 31.17,
+        "groupCapsPer100Rounds": 2.33,
+        "gemGroupCapsPer100Rounds": 1.53,
+        "goldOnlyRewardShare": 34.3,
+        "rewardReceiptsPer100Rounds": 2.38,
+        "gemRewardReceiptsPer100Rounds": 1.56,
+        "moveTurns": 53.5,
+        "stunTurns": 1.8,
+        "deadTurns": 33.2,
+        "endBag": 20.25,
+        "submitStarts": 19,
+        "bankEvents": 17.42,
+        "nativeErrors": 0,
+        "potentialWinRounds": 4.42,
+        "checkpoint500": {
+          "bank": 107,
+          "shards": 64.75
+        }
+      },
+      "opponent": {
+        "capGems": 721.08,
+        "deaths": 11.58,
+        "killerKnown": 85.6,
+        "deathOutnumber": 37.4,
+        "deathNoEnemy": 4.3,
+        "death1v1": 5.8,
+        "deathBag": 1.14,
+        "deathHp3round": 0.43,
+        "deathRecentLow": 99.3,
+        "episodes": 400,
+        "resolved": 398,
+        "lowDies": 34.7,
+        "lowDies10": 32.4,
+        "lowEscapeSpawn": 65.3,
+        "lowAttemptRecall": 32.9,
+        "recallsPerGame": 47.25,
+        "spawnReturnPerGame": 41.33,
+        "recallMid": 23.1,
+        "recallHealthy": 49.4,
+        "recallLow": 27.5,
+        "teamWalkMovesPerGroup": 46.48,
+        "meanDeposit": 23.37,
+        "smallDepositShare": 52.3,
+        "gemsPerGemCapture": 23.64,
+        "groupCapsPer100Rounds": 4.09,
+        "gemGroupCapsPer100Rounds": 2.63,
+        "goldOnlyRewardShare": 35.7,
+        "rewardReceiptsPer100Rounds": 4.34,
+        "gemRewardReceiptsPer100Rounds": 2.87,
+        "moveTurns": 55.7,
+        "stunTurns": 1.5,
+        "deadTurns": 14.8,
+        "endBag": 11.17,
+        "submitStarts": 31.5,
+        "bankEvents": 31.08,
+        "nativeErrors": 0,
+        "potentialWinRounds": 7.17,
+        "checkpoint500": {
+          "bank": 141.92,
+          "shards": 98.17
+        }
+      }
+    },
+    "01big_world": {
+      "n": 12,
+      "wins": 2,
+      "us": {
+        "capGems": 709.75,
+        "deaths": 0.58,
+        "killerKnown": 100,
+        "deathOutnumber": 14.3,
+        "deathNoEnemy": 0,
+        "death1v1": 57.1,
+        "deathBag": 2.14,
+        "deathHp3round": 0.37,
+        "deathRecentLow": 100,
+        "episodes": 179,
+        "resolved": 178,
+        "lowDies": 3.9,
+        "lowDies10": 3.9,
+        "lowEscapeSpawn": 96.1,
+        "lowAttemptRecall": 96.6,
+        "recallsPerGame": 39.75,
+        "spawnReturnPerGame": 39.42,
+        "recallMid": 25.4,
+        "recallHealthy": 38.4,
+        "recallLow": 36.3,
+        "teamWalkMovesPerGroup": 116.72,
+        "meanDeposit": 22.28,
+        "smallDepositShare": 57.8,
+        "gemsPerGemCapture": 22.41,
+        "groupCapsPer100Rounds": 3.16,
+        "gemGroupCapsPer100Rounds": 2.54,
+        "goldOnlyRewardShare": 19.7,
+        "rewardReceiptsPer100Rounds": 3.16,
+        "gemRewardReceiptsPer100Rounds": 2.54,
+        "moveTurns": 74.2,
+        "stunTurns": 0,
+        "deadTurns": 0.6,
+        "endBag": 22.33,
+        "submitStarts": 30.92,
+        "bankEvents": 30.83,
+        "nativeErrors": 0,
+        "potentialWinRounds": 6.17,
+        "checkpoint500": {
+          "bank": 107.08,
+          "shards": 42.75
+        }
+      },
+      "opponent": {
+        "capGems": 1055.5,
+        "deaths": 0.83,
+        "killerKnown": 40,
+        "deathOutnumber": 40,
+        "deathNoEnemy": 60,
+        "death1v1": 0,
+        "deathBag": 2.3,
+        "deathHp3round": 0.38,
+        "deathRecentLow": 100,
+        "episodes": 130,
+        "resolved": 129,
+        "lowDies": 7.8,
+        "lowDies10": 7.8,
+        "lowEscapeSpawn": 91.5,
+        "lowAttemptRecall": 86,
+        "recallsPerGame": 53.67,
+        "spawnReturnPerGame": 53.25,
+        "recallMid": 26.9,
+        "recallHealthy": 55.7,
+        "recallLow": 17.4,
+        "teamWalkMovesPerGroup": 87.94,
+        "meanDeposit": 35.44,
+        "smallDepositShare": 29.9,
+        "gemsPerGemCapture": 23.41,
+        "groupCapsPer100Rounds": 3.92,
+        "gemGroupCapsPer100Rounds": 3.62,
+        "goldOnlyRewardShare": 7.8,
+        "rewardReceiptsPer100Rounds": 4.32,
+        "gemRewardReceiptsPer100Rounds": 4.01,
+        "moveTurns": 67.3,
+        "stunTurns": 0,
+        "deadTurns": 0.8,
+        "endBag": 65.42,
+        "submitStarts": 28.08,
+        "bankEvents": 27.92,
+        "nativeErrors": 0,
+        "potentialWinRounds": 26.67,
+        "checkpoint500": {
+          "bank": 210.17,
+          "shards": 68.58
+        }
+      }
+    },
+    "01boss_battle": {
+      "n": 12,
+      "wins": 2,
+      "us": {
+        "capGems": 803.67,
+        "deaths": 10.83,
+        "killerKnown": 91.5,
+        "deathOutnumber": 40,
+        "deathNoEnemy": 6.9,
+        "death1v1": 11.5,
+        "deathBag": 99.59,
+        "deathHp3round": 0.55,
+        "deathRecentLow": 76.9,
+        "episodes": 753,
+        "resolved": 748,
+        "lowDies": 13.4,
+        "lowDies10": 12.7,
+        "lowEscapeSpawn": 86.6,
+        "lowAttemptRecall": 85.7,
+        "recallsPerGame": 79.08,
+        "spawnReturnPerGame": 72.75,
+        "recallMid": 12.3,
+        "recallHealthy": 13.4,
+        "recallLow": 74.3,
+        "teamWalkMovesPerGroup": 91.26,
+        "meanDeposit": 96.97,
+        "smallDepositShare": 10.3,
+        "gemsPerGemCapture": 30.71,
+        "groupCapsPer100Rounds": 2.55,
+        "gemGroupCapsPer100Rounds": 1.88,
+        "goldOnlyRewardShare": 26.1,
+        "rewardReceiptsPer100Rounds": 2.64,
+        "gemRewardReceiptsPer100Rounds": 1.98,
+        "moveTurns": 51,
+        "stunTurns": 0.5,
+        "deadTurns": 8.9,
+        "endBag": 208.17,
+        "submitStarts": 5.67,
+        "bankEvents": 2.42,
+        "nativeErrors": 0,
+        "potentialWinRounds": 59.75,
+        "checkpoint500": {
+          "bank": 0,
+          "shards": 72.92
+        }
+      },
+      "opponent": {
+        "capGems": 2251,
+        "deaths": 6,
+        "killerKnown": 33.3,
+        "deathOutnumber": 15.3,
+        "deathNoEnemy": 56.9,
+        "death1v1": 2.8,
+        "deathBag": 185.1,
+        "deathHp3round": 0.42,
+        "deathRecentLow": 91.7,
+        "episodes": 425,
+        "resolved": 422,
+        "lowDies": 15.6,
+        "lowDies10": 12.8,
+        "lowEscapeSpawn": 83.4,
+        "lowAttemptRecall": 79.1,
+        "recallsPerGame": 92.42,
+        "spawnReturnPerGame": 87.92,
+        "recallMid": 32.6,
+        "recallHealthy": 36.5,
+        "recallLow": 30.8,
+        "teamWalkMovesPerGroup": 55.55,
+        "meanDeposit": 179.78,
+        "smallDepositShare": 7.8,
+        "gemsPerGemCapture": 38.31,
+        "groupCapsPer100Rounds": 4.54,
+        "gemGroupCapsPer100Rounds": 4.22,
+        "goldOnlyRewardShare": 7,
+        "rewardReceiptsPer100Rounds": 5.09,
+        "gemRewardReceiptsPer100Rounds": 4.77,
+        "moveTurns": 52.9,
+        "stunTurns": 0.3,
+        "deadTurns": 5,
+        "endBag": 1251.25,
+        "submitStarts": 93.58,
+        "bankEvents": 5.33,
+        "nativeErrors": 0,
+        "potentialWinRounds": 441,
+        "checkpoint500": {
+          "bank": 0,
+          "shards": 160.92
+        }
+      }
+    },
+    "01broken_curve": {
+      "n": 12,
+      "wins": 1,
+      "us": {
+        "capGems": 799.33,
+        "deaths": 2,
+        "killerKnown": 83.3,
+        "deathOutnumber": 37.5,
+        "deathNoEnemy": 0,
+        "death1v1": 33.3,
+        "deathBag": 1.42,
+        "deathHp3round": 0.4,
+        "deathRecentLow": 100,
+        "episodes": 230,
+        "resolved": 230,
+        "lowDies": 10.4,
+        "lowDies10": 10.4,
+        "lowEscapeSpawn": 89.6,
+        "lowAttemptRecall": 92.6,
+        "recallsPerGame": 45,
+        "spawnReturnPerGame": 43.58,
+        "recallMid": 15.6,
+        "recallHealthy": 43.3,
+        "recallLow": 41.1,
+        "teamWalkMovesPerGroup": 46.54,
+        "meanDeposit": 27.89,
+        "smallDepositShare": 33.2,
+        "gemsPerGemCapture": 27.33,
+        "groupCapsPer100Rounds": 3.4,
+        "gemGroupCapsPer100Rounds": 2.93,
+        "goldOnlyRewardShare": 13.8,
+        "rewardReceiptsPer100Rounds": 3.41,
+        "gemRewardReceiptsPer100Rounds": 2.94,
+        "moveTurns": 54.8,
+        "stunTurns": 0.2,
+        "deadTurns": 4,
+        "endBag": 15,
+        "submitStarts": 28.5,
+        "bankEvents": 28.33,
+        "nativeErrors": 0,
+        "potentialWinRounds": 2,
+        "checkpoint500": {
+          "bank": 265.5,
+          "shards": 74.58
+        }
+      },
+      "opponent": {
+        "capGems": 1038.08,
+        "deaths": 1.58,
+        "killerKnown": 68.4,
+        "deathOutnumber": 21.1,
+        "deathNoEnemy": 26.3,
+        "death1v1": 31.6,
+        "deathBag": 5.58,
+        "deathHp3round": 0.26,
+        "deathRecentLow": 100,
+        "episodes": 115,
+        "resolved": 113,
+        "lowDies": 16.8,
+        "lowDies10": 13.3,
+        "lowEscapeSpawn": 83.2,
+        "lowAttemptRecall": 81.4,
+        "recallsPerGame": 39,
+        "spawnReturnPerGame": 37,
+        "recallMid": 28.4,
+        "recallHealthy": 50,
+        "recallLow": 21.6,
+        "teamWalkMovesPerGroup": 23.26,
+        "meanDeposit": 25.67,
+        "smallDepositShare": 60.3,
+        "gemsPerGemCapture": 20.83,
+        "groupCapsPer100Rounds": 6.51,
+        "gemGroupCapsPer100Rounds": 4.99,
+        "goldOnlyRewardShare": 23.3,
+        "rewardReceiptsPer100Rounds": 6.66,
+        "gemRewardReceiptsPer100Rounds": 5.12,
+        "moveTurns": 52,
+        "stunTurns": 0.1,
+        "deadTurns": 3.2,
+        "endBag": 17.83,
+        "submitStarts": 39.75,
+        "bankEvents": 39.5,
+        "nativeErrors": 0,
+        "potentialWinRounds": 20.17,
+        "checkpoint500": {
+          "bank": 340.25,
+          "shards": 90.5
+        }
+      }
+    },
+    "01concentrated_wealth": {
+      "n": 12,
+      "wins": 7,
+      "us": {
+        "capGems": 697.08,
+        "deaths": 10.17,
+        "killerKnown": 97.5,
+        "deathOutnumber": 46.7,
+        "deathNoEnemy": 0,
+        "death1v1": 19.7,
+        "deathBag": 6.1,
+        "deathHp3round": 0.39,
+        "deathRecentLow": 95.9,
+        "episodes": 323,
+        "resolved": 323,
+        "lowDies": 36.2,
+        "lowDies10": 31.3,
+        "lowEscapeSpawn": 63.8,
+        "lowAttemptRecall": 68.7,
+        "recallsPerGame": 34.67,
+        "spawnReturnPerGame": 31.25,
+        "recallMid": 10.6,
+        "recallHealthy": 30,
+        "recallLow": 59.4,
+        "teamWalkMovesPerGroup": 155.76,
+        "meanDeposit": 24.37,
+        "smallDepositShare": 64,
+        "gemsPerGemCapture": 25.66,
+        "groupCapsPer100Rounds": 2.2,
+        "gemGroupCapsPer100Rounds": 2.2,
+        "goldOnlyRewardShare": 0,
+        "rewardReceiptsPer100Rounds": 2.34,
+        "gemRewardReceiptsPer100Rounds": 2.34,
+        "moveTurns": 75.8,
+        "stunTurns": 0.4,
+        "deadTurns": 9.7,
+        "endBag": 27,
+        "submitStarts": 27.58,
+        "bankEvents": 26.83,
+        "nativeErrors": 0,
+        "potentialWinRounds": 29.42,
+        "checkpoint500": {
+          "bank": 166.58,
+          "shards": 47.58
+        }
+      },
+      "opponent": {
+        "capGems": 633,
+        "deaths": 7,
+        "killerKnown": 97.6,
+        "deathOutnumber": 42.9,
+        "deathNoEnemy": 6,
+        "death1v1": 17.9,
+        "deathBag": 6.6,
+        "deathHp3round": 0.4,
+        "deathRecentLow": 89.3,
+        "episodes": 241,
+        "resolved": 240,
+        "lowDies": 31.3,
+        "lowDies10": 28.8,
+        "lowEscapeSpawn": 68.8,
+        "lowAttemptRecall": 70.4,
+        "recallsPerGame": 42.75,
+        "spawnReturnPerGame": 37.83,
+        "recallMid": 35.3,
+        "recallHealthy": 27.9,
+        "recallLow": 36.8,
+        "teamWalkMovesPerGroup": 114.63,
+        "meanDeposit": 25.94,
+        "smallDepositShare": 52.2,
+        "gemsPerGemCapture": 16.73,
+        "groupCapsPer100Rounds": 3.06,
+        "gemGroupCapsPer100Rounds": 3.06,
+        "goldOnlyRewardShare": 0,
+        "rewardReceiptsPer100Rounds": 3.26,
+        "gemRewardReceiptsPer100Rounds": 3.26,
+        "moveTurns": 72.5,
+        "stunTurns": 0.4,
+        "deadTurns": 6.3,
+        "endBag": 24,
+        "submitStarts": 24.58,
+        "bankEvents": 24.08,
+        "nativeErrors": 0,
+        "potentialWinRounds": 7.83,
+        "checkpoint500": {
+          "bank": 154.67,
+          "shards": 57.83
+        }
+      }
+    },
+    "01corridors": {
+      "n": 12,
+      "wins": 7,
+      "us": {
+        "capGems": 792.67,
+        "deaths": 6.5,
+        "killerKnown": 89.7,
+        "deathOutnumber": 44.9,
+        "deathNoEnemy": 3.8,
+        "death1v1": 24.4,
+        "deathBag": 3.31,
+        "deathHp3round": 0.3,
+        "deathRecentLow": 97.4,
+        "episodes": 373,
+        "resolved": 372,
+        "lowDies": 20.4,
+        "lowDies10": 19.4,
+        "lowEscapeSpawn": 79.6,
+        "lowAttemptRecall": 86.6,
+        "recallsPerGame": 73,
+        "spawnReturnPerGame": 47.33,
+        "recallMid": 22.3,
+        "recallHealthy": 32.8,
+        "recallLow": 45,
+        "teamWalkMovesPerGroup": 160.02,
+        "meanDeposit": 26.3,
+        "smallDepositShare": 60.5,
+        "gemsPerGemCapture": 26.06,
+        "groupCapsPer100Rounds": 2.15,
+        "gemGroupCapsPer100Rounds": 2.15,
+        "goldOnlyRewardShare": 0,
+        "rewardReceiptsPer100Rounds": 2.17,
+        "gemRewardReceiptsPer100Rounds": 2.17,
+        "moveTurns": 72.6,
+        "stunTurns": 0.4,
+        "deadTurns": 5.3,
+        "endBag": 27.5,
+        "submitStarts": 30.83,
+        "bankEvents": 29.75,
+        "nativeErrors": 0,
+        "potentialWinRounds": 16.75,
+        "checkpoint500": {
+          "bank": 67.75,
+          "shards": 39.17
+        }
+      },
+      "opponent": {
+        "capGems": 875.67,
+        "deaths": 8.42,
+        "killerKnown": 49.5,
+        "deathOutnumber": 12.9,
+        "deathNoEnemy": 44.6,
+        "death1v1": 13.9,
+        "deathBag": 5.8,
+        "deathHp3round": 0.44,
+        "deathRecentLow": 95,
+        "episodes": 430,
+        "resolved": 427,
+        "lowDies": 22.5,
+        "lowDies10": 21.1,
+        "lowEscapeSpawn": 75.9,
+        "lowAttemptRecall": 80.1,
+        "recallsPerGame": 79.25,
+        "spawnReturnPerGame": 68.83,
+        "recallMid": 29.8,
+        "recallHealthy": 30.6,
+        "recallLow": 39.6,
+        "teamWalkMovesPerGroup": 205.97,
+        "meanDeposit": 49.69,
+        "smallDepositShare": 16.2,
+        "gemsPerGemCapture": 39.65,
+        "groupCapsPer100Rounds": 1.56,
+        "gemGroupCapsPer100Rounds": 1.56,
+        "goldOnlyRewardShare": 0,
+        "rewardReceiptsPer100Rounds": 1.95,
+        "gemRewardReceiptsPer100Rounds": 1.95,
+        "moveTurns": 67.8,
+        "stunTurns": 0.3,
+        "deadTurns": 6.6,
+        "endBag": 28.08,
+        "submitStarts": 17.58,
+        "bankEvents": 16.42,
+        "nativeErrors": 0,
+        "potentialWinRounds": 25.83,
+        "checkpoint500": {
+          "bank": 169.92,
+          "shards": 52.67
+        }
+      }
+    },
+    "01elk_arena": {
+      "n": 12,
+      "wins": 5,
+      "us": {
+        "capGems": 534,
+        "deaths": 31.58,
+        "killerKnown": 95.3,
+        "deathOutnumber": 59.1,
+        "deathNoEnemy": 0.3,
+        "death1v1": 3.2,
+        "deathBag": 1.65,
+        "deathHp3round": 0.61,
+        "deathRecentLow": 87.6,
+        "episodes": 1073,
+        "resolved": 1067,
+        "lowDies": 31.1,
+        "lowDies10": 30.6,
+        "lowEscapeSpawn": 68.9,
+        "lowAttemptRecall": 48.2,
+        "recallsPerGame": 73.75,
+        "spawnReturnPerGame": 63,
+        "recallMid": 6.4,
+        "recallHealthy": 30.1,
+        "recallLow": 63.5,
+        "teamWalkMovesPerGroup": 30.3,
+        "meanDeposit": 63.74,
+        "smallDepositShare": 0,
+        "gemsPerGemCapture": 72,
+        "groupCapsPer100Rounds": 7.45,
+        "gemGroupCapsPer100Rounds": 0.47,
+        "goldOnlyRewardShare": 93.7,
+        "rewardReceiptsPer100Rounds": 7.52,
+        "gemRewardReceiptsPer100Rounds": 0.53,
+        "moveTurns": 58.7,
+        "stunTurns": 1.5,
+        "deadTurns": 23.2,
+        "endBag": 0,
+        "submitStarts": 8.92,
+        "bankEvents": 7.75,
+        "nativeErrors": 0,
+        "potentialWinRounds": 5.92,
+        "checkpoint500": {
+          "bank": 81,
+          "shards": 85.92
+        }
+      },
+      "opponent": {
+        "capGems": 594,
+        "deaths": 12.25,
+        "killerKnown": 89.8,
+        "deathOutnumber": 26.5,
+        "deathNoEnemy": 4.1,
+        "death1v1": 5.4,
+        "deathBag": 0.98,
+        "deathHp3round": 0.41,
+        "deathRecentLow": 95.9,
+        "episodes": 594,
+        "resolved": 592,
+        "lowDies": 23.8,
+        "lowDies10": 22.1,
+        "lowEscapeSpawn": 75.8,
+        "lowAttemptRecall": 51.2,
+        "recallsPerGame": 77.75,
+        "spawnReturnPerGame": 68.5,
+        "recallMid": 29.3,
+        "recallHealthy": 34.7,
+        "recallLow": 36,
+        "teamWalkMovesPerGroup": 31.34,
+        "meanDeposit": 46.63,
+        "smallDepositShare": 13.6,
+        "gemsPerGemCapture": 72,
+        "groupCapsPer100Rounds": 8.71,
+        "gemGroupCapsPer100Rounds": 0.52,
+        "goldOnlyRewardShare": 94,
+        "rewardReceiptsPer100Rounds": 9.15,
+        "gemRewardReceiptsPer100Rounds": 0.83,
+        "moveTurns": 60,
+        "stunTurns": 1.2,
+        "deadTurns": 9.2,
+        "endBag": 4.5,
+        "submitStarts": 14.17,
+        "bankEvents": 13.5,
+        "nativeErrors": 0,
+        "potentialWinRounds": 6.92,
+        "checkpoint500": {
+          "bank": 141,
+          "shards": 95
+        }
+      }
+    },
+    "01fracture": {
+      "n": 12,
+      "wins": 5,
+      "us": {
+        "capGems": 891.42,
+        "deaths": 3.58,
+        "killerKnown": 83.7,
+        "deathOutnumber": 30.2,
+        "deathNoEnemy": 9.3,
+        "death1v1": 32.6,
+        "deathBag": 10.37,
+        "deathHp3round": 0.27,
+        "deathRecentLow": 100,
+        "episodes": 240,
+        "resolved": 239,
+        "lowDies": 18,
+        "lowDies10": 16.3,
+        "lowEscapeSpawn": 82,
+        "lowAttemptRecall": 87,
+        "recallsPerGame": 46.42,
+        "spawnReturnPerGame": 42.25,
+        "recallMid": 27.3,
+        "recallHealthy": 30.9,
+        "recallLow": 41.8,
+        "teamWalkMovesPerGroup": 89.32,
+        "meanDeposit": 22.65,
+        "smallDepositShare": 44.7,
+        "gemsPerGemCapture": 22.76,
+        "groupCapsPer100Rounds": 3.87,
+        "gemGroupCapsPer100Rounds": 3.04,
+        "goldOnlyRewardShare": 21.5,
+        "rewardReceiptsPer100Rounds": 3.88,
+        "gemRewardReceiptsPer100Rounds": 3.04,
+        "moveTurns": 71.4,
+        "stunTurns": 0.1,
+        "deadTurns": 3.1,
+        "endBag": 46.17,
+        "submitStarts": 37.5,
+        "bankEvents": 35.83,
+        "nativeErrors": 0,
+        "potentialWinRounds": 20.67,
+        "checkpoint500": {
+          "bank": 127.08,
+          "shards": 50.5
+        }
+      },
+      "opponent": {
+        "capGems": 980.5,
+        "deaths": 2.08,
+        "killerKnown": 36,
+        "deathOutnumber": 4,
+        "deathNoEnemy": 60,
+        "death1v1": 4,
+        "deathBag": 6.68,
+        "deathHp3round": 0.29,
+        "deathRecentLow": 92,
+        "episodes": 235,
+        "resolved": 234,
+        "lowDies": 9.8,
+        "lowDies10": 9.4,
+        "lowEscapeSpawn": 90.2,
+        "lowAttemptRecall": 90.6,
+        "recallsPerGame": 58.92,
+        "spawnReturnPerGame": 55.92,
+        "recallMid": 35.1,
+        "recallHealthy": 32.7,
+        "recallLow": 32.2,
+        "teamWalkMovesPerGroup": 69.67,
+        "meanDeposit": 34.02,
+        "smallDepositShare": 33.5,
+        "gemsPerGemCapture": 18.3,
+        "groupCapsPer100Rounds": 4.89,
+        "gemGroupCapsPer100Rounds": 4.16,
+        "goldOnlyRewardShare": 14.9,
+        "rewardReceiptsPer100Rounds": 5.02,
+        "gemRewardReceiptsPer100Rounds": 4.28,
+        "moveTurns": 69.4,
+        "stunTurns": 0.1,
+        "deadTurns": 1.8,
+        "endBag": 53.25,
+        "submitStarts": 28,
+        "bankEvents": 27.83,
+        "nativeErrors": 0,
+        "potentialWinRounds": 25.83,
+        "checkpoint500": {
+          "bank": 138.75,
+          "shards": 65.67
+        }
+      }
+    },
+    "01gold_rush": {
+      "n": 12,
+      "wins": 11,
+      "us": {
+        "capGems": 785,
+        "deaths": 7.67,
+        "killerKnown": 77.2,
+        "deathOutnumber": 43.5,
+        "deathNoEnemy": 8.7,
+        "death1v1": 20.7,
+        "deathBag": 0.48,
+        "deathHp3round": 0.56,
+        "deathRecentLow": 78.3,
+        "episodes": 269,
+        "resolved": 269,
+        "lowDies": 26.8,
+        "lowDies10": 23,
+        "lowEscapeSpawn": 73.2,
+        "lowAttemptRecall": 77.7,
+        "recallsPerGame": 114.17,
+        "spawnReturnPerGame": 73,
+        "recallMid": 23.7,
+        "recallHealthy": 58.8,
+        "recallLow": 17.4,
+        "teamWalkMovesPerGroup": 21.08,
+        "meanDeposit": 12.33,
+        "smallDepositShare": 94.1,
+        "gemsPerGemCapture": 11.46,
+        "groupCapsPer100Rounds": 7.63,
+        "gemGroupCapsPer100Rounds": 3.5,
+        "goldOnlyRewardShare": 54.2,
+        "rewardReceiptsPer100Rounds": 7.77,
+        "gemRewardReceiptsPer100Rounds": 3.51,
+        "moveTurns": 57.8,
+        "stunTurns": 0.4,
+        "deadTurns": 7.7,
+        "endBag": 5.5,
+        "submitStarts": 66.67,
+        "bankEvents": 66.33,
+        "nativeErrors": 0,
+        "potentialWinRounds": 7.83,
+        "checkpoint500": {
+          "bank": 78.83,
+          "shards": 80
+        }
+      },
+      "opponent": {
+        "capGems": 590.42,
+        "deaths": 20.25,
+        "killerKnown": 77.4,
+        "deathOutnumber": 17.3,
+        "deathNoEnemy": 9.5,
+        "death1v1": 23,
+        "deathBag": 2.4,
+        "deathHp3round": 0.55,
+        "deathRecentLow": 86,
+        "episodes": 436,
+        "resolved": 436,
+        "lowDies": 47.9,
+        "lowDies10": 46.3,
+        "lowEscapeSpawn": 52.1,
+        "lowAttemptRecall": 47.5,
+        "recallsPerGame": 349.67,
+        "spawnReturnPerGame": 45.08,
+        "recallMid": 5.8,
+        "recallHealthy": 87.9,
+        "recallLow": 6.3,
+        "teamWalkMovesPerGroup": 43.68,
+        "meanDeposit": 15.42,
+        "smallDepositShare": 80.7,
+        "gemsPerGemCapture": 13.1,
+        "groupCapsPer100Rounds": 3.61,
+        "gemGroupCapsPer100Rounds": 2.3,
+        "goldOnlyRewardShare": 36.2,
+        "rewardReceiptsPer100Rounds": 3.8,
+        "gemRewardReceiptsPer100Rounds": 2.46,
+        "moveTurns": 65.6,
+        "stunTurns": 0.4,
+        "deadTurns": 20.4,
+        "endBag": 7.33,
+        "submitStarts": 35.08,
+        "bankEvents": 34.92,
+        "nativeErrors": 0,
+        "potentialWinRounds": 0.42,
+        "checkpoint500": {
+          "bank": 64.17,
+          "shards": 32.58
+        }
+      }
+    },
+    "01hooks": {
+      "n": 12,
+      "wins": 3,
+      "us": {
+        "capGems": 322.67,
+        "deaths": 34.83,
+        "killerKnown": 93.3,
+        "deathOutnumber": 60,
+        "deathNoEnemy": 1.7,
+        "death1v1": 6.2,
+        "deathBag": 0.89,
+        "deathHp3round": 0.53,
+        "deathRecentLow": 78.7,
+        "episodes": 661,
+        "resolved": 659,
+        "lowDies": 49.9,
+        "lowDies10": 47.5,
+        "lowEscapeSpawn": 50.1,
+        "lowAttemptRecall": 52.8,
+        "recallsPerGame": 44.92,
+        "spawnReturnPerGame": 38.83,
+        "recallMid": 6.1,
+        "recallHealthy": 24.5,
+        "recallLow": 69.4,
+        "teamWalkMovesPerGroup": 53.17,
+        "meanDeposit": 23.47,
+        "smallDepositShare": 2.7,
+        "gemsPerGemCapture": 22,
+        "groupCapsPer100Rounds": 2.98,
+        "gemGroupCapsPer100Rounds": 1.08,
+        "goldOnlyRewardShare": 63.6,
+        "rewardReceiptsPer100Rounds": 3.02,
+        "gemRewardReceiptsPer100Rounds": 1.1,
+        "moveTurns": 63.3,
+        "stunTurns": 1.7,
+        "deadTurns": 37.4,
+        "endBag": 1.83,
+        "submitStarts": 12.58,
+        "bankEvents": 12.5,
+        "nativeErrors": 0,
+        "potentialWinRounds": 1.42,
+        "checkpoint500": {
+          "bank": 51.33,
+          "shards": 47.08
+        }
+      },
+      "opponent": {
+        "capGems": 762.67,
+        "deaths": 13.17,
+        "killerKnown": 79.1,
+        "deathOutnumber": 25.3,
+        "deathNoEnemy": 12,
+        "death1v1": 6.3,
+        "deathBag": 0.84,
+        "deathHp3round": 0.51,
+        "deathRecentLow": 84.8,
+        "episodes": 419,
+        "resolved": 418,
+        "lowDies": 31.8,
+        "lowDies10": 30.1,
+        "lowEscapeSpawn": 68.2,
+        "lowAttemptRecall": 64.6,
+        "recallsPerGame": 73,
+        "spawnReturnPerGame": 60.75,
+        "recallMid": 21.2,
+        "recallHealthy": 40.2,
+        "recallLow": 38.6,
+        "teamWalkMovesPerGroup": 35.72,
+        "meanDeposit": 20.78,
+        "smallDepositShare": 16.7,
+        "gemsPerGemCapture": 22,
+        "groupCapsPer100Rounds": 6.19,
+        "gemGroupCapsPer100Rounds": 2.56,
+        "goldOnlyRewardShare": 58.6,
+        "rewardReceiptsPer100Rounds": 6.55,
+        "gemRewardReceiptsPer100Rounds": 2.82,
+        "moveTurns": 60.8,
+        "stunTurns": 1.1,
+        "deadTurns": 13.6,
+        "endBag": 1.83,
+        "submitStarts": 38,
+        "bankEvents": 37.5,
+        "nativeErrors": 0,
+        "potentialWinRounds": 8.08,
+        "checkpoint500": {
+          "bank": 132.92,
+          "shards": 84.17
+        }
+      }
+    },
+    "01islands": {
+      "n": 12,
+      "wins": 10,
+      "us": {
+        "capGems": 963.5,
+        "deaths": 3.75,
+        "killerKnown": 73.3,
+        "deathOutnumber": 40,
+        "deathNoEnemy": 15.6,
+        "death1v1": 26.7,
+        "deathBag": 1,
+        "deathHp3round": 0.36,
+        "deathRecentLow": 100,
+        "episodes": 313,
+        "resolved": 311,
+        "lowDies": 14.5,
+        "lowDies10": 13.2,
+        "lowEscapeSpawn": 85.5,
+        "lowAttemptRecall": 86.2,
+        "recallsPerGame": 47.67,
+        "spawnReturnPerGame": 45.33,
+        "recallMid": 14.3,
+        "recallHealthy": 37.8,
+        "recallLow": 47.9,
+        "teamWalkMovesPerGroup": 97.05,
+        "meanDeposit": 40.86,
+        "smallDepositShare": 4.9,
+        "gemsPerGemCapture": 41.44,
+        "groupCapsPer100Rounds": 3.34,
+        "gemGroupCapsPer100Rounds": 2.19,
+        "goldOnlyRewardShare": 34.4,
+        "rewardReceiptsPer100Rounds": 3.39,
+        "gemRewardReceiptsPer100Rounds": 2.25,
+        "moveTurns": 67.6,
+        "stunTurns": 0.2,
+        "deadTurns": 4.2,
+        "endBag": 5,
+        "submitStarts": 23.92,
+        "bankEvents": 23.75,
+        "nativeErrors": 0,
+        "potentialWinRounds": 5.92,
+        "checkpoint500": {
+          "bank": 307.33,
+          "shards": 75.33
+        }
+      },
+      "opponent": {
+        "capGems": 808.5,
+        "deaths": 3.17,
+        "killerKnown": 57.9,
+        "deathOutnumber": 5.3,
+        "deathNoEnemy": 36.8,
+        "death1v1": 23.7,
+        "deathBag": 5.71,
+        "deathHp3round": 0.36,
+        "deathRecentLow": 92.1,
+        "episodes": 325,
+        "resolved": 323,
+        "lowDies": 10.8,
+        "lowDies10": 9.6,
+        "lowEscapeSpawn": 89.2,
+        "lowAttemptRecall": 87.3,
+        "recallsPerGame": 54.17,
+        "spawnReturnPerGame": 52.58,
+        "recallMid": 27.1,
+        "recallHealthy": 29.1,
+        "recallLow": 43.8,
+        "teamWalkMovesPerGroup": 75.01,
+        "meanDeposit": 33.33,
+        "smallDepositShare": 17.6,
+        "gemsPerGemCapture": 30.7,
+        "groupCapsPer100Rounds": 3.94,
+        "gemGroupCapsPer100Rounds": 2.48,
+        "goldOnlyRewardShare": 37.1,
+        "rewardReceiptsPer100Rounds": 4.09,
+        "gemRewardReceiptsPer100Rounds": 2.61,
+        "moveTurns": 59.4,
+        "stunTurns": 0.2,
+        "deadTurns": 3.3,
+        "endBag": 19.25,
+        "submitStarts": 23.25,
+        "bankEvents": 23.25,
+        "nativeErrors": 0,
+        "potentialWinRounds": 2.58,
+        "checkpoint500": {
+          "bank": 262.83,
+          "shards": 75.83
+        }
+      }
+    },
+    "01shortcut": {
+      "n": 12,
+      "wins": 4,
+      "us": {
+        "capGems": 670.33,
+        "deaths": 10.42,
+        "killerKnown": 76,
+        "deathOutnumber": 25.6,
+        "deathNoEnemy": 18.4,
+        "death1v1": 35.2,
+        "deathBag": 12.68,
+        "deathHp3round": 0.38,
+        "deathRecentLow": 96.8,
+        "episodes": 392,
+        "resolved": 390,
+        "lowDies": 31,
+        "lowDies10": 28.7,
+        "lowEscapeSpawn": 69,
+        "lowAttemptRecall": 70.3,
+        "recallsPerGame": 43.83,
+        "spawnReturnPerGame": 38.83,
+        "recallMid": 18.4,
+        "recallHealthy": 24.9,
+        "recallLow": 56.7,
+        "teamWalkMovesPerGroup": 115.14,
+        "meanDeposit": 44.65,
+        "smallDepositShare": 7.7,
+        "gemsPerGemCapture": 29.25,
+        "groupCapsPer100Rounds": 2.36,
+        "gemGroupCapsPer100Rounds": 1.57,
+        "goldOnlyRewardShare": 33.3,
+        "rewardReceiptsPer100Rounds": 2.36,
+        "gemRewardReceiptsPer100Rounds": 1.58,
+        "moveTurns": 75.9,
+        "stunTurns": 0.3,
+        "deadTurns": 10.6,
+        "endBag": 106.67,
+        "submitStarts": 14.25,
+        "bankEvents": 14.08,
+        "nativeErrors": 0,
+        "potentialWinRounds": 40.75,
+        "checkpoint500": {
+          "bank": 74.42,
+          "shards": 28.67
+        }
+      },
+      "opponent": {
+        "capGems": 1019.42,
+        "deaths": 8,
+        "killerKnown": 76,
+        "deathOutnumber": 25,
+        "deathNoEnemy": 14.6,
+        "death1v1": 40.6,
+        "deathBag": 31.17,
+        "deathHp3round": 0.28,
+        "deathRecentLow": 96.9,
+        "episodes": 282,
+        "resolved": 282,
+        "lowDies": 33,
+        "lowDies10": 28.7,
+        "lowEscapeSpawn": 66.3,
+        "lowAttemptRecall": 59.6,
+        "recallsPerGame": 391.83,
+        "spawnReturnPerGame": 36.08,
+        "recallMid": 20.1,
+        "recallHealthy": 74.6,
+        "recallLow": 5.3,
+        "teamWalkMovesPerGroup": 79.22,
+        "meanDeposit": 62.34,
+        "smallDepositShare": 1.2,
+        "gemsPerGemCapture": 28.85,
+        "groupCapsPer100Rounds": 3.27,
+        "gemGroupCapsPer100Rounds": 2.43,
+        "goldOnlyRewardShare": 25.9,
+        "rewardReceiptsPer100Rounds": 3.32,
+        "gemRewardReceiptsPer100Rounds": 2.47,
+        "moveTurns": 70.3,
+        "stunTurns": 0.4,
+        "deadTurns": 7.9,
+        "endBag": 45.17,
+        "submitStarts": 13.83,
+        "bankEvents": 13.58,
+        "nativeErrors": 0,
+        "potentialWinRounds": 48.5,
+        "checkpoint500": {
+          "bank": 95.25,
+          "shards": 50.5
+        }
+      }
+    },
+    "01starfish": {
+      "n": 12,
+      "wins": 5,
+      "us": {
+        "capGems": 766.17,
+        "deaths": 20,
+        "killerKnown": 76.3,
+        "deathOutnumber": 46.7,
+        "deathNoEnemy": 7.9,
+        "death1v1": 11.7,
+        "deathBag": 7.35,
+        "deathHp3round": 0.46,
+        "deathRecentLow": 92.5,
+        "episodes": 684,
+        "resolved": 681,
+        "lowDies": 32.6,
+        "lowDies10": 31.6,
+        "lowEscapeSpawn": 67.4,
+        "lowAttemptRecall": 71.1,
+        "recallsPerGame": 69.17,
+        "spawnReturnPerGame": 58.58,
+        "recallMid": 12.5,
+        "recallHealthy": 20.4,
+        "recallLow": 67.1,
+        "teamWalkMovesPerGroup": 99.77,
+        "meanDeposit": 26.22,
+        "smallDepositShare": 61.2,
+        "gemsPerGemCapture": 24.52,
+        "groupCapsPer100Rounds": 2.54,
+        "gemGroupCapsPer100Rounds": 2.54,
+        "goldOnlyRewardShare": 0,
+        "rewardReceiptsPer100Rounds": 2.56,
+        "gemRewardReceiptsPer100Rounds": 2.56,
+        "moveTurns": 62.3,
+        "stunTurns": 1.1,
+        "deadTurns": 18.8,
+        "endBag": 23.58,
+        "submitStarts": 28.92,
+        "bankEvents": 26,
+        "nativeErrors": 0,
+        "potentialWinRounds": 7.17,
+        "checkpoint500": {
+          "bank": 101,
+          "shards": 58.08
+        }
+      },
+      "opponent": {
+        "capGems": 664.75,
+        "deaths": 17.42,
+        "killerKnown": 71.3,
+        "deathOutnumber": 27.8,
+        "deathNoEnemy": 12,
+        "death1v1": 9.6,
+        "deathBag": 5.89,
+        "deathHp3round": 0.45,
+        "deathRecentLow": 93.8,
+        "episodes": 649,
+        "resolved": 645,
+        "lowDies": 30.4,
+        "lowDies10": 27.3,
+        "lowEscapeSpawn": 69.6,
+        "lowAttemptRecall": 70.2,
+        "recallsPerGame": 363.58,
+        "spawnReturnPerGame": 63.83,
+        "recallMid": 27,
+        "recallHealthy": 58.1,
+        "recallLow": 14.8,
+        "teamWalkMovesPerGroup": 113.82,
+        "meanDeposit": 32.72,
+        "smallDepositShare": 56,
+        "gemsPerGemCapture": 22.86,
+        "groupCapsPer100Rounds": 2.36,
+        "gemGroupCapsPer100Rounds": 2.36,
+        "goldOnlyRewardShare": 0,
+        "rewardReceiptsPer100Rounds": 2.52,
+        "gemRewardReceiptsPer100Rounds": 2.52,
+        "moveTurns": 63.5,
+        "stunTurns": 1,
+        "deadTurns": 16.5,
+        "endBag": 8.25,
+        "submitStarts": 22.75,
+        "bankEvents": 20.83,
+        "nativeErrors": 0,
+        "potentialWinRounds": 25.58,
+        "checkpoint500": {
+          "bank": 96.25,
+          "shards": 65.58
+        }
+      }
+    },
+    "01starvation": {
+      "n": 12,
+      "wins": 5,
+      "us": {
+        "capGems": 661,
+        "deaths": 18,
+        "killerKnown": 98.6,
+        "deathOutnumber": 46.8,
+        "deathNoEnemy": 0,
+        "death1v1": 21.3,
+        "deathBag": 1.96,
+        "deathHp3round": 0.38,
+        "deathRecentLow": 98.1,
+        "episodes": 519,
+        "resolved": 519,
+        "lowDies": 40.8,
+        "lowDies10": 36.6,
+        "lowEscapeSpawn": 59.2,
+        "lowAttemptRecall": 63.8,
+        "recallsPerGame": 45.08,
+        "spawnReturnPerGame": 39.33,
+        "recallMid": 9.6,
+        "recallHealthy": 23.1,
+        "recallLow": 67.3,
+        "teamWalkMovesPerGroup": 105.23,
+        "meanDeposit": 23.55,
+        "smallDepositShare": 47.2,
+        "gemsPerGemCapture": 19.3,
+        "groupCapsPer100Rounds": 3.32,
+        "gemGroupCapsPer100Rounds": 1.91,
+        "goldOnlyRewardShare": 42.6,
+        "rewardReceiptsPer100Rounds": 3.34,
+        "gemRewardReceiptsPer100Rounds": 1.92,
+        "moveTurns": 79.2,
+        "stunTurns": 0.6,
+        "deadTurns": 11.8,
+        "endBag": 13.33,
+        "submitStarts": 28.08,
+        "bankEvents": 27.92,
+        "nativeErrors": 0,
+        "potentialWinRounds": 9.83,
+        "checkpoint500": {
+          "bank": 120.33,
+          "shards": 30.5
+        }
+      },
+      "opponent": {
+        "capGems": 655.67,
+        "deaths": 14.58,
+        "killerKnown": 97.1,
+        "deathOutnumber": 37.7,
+        "deathNoEnemy": 1.7,
+        "death1v1": 23.4,
+        "deathBag": 3.09,
+        "deathHp3round": 0.33,
+        "deathRecentLow": 97.1,
+        "episodes": 450,
+        "resolved": 448,
+        "lowDies": 37.9,
+        "lowDies10": 34.4,
+        "lowEscapeSpawn": 62.1,
+        "lowAttemptRecall": 66.3,
+        "recallsPerGame": 780.25,
+        "spawnReturnPerGame": 42.92,
+        "recallMid": 15.8,
+        "recallHealthy": 77.9,
+        "recallLow": 6.2,
+        "teamWalkMovesPerGroup": 139.81,
+        "meanDeposit": 32.43,
+        "smallDepositShare": 37.1,
+        "gemsPerGemCapture": 25.3,
+        "groupCapsPer100Rounds": 2.56,
+        "gemGroupCapsPer100Rounds": 1.44,
+        "goldOnlyRewardShare": 43.6,
+        "rewardReceiptsPer100Rounds": 2.6,
+        "gemRewardReceiptsPer100Rounds": 1.48,
+        "moveTurns": 79.1,
+        "stunTurns": 0.6,
+        "deadTurns": 9.6,
+        "endBag": 18.33,
+        "submitStarts": 19.67,
+        "bankEvents": 19.33,
+        "nativeErrors": 0,
+        "potentialWinRounds": 9.92,
+        "checkpoint500": {
+          "bank": 63,
+          "shards": 26.75
+        }
+      }
+    },
+    "01the_farm": {
+      "n": 12,
+      "wins": 6,
+      "us": {
+        "capGems": 697.58,
+        "deaths": 3.08,
+        "killerKnown": 83.8,
+        "deathOutnumber": 24.3,
+        "deathNoEnemy": 5.4,
+        "death1v1": 37.8,
+        "deathBag": 26.86,
+        "deathHp3round": 0.35,
+        "deathRecentLow": 91.9,
+        "episodes": 288,
+        "resolved": 286,
+        "lowDies": 11.9,
+        "lowDies10": 10.1,
+        "lowEscapeSpawn": 88.1,
+        "lowAttemptRecall": 91.6,
+        "recallsPerGame": 42.58,
+        "spawnReturnPerGame": 38.5,
+        "recallMid": 20,
+        "recallHealthy": 23.1,
+        "recallLow": 56.9,
+        "teamWalkMovesPerGroup": 86.25,
+        "meanDeposit": 35.67,
+        "smallDepositShare": 24.3,
+        "gemsPerGemCapture": 29.48,
+        "groupCapsPer100Rounds": 2.13,
+        "gemGroupCapsPer100Rounds": 2.13,
+        "goldOnlyRewardShare": 0,
+        "rewardReceiptsPer100Rounds": 2.15,
+        "gemRewardReceiptsPer100Rounds": 2.15,
+        "moveTurns": 64.6,
+        "stunTurns": 0.2,
+        "deadTurns": 5.2,
+        "endBag": 35.42,
+        "submitStarts": 18.92,
+        "bankEvents": 18.17,
+        "nativeErrors": 0,
+        "potentialWinRounds": 21.58,
+        "checkpoint500": {
+          "bank": 165.08,
+          "shards": 54.75
+        }
+      },
+      "opponent": {
+        "capGems": 934.67,
+        "deaths": 4.33,
+        "killerKnown": 84.6,
+        "deathOutnumber": 28.8,
+        "deathNoEnemy": 13.5,
+        "death1v1": 34.6,
+        "deathBag": 17.5,
+        "deathHp3round": 0.32,
+        "deathRecentLow": 90.4,
+        "episodes": 275,
+        "resolved": 272,
+        "lowDies": 17.3,
+        "lowDies10": 14.3,
+        "lowEscapeSpawn": 82.7,
+        "lowAttemptRecall": 64.7,
+        "recallsPerGame": 200.42,
+        "spawnReturnPerGame": 37.25,
+        "recallMid": 23.4,
+        "recallHealthy": 66.5,
+        "recallLow": 10.1,
+        "teamWalkMovesPerGroup": 50.51,
+        "meanDeposit": 54.82,
+        "smallDepositShare": 5.7,
+        "gemsPerGemCapture": 26.64,
+        "groupCapsPer100Rounds": 3.16,
+        "gemGroupCapsPer100Rounds": 3.16,
+        "goldOnlyRewardShare": 0,
+        "rewardReceiptsPer100Rounds": 3.16,
+        "gemRewardReceiptsPer100Rounds": 3.16,
+        "moveTurns": 57.3,
+        "stunTurns": 0.2,
+        "deadTurns": 7.6,
+        "endBag": 55,
+        "submitStarts": 16.5,
+        "bankEvents": 16.08,
+        "nativeErrors": 0,
+        "potentialWinRounds": 51,
+        "checkpoint500": {
+          "bank": 218.42,
+          "shards": 63.33
+        }
+      }
+    },
+    "01yellow_brick_road": {
+      "n": 12,
+      "wins": 7,
+      "us": {
+        "capGems": 730.33,
+        "deaths": 7.67,
+        "killerKnown": 85.9,
+        "deathOutnumber": 52.2,
+        "deathNoEnemy": 6.5,
+        "death1v1": 10.9,
+        "deathBag": 1.54,
+        "deathHp3round": 0.43,
+        "deathRecentLow": 76.1,
+        "episodes": 316,
+        "resolved": 313,
+        "lowDies": 22.4,
+        "lowDies10": 21.7,
+        "lowEscapeSpawn": 77.6,
+        "lowAttemptRecall": 85.6,
+        "recallsPerGame": 82.42,
+        "spawnReturnPerGame": 63.33,
+        "recallMid": 9.8,
+        "recallHealthy": 52.2,
+        "recallLow": 38,
+        "teamWalkMovesPerGroup": 50.35,
+        "meanDeposit": 24.65,
+        "smallDepositShare": 37.8,
+        "gemsPerGemCapture": 25.4,
+        "groupCapsPer100Rounds": 3.82,
+        "gemGroupCapsPer100Rounds": 3.07,
+        "goldOnlyRewardShare": 19.6,
+        "rewardReceiptsPer100Rounds": 3.95,
+        "gemRewardReceiptsPer100Rounds": 3.16,
+        "moveTurns": 42,
+        "stunTurns": 0.5,
+        "deadTurns": 9.4,
+        "endBag": 6.5,
+        "submitStarts": 30.08,
+        "bankEvents": 29.75,
+        "nativeErrors": 0,
+        "potentialWinRounds": 5.17,
+        "checkpoint500": {
+          "bank": 227.83,
+          "shards": 151.33
+        }
+      },
+      "opponent": {
+        "capGems": 670.83,
+        "deaths": 10.5,
+        "killerKnown": 76.2,
+        "deathOutnumber": 18.3,
+        "deathNoEnemy": 9.5,
+        "death1v1": 8.7,
+        "deathBag": 2.53,
+        "deathHp3round": 0.54,
+        "deathRecentLow": 79.4,
+        "episodes": 354,
+        "resolved": 354,
+        "lowDies": 28,
+        "lowDies10": 26.3,
+        "lowEscapeSpawn": 71.2,
+        "lowAttemptRecall": 51.4,
+        "recallsPerGame": 597.08,
+        "spawnReturnPerGame": 41,
+        "recallMid": 19.3,
+        "recallHealthy": 75.8,
+        "recallLow": 4.9,
+        "teamWalkMovesPerGroup": 50.22,
+        "meanDeposit": 22.43,
+        "smallDepositShare": 44.9,
+        "gemsPerGemCapture": 19.49,
+        "groupCapsPer100Rounds": 3.88,
+        "gemGroupCapsPer100Rounds": 3.68,
+        "goldOnlyRewardShare": 5.3,
+        "rewardReceiptsPer100Rounds": 4.13,
+        "gemRewardReceiptsPer100Rounds": 3.86,
+        "moveTurns": 44.4,
+        "stunTurns": 0.5,
+        "deadTurns": 12.9,
+        "endBag": 15.08,
+        "submitStarts": 28.75,
+        "bankEvents": 28.58,
+        "nativeErrors": 0,
+        "potentialWinRounds": 4.17,
+        "checkpoint500": {
+          "bank": 271.83,
+          "shards": 129.58
+        }
+      }
+    }
+  },
+  "boss": [
+    {
+      "label": "near_r53_unique1",
+      "map": "00contest",
+      "opponent": "wawow",
+      "result": "win",
+      "score": 1000,
+      "oppScore": 0,
+      "rounds": 1222,
+      "endBag": 0,
+      "submits": 13,
+      "potential": 46,
+      "monolith": {
+        "0": {
+          "pos": {
+            "x": 17,
+            "y": 31
+          },
+          "minHp": 0,
+          "deaths": [
+            644,
+            929,
+            1170
+          ],
+          "respawns": [
+            802,
+            1085
+          ]
+        },
+        "1": {
+          "pos": {
+            "x": 32,
+            "y": 18
+          },
+          "minHp": 0,
+          "deaths": [
+            760,
+            1056
+          ],
+          "respawns": [
+            937,
+            1212
+          ]
+        }
+      },
+      "bankTimeline": [
+        {
+          "r": 717,
+          "bank": [
+            200,
+            0
+          ],
+          "id": 2,
+          "team": 0
+        },
+        {
+          "r": 940,
+          "bank": [
+            400,
+            0
+          ],
+          "id": 1,
+          "team": 0
+        },
+        {
+          "r": 1005,
+          "bank": [
+            600,
+            0
+          ],
+          "id": 4,
+          "team": 0
+        },
+        {
+          "r": 1142,
+          "bank": [
+            800,
+            0
+          ],
+          "id": 0,
+          "team": 0
+        },
+        {
+          "r": 1222,
+          "bank": [
+            1000,
+            0
+          ],
+          "id": 4,
+          "team": 0
+        }
+      ]
+    },
+    {
+      "label": "near_r57_unique4",
+      "map": "00contest",
+      "opponent": "SilverSamurai",
+      "result": "loss",
+      "score": 0,
+      "oppScore": 1000,
+      "rounds": 1640,
+      "endBag": 0,
+      "submits": 1,
+      "potential": 0,
+      "monolith": {
+        "0": {
+          "pos": {
+            "x": 17,
+            "y": 31
+          },
+          "minHp": 0,
+          "deaths": [
+            1117,
+            1465
+          ],
+          "respawns": [
+            1274,
+            1622
+          ]
+        },
+        "1": {
+          "pos": {
+            "x": 32,
+            "y": 18
+          },
+          "minHp": 0,
+          "deaths": [
+            1118,
+            1317,
+            1596
+          ],
+          "respawns": [
+            1275,
+            1473
+          ]
+        }
+      },
+      "bankTimeline": [
+        {
+          "r": 1191,
+          "bank": [
+            200,
+            0
+          ],
+          "id": 2,
+          "team": 0
+        },
+        {
+          "r": 1204,
+          "bank": [
+            400,
+            0
+          ],
+          "id": 0,
+          "team": 0
+        },
+        {
+          "r": 1484,
+          "bank": [
+            600,
+            0
+          ],
+          "id": 1,
+          "team": 0
+        },
+        {
+          "r": 1567,
+          "bank": [
+            800,
+            0
+          ],
+          "id": 2,
+          "team": 0
+        },
+        {
+          "r": 1640,
+          "bank": [
+            1000,
+            0
+          ],
+          "id": 2,
+          "team": 0
+        }
+      ]
+    },
+    {
+      "label": "near_r55_unique2",
+      "map": "00contest",
+      "opponent": "bentheboss",
+      "result": "win",
+      "score": 1000,
+      "oppScore": 0,
+      "rounds": 1166,
+      "endBag": 0,
+      "submits": 8,
+      "potential": 46,
+      "monolith": {
+        "0": {
+          "pos": {
+            "x": 17,
+            "y": 31
+          },
+          "minHp": 0,
+          "deaths": [
+            890,
+            1114
+          ],
+          "respawns": [
+            1046
+          ]
+        },
+        "1": {
+          "pos": {
+            "x": 32,
+            "y": 18
+          },
+          "minHp": 0,
+          "deaths": [
+            532,
+            762,
+            993
+          ],
+          "respawns": [
+            688,
+            919
+          ]
+        }
+      },
+      "bankTimeline": [
+        {
+          "r": 644,
+          "bank": [
+            0,
+            200
+          ],
+          "id": 5,
+          "team": 1
+        },
+        {
+          "r": 907,
+          "bank": [
+            0,
+            400
+          ],
+          "id": 6,
+          "team": 1
+        },
+        {
+          "r": 938,
+          "bank": [
+            0,
+            600
+          ],
+          "id": 9,
+          "team": 1
+        },
+        {
+          "r": 1068,
+          "bank": [
+            0,
+            800
+          ],
+          "id": 6,
+          "team": 1
+        },
+        {
+          "r": 1166,
+          "bank": [
+            0,
+            1000
+          ],
+          "id": 7,
+          "team": 1
+        }
+      ]
+    },
+    {
+      "label": "half_r9_unique8",
+      "map": "01boss_battle",
+      "opponent": "new team(4)",
+      "result": "loss",
+      "score": 0,
+      "oppScore": 1023,
+      "rounds": 774,
+      "endBag": 42,
+      "submits": 0,
+      "potential": 0,
+      "monolith": {
+        "20": {
+          "pos": {
+            "x": 24,
+            "y": 20
+          },
+          "minHp": 0,
+          "deaths": [
+            614
+          ],
+          "respawns": []
+        },
+        "27": {
+          "pos": {
+            "x": 23,
+            "y": 20
+          },
+          "minHp": 0,
+          "deaths": [
+            583
+          ],
+          "respawns": []
+        }
+      },
+      "bankTimeline": [
+        {
+          "r": 679,
+          "bank": [
+            0,
+            585
+          ],
+          "id": 6,
+          "team": 1
+        },
+        {
+          "r": 706,
+          "bank": [
+            0,
+            800
+          ],
+          "id": 9,
+          "team": 1
+        },
+        {
+          "r": 717,
+          "bank": [
+            0,
+            887
+          ],
+          "id": 8,
+          "team": 1
+        },
+        {
+          "r": 726,
+          "bank": [
+            0,
+            902
+          ],
+          "id": 7,
+          "team": 1
+        },
+        {
+          "r": 741,
+          "bank": [
+            0,
+            951
+          ],
+          "id": 6,
+          "team": 1
+        },
+        {
+          "r": 774,
+          "bank": [
+            0,
+            1023
+          ],
+          "id": 9,
+          "team": 1
+        }
+      ]
+    },
+    {
+      "label": "half_r6_unique5",
+      "map": "01boss_battle",
+      "opponent": "Univardisty of Shingtonwash",
+      "result": "loss",
+      "score": 0,
+      "oppScore": 1130,
+      "rounds": 1482,
+      "endBag": 561,
+      "submits": 4,
+      "potential": 0,
+      "monolith": {
+        "20": {
+          "pos": {
+            "x": 24,
+            "y": 20
+          },
+          "minHp": 0,
+          "deaths": [
+            857,
+            1415
+          ],
+          "respawns": [
+            1013
+          ]
+        },
+        "27": {
+          "pos": {
+            "x": 23,
+            "y": 20
+          },
+          "minHp": 0,
+          "deaths": [
+            841,
+            1346
+          ],
+          "respawns": [
+            1013
+          ]
+        }
+      },
+      "bankTimeline": [
+        {
+          "r": 862,
+          "bank": [
+            49,
+            0
+          ],
+          "id": 4,
+          "team": 0
+        },
+        {
+          "r": 888,
+          "bank": [
+            207,
+            0
+          ],
+          "id": 1,
+          "team": 0
+        },
+        {
+          "r": 935,
+          "bank": [
+            653,
+            0
+          ],
+          "id": 3,
+          "team": 0
+        },
+        {
+          "r": 972,
+          "bank": [
+            683,
+            0
+          ],
+          "id": 4,
+          "team": 0
+        },
+        {
+          "r": 978,
+          "bank": [
+            702,
+            0
+          ],
+          "id": 1,
+          "team": 0
+        },
+        {
+          "r": 988,
+          "bank": [
+            732,
+            0
+          ],
+          "id": 3,
+          "team": 0
+        },
+        {
+          "r": 1441,
+          "bank": [
+            751,
+            0
+          ],
+          "id": 1,
+          "team": 0
+        },
+        {
+          "r": 1445,
+          "bank": [
+            781,
+            0
+          ],
+          "id": 0,
+          "team": 0
+        },
+        {
+          "r": 1482,
+          "bank": [
+            1130,
+            0
+          ],
+          "id": 2,
+          "team": 0
+        }
+      ]
+    },
+    {
+      "label": "half_r13_unique12",
+      "map": "00contest",
+      "opponent": "hello",
+      "result": "loss",
+      "score": 0,
+      "oppScore": 1000,
+      "rounds": 1567,
+      "endBag": 0,
+      "submits": 4,
+      "potential": 0,
+      "monolith": {
+        "0": {
+          "pos": {
+            "x": 17,
+            "y": 31
+          },
+          "minHp": 0,
+          "deaths": [
+            1065,
+            1475
+          ],
+          "respawns": [
+            1221
+          ]
+        },
+        "1": {
+          "pos": {
+            "x": 32,
+            "y": 18
+          },
+          "minHp": 0,
+          "deaths": [
+            553,
+            940,
+            1443
+          ],
+          "respawns": [
+            710,
+            1097
+          ]
+        }
+      },
+      "bankTimeline": [
+        {
+          "r": 596,
+          "bank": [
+            0,
+            200
+          ],
+          "id": 6,
+          "team": 1
+        },
+        {
+          "r": 994,
+          "bank": [
+            0,
+            400
+          ],
+          "id": 7,
+          "team": 1
+        },
+        {
+          "r": 1198,
+          "bank": [
+            0,
+            600
+          ],
+          "id": 7,
+          "team": 1
+        },
+        {
+          "r": 1498,
+          "bank": [
+            0,
+            800
+          ],
+          "id": 9,
+          "team": 1
+        },
+        {
+          "r": 1567,
+          "bank": [
+            0,
+            1000
+          ],
+          "id": 9,
+          "team": 1
+        }
+      ]
+    },
+    {
+      "label": "half_r10_unique9",
+      "map": "00contest",
+      "opponent": "print dont int",
+      "result": "loss",
+      "score": 0,
+      "oppScore": 1000,
+      "rounds": 1617,
+      "endBag": 0,
+      "submits": 0,
+      "potential": 0,
+      "monolith": {
+        "0": {
+          "pos": {
+            "x": 17,
+            "y": 31
+          },
+          "minHp": 0,
+          "deaths": [
+            738,
+            951,
+            1159,
+            1608
+          ],
+          "respawns": [
+            894,
+            1107,
+            1315
+          ]
+        },
+        "1": {
+          "pos": {
+            "x": 32,
+            "y": 18
+          },
+          "minHp": 0,
+          "deaths": [
+            1209,
+            1574
+          ],
+          "respawns": [
+            1369
+          ]
+        }
+      },
+      "bankTimeline": [
+        {
+          "r": 781,
+          "bank": [
+            0,
+            200
+          ],
+          "id": 7,
+          "team": 1
+        },
+        {
+          "r": 997,
+          "bank": [
+            0,
+            400
+          ],
+          "id": 8,
+          "team": 1
+        },
+        {
+          "r": 1202,
+          "bank": [
+            0,
+            600
+          ],
+          "id": 6,
+          "team": 1
+        },
+        {
+          "r": 1259,
+          "bank": [
+            0,
+            800
+          ],
+          "id": 9,
+          "team": 1
+        },
+        {
+          "r": 1617,
+          "bank": [
+            0,
+            1000
+          ],
+          "id": 6,
+          "team": 1
+        }
+      ]
+    },
+    {
+      "label": "near_r68_unique15",
+      "map": "00contest",
+      "opponent": "Nah, Id Lose",
+      "result": "loss",
+      "score": 400,
+      "oppScore": 1000,
+      "rounds": 1620,
+      "endBag": 0,
+      "submits": 2,
+      "potential": 0,
+      "monolith": {
+        "0": {
+          "pos": {
+            "x": 17,
+            "y": 31
+          },
+          "minHp": 0,
+          "deaths": [
+            892,
+            1110,
+            1340,
+            1580
+          ],
+          "respawns": [
+            1049,
+            1267,
+            1496
+          ]
+        },
+        "1": {
+          "pos": {
+            "x": 32,
+            "y": 18
+          },
+          "minHp": 0,
+          "deaths": [
+            605,
+            1045,
+            1443
+          ],
+          "respawns": [
+            766,
+            1222,
+            1599
+          ]
+        }
+      },
+      "bankTimeline": [
+        {
+          "r": 658,
+          "bank": [
+            0,
+            200
+          ],
+          "id": 5,
+          "team": 1
+        },
+        {
+          "r": 932,
+          "bank": [
+            200,
+            200
+          ],
+          "id": 0,
+          "team": 0
+        },
+        {
+          "r": 1105,
+          "bank": [
+            400,
+            200
+          ],
+          "id": 0,
+          "team": 0
+        },
+        {
+          "r": 1171,
+          "bank": [
+            400,
+            400
+          ],
+          "id": 6,
+          "team": 1
+        },
+        {
+          "r": 1379,
+          "bank": [
+            600,
+            400
+          ],
+          "id": 2,
+          "team": 0
+        },
+        {
+          "r": 1486,
+          "bank": [
+            800,
+            400
+          ],
+          "id": 3,
+          "team": 0
+        },
+        {
+          "r": 1620,
+          "bank": [
+            1000,
+            400
+          ],
+          "id": 2,
+          "team": 0
+        }
+      ]
+    },
+    {
+      "label": "near_r67_unique14",
+      "map": "01boss_battle",
+      "opponent": "Bamboo Teahouse",
+      "result": "loss",
+      "score": 0,
+      "oppScore": 79,
+      "rounds": 2000,
+      "endBag": 281,
+      "submits": 0,
+      "potential": 0,
+      "monolith": {
+        "20": {
+          "pos": {
+            "x": 24,
+            "y": 20
+          },
+          "minHp": 0,
+          "deaths": [
+            873
+          ],
+          "respawns": []
+        },
+        "27": {
+          "pos": {
+            "x": 23,
+            "y": 20
+          },
+          "minHp": 0,
+          "deaths": [
+            827
+          ],
+          "respawns": []
+        }
+      },
+      "bankTimeline": [
+        {
+          "r": 966,
+          "bank": [
+            0,
+            30
+          ],
+          "id": 7,
+          "team": 1
+        },
+        {
+          "r": 996,
+          "bank": [
+            0,
+            79
+          ],
+          "id": 5,
+          "team": 1
+        }
+      ]
+    },
+    {
+      "label": "near_r70_unique17",
+      "map": "01boss_battle",
+      "opponent": "umamusume",
+      "result": "win",
+      "score": 958,
+      "oppScore": 0,
+      "rounds": 2000,
+      "endBag": 309,
+      "submits": 30,
+      "potential": 187,
+      "monolith": {
+        "20": {
+          "pos": {
+            "x": 24,
+            "y": 20
+          },
+          "minHp": 0,
+          "deaths": [
+            910,
+            1217,
+            1610,
+            1845
+          ],
+          "respawns": [
+            1066,
+            1469,
+            1766
+          ]
+        },
+        "27": {
+          "pos": {
+            "x": 23,
+            "y": 20
+          },
+          "minHp": 0,
+          "deaths": [
+            830,
+            1285,
+            1565,
+            1811
+          ],
+          "respawns": [
+            1066,
+            1469,
+            1766
+          ]
+        }
+      },
+      "bankTimeline": [
+        {
+          "r": 922,
+          "bank": [
+            0,
+            310
+          ],
+          "id": 9,
+          "team": 1
+        },
+        {
+          "r": 1009,
+          "bank": [
+            0,
+            344
+          ],
+          "id": 9,
+          "team": 1
+        },
+        {
+          "r": 1247,
+          "bank": [
+            0,
+            374
+          ],
+          "id": 6,
+          "team": 1
+        },
+        {
+          "r": 1263,
+          "bank": [
+            0,
+            438
+          ],
+          "id": 7,
+          "team": 1
+        },
+        {
+          "r": 1367,
+          "bank": [
+            0,
+            483
+          ],
+          "id": 9,
+          "team": 1
+        },
+        {
+          "r": 1373,
+          "bank": [
+            0,
+            513
+          ],
+          "id": 6,
+          "team": 1
+        },
+        {
+          "r": 1441,
+          "bank": [
+            0,
+            562
+          ],
+          "id": 8,
+          "team": 1
+        },
+        {
+          "r": 1451,
+          "bank": [
+            0,
+            596
+          ],
+          "id": 9,
+          "team": 1
+        },
+        {
+          "r": 1467,
+          "bank": [
+            0,
+            634
+          ],
+          "id": 5,
+          "team": 1
+        },
+        {
+          "r": 1637,
+          "bank": [
+            0,
+            664
+          ],
+          "id": 9,
+          "team": 1
+        },
+        {
+          "r": 1727,
+          "bank": [
+            0,
+            683
+          ],
+          "id": 7,
+          "team": 1
+        },
+        {
+          "r": 1874,
+          "bank": [
+            0,
+            913
+          ],
+          "id": 5,
+          "team": 1
+        },
+        {
+          "r": 1984,
+          "bank": [
+            0,
+            958
+          ],
+          "id": 9,
+          "team": 1
+        }
+      ]
+    },
+    {
+      "label": "near_r73_unique20",
+      "map": "01boss_battle",
+      "opponent": "SkuBap",
+      "result": "loss",
+      "score": 0,
+      "oppScore": 1123,
+      "rounds": 1473,
+      "endBag": 0,
+      "submits": 7,
+      "potential": 73,
+      "monolith": {
+        "20": {
+          "pos": {
+            "x": 24,
+            "y": 20
+          },
+          "minHp": 0,
+          "deaths": [
+            736,
+            954,
+            1301
+          ],
+          "respawns": [
+            893,
+            1172
+          ]
+        },
+        "27": {
+          "pos": {
+            "x": 23,
+            "y": 20
+          },
+          "minHp": 0,
+          "deaths": [
+            715,
+            959,
+            1350
+          ],
+          "respawns": [
+            893,
+            1172
+          ]
+        }
+      },
+      "bankTimeline": [
+        {
+          "r": 1171,
+          "bank": [
+            125,
+            0
+          ],
+          "id": 3,
+          "team": 0
+        },
+        {
+          "r": 1315,
+          "bank": [
+            167,
+            0
+          ],
+          "id": 3,
+          "team": 0
+        },
+        {
+          "r": 1368,
+          "bank": [
+            191,
+            0
+          ],
+          "id": 4,
+          "team": 0
+        },
+        {
+          "r": 1431,
+          "bank": [
+            784,
+            0
+          ],
+          "id": 0,
+          "team": 0
+        },
+        {
+          "r": 1436,
+          "bank": [
+            814,
+            0
+          ],
+          "id": 4,
+          "team": 0
+        },
+        {
+          "r": 1447,
+          "bank": [
+            897,
+            0
+          ],
+          "id": 2,
+          "team": 0
+        },
+        {
+          "r": 1451,
+          "bank": [
+            927,
+            0
+          ],
+          "id": 3,
+          "team": 0
+        },
+        {
+          "r": 1473,
+          "bank": [
+            1123,
+            0
+          ],
+          "id": 1,
+          "team": 0
+        }
+      ]
+    },
+    {
+      "label": "near_r77_unique24",
+      "map": "00contest",
+      "opponent": "PtitLK",
+      "result": "win",
+      "score": 1000,
+      "oppScore": 0,
+      "rounds": 1302,
+      "endBag": 0,
+      "submits": 7,
+      "potential": 43,
+      "monolith": {
+        "0": {
+          "pos": {
+            "x": 17,
+            "y": 31
+          },
+          "minHp": 0,
+          "deaths": [
+            897,
+            1119
+          ],
+          "respawns": [
+            1053,
+            1275
+          ]
+        },
+        "1": {
+          "pos": {
+            "x": 32,
+            "y": 18
+          },
+          "minHp": 0,
+          "deaths": [
+            759,
+            1046,
+            1253
+          ],
+          "respawns": [
+            915,
+            1202
+          ]
+        }
+      },
+      "bankTimeline": [
+        {
+          "r": 815,
+          "bank": [
+            0,
+            200
+          ],
+          "id": 8,
+          "team": 1
+        },
+        {
+          "r": 973,
+          "bank": [
+            0,
+            400
+          ],
+          "id": 5,
+          "team": 1
+        },
+        {
+          "r": 1094,
+          "bank": [
+            0,
+            600
+          ],
+          "id": 9,
+          "team": 1
+        },
+        {
+          "r": 1173,
+          "bank": [
+            0,
+            800
+          ],
+          "id": 5,
+          "team": 1
+        },
+        {
+          "r": 1302,
+          "bank": [
+            0,
+            1000
+          ],
+          "id": 5,
+          "team": 1
+        }
+      ]
+    },
+    {
+      "label": "near_r74_unique21",
+      "map": "00contest",
+      "opponent": "Pathological liar",
+      "result": "win",
+      "score": 800,
+      "oppScore": 800,
+      "rounds": 2000,
+      "endBag": 0,
+      "submits": 16,
+      "potential": 65,
+      "monolith": {
+        "0": {
+          "pos": {
+            "x": 17,
+            "y": 31
+          },
+          "minHp": 0,
+          "deaths": [
+            796,
+            1102,
+            1379,
+            1589,
+            1787
+          ],
+          "respawns": [
+            972,
+            1258,
+            1535,
+            1746,
+            1943
+          ]
+        },
+        "1": {
+          "pos": {
+            "x": 32,
+            "y": 18
+          },
+          "minHp": 0,
+          "deaths": [
+            1178,
+            1434,
+            1709,
+            1915
+          ],
+          "respawns": [
+            1336,
+            1590,
+            1887
+          ]
+        }
+      },
+      "bankTimeline": [
+        {
+          "r": 982,
+          "bank": [
+            0,
+            200
+          ],
+          "id": 7,
+          "team": 1
+        },
+        {
+          "r": 1311,
+          "bank": [
+            0,
+            400
+          ],
+          "id": 5,
+          "team": 1
+        },
+        {
+          "r": 1346,
+          "bank": [
+            0,
+            600
+          ],
+          "id": 7,
+          "team": 1
+        },
+        {
+          "r": 1432,
+          "bank": [
+            200,
+            600
+          ],
+          "id": 3,
+          "team": 0
+        },
+        {
+          "r": 1503,
+          "bank": [
+            400,
+            600
+          ],
+          "id": 0,
+          "team": 0
+        },
+        {
+          "r": 1727,
+          "bank": [
+            400,
+            800
+          ],
+          "id": 7,
+          "team": 1
+        },
+        {
+          "r": 1890,
+          "bank": [
+            600,
+            800
+          ],
+          "id": 4,
+          "team": 0
+        },
+        {
+          "r": 1890,
+          "bank": [
+            800,
+            800
+          ],
+          "id": 0,
+          "team": 0
+        }
+      ]
+    },
+    {
+      "label": "half_r26_unique25",
+      "map": "01boss_battle",
+      "opponent": "dromedaries",
+      "result": "loss",
+      "score": 0,
+      "oppScore": 1077,
+      "rounds": 958,
+      "endBag": 45,
+      "submits": 0,
+      "potential": 0,
+      "monolith": {
+        "20": {
+          "pos": {
+            "x": 24,
+            "y": 20
+          },
+          "minHp": 0,
+          "deaths": [
+            604,
+            930
+          ],
+          "respawns": [
+            760
+          ]
+        },
+        "27": {
+          "pos": {
+            "x": 23,
+            "y": 20
+          },
+          "minHp": 0,
+          "deaths": [
+            587,
+            845
+          ],
+          "respawns": [
+            760
+          ]
+        }
+      },
+      "bankTimeline": [
+        {
+          "r": 613,
+          "bank": [
+            0,
+            272
+          ],
+          "id": 10,
+          "team": 1
+        },
+        {
+          "r": 637,
+          "bank": [
+            0,
+            472
+          ],
+          "id": 7,
+          "team": 1
+        },
+        {
+          "r": 650,
+          "bank": [
+            0,
+            578
+          ],
+          "id": 5,
+          "team": 1
+        },
+        {
+          "r": 659,
+          "bank": [
+            0,
+            635
+          ],
+          "id": 10,
+          "team": 1
+        },
+        {
+          "r": 669,
+          "bank": [
+            0,
+            665
+          ],
+          "id": 6,
+          "team": 1
+        },
+        {
+          "r": 693,
+          "bank": [
+            0,
+            709
+          ],
+          "id": 10,
+          "team": 1
+        },
+        {
+          "r": 699,
+          "bank": [
+            0,
+            749
+          ],
+          "id": 5,
+          "team": 1
+        },
+        {
+          "r": 710,
+          "bank": [
+            0,
+            779
+          ],
+          "id": 6,
+          "team": 1
+        },
+        {
+          "r": 722,
+          "bank": [
+            0,
+            809
+          ],
+          "id": 10,
+          "team": 1
+        },
+        {
+          "r": 737,
+          "bank": [
+            0,
+            828
+          ],
+          "id": 5,
+          "team": 1
+        },
+        {
+          "r": 937,
+          "bank": [
+            0,
+            877
+          ],
+          "id": 10,
+          "team": 1
+        },
+        {
+          "r": 958,
+          "bank": [
+            0,
+            1077
+          ],
+          "id": 10,
+          "team": 1
+        }
+      ]
+    },
+    {
+      "label": "half_r29_unique28",
+      "map": "01boss_battle",
+      "opponent": "Supaswag",
+      "result": "loss",
+      "score": 0,
+      "oppScore": 1243,
+      "rounds": 805,
+      "endBag": 19,
+      "submits": 0,
+      "potential": 0,
+      "monolith": {
+        "20": {
+          "pos": {
+            "x": 24,
+            "y": 20
+          },
+          "minHp": 0,
+          "deaths": [
+            718
+          ],
+          "respawns": []
+        },
+        "27": {
+          "pos": {
+            "x": 23,
+            "y": 20
+          },
+          "minHp": 0,
+          "deaths": [
+            636
+          ],
+          "respawns": []
+        }
+      },
+      "bankTimeline": [
+        {
+          "r": 805,
+          "bank": [
+            0,
+            1243
+          ],
+          "id": 9,
+          "team": 1
+        }
+      ]
+    },
+    {
+      "label": "half_r30_unique29",
+      "map": "00contest",
+      "opponent": "AlphaSlop",
+      "result": "loss",
+      "score": 800,
+      "oppScore": 1000,
+      "rounds": 1960,
+      "endBag": 0,
+      "submits": 4,
+      "potential": 0,
+      "monolith": {
+        "0": {
+          "pos": {
+            "x": 17,
+            "y": 31
+          },
+          "minHp": 0,
+          "deaths": [
+            810,
+            1291,
+            1512,
+            1750
+          ],
+          "respawns": [
+            968,
+            1449,
+            1669,
+            1908
+          ]
+        },
+        "1": {
+          "pos": {
+            "x": 32,
+            "y": 18
+          },
+          "minHp": 0,
+          "deaths": [
+            687,
+            1057,
+            1429,
+            1698,
+            1912
+          ],
+          "respawns": [
+            843,
+            1235,
+            1602,
+            1854
+          ]
+        }
+      },
+      "bankTimeline": [
+        {
+          "r": 735,
+          "bank": [
+            0,
+            200
+          ],
+          "id": 9,
+          "team": 1
+        },
+        {
+          "r": 859,
+          "bank": [
+            200,
+            200
+          ],
+          "id": 2,
+          "team": 0
+        },
+        {
+          "r": 1131,
+          "bank": [
+            200,
+            400
+          ],
+          "id": 7,
+          "team": 1
+        },
+        {
+          "r": 1339,
+          "bank": [
+            400,
+            400
+          ],
+          "id": 3,
+          "team": 0
+        },
+        {
+          "r": 1493,
+          "bank": [
+            400,
+            600
+          ],
+          "id": 9,
+          "team": 1
+        },
+        {
+          "r": 1588,
+          "bank": [
+            600,
+            600
+          ],
+          "id": 3,
+          "team": 0
+        },
+        {
+          "r": 1746,
+          "bank": [
+            600,
+            800
+          ],
+          "id": 5,
+          "team": 1
+        },
+        {
+          "r": 1827,
+          "bank": [
+            800,
+            800
+          ],
+          "id": 2,
+          "team": 0
+        },
+        {
+          "r": 1960,
+          "bank": [
+            1000,
+            800
+          ],
+          "id": 1,
+          "team": 0
+        }
+      ]
+    },
+    {
+      "label": "near_r84_unique31",
+      "map": "01boss_battle",
+      "opponent": "sudo rm -rf Imperial",
+      "result": "loss",
+      "score": 0,
+      "oppScore": 1128,
+      "rounds": 1215,
+      "endBag": 110,
+      "submits": 0,
+      "potential": 0,
+      "monolith": {
+        "20": {
+          "pos": {
+            "x": 24,
+            "y": 20
+          },
+          "minHp": 0,
+          "deaths": [
+            732,
+            1181
+          ],
+          "respawns": [
+            889
+          ]
+        },
+        "27": {
+          "pos": {
+            "x": 23,
+            "y": 20
+          },
+          "minHp": 0,
+          "deaths": [
+            699,
+            1173
+          ],
+          "respawns": [
+            889
+          ]
+        }
+      },
+      "bankTimeline": [
+        {
+          "r": 769,
+          "bank": [
+            743,
+            0
+          ],
+          "id": 4,
+          "team": 0
+        },
+        {
+          "r": 881,
+          "bank": [
+            955,
+            0
+          ],
+          "id": 3,
+          "team": 0
+        },
+        {
+          "r": 1215,
+          "bank": [
+            1128,
+            0
+          ],
+          "id": 0,
+          "team": 0
+        }
+      ]
+    },
+    {
+      "label": "half_r33_unique32",
+      "map": "00contest",
+      "opponent": "geese geese go",
+      "result": "loss",
+      "score": 400,
+      "oppScore": 1000,
+      "rounds": 1738,
+      "endBag": 0,
+      "submits": 3,
+      "potential": 0,
+      "monolith": {
+        "0": {
+          "pos": {
+            "x": 17,
+            "y": 31
+          },
+          "minHp": 0,
+          "deaths": [
+            1055,
+            1324,
+            1593
+          ],
+          "respawns": [
+            1212,
+            1481
+          ]
+        },
+        "1": {
+          "pos": {
+            "x": 32,
+            "y": 18
+          },
+          "minHp": 0,
+          "deaths": [
+            984,
+            1191,
+            1491,
+            1690
+          ],
+          "respawns": [
+            1141,
+            1351,
+            1648
+          ]
+        }
+      },
+      "bankTimeline": [
+        {
+          "r": 1039,
+          "bank": [
+            0,
+            200
+          ],
+          "id": 5,
+          "team": 1
+        },
+        {
+          "r": 1207,
+          "bank": [
+            200,
+            200
+          ],
+          "id": 1,
+          "team": 0
+        },
+        {
+          "r": 1248,
+          "bank": [
+            200,
+            400
+          ],
+          "id": 6,
+          "team": 1
+        },
+        {
+          "r": 1444,
+          "bank": [
+            400,
+            400
+          ],
+          "id": 1,
+          "team": 0
+        },
+        {
+          "r": 1540,
+          "bank": [
+            400,
+            600
+          ],
+          "id": 8,
+          "team": 1
+        },
+        {
+          "r": 1705,
+          "bank": [
+            400,
+            800
+          ],
+          "id": 5,
+          "team": 1
+        },
+        {
+          "r": 1738,
+          "bank": [
+            400,
+            1000
+          ],
+          "id": 8,
+          "team": 1
+        }
+      ]
+    },
+    {
+      "label": "near_r90_unique37",
+      "map": "01boss_battle",
+      "opponent": "error404",
+      "result": "loss",
+      "score": 0,
+      "oppScore": 1445,
+      "rounds": 983,
+      "endBag": 609,
+      "submits": 0,
+      "potential": 0,
+      "monolith": {
+        "20": {
+          "pos": {
+            "x": 24,
+            "y": 20
+          },
+          "minHp": 0,
+          "deaths": [
+            827
+          ],
+          "respawns": []
+        },
+        "27": {
+          "pos": {
+            "x": 23,
+            "y": 20
+          },
+          "minHp": 0,
+          "deaths": [
+            817
+          ],
+          "respawns": []
+        }
+      },
+      "bankTimeline": [
+        {
+          "r": 858,
+          "bank": [
+            0,
+            23
+          ],
+          "id": 9,
+          "team": 1
+        },
+        {
+          "r": 924,
+          "bank": [
+            0,
+            930
+          ],
+          "id": 5,
+          "team": 1
+        },
+        {
+          "r": 983,
+          "bank": [
+            0,
+            1445
+          ],
+          "id": 7,
+          "team": 1
+        }
+      ]
+    },
+    {
+      "label": "near_r91_unique38",
+      "map": "00contest",
+      "opponent": "y",
+      "result": "win",
+      "score": 1000,
+      "oppScore": 0,
+      "rounds": 1304,
+      "endBag": 0,
+      "submits": 8,
+      "potential": 42,
+      "monolith": {
+        "0": {
+          "pos": {
+            "x": 17,
+            "y": 31
+          },
+          "minHp": 0,
+          "deaths": [
+            680,
+            942,
+            1155
+          ],
+          "respawns": [
+            836,
+            1098
+          ]
+        },
+        "1": {
+          "pos": {
+            "x": 32,
+            "y": 18
+          },
+          "minHp": 0,
+          "deaths": [
+            1024,
+            1256
+          ],
+          "respawns": [
+            1181
+          ]
+        }
+      },
+      "bankTimeline": [
+        {
+          "r": 737,
+          "bank": [
+            200,
+            0
+          ],
+          "id": 4,
+          "team": 0
+        },
+        {
+          "r": 996,
+          "bank": [
+            400,
+            0
+          ],
+          "id": 0,
+          "team": 0
+        },
+        {
+          "r": 1100,
+          "bank": [
+            600,
+            0
+          ],
+          "id": 2,
+          "team": 0
+        },
+        {
+          "r": 1204,
+          "bank": [
+            800,
+            0
+          ],
+          "id": 0,
+          "team": 0
+        },
+        {
+          "r": 1304,
+          "bank": [
+            1000,
+            0
+          ],
+          "id": 4,
+          "team": 0
+        }
+      ]
+    },
+    {
+      "label": "near_r94_unique41",
+      "map": "00contest",
+      "opponent": "Kaizen",
+      "result": "loss",
+      "score": 200,
+      "oppScore": 1000,
+      "rounds": 1817,
+      "endBag": 0,
+      "submits": 1,
+      "potential": 0,
+      "monolith": {
+        "0": {
+          "pos": {
+            "x": 17,
+            "y": 31
+          },
+          "minHp": 0,
+          "deaths": [
+            1150,
+            1539,
+            1768
+          ],
+          "respawns": [
+            1306,
+            1698
+          ]
+        },
+        "1": {
+          "pos": {
+            "x": 32,
+            "y": 18
+          },
+          "minHp": 0,
+          "deaths": [
+            990,
+            1365,
+            1620
+          ],
+          "respawns": [
+            1146,
+            1522,
+            1777
+          ]
+        }
+      },
+      "bankTimeline": [
+        {
+          "r": 1086,
+          "bank": [
+            200,
+            0
+          ],
+          "id": 2,
+          "team": 0
+        },
+        {
+          "r": 1202,
+          "bank": [
+            200,
+            200
+          ],
+          "id": 8,
+          "team": 1
+        },
+        {
+          "r": 1424,
+          "bank": [
+            400,
+            200
+          ],
+          "id": 4,
+          "team": 0
+        },
+        {
+          "r": 1595,
+          "bank": [
+            600,
+            200
+          ],
+          "id": 1,
+          "team": 0
+        },
+        {
+          "r": 1673,
+          "bank": [
+            800,
+            200
+          ],
+          "id": 0,
+          "team": 0
+        },
+        {
+          "r": 1817,
+          "bank": [
+            1000,
+            200
+          ],
+          "id": 2,
+          "team": 0
+        }
+      ]
+    },
+    {
+      "label": "near_r93_unique40",
+      "map": "01boss_battle",
+      "opponent": "Danger Bille",
+      "result": "loss",
+      "score": 309,
+      "oppScore": 1095,
+      "rounds": 1947,
+      "endBag": 121,
+      "submits": 6,
+      "potential": 146,
+      "monolith": {
+        "20": {
+          "pos": {
+            "x": 24,
+            "y": 20
+          },
+          "minHp": 0,
+          "deaths": [
+            1006,
+            1385,
+            1702,
+            1939
+          ],
+          "respawns": [
+            1164,
+            1574,
+            1893
+          ]
+        },
+        "27": {
+          "pos": {
+            "x": 23,
+            "y": 20
+          },
+          "minHp": 0,
+          "deaths": [
+            902,
+            1352,
+            1675,
+            1923
+          ],
+          "respawns": [
+            1164,
+            1574,
+            1893
+          ]
+        }
+      },
+      "bankTimeline": [
+        {
+          "r": 1013,
+          "bank": [
+            39,
+            0
+          ],
+          "id": 1,
+          "team": 0
+        },
+        {
+          "r": 1061,
+          "bank": [
+            77,
+            0
+          ],
+          "id": 3,
+          "team": 0
+        },
+        {
+          "r": 1112,
+          "bank": [
+            122,
+            0
+          ],
+          "id": 4,
+          "team": 0
+        },
+        {
+          "r": 1395,
+          "bank": [
+            122,
+            249
+          ],
+          "id": 9,
+          "team": 1
+        },
+        {
+          "r": 1417,
+          "bank": [
+            122,
+            279
+          ],
+          "id": 7,
+          "team": 1
+        },
+        {
+          "r": 1453,
+          "bank": [
+            141,
+            279
+          ],
+          "id": 3,
+          "team": 0
+        },
+        {
+          "r": 1458,
+          "bank": [
+            175,
+            279
+          ],
+          "id": 2,
+          "team": 0
+        },
+        {
+          "r": 1484,
+          "bank": [
+            424,
+            279
+          ],
+          "id": 0,
+          "team": 0
+        },
+        {
+          "r": 1503,
+          "bank": [
+            454,
+            279
+          ],
+          "id": 2,
+          "team": 0
+        },
+        {
+          "r": 1573,
+          "bank": [
+            454,
+            309
+          ],
+          "id": 8,
+          "team": 1
+        },
+        {
+          "r": 1726,
+          "bank": [
+            512,
+            309
+          ],
+          "id": 3,
+          "team": 0
+        },
+        {
+          "r": 1742,
+          "bank": [
+            542,
+            309
+          ],
+          "id": 4,
+          "team": 0
+        },
+        {
+          "r": 1749,
+          "bank": [
+            572,
+            309
+          ],
+          "id": 2,
+          "team": 0
+        },
+        {
+          "r": 1774,
+          "bank": [
+            763,
+            309
+          ],
+          "id": 0,
+          "team": 0
+        },
+        {
+          "r": 1791,
+          "bank": [
+            823,
+            309
+          ],
+          "id": 4,
+          "team": 0
+        },
+        {
+          "r": 1803,
+          "bank": [
+            853,
+            309
+          ],
+          "id": 2,
+          "team": 0
+        },
+        {
+          "r": 1947,
+          "bank": [
+            1095,
+            309
+          ],
+          "id": 2,
+          "team": 0
+        }
+      ]
+    },
+    {
+      "label": "near_r97_unique44",
+      "map": "00contest",
+      "opponent": "Velvet TributersAjay_2705",
+      "result": "loss",
+      "score": 200,
+      "oppScore": 1000,
+      "rounds": 1643,
+      "endBag": 0,
+      "submits": 1,
+      "potential": 0,
+      "monolith": {
+        "0": {
+          "pos": {
+            "x": 17,
+            "y": 31
+          },
+          "minHp": 0,
+          "deaths": [
+            873,
+            1239,
+            1469
+          ],
+          "respawns": [
+            1030,
+            1396,
+            1625
+          ]
+        },
+        "1": {
+          "pos": {
+            "x": 32,
+            "y": 18
+          },
+          "minHp": 0,
+          "deaths": [
+            1059,
+            1333,
+            1602
+          ],
+          "respawns": [
+            1235,
+            1490
+          ]
+        }
+      },
+      "bankTimeline": [
+        {
+          "r": 986,
+          "bank": [
+            0,
+            200
+          ],
+          "id": 7,
+          "team": 1
+        },
+        {
+          "r": 1279,
+          "bank": [
+            200,
+            200
+          ],
+          "id": 1,
+          "team": 0
+        },
+        {
+          "r": 1281,
+          "bank": [
+            400,
+            200
+          ],
+          "id": 2,
+          "team": 0
+        },
+        {
+          "r": 1415,
+          "bank": [
+            600,
+            200
+          ],
+          "id": 2,
+          "team": 0
+        },
+        {
+          "r": 1558,
+          "bank": [
+            800,
+            200
+          ],
+          "id": 3,
+          "team": 0
+        },
+        {
+          "r": 1643,
+          "bank": [
+            1000,
+            200
+          ],
+          "id": 0,
+          "team": 0
+        }
+      ]
+    },
+    {
+      "label": "half_r46_unique45",
+      "map": "01boss_battle",
+      "opponent": "Hidden Altar Keepers",
+      "result": "loss",
+      "score": 366,
+      "oppScore": 1295,
+      "rounds": 1444,
+      "endBag": 322,
+      "submits": 6,
+      "potential": 24,
+      "monolith": {
+        "20": {
+          "pos": {
+            "x": 24,
+            "y": 20
+          },
+          "minHp": 0,
+          "deaths": [
+            907,
+            1273
+          ],
+          "respawns": [
+            1094
+          ]
+        },
+        "27": {
+          "pos": {
+            "x": 23,
+            "y": 20
+          },
+          "minHp": 0,
+          "deaths": [
+            897,
+            1264
+          ],
+          "respawns": [
+            1094
+          ]
+        }
+      },
+      "bankTimeline": [
+        {
+          "r": 920,
+          "bank": [
+            0,
+            306
+          ],
+          "id": 7,
+          "team": 1
+        },
+        {
+          "r": 974,
+          "bank": [
+            81,
+            306
+          ],
+          "id": 1,
+          "team": 0
+        },
+        {
+          "r": 1012,
+          "bank": [
+            81,
+            336
+          ],
+          "id": 7,
+          "team": 1
+        },
+        {
+          "r": 1093,
+          "bank": [
+            413,
+            336
+          ],
+          "id": 3,
+          "team": 0
+        },
+        {
+          "r": 1299,
+          "bank": [
+            413,
+            366
+          ],
+          "id": 6,
+          "team": 1
+        },
+        {
+          "r": 1357,
+          "bank": [
+            462,
+            366
+          ],
+          "id": 1,
+          "team": 0
+        },
+        {
+          "r": 1444,
+          "bank": [
+            1295,
+            366
+          ],
+          "id": 4,
+          "team": 0
+        }
+      ]
+    },
+    {
+      "label": "half_r50_unique48",
+      "map": "01boss_battle",
+      "opponent": "SkibidiSloppers",
+      "result": "win",
+      "score": 1179,
+      "oppScore": 868,
+      "rounds": 1615,
+      "endBag": 79,
+      "submits": 15,
+      "potential": 287,
+      "monolith": {
+        "20": {
+          "pos": {
+            "x": 24,
+            "y": 20
+          },
+          "minHp": 0,
+          "deaths": [
+            884,
+            1193,
+            1554
+          ],
+          "respawns": [
+            1056,
+            1454
+          ]
+        },
+        "27": {
+          "pos": {
+            "x": 23,
+            "y": 20
+          },
+          "minHp": 0,
+          "deaths": [
+            798,
+            1290,
+            1528
+          ],
+          "respawns": [
+            1056,
+            1454
+          ]
+        }
+      },
+      "bankTimeline": [
+        {
+          "r": 892,
+          "bank": [
+            271,
+            0
+          ],
+          "id": 0,
+          "team": 0
+        },
+        {
+          "r": 923,
+          "bank": [
+            558,
+            0
+          ],
+          "id": 3,
+          "team": 0
+        },
+        {
+          "r": 935,
+          "bank": [
+            598,
+            0
+          ],
+          "id": 1,
+          "team": 0
+        },
+        {
+          "r": 957,
+          "bank": [
+            746,
+            0
+          ],
+          "id": 2,
+          "team": 0
+        },
+        {
+          "r": 965,
+          "bank": [
+            776,
+            0
+          ],
+          "id": 0,
+          "team": 0
+        },
+        {
+          "r": 1055,
+          "bank": [
+            776,
+            664
+          ],
+          "id": 5,
+          "team": 1
+        },
+        {
+          "r": 1200,
+          "bank": [
+            791,
+            664
+          ],
+          "id": 2,
+          "team": 0
+        },
+        {
+          "r": 1206,
+          "bank": [
+            806,
+            664
+          ],
+          "id": 3,
+          "team": 0
+        },
+        {
+          "r": 1258,
+          "bank": [
+            806,
+            868
+          ],
+          "id": 5,
+          "team": 1
+        },
+        {
+          "r": 1571,
+          "bank": [
+            836,
+            868
+          ],
+          "id": 2,
+          "team": 0
+        },
+        {
+          "r": 1580,
+          "bank": [
+            915,
+            868
+          ],
+          "id": 1,
+          "team": 0
+        },
+        {
+          "r": 1615,
+          "bank": [
+            1179,
+            868
+          ],
+          "id": 3,
+          "team": 0
+        }
+      ]
+    },
+    {
+      "label": "half_r51_unique49",
+      "map": "00contest",
+      "opponent": "2/27TELEVIZR+1/6EIT",
+      "result": "win",
+      "score": 1000,
+      "oppScore": 0,
+      "rounds": 1091,
+      "endBag": 0,
+      "submits": 8,
+      "potential": 49,
+      "monolith": {
+        "0": {
+          "pos": {
+            "x": 17,
+            "y": 31
+          },
+          "minHp": 0,
+          "deaths": [
+            535,
+            794,
+            974
+          ],
+          "respawns": [
+            692,
+            950
+          ]
+        },
+        "1": {
+          "pos": {
+            "x": 32,
+            "y": 18
+          },
+          "minHp": 0,
+          "deaths": [
+            847,
+            1036
+          ],
+          "respawns": [
+            1003
+          ]
+        }
+      },
+      "bankTimeline": [
+        {
+          "r": 610,
+          "bank": [
+            200,
+            0
+          ],
+          "id": 1,
+          "team": 0
+        },
+        {
+          "r": 850,
+          "bank": [
+            400,
+            0
+          ],
+          "id": 3,
+          "team": 0
+        },
+        {
+          "r": 902,
+          "bank": [
+            600,
+            0
+          ],
+          "id": 2,
+          "team": 0
+        },
+        {
+          "r": 1053,
+          "bank": [
+            800,
+            0
+          ],
+          "id": 0,
+          "team": 0
+        },
+        {
+          "r": 1091,
+          "bank": [
+            1000,
+            0
+          ],
+          "id": 2,
+          "team": 0
+        }
+      ]
+    }
+  ],
+  "stranded": [
+    {
+      "label": "near_r73_unique20",
+      "map": "01boss_battle",
+      "score": 0,
+      "oppScore": 1123,
+      "bag": 0,
+      "potential": 73
+    },
+    {
+      "label": "near_r93_unique40",
+      "map": "01boss_battle",
+      "score": 309,
+      "oppScore": 1095,
+      "bag": 121,
+      "potential": 146
+    }
+  ]
+}

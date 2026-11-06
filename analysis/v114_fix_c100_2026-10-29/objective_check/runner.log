@@ -1,0 +1,327 @@
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe0614f1-base
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/dmitt/Library/Caches/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe0614f1-base/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe0614f1-base/src/main.cpp.obj
+[2/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe0614f1-base/src/draft.cpp.obj
+[3/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe0614f1-base/src/bot.cpp.obj
+[4/5] Linking CXX executable bot.wasm
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/v114
+v114 is up to date
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/fish62_f84
+fish62_f84 is up to date
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/tm30_f84
+tm30_f84 is up to date
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe0614f1-commit
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/dmitt/Library/Caches/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe0614f1-commit/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe0614f1-commit/src/main.cpp.obj
+[2/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe0614f1-commit/src/draft.cpp.obj
+[3/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe0614f1-commit/src/bot.cpp.obj
+[4/5] Linking CXX executable bot.wasm
+[|] STARTING  fe0614f1-base vs v114  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/v114/01boss-battle/a.repl26a
+[|] STARTING  v114 vs fe0614f1-base  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/v114/01boss-battle/b.repl26a
+[|] STARTING  fe0614f1-base vs v114  02guardians
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/v114/02guardians/a.repl26a
+[|] STARTING  v114 vs fe0614f1-base  02guardians
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/v114/02guardians/b.repl26a
+[|] STARTING  fe0614f1-base vs v114  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/v114/02treasure-box/a.repl26a
+[|] STARTING  v114 vs fe0614f1-base  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/v114/02treasure-box/b.repl26a
+[+] TEAM B WIN (fe0614f1-base)  v114 vs fe0614f1-base  02guardians  Round 1729/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/v114/02guardians/b.repl26a
+[|] STARTING  fe0614f1-base vs v114  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/v114/00lanes/a.repl26a
+[+] TEAM B WIN (v114)  fe0614f1-base vs v114  01boss-battle  Round 1087/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/v114/01boss-battle/a.repl26a
+[+] TEAM B WIN (fe0614f1-base)  v114 vs fe0614f1-base  01boss-battle  Round 1027/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/v114/01boss-battle/b.repl26a
+[+] TEAM A WIN (fe0614f1-base)  fe0614f1-base vs v114  02guardians  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/v114/02guardians/a.repl26a
+[+] TEAM B WIN (v114)  fe0614f1-base vs v114  02treasure-box  Round 1488/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/v114/02treasure-box/a.repl26a
+[+] TEAM B WIN (fe0614f1-base)  v114 vs fe0614f1-base  02treasure-box  Round 1330/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/v114/02treasure-box/b.repl26a
+[|] STARTING  v114 vs fe0614f1-base  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/v114/00lanes/b.repl26a
+[|] STARTING  fe0614f1-base vs v114  00the-line
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/v114/00the-line/a.repl26a
+[|] STARTING  v114 vs fe0614f1-base  00the-line
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/v114/00the-line/b.repl26a
+[|] STARTING  fe0614f1-base vs v114  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/v114/02cuts/a.repl26a
+[|] STARTING  v114 vs fe0614f1-base  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/v114/02cuts/b.repl26a
+[+] TEAM A WIN (fe0614f1-base)  fe0614f1-base vs v114  00the-line  Round 1099/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/v114/00the-line/a.repl26a
+[+] TEAM A WIN (v114)  v114 vs fe0614f1-base  00the-line  Round 0983/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/v114/00the-line/b.repl26a
+[|] STARTING  fe0614f1-base vs fish62_f84  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/fish62_f84/01boss-battle/a.repl26a
+[|] STARTING  fish62_f84 vs fe0614f1-base  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/fish62_f84/01boss-battle/b.repl26a
+[+] TEAM A WIN (fe0614f1-base)  fe0614f1-base vs v114  00lanes  Round 1301/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/v114/00lanes/a.repl26a
+[+] TEAM B WIN (v114)  fe0614f1-base vs v114  02cuts  Round 1012/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/v114/02cuts/a.repl26a
+[+] TEAM A WIN (v114)  v114 vs fe0614f1-base  02cuts  Round 1039/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/v114/02cuts/b.repl26a
+[|] STARTING  fe0614f1-base vs fish62_f84  02guardians
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/fish62_f84/02guardians/a.repl26a
+[|] STARTING  fish62_f84 vs fe0614f1-base  02guardians
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/fish62_f84/02guardians/b.repl26a
+[|] STARTING  fe0614f1-base vs fish62_f84  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/fish62_f84/02treasure-box/a.repl26a
+[+] TEAM B WIN (fe0614f1-base)  v114 vs fe0614f1-base  00lanes  Round 1269/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/v114/00lanes/b.repl26a
+[|] STARTING  fish62_f84 vs fe0614f1-base  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/fish62_f84/02treasure-box/b.repl26a
+[+] TEAM A WIN (fe0614f1-base)  fe0614f1-base vs fish62_f84  02guardians  Round 1378/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/fish62_f84/02guardians/a.repl26a
+[|] STARTING  fe0614f1-base vs fish62_f84  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/fish62_f84/00lanes/a.repl26a
+[+] TEAM B WIN (fish62_f84)  fe0614f1-base vs fish62_f84  01boss-battle  Round 1518/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/fish62_f84/01boss-battle/a.repl26a
+[+] TEAM B WIN (fe0614f1-base)  fish62_f84 vs fe0614f1-base  01boss-battle  Round 1160/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/fish62_f84/01boss-battle/b.repl26a
+[+] TEAM B WIN (fe0614f1-base)  fish62_f84 vs fe0614f1-base  02guardians  Round 1569/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/fish62_f84/02guardians/b.repl26a
+[+] TEAM A WIN (fish62_f84)  fish62_f84 vs fe0614f1-base  02treasure-box  Round 1173/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/fish62_f84/02treasure-box/b.repl26a
+[|] STARTING  fish62_f84 vs fe0614f1-base  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/fish62_f84/00lanes/b.repl26a
+[|] STARTING  fe0614f1-base vs fish62_f84  00the-line
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/fish62_f84/00the-line/a.repl26a
+[|] STARTING  fish62_f84 vs fe0614f1-base  00the-line
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/fish62_f84/00the-line/b.repl26a
+[|] STARTING  fe0614f1-base vs fish62_f84  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/fish62_f84/02cuts/a.repl26a
+[+] TEAM A WIN (fe0614f1-base)  fe0614f1-base vs fish62_f84  02treasure-box  Round 1463/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/fish62_f84/02treasure-box/a.repl26a
+[|] STARTING  fish62_f84 vs fe0614f1-base  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/fish62_f84/02cuts/b.repl26a
+[+] TEAM A WIN (fe0614f1-base)  fe0614f1-base vs fish62_f84  00the-line  Round 1032/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/fish62_f84/00the-line/a.repl26a
+[+] TEAM A WIN (fish62_f84)  fish62_f84 vs fe0614f1-base  00the-line  Round 1149/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/fish62_f84/00the-line/b.repl26a
+[|] STARTING  fe0614f1-base vs tm30_f84  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/tm30_f84/01boss-battle/a.repl26a
+[|] STARTING  tm30_f84 vs fe0614f1-base  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/tm30_f84/01boss-battle/b.repl26a
+[+] TEAM A WIN (fe0614f1-base)  fe0614f1-base vs fish62_f84  02cuts  Round 1015/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/fish62_f84/02cuts/a.repl26a
+[+] TEAM B WIN (fe0614f1-base)  fish62_f84 vs fe0614f1-base  02cuts  Round 1052/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/fish62_f84/02cuts/b.repl26a
+[|] STARTING  fe0614f1-base vs tm30_f84  02guardians
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/tm30_f84/02guardians/a.repl26a
+[|] STARTING  tm30_f84 vs fe0614f1-base  02guardians
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/tm30_f84/02guardians/b.repl26a
+[+] TEAM A WIN (fe0614f1-base)  fe0614f1-base vs fish62_f84  00lanes  Round 1274/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/fish62_f84/00lanes/a.repl26a
+[|] STARTING  fe0614f1-base vs tm30_f84  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/tm30_f84/02treasure-box/a.repl26a
+[+] TEAM A WIN (fish62_f84)  fish62_f84 vs fe0614f1-base  00lanes  Round 1202/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/fish62_f84/00lanes/b.repl26a
+[|] STARTING  tm30_f84 vs fe0614f1-base  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/tm30_f84/02treasure-box/b.repl26a
+[+] TEAM B WIN (fe0614f1-base)  tm30_f84 vs fe0614f1-base  02guardians  Round 1042/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/tm30_f84/02guardians/b.repl26a
+[|] STARTING  fe0614f1-base vs tm30_f84  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/tm30_f84/00lanes/a.repl26a
+[+] TEAM A WIN (fe0614f1-base)  fe0614f1-base vs tm30_f84  02guardians  Round 1094/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/tm30_f84/02guardians/a.repl26a
+[+] TEAM A WIN (fe0614f1-base)  fe0614f1-base vs tm30_f84  02treasure-box  Round 0949/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/tm30_f84/02treasure-box/a.repl26a
+[|] STARTING  tm30_f84 vs fe0614f1-base  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/tm30_f84/00lanes/b.repl26a
+[|] STARTING  fe0614f1-base vs tm30_f84  00the-line
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/tm30_f84/00the-line/a.repl26a
+[+] TEAM B WIN (fe0614f1-base)  tm30_f84 vs fe0614f1-base  01boss-battle  Round 1133/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/tm30_f84/01boss-battle/b.repl26a
+[|] STARTING  tm30_f84 vs fe0614f1-base  00the-line
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/tm30_f84/00the-line/b.repl26a
+[+] TEAM B WIN (tm30_f84)  fe0614f1-base vs tm30_f84  01boss-battle  Round 1768/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/tm30_f84/01boss-battle/a.repl26a
+[|] STARTING  fe0614f1-base vs tm30_f84  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/tm30_f84/02cuts/a.repl26a
+[+] TEAM A WIN (fe0614f1-base)  fe0614f1-base vs tm30_f84  00the-line  Round 0689/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/tm30_f84/00the-line/a.repl26a
+[|] STARTING  tm30_f84 vs fe0614f1-base  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/tm30_f84/02cuts/b.repl26a
+[+] TEAM B WIN (fe0614f1-base)  tm30_f84 vs fe0614f1-base  00the-line  Round 1342/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/tm30_f84/00the-line/b.repl26a
+[|] STARTING  fe0614f1-commit vs v114  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/v114/01boss-battle/a.repl26a
+[+] TEAM A WIN (fe0614f1-base)  fe0614f1-base vs tm30_f84  00lanes  Round 1378/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/tm30_f84/00lanes/a.repl26a
+[|] STARTING  v114 vs fe0614f1-commit  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/v114/01boss-battle/b.repl26a
+[+] TEAM B WIN (fe0614f1-base)  tm30_f84 vs fe0614f1-base  00lanes  Round 1427/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/tm30_f84/00lanes/b.repl26a
+[|] STARTING  fe0614f1-commit vs v114  02guardians
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/v114/02guardians/a.repl26a
+[+] TEAM A WIN (fe0614f1-base)  fe0614f1-base vs tm30_f84  02cuts  Round 1206/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/tm30_f84/02cuts/a.repl26a
+[|] STARTING  v114 vs fe0614f1-commit  02guardians
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/v114/02guardians/b.repl26a
+[+] TEAM B WIN (fe0614f1-base)  tm30_f84 vs fe0614f1-base  02treasure-box  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/tm30_f84/02treasure-box/b.repl26a
+[+] TEAM B WIN (fe0614f1-base)  tm30_f84 vs fe0614f1-base  02cuts  Round 1118/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/base/tm30_f84/02cuts/b.repl26a
+[|] STARTING  fe0614f1-commit vs v114  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/v114/02treasure-box/a.repl26a
+[|] STARTING  v114 vs fe0614f1-commit  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/v114/02treasure-box/b.repl26a
+[+] TEAM B WIN (fe0614f1-commit)  v114 vs fe0614f1-commit  01boss-battle  Round 0811/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/v114/01boss-battle/b.repl26a
+[+] TEAM A WIN (fe0614f1-commit)  fe0614f1-commit vs v114  02guardians  Round 1288/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/v114/02guardians/a.repl26a
+[|] STARTING  fe0614f1-commit vs v114  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/v114/00lanes/a.repl26a
+[|] STARTING  v114 vs fe0614f1-commit  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/v114/00lanes/b.repl26a
+[+] TEAM A WIN (fe0614f1-commit)  fe0614f1-commit vs v114  01boss-battle  Round 1847/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/v114/01boss-battle/a.repl26a
+[|] STARTING  fe0614f1-commit vs v114  00the-line
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/v114/00the-line/a.repl26a
+[+] TEAM A WIN (v114)  v114 vs fe0614f1-commit  02guardians  Round 1497/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/v114/02guardians/b.repl26a
+[|] STARTING  v114 vs fe0614f1-commit  00the-line
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/v114/00the-line/b.repl26a
+[+] TEAM B WIN (fe0614f1-commit)  v114 vs fe0614f1-commit  02treasure-box  Round 1131/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/v114/02treasure-box/b.repl26a
+[|] STARTING  fe0614f1-commit vs v114  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/v114/02cuts/a.repl26a
+[+] TEAM B WIN (v114)  fe0614f1-commit vs v114  02treasure-box  Round 1488/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/v114/02treasure-box/a.repl26a
+[|] STARTING  v114 vs fe0614f1-commit  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/v114/02cuts/b.repl26a
+[+] TEAM A WIN (fe0614f1-commit)  fe0614f1-commit vs v114  00the-line  Round 1099/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/v114/00the-line/a.repl26a
+[|] STARTING  fe0614f1-commit vs fish62_f84  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/fish62_f84/01boss-battle/a.repl26a
+[+] TEAM A WIN (v114)  v114 vs fe0614f1-commit  00the-line  Round 0983/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/v114/00the-line/b.repl26a
+[|] STARTING  fish62_f84 vs fe0614f1-commit  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/fish62_f84/01boss-battle/b.repl26a
+[+] TEAM B WIN (fe0614f1-commit)  v114 vs fe0614f1-commit  00lanes  Round 1269/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/v114/00lanes/b.repl26a
+[|] STARTING  fe0614f1-commit vs fish62_f84  02guardians
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/fish62_f84/02guardians/a.repl26a
+[+] TEAM A WIN (fe0614f1-commit)  fe0614f1-commit vs v114  00lanes  Round 1301/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/v114/00lanes/a.repl26a
+[|] STARTING  fish62_f84 vs fe0614f1-commit  02guardians
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/fish62_f84/02guardians/b.repl26a
+[+] TEAM B WIN (v114)  fe0614f1-commit vs v114  02cuts  Round 1012/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/v114/02cuts/a.repl26a
+[|] STARTING  fe0614f1-commit vs fish62_f84  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/fish62_f84/02treasure-box/a.repl26a
+[+] TEAM A WIN (fe0614f1-commit)  fe0614f1-commit vs fish62_f84  01boss-battle  Round 0809/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/fish62_f84/01boss-battle/a.repl26a
+[|] STARTING  fish62_f84 vs fe0614f1-commit  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/fish62_f84/02treasure-box/b.repl26a
+[+] TEAM A WIN (v114)  v114 vs fe0614f1-commit  02cuts  Round 1039/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/v114/02cuts/b.repl26a
+[|] STARTING  fe0614f1-commit vs fish62_f84  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/fish62_f84/00lanes/a.repl26a
+[+] TEAM B WIN (fe0614f1-commit)  fish62_f84 vs fe0614f1-commit  01boss-battle  Round 0889/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/fish62_f84/01boss-battle/b.repl26a
+[|] STARTING  fish62_f84 vs fe0614f1-commit  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/fish62_f84/00lanes/b.repl26a
+[+] TEAM B WIN (fe0614f1-commit)  fish62_f84 vs fe0614f1-commit  02guardians  Round 1257/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/fish62_f84/02guardians/b.repl26a
+[|] STARTING  fe0614f1-commit vs fish62_f84  00the-line
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/fish62_f84/00the-line/a.repl26a
+[+] TEAM A WIN (fe0614f1-commit)  fe0614f1-commit vs fish62_f84  02guardians  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/fish62_f84/02guardians/a.repl26a
+[|] STARTING  fish62_f84 vs fe0614f1-commit  00the-line
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/fish62_f84/00the-line/b.repl26a
+[+] TEAM A WIN (fish62_f84)  fish62_f84 vs fe0614f1-commit  02treasure-box  Round 1173/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/fish62_f84/02treasure-box/b.repl26a
+[|] STARTING  fe0614f1-commit vs fish62_f84  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/fish62_f84/02cuts/a.repl26a
+[+] TEAM A WIN (fe0614f1-commit)  fe0614f1-commit vs fish62_f84  02treasure-box  Round 1463/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/fish62_f84/02treasure-box/a.repl26a
+[+] TEAM A WIN (fe0614f1-commit)  fe0614f1-commit vs fish62_f84  00the-line  Round 1032/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/fish62_f84/00the-line/a.repl26a
+[|] STARTING  fish62_f84 vs fe0614f1-commit  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/fish62_f84/02cuts/b.repl26a
+[|] STARTING  fe0614f1-commit vs tm30_f84  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/tm30_f84/01boss-battle/a.repl26a
+[+] TEAM A WIN (fe0614f1-commit)  fe0614f1-commit vs fish62_f84  00lanes  Round 1274/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/fish62_f84/00lanes/a.repl26a
+[|] STARTING  tm30_f84 vs fe0614f1-commit  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/tm30_f84/01boss-battle/b.repl26a
+[+] TEAM A WIN (fish62_f84)  fish62_f84 vs fe0614f1-commit  00lanes  Round 1202/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/fish62_f84/00lanes/b.repl26a
+[+] TEAM A WIN (fish62_f84)  fish62_f84 vs fe0614f1-commit  00the-line  Round 1149/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/fish62_f84/00the-line/b.repl26a
+[|] STARTING  fe0614f1-commit vs tm30_f84  02guardians
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/tm30_f84/02guardians/a.repl26a
+[|] STARTING  tm30_f84 vs fe0614f1-commit  02guardians
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/tm30_f84/02guardians/b.repl26a
+[+] TEAM A WIN (fe0614f1-commit)  fe0614f1-commit vs fish62_f84  02cuts  Round 1015/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/fish62_f84/02cuts/a.repl26a
+[|] STARTING  fe0614f1-commit vs tm30_f84  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/tm30_f84/02treasure-box/a.repl26a
+[+] TEAM B WIN (fe0614f1-commit)  fish62_f84 vs fe0614f1-commit  02cuts  Round 1052/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/fish62_f84/02cuts/b.repl26a
+[+] TEAM A WIN (fe0614f1-commit)  fe0614f1-commit vs tm30_f84  01boss-battle  Round 0951/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/tm30_f84/01boss-battle/a.repl26a
+[|] STARTING  tm30_f84 vs fe0614f1-commit  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/tm30_f84/02treasure-box/b.repl26a
+[|] STARTING  fe0614f1-commit vs tm30_f84  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/tm30_f84/00lanes/a.repl26a
+[+] TEAM B WIN (fe0614f1-commit)  tm30_f84 vs fe0614f1-commit  01boss-battle  Round 0723/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/tm30_f84/01boss-battle/b.repl26a
+[|] STARTING  tm30_f84 vs fe0614f1-commit  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/tm30_f84/00lanes/b.repl26a
+[+] TEAM A WIN (fe0614f1-commit)  fe0614f1-commit vs tm30_f84  02guardians  Round 1130/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/tm30_f84/02guardians/a.repl26a
+[+] TEAM B WIN (fe0614f1-commit)  tm30_f84 vs fe0614f1-commit  02guardians  Round 1022/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/tm30_f84/02guardians/b.repl26a
+[|] STARTING  fe0614f1-commit vs tm30_f84  00the-line
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/tm30_f84/00the-line/a.repl26a
+[|] STARTING  tm30_f84 vs fe0614f1-commit  00the-line
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/tm30_f84/00the-line/b.repl26a
+[+] TEAM A WIN (fe0614f1-commit)  fe0614f1-commit vs tm30_f84  02treasure-box  Round 0949/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/tm30_f84/02treasure-box/a.repl26a
+[|] STARTING  fe0614f1-commit vs tm30_f84  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/tm30_f84/02cuts/a.repl26a
+[+] TEAM A WIN (fe0614f1-commit)  fe0614f1-commit vs tm30_f84  00the-line  Round 0689/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/tm30_f84/00the-line/a.repl26a
+[|] STARTING  tm30_f84 vs fe0614f1-commit  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/tm30_f84/02cuts/b.repl26a
+[+] TEAM B WIN (fe0614f1-commit)  tm30_f84 vs fe0614f1-commit  00the-line  Round 1342/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/tm30_f84/00the-line/b.repl26a
+[+] TEAM A WIN (fe0614f1-commit)  fe0614f1-commit vs tm30_f84  00lanes  Round 1371/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/tm30_f84/00lanes/a.repl26a
+[+] TEAM B WIN (fe0614f1-commit)  tm30_f84 vs fe0614f1-commit  00lanes  Round 1427/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/tm30_f84/00lanes/b.repl26a
+[+] TEAM A WIN (fe0614f1-commit)  fe0614f1-commit vs tm30_f84  02cuts  Round 1206/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/tm30_f84/02cuts/a.repl26a
+[+] TEAM B WIN (fe0614f1-commit)  tm30_f84 vs fe0614f1-commit  02treasure-box  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/tm30_f84/02treasure-box/b.repl26a
+[+] TEAM B WIN (fe0614f1-commit)  tm30_f84 vs fe0614f1-commit  02cuts  Round 1118/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/objective_check/games/commit/tm30_f84/02cuts/b.repl26a
+Finished: 72 replay bundles saved, 0 failed
+injected 0 checks into 0 functions
+injected 0 checks into 0 functions

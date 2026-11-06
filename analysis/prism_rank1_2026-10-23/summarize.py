@@ -1,0 +1,18 @@
+from pathlib import Path
+import json,statistics,collections
+p=Path(__file__).parent;d=json.loads((p/'native.json').read_text());rows=d['rows'];allturns=[]
+summary=[];roleagg=collections.defaultdict(collections.Counter)
+for r in sorted(rows,key=lambda r:(r['groupOrder'],r['map'])):
+ us=r['us'];roles=[z for z in r['roles'] if z['team']==us];pr=next(z for z in roles if z['type']=='Prism');ts=r['prismTurns'];allturns+=ts
+ q={'matchId':r['matchId'],'map':r['map'],'opponent':r['opponent'],'win':r['result']=='win','score':[r['score'],r['oppScore']],'rounds':r['rounds'],'prismGemsCaptured':pr['gemsCaptured'],'teamGemsCaptured':sum(z['gemsCaptured'] for z in roles),'prismGoldShare':round(pr['goldCaptured']/max(1,sum(z['goldCaptured'] for z in roles)),3),'prismBanked':pr['gemsBanked'],'prismDeaths':pr['deaths'],'prismGemsLost':pr['gemsLost'],'prismStolen':pr['gemsStolen'],'prismMaxBag':max((t['bag'] for t in ts),default=0),'prismMaxFocus':max((t['focus'] for t in ts),default=0),'prismFocusResidualMax':max((abs(t['focusResidual']) for t in ts),default=0),'prismMedianBag':statistics.median(t['bag'] for t in ts),'prismMedianHp':statistics.median(t['maxHp'] for t in ts),'nearestAllyWithin5':sum(t['nearestAlly']<=5 for t in ts)/max(1,len(ts)),'bankAttempts':pr['bankAttempts'],'banks':[b for b in r['banking'] if b['team']==us and b['type']=='Prism'],'firstBuys':pr['buys'][:12],'finalItems':next(c['items'] for c in r['final'] if c['type']=='Prism' and c['team']==us),'first100':next((t['r'] for t in ts if t['bag']>=100),None),'first300':next((t['r'] for t in ts if t['bag']>=300),None),'first500':next((t['r'] for t in ts if t['bag']>=500),None),'prismDamage':[pr['campDamage'],pr['enemyDamage']],'teamDamage':[sum(z['campDamage'] for z in roles),sum(z['enemyDamage'] for z in roles)],'checkpoints':{k:next((c for c in v['champions'] if c['team']==us and c['type']=='Prism'),None) for k,v in r['checkpoints'].items()},'prismTurns':len(ts)}
+ summary.append(q)
+ for z in roles:
+  a=roleagg[z['type']];a['games']+=1
+  for k in ['goldCaptured','gemsCaptured','gemsBanked','deaths','gemsLost','gemsStolen','campDamage','enemyDamage','wards','kills']:a[k]+=z[k]
+  a['slot0']+=z['casts'][0];a['slot1']+=z['casts'][1]
+base={'games':len(rows),'wins':sum(r['result']=='win' for r in rows),'steps':sum(r['steps'] for r in rows),'errors':d['errors'],'uniqueMaps':len({r['map'] for r in rows}),'prismFocusResidualMax':max(abs(t['focusResidual']) for t in allturns),'prismAliveTurns':len(allturns),'prismMedianBagAllTurns':statistics.median(t['bag'] for t in allturns),'prismMeanBagAllTurns':statistics.mean(t['bag'] for t in allturns),'prismMedianMaxBagPerGame':statistics.median(q['prismMaxBag'] for q in summary),'prismMaxBag':max(t['bag'] for t in allturns),'prismMaxFocus':max(t['focus'] for t in allturns),'prismPassiveFractionMean':statistics.mean(1.5*t['bag']/max(1,t['focus']) for t in allturns),'prismAllyWithin5Fraction':sum(t['nearestAlly']<=5 for t in allturns)/len(allturns),'prismGamesNoBank':sum(not q['banks'] for q in summary),'prismWinsNoBank':sum(q['win'] and not q['banks'] for q in summary),'roleTotals':dict(roleagg),'rows':summary}
+(p/'summary.json').write_text(json.dumps(base,indent=2)+'\n')
+print(json.dumps({k:v for k,v in base.items() if k not in ['roleTotals','rows']},indent=2))
+for q in summary:
+ print(q['opponent'],q['map'],q['score'],'gems',q['prismGemsCaptured'],'/',q['teamGemsCaptured'],'maxbag',q['prismMaxBag'],'maxF',q['prismMaxFocus'],'hp',q['prismMedianHp'],'banked',q['prismBanked'],'deaths',q['prismDeaths'],'lost',q['prismGemsLost'],'banks',[(b['r'],b['amount']) for b in q['banks']])
+print('ROLE TOTALS',json.dumps(dict(roleagg)))

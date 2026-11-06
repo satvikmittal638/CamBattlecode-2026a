@@ -1,0 +1,324 @@
+{
+ "dir": "analysis/v43x/v47/lanes_us",
+ "overall": {
+  "games": 9,
+  "winRate": 0,
+  "avgRounds": 1158.7,
+  "tributedAt": {
+   "100": 31.1,
+   "200": 58,
+   "300": 94.8,
+   "400": 135.3,
+   "500": 191.4,
+   "700": 330.7,
+   "1000": 505.3
+  },
+  "netWorthAt": {
+   "150": 408.1,
+   "300": 909.4,
+   "500": 1812
+  },
+  "firstCapture": 40,
+  "firstTribute": 55.6,
+  "capturesPer100": 5.2,
+  "gemsPerCapture": 6.2,
+  "goldPerCapture": 36.1,
+  "grouping": 0.8,
+  "enemySideFrac": 0.1,
+  "activity": {
+   "HeartOfRuin": {
+    "walk": 0.467,
+    "farm": 0.212,
+    "dead": 0.117,
+    "idle": 0.116,
+    "fight": 0.045,
+    "recall": 0.029,
+    "tribute": 0.014
+   },
+   "_all": {
+    "walk": 0.542,
+    "farm": 0.185,
+    "idle": 0.102,
+    "dead": 0.082,
+    "recall": 0.04,
+    "fight": 0.033,
+    "tribute": 0.017
+   },
+   "VesperVale": {
+    "walk": 0.533,
+    "farm": 0.176,
+    "dead": 0.11,
+    "idle": 0.093,
+    "recall": 0.042,
+    "fight": 0.032,
+    "tribute": 0.014
+   },
+   "Ryth": {
+    "walk": 0.571,
+    "farm": 0.173,
+    "idle": 0.109,
+    "dead": 0.066,
+    "recall": 0.037,
+    "fight": 0.028,
+    "tribute": 0.016
+   },
+   "Marcella": {
+    "walk": 0.592,
+    "farm": 0.183,
+    "idle": 0.084,
+    "dead": 0.048,
+    "recall": 0.045,
+    "fight": 0.031,
+    "tribute": 0.018
+   },
+   "Vendetta": {
+    "walk": 0.55,
+    "farm": 0.178,
+    "idle": 0.113,
+    "dead": 0.062,
+    "recall": 0.049,
+    "tribute": 0.024,
+    "fight": 0.023
+   }
+  }
+ },
+ "byMap": {
+  "00lanes": {
+   "games": 3,
+   "winRate": 0,
+   "avgRounds": 1296.3,
+   "tributedAt": {
+    "100": 15.7,
+    "200": 34,
+    "300": 62,
+    "400": 94,
+    "500": 153.3,
+    "700": 268.7,
+    "1000": 437.7
+   },
+   "netWorthAt": {
+    "150": 407,
+    "300": 844.7,
+    "500": 1620.7
+   },
+   "firstCapture": 47.7,
+   "firstTribute": 60.3,
+   "capturesPer100": 6.9,
+   "gemsPerCapture": 2.9,
+   "goldPerCapture": 22.7,
+   "grouping": 0.8,
+   "enemySideFrac": 0,
+   "activity": {
+    "HeartOfRuin": {
+     "walk": 0.423,
+     "farm": 0.204,
+     "idle": 0.185,
+     "dead": 0.096,
+     "fight": 0.053,
+     "recall": 0.029,
+     "tribute": 0.01
+    },
+    "_all": {
+     "walk": 0.522,
+     "idle": 0.157,
+     "farm": 0.152,
+     "dead": 0.077,
+     "recall": 0.039,
+     "fight": 0.038,
+     "tribute": 0.015
+    },
+    "VesperVale": {
+     "walk": 0.534,
+     "idle": 0.153,
+     "farm": 0.132,
+     "dead": 0.092,
+     "recall": 0.047,
+     "fight": 0.03,
+     "tribute": 0.013
+    },
+    "Ryth": {
+     "walk": 0.515,
+     "idle": 0.198,
+     "farm": 0.142,
+     "dead": 0.063,
+     "fight": 0.035,
+     "recall": 0.031,
+     "tribute": 0.016
+    },
+    "Marcella": {
+     "walk": 0.59,
+     "farm": 0.146,
+     "idle": 0.119,
+     "dead": 0.047,
+     "recall": 0.043,
+     "fight": 0.036,
+     "tribute": 0.019
+    },
+    "Vendetta": {
+     "walk": 0.549,
+     "farm": 0.139,
+     "idle": 0.129,
+     "dead": 0.087,
+     "recall": 0.045,
+     "fight": 0.033,
+     "tribute": 0.019
+    }
+   }
+  },
+  "00rushbait_v2": {
+   "games": 3,
+   "winRate": 0,
+   "avgRounds": 1350.7,
+   "tributedAt": {
+    "100": 16,
+    "200": 39,
+    "300": 69.3,
+    "400": 109,
+    "500": 144.7,
+    "700": 238,
+    "1000": 403.3
+   },
+   "netWorthAt": {
+    "150": 450.3,
+    "300": 950.3,
+    "500": 1565.7
+   },
+   "firstCapture": 24.7,
+   "firstTribute": 50,
+   "capturesPer100": 3.7,
+   "gemsPerCapture": 6.2,
+   "goldPerCapture": 37.8,
+   "grouping": 0.4,
+   "enemySideFrac": 0.4,
+   "activity": {
+    "HeartOfRuin": {
+     "walk": 0.524,
+     "farm": 0.22,
+     "dead": 0.105,
+     "idle": 0.062,
+     "fight": 0.038,
+     "recall": 0.032,
+     "tribute": 0.019
+    },
+    "_all": {
+     "walk": 0.579,
+     "farm": 0.186,
+     "dead": 0.088,
+     "idle": 0.056,
+     "recall": 0.041,
+     "fight": 0.035,
+     "tribute": 0.015
+    },
+    "VesperVale": {
+     "walk": 0.56,
+     "farm": 0.175,
+     "dead": 0.12,
+     "idle": 0.052,
+     "recall": 0.044,
+     "fight": 0.036,
+     "tribute": 0.014
+    },
+    "Ryth": {
+     "walk": 0.618,
+     "farm": 0.176,
+     "dead": 0.064,
+     "idle": 0.055,
+     "recall": 0.043,
+     "fight": 0.029,
+     "tribute": 0.014
+    },
+    "Marcella": {
+     "walk": 0.614,
+     "farm": 0.173,
+     "dead": 0.063,
+     "idle": 0.055,
+     "recall": 0.045,
+     "fight": 0.037,
+     "tribute": 0.013
+    }
+   }
+  },
+  "00split": {
+   "games": 3,
+   "winRate": 0,
+   "avgRounds": 829,
+   "tributedAt": {
+    "100": 61.7,
+    "200": 101,
+    "300": 153,
+    "400": 203,
+    "500": 276.3,
+    "700": 485.3,
+    "1000": 675
+   },
+   "netWorthAt": {
+    "150": 367,
+    "300": 933.3,
+    "500": 2249.7
+   },
+   "firstCapture": 47.7,
+   "firstTribute": 56.3,
+   "capturesPer100": 5.1,
+   "gemsPerCapture": 9.5,
+   "goldPerCapture": 47.9,
+   "grouping": 1.1,
+   "enemySideFrac": 0,
+   "activity": {
+    "HeartOfRuin": {
+     "walk": 0.444,
+     "farm": 0.21,
+     "dead": 0.17,
+     "idle": 0.094,
+     "fight": 0.043,
+     "recall": 0.027,
+     "tribute": 0.012
+    },
+    "_all": {
+     "walk": 0.525,
+     "farm": 0.234,
+     "dead": 0.083,
+     "idle": 0.077,
+     "recall": 0.039,
+     "fight": 0.022,
+     "tribute": 0.021
+    },
+    "VesperVale": {
+     "walk": 0.488,
+     "farm": 0.248,
+     "dead": 0.122,
+     "idle": 0.066,
+     "recall": 0.031,
+     "fight": 0.03,
+     "tribute": 0.016
+    },
+    "Ryth": {
+     "walk": 0.584,
+     "farm": 0.218,
+     "dead": 0.073,
+     "idle": 0.058,
+     "recall": 0.034,
+     "tribute": 0.019,
+     "fight": 0.015
+    },
+    "Marcella": {
+     "walk": 0.557,
+     "farm": 0.256,
+     "idle": 0.076,
+     "recall": 0.048,
+     "dead": 0.024,
+     "tribute": 0.023,
+     "fight": 0.014
+    },
+    "Vendetta": {
+     "walk": 0.551,
+     "farm": 0.239,
+     "idle": 0.089,
+     "recall": 0.055,
+     "tribute": 0.033,
+     "dead": 0.024,
+     "fight": 0.008
+    }
+   }
+  }
+ }
+}

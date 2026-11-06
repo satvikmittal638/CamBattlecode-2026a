@@ -1,0 +1,39 @@
+{
+  "at": "2026-10-23T07:06:18.876598+00:00",
+  "relevantHandbookAssetsFreshlyVerified": true,
+  "rows": [
+    {
+      "file": "service_assets_ChampionGrid-Cidqkhuk.js",
+      "bytes": 17595,
+      "sha256": "8ab70710ca5924cf1ff8d39287dab5ed9a61aa61b850ec3ca7600ce5b52fe581",
+      "sameAsPrevious": true
+    },
+    {
+      "file": "game_docs_agents",
+      "bytes": 2327,
+      "sha256": "9d4ecf05aed66b93e63eab7f8577a45b5846e92cee178646c2297baeb1c95167",
+      "sameAsPrevious": true
+    },
+    {
+      "file": "api_v1_patch-notes",
+      "bytes": 27828,
+      "sha256": "bf6c6a39c4600d7a40bd1726db5cabc50a737305227bda12f76137bb340c6413",
+      "sameAsPrevious": true
+    },
+    {
+      "file": "service_assets_docs-CraIq4_w.js",
+      "bytes": 1805681,
+      "sha256": "9256a2251a8e7c479aa91dd52ff17434f05e4cff435e6e5ac43f416772077570",
+      "sameAsPrevious": true
+    },
+    {
+      "file": "service_assets_service-Dw7QII-4.js",
+      "bytes": 274666,
+      "sha256": "e1cfe1a2d5f7f007c46cfb21f4a92341a89b2fa5bda72abbe13681e4465c361c",
+      "sameAsPrevious": true
+    }
+  ],
+  "latestPublishedPatchNote": "Patch 1.0.2 Notes",
+  "observedReplayPatchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+  "scope": "Freshly fetched current handbook entry, referenced service entry bundle, docs and champion-grid assets, and patch notes; all bytes match the prior verified sources. The /service directory itself returned403, as before; individual referenced assets returned200."
+}

@@ -1,0 +1,100 @@
+[
+  {
+    "case": "near_r115_04",
+    "exit": 0,
+    "final": {
+      "final": true,
+      "round": 2000,
+      "outcome": 2,
+      "submitted": [
+        486,
+        880
+      ]
+    },
+    "stages": {
+      "opening": 30,
+      "v1-camp-actions": 4349,
+      "low": 805,
+      "v1-spawn-heal": 90,
+      "route-step": 2510,
+      "farm": 378,
+      "x-commit": 4,
+      "x-shop-recall": 265,
+      "v1-score-budget": 160,
+      "route": 113,
+      "capture-yield": 20,
+      "iterate-camp-hit": 50,
+      "v1-cycle": 191,
+      "gate-assault": 12,
+      "v1-burst-escape": 105,
+      "v1-assigned-help": 44,
+      "repair-focus-escape": 103,
+      "route-budget": 5,
+      "reset": 138,
+      "outmatched-step": 15,
+      "stunned": 163,
+      "route-unreachable": 11,
+      "fight": 31,
+      "v1-two-turn-fight": 76,
+      "x-recall-guard": 2,
+      "route-occupied": 6,
+      "v36-heart-control": 3,
+      "v41-affordable-task": 24,
+      "v1-reserve-step": 4,
+      "x-melee-parting": 10,
+      "v1-winning-bank": 278,
+      "main": 5
+    },
+    "errors": 0
+  },
+  {
+    "case": "strong_r54_01",
+    "exit": 0,
+    "final": {
+      "final": true,
+      "round": 1586,
+      "outcome": 2,
+      "submitted": [
+        424,
+        2845
+      ]
+    },
+    "stages": {
+      "opening": 30,
+      "v1-camp-actions": 3648,
+      "low": 898,
+      "v1-spawn-heal": 68,
+      "route-step": 1510,
+      "capture-yield": 23,
+      "farm": 225,
+      "x-shop-recall": 175,
+      "v1-cycle": 160,
+      "x-commit": 7,
+      "route": 64,
+      "iterate-camp-hit": 70,
+      "v1-score-budget": 71,
+      "v41-affordable-task": 28,
+      "v1-reserve-step": 7,
+      "route-blocked": 8,
+      "v1-burst-escape": 88,
+      "fight": 147,
+      "v36-heart-control": 8,
+      "stunned": 22,
+      "v1-two-turn-fight": 42,
+      "outmatched-step": 38,
+      "x-melee-parting": 161,
+      "reset": 54,
+      "bank-unlock": 101,
+      "v1-winning-bank": 121,
+      "repair-focus-escape": 9,
+      "v1-assigned-help": 44,
+      "route-budget": 13,
+      "route-unreachable": 5,
+      "route-occupied": 4,
+      "gate-assault": 1,
+      "route-dash-bridge": 6,
+      "retreat-home": 69
+    },
+    "errors": 0
+  }
+]

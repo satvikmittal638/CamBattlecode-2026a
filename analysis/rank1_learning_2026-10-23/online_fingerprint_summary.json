@@ -1,0 +1,41 @@
+{
+  "games": 20,
+  "method": "Online per-champion/per-enemy first-order movement model, reset every match; contexts use last observed movement direction, near/far distance and enemy HP bin. Predict before next observation; labels only when personally visible on consecutive turns and displacement<=3. Models use channel/stationary legality checks consistently. No future or omniscient enemy features.",
+  "limitations": [
+    "Conditional on visibility at the next turn; not a hidden-location accuracy estimate.",
+    "Small deliberately selected rank-1 sample with four opponents; not a representative policy-win evaluation.",
+    "No game strategy or active bot was changed."
+  ],
+  "totals": {
+    "labels": 48121,
+    "stay": {
+      "exactDestinationPct": 45.96,
+      "meanChebyshevError": 0.6192
+    },
+    "velocity": {
+      "exactDestinationPct": 45.98,
+      "meanChebyshevError": 0.7581
+    },
+    "learned": {
+      "exactDestinationPct": 45.38,
+      "meanChebyshevError": 0.7399
+    },
+    "jumpsOrGaps": 5962,
+    "learnedUsed": 36741
+  },
+  "late": {
+    "labels": 44046,
+    "stay": {
+      "exactDestinationPct": 45.8,
+      "meanChebyshevError": 0.6208
+    },
+    "velocity": {
+      "exactDestinationPct": 45.88,
+      "meanChebyshevError": 0.7607
+    },
+    "learned": {
+      "exactDestinationPct": 45.26,
+      "meanChebyshevError": 0.7402
+    }
+  }
+}

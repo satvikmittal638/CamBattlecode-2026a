@@ -1,0 +1,640 @@
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe567c23-base
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/dmitt/Library/Caches/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe567c23-base/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe567c23-base/src/boss_main.cpp.obj
+[2/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe567c23-base/src/main.cpp.obj
+[3/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe567c23-base/src/draft.cpp.obj
+[4/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe567c23-base/src/boss/draft.cpp.obj
+[5/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe567c23-base/src/boss/bot.cpp.obj
+[6/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe567c23-base/src/bot.cpp.obj
+[7/8] Linking CXX executable bot.wasm
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/codex-v57
+codex-v57 is up to date
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/prism-v58-control
+prism-v58-control is up to date
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/mimic-mite
+mimic-mite is up to date
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe567c23-aggro1c
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/dmitt/Library/Caches/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe567c23-aggro1c/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe567c23-aggro1c/src/main.cpp.obj
+[2/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe567c23-aggro1c/src/boss_main.cpp.obj
+[3/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe567c23-aggro1c/src/boss/draft.cpp.obj
+[4/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe567c23-aggro1c/src/draft.cpp.obj
+[5/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe567c23-aggro1c/src/boss/bot.cpp.obj
+[6/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe567c23-aggro1c/src/bot.cpp.obj
+[7/8] Linking CXX executable bot.wasm
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe567c23-aggro2c
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/dmitt/Library/Caches/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe567c23-aggro2c/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe567c23-aggro2c/src/boss/draft.cpp.obj
+[2/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe567c23-aggro2c/src/boss_main.cpp.obj
+[3/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe567c23-aggro2c/src/main.cpp.obj
+[4/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe567c23-aggro2c/src/draft.cpp.obj
+[5/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe567c23-aggro2c/src/boss/bot.cpp.obj
+[6/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe567c23-aggro2c/src/bot.cpp.obj
+[7/8] Linking CXX executable bot.wasm
+[|] STARTING  fe567c23-base vs codex-v57  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/codex-v57/00lanes/a.repl26a
+[|] STARTING  codex-v57 vs fe567c23-base  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/codex-v57/00lanes/b.repl26a
+[|] STARTING  fe567c23-base vs codex-v57  00gem-fields
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/codex-v57/00gem-fields/a.repl26a
+[|] STARTING  codex-v57 vs fe567c23-base  00gem-fields
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/codex-v57/00gem-fields/b.repl26a
+[|] STARTING  fe567c23-base vs codex-v57  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/codex-v57/00corners/a.repl26a
+[|] STARTING  codex-v57 vs fe567c23-base  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/codex-v57/00corners/b.repl26a
+[|] STARTING  fe567c23-base vs codex-v57  01hooks
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/codex-v57/01hooks/a.repl26a
+[+] TEAM B WIN (codex-v57)  fe567c23-base vs codex-v57  00gem-fields  Round 0611/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/codex-v57/00gem-fields/a.repl26a
+[+] TEAM B WIN (fe567c23-base)  codex-v57 vs fe567c23-base  00gem-fields  Round 0630/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/codex-v57/00gem-fields/b.repl26a
+[+] TEAM A WIN (fe567c23-base)  fe567c23-base vs codex-v57  01hooks  Round 1200/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/codex-v57/01hooks/a.repl26a
+[|] STARTING  codex-v57 vs fe567c23-base  01hooks
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/codex-v57/01hooks/b.repl26a
+[|] STARTING  fe567c23-base vs codex-v57  00split
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/codex-v57/00split/a.repl26a
+[|] STARTING  codex-v57 vs fe567c23-base  00split
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/codex-v57/00split/b.repl26a
+[+] TEAM A WIN (codex-v57)  codex-v57 vs fe567c23-base  00corners  Round 1150/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/codex-v57/00corners/b.repl26a
+[|] STARTING  fe567c23-base vs codex-v57  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/codex-v57/01broken-curve/a.repl26a
+[+] TEAM B WIN (codex-v57)  fe567c23-base vs codex-v57  00corners  Round 1322/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/codex-v57/00corners/a.repl26a
+[|] STARTING  codex-v57 vs fe567c23-base  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/codex-v57/01broken-curve/b.repl26a
+[+] TEAM A WIN (fe567c23-base)  fe567c23-base vs codex-v57  00lanes  Round 1141/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/codex-v57/00lanes/a.repl26a
+[+] TEAM B WIN (fe567c23-base)  codex-v57 vs fe567c23-base  00lanes  Round 1153/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/codex-v57/00lanes/b.repl26a
+[|] STARTING  fe567c23-base vs codex-v57  00rows
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/codex-v57/00rows/a.repl26a
+[|] STARTING  codex-v57 vs fe567c23-base  00rows
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/codex-v57/00rows/b.repl26a
+[+] TEAM B WIN (fe567c23-base)  codex-v57 vs fe567c23-base  01hooks  Round 1199/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/codex-v57/01hooks/b.repl26a
+[|] STARTING  fe567c23-base vs codex-v57  01starvation
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/codex-v57/01starvation/a.repl26a
+[+] TEAM A WIN (fe567c23-base)  fe567c23-base vs codex-v57  00split  Round 0885/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/codex-v57/00split/a.repl26a
+[+] TEAM A WIN (codex-v57)  codex-v57 vs fe567c23-base  00split  Round 0916/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/codex-v57/00split/b.repl26a
+[+] TEAM B WIN (codex-v57)  fe567c23-base vs codex-v57  01broken-curve  Round 1121/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/codex-v57/01broken-curve/a.repl26a
+[+] TEAM A WIN (codex-v57)  codex-v57 vs fe567c23-base  01broken-curve  Round 1094/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/codex-v57/01broken-curve/b.repl26a
+[|] STARTING  codex-v57 vs fe567c23-base  01starvation
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/codex-v57/01starvation/b.repl26a
+[|] STARTING  fe567c23-base vs prism-v58-control  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/prism-v58-control/00lanes/a.repl26a
+[|] STARTING  prism-v58-control vs fe567c23-base  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/prism-v58-control/00lanes/b.repl26a
+[|] STARTING  fe567c23-base vs prism-v58-control  00gem-fields
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/prism-v58-control/00gem-fields/a.repl26a
+[+] TEAM B WIN (fe567c23-base)  codex-v57 vs fe567c23-base  00rows  Round 1565/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/codex-v57/00rows/b.repl26a
+[|] STARTING  prism-v58-control vs fe567c23-base  00gem-fields
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/prism-v58-control/00gem-fields/b.repl26a
+[+] TEAM B WIN (codex-v57)  fe567c23-base vs codex-v57  00rows  Round 1479/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/codex-v57/00rows/a.repl26a
+[|] STARTING  fe567c23-base vs prism-v58-control  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/prism-v58-control/00corners/a.repl26a
+[+] TEAM A WIN (fe567c23-base)  fe567c23-base vs prism-v58-control  00gem-fields  Round 0625/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/prism-v58-control/00gem-fields/a.repl26a
+[|] STARTING  prism-v58-control vs fe567c23-base  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/prism-v58-control/00corners/b.repl26a
+[+] TEAM A WIN (fe567c23-base)  fe567c23-base vs prism-v58-control  00lanes  Round 1095/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/prism-v58-control/00lanes/a.repl26a
+[+] TEAM B WIN (fe567c23-base)  prism-v58-control vs fe567c23-base  00gem-fields  Round 0646/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/prism-v58-control/00gem-fields/b.repl26a
+[|] STARTING  fe567c23-base vs prism-v58-control  01hooks
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/prism-v58-control/01hooks/a.repl26a
+[|] STARTING  prism-v58-control vs fe567c23-base  01hooks
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/prism-v58-control/01hooks/b.repl26a
+[+] TEAM A WIN (prism-v58-control)  prism-v58-control vs fe567c23-base  00lanes  Round 1154/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/prism-v58-control/00lanes/b.repl26a
+[|] STARTING  fe567c23-base vs prism-v58-control  00split
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/prism-v58-control/00split/a.repl26a
+[+] TEAM B WIN (codex-v57)  fe567c23-base vs codex-v57  01starvation  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/codex-v57/01starvation/a.repl26a
+[|] STARTING  prism-v58-control vs fe567c23-base  00split
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/prism-v58-control/00split/b.repl26a
+[+] TEAM B WIN (fe567c23-base)  codex-v57 vs fe567c23-base  01starvation  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/codex-v57/01starvation/b.repl26a
+[|] STARTING  fe567c23-base vs prism-v58-control  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/prism-v58-control/01broken-curve/a.repl26a
+[+] TEAM A WIN (fe567c23-base)  fe567c23-base vs prism-v58-control  00corners  Round 1183/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/prism-v58-control/00corners/a.repl26a
+[|] STARTING  prism-v58-control vs fe567c23-base  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/prism-v58-control/01broken-curve/b.repl26a
+[+] TEAM A WIN (prism-v58-control)  prism-v58-control vs fe567c23-base  00corners  Round 1235/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/prism-v58-control/00corners/b.repl26a
+[|] STARTING  fe567c23-base vs prism-v58-control  00rows
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/prism-v58-control/00rows/a.repl26a
+[+] TEAM A WIN (fe567c23-base)  fe567c23-base vs prism-v58-control  01hooks  Round 1339/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/prism-v58-control/01hooks/a.repl26a
+[+] TEAM B WIN (fe567c23-base)  prism-v58-control vs fe567c23-base  01hooks  Round 1289/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/prism-v58-control/01hooks/b.repl26a
+[+] TEAM B WIN (prism-v58-control)  fe567c23-base vs prism-v58-control  01broken-curve  Round 1136/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/prism-v58-control/01broken-curve/a.repl26a
+[+] TEAM B WIN (fe567c23-base)  prism-v58-control vs fe567c23-base  01broken-curve  Round 1159/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/prism-v58-control/01broken-curve/b.repl26a
+[|] STARTING  prism-v58-control vs fe567c23-base  00rows
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/prism-v58-control/00rows/b.repl26a
+[|] STARTING  fe567c23-base vs prism-v58-control  01starvation
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/prism-v58-control/01starvation/a.repl26a
+[|] STARTING  prism-v58-control vs fe567c23-base  01starvation
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/prism-v58-control/01starvation/b.repl26a
+[|] STARTING  fe567c23-base vs mimic-mite  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/mimic-mite/00lanes/a.repl26a
+[+] TEAM A WIN (fe567c23-base)  fe567c23-base vs prism-v58-control  00split  Round 0937/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/prism-v58-control/00split/a.repl26a
+[|] STARTING  mimic-mite vs fe567c23-base  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/mimic-mite/00lanes/b.repl26a
+[+] TEAM B WIN (fe567c23-base)  prism-v58-control vs fe567c23-base  00split  Round 0966/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/prism-v58-control/00split/b.repl26a
+[|] STARTING  fe567c23-base vs mimic-mite  00gem-fields
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/mimic-mite/00gem-fields/a.repl26a
+[+] TEAM A WIN (fe567c23-base)  fe567c23-base vs mimic-mite  00gem-fields  Round 0617/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/mimic-mite/00gem-fields/a.repl26a
+[|] STARTING  mimic-mite vs fe567c23-base  00gem-fields
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/mimic-mite/00gem-fields/b.repl26a
+[+] TEAM B WIN (prism-v58-control)  fe567c23-base vs prism-v58-control  00rows  Round 1479/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/prism-v58-control/00rows/a.repl26a
+[|] STARTING  fe567c23-base vs mimic-mite  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/mimic-mite/00corners/a.repl26a
+[+] TEAM B WIN (fe567c23-base)  prism-v58-control vs fe567c23-base  00rows  Round 1565/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/prism-v58-control/00rows/b.repl26a
+[|] STARTING  mimic-mite vs fe567c23-base  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/mimic-mite/00corners/b.repl26a
+[+] TEAM B WIN (prism-v58-control)  fe567c23-base vs prism-v58-control  01starvation  Round 1882/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/prism-v58-control/01starvation/a.repl26a
+[+] TEAM A WIN (prism-v58-control)  prism-v58-control vs fe567c23-base  01starvation  Round 1732/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/prism-v58-control/01starvation/b.repl26a
+[+] TEAM A WIN (fe567c23-base)  fe567c23-base vs mimic-mite  00lanes  Round 1106/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/mimic-mite/00lanes/a.repl26a
+[+] TEAM B WIN (fe567c23-base)  mimic-mite vs fe567c23-base  00gem-fields  Round 0655/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/mimic-mite/00gem-fields/b.repl26a
+[|] STARTING  fe567c23-base vs mimic-mite  01hooks
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/mimic-mite/01hooks/a.repl26a
+[|] STARTING  mimic-mite vs fe567c23-base  01hooks
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/mimic-mite/01hooks/b.repl26a
+[|] STARTING  fe567c23-base vs mimic-mite  00split
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/mimic-mite/00split/a.repl26a
+[|] STARTING  mimic-mite vs fe567c23-base  00split
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/mimic-mite/00split/b.repl26a
+[+] TEAM B WIN (fe567c23-base)  mimic-mite vs fe567c23-base  00lanes  Round 1170/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/mimic-mite/00lanes/b.repl26a
+[|] STARTING  fe567c23-base vs mimic-mite  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/mimic-mite/01broken-curve/a.repl26a
+[+] TEAM A WIN (fe567c23-base)  fe567c23-base vs mimic-mite  00corners  Round 0920/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/mimic-mite/00corners/a.repl26a
+[|] STARTING  mimic-mite vs fe567c23-base  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/mimic-mite/01broken-curve/b.repl26a
+[+] TEAM B WIN (fe567c23-base)  mimic-mite vs fe567c23-base  00corners  Round 1100/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/mimic-mite/00corners/b.repl26a
+[+] TEAM A WIN (fe567c23-base)  fe567c23-base vs mimic-mite  01hooks  Round 1146/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/mimic-mite/01hooks/a.repl26a
+[+] TEAM B WIN (fe567c23-base)  mimic-mite vs fe567c23-base  01hooks  Round 1162/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/mimic-mite/01hooks/b.repl26a
+[|] STARTING  fe567c23-base vs mimic-mite  00rows
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/mimic-mite/00rows/a.repl26a
+[|] STARTING  mimic-mite vs fe567c23-base  00rows
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/mimic-mite/00rows/b.repl26a
+[|] STARTING  fe567c23-base vs mimic-mite  01starvation
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/mimic-mite/01starvation/a.repl26a
+[+] TEAM A WIN (fe567c23-base)  fe567c23-base vs mimic-mite  01broken-curve  Round 1209/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/mimic-mite/01broken-curve/a.repl26a
+[+] TEAM B WIN (fe567c23-base)  mimic-mite vs fe567c23-base  01broken-curve  Round 1139/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/mimic-mite/01broken-curve/b.repl26a
+[|] STARTING  mimic-mite vs fe567c23-base  01starvation
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/mimic-mite/01starvation/b.repl26a
+[|] STARTING  fe567c23-aggro1c vs codex-v57  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/codex-v57/00lanes/a.repl26a
+[+] TEAM B WIN (fe567c23-base)  mimic-mite vs fe567c23-base  00split  Round 0929/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/mimic-mite/00split/b.repl26a
+[|] STARTING  codex-v57 vs fe567c23-aggro1c  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/codex-v57/00lanes/b.repl26a
+[+] TEAM A WIN (fe567c23-base)  fe567c23-base vs mimic-mite  00split  Round 0976/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/mimic-mite/00split/a.repl26a
+[|] STARTING  fe567c23-aggro1c vs codex-v57  00gem-fields
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/codex-v57/00gem-fields/a.repl26a
+[+] TEAM B WIN (mimic-mite)  fe567c23-base vs mimic-mite  00rows  Round 1363/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/mimic-mite/00rows/a.repl26a
+[+] TEAM A WIN (mimic-mite)  mimic-mite vs fe567c23-base  00rows  Round 1388/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/mimic-mite/00rows/b.repl26a
+[|] STARTING  codex-v57 vs fe567c23-aggro1c  00gem-fields
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/codex-v57/00gem-fields/b.repl26a
+[|] STARTING  fe567c23-aggro1c vs codex-v57  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/codex-v57/00corners/a.repl26a
+[+] TEAM A WIN (fe567c23-aggro1c)  fe567c23-aggro1c vs codex-v57  00lanes  Round 1110/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/codex-v57/00lanes/a.repl26a
+[+] TEAM B WIN (codex-v57)  fe567c23-aggro1c vs codex-v57  00gem-fields  Round 0611/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/codex-v57/00gem-fields/a.repl26a
+[|] STARTING  codex-v57 vs fe567c23-aggro1c  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/codex-v57/00corners/b.repl26a
+[|] STARTING  fe567c23-aggro1c vs codex-v57  01hooks
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/codex-v57/01hooks/a.repl26a
+[+] TEAM A WIN (fe567c23-base)  fe567c23-base vs mimic-mite  01starvation  Round 1513/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/mimic-mite/01starvation/a.repl26a
+[|] STARTING  codex-v57 vs fe567c23-aggro1c  01hooks
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/codex-v57/01hooks/b.repl26a
+[+] TEAM B WIN (fe567c23-aggro1c)  codex-v57 vs fe567c23-aggro1c  00gem-fields  Round 0630/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/codex-v57/00gem-fields/b.repl26a
+[|] STARTING  fe567c23-aggro1c vs codex-v57  00split
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/codex-v57/00split/a.repl26a
+[+] TEAM B WIN (fe567c23-base)  mimic-mite vs fe567c23-base  01starvation  Round 1703/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/base/mimic-mite/01starvation/b.repl26a
+[+] TEAM A WIN (codex-v57)  codex-v57 vs fe567c23-aggro1c  00lanes  Round 1116/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/codex-v57/00lanes/b.repl26a
+[|] STARTING  codex-v57 vs fe567c23-aggro1c  00split
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/codex-v57/00split/b.repl26a
+[|] STARTING  fe567c23-aggro1c vs codex-v57  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/codex-v57/01broken-curve/a.repl26a
+[+] TEAM A WIN (fe567c23-aggro1c)  fe567c23-aggro1c vs codex-v57  00corners  Round 1033/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/codex-v57/00corners/a.repl26a
+[|] STARTING  codex-v57 vs fe567c23-aggro1c  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/codex-v57/01broken-curve/b.repl26a
+[+] TEAM A WIN (fe567c23-aggro1c)  fe567c23-aggro1c vs codex-v57  01hooks  Round 1202/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/codex-v57/01hooks/a.repl26a
+[|] STARTING  fe567c23-aggro1c vs codex-v57  00rows
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/codex-v57/00rows/a.repl26a
+[+] TEAM A WIN (codex-v57)  codex-v57 vs fe567c23-aggro1c  01hooks  Round 1360/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/codex-v57/01hooks/b.repl26a
+[+] TEAM B WIN (codex-v57)  fe567c23-aggro1c vs codex-v57  01broken-curve  Round 1121/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/codex-v57/01broken-curve/a.repl26a
+[|] STARTING  codex-v57 vs fe567c23-aggro1c  00rows
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/codex-v57/00rows/b.repl26a
+[|] STARTING  fe567c23-aggro1c vs codex-v57  01starvation
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/codex-v57/01starvation/a.repl26a
+[+] TEAM A WIN (codex-v57)  codex-v57 vs fe567c23-aggro1c  00corners  Round 1116/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/codex-v57/00corners/b.repl26a
+[|] STARTING  codex-v57 vs fe567c23-aggro1c  01starvation
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/codex-v57/01starvation/b.repl26a
+[+] TEAM A WIN (fe567c23-aggro1c)  fe567c23-aggro1c vs codex-v57  00split  Round 0961/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/codex-v57/00split/a.repl26a
+[+] TEAM A WIN (codex-v57)  codex-v57 vs fe567c23-aggro1c  00split  Round 0826/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/codex-v57/00split/b.repl26a
+[|] STARTING  fe567c23-aggro1c vs prism-v58-control  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/prism-v58-control/00lanes/a.repl26a
+[|] STARTING  prism-v58-control vs fe567c23-aggro1c  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/prism-v58-control/00lanes/b.repl26a
+[+] TEAM A WIN (codex-v57)  codex-v57 vs fe567c23-aggro1c  01broken-curve  Round 1094/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/codex-v57/01broken-curve/b.repl26a
+[|] STARTING  fe567c23-aggro1c vs prism-v58-control  00gem-fields
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/prism-v58-control/00gem-fields/a.repl26a
+[+] TEAM B WIN (codex-v57)  fe567c23-aggro1c vs codex-v57  00rows  Round 1479/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/codex-v57/00rows/a.repl26a
+[|] STARTING  prism-v58-control vs fe567c23-aggro1c  00gem-fields
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/prism-v58-control/00gem-fields/b.repl26a
+[+] TEAM B WIN (fe567c23-aggro1c)  codex-v57 vs fe567c23-aggro1c  00rows  Round 1565/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/codex-v57/00rows/b.repl26a
+[|] STARTING  fe567c23-aggro1c vs prism-v58-control  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/prism-v58-control/00corners/a.repl26a
+[+] TEAM A WIN (fe567c23-aggro1c)  fe567c23-aggro1c vs prism-v58-control  00gem-fields  Round 0625/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/prism-v58-control/00gem-fields/a.repl26a
+[|] STARTING  prism-v58-control vs fe567c23-aggro1c  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/prism-v58-control/00corners/b.repl26a
+[+] TEAM B WIN (fe567c23-aggro1c)  prism-v58-control vs fe567c23-aggro1c  00lanes  Round 1107/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/prism-v58-control/00lanes/b.repl26a
+[|] STARTING  fe567c23-aggro1c vs prism-v58-control  01hooks
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/prism-v58-control/01hooks/a.repl26a
+[+] TEAM A WIN (fe567c23-aggro1c)  fe567c23-aggro1c vs codex-v57  01starvation  Round 1705/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/codex-v57/01starvation/a.repl26a
+[+] TEAM B WIN (prism-v58-control)  fe567c23-aggro1c vs prism-v58-control  00lanes  Round 1149/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/prism-v58-control/00lanes/a.repl26a
+[|] STARTING  prism-v58-control vs fe567c23-aggro1c  01hooks
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/prism-v58-control/01hooks/b.repl26a
+[|] STARTING  fe567c23-aggro1c vs prism-v58-control  00split
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/prism-v58-control/00split/a.repl26a
+[+] TEAM A WIN (codex-v57)  codex-v57 vs fe567c23-aggro1c  01starvation  Round 1727/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/codex-v57/01starvation/b.repl26a
+[|] STARTING  prism-v58-control vs fe567c23-aggro1c  00split
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/prism-v58-control/00split/b.repl26a
+[+] TEAM B WIN (fe567c23-aggro1c)  prism-v58-control vs fe567c23-aggro1c  00gem-fields  Round 0646/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/prism-v58-control/00gem-fields/b.repl26a
+[|] STARTING  fe567c23-aggro1c vs prism-v58-control  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/prism-v58-control/01broken-curve/a.repl26a
+[+] TEAM B WIN (prism-v58-control)  fe567c23-aggro1c vs prism-v58-control  00corners  Round 1200/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/prism-v58-control/00corners/a.repl26a
+[+] TEAM A WIN (prism-v58-control)  prism-v58-control vs fe567c23-aggro1c  00corners  Round 1155/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/prism-v58-control/00corners/b.repl26a
+[+] TEAM A WIN (fe567c23-aggro1c)  fe567c23-aggro1c vs prism-v58-control  01hooks  Round 1410/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/prism-v58-control/01hooks/a.repl26a
+[|] STARTING  prism-v58-control vs fe567c23-aggro1c  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/prism-v58-control/01broken-curve/b.repl26a
+[|] STARTING  fe567c23-aggro1c vs prism-v58-control  00rows
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/prism-v58-control/00rows/a.repl26a
+[|] STARTING  prism-v58-control vs fe567c23-aggro1c  00rows
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/prism-v58-control/00rows/b.repl26a
+[+] TEAM A WIN (prism-v58-control)  prism-v58-control vs fe567c23-aggro1c  01hooks  Round 1281/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/prism-v58-control/01hooks/b.repl26a
+[+] TEAM A WIN (fe567c23-aggro1c)  fe567c23-aggro1c vs prism-v58-control  00split  Round 0982/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/prism-v58-control/00split/a.repl26a
+[+] TEAM A WIN (prism-v58-control)  prism-v58-control vs fe567c23-aggro1c  00split  Round 0906/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/prism-v58-control/00split/b.repl26a
+[+] TEAM B WIN (prism-v58-control)  fe567c23-aggro1c vs prism-v58-control  01broken-curve  Round 1136/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/prism-v58-control/01broken-curve/a.repl26a
+[|] STARTING  fe567c23-aggro1c vs prism-v58-control  01starvation
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/prism-v58-control/01starvation/a.repl26a
+[|] STARTING  prism-v58-control vs fe567c23-aggro1c  01starvation
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/prism-v58-control/01starvation/b.repl26a
+[|] STARTING  fe567c23-aggro1c vs mimic-mite  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/mimic-mite/00lanes/a.repl26a
+[|] STARTING  mimic-mite vs fe567c23-aggro1c  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/mimic-mite/00lanes/b.repl26a
+[+] TEAM B WIN (fe567c23-aggro1c)  prism-v58-control vs fe567c23-aggro1c  01broken-curve  Round 1159/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/prism-v58-control/01broken-curve/b.repl26a
+[|] STARTING  fe567c23-aggro1c vs mimic-mite  00gem-fields
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/mimic-mite/00gem-fields/a.repl26a
+[+] TEAM B WIN (prism-v58-control)  fe567c23-aggro1c vs prism-v58-control  00rows  Round 1479/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/prism-v58-control/00rows/a.repl26a
+[+] TEAM B WIN (fe567c23-aggro1c)  prism-v58-control vs fe567c23-aggro1c  00rows  Round 1565/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/prism-v58-control/00rows/b.repl26a
+[|] STARTING  mimic-mite vs fe567c23-aggro1c  00gem-fields
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/mimic-mite/00gem-fields/b.repl26a
+[|] STARTING  fe567c23-aggro1c vs mimic-mite  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/mimic-mite/00corners/a.repl26a
+[+] TEAM A WIN (fe567c23-aggro1c)  fe567c23-aggro1c vs prism-v58-control  01starvation  Round 1668/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/prism-v58-control/01starvation/a.repl26a
+[+] TEAM A WIN (prism-v58-control)  prism-v58-control vs fe567c23-aggro1c  01starvation  Round 1930/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/prism-v58-control/01starvation/b.repl26a
+[+] TEAM A WIN (fe567c23-aggro1c)  fe567c23-aggro1c vs mimic-mite  00gem-fields  Round 0617/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/mimic-mite/00gem-fields/a.repl26a
+[|] STARTING  mimic-mite vs fe567c23-aggro1c  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/mimic-mite/00corners/b.repl26a
+[|] STARTING  fe567c23-aggro1c vs mimic-mite  01hooks
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/mimic-mite/01hooks/a.repl26a
+[|] STARTING  mimic-mite vs fe567c23-aggro1c  01hooks
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/mimic-mite/01hooks/b.repl26a
+[+] TEAM A WIN (fe567c23-aggro1c)  fe567c23-aggro1c vs mimic-mite  00lanes  Round 1087/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/mimic-mite/00lanes/a.repl26a
+[+] TEAM B WIN (fe567c23-aggro1c)  mimic-mite vs fe567c23-aggro1c  00lanes  Round 1173/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/mimic-mite/00lanes/b.repl26a
+[+] TEAM B WIN (fe567c23-aggro1c)  mimic-mite vs fe567c23-aggro1c  00gem-fields  Round 0655/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/mimic-mite/00gem-fields/b.repl26a
+[|] STARTING  fe567c23-aggro1c vs mimic-mite  00split
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/mimic-mite/00split/a.repl26a
+[|] STARTING  mimic-mite vs fe567c23-aggro1c  00split
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/mimic-mite/00split/b.repl26a
+[|] STARTING  fe567c23-aggro1c vs mimic-mite  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/mimic-mite/01broken-curve/a.repl26a
+[+] TEAM A WIN (fe567c23-aggro1c)  fe567c23-aggro1c vs mimic-mite  00corners  Round 1109/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/mimic-mite/00corners/a.repl26a
+[|] STARTING  mimic-mite vs fe567c23-aggro1c  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/mimic-mite/01broken-curve/b.repl26a
+[+] TEAM A WIN (fe567c23-aggro1c)  fe567c23-aggro1c vs mimic-mite  01hooks  Round 1112/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/mimic-mite/01hooks/a.repl26a
+[+] TEAM B WIN (fe567c23-aggro1c)  mimic-mite vs fe567c23-aggro1c  01hooks  Round 1206/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/mimic-mite/01hooks/b.repl26a
+[|] STARTING  fe567c23-aggro1c vs mimic-mite  00rows
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/mimic-mite/00rows/a.repl26a
+[|] STARTING  mimic-mite vs fe567c23-aggro1c  00rows
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/mimic-mite/00rows/b.repl26a
+[+] TEAM A WIN (fe567c23-aggro1c)  fe567c23-aggro1c vs mimic-mite  01broken-curve  Round 1173/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/mimic-mite/01broken-curve/a.repl26a
+[|] STARTING  fe567c23-aggro1c vs mimic-mite  01starvation
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/mimic-mite/01starvation/a.repl26a
+[+] TEAM B WIN (fe567c23-aggro1c)  mimic-mite vs fe567c23-aggro1c  00corners  Round 0987/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/mimic-mite/00corners/b.repl26a
+[|] STARTING  mimic-mite vs fe567c23-aggro1c  01starvation
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/mimic-mite/01starvation/b.repl26a
+[+] TEAM B WIN (fe567c23-aggro1c)  mimic-mite vs fe567c23-aggro1c  01broken-curve  Round 1102/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/mimic-mite/01broken-curve/b.repl26a
+[|] STARTING  fe567c23-aggro2c vs codex-v57  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/codex-v57/00lanes/a.repl26a
+[+] TEAM B WIN (fe567c23-aggro1c)  mimic-mite vs fe567c23-aggro1c  00split  Round 0951/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/mimic-mite/00split/b.repl26a
+[+] TEAM B WIN (mimic-mite)  fe567c23-aggro1c vs mimic-mite  00rows  Round 1363/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/mimic-mite/00rows/a.repl26a
+[+] TEAM A WIN (mimic-mite)  mimic-mite vs fe567c23-aggro1c  00rows  Round 1388/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/mimic-mite/00rows/b.repl26a
+[|] STARTING  codex-v57 vs fe567c23-aggro2c  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/codex-v57/00lanes/b.repl26a
+[|] STARTING  fe567c23-aggro2c vs codex-v57  00gem-fields
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/codex-v57/00gem-fields/a.repl26a
+[|] STARTING  codex-v57 vs fe567c23-aggro2c  00gem-fields
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/codex-v57/00gem-fields/b.repl26a
+[+] TEAM A WIN (fe567c23-aggro1c)  fe567c23-aggro1c vs mimic-mite  00split  Round 0932/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/mimic-mite/00split/a.repl26a
+[|] STARTING  fe567c23-aggro2c vs codex-v57  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/codex-v57/00corners/a.repl26a
+[+] TEAM B WIN (codex-v57)  fe567c23-aggro2c vs codex-v57  00gem-fields  Round 0636/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/codex-v57/00gem-fields/a.repl26a
+[+] TEAM B WIN (fe567c23-aggro2c)  codex-v57 vs fe567c23-aggro2c  00gem-fields  Round 0588/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/codex-v57/00gem-fields/b.repl26a
+[|] STARTING  codex-v57 vs fe567c23-aggro2c  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/codex-v57/00corners/b.repl26a
+[|] STARTING  fe567c23-aggro2c vs codex-v57  01hooks
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/codex-v57/01hooks/a.repl26a
+[+] TEAM A WIN (fe567c23-aggro1c)  fe567c23-aggro1c vs mimic-mite  01starvation  Round 1577/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/mimic-mite/01starvation/a.repl26a
+[+] TEAM A WIN (fe567c23-aggro2c)  fe567c23-aggro2c vs codex-v57  00lanes  Round 1108/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/codex-v57/00lanes/a.repl26a
+[|] STARTING  codex-v57 vs fe567c23-aggro2c  01hooks
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/codex-v57/01hooks/b.repl26a
+[|] STARTING  fe567c23-aggro2c vs codex-v57  00split
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/codex-v57/00split/a.repl26a
+[+] TEAM B WIN (codex-v57)  fe567c23-aggro2c vs codex-v57  00corners  Round 1037/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/codex-v57/00corners/a.repl26a
+[|] STARTING  codex-v57 vs fe567c23-aggro2c  00split
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/codex-v57/00split/b.repl26a
+[+] TEAM B WIN (fe567c23-aggro1c)  mimic-mite vs fe567c23-aggro1c  01starvation  Round 1605/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro1c/mimic-mite/01starvation/b.repl26a
+[|] STARTING  fe567c23-aggro2c vs codex-v57  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/codex-v57/01broken-curve/a.repl26a
+[+] TEAM B WIN (fe567c23-aggro2c)  codex-v57 vs fe567c23-aggro2c  00lanes  Round 1198/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/codex-v57/00lanes/b.repl26a
+[|] STARTING  codex-v57 vs fe567c23-aggro2c  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/codex-v57/01broken-curve/b.repl26a
+[+] TEAM A WIN (codex-v57)  codex-v57 vs fe567c23-aggro2c  01hooks  Round 1184/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/codex-v57/01hooks/b.repl26a
+[|] STARTING  fe567c23-aggro2c vs codex-v57  00rows
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/codex-v57/00rows/a.repl26a
+[+] TEAM A WIN (fe567c23-aggro2c)  fe567c23-aggro2c vs codex-v57  01hooks  Round 1445/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/codex-v57/01hooks/a.repl26a
+[+] TEAM B WIN (codex-v57)  fe567c23-aggro2c vs codex-v57  00split  Round 0966/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/codex-v57/00split/a.repl26a
+[+] TEAM B WIN (codex-v57)  fe567c23-aggro2c vs codex-v57  01broken-curve  Round 1070/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/codex-v57/01broken-curve/a.repl26a
+[|] STARTING  codex-v57 vs fe567c23-aggro2c  00rows
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/codex-v57/00rows/b.repl26a
+[|] STARTING  fe567c23-aggro2c vs codex-v57  01starvation
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/codex-v57/01starvation/a.repl26a
+[|] STARTING  codex-v57 vs fe567c23-aggro2c  01starvation
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/codex-v57/01starvation/b.repl26a
+[+] TEAM A WIN (codex-v57)  codex-v57 vs fe567c23-aggro2c  00corners  Round 1051/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/codex-v57/00corners/b.repl26a
+[+] TEAM A WIN (codex-v57)  codex-v57 vs fe567c23-aggro2c  00split  Round 0925/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/codex-v57/00split/b.repl26a
+[|] STARTING  fe567c23-aggro2c vs prism-v58-control  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/prism-v58-control/00lanes/a.repl26a
+[|] STARTING  prism-v58-control vs fe567c23-aggro2c  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/prism-v58-control/00lanes/b.repl26a
+[+] TEAM A WIN (codex-v57)  codex-v57 vs fe567c23-aggro2c  01broken-curve  Round 1174/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/codex-v57/01broken-curve/b.repl26a
+[|] STARTING  fe567c23-aggro2c vs prism-v58-control  00gem-fields
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/prism-v58-control/00gem-fields/a.repl26a
+[+] TEAM B WIN (codex-v57)  fe567c23-aggro2c vs codex-v57  00rows  Round 1479/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/codex-v57/00rows/a.repl26a
+[+] TEAM B WIN (prism-v58-control)  fe567c23-aggro2c vs prism-v58-control  00gem-fields  Round 0653/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/prism-v58-control/00gem-fields/a.repl26a
+[|] STARTING  prism-v58-control vs fe567c23-aggro2c  00gem-fields
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/prism-v58-control/00gem-fields/b.repl26a
+[|] STARTING  fe567c23-aggro2c vs prism-v58-control  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/prism-v58-control/00corners/a.repl26a
+[+] TEAM A WIN (codex-v57)  codex-v57 vs fe567c23-aggro2c  00rows  Round 1597/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/codex-v57/00rows/b.repl26a
+[|] STARTING  prism-v58-control vs fe567c23-aggro2c  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/prism-v58-control/00corners/b.repl26a
+[+] TEAM A WIN (fe567c23-aggro2c)  fe567c23-aggro2c vs prism-v58-control  00lanes  Round 1044/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/prism-v58-control/00lanes/a.repl26a
+[|] STARTING  fe567c23-aggro2c vs prism-v58-control  01hooks
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/prism-v58-control/01hooks/a.repl26a
+[+] TEAM A WIN (prism-v58-control)  prism-v58-control vs fe567c23-aggro2c  00lanes  Round 1130/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/prism-v58-control/00lanes/b.repl26a
+[|] STARTING  prism-v58-control vs fe567c23-aggro2c  01hooks
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/prism-v58-control/01hooks/b.repl26a
+[+] TEAM B WIN (codex-v57)  fe567c23-aggro2c vs codex-v57  01starvation  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/codex-v57/01starvation/a.repl26a
+[+] TEAM A WIN (codex-v57)  codex-v57 vs fe567c23-aggro2c  01starvation  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/codex-v57/01starvation/b.repl26a
+[+] TEAM B WIN (fe567c23-aggro2c)  prism-v58-control vs fe567c23-aggro2c  00gem-fields  Round 0575/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/prism-v58-control/00gem-fields/b.repl26a
+[|] STARTING  fe567c23-aggro2c vs prism-v58-control  00split
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/prism-v58-control/00split/a.repl26a
+[|] STARTING  prism-v58-control vs fe567c23-aggro2c  00split
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/prism-v58-control/00split/b.repl26a
+[|] STARTING  fe567c23-aggro2c vs prism-v58-control  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/prism-v58-control/01broken-curve/a.repl26a
+[+] TEAM B WIN (prism-v58-control)  fe567c23-aggro2c vs prism-v58-control  00corners  Round 0939/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/prism-v58-control/00corners/a.repl26a
+[|] STARTING  prism-v58-control vs fe567c23-aggro2c  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/prism-v58-control/01broken-curve/b.repl26a
+[+] TEAM A WIN (fe567c23-aggro2c)  fe567c23-aggro2c vs prism-v58-control  01hooks  Round 1447/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/prism-v58-control/01hooks/a.repl26a
+[+] TEAM A WIN (prism-v58-control)  prism-v58-control vs fe567c23-aggro2c  01hooks  Round 1366/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/prism-v58-control/01hooks/b.repl26a
+[|] STARTING  fe567c23-aggro2c vs prism-v58-control  00rows
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/prism-v58-control/00rows/a.repl26a
+[|] STARTING  prism-v58-control vs fe567c23-aggro2c  00rows
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/prism-v58-control/00rows/b.repl26a
+[+] TEAM A WIN (prism-v58-control)  prism-v58-control vs fe567c23-aggro2c  00corners  Round 1182/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/prism-v58-control/00corners/b.repl26a
+[|] STARTING  fe567c23-aggro2c vs prism-v58-control  01starvation
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/prism-v58-control/01starvation/a.repl26a
+[+] TEAM B WIN (prism-v58-control)  fe567c23-aggro2c vs prism-v58-control  01broken-curve  Round 1134/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/prism-v58-control/01broken-curve/a.repl26a
+[|] STARTING  prism-v58-control vs fe567c23-aggro2c  01starvation
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/prism-v58-control/01starvation/b.repl26a
+[+] TEAM A WIN (prism-v58-control)  prism-v58-control vs fe567c23-aggro2c  01broken-curve  Round 1203/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/prism-v58-control/01broken-curve/b.repl26a
+[|] STARTING  fe567c23-aggro2c vs mimic-mite  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/mimic-mite/00lanes/a.repl26a
+[+] TEAM A WIN (fe567c23-aggro2c)  fe567c23-aggro2c vs prism-v58-control  00split  Round 0922/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/prism-v58-control/00split/a.repl26a
+[+] TEAM A WIN (prism-v58-control)  prism-v58-control vs fe567c23-aggro2c  00split  Round 1028/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/prism-v58-control/00split/b.repl26a
+[|] STARTING  mimic-mite vs fe567c23-aggro2c  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/mimic-mite/00lanes/b.repl26a
+[|] STARTING  fe567c23-aggro2c vs mimic-mite  00gem-fields
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/mimic-mite/00gem-fields/a.repl26a
+[+] TEAM B WIN (prism-v58-control)  fe567c23-aggro2c vs prism-v58-control  00rows  Round 1479/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/prism-v58-control/00rows/a.repl26a
+[+] TEAM A WIN (prism-v58-control)  prism-v58-control vs fe567c23-aggro2c  00rows  Round 1597/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/prism-v58-control/00rows/b.repl26a
+[|] STARTING  mimic-mite vs fe567c23-aggro2c  00gem-fields
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/mimic-mite/00gem-fields/b.repl26a
+[|] STARTING  fe567c23-aggro2c vs mimic-mite  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/mimic-mite/00corners/a.repl26a
+[+] TEAM A WIN (fe567c23-aggro2c)  fe567c23-aggro2c vs mimic-mite  00gem-fields  Round 0636/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/mimic-mite/00gem-fields/a.repl26a
+[|] STARTING  mimic-mite vs fe567c23-aggro2c  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/mimic-mite/00corners/b.repl26a
+[+] TEAM A WIN (fe567c23-aggro2c)  fe567c23-aggro2c vs prism-v58-control  01starvation  Round 1647/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/prism-v58-control/01starvation/a.repl26a
+[|] STARTING  fe567c23-aggro2c vs mimic-mite  01hooks
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/mimic-mite/01hooks/a.repl26a
+[+] TEAM B WIN (fe567c23-aggro2c)  mimic-mite vs fe567c23-aggro2c  00gem-fields  Round 0607/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/mimic-mite/00gem-fields/b.repl26a
+[|] STARTING  mimic-mite vs fe567c23-aggro2c  01hooks
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/mimic-mite/01hooks/b.repl26a
+[+] TEAM A WIN (prism-v58-control)  prism-v58-control vs fe567c23-aggro2c  01starvation  Round 1993/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/prism-v58-control/01starvation/b.repl26a
+[|] STARTING  fe567c23-aggro2c vs mimic-mite  00split
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/mimic-mite/00split/a.repl26a
+[+] TEAM A WIN (fe567c23-aggro2c)  fe567c23-aggro2c vs mimic-mite  00lanes  Round 1126/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/mimic-mite/00lanes/a.repl26a
+[+] TEAM A WIN (fe567c23-aggro2c)  fe567c23-aggro2c vs mimic-mite  01hooks  Round 1161/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/mimic-mite/01hooks/a.repl26a
+[|] STARTING  mimic-mite vs fe567c23-aggro2c  00split
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/mimic-mite/00split/b.repl26a
+[|] STARTING  fe567c23-aggro2c vs mimic-mite  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/mimic-mite/01broken-curve/a.repl26a
+[+] TEAM B WIN (fe567c23-aggro2c)  mimic-mite vs fe567c23-aggro2c  00lanes  Round 1111/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/mimic-mite/00lanes/b.repl26a
+[+] TEAM A WIN (fe567c23-aggro2c)  fe567c23-aggro2c vs mimic-mite  00corners  Round 1091/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/mimic-mite/00corners/a.repl26a
+[+] TEAM B WIN (fe567c23-aggro2c)  mimic-mite vs fe567c23-aggro2c  00corners  Round 0926/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/mimic-mite/00corners/b.repl26a
+[+] TEAM B WIN (fe567c23-aggro2c)  mimic-mite vs fe567c23-aggro2c  01hooks  Round 1430/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/mimic-mite/01hooks/b.repl26a
+[|] STARTING  mimic-mite vs fe567c23-aggro2c  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/mimic-mite/01broken-curve/b.repl26a
+[|] STARTING  fe567c23-aggro2c vs mimic-mite  00rows
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/mimic-mite/00rows/a.repl26a
+[|] STARTING  mimic-mite vs fe567c23-aggro2c  00rows
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/mimic-mite/00rows/b.repl26a
+[|] STARTING  fe567c23-aggro2c vs mimic-mite  01starvation
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/mimic-mite/01starvation/a.repl26a
+[+] TEAM B WIN (mimic-mite)  fe567c23-aggro2c vs mimic-mite  00split  Round 1040/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/mimic-mite/00split/a.repl26a
+[+] TEAM A WIN (fe567c23-aggro2c)  fe567c23-aggro2c vs mimic-mite  01broken-curve  Round 1177/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/mimic-mite/01broken-curve/a.repl26a
+[+] TEAM A WIN (mimic-mite)  mimic-mite vs fe567c23-aggro2c  01broken-curve  Round 1041/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/mimic-mite/01broken-curve/b.repl26a
+[|] STARTING  mimic-mite vs fe567c23-aggro2c  01starvation
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/mimic-mite/01starvation/b.repl26a
+[+] TEAM B WIN (mimic-mite)  fe567c23-aggro2c vs mimic-mite  00rows  Round 1363/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/mimic-mite/00rows/a.repl26a
+[+] TEAM A WIN (mimic-mite)  mimic-mite vs fe567c23-aggro2c  00rows  Round 1388/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/mimic-mite/00rows/b.repl26a
+[+] TEAM B WIN (fe567c23-aggro2c)  mimic-mite vs fe567c23-aggro2c  00split  Round 0985/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/mimic-mite/00split/b.repl26a
+[+] TEAM A WIN (fe567c23-aggro2c)  fe567c23-aggro2c vs mimic-mite  01starvation  Round 1390/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/mimic-mite/01starvation/a.repl26a
+[+] TEAM B WIN (fe567c23-aggro2c)  mimic-mite vs fe567c23-aggro2c  01starvation  Round 1510/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_aggro_iso/games/aggro2c/mimic-mite/01starvation/b.repl26a
+Finished: 144 replay bundles saved, 0 failed
+injected 0 checks into 0 functions
+injected 0 checks into 0 functions
+injected 0 checks into 0 functions

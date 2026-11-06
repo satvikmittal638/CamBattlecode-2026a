@@ -1,0 +1,254 @@
+{
+ "matches": 80,
+ "winRate": 0.76,
+ "avgRounds": 492.07,
+ "gemsFor": 974.3,
+ "gemsAgainst": 704.21,
+ "draft": {
+  "Varg,CassiAndIssac,Vendetta": 22,
+  "Varg,CassiAndIssac,Vendetta,Ryth": 19,
+  "Varg,CassiAndIssac,Vendetta,Ryth,Tavi": 39
+ },
+ "captures": 28.18,
+ "oppCaptures": 23.05,
+ "firstCapture": 30.56,
+ "capturesPer100": 5.95,
+ "capturersAtCapture": 1,
+ "capturesByType": {
+  "Wolf": 14.6,
+  "Elk+GemCluster": 0.28,
+  "Elk": 2.65,
+  "GemCluster": 6.74,
+  "GemCluster+GoldCluster": 0.86,
+  "Elk+GoldCluster": 3.01,
+  "GoldCluster": 0.04
+ },
+ "tributes": 25.45,
+ "tributesPer100": 5.41,
+ "gemsPerTribute": 40.62,
+ "gemsPerTributeMedian": 36,
+ "firstTribute": 60.64,
+ "tributeGemBuckets": {
+  "26-45": 742,
+  "11-25": 715,
+  "71-110": 154,
+  "46-70": 414,
+  "111+": 11
+ },
+ "recalls": 21.69,
+ "recallsPer100": 4.41,
+ "recallHpFrac": 0.43,
+ "recallHpBuckets": {
+  "20-35%": 847,
+  "35-50%": 247,
+  "50-75%": 229,
+  ">=75%": 278,
+  "<20%": 134
+ },
+ "recallGold": 74.2,
+ "recallGems": 15.44,
+ "recallDistSpawn": 21.44,
+ "kills": 4.01,
+ "deaths": 1.88,
+ "wards": 0,
+ "prio": 0,
+ "altarLocksPlaced": 0.25,
+ "altarLockBuys": 3.5,
+ "attackMix": {
+  "champion": 93.67,
+  "camp": 616.81,
+  "other": 3.21
+ },
+ "campAttackTypes": {
+  "Wolf": 326.51,
+  "Elk": 168.56,
+  "GoldCluster": 31.7,
+  "GemCluster": 90.04
+ },
+ "enemyHalfFrac": 0.09,
+ "nearAllies": 0.77,
+ "pairClose": {
+  "Varg-Cassi": 0.21,
+  "Varg-Issac": 0.16,
+  "Varg-Vendetta": 0.16,
+  "Cassi-Issac": 0.22,
+  "Cassi-Vendetta": 0.18,
+  "Issac-Vendetta": 0.16,
+  "Varg-Ryth": 0.11,
+  "Cassi-Ryth": 0.15,
+  "Issac-Ryth": 0.11,
+  "Vendetta-Ryth": 0.11,
+  "Varg-Tavi": 0.08,
+  "Cassi-Tavi": 0.1,
+  "Issac-Tavi": 0.07,
+  "Vendetta-Tavi": 0.08,
+  "Ryth-Tavi": 0.08
+ },
+ "perChamp": {
+  "Varg": {
+   "games": 80,
+   "attCampPer100": 21.33,
+   "attChampPer100": 4.85,
+   "abilPer100": {
+    "Shield->self": 5.21,
+    "AttackReset->self": 3.87
+   },
+   "recalls": 4.13,
+   "deaths": 0.16,
+   "kills": 1,
+   "tributes": 5.67,
+   "gemsTrib": 259.75,
+   "hpAtRecall": 0.51,
+   "builds": {
+    "Monster:Strength > Jungle:Health > Power:Strength > Durability:Health > Power:Strength": 15,
+    "Monster:Strength": 13,
+    "Monster:Strength > Jungle:Health": 11,
+    "Monster:Strength > Jungle:Health > Power:Strength > Power:Strength > Durability:Health": 10
+   },
+   "firstShop": {
+    "Jungle:Health,AltarLock,Power:Strength": 16,
+    "Monster:Strength,AltarLock,Jungle:Health": 8,
+    "Jungle:Health,Durability:Health,Power:Strength": 7
+   },
+   "altarLockShare": 0.75
+  },
+  "Cassi": {
+   "games": 80,
+   "attCampPer100": 26.6,
+   "attChampPer100": 1.78,
+   "abilPer100": {
+    "Damage->camp": 4.82,
+    "Cc->enemy": 1.17,
+    "Damage->enemy": 1
+   },
+   "recalls": 3.14,
+   "deaths": 0.57,
+   "kills": 0.5,
+   "tributes": 3.16,
+   "gemsTrib": 118.17,
+   "hpAtRecall": 0.38,
+   "builds": {
+    "(none)": 43,
+    "Monster:Focus > Jungle:Health > Power:Strength": 11,
+    "Monster:Focus": 8,
+    "Monster:Focus > Jungle:Health": 8
+   },
+   "firstShop": {
+    "(none)": 27,
+    "Monster:Focus,AltarLock": 9,
+    "Jungle:Health,Power:Strength,Power:Strength": 6
+   },
+   "altarLockShare": 0.42
+  },
+  "Issac": {
+   "games": 80,
+   "attCampPer100": 26.81,
+   "attChampPer100": 3.23,
+   "abilPer100": {
+    "Dash->tile": 7,
+    "AttackReset->self": 4.42
+   },
+   "recalls": 4.55,
+   "deaths": 0.57,
+   "kills": 0.42,
+   "tributes": 5.05,
+   "gemsTrib": 195.2,
+   "hpAtRecall": 0.43,
+   "builds": {
+    "Monster:Strength > Jungle:Health > Power:Strength > Durability:Health > Power:Strength": 14,
+    "(none)": 12,
+    "Monster:Strength > Jungle:Health": 11,
+    "Monster:Strength": 11
+   },
+   "firstShop": {
+    "Monster:Strength,Jungle:Health,Power:Strength": 10,
+    "Jungle:Health,AltarLock,Power:Strength": 10,
+    "(none)": 10
+   },
+   "altarLockShare": 0.61
+  },
+  "Vendetta": {
+   "games": 80,
+   "attCampPer100": 24.07,
+   "attChampPer100": 3.85,
+   "abilPer100": {
+    "Dash->tile": 7.67,
+    "AttackReset->self": 4.49
+   },
+   "recalls": 5.36,
+   "deaths": 0.2,
+   "kills": 1.05,
+   "tributes": 6.15,
+   "gemsTrib": 243.1,
+   "hpAtRecall": 0.42,
+   "builds": {
+    "Monster:Strength > Jungle:Health > Power:Strength > Durability:Health > Power:Strength": 17,
+    "Monster:Strength > Jungle:Health > Power:Strength > Durability:Health": 10,
+    "(none)": 9,
+    "Monster:Strength > Jungle:Health > Power:Strength": 9
+   },
+   "firstShop": {
+    "Jungle:Health,Power:Strength,Durability:Health": 9,
+    "Monster:Strength,AltarLock,Jungle:Health": 8,
+    "Jungle:Health,Power:Strength,AltarLock": 7
+   },
+   "altarLockShare": 0.76
+  },
+  "Ryth": {
+   "games": 58,
+   "attCampPer100": 23.36,
+   "attChampPer100": 4.1,
+   "abilPer100": {
+    "AttackReset->self": 3.88,
+    "AoeDamage->enemy": 1.49,
+    "AoeDamage->camp": 1.09
+   },
+   "recalls": 4.14,
+   "deaths": 0.29,
+   "kills": 1,
+   "tributes": 4.9,
+   "gemsTrib": 205.83,
+   "hpAtRecall": 0.43,
+   "builds": {
+    "(none)": 10,
+    "Monster:Strength > Jungle:Health": 10,
+    "Monster:Strength": 9,
+    "Monster:Strength > Jungle:Health > Power:Strength > Durability:Health > Power:Strength": 8
+   },
+   "firstShop": {
+    "Jungle:Health,AltarLock,Power:Strength": 8,
+    "Jungle:Health,Durability:Health,Power:Strength": 7,
+    "Monster:Strength": 5
+   },
+   "altarLockShare": 0.66
+  },
+  "Tavi": {
+   "games": 39,
+   "attCampPer100": 28.57,
+   "attChampPer100": 2.37,
+   "abilPer100": {
+    "AttackReset->self": 4.57,
+    "Cc->camp": 4.51,
+    "Cc->enemy": 0.98
+   },
+   "recalls": 3.1,
+   "deaths": 0.31,
+   "kills": 0.64,
+   "tributes": 3.82,
+   "gemsTrib": 140.36,
+   "hpAtRecall": 0.32,
+   "builds": {
+    "Monster:Strength > Jungle:Health > Power:Strength": 7,
+    "Monster:Strength > Jungle:Health": 7,
+    "Monster:Strength": 6,
+    "(none)": 5
+   },
+   "firstShop": {
+    "Jungle:Health,AltarLock,Power:Strength": 8,
+    "Monster:Strength,Jungle:Health,Jungle:Health": 7,
+    "Monster:Strength,Jungle:Health,Power:Strength": 3
+   },
+   "altarLockShare": 0.64
+  }
+ }
+}

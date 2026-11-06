@@ -1,0 +1,346 @@
+{
+ "group": {
+  "id": "12aad6ed-f2a9-4c31-8f28-11de1bcfb656",
+  "kind": "unranked",
+  "gameCount": 5,
+  "status": "finished",
+  "winnerTeamId": "6b04505b-d16c-4196-b7c6-53a4688a32ca",
+  "createdAt": "2026-10-29T16:11:40.879Z",
+  "finishedAt": "2026-10-29T16:14:27.444Z",
+  "ratedAt": null,
+  "sides": [
+   {
+    "side": "a",
+    "teamId": "6b04505b-d16c-4196-b7c6-53a4688a32ca",
+    "teamName": "Agentic Loop Builders",
+    "submissionId": "c31510a8-9504-469e-8e2d-4ad2e5efc6ec",
+    "version": 121,
+    "wins": 4,
+    "ratingBefore": null,
+    "ratingAfter": null
+   },
+   {
+    "side": "b",
+    "teamId": "9d100a1d-f0b5-4a93-836b-ed2ee705d397",
+    "teamName": "San Andreas Salt",
+    "submissionId": null,
+    "version": null,
+    "wins": 1,
+    "ratingBefore": null,
+    "ratingAfter": null
+   }
+  ]
+ },
+ "admin": false,
+ "myTeamId": "6b04505b-d16c-4196-b7c6-53a4688a32ca",
+ "matches": [
+  {
+   "id": "e25f9021-ef99-4780-93b2-5c8d5efe9edc",
+   "kind": "unranked",
+   "label": null,
+   "status": "finished",
+   "progress": "finished",
+   "errorCode": null,
+   "mapId": "1e9d8ad4-4634-4f55-81f6-4e9a0e0f09b4",
+   "summaryAvailable": true,
+   "patchId": "2.0.0:85aa7167b44db7cea97509f55e997750520e33d644e9f4f90d6128c50eba1d21:1",
+   "coinflip": false,
+   "endReason": "gems",
+   "map": "02cuts",
+   "rounds": 1146,
+   "replayUrl": "/api/v1/matches/e25f9021-ef99-4780-93b2-5c8d5efe9edc/bundle",
+   "error": null,
+   "createdAt": "2026-10-29T16:11:40.886Z",
+   "startedAt": "2026-10-29T16:14:23.352Z",
+   "finishedAt": "2026-10-29T16:14:25.843Z",
+   "sides": [
+    {
+     "side": "a",
+     "teamId": "9d100a1d-f0b5-4a93-836b-ed2ee705d397",
+     "teamName": "San Andreas Salt",
+     "version": null,
+     "result": "loss",
+     "score": 700,
+     "draft": [
+      "10",
+      "1",
+      "9",
+      "0",
+      "6"
+     ],
+     "botError": null,
+     "ratingBefore": null,
+     "ratingAfter": null,
+     "hasLog": false
+    },
+    {
+     "side": "b",
+     "teamId": "6b04505b-d16c-4196-b7c6-53a4688a32ca",
+     "teamName": "Agentic Loop Builders",
+     "version": 121,
+     "result": "win",
+     "score": 1022,
+     "draft": [
+      "11",
+      "1",
+      "0",
+      "6",
+      "2"
+     ],
+     "botError": null,
+     "ratingBefore": null,
+     "ratingAfter": null,
+     "hasLog": true
+    }
+   ],
+   "position": 1,
+   "showcase": true
+  },
+  {
+   "id": "9adcaa7d-79d3-48d3-9bb3-b64625406493",
+   "kind": "unranked",
+   "label": null,
+   "status": "finished",
+   "progress": "finished",
+   "errorCode": null,
+   "mapId": "62128fd1-03f3-4ce9-8e11-a953c91137a6",
+   "summaryAvailable": true,
+   "patchId": "2.0.0:85aa7167b44db7cea97509f55e997750520e33d644e9f4f90d6128c50eba1d21:1",
+   "coinflip": false,
+   "endReason": "gems",
+   "map": "00lanes",
+   "rounds": 1587,
+   "replayUrl": "/api/v1/matches/9adcaa7d-79d3-48d3-9bb3-b64625406493/bundle",
+   "error": null,
+   "createdAt": "2026-10-29T16:11:40.906Z",
+   "startedAt": "2026-10-29T16:14:23.452Z",
+   "finishedAt": "2026-10-29T16:14:27.104Z",
+   "sides": [
+    {
+     "side": "a",
+     "teamId": "9d100a1d-f0b5-4a93-836b-ed2ee705d397",
+     "teamName": "San Andreas Salt",
+     "version": null,
+     "result": "loss",
+     "score": 732,
+     "draft": [
+      "10",
+      "1",
+      "9",
+      "0",
+      "6"
+     ],
+     "botError": null,
+     "ratingBefore": null,
+     "ratingAfter": null,
+     "hasLog": false
+    },
+    {
+     "side": "b",
+     "teamId": "6b04505b-d16c-4196-b7c6-53a4688a32ca",
+     "teamName": "Agentic Loop Builders",
+     "version": 121,
+     "result": "win",
+     "score": 1020,
+     "draft": [
+      "11",
+      "1",
+      "0",
+      "6",
+      "2"
+     ],
+     "botError": null,
+     "ratingBefore": null,
+     "ratingAfter": null,
+     "hasLog": true
+    }
+   ],
+   "position": 2,
+   "showcase": true
+  },
+  {
+   "id": "283b4b73-2086-4717-a0df-72a099354d54",
+   "kind": "unranked",
+   "label": null,
+   "status": "finished",
+   "progress": "finished",
+   "errorCode": null,
+   "mapId": "cc6898bd-c546-4759-8085-dc63d4c1e55b",
+   "summaryAvailable": true,
+   "patchId": "2.0.0:85aa7167b44db7cea97509f55e997750520e33d644e9f4f90d6128c50eba1d21:1",
+   "coinflip": false,
+   "endReason": "gems",
+   "map": "00swirl",
+   "rounds": 1469,
+   "replayUrl": "/api/v1/matches/283b4b73-2086-4717-a0df-72a099354d54/bundle",
+   "error": null,
+   "createdAt": "2026-10-29T16:11:40.929Z",
+   "startedAt": "2026-10-29T16:14:23.888Z",
+   "finishedAt": "2026-10-29T16:14:27.050Z",
+   "sides": [
+    {
+     "side": "a",
+     "teamId": "9d100a1d-f0b5-4a93-836b-ed2ee705d397",
+     "teamName": "San Andreas Salt",
+     "version": null,
+     "result": "win",
+     "score": 1035,
+     "draft": [
+      "10",
+      "1",
+      "6",
+      "0"
+     ],
+     "botError": null,
+     "ratingBefore": null,
+     "ratingAfter": null,
+     "hasLog": false
+    },
+    {
+     "side": "b",
+     "teamId": "6b04505b-d16c-4196-b7c6-53a4688a32ca",
+     "teamName": "Agentic Loop Builders",
+     "version": 121,
+     "result": "loss",
+     "score": 47,
+     "draft": [
+      "11",
+      "1",
+      "0",
+      "6"
+     ],
+     "botError": null,
+     "ratingBefore": null,
+     "ratingAfter": null,
+     "hasLog": true
+    }
+   ],
+   "position": 3,
+   "showcase": true
+  },
+  {
+   "id": "366f98a2-3d40-46a6-bc90-fafce3366a5a",
+   "kind": "unranked",
+   "label": null,
+   "status": "finished",
+   "progress": "finished",
+   "errorCode": null,
+   "mapId": "aa9038e8-9700-41a9-b6c5-8b17694b913b",
+   "summaryAvailable": true,
+   "patchId": "2.0.0:85aa7167b44db7cea97509f55e997750520e33d644e9f4f90d6128c50eba1d21:1",
+   "coinflip": false,
+   "endReason": "gems",
+   "map": "00stampede",
+   "rounds": 1691,
+   "replayUrl": "/api/v1/matches/366f98a2-3d40-46a6-bc90-fafce3366a5a/bundle",
+   "error": null,
+   "createdAt": "2026-10-29T16:11:40.948Z",
+   "startedAt": "2026-10-29T16:14:24.382Z",
+   "finishedAt": "2026-10-29T16:14:27.424Z",
+   "sides": [
+    {
+     "side": "a",
+     "teamId": "6b04505b-d16c-4196-b7c6-53a4688a32ca",
+     "teamName": "Agentic Loop Builders",
+     "version": 121,
+     "result": "win",
+     "score": 1062,
+     "draft": [
+      "11",
+      "1",
+      "0",
+      "6",
+      "2"
+     ],
+     "botError": null,
+     "ratingBefore": null,
+     "ratingAfter": null,
+     "hasLog": true
+    },
+    {
+     "side": "b",
+     "teamId": "9d100a1d-f0b5-4a93-836b-ed2ee705d397",
+     "teamName": "San Andreas Salt",
+     "version": null,
+     "result": "loss",
+     "score": 160,
+     "draft": [
+      "10",
+      "1",
+      "9",
+      "0",
+      "6"
+     ],
+     "botError": null,
+     "ratingBefore": null,
+     "ratingAfter": null,
+     "hasLog": false
+    }
+   ],
+   "position": 4,
+   "showcase": true
+  },
+  {
+   "id": "cde872e2-2569-428a-9714-cad241f7f0e5",
+   "kind": "unranked",
+   "label": null,
+   "status": "finished",
+   "progress": "finished",
+   "errorCode": null,
+   "mapId": "d7814873-ceeb-4f96-930e-831c389d7f4d",
+   "summaryAvailable": true,
+   "patchId": "2.0.0:85aa7167b44db7cea97509f55e997750520e33d644e9f4f90d6128c50eba1d21:1",
+   "coinflip": false,
+   "endReason": "gems",
+   "map": "00galaxy",
+   "rounds": 1355,
+   "replayUrl": "/api/v1/matches/cde872e2-2569-428a-9714-cad241f7f0e5/bundle",
+   "error": null,
+   "createdAt": "2026-10-29T16:11:40.964Z",
+   "startedAt": "2026-10-29T16:14:24.438Z",
+   "finishedAt": "2026-10-29T16:14:27.143Z",
+   "sides": [
+    {
+     "side": "a",
+     "teamId": "6b04505b-d16c-4196-b7c6-53a4688a32ca",
+     "teamName": "Agentic Loop Builders",
+     "version": 121,
+     "result": "win",
+     "score": 1010,
+     "draft": [
+      "11",
+      "1",
+      "0",
+      "6",
+      "2"
+     ],
+     "botError": null,
+     "ratingBefore": null,
+     "ratingAfter": null,
+     "hasLog": true
+    },
+    {
+     "side": "b",
+     "teamId": "9d100a1d-f0b5-4a93-836b-ed2ee705d397",
+     "teamName": "San Andreas Salt",
+     "version": null,
+     "result": "loss",
+     "score": 956,
+     "draft": [
+      "10",
+      "1",
+      "9",
+      "0",
+      "6"
+     ],
+     "botError": null,
+     "ratingBefore": null,
+     "ratingAfter": null,
+     "hasLog": false
+    }
+   ],
+   "position": 5,
+   "showcase": true
+  }
+ ]
+}

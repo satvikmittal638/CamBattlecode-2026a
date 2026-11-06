@@ -1,0 +1,1876 @@
+{
+ "dir": "platform/v27/games",
+ "overall": {
+  "games": 50,
+  "winRate": 0.02,
+  "avgRounds": 1269.4,
+  "tributedAt": {
+   "100": 12.8,
+   "200": 35.8,
+   "300": 66.1,
+   "400": 88,
+   "500": 119.8,
+   "700": 175.1,
+   "1000": 242.5
+  },
+  "netWorthAt": {
+   "150": 502.2,
+   "300": 1171.4,
+   "500": 2191
+  },
+  "firstCapture": 38.6,
+  "firstTribute": 136.2,
+  "capturesPer100": 5.6,
+  "gemsPerCapture": 3.8,
+  "goldPerCapture": 42,
+  "grouping": 0.8,
+  "enemySideFrac": 0.1,
+  "activity": {
+   "Stellar": {
+    "walk": 0.522,
+    "dead": 0.218,
+    "idle": 0.123,
+    "farm": 0.087,
+    "recall": 0.034,
+    "fight": 0.013,
+    "tribute": 0.004
+   },
+   "_all": {
+    "walk": 0.504,
+    "dead": 0.234,
+    "idle": 0.11,
+    "farm": 0.094,
+    "recall": 0.044,
+    "fight": 0.009,
+    "tribute": 0.006
+   },
+   "Ren": {
+    "walk": 0.459,
+    "dead": 0.228,
+    "idle": 0.146,
+    "farm": 0.105,
+    "recall": 0.043,
+    "fight": 0.009,
+    "tribute": 0.009
+   },
+   "Cassi": {
+    "walk": 0.48,
+    "dead": 0.291,
+    "farm": 0.106,
+    "idle": 0.063,
+    "recall": 0.051,
+    "fight": 0.009,
+    "tribute": 0.001
+   },
+   "Issac": {
+    "walk": 0.459,
+    "dead": 0.29,
+    "idle": 0.094,
+    "farm": 0.09,
+    "recall": 0.057,
+    "fight": 0.005,
+    "tribute": 0.005
+   },
+   "Ryth": {
+    "walk": 0.58,
+    "dead": 0.171,
+    "farm": 0.103,
+    "idle": 0.091,
+    "recall": 0.041,
+    "tribute": 0.007,
+    "fight": 0.007
+   },
+   "Varg": {
+    "walk": 0.588,
+    "idle": 0.164,
+    "dead": 0.112,
+    "farm": 0.078,
+    "recall": 0.041,
+    "tribute": 0.014,
+    "fight": 0.004
+   },
+   "Tavi": {
+    "dead": 0.508,
+    "walk": 0.388,
+    "idle": 0.036,
+    "fight": 0.03,
+    "recall": 0.026,
+    "farm": 0.01
+   },
+   "Prism": {
+    "dead": 0.513,
+    "walk": 0.378,
+    "idle": 0.042,
+    "fight": 0.032,
+    "recall": 0.022,
+    "farm": 0.013
+   }
+  }
+ },
+ "byMap": {
+  "00ambush": {
+   "games": 2,
+   "winRate": 0,
+   "avgRounds": 1459.5,
+   "tributedAt": {
+    "100": 0,
+    "200": 0,
+    "300": 0,
+    "400": 0,
+    "500": 37,
+    "700": 72,
+    "1000": 107
+   },
+   "netWorthAt": {
+    "150": 240,
+    "300": 700,
+    "500": 1539
+   },
+   "firstCapture": 63,
+   "firstTribute": 416,
+   "capturesPer100": 3.8,
+   "gemsPerCapture": 2.7,
+   "goldPerCapture": 58.8,
+   "grouping": 0.4,
+   "enemySideFrac": 0.1,
+   "activity": {
+    "Stellar": {
+     "walk": 0.845,
+     "idle": 0.078,
+     "farm": 0.037,
+     "recall": 0.031,
+     "fight": 0.009
+    },
+    "_all": {
+     "walk": 0.767,
+     "idle": 0.076,
+     "dead": 0.069,
+     "farm": 0.044,
+     "recall": 0.034,
+     "fight": 0.007,
+     "tribute": 0.003
+    },
+    "Ren": {
+     "walk": 0.706,
+     "idle": 0.099,
+     "dead": 0.083,
+     "farm": 0.073,
+     "recall": 0.031,
+     "fight": 0.008,
+     "tribute": 0.001
+    },
+    "Cassi": {
+     "walk": 0.775,
+     "dead": 0.083,
+     "idle": 0.063,
+     "recall": 0.036,
+     "farm": 0.033,
+     "fight": 0.009,
+     "tribute": 0.001
+    },
+    "Issac": {
+     "walk": 0.746,
+     "dead": 0.082,
+     "idle": 0.078,
+     "recall": 0.047,
+     "farm": 0.042,
+     "fight": 0.006
+    },
+    "Ryth": {
+     "walk": 0.698,
+     "dead": 0.164,
+     "idle": 0.061,
+     "farm": 0.043,
+     "recall": 0.022,
+     "fight": 0.007,
+     "tribute": 0.004
+    },
+    "Varg": {
+     "walk": 0.834,
+     "idle": 0.077,
+     "recall": 0.039,
+     "farm": 0.034,
+     "tribute": 0.01,
+     "fight": 0.005
+    }
+   }
+  },
+  "00collision": {
+   "games": 2,
+   "winRate": 0,
+   "avgRounds": 1057.5,
+   "tributedAt": {
+    "100": 0,
+    "200": 2,
+    "300": 23.5,
+    "400": 32.5,
+    "500": 32.5,
+    "700": 45.5,
+    "1000": 45.5
+   },
+   "netWorthAt": {
+    "150": 510,
+    "300": 1181,
+    "500": 2257
+   },
+   "firstCapture": 20,
+   "firstTribute": 440,
+   "capturesPer100": 7,
+   "gemsPerCapture": 1,
+   "goldPerCapture": 23.9,
+   "grouping": 0.9,
+   "enemySideFrac": 0.1,
+   "activity": {
+    "Stellar": {
+     "walk": 0.402,
+     "dead": 0.291,
+     "idle": 0.132,
+     "farm": 0.095,
+     "recall": 0.048,
+     "fight": 0.027,
+     "tribute": 0.004
+    },
+    "_all": {
+     "dead": 0.358,
+     "walk": 0.325,
+     "farm": 0.135,
+     "idle": 0.118,
+     "recall": 0.047,
+     "fight": 0.015,
+     "tribute": 0.002
+    },
+    "Ren": {
+     "walk": 0.349,
+     "dead": 0.281,
+     "idle": 0.161,
+     "farm": 0.132,
+     "recall": 0.059,
+     "fight": 0.014,
+     "tribute": 0.004
+    },
+    "Cassi": {
+     "dead": 0.43,
+     "walk": 0.257,
+     "farm": 0.203,
+     "idle": 0.064,
+     "recall": 0.033,
+     "fight": 0.013
+    },
+    "Issac": {
+     "dead": 0.429,
+     "walk": 0.291,
+     "idle": 0.116,
+     "farm": 0.108,
+     "recall": 0.048,
+     "fight": 0.007,
+     "tribute": 0.001
+    }
+   }
+  },
+  "00contest": {
+   "games": 2,
+   "winRate": 0,
+   "avgRounds": 2000,
+   "tributedAt": {
+    "100": 0,
+    "200": 0,
+    "300": 0,
+    "400": 0,
+    "500": 0,
+    "700": 0,
+    "1000": 0
+   },
+   "netWorthAt": {
+    "150": 635,
+    "300": 1040,
+    "500": 1280
+   },
+   "firstCapture": 36,
+   "firstTribute": null,
+   "capturesPer100": 6.7,
+   "gemsPerCapture": 0,
+   "goldPerCapture": 6,
+   "grouping": 0.4,
+   "enemySideFrac": 0.1,
+   "activity": {
+    "Tavi": {
+     "dead": 0.508,
+     "walk": 0.388,
+     "idle": 0.036,
+     "fight": 0.03,
+     "recall": 0.026,
+     "farm": 0.01
+    },
+    "_all": {
+     "dead": 0.494,
+     "walk": 0.394,
+     "idle": 0.039,
+     "recall": 0.033,
+     "fight": 0.023,
+     "farm": 0.017
+    },
+    "Stellar": {
+     "dead": 0.506,
+     "walk": 0.399,
+     "idle": 0.031,
+     "fight": 0.025,
+     "recall": 0.024,
+     "farm": 0.013
+    },
+    "Cassi": {
+     "dead": 0.518,
+     "walk": 0.387,
+     "recall": 0.041,
+     "idle": 0.027,
+     "fight": 0.014,
+     "farm": 0.013
+    },
+    "Issac": {
+     "dead": 0.516,
+     "walk": 0.361,
+     "idle": 0.041,
+     "recall": 0.04,
+     "farm": 0.023,
+     "fight": 0.018
+    },
+    "Prism": {
+     "dead": 0.513,
+     "walk": 0.378,
+     "idle": 0.042,
+     "fight": 0.032,
+     "recall": 0.022,
+     "farm": 0.013
+    },
+    "Ren": {
+     "walk": 0.452,
+     "dead": 0.4,
+     "idle": 0.06,
+     "recall": 0.042,
+     "farm": 0.026,
+     "fight": 0.02
+    }
+   }
+  },
+  "00corners": {
+   "games": 2,
+   "winRate": 0,
+   "avgRounds": 1030.5,
+   "tributedAt": {
+    "100": 2,
+    "200": 19,
+    "300": 73,
+    "400": 97.5,
+    "500": 131.5,
+    "700": 199.5,
+    "1000": 252.5
+   },
+   "netWorthAt": {
+    "150": 770,
+    "300": 1650,
+    "500": 3406
+   },
+   "firstCapture": 27,
+   "firstTribute": 72.5,
+   "capturesPer100": 7.1,
+   "gemsPerCapture": 2.5,
+   "goldPerCapture": 38.5,
+   "grouping": 0.4,
+   "enemySideFrac": 0.1,
+   "activity": {
+    "Stellar": {
+     "walk": 0.564,
+     "dead": 0.151,
+     "idle": 0.126,
+     "farm": 0.091,
+     "recall": 0.052,
+     "fight": 0.012,
+     "tribute": 0.004
+    },
+    "_all": {
+     "walk": 0.47,
+     "dead": 0.236,
+     "farm": 0.124,
+     "idle": 0.096,
+     "recall": 0.055,
+     "fight": 0.012,
+     "tribute": 0.008
+    },
+    "Ren": {
+     "walk": 0.498,
+     "dead": 0.147,
+     "idle": 0.125,
+     "farm": 0.12,
+     "recall": 0.069,
+     "fight": 0.021,
+     "tribute": 0.02
+    },
+    "Cassi": {
+     "walk": 0.417,
+     "dead": 0.306,
+     "farm": 0.134,
+     "idle": 0.076,
+     "recall": 0.052,
+     "fight": 0.012,
+     "tribute": 0.003
+    },
+    "Issac": {
+     "walk": 0.427,
+     "dead": 0.305,
+     "farm": 0.149,
+     "idle": 0.06,
+     "recall": 0.051,
+     "fight": 0.004,
+     "tribute": 0.004
+    },
+    "Ryth": {
+     "walk": 0.442,
+     "dead": 0.263,
+     "farm": 0.134,
+     "idle": 0.095,
+     "recall": 0.051,
+     "tribute": 0.008,
+     "fight": 0.007
+    },
+    "Varg": {
+     "walk": 0.474,
+     "dead": 0.247,
+     "farm": 0.114,
+     "idle": 0.091,
+     "recall": 0.052,
+     "fight": 0.014,
+     "tribute": 0.007
+    }
+   }
+  },
+  "00eight": {
+   "games": 2,
+   "winRate": 0,
+   "avgRounds": 817.5,
+   "tributedAt": {
+    "100": 22.5,
+    "200": 80,
+    "300": 124.5,
+    "400": 148.5,
+    "500": 191.5,
+    "700": 205,
+    "1000": 229
+   },
+   "netWorthAt": {
+    "150": 489,
+    "300": 1196,
+    "500": 2020
+   },
+   "firstCapture": 66,
+   "firstTribute": 102,
+   "capturesPer100": 3.7,
+   "gemsPerCapture": 7.3,
+   "goldPerCapture": 50.6,
+   "grouping": 1.4,
+   "enemySideFrac": 0,
+   "activity": {
+    "Stellar": {
+     "walk": 0.487,
+     "dead": 0.26,
+     "farm": 0.137,
+     "recall": 0.071,
+     "fight": 0.023,
+     "idle": 0.019,
+     "tribute": 0.002
+    },
+    "_all": {
+     "walk": 0.448,
+     "dead": 0.325,
+     "farm": 0.116,
+     "recall": 0.06,
+     "idle": 0.035,
+     "fight": 0.01,
+     "tribute": 0.006
+    },
+    "Ren": {
+     "walk": 0.384,
+     "dead": 0.345,
+     "farm": 0.164,
+     "recall": 0.054,
+     "idle": 0.038,
+     "fight": 0.009,
+     "tribute": 0.006
+    },
+    "Cassi": {
+     "walk": 0.414,
+     "dead": 0.396,
+     "farm": 0.107,
+     "recall": 0.062,
+     "idle": 0.017,
+     "fight": 0.004
+    },
+    "Issac": {
+     "walk": 0.418,
+     "dead": 0.394,
+     "farm": 0.073,
+     "recall": 0.073,
+     "idle": 0.029,
+     "tribute": 0.009,
+     "fight": 0.003
+    },
+    "Ryth": {
+     "walk": 0.506,
+     "dead": 0.258,
+     "farm": 0.125,
+     "recall": 0.048,
+     "idle": 0.041,
+     "fight": 0.013,
+     "tribute": 0.009
+    },
+    "Varg": {
+     "walk": 0.478,
+     "dead": 0.297,
+     "farm": 0.092,
+     "idle": 0.067,
+     "recall": 0.049,
+     "tribute": 0.011,
+     "fight": 0.006
+    }
+   }
+  },
+  "00elkring": {
+   "games": 2,
+   "winRate": 0,
+   "avgRounds": 688.5,
+   "tributedAt": {
+    "100": 44,
+    "200": 126.5,
+    "300": 148.5,
+    "400": 203.5,
+    "500": 242,
+    "700": 302.5,
+    "1000": 302.5
+   },
+   "netWorthAt": {
+    "150": 671,
+    "300": 1392,
+    "500": 2105
+   },
+   "firstCapture": 17,
+   "firstTribute": 37,
+   "capturesPer100": 4.4,
+   "gemsPerCapture": 8.7,
+   "goldPerCapture": 48.1,
+   "grouping": 1.5,
+   "enemySideFrac": 0,
+   "activity": {
+    "Stellar": {
+     "walk": 0.362,
+     "farm": 0.255,
+     "dead": 0.239,
+     "idle": 0.065,
+     "recall": 0.05,
+     "fight": 0.027,
+     "tribute": 0.002
+    },
+    "_all": {
+     "walk": 0.399,
+     "dead": 0.299,
+     "farm": 0.172,
+     "idle": 0.057,
+     "recall": 0.053,
+     "tribute": 0.01,
+     "fight": 0.009
+    },
+    "Ren": {
+     "walk": 0.35,
+     "dead": 0.344,
+     "farm": 0.191,
+     "idle": 0.055,
+     "recall": 0.044,
+     "fight": 0.009,
+     "tribute": 0.006
+    },
+    "Cassi": {
+     "dead": 0.394,
+     "walk": 0.324,
+     "farm": 0.186,
+     "recall": 0.073,
+     "idle": 0.015,
+     "fight": 0.008
+    },
+    "Issac": {
+     "dead": 0.393,
+     "walk": 0.382,
+     "farm": 0.081,
+     "idle": 0.066,
+     "recall": 0.062,
+     "tribute": 0.014,
+     "fight": 0.002
+    },
+    "Ryth": {
+     "walk": 0.561,
+     "farm": 0.189,
+     "dead": 0.096,
+     "idle": 0.065,
+     "recall": 0.062,
+     "tribute": 0.02,
+     "fight": 0.007
+    },
+    "Varg": {
+     "walk": 0.413,
+     "dead": 0.328,
+     "farm": 0.131,
+     "idle": 0.078,
+     "recall": 0.03,
+     "tribute": 0.019,
+     "fight": 0.002
+    }
+   }
+  },
+  "00expanse": {
+   "games": 4,
+   "winRate": 0,
+   "avgRounds": 1133.5,
+   "tributedAt": {
+    "100": 26.5,
+    "200": 36.5,
+    "300": 93,
+    "400": 127,
+    "500": 172.5,
+    "700": 292.3,
+    "1000": 505.8
+   },
+   "netWorthAt": {
+    "150": 676,
+    "300": 1764,
+    "500": 3387
+   },
+   "firstCapture": 28,
+   "firstTribute": 37.5,
+   "capturesPer100": 9.1,
+   "gemsPerCapture": 3,
+   "goldPerCapture": 45.5,
+   "grouping": 0.3,
+   "enemySideFrac": 0,
+   "activity": {
+    "Stellar": {
+     "walk": 0.714,
+     "idle": 0.132,
+     "farm": 0.11,
+     "recall": 0.034,
+     "tribute": 0.01,
+     "fight": 0
+    },
+    "_all": {
+     "walk": 0.666,
+     "farm": 0.154,
+     "idle": 0.103,
+     "recall": 0.052,
+     "tribute": 0.014,
+     "dead": 0.011,
+     "fight": 0
+    },
+    "Ren": {
+     "walk": 0.588,
+     "farm": 0.166,
+     "idle": 0.14,
+     "recall": 0.046,
+     "dead": 0.04,
+     "tribute": 0.02,
+     "fight": 0
+    },
+    "Cassi": {
+     "walk": 0.662,
+     "farm": 0.207,
+     "idle": 0.068,
+     "recall": 0.056,
+     "tribute": 0.005,
+     "fight": 0.001
+    },
+    "Issac": {
+     "walk": 0.641,
+     "farm": 0.167,
+     "idle": 0.104,
+     "recall": 0.075,
+     "tribute": 0.013
+    },
+    "Ryth": {
+     "walk": 0.698,
+     "farm": 0.157,
+     "idle": 0.08,
+     "recall": 0.043,
+     "dead": 0.013,
+     "tribute": 0.01
+    },
+    "Varg": {
+     "walk": 0.691,
+     "farm": 0.12,
+     "idle": 0.095,
+     "recall": 0.055,
+     "tribute": 0.025,
+     "dead": 0.013
+    }
+   }
+  },
+  "00fragment": {
+   "games": 2,
+   "winRate": 0,
+   "avgRounds": 1474.5,
+   "tributedAt": {
+    "100": 10,
+    "200": 61,
+    "300": 82,
+    "400": 97,
+    "500": 109,
+    "700": 123,
+    "1000": 129
+   },
+   "netWorthAt": {
+    "150": 446,
+    "300": 1070,
+    "500": 1550
+   },
+   "firstCapture": 19,
+   "firstTribute": 30,
+   "capturesPer100": 3.6,
+   "gemsPerCapture": 1.5,
+   "goldPerCapture": 21.4,
+   "grouping": 1.3,
+   "enemySideFrac": 0,
+   "activity": {
+    "Stellar": {
+     "dead": 0.501,
+     "walk": 0.245,
+     "farm": 0.11,
+     "idle": 0.086,
+     "fight": 0.03,
+     "recall": 0.025,
+     "tribute": 0.001
+    },
+    "_all": {
+     "dead": 0.528,
+     "walk": 0.238,
+     "idle": 0.09,
+     "farm": 0.089,
+     "recall": 0.034,
+     "fight": 0.017,
+     "tribute": 0.004
+    },
+    "Ren": {
+     "dead": 0.479,
+     "walk": 0.264,
+     "idle": 0.099,
+     "farm": 0.096,
+     "recall": 0.036,
+     "fight": 0.016,
+     "tribute": 0.01
+    },
+    "Cassi": {
+     "dead": 0.567,
+     "walk": 0.226,
+     "farm": 0.086,
+     "idle": 0.073,
+     "recall": 0.034,
+     "fight": 0.014,
+     "tribute": 0
+    },
+    "Issac": {
+     "dead": 0.565,
+     "walk": 0.218,
+     "idle": 0.101,
+     "farm": 0.063,
+     "recall": 0.04,
+     "fight": 0.007,
+     "tribute": 0.005
+    }
+   }
+  },
+  "00interlock": {
+   "games": 4,
+   "winRate": 0,
+   "avgRounds": 1147,
+   "tributedAt": {
+    "100": 11.5,
+    "200": 30.5,
+    "300": 56.8,
+    "400": 89.5,
+    "500": 105.8,
+    "700": 162.5,
+    "1000": 202.5
+   },
+   "netWorthAt": {
+    "150": 424,
+    "300": 907.5,
+    "500": 1789
+   },
+   "firstCapture": 32,
+   "firstTribute": 64.8,
+   "capturesPer100": 5.5,
+   "gemsPerCapture": 2.5,
+   "goldPerCapture": 31.5,
+   "grouping": 0.5,
+   "enemySideFrac": 0.1,
+   "activity": {
+    "Stellar": {
+     "walk": 0.461,
+     "dead": 0.285,
+     "farm": 0.109,
+     "idle": 0.09,
+     "recall": 0.029,
+     "fight": 0.016,
+     "tribute": 0.01
+    },
+    "_all": {
+     "walk": 0.422,
+     "dead": 0.312,
+     "farm": 0.119,
+     "idle": 0.083,
+     "recall": 0.042,
+     "fight": 0.012,
+     "tribute": 0.009
+    },
+    "Ren": {
+     "walk": 0.417,
+     "dead": 0.281,
+     "farm": 0.127,
+     "idle": 0.103,
+     "recall": 0.043,
+     "tribute": 0.017,
+     "fight": 0.012
+    },
+    "Cassi": {
+     "walk": 0.375,
+     "dead": 0.361,
+     "farm": 0.152,
+     "recall": 0.053,
+     "idle": 0.051,
+     "fight": 0.008,
+     "tribute": 0.001
+    },
+    "Issac": {
+     "walk": 0.365,
+     "dead": 0.36,
+     "farm": 0.124,
+     "idle": 0.082,
+     "recall": 0.053,
+     "tribute": 0.01,
+     "fight": 0.007
+    },
+    "Ryth": {
+     "walk": 0.492,
+     "dead": 0.273,
+     "idle": 0.09,
+     "farm": 0.085,
+     "recall": 0.034,
+     "fight": 0.017,
+     "tribute": 0.01
+    }
+   }
+  },
+  "00lanes": {
+   "games": 2,
+   "winRate": 0,
+   "avgRounds": 1343.5,
+   "tributedAt": {
+    "100": 12,
+    "200": 37,
+    "300": 58,
+    "400": 85.5,
+    "500": 115.5,
+    "700": 155.5,
+    "1000": 253
+   },
+   "netWorthAt": {
+    "150": 566,
+    "300": 1030,
+    "500": 1746
+   },
+   "firstCapture": 44,
+   "firstTribute": 71,
+   "capturesPer100": 6.9,
+   "gemsPerCapture": 2.2,
+   "goldPerCapture": 28.9,
+   "grouping": 0.6,
+   "enemySideFrac": 0,
+   "activity": {
+    "Stellar": {
+     "walk": 0.517,
+     "idle": 0.192,
+     "dead": 0.134,
+     "farm": 0.106,
+     "recall": 0.038,
+     "fight": 0.007,
+     "tribute": 0.006
+    },
+    "_all": {
+     "walk": 0.557,
+     "idle": 0.132,
+     "dead": 0.13,
+     "farm": 0.111,
+     "recall": 0.054,
+     "tribute": 0.009,
+     "fight": 0.007
+    },
+    "Ren": {
+     "walk": 0.55,
+     "idle": 0.192,
+     "dead": 0.09,
+     "farm": 0.078,
+     "recall": 0.062,
+     "tribute": 0.015,
+     "fight": 0.012
+    },
+    "Cassi": {
+     "walk": 0.595,
+     "farm": 0.164,
+     "dead": 0.135,
+     "recall": 0.073,
+     "idle": 0.024,
+     "fight": 0.007,
+     "tribute": 0.002
+    },
+    "Issac": {
+     "walk": 0.556,
+     "dead": 0.135,
+     "farm": 0.132,
+     "idle": 0.091,
+     "recall": 0.072,
+     "tribute": 0.008,
+     "fight": 0.005
+    },
+    "Ryth": {
+     "walk": 0.56,
+     "dead": 0.194,
+     "farm": 0.096,
+     "idle": 0.094,
+     "recall": 0.038,
+     "tribute": 0.01,
+     "fight": 0.008
+    },
+    "Varg": {
+     "walk": 0.565,
+     "idle": 0.197,
+     "dead": 0.09,
+     "farm": 0.086,
+     "recall": 0.044,
+     "tribute": 0.015,
+     "fight": 0.003
+    }
+   }
+  },
+  "00monolith": {
+   "games": 2,
+   "winRate": 0,
+   "avgRounds": 997,
+   "tributedAt": {
+    "100": 13.5,
+    "200": 68,
+    "300": 106,
+    "400": 160.5,
+    "500": 221,
+    "700": 269,
+    "1000": 370.5
+   },
+   "netWorthAt": {
+    "150": 596,
+    "300": 1390,
+    "500": 2821
+   },
+   "firstCapture": 27,
+   "firstTribute": 43,
+   "capturesPer100": 8.1,
+   "gemsPerCapture": 2.5,
+   "goldPerCapture": 28.1,
+   "grouping": 0.8,
+   "enemySideFrac": 0,
+   "activity": {
+    "Stellar": {
+     "walk": 0.5,
+     "dead": 0.291,
+     "farm": 0.121,
+     "idle": 0.058,
+     "recall": 0.017,
+     "fight": 0.011,
+     "tribute": 0.003
+    },
+    "_all": {
+     "walk": 0.508,
+     "dead": 0.19,
+     "farm": 0.153,
+     "idle": 0.077,
+     "recall": 0.056,
+     "tribute": 0.01,
+     "fight": 0.005
+    },
+    "Ren": {
+     "walk": 0.432,
+     "dead": 0.212,
+     "farm": 0.163,
+     "idle": 0.12,
+     "recall": 0.053,
+     "tribute": 0.017,
+     "fight": 0.003
+    },
+    "Cassi": {
+     "walk": 0.444,
+     "farm": 0.227,
+     "dead": 0.193,
+     "recall": 0.079,
+     "idle": 0.049,
+     "fight": 0.005,
+     "tribute": 0.004
+    },
+    "Issac": {
+     "walk": 0.481,
+     "dead": 0.192,
+     "farm": 0.164,
+     "recall": 0.088,
+     "idle": 0.065,
+     "tribute": 0.006,
+     "fight": 0.004
+    },
+    "Ryth": {
+     "walk": 0.549,
+     "dead": 0.17,
+     "farm": 0.134,
+     "idle": 0.079,
+     "recall": 0.048,
+     "tribute": 0.014,
+     "fight": 0.006
+    },
+    "Varg": {
+     "walk": 0.641,
+     "farm": 0.111,
+     "idle": 0.091,
+     "dead": 0.084,
+     "recall": 0.053,
+     "tribute": 0.016,
+     "fight": 0.004
+    }
+   }
+  },
+  "01big_world": {
+   "games": 4,
+   "winRate": 0,
+   "avgRounds": 1217.5,
+   "tributedAt": {
+    "100": 45,
+    "200": 60,
+    "300": 146,
+    "400": 165,
+    "500": 206,
+    "700": 375,
+    "1000": 572
+   },
+   "netWorthAt": {
+    "150": 490,
+    "300": 1520,
+    "500": 2854
+   },
+   "firstCapture": 34.5,
+   "firstTribute": 84,
+   "capturesPer100": 3.9,
+   "gemsPerCapture": 7.1,
+   "goldPerCapture": 67.4,
+   "grouping": 0.9,
+   "enemySideFrac": 0,
+   "activity": {
+    "Stellar": {
+     "walk": 0.786,
+     "farm": 0.11,
+     "idle": 0.045,
+     "recall": 0.043,
+     "dead": 0.01,
+     "tribute": 0.006
+    },
+    "_all": {
+     "walk": 0.711,
+     "farm": 0.131,
+     "recall": 0.072,
+     "idle": 0.051,
+     "dead": 0.022,
+     "tribute": 0.013
+    },
+    "Ren": {
+     "walk": 0.635,
+     "farm": 0.153,
+     "recall": 0.074,
+     "idle": 0.067,
+     "dead": 0.049,
+     "tribute": 0.022
+    },
+    "Cassi": {
+     "walk": 0.653,
+     "farm": 0.175,
+     "recall": 0.095,
+     "idle": 0.045,
+     "dead": 0.031,
+     "tribute": 0.001
+    },
+    "Issac": {
+     "walk": 0.659,
+     "farm": 0.135,
+     "recall": 0.112,
+     "idle": 0.052,
+     "dead": 0.031,
+     "tribute": 0.011
+    },
+    "Ryth": {
+     "walk": 0.724,
+     "farm": 0.149,
+     "recall": 0.059,
+     "idle": 0.049,
+     "dead": 0.012,
+     "tribute": 0.006
+    },
+    "Varg": {
+     "walk": 0.808,
+     "farm": 0.068,
+     "idle": 0.049,
+     "recall": 0.047,
+     "tribute": 0.029
+    }
+   }
+  },
+  "01boss_battle": {
+   "games": 2,
+   "winRate": 0.5,
+   "avgRounds": 2000,
+   "tributedAt": {
+    "100": 0,
+    "200": 0,
+    "300": 0,
+    "400": 0,
+    "500": 0,
+    "700": 0,
+    "1000": 0
+   },
+   "netWorthAt": {
+    "150": 260,
+    "300": 490,
+    "500": 767
+   },
+   "firstCapture": 69,
+   "firstTribute": null,
+   "capturesPer100": 3.3,
+   "gemsPerCapture": 6.3,
+   "goldPerCapture": 70,
+   "grouping": 2.6,
+   "enemySideFrac": 0,
+   "activity": {
+    "Stellar": {
+     "idle": 0.75,
+     "walk": 0.194,
+     "farm": 0.035,
+     "recall": 0.021
+    },
+    "_all": {
+     "idle": 0.617,
+     "walk": 0.24,
+     "dead": 0.072,
+     "farm": 0.038,
+     "recall": 0.032
+    },
+    "Ren": {
+     "idle": 0.911,
+     "walk": 0.062,
+     "farm": 0.017,
+     "recall": 0.01
+    },
+    "Cassi": {
+     "walk": 0.397,
+     "idle": 0.323,
+     "dead": 0.165,
+     "farm": 0.059,
+     "recall": 0.056
+    },
+    "Issac": {
+     "idle": 0.405,
+     "walk": 0.345,
+     "dead": 0.165,
+     "recall": 0.051,
+     "farm": 0.033
+    },
+    "Ryth": {
+     "idle": 0.393,
+     "walk": 0.39,
+     "dead": 0.105,
+     "farm": 0.069,
+     "recall": 0.044
+    },
+    "Varg": {
+     "idle": 0.919,
+     "walk": 0.052,
+     "farm": 0.016,
+     "recall": 0.012
+    }
+   }
+  },
+  "01broken_curve": {
+   "games": 2,
+   "winRate": 0,
+   "avgRounds": 1231.5,
+   "tributedAt": {
+    "100": 13,
+    "200": 17,
+    "300": 39,
+    "400": 65,
+    "500": 93.5,
+    "700": 186,
+    "1000": 294.5
+   },
+   "netWorthAt": {
+    "150": 562,
+    "300": 1081,
+    "500": 2282
+   },
+   "firstCapture": 48,
+   "firstTribute": 112,
+   "capturesPer100": 6.5,
+   "gemsPerCapture": 1.6,
+   "goldPerCapture": 24.2,
+   "grouping": 0.6,
+   "enemySideFrac": 0.2,
+   "activity": {
+    "Stellar": {
+     "walk": 0.457,
+     "dead": 0.242,
+     "idle": 0.132,
+     "farm": 0.098,
+     "recall": 0.037,
+     "tribute": 0.019,
+     "fight": 0.015
+    },
+    "_all": {
+     "walk": 0.399,
+     "dead": 0.295,
+     "idle": 0.124,
+     "farm": 0.116,
+     "recall": 0.042,
+     "fight": 0.014,
+     "tribute": 0.01
+    },
+    "Ren": {
+     "walk": 0.389,
+     "dead": 0.243,
+     "idle": 0.159,
+     "farm": 0.134,
+     "recall": 0.041,
+     "fight": 0.021,
+     "tribute": 0.013
+    },
+    "Cassi": {
+     "walk": 0.398,
+     "dead": 0.348,
+     "farm": 0.11,
+     "idle": 0.088,
+     "recall": 0.036,
+     "fight": 0.017,
+     "tribute": 0.003
+    },
+    "Issac": {
+     "walk": 0.353,
+     "dead": 0.347,
+     "farm": 0.12,
+     "idle": 0.116,
+     "recall": 0.056,
+     "tribute": 0.005,
+     "fight": 0.002
+    }
+   }
+  },
+  "01concentrated_wealth": {
+   "games": 2,
+   "winRate": 0,
+   "avgRounds": 1367.5,
+   "tributedAt": {
+    "100": 0,
+    "200": 21.5,
+    "300": 75,
+    "400": 98,
+    "500": 220,
+    "700": 275.5,
+    "1000": 355
+   },
+   "netWorthAt": {
+    "150": 455,
+    "300": 556,
+    "500": 1707.5
+   },
+   "firstCapture": 79,
+   "firstTribute": 133,
+   "capturesPer100": 3.4,
+   "gemsPerCapture": 7.3,
+   "goldPerCapture": 44.8,
+   "grouping": 1,
+   "enemySideFrac": 0.7,
+   "activity": {
+    "Stellar": {
+     "walk": 0.732,
+     "dead": 0.11,
+     "farm": 0.089,
+     "idle": 0.026,
+     "recall": 0.022,
+     "fight": 0.015,
+     "tribute": 0.007
+    },
+    "_all": {
+     "walk": 0.721,
+     "dead": 0.114,
+     "farm": 0.091,
+     "idle": 0.034,
+     "recall": 0.025,
+     "tribute": 0.009,
+     "fight": 0.006
+    },
+    "Ren": {
+     "walk": 0.659,
+     "dead": 0.191,
+     "farm": 0.086,
+     "idle": 0.039,
+     "recall": 0.015,
+     "tribute": 0.007,
+     "fight": 0.003
+    },
+    "Cassi": {
+     "walk": 0.761,
+     "dead": 0.115,
+     "farm": 0.061,
+     "recall": 0.034,
+     "idle": 0.023,
+     "fight": 0.003,
+     "tribute": 0.003
+    },
+    "Issac": {
+     "walk": 0.707,
+     "dead": 0.115,
+     "farm": 0.1,
+     "idle": 0.035,
+     "recall": 0.032,
+     "tribute": 0.006,
+     "fight": 0.004
+    },
+    "Ryth": {
+     "walk": 0.7,
+     "farm": 0.129,
+     "dead": 0.103,
+     "idle": 0.032,
+     "recall": 0.024,
+     "tribute": 0.007,
+     "fight": 0.005
+    },
+    "Varg": {
+     "walk": 0.767,
+     "farm": 0.08,
+     "idle": 0.05,
+     "dead": 0.048,
+     "recall": 0.025,
+     "tribute": 0.022,
+     "fight": 0.007
+    }
+   }
+  },
+  "01corridors": {
+   "games": 2,
+   "winRate": 0,
+   "avgRounds": 1424,
+   "tributedAt": {
+    "100": 0,
+    "200": 30,
+    "300": 38,
+    "400": 68,
+    "500": 79.5,
+    "700": 110,
+    "1000": 187
+   },
+   "netWorthAt": {
+    "150": 260,
+    "300": 655,
+    "500": 932
+   },
+   "firstCapture": 89,
+   "firstTribute": 107,
+   "capturesPer100": 1.8,
+   "gemsPerCapture": 10.3,
+   "goldPerCapture": 103.3,
+   "grouping": 0.8,
+   "enemySideFrac": 0,
+   "activity": {
+    "Stellar": {
+     "walk": 0.52,
+     "dead": 0.358,
+     "farm": 0.072,
+     "recall": 0.031,
+     "idle": 0.01,
+     "fight": 0.007,
+     "tribute": 0.002
+    },
+    "_all": {
+     "walk": 0.528,
+     "dead": 0.336,
+     "farm": 0.062,
+     "recall": 0.045,
+     "idle": 0.021,
+     "fight": 0.004,
+     "tribute": 0.003
+    },
+    "Ren": {
+     "walk": 0.529,
+     "dead": 0.316,
+     "farm": 0.078,
+     "recall": 0.049,
+     "idle": 0.018,
+     "tribute": 0.007,
+     "fight": 0.003
+    },
+    "Cassi": {
+     "walk": 0.48,
+     "dead": 0.429,
+     "recall": 0.052,
+     "farm": 0.024,
+     "idle": 0.015,
+     "fight": 0.001
+    },
+    "Issac": {
+     "walk": 0.444,
+     "dead": 0.429,
+     "farm": 0.055,
+     "recall": 0.044,
+     "idle": 0.026,
+     "fight": 0.001,
+     "tribute": 0.001
+    },
+    "Ryth": {
+     "walk": 0.62,
+     "dead": 0.221,
+     "farm": 0.075,
+     "recall": 0.054,
+     "idle": 0.022,
+     "tribute": 0.005,
+     "fight": 0.004
+    },
+    "Varg": {
+     "walk": 0.576,
+     "dead": 0.266,
+     "farm": 0.068,
+     "recall": 0.043,
+     "idle": 0.034,
+     "fight": 0.007,
+     "tribute": 0.005
+    }
+   }
+  },
+  "01elk_arena": {
+   "games": 2,
+   "winRate": 0,
+   "avgRounds": 1436.5,
+   "tributedAt": {
+    "100": 0,
+    "200": 36,
+    "300": 36,
+    "400": 72,
+    "500": 72,
+    "700": 108,
+    "1000": 108
+   },
+   "netWorthAt": {
+    "150": 836,
+    "300": 1934,
+    "500": 3665
+   },
+   "firstCapture": 15,
+   "firstTribute": 181,
+   "capturesPer100": 11.5,
+   "gemsPerCapture": 0,
+   "goldPerCapture": 25,
+   "grouping": 0.4,
+   "enemySideFrac": 0,
+   "activity": {
+    "Stellar": {
+     "walk": 0.517,
+     "dead": 0.189,
+     "idle": 0.159,
+     "farm": 0.059,
+     "recall": 0.052,
+     "fight": 0.022,
+     "tribute": 0.003
+    },
+    "_all": {
+     "walk": 0.423,
+     "dead": 0.317,
+     "idle": 0.129,
+     "farm": 0.06,
+     "recall": 0.051,
+     "fight": 0.019,
+     "tribute": 0.001
+    },
+    "Ren": {
+     "walk": 0.445,
+     "dead": 0.236,
+     "idle": 0.134,
+     "farm": 0.121,
+     "recall": 0.049,
+     "fight": 0.016
+    },
+    "Cassi": {
+     "dead": 0.423,
+     "walk": 0.345,
+     "idle": 0.09,
+     "recall": 0.054,
+     "farm": 0.052,
+     "fight": 0.035
+    },
+    "Issac": {
+     "dead": 0.421,
+     "walk": 0.333,
+     "idle": 0.115,
+     "recall": 0.064,
+     "farm": 0.054,
+     "fight": 0.014
+    },
+    "Ryth": {
+     "dead": 0.398,
+     "walk": 0.397,
+     "idle": 0.107,
+     "farm": 0.044,
+     "recall": 0.032,
+     "fight": 0.016,
+     "tribute": 0.006
+    },
+    "Varg": {
+     "walk": 0.501,
+     "dead": 0.234,
+     "idle": 0.17,
+     "recall": 0.055,
+     "farm": 0.031,
+     "fight": 0.009
+    }
+   }
+  },
+  "01fracture": {
+   "games": 4,
+   "winRate": 0,
+   "avgRounds": 1185.3,
+   "tributedAt": {
+    "100": 4,
+    "200": 12,
+    "300": 36.5,
+    "400": 40.5,
+    "500": 63.5,
+    "700": 89.5,
+    "1000": 150.8
+   },
+   "netWorthAt": {
+    "150": 370,
+    "300": 671,
+    "500": 1399.5
+   },
+   "firstCapture": 27,
+   "firstTribute": 85,
+   "capturesPer100": 5.4,
+   "gemsPerCapture": 2.1,
+   "goldPerCapture": 29.7,
+   "grouping": 0.6,
+   "enemySideFrac": 0.2,
+   "activity": {
+    "Stellar": {
+     "walk": 0.612,
+     "dead": 0.189,
+     "farm": 0.108,
+     "idle": 0.059,
+     "recall": 0.023,
+     "fight": 0.007,
+     "tribute": 0.002
+    },
+    "_all": {
+     "walk": 0.605,
+     "dead": 0.204,
+     "farm": 0.107,
+     "idle": 0.05,
+     "recall": 0.027,
+     "tribute": 0.004,
+     "fight": 0.003
+    },
+    "Ren": {
+     "walk": 0.561,
+     "dead": 0.246,
+     "farm": 0.109,
+     "idle": 0.062,
+     "recall": 0.016,
+     "tribute": 0.004,
+     "fight": 0.003
+    },
+    "Cassi": {
+     "walk": 0.586,
+     "dead": 0.228,
+     "farm": 0.125,
+     "recall": 0.032,
+     "idle": 0.026,
+     "tribute": 0.002,
+     "fight": 0.001
+    },
+    "Issac": {
+     "walk": 0.581,
+     "dead": 0.228,
+     "farm": 0.093,
+     "idle": 0.055,
+     "recall": 0.04,
+     "tribute": 0.004
+    },
+    "Ryth": {
+     "walk": 0.674,
+     "dead": 0.139,
+     "farm": 0.107,
+     "idle": 0.04,
+     "recall": 0.03,
+     "tribute": 0.007,
+     "fight": 0.004
+    },
+    "Varg": {
+     "walk": 0.617,
+     "dead": 0.192,
+     "farm": 0.103,
+     "idle": 0.059,
+     "recall": 0.024,
+     "tribute": 0.004,
+     "fight": 0
+    }
+   }
+  },
+  "01gold_rush": {
+   "games": 2,
+   "winRate": 0,
+   "avgRounds": 1827.5,
+   "tributedAt": {
+    "100": 0,
+    "200": 0,
+    "300": 5.5,
+    "400": 5.5,
+    "500": 5.5,
+    "700": 5.5,
+    "1000": 11
+   },
+   "netWorthAt": {
+    "150": 490,
+    "300": 1637,
+    "500": 2935
+   },
+   "firstCapture": 24,
+   "firstTribute": 536.5,
+   "capturesPer100": 4.7,
+   "gemsPerCapture": 0.2,
+   "goldPerCapture": 34.6,
+   "grouping": 0.7,
+   "enemySideFrac": 0.4,
+   "activity": {
+    "Stellar": {
+     "walk": 0.42,
+     "dead": 0.409,
+     "idle": 0.081,
+     "farm": 0.041,
+     "recall": 0.031,
+     "fight": 0.016,
+     "tribute": 0.003
+    },
+    "_all": {
+     "dead": 0.511,
+     "walk": 0.312,
+     "idle": 0.078,
+     "farm": 0.054,
+     "recall": 0.03,
+     "fight": 0.013,
+     "tribute": 0.001
+    },
+    "Ren": {
+     "dead": 0.455,
+     "walk": 0.28,
+     "idle": 0.113,
+     "farm": 0.099,
+     "recall": 0.042,
+     "fight": 0.009,
+     "tribute": 0.002
+    },
+    "Cassi": {
+     "dead": 0.592,
+     "walk": 0.319,
+     "idle": 0.025,
+     "farm": 0.025,
+     "fight": 0.021,
+     "recall": 0.018
+    },
+    "Issac": {
+     "dead": 0.59,
+     "walk": 0.23,
+     "idle": 0.092,
+     "farm": 0.052,
+     "recall": 0.03,
+     "fight": 0.007
+    }
+   }
+  },
+  "01hooks": {
+   "games": 2,
+   "winRate": 0,
+   "avgRounds": 1284.5,
+   "tributedAt": {
+    "100": 0,
+    "200": 0,
+    "300": 0,
+    "400": 0,
+    "500": 22,
+    "700": 22,
+    "1000": 22
+   },
+   "netWorthAt": {
+    "150": 320,
+    "300": 1007,
+    "500": 1968
+   },
+   "firstCapture": 21,
+   "firstTribute": 431,
+   "capturesPer100": 6.3,
+   "gemsPerCapture": 0.2,
+   "goldPerCapture": 16.1,
+   "grouping": 0.7,
+   "enemySideFrac": 0.1,
+   "activity": {
+    "Stellar": {
+     "dead": 0.505,
+     "walk": 0.359,
+     "idle": 0.061,
+     "recall": 0.027,
+     "fight": 0.026,
+     "farm": 0.023
+    },
+    "_all": {
+     "dead": 0.517,
+     "walk": 0.339,
+     "idle": 0.058,
+     "recall": 0.036,
+     "farm": 0.029,
+     "fight": 0.02,
+     "tribute": 0.001
+    },
+    "Ren": {
+     "dead": 0.494,
+     "walk": 0.326,
+     "idle": 0.07,
+     "recall": 0.045,
+     "farm": 0.037,
+     "fight": 0.024,
+     "tribute": 0.004
+    },
+    "Cassi": {
+     "dead": 0.564,
+     "walk": 0.322,
+     "recall": 0.041,
+     "idle": 0.033,
+     "farm": 0.025,
+     "fight": 0.016
+    },
+    "Issac": {
+     "dead": 0.563,
+     "walk": 0.296,
+     "idle": 0.059,
+     "recall": 0.036,
+     "farm": 0.031,
+     "fight": 0.016
+    },
+    "Ryth": {
+     "dead": 0.459,
+     "walk": 0.393,
+     "idle": 0.066,
+     "farm": 0.032,
+     "recall": 0.029,
+     "fight": 0.021
+    }
+   }
+  },
+  "01islands": {
+   "games": 2,
+   "winRate": 0,
+   "avgRounds": 928.5,
+   "tributedAt": {
+    "100": 30,
+    "200": 118,
+    "300": 178,
+    "400": 223,
+    "500": 326,
+    "700": 460,
+    "1000": 535
+   },
+   "netWorthAt": {
+    "150": 528,
+    "300": 1550,
+    "500": 2936
+   },
+   "firstCapture": 59,
+   "firstTribute": 47,
+   "capturesPer100": 3.7,
+   "gemsPerCapture": 10.1,
+   "goldPerCapture": 80.3,
+   "grouping": 1.6,
+   "enemySideFrac": 0,
+   "activity": {
+    "Stellar": {
+     "walk": 0.665,
+     "farm": 0.146,
+     "dead": 0.105,
+     "recall": 0.04,
+     "idle": 0.031,
+     "fight": 0.011,
+     "tribute": 0.002
+    },
+    "_all": {
+     "walk": 0.675,
+     "farm": 0.113,
+     "dead": 0.099,
+     "recall": 0.061,
+     "idle": 0.038,
+     "tribute": 0.01,
+     "fight": 0.005
+    },
+    "Ren": {
+     "walk": 0.689,
+     "farm": 0.131,
+     "recall": 0.066,
+     "dead": 0.065,
+     "idle": 0.038,
+     "fight": 0.008,
+     "tribute": 0.003
+    },
+    "Cassi": {
+     "walk": 0.69,
+     "dead": 0.115,
+     "farm": 0.105,
+     "recall": 0.066,
+     "idle": 0.017,
+     "fight": 0.006,
+     "tribute": 0.002
+    },
+    "Issac": {
+     "walk": 0.63,
+     "dead": 0.115,
+     "farm": 0.093,
+     "idle": 0.077,
+     "recall": 0.075,
+     "tribute": 0.008,
+     "fight": 0.002
+    },
+    "Ryth": {
+     "walk": 0.713,
+     "farm": 0.117,
+     "dead": 0.069,
+     "recall": 0.056,
+     "idle": 0.029,
+     "tribute": 0.011,
+     "fight": 0.004
+    },
+    "Varg": {
+     "walk": 0.663,
+     "dead": 0.122,
+     "farm": 0.087,
+     "recall": 0.059,
+     "idle": 0.036,
+     "tribute": 0.032,
+     "fight": 0.001
+    }
+   }
+  }
+ }
+}

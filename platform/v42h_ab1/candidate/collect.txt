@@ -1,0 +1,16 @@
+A1         1/5  avg gem diff -575
+A2         0/5  avg gem diff -808
+B1         0/5  avg gem diff -759
+B2         0/5  avg gem diff -878
+C1         1/5  avg gem diff -421
+C2         1/5  avg gem diff -330
+D1         1/5  avg gem diff -428
+D2         3/5  avg gem diff 150
+TOTAL 7/40
+  00fragment               A1:La A2:Lb B1:La B2:Lb C1:La C2:Lb D1:La D2:Wb
+  00lanes                  A1:La A2:Lb B1:La B2:Lb C1:La C2:Lb D1:La D2:Lb
+  00swirl                  A1:Wa A2:Lb B1:La B2:Lb C1:La C2:Lb D1:Wa D2:Wb
+  01starfish               A1:Lb A2:La B1:Lb B2:La C1:Wb C2:Wa D1:Lb D2:Wa
+  01the_farm               A1:Lb A2:La B1:Lb B2:La C1:Lb C2:La D1:Lb D2:La
+
+exit 0 signal null

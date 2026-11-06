@@ -1,0 +1,7 @@
+import fs from'node:fs';import{dumpReplay}from'../../tools/replay_dump.mjs';const dir=import.meta.dirname,meta=JSON.parse(fs.readFileSync(dir+'/books/summary.json')),changes=[];
+for(const m of meta){const f=dir+'/books/'+m.file,d=JSON.parse(fs.readFileSync(f)),old=d.actions.filter(a=>a.k===25);if(!old.length)continue;const sales=[];
+ await dumpReplay(dir+'/games/'+d.file,{snapshots:'none',onStep(st,ev,prev){if(st.step.kind!==25||st.step.actor.kind!==1)return;const c=st.champions.find(c=>c.entity.index===st.step.actor.index),before=prev?.find(c=>c.entity.index===st.step.actor.index);if(!c||c.team!==d.team||!before)return;for(let i=0;i<42;i++){const count=before.items[i]-c.items[i];if(count>0)sales.push({r:st.round,t:c.type,k:25,x:st.step.to.x,y:st.step.to.y,s:i,v:count});}}});
+ if(sales.length!==old.length)throw Error('Sale event count changed '+m.file);let index=0;for(let i=0;i<d.actions.length;i++)if(d.actions[i].k===25){const next=sales[index++];if(next.r!==d.actions[i].r||next.t!==d.actions[i].t)throw Error('Sale sequence');d.actions[i]=next;}
+ let q=0;d.buys=d.buys.map(a=>a.k===25?sales[q++]:a);fs.writeFileSync(f,JSON.stringify(d));changes.push({case:m.map+'/'+m.side,sales:old.length,emblemSales:sales.filter(a=>a.s%2).length,reason:'Preserve exact sold item identity. One sold emblem is not a request to sell five nonexistent shards.'});console.log('SALES',changes.at(-1));
+}
+fs.writeFileSync(dir+'/sale_repairs.json',JSON.stringify(changes,null,2));

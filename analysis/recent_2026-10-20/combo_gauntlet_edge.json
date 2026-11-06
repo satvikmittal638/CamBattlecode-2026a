@@ -1,0 +1,82 @@
+{
+ "dir": "local_eval/gauntlet/edge_mapdraft",
+ "games": 170,
+ "avgRounds": 661,
+ "spellTargetsPerGame": {
+  "Stellar:Damage->camp": 25.89,
+  "Cassi:Damage->camp": 23.63,
+  "Stellar:AoeDamage->camp": 22.3,
+  "Ren:Cc->camp": 20.83,
+  "Ryth:AoeDamage->camp": 12.91,
+  "Stellar:Damage->enemy": 9.54,
+  "Stellar:AoeDamage->enemy": 8.44,
+  "Cassi:Cc->enemy": 7.88,
+  "Cassi:Damage->enemy": 7.68,
+  "Ren:Cc->enemy": 5.36,
+  "Tavi:Cc->camp": 4.28,
+  "Prism:AoeDamage->camp": 3.65,
+  "Ryth:AoeDamage->enemy": 3.43,
+  "Prism:Cc->enemy": 0.44,
+  "Tavi:Cc->enemy": 0.41,
+  "Prism:AoeDamage->enemy": 0.39
+ },
+ "stunsOnChampionsPerGame": 14.09,
+ "stunFollowUpSameRound": 0.18,
+ "stunChainRate": 0.05,
+ "openingRange": {
+  "Issac:atk@1": 2.92,
+  "Stellar:Damage@4": 2.62,
+  "Ren:Cc@4": 2.61,
+  "Cassi:Cc@4": 2.03,
+  "Ryth:AoeDamage@4": 1.67,
+  "Varg:atk@1": 1.19,
+  "Ren:Cc@3": 1,
+  "Ren:atk@1": 0.95,
+  "Stellar:Damage@3": 0.77,
+  "Cassi:Cc@3": 0.75,
+  "Ryth:AoeDamage@3": 0.64,
+  "Ryth:atk@1": 0.45,
+  "Stellar:atk@3": 0.42,
+  "Ren:Cc@2": 0.41,
+  "Stellar:AoeDamage@4": 0.39,
+  "Cassi:Damage@4": 0.29
+ },
+ "numbersOnPvpHits": {
+  "ahead": 0.48,
+  "even": 0.4,
+  "behind": 0.12
+ },
+ "pvpHitsPerGame": 169.9,
+ "pvpHitsByPhase": {
+  "early": 12307,
+  "mid": 15718,
+  "late": 859
+ },
+ "firstPvpRound": 102.7,
+ "priorityValues": {
+  "Ren:>100": 6667,
+  "Ren:50": 5931,
+  "Cassi:>100": 5063,
+  "Issac:>100": 1893,
+  "Tavi:>100": 1638,
+  "Stellar:>100": 1206,
+  "Ryth:>100": 943,
+  "Varg:>100": 589,
+  "Issac:50": 380,
+  "Prism:>100": 239,
+  "Ryth:60": 212,
+  "Issac:97": 150,
+  "Varg:60": 139,
+  "Issac:78": 133
+ },
+ "perGame": {
+  "wards": 42,
+  "altarLocks": 0,
+  "consumables": 0,
+  "teleports": 0,
+  "recalls": 35.3,
+  "tributes": 23.1,
+  "captures": 21.9
+ },
+ "gemsPerTribute": 44.5
+}

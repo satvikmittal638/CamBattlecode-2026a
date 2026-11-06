@@ -1,0 +1,179 @@
+{
+ "active": {
+  "id": "f39c9c13-8011-498a-966c-4e9342184d22",
+  "version": 120,
+  "note": "v114: bank fuel/urgency, supported pressure escape, blocked-retreat retry. c100",
+  "fileName": "bot.zip",
+  "language": "cpp",
+  "status": "active",
+  "size": 55416,
+  "uploadedBy": "2003fc6d-fb3d-40aa-9d58-6d709e54f7b9",
+  "createdAt": "2026-10-29T14:34:03.924Z",
+  "statusAt": "2026-10-29T14:50:49.922Z",
+  "hasLog": true,
+  "active": true
+ },
+ "pinned": true,
+ "submissions": [
+  {
+   "id": "f39c9c13-8011-498a-966c-4e9342184d22",
+   "version": 120,
+   "status": "active",
+   "note": "v114: bank fuel/urgency, supported pressure escape, blocked-retreat retry. c100",
+   "createdAt": "2026-10-29T14:34:03.924Z",
+   "language": "cpp"
+  },
+  {
+   "id": "7cc97c43-513a-401b-9dae-cb0a64ba2642",
+   "version": 119,
+   "status": "inactive",
+   "note": "bk1: pk3 + brawl-map rally + bank when carrying 40+ near enemies",
+   "createdAt": "2026-10-29T06:58:45.174Z",
+   "language": "cpp"
+  },
+  {
+   "id": "27be81c6-ce2f-434f-a9cf-18a1faf43582",
+   "version": 118,
+   "status": "inactive",
+   "note": "rs2: pk3 + keep target after fuel-limited rescore (many-group maps)",
+   "createdAt": "2026-10-29T05:25:27.250Z",
+   "language": "cpp"
+  },
+  {
+   "id": "00b514ba-b394-431c-ba45-743f26ab6519",
+   "version": 117,
+   "status": "inactive",
+   "note": "rl2: stricter rally (outnumbered/own-half 2+, r7, farmers stay)",
+   "createdAt": "2026-10-28T22:04:52.068Z",
+   "language": "cpp"
+  },
+  {
+   "id": "aa8abe85-b663-4822-b58c-a533a38bdf6d",
+   "version": 116,
+   "status": "inactive",
+   "note": "rl1: pk3 + rally: broadcast help when not ahead, retreat toward allies",
+   "createdAt": "2026-10-28T21:20:21.217Z",
+   "language": "cpp"
+  },
+  {
+   "id": "5c12cf10-b5e2-415b-b66d-5e24d3f7e00a",
+   "version": 115,
+   "status": "inactive",
+   "note": "ow1: pk3 + drop non-kill attacks when outmatched (<0.40 local HP)",
+   "createdAt": "2026-10-28T20:41:36.238Z",
+   "language": "cpp"
+  },
+  {
+   "id": "a9c2b69f-39b7-4f61-8f51-c6b34200e380",
+   "version": 114,
+   "status": "inactive",
+   "note": "pk3: mo1 + weaker farm-near-allies (0.15/0.08)",
+   "createdAt": "2026-10-28T18:45:17.071Z",
+   "language": "cpp"
+  },
+  {
+   "id": "2355e41e-3900-462a-a8e5-ba86104080bc",
+   "version": 113,
+   "status": "inactive",
+   "note": "mo1: mbpk + free-standing monoliths from r700 (25+ shards)",
+   "createdAt": "2026-10-28T16:26:02.498Z",
+   "language": "cpp"
+  },
+  {
+   "id": "45ac84a9-0b30-4e03-99c8-934e08426a27",
+   "version": 112,
+   "status": "inactive",
+   "note": "mbpk: i1 + rank50-60 meta item order + farm near allies' targets",
+   "createdAt": "2026-10-28T15:54:52.099Z",
+   "language": "cpp"
+  },
+  {
+   "id": "29168fa6-5db3-4601-99ed-936fc9edd278",
+   "version": 111,
+   "status": "inactive",
+   "note": "i1: e3 + per-champion damage-stat item builds",
+   "createdAt": "2026-10-28T05:04:42.312Z",
+   "language": "cpp"
+  },
+  {
+   "id": "e64cf339-cfb1-421e-b22b-913d8e9f1245",
+   "version": 110,
+   "status": "inactive",
+   "note": "v62k: v62r + safe heal-recall below 60% HP",
+   "createdAt": "2026-10-27T21:22:39.265Z",
+   "language": "cpp"
+  },
+  {
+   "id": "64de57fc-c90e-4e36-adcd-61962ac9d611",
+   "version": 109,
+   "status": "inactive",
+   "note": "e3: e2 (capture assignment) + v102 outmatched step-away",
+   "createdAt": "2026-10-27T21:14:33.324Z",
+   "language": "cpp"
+  },
+  {
+   "id": "f5e4cfb9-9566-4275-b4ed-65f67ff977c3",
+   "version": 108,
+   "status": "inactive",
+   "note": "v62v: v62r + post-patch draft Vesper Marcella Vendetta Varg Tavi",
+   "createdAt": "2026-10-27T20:28:09.396Z",
+   "language": "cpp"
+  },
+  {
+   "id": "3a659b62-d341-4fc5-89a7-2946b20019c0",
+   "version": 107,
+   "status": "inactive",
+   "note": "e2: e1 + never yield a capture with an enemy within 10",
+   "createdAt": "2026-10-27T20:19:54.745Z",
+   "language": "cpp"
+  },
+  {
+   "id": "20c5bf6f-5156-4463-871b-e58b0fe42981",
+   "version": 106,
+   "status": "inactive",
+   "note": "e1: v101 + capture assignment by passive (Marcella gems, Vesper gold)",
+   "createdAt": "2026-10-27T20:01:54.945Z",
+   "language": "cpp"
+  },
+  {
+   "id": "69ec6e75-a385-4bba-8094-23a13d21c69d",
+   "version": 105,
+   "status": "inactive",
+   "note": "v62t: v62s + v62's own camp scoring (what its overflow did), clean",
+   "createdAt": "2026-10-27T17:42:03.843Z",
+   "language": "cpp"
+  },
+  {
+   "id": "4bdc3812-fc05-48f5-88d1-146f47ea6e43",
+   "version": 104,
+   "status": "inactive",
+   "note": "v62s: v62n + step away when outmatched (share<.30, no legacy fallback)",
+   "createdAt": "2026-10-27T17:12:01.202Z",
+   "language": "cpp"
+  },
+  {
+   "id": "212e7a0c-53e2-4361-86d3-2f88b8f3afd7",
+   "version": 103,
+   "status": "inactive",
+   "note": "c8: v101 + dash fix + team camp scoring + bank camp memory + death-camp avoid",
+   "createdAt": "2026-10-27T11:13:24.035Z",
+   "language": "cpp"
+  },
+  {
+   "id": "5e770de7-6138-411c-8f8a-59ce4d73e65d",
+   "version": 102,
+   "status": "inactive",
+   "note": "v62r: v62n + step away when outmatched (no legacy fallback)",
+   "createdAt": "2026-10-27T10:38:24.935Z",
+   "language": "cpp"
+  },
+  {
+   "id": "4780e32e-3435-410c-8973-5109d4ac6e0b",
+   "version": 101,
+   "status": "inactive",
+   "note": "v62n: v62 cleaned + 84-item fix + standoff memo + gated-map/farm fixes",
+   "createdAt": "2026-10-27T04:20:32.733Z",
+   "language": "cpp"
+  }
+ ]
+}

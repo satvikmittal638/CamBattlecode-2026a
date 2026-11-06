@@ -1,0 +1,162 @@
+{
+  "v53MatchesFrozenAnalysis": true,
+  "v53FrozenMismatches": [],
+  "files": [
+    {
+      "file": "src/boss/bot.cpp",
+      "status": "unchanged",
+      "v53Sha256": "5f723f141aa19bd9081118c19737021b1e15ae49d3b5039d7718052a01b3a764",
+      "v54Sha256": "5f723f141aa19bd9081118c19737021b1e15ae49d3b5039d7718052a01b3a764"
+    },
+    {
+      "file": "src/boss/bot.h",
+      "status": "unchanged",
+      "v53Sha256": "7fb839c95d797632d103cab09266f3fa36053ee4b063392ef8f929a6110a5dd1",
+      "v54Sha256": "7fb839c95d797632d103cab09266f3fa36053ee4b063392ef8f929a6110a5dd1"
+    },
+    {
+      "file": "src/boss/draft.cpp",
+      "status": "unchanged",
+      "v53Sha256": "9d93d8bbe4d9d6cbb32d6b9e40d606087bea227c94f2753d41002513e24b2baa",
+      "v54Sha256": "9d93d8bbe4d9d6cbb32d6b9e40d606087bea227c94f2753d41002513e24b2baa"
+    },
+    {
+      "file": "src/boss/draft.h",
+      "status": "unchanged",
+      "v53Sha256": "53e6db4013a89e4b345673ce9a310497c0d540e9074e30404449bf0a31274a79",
+      "v54Sha256": "53e6db4013a89e4b345673ce9a310497c0d540e9074e30404449bf0a31274a79"
+    },
+    {
+      "file": "src/boss/policy.h",
+      "status": "unchanged",
+      "v53Sha256": "24ed425aae46d4126ef0c0216531bbfa83dad20d2c9c5eec269d7d2126f166a2",
+      "v54Sha256": "24ed425aae46d4126ef0c0216531bbfa83dad20d2c9c5eec269d7d2126f166a2"
+    },
+    {
+      "file": "src/boss/random.h",
+      "status": "unchanged",
+      "v53Sha256": "8960db3557f4ef338e6d7936f4fe711a678a5213c52cb1d678e08578886847c8",
+      "v54Sha256": "8960db3557f4ef338e6d7936f4fe711a678a5213c52cb1d678e08578886847c8"
+    },
+    {
+      "file": "src/boss_main.cpp",
+      "status": "unchanged",
+      "v53Sha256": "949efefc41107e2fda46b0255895bd42e4465a989029c112d4fecf84919f7159",
+      "v54Sha256": "949efefc41107e2fda46b0255895bd42e4465a989029c112d4fecf84919f7159"
+    },
+    {
+      "file": "src/bot.cpp",
+      "status": "changed",
+      "v53Sha256": "667c3eb9b05993bea4b80377d54f8a21174a8778e1621922a3b6170974ceb377",
+      "v54Sha256": "64d938d899546b1cf4f05f1807d16f03b42a90f7055680f313c7f71ed55b6d7a"
+    },
+    {
+      "file": "src/bot.h",
+      "status": "changed",
+      "v53Sha256": "546d0dc7ff3b25815dfa2fce6c358fe22c343fd1b023b4ee680ddc44b7091359",
+      "v54Sha256": "8030388d3bd6a6fc0998cfb42b3b958bfd0de2903c8877f28ef53d3d409834d6"
+    },
+    {
+      "file": "src/draft.cpp",
+      "status": "unchanged",
+      "v53Sha256": "fd5a234e0ee1ac8a06c10b5ae208c3cef463724b766587746e20440d86787714",
+      "v54Sha256": "fd5a234e0ee1ac8a06c10b5ae208c3cef463724b766587746e20440d86787714"
+    },
+    {
+      "file": "src/draft.h",
+      "status": "unchanged",
+      "v53Sha256": "15ddeaeb4ab39f6e3e80647fad56de9c0da7fc728d4c24ca83475060703a7bfd",
+      "v54Sha256": "15ddeaeb4ab39f6e3e80647fad56de9c0da7fc728d4c24ca83475060703a7bfd"
+    },
+    {
+      "file": "src/fishx_features.h",
+      "status": "unchanged",
+      "v53Sha256": "c7f36c9714b9af2a9192f5a63726f7ce4b02d3f1bfba180c4d15a68b25ce628f",
+      "v54Sha256": "c7f36c9714b9af2a9192f5a63726f7ce4b02d3f1bfba180c4d15a68b25ce628f"
+    },
+    {
+      "file": "src/main.cpp",
+      "status": "changed",
+      "v53Sha256": "f37b9e9fef0ee63e5e29ffb06d056f8e2cde7a4d201ad1dec1e2f10e2bc7cd90",
+      "v54Sha256": "4ddfe43914183344cf1ce5518a554f6651f3f568ab9dedc9f94954d16067d1d4"
+    },
+    {
+      "file": "src/random.h",
+      "status": "unchanged",
+      "v53Sha256": "5ae547e5a1686c12e00be206016fef798691db1da563adb3ed83fce355284910",
+      "v54Sha256": "5ae547e5a1686c12e00be206016fef798691db1da563adb3ed83fce355284910"
+    },
+    {
+      "file": "src/v1_bank_access.h",
+      "status": "unchanged",
+      "v53Sha256": "1143246e26a21618c06163215facb153ec2badf06d96d93bb866cffa28b9b4bf",
+      "v54Sha256": "1143246e26a21618c06163215facb153ec2badf06d96d93bb866cffa28b9b4bf"
+    },
+    {
+      "file": "src/v1_bank_carrier.h",
+      "status": "unchanged",
+      "v53Sha256": "0992a71eacfb08dde42129d12c9fc84923afbea8acb14057da33d1c6a6a01f69",
+      "v54Sha256": "0992a71eacfb08dde42129d12c9fc84923afbea8acb14057da33d1c6a6a01f69"
+    },
+    {
+      "file": "src/v1_bank_channel.h",
+      "status": "unchanged",
+      "v53Sha256": "39b2fd6cccde288922bd9e006a441a206bdda7b69d773fb16c8eeafd36efea14",
+      "v54Sha256": "39b2fd6cccde288922bd9e006a441a206bdda7b69d773fb16c8eeafd36efea14"
+    },
+    {
+      "file": "src/v1_camp_executor.h",
+      "status": "unchanged",
+      "v53Sha256": "fe31e4ddf8f90aabb32ec112ee84a5430537ac88cbfdae13f96f63aca2d0c359",
+      "v54Sha256": "fe31e4ddf8f90aabb32ec112ee84a5430537ac88cbfdae13f96f63aca2d0c359"
+    },
+    {
+      "file": "src/v1_cycle.h",
+      "status": "unchanged",
+      "v53Sha256": "7f0e6f0b0ef25e98980c6e45e653decb36f9906614f5ac47a378e5188dd3c59b",
+      "v54Sha256": "7f0e6f0b0ef25e98980c6e45e653decb36f9906614f5ac47a378e5188dd3c59b"
+    },
+    {
+      "file": "src/v1_dispatch.h",
+      "status": "unchanged",
+      "v53Sha256": "6c60c83e64abec143421ebf2e8e8e88a920189c59eadd58a7496d1f06647fbc3",
+      "v54Sha256": "6c60c83e64abec143421ebf2e8e8e88a920189c59eadd58a7496d1f06647fbc3"
+    },
+    {
+      "file": "src/v1_help_packet.h",
+      "status": "unchanged",
+      "v53Sha256": "e10fa364c165bd572f93a234b5d8532341f49b4591dbdb9e2f9607d0642cc021",
+      "v54Sha256": "e10fa364c165bd572f93a234b5d8532341f49b4591dbdb9e2f9607d0642cc021"
+    },
+    {
+      "file": "src/v1_kit.h",
+      "status": "unchanged",
+      "v53Sha256": "795c3c4abad9438f78a66970a2b9020fbe59330ab57df4f1a00fd167c1669ef0",
+      "v54Sha256": "795c3c4abad9438f78a66970a2b9020fbe59330ab57df4f1a00fd167c1669ef0"
+    },
+    {
+      "file": "src/v1_progress.h",
+      "status": "changed",
+      "v53Sha256": "f1e6de23e3cf5f9a1d0ff7fd0ac5085f5d475ff5f2e26f35e337673817aa27ab",
+      "v54Sha256": "37b14cb607f14f9ebc7f8330d9941af2c67cfc54e4edf688244f420e25894c3f"
+    },
+    {
+      "file": "src/v1_support.h",
+      "status": "unchanged",
+      "v53Sha256": "c2e60c600d67ba69a1dfeffeb9e0d479d512c04cebd34bb2c1335fc44ee92e09",
+      "v54Sha256": "c2e60c600d67ba69a1dfeffeb9e0d479d512c04cebd34bb2c1335fc44ee92e09"
+    },
+    {
+      "file": "src/v1_tactical.h",
+      "status": "unchanged",
+      "v53Sha256": "a0d985e326e8b7a84934c1a1dd69bf9eb660ef628274f83652434f81e32d050e",
+      "v54Sha256": "a0d985e326e8b7a84934c1a1dd69bf9eb660ef628274f83652434f81e32d050e"
+    },
+    {
+      "file": "src/v47_geometry.h",
+      "status": "added",
+      "v53Sha256": null,
+      "v54Sha256": "3840505be85b9522fb76ab4c71a6e75e85633c20977a24a94c39a562c0d6caba"
+    }
+  ]
+}

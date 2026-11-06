@@ -1,0 +1,114 @@
+{
+  "corrected_executor_alloff_control": {
+    "games": 6,
+    "identical_to_original_control": 6
+  },
+  "first_batch": {
+    "base": {
+      "wins": 146,
+      "games": 210,
+      "gemDiff": 224.9,
+      "faults": 0,
+      "paired": null
+    },
+    "prio": {
+      "wins": 143,
+      "games": 210,
+      "gemDiff": 186.8,
+      "faults": 0,
+      "paired": {
+        "paired": 210,
+        "gained": 28,
+        "lost": 31,
+        "net": -3,
+        "gemDiffDelta": -38
+      }
+    },
+    "campstun": {
+      "wins": 146,
+      "games": 210,
+      "gemDiff": 224.9,
+      "faults": 0,
+      "paired": {
+        "paired": 210,
+        "gained": 0,
+        "lost": 0,
+        "net": 0,
+        "gemDiffDelta": 0
+      }
+    },
+    "build": {
+      "wins": 127,
+      "games": 210,
+      "gemDiff": 167.5,
+      "faults": 0,
+      "paired": {
+        "paired": 210,
+        "gained": 15,
+        "lost": 34,
+        "net": -19,
+        "gemDiffDelta": -57.3
+      }
+    },
+    "carry": {
+      "wins": 141,
+      "games": 210,
+      "gemDiff": 225.1,
+      "faults": 0,
+      "paired": {
+        "paired": 210,
+        "gained": 19,
+        "lost": 24,
+        "net": -5,
+        "gemDiffDelta": 0.2
+      }
+    },
+    "shoprecall": {
+      "wins": 147,
+      "games": 210,
+      "gemDiff": 248.5,
+      "faults": 0,
+      "paired": {
+        "paired": 210,
+        "gained": 27,
+        "lost": 26,
+        "net": 1,
+        "gemDiffDelta": 23.6
+      }
+    },
+    "bank": {
+      "wins": 146,
+      "games": 210,
+      "gemDiff": 208.2,
+      "faults": 0,
+      "paired": {
+        "paired": 210,
+        "gained": 22,
+        "lost": 22,
+        "net": 0,
+        "gemDiffDelta": -16.7
+      }
+    },
+    "draft4": {
+      "wins": 145,
+      "games": 210,
+      "gemDiff": 254.2,
+      "faults": 0,
+      "paired": {
+        "paired": 210,
+        "gained": 16,
+        "lost": 17,
+        "net": -1,
+        "gemDiffDelta": 29.4
+      }
+    }
+  },
+  "carry_mechanism_file": "analysis/claude_bot_review_2026-10-20/carry_mechanism_check.json",
+  "critique": [
+    "Shopping recalls +1/210 is a small observed gain; require broader final validation rather than treating it as established improvement.",
+    "Original camp-stun row was a disconnected feature, not a valid negative result; corrected full-field comparison is needed.",
+    "Single-switch tests do not resolve feature interactions. Carry routing actually increased Stellar/Ren total gold share from 36.58% to 55.61%, despite fewer wins; this is not a no-op.",
+    "The implemented strict Stellar-over-Ren capture rank is a heuristic, whereas FISH_META.md reports roughly even pairwise allocation between those two carries. This distinction limits claims about the recovered strategy.",
+    "Use a new frozen control with the corrected executor and inspect regressions against tm30, not only total wins over weaker opponents."
+  ]
+}

@@ -1,0 +1,32 @@
+r10        0/5  avg gem diff -744
+r24        2/5  avg gem diff -200
+r39        0/5  avg gem diff -127
+r54        1/5  avg gem diff -593
+r69        2/5  avg gem diff 15
+r84        4/5  avg gem diff 327
+r99        1/5  avg gem diff -56
+r114       2/5  avg gem diff -94
+r129       2/5  avg gem diff -203
+r145       4/5  avg gem diff 434
+TOTAL 18/50
+  00ambush                 r10:La r69:Lb r129:La
+  00collision              r10:Lb r69:La r129:Lb
+  00contest                r10:La r69:Lb r129:La
+  00corners                r10:Lb r69:Wa r145:Wb
+  00eight                  r10:La r84:Wb r145:Wa
+  00elkring                r24:Wb r84:Wa r145:Wb
+  00expanse                r24:Wa r84:Wb r145:Wa
+  00fragment               r24:Lb r84:Wa r145:Lb
+  00interlock              r24:La r84:Lb
+  00lanes                  r24:Lb r99:La
+  00monolith               r39:La r99:Lb
+  01big_world              r39:Lb r99:La
+  01boss_battle            r39:La r99:Wb
+  01broken_curve           r39:Lb r99:La
+  01concentrated_wealth    r39:La r114:Lb
+  01corridors              r54:Lb r114:Wa
+  01elk_arena              r54:La r114:Lb
+  01fracture               r54:Lb r114:Wa
+  01gold_rush              r54:Wa r114:Lb
+  01hooks                  r54:Lb r129:Wa
+  01islands                r69:Wa r129:Wb

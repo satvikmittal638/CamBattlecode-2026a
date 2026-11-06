@@ -1,0 +1,6 @@
+==> Downloading Homebrew API data
+✔︎ JSON API packages.arm64_golden_gate.jws.json
+==> Fetching hopper-disassembler from homebrew/cask
+✘ Cask hopper-disassembler (6.6.1)
+Error: Download failed on Cask 'hopper-disassembler' with message: Download failed: https://www.hopperapp.com/downloader/public/Hopper-6.6.1-demo.dmg
+curl: (92) HTTP/2 stream 1 was not closed cleanly: INTERNAL_ERROR (err 2)

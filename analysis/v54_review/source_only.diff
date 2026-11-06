@@ -1,0 +1,133 @@
+--- v53/src/bot.cpp
++++ v54/src/bot.cpp
+@@ -104,16 +104,18 @@
+     roots &= ~staticBlocked;
+     r.distance.compute(staticBlocked, roots, visited);
+     r.complete = true;
++    r.linear = r.distance.export_linear_buffer();
+     // The immutable result remains usable, but no dynamic decision may continue
+     // if an unexpectedly costly host search crossed a round boundary.
+     enough();
+ }
+ int Bot::routeAt(const Route* r, vec2 p) const {
+     if (!r || !r->complete) return -1;
++    if(r->linear.size()==static_cast<std::size_t>(W*H))return r->linear[idx(p)];
+     return r->distance.get(p);
+ }
+ std::uint16_t Bot::gdist(const Group& g, vec2 p) const {
+-    const int d = routeAt(g.route.get(), p);
++    const int d = groupGeometryReady ? routeAt(g.route.get(), p) : -1;
+     return d < 0 ? heuristic(g.tiles, p) : d;
+ }
+ std::uint16_t Bot::altarDistance(int a, vec2 p) const {
+@@ -1213,7 +1215,7 @@
+     progressKind=travel;
+     auto& me = bc::self();
+     const vec2 pos = me.position();
+-    int t = chooseTarget();
++    int t = capturing && target >= 0 ? target : chooseTarget();
+     if (capturing && target >= 0) t = target;  // never abandon a capture in progress
+     if (t != target) { target = t; capturing = false; captureSince = -1; }
+     if (target < 0) return;
+@@ -1351,6 +1353,13 @@
+         handleLowHp(true);setPriority(lowMode);
+         stage="stunned";writeStatus(lowMode);return;
+     }
++    // A channel consumes the turn. Refresh full camp beliefs when it ends,
++    // instead of paying for observation and target scoring during every tick.
++    if(me.is_recalling()||me.is_submitting_gems()||me.is_teleporting()){
++        if(!me.is_submitting_gems()||!bankChannelThreat()){
++            wasSubmitting=me.is_submitting_gems();setPriority(lowMode);writeStatus(lowMode);return;
++        }
++    }
+     stage = "know";
+     if(!stalledRetreat)updateKnowledge();
+     if(!enough(24000)){stage="budget";return;}
+@@ -1475,6 +1484,7 @@
+     writeStatus(false);
+ }
+ 
++#include "v47_geometry.h"
+ #include "v1_progress.h"
+ #include "v1_dispatch.h"
+ 
+--- v53/src/bot.h
++++ v54/src/bot.h
+@@ -21,6 +21,7 @@
+ struct Route {
+     std::vector<vec2> roots;
+     cambc::distance_field distance;
++    std::vector<std::uint16_t> linear;
+     bool complete = false;
+ };
+ 
+@@ -63,6 +64,7 @@
+ private:
+     // ---- world (static) ----
+     bool inited = false;
++    bool groupGeometryReady = false;
+     int W = 0, H = 0;
+     int slot = 0, partnerSlot = -1, cassiSlot = -1;
+     int nAllies = 0;
+@@ -140,6 +142,7 @@
+     int homeDistance(vec2 p) const;
+     void openingMove();
+     void planWork();
++    void warmGeometry();
+     void releaseCapture();
+     void refreshCapture();
+     void noteMotion(vec2 position);
+--- v53/src/main.cpp
++++ v54/src/main.cpp
+@@ -39,7 +39,7 @@
+ 
+ int runBoss();
+ int main() {
+-    std::puts("build v47p");
++    std::puts("build v53-geo");
+     if(cambc::is_draft()) {
+         bool regular=false,boss=false;
+         for(const auto& group:cambc::map::camp_groups())if(group.gem_value()>0) {
+--- v53/src/v1_progress.h
++++ v54/src/v1_progress.h
+@@ -64,4 +64,5 @@
+     fallbackRequested=false;
+     try{play_step();}catch(const TurnAbort&){progressFinish();throw;}
+     progressFinish();
++    warmGeometry();
+ }
+--- v53/src/v47_geometry.h
++++ v54/src/v47_geometry.h
+@@ -0,0 +1,32 @@
++// Immutable distances are learned without delaying a usable action. The old
++// planWork() has no caller, so altarDistance()/gdist() otherwise use Chebyshev
++// distance even on maps whose walls impose long detours.
++void Bot::warmGeometry(){
++    if(!inited||stale||heavyFieldUsed||!enough(82000))return;
++    auto& me=bc::self();if(!me.is_alive())return;
++    const auto pos=me.position();
++    const bool waiting=me.is_recalling()||me.is_submitting_gems()||me.is_teleporting()||me.buffs().has_stun()
++        ||(capturing&&target>=0&&target<static_cast<int>(groups.size())&&groups[target].tilesBB.is_set(pos))
++        ||(ownSpawnBB.is_set(pos)&&me.health()<me.max_health()-.5f);
++    if(!waiting)return;
++    for(auto& altar:altars){
++        if(altar.route&&altar.route->complete)continue;
++        if(!altar.route)altar.route=newRoute(altar.approaches);
++        expand(*altar.route,0);
++        if(altar.route->complete&&PHASE2_LOG&& &altar==&altars.front())std::printf("geo_ready %d\n",round);
++        if(altar.route->complete)for(auto& group:groups){group.bankDistance=-1;group.bankCursor=0;group.bankBest=UNR;}
++        return;
++    }
++    // Fill the committed task first, then every reachable resource objective.
++    // Never expose an uncomputed field as unreachable.
++    if(target>=0&&target<static_cast<int>(groups.size())){
++        auto& group=groups[target];
++        if(!group.route||!group.route->complete){if(!group.route)group.route=newRoute(group.tiles);expand(*group.route,0);return;}
++    }
++    for(auto& group:groups){
++        if(group.dOwn==UNR||group.monolith||(!group.gems&&!group.gold)||(group.route&&group.route->complete))continue;
++        if(!group.route)group.route=newRoute(group.tiles);
++        expand(*group.route,0);return;
++    }
++    groupGeometryReady=true;
++}

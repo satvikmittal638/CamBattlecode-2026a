@@ -1,0 +1,32 @@
+device mps; shards train 20 val 2 test 3
+params 0.49M
+ep 0 step 500/13425 loss 6.047 (move 1.454 att 0.861 cslot 0.543 ctile 2.582 ward 0.764 spec 0.225) 199s
+ep 0 step 1000/13425 loss 3.454 (move 1.071 att 0.281 cslot 0.424 ctile 1.415 ward 0.276 spec 0.125) 403s
+ep 0 step 1500/13425 loss 3.194 (move 1.006 att 0.246 cslot 0.345 ctile 1.351 ward 0.272 spec 0.109) 599s
+ep 0 step 2000/13425 loss 2.875 (move 0.910 att 0.226 cslot 0.312 ctile 1.192 ward 0.253 spec 0.107) 781s
+ep 0 step 2500/13425 loss 2.673 (move 0.852 att 0.210 cslot 0.291 ctile 1.109 ward 0.232 spec 0.095) 985s
+ep 0 step 3000/13425 loss 2.670 (move 0.873 att 0.206 cslot 0.276 ctile 1.095 ward 0.261 spec 0.089) 1237s
+ep 0 step 3500/13425 loss 2.529 (move 0.824 att 0.194 cslot 0.260 ctile 1.048 ward 0.239 spec 0.083) 1468s
+ep 0 step 4000/13425 loss 2.440 (move 0.822 att 0.187 cslot 0.245 ctile 0.983 ward 0.236 spec 0.083) 1683s
+epoch 0 val: move 0.721, move_nonstay 0.601, attack_any 0.932, attack_tile_when_attack 0.802, cast_slot 0.868, cast_slot_when_cast 0.210, cast_tile_when_cast 0.608, ward_any 0.959, special 0.979, special_when_special 0.081, all_heads 0.617
+ep 1 step 4500/13425 loss 2.731 (move 0.834 att 0.213 cslot 0.286 ctile 1.172 ward 0.252 spec 0.099) 1894s
+ep 1 step 5000/13425 loss 2.376 (move 0.793 att 0.185 cslot 0.233 ctile 0.968 ward 0.239 spec 0.078) 2076s
+ep 1 step 5500/13425 loss 2.236 (move 0.759 att 0.170 cslot 0.224 ctile 0.897 ward 0.227 spec 0.073) 2262s
+ep 1 step 6000/13425 loss 2.215 (move 0.739 att 0.165 cslot 0.224 ctile 0.902 ward 0.240 spec 0.064) 2449s
+ep 1 step 6500/13425 loss 2.186 (move 0.740 att 0.164 cslot 0.213 ctile 0.899 ward 0.215 spec 0.062) 2662s
+ep 1 step 7000/13425 loss 2.210 (move 0.743 att 0.167 cslot 0.223 ctile 0.905 ward 0.214 spec 0.065) 2900s
+ep 1 step 7500/13425 loss 2.045 (move 0.702 att 0.151 cslot 0.210 ctile 0.811 ward 0.222 spec 0.059) 3088s
+ep 1 step 8000/13425 loss 1.908 (move 0.651 att 0.138 cslot 0.200 ctile 0.762 ward 0.196 spec 0.059) 3269s
+ep 1 step 8500/13425 loss 2.046 (move 0.713 att 0.153 cslot 0.203 ctile 0.818 ward 0.204 spec 0.057) 3452s
+epoch 1 val: move 0.758, move_nonstay 0.617, attack_any 0.949, attack_tile_when_attack 0.882, cast_slot 0.908, cast_slot_when_cast 0.613, cast_tile_when_cast 0.721, ward_any 0.959, special 0.981, special_when_special 0.434, all_heads 0.685
+ep 2 step 9000/13425 loss 1.884 (move 0.646 att 0.147 cslot 0.190 ctile 0.748 ward 0.196 spec 0.055) 3679s
+ep 2 step 9500/13425 loss 1.927 (move 0.659 att 0.149 cslot 0.193 ctile 0.771 ward 0.196 spec 0.057) 3871s
+ep 2 step 10000/13425 loss 2.039 (move 0.703 att 0.153 cslot 0.203 ctile 0.815 ward 0.220 spec 0.056) 4059s
+ep 2 step 10500/13425 loss 1.887 (move 0.663 att 0.140 cslot 0.190 ctile 0.735 ward 0.215 spec 0.052) 4242s
+ep 2 step 11000/13425 loss 1.894 (move 0.657 att 0.143 cslot 0.190 ctile 0.739 ward 0.228 spec 0.052) 4424s
+ep 2 step 11500/13425 loss 1.701 (move 0.609 att 0.127 cslot 0.173 ctile 0.649 ward 0.191 spec 0.047) 4607s
+ep 2 step 12000/13425 loss 1.791 (move 0.622 att 0.133 cslot 0.183 ctile 0.703 ward 0.202 spec 0.048) 4797s
+ep 2 step 12500/13425 loss 1.749 (move 0.626 att 0.128 cslot 0.175 ctile 0.671 ward 0.200 spec 0.048) 4980s
+ep 2 step 13000/13425 loss 1.800 (move 0.631 att 0.137 cslot 0.180 ctile 0.694 ward 0.214 spec 0.051) 5160s
+epoch 2 val: move 0.778, move_nonstay 0.650, attack_any 0.956, attack_tile_when_attack 0.895, cast_slot 0.919, cast_slot_when_cast 0.685, cast_tile_when_cast 0.757, ward_any 0.960, special 0.983, special_when_special 0.420, all_heads 0.710
+test: move 0.799 (n=260332), move_nonstay 0.684 (n=146460), attack_any 0.961 (n=260332), attack_tile_when_attack 0.902 (n=79961), cast_slot 0.919 (n=260332), cast_slot_when_cast 0.686 (n=40777), cast_tile_when_cast 0.773 (n=40777), ward_any 0.960 (n=260332), special 0.984 (n=260332), special_when_special 0.456 (n=6211), all_heads 0.730 (n=260332)

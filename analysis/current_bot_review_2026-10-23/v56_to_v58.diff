@@ -1,0 +1,163 @@
+--- v56/boss/bot.cpp
++++ v58/boss/bot.cpp
+@@ -422,6 +422,7 @@
+ }
+ 
+ #include "../v55_bridge.h"
++#include "../v56_bridge_staging.h"
+ 
+ bool Bot::useDashToward(const Route& route) {
+     auto& me=bc::self(); if(castThisTurn || !me.can_cast() || !enough(35000))return false;
+@@ -495,7 +496,9 @@
+     auto& me=bc::self();stage="route";
+     if(!me.can_move() || !enough(36000))return false;
+     const auto pos=me.position();const auto blocked=blockedNow();
+-    const auto goals=goalsIn & ~blocked;
++    if(bridgeWalking&&bridgeFinalGoals!=goalsIn){bridgeWalking=false;bridgeFarRoute.reset();}
++    if(allowDash&&bridgeWalking&&finishBridge(blocked,pos))return true;
++    auto goals=(bridgeWalking?bridgeWalkGoals:goalsIn)&~blocked;
+     if(goals.is_empty()){stage="route-occupied";return false;}
+     if(goals.is_set(pos))return false;
+     // The old speculative group field consumed the only search before the
+@@ -509,10 +512,13 @@
+     if(!enough(16000)){stage="route-budget";return false;}
+     moveRoute->complete=true;moveRoute->roots=goals.positions();
+     const int here=moveRoute->distance.get(pos);
++    if(bridgeWalking&&here!=UNR&&here<bridgeWalkBest){bridgeWalkBest=here;bridgeProgressRound=round;}
+     if(here==UNR){
++        if(bridgeWalking){bridgeWalking=false;bridgeFarRoute.reset();stage="bridge-launch-unreachable";return false;}
+         if(allowDash&&bridgeDash(*moveRoute,blocked,pos)){
+             previousTile=pos;movedThisTurn=true;stage="route-dash-bridge";return true;
+         }
++        if(allowDash&&planBridge(visited,goalsIn,blocked,pos))return true;
+         stage="route-unreachable";return false;
+     }
+     std::vector<std::pair<int,vec2>> steps;
+--- v56/boss/bot.h
++++ v58/boss/bot.h
+@@ -74,6 +74,11 @@
+     std::vector<int> tileGroup;
+     std::unique_ptr<Route> homeRoute, moveRoute;
+     cambc::bitboard moveGoals;
++    bool bridgeWalking=false;int bridgeSince=0,bridgeMisses=0,bridgeProgressRound=0,bridgeWalkBest=65535,bridgeAvoidUntil=0;
++    cambc::bitboard bridgeRejected;
++    cambc::bitboard bridgeFinalGoals,bridgeWalkGoals;std::unique_ptr<Route> bridgeFarRoute;
++    bool planBridge(const cambc::bitboard&,const cambc::bitboard&,const cambc::bitboard&,vec2);
++    bool finishBridge(const cambc::bitboard&,vec2);
+     int initNext = 0;
+     bool initStarted = false;
+     bool draftValid = false;
+--- v56/bot.cpp
++++ v58/bot.cpp
+@@ -469,6 +469,7 @@
+ }
+ 
+ #include "v55_bridge.h"
++#include "v56_bridge_staging.h"
+ 
+ bool Bot::useDashToward(const Route& route) {
+     auto& me=bc::self(); if(castThisTurn || !me.can_cast() || !enough(35000))return false;
+@@ -543,7 +544,9 @@
+     fallbackGoals=goalsIn;fallbackRequested=true;
+     if(!me.can_move() || !enough(36000))return false;
+     const auto pos=me.position();const auto blocked=blockedNow();
+-    const auto goals=goalsIn & ~blocked;
++    if(bridgeWalking&&bridgeFinalGoals!=goalsIn){bridgeWalking=false;bridgeFarRoute.reset();}
++    if(allowDash&&bridgeWalking&&finishBridge(blocked,pos))return true;
++    auto goals=(bridgeWalking?bridgeWalkGoals:goalsIn)&~blocked;
+     if(goals.is_empty()){stage="route-occupied";return false;}
+     if(goals.is_set(pos))return false;
+     // The old speculative group field consumed the only search before the
+@@ -557,7 +560,9 @@
+     if(!enough(16000)){stage="route-budget";return false;}
+     moveRoute->complete=true;moveRoute->roots=goals.positions();
+     const int here=moveRoute->distance.get(pos);
++    if(bridgeWalking&&here!=UNR&&here<bridgeWalkBest){bridgeWalkBest=here;bridgeProgressRound=round;}
+     if(here==UNR){
++        if(bridgeWalking){bridgeWalking=false;bridgeFarRoute.reset();stage="bridge-launch-unreachable";return false;}
+         // Walking disconnection does not imply dash disconnection. The completed
+         // field still gives exact distances on the destination's component.
+         // Dash uses a legal bounded path, permits holes in transit and requires
+@@ -565,6 +570,7 @@
+         if(allowDash&&bridgeDash(*moveRoute,blocked,pos)){
+             previousTile=pos;movedThisTurn=true;stage="route-dash-bridge";return true;
+         }
++        if(allowDash&&planBridge(visited,goalsIn,blocked,pos))return true;
+         stage="route-unreachable";return false;
+     }
+ 
+--- v56/bot.h
++++ v58/bot.h
+@@ -79,6 +79,11 @@
+     std::vector<int> tileGroup;std::vector<std::uint8_t> campRanges;
+     std::unique_ptr<Route> homeRoute, moveRoute;
+     cambc::bitboard moveGoals;
++    bool bridgeWalking=false;int bridgeSince=0,bridgeMisses=0,bridgeProgressRound=0,bridgeWalkBest=65535,bridgeAvoidUntil=0;
++    cambc::bitboard bridgeRejected;
++    cambc::bitboard bridgeFinalGoals,bridgeWalkGoals;std::unique_ptr<Route> bridgeFarRoute;
++    bool planBridge(const cambc::bitboard&,const cambc::bitboard&,const cambc::bitboard&,vec2);
++    bool finishBridge(const cambc::bitboard&,vec2);
+     int initNext = 0;
+     bool initStarted = false;
+     bool draftValid = false;
+--- v56/main.cpp
++++ v58/main.cpp
+@@ -39,7 +39,7 @@
+ 
+ int runBoss();
+ int main() {
+-    std::puts("build v55-r13");
++    std::puts("build v56-bridge-stage2");
+     if(cambc::is_draft()) {
+         bool regular=false,boss=false;
+         for(const auto& group:cambc::map::camp_groups())if(group.gem_value()>0) {
+--- v56/v56_bridge_staging.h
++++ v58/v56_bridge_staging.h
+@@ -0,0 +1,47 @@
++// A legal dash from the current tile is not a complete traversal plan. Walk
++// to a verified candidate launch region first, then revalidate the actual dash.
++bool Bot::planBridge(const bc::bitboard& landings,const bc::bitboard& finalGoals,const bc::bitboard& blocked,vec2 pos){
++    if(bridgeWalking||!enough(48000))return false;
++    const auto& kit=v1KitForType(static_cast<int>(myType));int range=0;
++    for(const auto& a:kit.definition.abilities)if(a.kind==6)range=a.payload.dash.range;
++    if(range<=0||range>4||landings.is_empty())return false;
++    const auto transit=blocked&~bc::map::holes();
++    auto frontier=landings;
++    for(int k=0;k<range;++k){
++        if(!enough(30000))return false;
++        // Reverse 8-neighbour reachability, with holes traversable but walls,
++        // occupied tiles and reservations still blocked in transit.
++        auto wide=frontier|frontier.shift_right(1)|frontier.shift_right(-1);
++        frontier=(wide|wide.shift_up(1)|wide.shift_up(-1))&~transit;
++    }
++    if(bridgeFinalGoals!=finalGoals||round>=bridgeAvoidUntil)bridgeRejected.clear();
++    auto launches=frontier&~blocked&~landings&~bridgeRejected;
++    if(launches.is_empty()||launches.is_set(pos))return false;
++    bridgeFinalGoals=finalGoals;bridgeWalkGoals=launches;
++    bridgeFarRoute=std::move(moveRoute);bridgeWalking=true;bridgeSince=round;bridgeMisses=0;bridgeProgressRound=round;bridgeWalkBest=UNR;
++    stage="bridge-plan-launch";return true;
++}
++
++// Called at the start of a subsequent ordinary route decision. It consumes
++// no second whole-map search in the turn which discovers the disconnection.
++bool Bot::finishBridge(const bc::bitboard& blocked,vec2 pos){
++    if(!bridgeWalking||!bridgeFarRoute)return false;
++    if(round-bridgeProgressRound>24){bridgeWalking=false;bridgeFarRoute.reset();return false;}
++    if(!bridgeWalkGoals.is_set(pos))return false;
++    const auto& kit=v1KitForType(static_cast<int>(myType));int slot=-1;
++    for(int k=0;k<2;++k)if(kit.definition.abilities[k].kind==6){slot=k;break;}
++    if(slot<0){bridgeWalking=false;return false;}
++    int cd=8;const auto self=static_cast<unsigned>(static_cast<bc::handle_champion_t>(bc::self()));
++    if(bc::detail::sdk_champion_cooldown(self,slot,&cd))return true;
++    if(cd>0){stage="bridge-wait-cooldown";return true;}
++    if(castThisTurn||!enough(50000)||!bc::self().can_cast()){stage="bridge-wait-action";return true;}
++    // This uses current blockers and the native legal transit test. The old
++    // far-side field only ranks legal landings; it cannot authorize a cast.
++    if(bridgeDash(*bridgeFarRoute,blocked,pos)){
++        previousTile=pos;movedThisTurn=true;bridgeWalking=false;bridgeFarRoute.reset();
++        stage="bridge-staged-dash";return true;
++    }
++    if(++bridgeMisses>=2){bridgeRejected.set(pos);bridgeAvoidUntil=round+8;bridgeWalking=false;bridgeFarRoute.reset();stage="bridge-replan";}
++    else stage="bridge-launch-blocked";
++    return true;
++}

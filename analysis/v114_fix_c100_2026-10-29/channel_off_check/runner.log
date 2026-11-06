@@ -1,0 +1,135 @@
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/fec5e0e1-base
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/dmitt/Library/Caches/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/dmitt/Desktop/CamBattlecode/workspace/bots/fec5e0e1-base/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fec5e0e1-base/src/main.cpp.obj
+[2/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fec5e0e1-base/src/draft.cpp.obj
+[3/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fec5e0e1-base/src/bot.cpp.obj
+[4/5] Linking CXX executable bot.wasm
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/v114
+v114 is up to date
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/fish62_f84
+fish62_f84 is up to date
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/tm30_f84
+tm30_f84 is up to date
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/fec5e0e1-selected
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/dmitt/Library/Caches/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/dmitt/Desktop/CamBattlecode/workspace/bots/fec5e0e1-selected/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fec5e0e1-selected/src/main.cpp.obj
+[2/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fec5e0e1-selected/src/draft.cpp.obj
+[3/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fec5e0e1-selected/src/bot.cpp.obj
+[4/5] Linking CXX executable bot.wasm
+[|] STARTING  fec5e0e1-base vs v114  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/channel_off_check/games/base/v114/01broken-curve/a.repl26a
+[|] STARTING  v114 vs fec5e0e1-base  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/channel_off_check/games/base/v114/01broken-curve/b.repl26a
+[|] STARTING  fec5e0e1-base vs v114  02stalactites
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/channel_off_check/games/base/v114/02stalactites/a.repl26a
+[|] STARTING  v114 vs fec5e0e1-base  02stalactites
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/channel_off_check/games/base/v114/02stalactites/b.repl26a
+[|] STARTING  fec5e0e1-base vs fish62_f84  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/channel_off_check/games/base/fish62_f84/01broken-curve/a.repl26a
+[|] STARTING  fish62_f84 vs fec5e0e1-base  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/channel_off_check/games/base/fish62_f84/01broken-curve/b.repl26a
+[+] TEAM B WIN (v114)  fec5e0e1-base vs v114  02stalactites  Round 0519/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/channel_off_check/games/base/v114/02stalactites/a.repl26a
+[+] TEAM B WIN (fec5e0e1-base)  v114 vs fec5e0e1-base  02stalactites  Round 0534/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/channel_off_check/games/base/v114/02stalactites/b.repl26a
+[+] TEAM A WIN (fec5e0e1-base)  fec5e0e1-base vs fish62_f84  01broken-curve  Round 1108/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/channel_off_check/games/base/fish62_f84/01broken-curve/a.repl26a
+[+] TEAM B WIN (fec5e0e1-base)  fish62_f84 vs fec5e0e1-base  01broken-curve  Round 1074/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/channel_off_check/games/base/fish62_f84/01broken-curve/b.repl26a
+[|] STARTING  fec5e0e1-base vs fish62_f84  02stalactites
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/channel_off_check/games/base/fish62_f84/02stalactites/a.repl26a
+[|] STARTING  fish62_f84 vs fec5e0e1-base  02stalactites
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/channel_off_check/games/base/fish62_f84/02stalactites/b.repl26a
+[|] STARTING  fec5e0e1-base vs tm30_f84  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/channel_off_check/games/base/tm30_f84/01broken-curve/a.repl26a
+[|] STARTING  tm30_f84 vs fec5e0e1-base  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/channel_off_check/games/base/tm30_f84/01broken-curve/b.repl26a
+[+] TEAM A WIN (fec5e0e1-base)  fec5e0e1-base vs v114  01broken-curve  Round 1095/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/channel_off_check/games/base/v114/01broken-curve/a.repl26a
+[+] TEAM A WIN (v114)  v114 vs fec5e0e1-base  01broken-curve  Round 1057/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/channel_off_check/games/base/v114/01broken-curve/b.repl26a
+[|] STARTING  fec5e0e1-base vs tm30_f84  02stalactites
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/channel_off_check/games/base/tm30_f84/02stalactites/a.repl26a
+[|] STARTING  tm30_f84 vs fec5e0e1-base  02stalactites
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/channel_off_check/games/base/tm30_f84/02stalactites/b.repl26a
+[+] TEAM A WIN (fec5e0e1-base)  fec5e0e1-base vs fish62_f84  02stalactites  Round 0602/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/channel_off_check/games/base/fish62_f84/02stalactites/a.repl26a
+[+] TEAM B WIN (fec5e0e1-base)  fish62_f84 vs fec5e0e1-base  02stalactites  Round 0719/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/channel_off_check/games/base/fish62_f84/02stalactites/b.repl26a
+[+] TEAM A WIN (fec5e0e1-base)  fec5e0e1-base vs tm30_f84  01broken-curve  Round 1073/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/channel_off_check/games/base/tm30_f84/01broken-curve/a.repl26a
+[+] TEAM A WIN (fec5e0e1-base)  fec5e0e1-base vs tm30_f84  02stalactites  Round 0649/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/channel_off_check/games/base/tm30_f84/02stalactites/a.repl26a
+[+] TEAM B WIN (fec5e0e1-base)  tm30_f84 vs fec5e0e1-base  02stalactites  Round 0415/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/channel_off_check/games/base/tm30_f84/02stalactites/b.repl26a
+[|] STARTING  fec5e0e1-selected vs v114  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/channel_off_check/games/selected/v114/01broken-curve/a.repl26a
+[|] STARTING  v114 vs fec5e0e1-selected  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/channel_off_check/games/selected/v114/01broken-curve/b.repl26a
+[|] STARTING  fec5e0e1-selected vs v114  02stalactites
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/channel_off_check/games/selected/v114/02stalactites/a.repl26a
+[|] STARTING  v114 vs fec5e0e1-selected  02stalactites
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/channel_off_check/games/selected/v114/02stalactites/b.repl26a
+[|] STARTING  fec5e0e1-selected vs fish62_f84  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/channel_off_check/games/selected/fish62_f84/01broken-curve/a.repl26a
+[+] TEAM B WIN (fec5e0e1-base)  tm30_f84 vs fec5e0e1-base  01broken-curve  Round 1113/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/channel_off_check/games/base/tm30_f84/01broken-curve/b.repl26a
+[|] STARTING  fish62_f84 vs fec5e0e1-selected  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/channel_off_check/games/selected/fish62_f84/01broken-curve/b.repl26a
+[+] TEAM B WIN (v114)  fec5e0e1-selected vs v114  02stalactites  Round 0579/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/channel_off_check/games/selected/v114/02stalactites/a.repl26a
+[+] TEAM A WIN (v114)  v114 vs fec5e0e1-selected  02stalactites  Round 0465/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/channel_off_check/games/selected/v114/02stalactites/b.repl26a
+[+] TEAM A WIN (fec5e0e1-selected)  fec5e0e1-selected vs fish62_f84  01broken-curve  Round 1108/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/channel_off_check/games/selected/fish62_f84/01broken-curve/a.repl26a
+[|] STARTING  fec5e0e1-selected vs fish62_f84  02stalactites
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/channel_off_check/games/selected/fish62_f84/02stalactites/a.repl26a
+[|] STARTING  fish62_f84 vs fec5e0e1-selected  02stalactites
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/channel_off_check/games/selected/fish62_f84/02stalactites/b.repl26a
+[|] STARTING  fec5e0e1-selected vs tm30_f84  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/channel_off_check/games/selected/tm30_f84/01broken-curve/a.repl26a
+[+] TEAM A WIN (fec5e0e1-selected)  fec5e0e1-selected vs v114  01broken-curve  Round 1095/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/channel_off_check/games/selected/v114/01broken-curve/a.repl26a
+[+] TEAM A WIN (v114)  v114 vs fec5e0e1-selected  01broken-curve  Round 1057/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/channel_off_check/games/selected/v114/01broken-curve/b.repl26a
+[+] TEAM B WIN (fec5e0e1-selected)  fish62_f84 vs fec5e0e1-selected  01broken-curve  Round 1074/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/channel_off_check/games/selected/fish62_f84/01broken-curve/b.repl26a
+[|] STARTING  tm30_f84 vs fec5e0e1-selected  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/channel_off_check/games/selected/tm30_f84/01broken-curve/b.repl26a
+[|] STARTING  fec5e0e1-selected vs tm30_f84  02stalactites
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/channel_off_check/games/selected/tm30_f84/02stalactites/a.repl26a
+[|] STARTING  tm30_f84 vs fec5e0e1-selected  02stalactites
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/channel_off_check/games/selected/tm30_f84/02stalactites/b.repl26a
+[+] TEAM A WIN (fec5e0e1-selected)  fec5e0e1-selected vs fish62_f84  02stalactites  Round 0656/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/channel_off_check/games/selected/fish62_f84/02stalactites/a.repl26a
+[+] TEAM B WIN (fec5e0e1-selected)  fish62_f84 vs fec5e0e1-selected  02stalactites  Round 0719/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/channel_off_check/games/selected/fish62_f84/02stalactites/b.repl26a
+[+] TEAM B WIN (fec5e0e1-selected)  tm30_f84 vs fec5e0e1-selected  02stalactites  Round 0415/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/channel_off_check/games/selected/tm30_f84/02stalactites/b.repl26a
+[+] TEAM A WIN (fec5e0e1-selected)  fec5e0e1-selected vs tm30_f84  01broken-curve  Round 1039/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/channel_off_check/games/selected/tm30_f84/01broken-curve/a.repl26a
+[+] TEAM B WIN (fec5e0e1-selected)  tm30_f84 vs fec5e0e1-selected  01broken-curve  Round 1113/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/channel_off_check/games/selected/tm30_f84/01broken-curve/b.repl26a
+[+] TEAM A WIN (fec5e0e1-selected)  fec5e0e1-selected vs tm30_f84  02stalactites  Round 0602/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/channel_off_check/games/selected/tm30_f84/02stalactites/a.repl26a
+Finished: 24 replay bundles saved, 0 failed
+injected 0 checks into 0 functions
+injected 0 checks into 0 functions

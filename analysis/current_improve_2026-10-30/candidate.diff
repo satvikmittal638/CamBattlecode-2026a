@@ -1,0 +1,22 @@
+--- v125/bot.cpp
++++ candidate/bot.cpp
+@@ -345,6 +345,9 @@
+     const bool ryth = myType == bc::champion_type::ryth;
+     const bool bruiser = ryth || myType == bc::champion_type::vendetta;
+     std::vector<Step> plan;
++    // A Cassi death removes Issac too. Buy the existing defensive health
++    // emblem before the economy/damage opening; later steps still skip it.
++    if(myType==bc::champion_type::cassi)plan.push_back({2,2,5});
+     plan.push_back({3, bruiser ? 2 : dmg, 5});
+     plan.push_back({4, ryth ? 2 : dmg, 5});
+     if (bruiser) { plan.push_back({6, 2, 5}); plan.push_back({2, 2, 5}); }
+--- v125/main.cpp
++++ candidate/main.cpp
+@@ -38,6 +38,6 @@
+ }
+ 
+ int main() {
+-    std::puts("build v62n-cy3");
++    std::puts("build v125-cassi-guard-1030");
+     return runBaseline();
+ }

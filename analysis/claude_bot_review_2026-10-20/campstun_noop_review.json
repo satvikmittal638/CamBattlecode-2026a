@@ -1,0 +1,10 @@
+{
+  "feature": "X_CAMPSTUN",
+  "games": 210,
+  "score_round_outcome_differences_vs_base": 0,
+  "feature_header_true": true,
+  "legacy_location": "workspace/bots/fishx/src/bot.cpp:castOnCamp",
+  "active_location": "workspace/bots/fishx/src/v1_camp_executor.h:attackCampsOf",
+  "evidence": "Regular castOnCamp has no callers; active attackCampsOf directly calls sdk_cast and allows CC only for Ren. X_CAMPSTUN does not occur in the active executor. BossBot has separate castOnCamp callers, unaffected by this flag.",
+  "review_action": "Claude must fix active code path, preserve ongoing frozen batch, and rerun a corrected camp-stun comparison; audit other feature reachability."
+}

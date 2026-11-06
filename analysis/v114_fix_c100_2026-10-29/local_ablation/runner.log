@@ -1,0 +1,1031 @@
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/feec18e0-baseline
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/dmitt/Library/Caches/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/dmitt/Desktop/CamBattlecode/workspace/bots/feec18e0-baseline/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/feec18e0-baseline/src/main.cpp.obj
+[2/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/feec18e0-baseline/src/draft.cpp.obj
+[3/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/feec18e0-baseline/src/bot.cpp.obj
+[4/5] Linking CXX executable bot.wasm
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/v114
+v114 is up to date
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/fish62_f84
+fish62_f84 is up to date
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/tm30_f84
+tm30_f84 is up to date
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/feec18e0-delivery
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/dmitt/Library/Caches/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/dmitt/Desktop/CamBattlecode/workspace/bots/feec18e0-delivery/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/feec18e0-delivery/src/main.cpp.obj
+[2/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/feec18e0-delivery/src/draft.cpp.obj
+[3/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/feec18e0-delivery/src/bot.cpp.obj
+[4/5] Linking CXX executable bot.wasm
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/feec18e0-all
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/dmitt/Library/Caches/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/dmitt/Desktop/CamBattlecode/workspace/bots/feec18e0-all/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/feec18e0-all/src/main.cpp.obj
+[2/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/feec18e0-all/src/draft.cpp.obj
+[3/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/feec18e0-all/src/bot.cpp.obj
+[4/5] Linking CXX executable bot.wasm
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/feec18e0-pressure
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/dmitt/Library/Caches/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/dmitt/Desktop/CamBattlecode/workspace/bots/feec18e0-pressure/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/feec18e0-pressure/src/main.cpp.obj
+[2/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/feec18e0-pressure/src/draft.cpp.obj
+[3/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/feec18e0-pressure/src/bot.cpp.obj
+[4/5] Linking CXX executable bot.wasm
+[|] STARTING  feec18e0-baseline vs v114  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/v114/00lanes/a.repl26a
+[|] STARTING  v114 vs feec18e0-baseline  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/v114/00lanes/b.repl26a
+[|] STARTING  feec18e0-baseline vs v114  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/v114/01elk-arena/a.repl26a
+[|] STARTING  v114 vs feec18e0-baseline  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/v114/01elk-arena/b.repl26a
+[|] STARTING  feec18e0-baseline vs v114  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/v114/02treasure-box/a.repl26a
+[|] STARTING  v114 vs feec18e0-baseline  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/v114/02treasure-box/b.repl26a
+[+] TEAM A WIN (v114)  v114 vs feec18e0-baseline  02treasure-box  Round 1561/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/v114/02treasure-box/b.repl26a
+[|] STARTING  feec18e0-baseline vs v114  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/v114/01broken-curve/a.repl26a
+[+] TEAM B WIN (feec18e0-baseline)  v114 vs feec18e0-baseline  00lanes  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/v114/00lanes/b.repl26a
+[+] TEAM A WIN (feec18e0-baseline)  feec18e0-baseline vs v114  01elk-arena  Round 1552/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/v114/01elk-arena/a.repl26a
+[+] TEAM A WIN (v114)  v114 vs feec18e0-baseline  01elk-arena  Round 1552/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/v114/01elk-arena/b.repl26a
+[+] TEAM B WIN (v114)  feec18e0-baseline vs v114  02treasure-box  Round 1794/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/v114/02treasure-box/a.repl26a
+[|] STARTING  v114 vs feec18e0-baseline  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/v114/01broken-curve/b.repl26a
+[|] STARTING  feec18e0-baseline vs v114  02stalactites
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/v114/02stalactites/a.repl26a
+[|] STARTING  v114 vs feec18e0-baseline  02stalactites
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/v114/02stalactites/b.repl26a
+[|] STARTING  feec18e0-baseline vs v114  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/v114/02cuts/a.repl26a
+[+] TEAM A WIN (feec18e0-baseline)  feec18e0-baseline vs v114  00lanes  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/v114/00lanes/a.repl26a
+[|] STARTING  v114 vs feec18e0-baseline  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/v114/02cuts/b.repl26a
+[+] TEAM A WIN (feec18e0-baseline)  feec18e0-baseline vs v114  01broken-curve  Round 1058/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/v114/01broken-curve/a.repl26a
+[|] STARTING  feec18e0-baseline vs v114  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/v114/00gemfight/a.repl26a
+[+] TEAM A WIN (v114)  v114 vs feec18e0-baseline  01broken-curve  Round 1058/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/v114/01broken-curve/b.repl26a
+[+] TEAM A WIN (feec18e0-baseline)  feec18e0-baseline vs v114  02stalactites  Round 0587/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/v114/02stalactites/a.repl26a
+[+] TEAM A WIN (v114)  v114 vs feec18e0-baseline  02stalactites  Round 0587/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/v114/02stalactites/b.repl26a
+[|] STARTING  v114 vs feec18e0-baseline  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/v114/00gemfight/b.repl26a
+[|] STARTING  feec18e0-baseline vs v114  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/v114/01boss-battle/a.repl26a
+[|] STARTING  v114 vs feec18e0-baseline  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/v114/01boss-battle/b.repl26a
+[+] TEAM A WIN (v114)  v114 vs feec18e0-baseline  02cuts  Round 1027/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/v114/02cuts/b.repl26a
+[|] STARTING  feec18e0-baseline vs v114  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/v114/01gold-rush/a.repl26a
+[+] TEAM A WIN (feec18e0-baseline)  feec18e0-baseline vs v114  02cuts  Round 1027/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/v114/02cuts/a.repl26a
+[|] STARTING  v114 vs feec18e0-baseline  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/v114/01gold-rush/b.repl26a
+[+] TEAM B WIN (v114)  feec18e0-baseline vs v114  00gemfight  Round 0906/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/v114/00gemfight/a.repl26a
+[|] STARTING  feec18e0-baseline vs v114  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/v114/00vault/a.repl26a
+[+] TEAM B WIN (feec18e0-baseline)  v114 vs feec18e0-baseline  00gemfight  Round 0905/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/v114/00gemfight/b.repl26a
+[+] TEAM B WIN (v114)  feec18e0-baseline vs v114  01gold-rush  Round 1312/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/v114/01gold-rush/a.repl26a
+[+] TEAM B WIN (feec18e0-baseline)  v114 vs feec18e0-baseline  01gold-rush  Round 1312/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/v114/01gold-rush/b.repl26a
+[|] STARTING  v114 vs feec18e0-baseline  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/v114/00vault/b.repl26a
+[|] STARTING  feec18e0-baseline vs fish62_f84  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/fish62_f84/00lanes/a.repl26a
+[|] STARTING  fish62_f84 vs feec18e0-baseline  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/fish62_f84/00lanes/b.repl26a
+[+] TEAM B WIN (v114)  feec18e0-baseline vs v114  01boss-battle  Round 1164/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/v114/01boss-battle/a.repl26a
+[+] TEAM B WIN (feec18e0-baseline)  v114 vs feec18e0-baseline  01boss-battle  Round 1164/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/v114/01boss-battle/b.repl26a
+[|] STARTING  feec18e0-baseline vs fish62_f84  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/fish62_f84/01elk-arena/a.repl26a
+[|] STARTING  fish62_f84 vs feec18e0-baseline  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/fish62_f84/01elk-arena/b.repl26a
+[+] TEAM A WIN (feec18e0-baseline)  feec18e0-baseline vs v114  00vault  Round 0667/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/v114/00vault/a.repl26a
+[|] STARTING  feec18e0-baseline vs fish62_f84  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/fish62_f84/02treasure-box/a.repl26a
+[+] TEAM A WIN (v114)  v114 vs feec18e0-baseline  00vault  Round 0667/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/v114/00vault/b.repl26a
+[|] STARTING  fish62_f84 vs feec18e0-baseline  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/fish62_f84/02treasure-box/b.repl26a
+[+] TEAM B WIN (fish62_f84)  feec18e0-baseline vs fish62_f84  00lanes  Round 1126/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/fish62_f84/00lanes/a.repl26a
+[+] TEAM A WIN (fish62_f84)  fish62_f84 vs feec18e0-baseline  00lanes  Round 1141/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/fish62_f84/00lanes/b.repl26a
+[+] TEAM A WIN (feec18e0-baseline)  feec18e0-baseline vs fish62_f84  01elk-arena  Round 1271/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/fish62_f84/01elk-arena/a.repl26a
+[+] TEAM A WIN (fish62_f84)  fish62_f84 vs feec18e0-baseline  01elk-arena  Round 1446/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/fish62_f84/01elk-arena/b.repl26a
+[|] STARTING  feec18e0-baseline vs fish62_f84  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/fish62_f84/01broken-curve/a.repl26a
+[|] STARTING  fish62_f84 vs feec18e0-baseline  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/fish62_f84/01broken-curve/b.repl26a
+[|] STARTING  feec18e0-baseline vs fish62_f84  02stalactites
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/fish62_f84/02stalactites/a.repl26a
+[|] STARTING  fish62_f84 vs feec18e0-baseline  02stalactites
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/fish62_f84/02stalactites/b.repl26a
+[+] TEAM B WIN (fish62_f84)  feec18e0-baseline vs fish62_f84  02treasure-box  Round 1381/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/fish62_f84/02treasure-box/a.repl26a
+[|] STARTING  feec18e0-baseline vs fish62_f84  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/fish62_f84/02cuts/a.repl26a
+[+] TEAM B WIN (feec18e0-baseline)  fish62_f84 vs feec18e0-baseline  02treasure-box  Round 1707/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/fish62_f84/02treasure-box/b.repl26a
+[|] STARTING  fish62_f84 vs feec18e0-baseline  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/fish62_f84/02cuts/b.repl26a
+[+] TEAM A WIN (feec18e0-baseline)  feec18e0-baseline vs fish62_f84  01broken-curve  Round 1040/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/fish62_f84/01broken-curve/a.repl26a
+[+] TEAM B WIN (feec18e0-baseline)  fish62_f84 vs feec18e0-baseline  01broken-curve  Round 0960/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/fish62_f84/01broken-curve/b.repl26a
+[+] TEAM B WIN (feec18e0-baseline)  fish62_f84 vs feec18e0-baseline  02stalactites  Round 0504/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/fish62_f84/02stalactites/b.repl26a
+[|] STARTING  feec18e0-baseline vs fish62_f84  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/fish62_f84/00gemfight/a.repl26a
+[|] STARTING  fish62_f84 vs feec18e0-baseline  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/fish62_f84/00gemfight/b.repl26a
+[|] STARTING  feec18e0-baseline vs fish62_f84  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/fish62_f84/01boss-battle/a.repl26a
+[+] TEAM B WIN (fish62_f84)  feec18e0-baseline vs fish62_f84  02stalactites  Round 0903/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/fish62_f84/02stalactites/a.repl26a
+[|] STARTING  fish62_f84 vs feec18e0-baseline  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/fish62_f84/01boss-battle/b.repl26a
+[+] TEAM A WIN (feec18e0-baseline)  feec18e0-baseline vs fish62_f84  02cuts  Round 1029/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/fish62_f84/02cuts/a.repl26a
+[|] STARTING  feec18e0-baseline vs fish62_f84  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/fish62_f84/01gold-rush/a.repl26a
+[+] TEAM B WIN (feec18e0-baseline)  fish62_f84 vs feec18e0-baseline  02cuts  Round 1025/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/fish62_f84/02cuts/b.repl26a
+[+] TEAM B WIN (feec18e0-baseline)  fish62_f84 vs feec18e0-baseline  00gemfight  Round 0812/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/fish62_f84/00gemfight/b.repl26a
+[|] STARTING  fish62_f84 vs feec18e0-baseline  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/fish62_f84/01gold-rush/b.repl26a
+[|] STARTING  feec18e0-baseline vs fish62_f84  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/fish62_f84/00vault/a.repl26a
+[+] TEAM A WIN (feec18e0-baseline)  feec18e0-baseline vs fish62_f84  00gemfight  Round 1272/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/fish62_f84/00gemfight/a.repl26a
+[|] STARTING  fish62_f84 vs feec18e0-baseline  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/fish62_f84/00vault/b.repl26a
+[+] TEAM B WIN (feec18e0-baseline)  fish62_f84 vs feec18e0-baseline  01boss-battle  Round 1181/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/fish62_f84/01boss-battle/b.repl26a
+[|] STARTING  feec18e0-baseline vs tm30_f84  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/tm30_f84/00lanes/a.repl26a
+[+] TEAM B WIN (fish62_f84)  feec18e0-baseline vs fish62_f84  00vault  Round 0457/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/fish62_f84/00vault/a.repl26a
+[+] TEAM B WIN (feec18e0-baseline)  fish62_f84 vs feec18e0-baseline  00vault  Round 0399/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/fish62_f84/00vault/b.repl26a
+[|] STARTING  tm30_f84 vs feec18e0-baseline  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/tm30_f84/00lanes/b.repl26a
+[|] STARTING  feec18e0-baseline vs tm30_f84  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/tm30_f84/01elk-arena/a.repl26a
+[+] TEAM B WIN (fish62_f84)  feec18e0-baseline vs fish62_f84  01boss-battle  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/fish62_f84/01boss-battle/a.repl26a
+[+] TEAM A WIN (feec18e0-baseline)  feec18e0-baseline vs fish62_f84  01gold-rush  Round 1670/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/fish62_f84/01gold-rush/a.repl26a
+[+] TEAM B WIN (feec18e0-baseline)  fish62_f84 vs feec18e0-baseline  01gold-rush  Round 1282/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/fish62_f84/01gold-rush/b.repl26a
+[|] STARTING  tm30_f84 vs feec18e0-baseline  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/tm30_f84/01elk-arena/b.repl26a
+[|] STARTING  feec18e0-baseline vs tm30_f84  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/tm30_f84/02treasure-box/a.repl26a
+[|] STARTING  tm30_f84 vs feec18e0-baseline  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/tm30_f84/02treasure-box/b.repl26a
+[+] TEAM A WIN (feec18e0-baseline)  feec18e0-baseline vs tm30_f84  01elk-arena  Round 1333/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/tm30_f84/01elk-arena/a.repl26a
+[+] TEAM A WIN (feec18e0-baseline)  feec18e0-baseline vs tm30_f84  02treasure-box  Round 1267/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/tm30_f84/02treasure-box/a.repl26a
+[+] TEAM B WIN (feec18e0-baseline)  tm30_f84 vs feec18e0-baseline  02treasure-box  Round 1139/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/tm30_f84/02treasure-box/b.repl26a
+[|] STARTING  feec18e0-baseline vs tm30_f84  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/tm30_f84/01broken-curve/a.repl26a
+[|] STARTING  tm30_f84 vs feec18e0-baseline  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/tm30_f84/01broken-curve/b.repl26a
+[|] STARTING  feec18e0-baseline vs tm30_f84  02stalactites
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/tm30_f84/02stalactites/a.repl26a
+[+] TEAM B WIN (tm30_f84)  feec18e0-baseline vs tm30_f84  00lanes  Round 1436/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/tm30_f84/00lanes/a.repl26a
+[+] TEAM B WIN (feec18e0-baseline)  tm30_f84 vs feec18e0-baseline  01elk-arena  Round 1438/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/tm30_f84/01elk-arena/b.repl26a
+[|] STARTING  tm30_f84 vs feec18e0-baseline  02stalactites
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/tm30_f84/02stalactites/b.repl26a
+[|] STARTING  feec18e0-baseline vs tm30_f84  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/tm30_f84/02cuts/a.repl26a
+[+] TEAM B WIN (feec18e0-baseline)  tm30_f84 vs feec18e0-baseline  00lanes  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/tm30_f84/00lanes/b.repl26a
+[|] STARTING  tm30_f84 vs feec18e0-baseline  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/tm30_f84/02cuts/b.repl26a
+[+] TEAM A WIN (feec18e0-baseline)  feec18e0-baseline vs tm30_f84  02stalactites  Round 0644/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/tm30_f84/02stalactites/a.repl26a
+[+] TEAM B WIN (feec18e0-baseline)  tm30_f84 vs feec18e0-baseline  02stalactites  Round 0552/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/tm30_f84/02stalactites/b.repl26a
+[|] STARTING  feec18e0-baseline vs tm30_f84  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/tm30_f84/00gemfight/a.repl26a
+[|] STARTING  tm30_f84 vs feec18e0-baseline  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/tm30_f84/00gemfight/b.repl26a
+[+] TEAM A WIN (feec18e0-baseline)  feec18e0-baseline vs tm30_f84  01broken-curve  Round 1023/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/tm30_f84/01broken-curve/a.repl26a
+[+] TEAM B WIN (feec18e0-baseline)  tm30_f84 vs feec18e0-baseline  01broken-curve  Round 1135/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/tm30_f84/01broken-curve/b.repl26a
+[|] STARTING  feec18e0-baseline vs tm30_f84  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/tm30_f84/01boss-battle/a.repl26a
+[|] STARTING  tm30_f84 vs feec18e0-baseline  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/tm30_f84/01boss-battle/b.repl26a
+[+] TEAM A WIN (feec18e0-baseline)  feec18e0-baseline vs tm30_f84  02cuts  Round 1177/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/tm30_f84/02cuts/a.repl26a
+[|] STARTING  feec18e0-baseline vs tm30_f84  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/tm30_f84/01gold-rush/a.repl26a
+[+] TEAM A WIN (feec18e0-baseline)  feec18e0-baseline vs tm30_f84  00gemfight  Round 0922/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/tm30_f84/00gemfight/a.repl26a
+[+] TEAM B WIN (feec18e0-baseline)  tm30_f84 vs feec18e0-baseline  00gemfight  Round 0817/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/tm30_f84/00gemfight/b.repl26a
+[|] STARTING  tm30_f84 vs feec18e0-baseline  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/tm30_f84/01gold-rush/b.repl26a
+[|] STARTING  feec18e0-baseline vs tm30_f84  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/tm30_f84/00vault/a.repl26a
+[+] TEAM B WIN (feec18e0-baseline)  tm30_f84 vs feec18e0-baseline  02cuts  Round 1056/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/tm30_f84/02cuts/b.repl26a
+[|] STARTING  tm30_f84 vs feec18e0-baseline  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/tm30_f84/00vault/b.repl26a
+[+] TEAM B WIN (feec18e0-baseline)  tm30_f84 vs feec18e0-baseline  01boss-battle  Round 1104/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/tm30_f84/01boss-battle/b.repl26a
+[+] TEAM A WIN (feec18e0-baseline)  feec18e0-baseline vs tm30_f84  00vault  Round 0383/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/tm30_f84/00vault/a.repl26a
+[|] STARTING  feec18e0-delivery vs v114  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/v114/00lanes/a.repl26a
+[|] STARTING  v114 vs feec18e0-delivery  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/v114/00lanes/b.repl26a
+[+] TEAM B WIN (tm30_f84)  feec18e0-baseline vs tm30_f84  01boss-battle  Round 1705/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/tm30_f84/01boss-battle/a.repl26a
+[|] STARTING  feec18e0-delivery vs v114  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/v114/01elk-arena/a.repl26a
+[+] TEAM A WIN (feec18e0-baseline)  feec18e0-baseline vs tm30_f84  01gold-rush  Round 1212/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/tm30_f84/01gold-rush/a.repl26a
+[+] TEAM B WIN (feec18e0-baseline)  tm30_f84 vs feec18e0-baseline  01gold-rush  Round 1181/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/tm30_f84/01gold-rush/b.repl26a
+[+] TEAM B WIN (feec18e0-baseline)  tm30_f84 vs feec18e0-baseline  00vault  Round 0393/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/baseline/tm30_f84/00vault/b.repl26a
+[|] STARTING  v114 vs feec18e0-delivery  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/v114/01elk-arena/b.repl26a
+[|] STARTING  feec18e0-delivery vs v114  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/v114/02treasure-box/a.repl26a
+[|] STARTING  v114 vs feec18e0-delivery  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/v114/02treasure-box/b.repl26a
+[+] TEAM A WIN (feec18e0-delivery)  feec18e0-delivery vs v114  00lanes  Round 1298/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/v114/00lanes/a.repl26a
+[+] TEAM B WIN (feec18e0-delivery)  v114 vs feec18e0-delivery  00lanes  Round 1307/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/v114/00lanes/b.repl26a
+[+] TEAM A WIN (feec18e0-delivery)  feec18e0-delivery vs v114  01elk-arena  Round 1354/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/v114/01elk-arena/a.repl26a
+[|] STARTING  feec18e0-delivery vs v114  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/v114/01broken-curve/a.repl26a
+[|] STARTING  v114 vs feec18e0-delivery  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/v114/01broken-curve/b.repl26a
+[|] STARTING  feec18e0-delivery vs v114  02stalactites
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/v114/02stalactites/a.repl26a
+[+] TEAM A WIN (feec18e0-delivery)  feec18e0-delivery vs v114  02treasure-box  Round 1056/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/v114/02treasure-box/a.repl26a
+[|] STARTING  v114 vs feec18e0-delivery  02stalactites
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/v114/02stalactites/b.repl26a
+[+] TEAM A WIN (v114)  v114 vs feec18e0-delivery  02treasure-box  Round 1305/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/v114/02treasure-box/b.repl26a
+[|] STARTING  feec18e0-delivery vs v114  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/v114/02cuts/a.repl26a
+[+] TEAM A WIN (v114)  v114 vs feec18e0-delivery  01elk-arena  Round 1555/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/v114/01elk-arena/b.repl26a
+[|] STARTING  v114 vs feec18e0-delivery  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/v114/02cuts/b.repl26a
+[+] TEAM A WIN (v114)  v114 vs feec18e0-delivery  01broken-curve  Round 1057/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/v114/01broken-curve/b.repl26a
+[+] TEAM A WIN (feec18e0-delivery)  feec18e0-delivery vs v114  02stalactites  Round 0536/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/v114/02stalactites/a.repl26a
+[+] TEAM A WIN (v114)  v114 vs feec18e0-delivery  02stalactites  Round 0604/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/v114/02stalactites/b.repl26a
+[|] STARTING  feec18e0-delivery vs v114  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/v114/00gemfight/a.repl26a
+[|] STARTING  v114 vs feec18e0-delivery  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/v114/00gemfight/b.repl26a
+[|] STARTING  feec18e0-delivery vs v114  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/v114/01boss-battle/a.repl26a
+[+] TEAM A WIN (feec18e0-delivery)  feec18e0-delivery vs v114  01broken-curve  Round 1095/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/v114/01broken-curve/a.repl26a
+[|] STARTING  v114 vs feec18e0-delivery  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/v114/01boss-battle/b.repl26a
+[+] TEAM B WIN (v114)  feec18e0-delivery vs v114  02cuts  Round 1012/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/v114/02cuts/a.repl26a
+[|] STARTING  feec18e0-delivery vs v114  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/v114/01gold-rush/a.repl26a
+[+] TEAM B WIN (v114)  feec18e0-delivery vs v114  00gemfight  Round 0898/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/v114/00gemfight/a.repl26a
+[+] TEAM B WIN (feec18e0-delivery)  v114 vs feec18e0-delivery  00gemfight  Round 0908/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/v114/00gemfight/b.repl26a
+[|] STARTING  v114 vs feec18e0-delivery  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/v114/01gold-rush/b.repl26a
+[|] STARTING  feec18e0-delivery vs v114  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/v114/00vault/a.repl26a
+[+] TEAM A WIN (v114)  v114 vs feec18e0-delivery  02cuts  Round 1039/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/v114/02cuts/b.repl26a
+[|] STARTING  v114 vs feec18e0-delivery  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/v114/00vault/b.repl26a
+[+] TEAM B WIN (feec18e0-delivery)  v114 vs feec18e0-delivery  01boss-battle  Round 1030/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/v114/01boss-battle/b.repl26a
+[|] STARTING  feec18e0-delivery vs fish62_f84  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/fish62_f84/00lanes/a.repl26a
+[+] TEAM B WIN (v114)  feec18e0-delivery vs v114  01boss-battle  Round 1383/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/v114/01boss-battle/a.repl26a
+[|] STARTING  fish62_f84 vs feec18e0-delivery  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/fish62_f84/00lanes/b.repl26a
+[+] TEAM A WIN (v114)  v114 vs feec18e0-delivery  00vault  Round 0485/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/v114/00vault/b.repl26a
+[|] STARTING  feec18e0-delivery vs fish62_f84  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/fish62_f84/01elk-arena/a.repl26a
+[+] TEAM A WIN (feec18e0-delivery)  feec18e0-delivery vs v114  00vault  Round 0596/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/v114/00vault/a.repl26a
+[|] STARTING  fish62_f84 vs feec18e0-delivery  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/fish62_f84/01elk-arena/b.repl26a
+[+] TEAM B WIN (v114)  feec18e0-delivery vs v114  01gold-rush  Round 1350/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/v114/01gold-rush/a.repl26a
+[|] STARTING  feec18e0-delivery vs fish62_f84  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/fish62_f84/02treasure-box/a.repl26a
+[+] TEAM B WIN (feec18e0-delivery)  v114 vs feec18e0-delivery  01gold-rush  Round 1337/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/v114/01gold-rush/b.repl26a
+[|] STARTING  fish62_f84 vs feec18e0-delivery  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/fish62_f84/02treasure-box/b.repl26a
+[+] TEAM B WIN (fish62_f84)  feec18e0-delivery vs fish62_f84  00lanes  Round 1280/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/fish62_f84/00lanes/a.repl26a
+[+] TEAM A WIN (fish62_f84)  fish62_f84 vs feec18e0-delivery  00lanes  Round 1202/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/fish62_f84/00lanes/b.repl26a
+[+] TEAM A WIN (feec18e0-delivery)  feec18e0-delivery vs fish62_f84  01elk-arena  Round 1485/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/fish62_f84/01elk-arena/a.repl26a
+[+] TEAM A WIN (fish62_f84)  fish62_f84 vs feec18e0-delivery  01elk-arena  Round 1379/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/fish62_f84/01elk-arena/b.repl26a
+[+] TEAM A WIN (feec18e0-delivery)  feec18e0-delivery vs fish62_f84  02treasure-box  Round 1432/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/fish62_f84/02treasure-box/a.repl26a
+[|] STARTING  feec18e0-delivery vs fish62_f84  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/fish62_f84/01broken-curve/a.repl26a
+[|] STARTING  fish62_f84 vs feec18e0-delivery  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/fish62_f84/01broken-curve/b.repl26a
+[|] STARTING  feec18e0-delivery vs fish62_f84  02stalactites
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/fish62_f84/02stalactites/a.repl26a
+[|] STARTING  fish62_f84 vs feec18e0-delivery  02stalactites
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/fish62_f84/02stalactites/b.repl26a
+[|] STARTING  feec18e0-delivery vs fish62_f84  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/fish62_f84/02cuts/a.repl26a
+[+] TEAM A WIN (fish62_f84)  fish62_f84 vs feec18e0-delivery  02treasure-box  Round 1577/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/fish62_f84/02treasure-box/b.repl26a
+[|] STARTING  fish62_f84 vs feec18e0-delivery  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/fish62_f84/02cuts/b.repl26a
+[+] TEAM A WIN (feec18e0-delivery)  feec18e0-delivery vs fish62_f84  02stalactites  Round 0628/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/fish62_f84/02stalactites/a.repl26a
+[+] TEAM B WIN (feec18e0-delivery)  fish62_f84 vs feec18e0-delivery  02stalactites  Round 0454/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/fish62_f84/02stalactites/b.repl26a
+[|] STARTING  feec18e0-delivery vs fish62_f84  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/fish62_f84/00gemfight/a.repl26a
+[|] STARTING  fish62_f84 vs feec18e0-delivery  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/fish62_f84/00gemfight/b.repl26a
+[+] TEAM A WIN (feec18e0-delivery)  feec18e0-delivery vs fish62_f84  01broken-curve  Round 1108/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/fish62_f84/01broken-curve/a.repl26a
+[+] TEAM B WIN (feec18e0-delivery)  fish62_f84 vs feec18e0-delivery  01broken-curve  Round 1074/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/fish62_f84/01broken-curve/b.repl26a
+[|] STARTING  feec18e0-delivery vs fish62_f84  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/fish62_f84/01boss-battle/a.repl26a
+[|] STARTING  fish62_f84 vs feec18e0-delivery  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/fish62_f84/01boss-battle/b.repl26a
+[+] TEAM A WIN (feec18e0-delivery)  feec18e0-delivery vs fish62_f84  02cuts  Round 1015/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/fish62_f84/02cuts/a.repl26a
+[|] STARTING  feec18e0-delivery vs fish62_f84  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/fish62_f84/01gold-rush/a.repl26a
+[+] TEAM B WIN (feec18e0-delivery)  fish62_f84 vs feec18e0-delivery  02cuts  Round 1052/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/fish62_f84/02cuts/b.repl26a
+[|] STARTING  fish62_f84 vs feec18e0-delivery  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/fish62_f84/01gold-rush/b.repl26a
+[+] TEAM B WIN (fish62_f84)  feec18e0-delivery vs fish62_f84  00gemfight  Round 0835/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/fish62_f84/00gemfight/a.repl26a
+[+] TEAM B WIN (feec18e0-delivery)  fish62_f84 vs feec18e0-delivery  00gemfight  Round 0839/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/fish62_f84/00gemfight/b.repl26a
+[|] STARTING  feec18e0-delivery vs fish62_f84  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/fish62_f84/00vault/a.repl26a
+[|] STARTING  fish62_f84 vs feec18e0-delivery  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/fish62_f84/00vault/b.repl26a
+[+] TEAM B WIN (feec18e0-delivery)  fish62_f84 vs feec18e0-delivery  01gold-rush  Round 1372/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/fish62_f84/01gold-rush/b.repl26a
+[|] STARTING  feec18e0-delivery vs tm30_f84  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/tm30_f84/00lanes/a.repl26a
+[+] TEAM A WIN (feec18e0-delivery)  feec18e0-delivery vs fish62_f84  01gold-rush  Round 1633/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/fish62_f84/01gold-rush/a.repl26a
+[|] STARTING  tm30_f84 vs feec18e0-delivery  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/tm30_f84/00lanes/b.repl26a
+[+] TEAM B WIN (feec18e0-delivery)  fish62_f84 vs feec18e0-delivery  01boss-battle  Round 1078/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/fish62_f84/01boss-battle/b.repl26a
+[|] STARTING  feec18e0-delivery vs tm30_f84  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/tm30_f84/01elk-arena/a.repl26a
+[+] TEAM B WIN (fish62_f84)  feec18e0-delivery vs fish62_f84  01boss-battle  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/fish62_f84/01boss-battle/a.repl26a
+[+] TEAM B WIN (fish62_f84)  feec18e0-delivery vs fish62_f84  00vault  Round 0457/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/fish62_f84/00vault/a.repl26a
+[+] TEAM B WIN (feec18e0-delivery)  fish62_f84 vs feec18e0-delivery  00vault  Round 0399/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/fish62_f84/00vault/b.repl26a
+[|] STARTING  tm30_f84 vs feec18e0-delivery  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/tm30_f84/01elk-arena/b.repl26a
+[|] STARTING  feec18e0-delivery vs tm30_f84  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/tm30_f84/02treasure-box/a.repl26a
+[|] STARTING  tm30_f84 vs feec18e0-delivery  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/tm30_f84/02treasure-box/b.repl26a
+[+] TEAM A WIN (feec18e0-delivery)  feec18e0-delivery vs tm30_f84  01elk-arena  Round 1574/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/tm30_f84/01elk-arena/a.repl26a
+[|] STARTING  feec18e0-delivery vs tm30_f84  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/tm30_f84/01broken-curve/a.repl26a
+[+] TEAM A WIN (feec18e0-delivery)  feec18e0-delivery vs tm30_f84  00lanes  Round 1410/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/tm30_f84/00lanes/a.repl26a
+[+] TEAM B WIN (feec18e0-delivery)  tm30_f84 vs feec18e0-delivery  00lanes  Round 1257/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/tm30_f84/00lanes/b.repl26a
+[|] STARTING  tm30_f84 vs feec18e0-delivery  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/tm30_f84/01broken-curve/b.repl26a
+[|] STARTING  feec18e0-delivery vs tm30_f84  02stalactites
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/tm30_f84/02stalactites/a.repl26a
+[+] TEAM A WIN (feec18e0-delivery)  feec18e0-delivery vs tm30_f84  02treasure-box  Round 1130/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/tm30_f84/02treasure-box/a.repl26a
+[|] STARTING  tm30_f84 vs feec18e0-delivery  02stalactites
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/tm30_f84/02stalactites/b.repl26a
+[+] TEAM B WIN (feec18e0-delivery)  tm30_f84 vs feec18e0-delivery  02treasure-box  Round 1069/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/tm30_f84/02treasure-box/b.repl26a
+[|] STARTING  feec18e0-delivery vs tm30_f84  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/tm30_f84/02cuts/a.repl26a
+[+] TEAM B WIN (feec18e0-delivery)  tm30_f84 vs feec18e0-delivery  01elk-arena  Round 1347/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/tm30_f84/01elk-arena/b.repl26a
+[|] STARTING  tm30_f84 vs feec18e0-delivery  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/tm30_f84/02cuts/b.repl26a
+[+] TEAM A WIN (feec18e0-delivery)  feec18e0-delivery vs tm30_f84  02stalactites  Round 0534/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/tm30_f84/02stalactites/a.repl26a
+[|] STARTING  feec18e0-delivery vs tm30_f84  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/tm30_f84/00gemfight/a.repl26a
+[+] TEAM A WIN (feec18e0-delivery)  feec18e0-delivery vs tm30_f84  01broken-curve  Round 1073/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/tm30_f84/01broken-curve/a.repl26a
+[+] TEAM B WIN (feec18e0-delivery)  tm30_f84 vs feec18e0-delivery  01broken-curve  Round 1113/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/tm30_f84/01broken-curve/b.repl26a
+[+] TEAM B WIN (feec18e0-delivery)  tm30_f84 vs feec18e0-delivery  02stalactites  Round 0508/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/tm30_f84/02stalactites/b.repl26a
+[|] STARTING  tm30_f84 vs feec18e0-delivery  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/tm30_f84/00gemfight/b.repl26a
+[|] STARTING  feec18e0-delivery vs tm30_f84  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/tm30_f84/01boss-battle/a.repl26a
+[|] STARTING  tm30_f84 vs feec18e0-delivery  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/tm30_f84/01boss-battle/b.repl26a
+[+] TEAM A WIN (feec18e0-delivery)  feec18e0-delivery vs tm30_f84  02cuts  Round 1128/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/tm30_f84/02cuts/a.repl26a
+[|] STARTING  feec18e0-delivery vs tm30_f84  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/tm30_f84/01gold-rush/a.repl26a
+[+] TEAM A WIN (tm30_f84)  tm30_f84 vs feec18e0-delivery  02cuts  Round 1097/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/tm30_f84/02cuts/b.repl26a
+[+] TEAM A WIN (feec18e0-delivery)  feec18e0-delivery vs tm30_f84  00gemfight  Round 0775/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/tm30_f84/00gemfight/a.repl26a
+[+] TEAM B WIN (feec18e0-delivery)  tm30_f84 vs feec18e0-delivery  00gemfight  Round 0828/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/tm30_f84/00gemfight/b.repl26a
+[|] STARTING  tm30_f84 vs feec18e0-delivery  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/tm30_f84/01gold-rush/b.repl26a
+[|] STARTING  feec18e0-delivery vs tm30_f84  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/tm30_f84/00vault/a.repl26a
+[|] STARTING  tm30_f84 vs feec18e0-delivery  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/tm30_f84/00vault/b.repl26a
+[+] TEAM B WIN (feec18e0-delivery)  tm30_f84 vs feec18e0-delivery  01boss-battle  Round 1053/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/tm30_f84/01boss-battle/b.repl26a
+[|] STARTING  feec18e0-all vs v114  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/v114/00lanes/a.repl26a
+[+] TEAM A WIN (feec18e0-delivery)  feec18e0-delivery vs tm30_f84  00vault  Round 0400/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/tm30_f84/00vault/a.repl26a
+[+] TEAM B WIN (feec18e0-delivery)  tm30_f84 vs feec18e0-delivery  00vault  Round 0364/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/tm30_f84/00vault/b.repl26a
+[|] STARTING  v114 vs feec18e0-all  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/v114/00lanes/b.repl26a
+[|] STARTING  feec18e0-all vs v114  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/v114/01elk-arena/a.repl26a
+[+] TEAM B WIN (tm30_f84)  feec18e0-delivery vs tm30_f84  01boss-battle  Round 1941/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/tm30_f84/01boss-battle/a.repl26a
+[+] TEAM A WIN (feec18e0-delivery)  feec18e0-delivery vs tm30_f84  01gold-rush  Round 1296/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/tm30_f84/01gold-rush/a.repl26a
+[|] STARTING  v114 vs feec18e0-all  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/v114/01elk-arena/b.repl26a
+[|] STARTING  feec18e0-all vs v114  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/v114/02treasure-box/a.repl26a
+[+] TEAM B WIN (feec18e0-delivery)  tm30_f84 vs feec18e0-delivery  01gold-rush  Round 1131/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/delivery/tm30_f84/01gold-rush/b.repl26a
+[|] STARTING  v114 vs feec18e0-all  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/v114/02treasure-box/b.repl26a
+[+] TEAM A WIN (feec18e0-all)  feec18e0-all vs v114  00lanes  Round 1298/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/v114/00lanes/a.repl26a
+[+] TEAM B WIN (feec18e0-all)  v114 vs feec18e0-all  00lanes  Round 1269/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/v114/00lanes/b.repl26a
+[|] STARTING  feec18e0-all vs v114  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/v114/01broken-curve/a.repl26a
+[|] STARTING  v114 vs feec18e0-all  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/v114/01broken-curve/b.repl26a
+[+] TEAM B WIN (feec18e0-all)  v114 vs feec18e0-all  02treasure-box  Round 1330/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/v114/02treasure-box/b.repl26a
+[|] STARTING  feec18e0-all vs v114  02stalactites
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/v114/02stalactites/a.repl26a
+[+] TEAM A WIN (v114)  v114 vs feec18e0-all  01elk-arena  Round 1296/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/v114/01elk-arena/b.repl26a
+[+] TEAM B WIN (v114)  feec18e0-all vs v114  02treasure-box  Round 1488/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/v114/02treasure-box/a.repl26a
+[|] STARTING  v114 vs feec18e0-all  02stalactites
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/v114/02stalactites/b.repl26a
+[|] STARTING  feec18e0-all vs v114  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/v114/02cuts/a.repl26a
+[+] TEAM A WIN (feec18e0-all)  feec18e0-all vs v114  01elk-arena  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/v114/01elk-arena/a.repl26a
+[|] STARTING  v114 vs feec18e0-all  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/v114/02cuts/b.repl26a
+[+] TEAM A WIN (feec18e0-all)  feec18e0-all vs v114  01broken-curve  Round 1095/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/v114/01broken-curve/a.repl26a
+[+] TEAM A WIN (v114)  v114 vs feec18e0-all  01broken-curve  Round 1057/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/v114/01broken-curve/b.repl26a
+[+] TEAM B WIN (v114)  feec18e0-all vs v114  02stalactites  Round 0519/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/v114/02stalactites/a.repl26a
+[+] TEAM B WIN (feec18e0-all)  v114 vs feec18e0-all  02stalactites  Round 0534/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/v114/02stalactites/b.repl26a
+[|] STARTING  feec18e0-all vs v114  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/v114/00gemfight/a.repl26a
+[|] STARTING  v114 vs feec18e0-all  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/v114/00gemfight/b.repl26a
+[|] STARTING  feec18e0-all vs v114  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/v114/01boss-battle/a.repl26a
+[|] STARTING  v114 vs feec18e0-all  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/v114/01boss-battle/b.repl26a
+[+] TEAM B WIN (v114)  feec18e0-all vs v114  02cuts  Round 1012/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/v114/02cuts/a.repl26a
+[|] STARTING  feec18e0-all vs v114  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/v114/01gold-rush/a.repl26a
+[+] TEAM A WIN (v114)  v114 vs feec18e0-all  02cuts  Round 1039/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/v114/02cuts/b.repl26a
+[|] STARTING  v114 vs feec18e0-all  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/v114/01gold-rush/b.repl26a
+[+] TEAM B WIN (v114)  feec18e0-all vs v114  00gemfight  Round 1085/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/v114/00gemfight/a.repl26a
+[+] TEAM B WIN (feec18e0-all)  v114 vs feec18e0-all  00gemfight  Round 0990/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/v114/00gemfight/b.repl26a
+[|] STARTING  feec18e0-all vs v114  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/v114/00vault/a.repl26a
+[|] STARTING  v114 vs feec18e0-all  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/v114/00vault/b.repl26a
+[+] TEAM B WIN (feec18e0-all)  v114 vs feec18e0-all  01boss-battle  Round 1027/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/v114/01boss-battle/b.repl26a
+[|] STARTING  feec18e0-all vs fish62_f84  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/fish62_f84/00lanes/a.repl26a
+[+] TEAM A WIN (feec18e0-all)  feec18e0-all vs v114  01gold-rush  Round 1552/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/v114/01gold-rush/a.repl26a
+[|] STARTING  fish62_f84 vs feec18e0-all  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/fish62_f84/00lanes/b.repl26a
+[+] TEAM B WIN (v114)  feec18e0-all vs v114  01boss-battle  Round 1092/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/v114/01boss-battle/a.repl26a
+[|] STARTING  feec18e0-all vs fish62_f84  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/fish62_f84/01elk-arena/a.repl26a
+[+] TEAM A WIN (feec18e0-all)  feec18e0-all vs v114  00vault  Round 0482/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/v114/00vault/a.repl26a
+[|] STARTING  fish62_f84 vs feec18e0-all  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/fish62_f84/01elk-arena/b.repl26a
+[+] TEAM B WIN (feec18e0-all)  v114 vs feec18e0-all  00vault  Round 0823/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/v114/00vault/b.repl26a
+[|] STARTING  feec18e0-all vs fish62_f84  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/fish62_f84/02treasure-box/a.repl26a
+[+] TEAM B WIN (feec18e0-all)  v114 vs feec18e0-all  01gold-rush  Round 1719/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/v114/01gold-rush/b.repl26a
+[|] STARTING  fish62_f84 vs feec18e0-all  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/fish62_f84/02treasure-box/b.repl26a
+[+] TEAM A WIN (feec18e0-all)  feec18e0-all vs fish62_f84  01elk-arena  Round 1484/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/fish62_f84/01elk-arena/a.repl26a
+[|] STARTING  feec18e0-all vs fish62_f84  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/fish62_f84/01broken-curve/a.repl26a
+[+] TEAM B WIN (fish62_f84)  feec18e0-all vs fish62_f84  00lanes  Round 1269/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/fish62_f84/00lanes/a.repl26a
+[+] TEAM A WIN (fish62_f84)  fish62_f84 vs feec18e0-all  00lanes  Round 1202/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/fish62_f84/00lanes/b.repl26a
+[|] STARTING  fish62_f84 vs feec18e0-all  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/fish62_f84/01broken-curve/b.repl26a
+[|] STARTING  feec18e0-all vs fish62_f84  02stalactites
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/fish62_f84/02stalactites/a.repl26a
+[+] TEAM A WIN (feec18e0-all)  feec18e0-all vs fish62_f84  02treasure-box  Round 1241/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/fish62_f84/02treasure-box/a.repl26a
+[+] TEAM A WIN (fish62_f84)  fish62_f84 vs feec18e0-all  02treasure-box  Round 1173/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/fish62_f84/02treasure-box/b.repl26a
+[|] STARTING  fish62_f84 vs feec18e0-all  02stalactites
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/fish62_f84/02stalactites/b.repl26a
+[|] STARTING  feec18e0-all vs fish62_f84  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/fish62_f84/02cuts/a.repl26a
+[+] TEAM A WIN (fish62_f84)  fish62_f84 vs feec18e0-all  01elk-arena  Round 1914/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/fish62_f84/01elk-arena/b.repl26a
+[|] STARTING  fish62_f84 vs feec18e0-all  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/fish62_f84/02cuts/b.repl26a
+[+] TEAM A WIN (feec18e0-all)  feec18e0-all vs fish62_f84  01broken-curve  Round 1108/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/fish62_f84/01broken-curve/a.repl26a
+[+] TEAM B WIN (feec18e0-all)  fish62_f84 vs feec18e0-all  01broken-curve  Round 1074/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/fish62_f84/01broken-curve/b.repl26a
+[+] TEAM A WIN (feec18e0-all)  feec18e0-all vs fish62_f84  02stalactites  Round 0602/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/fish62_f84/02stalactites/a.repl26a
+[+] TEAM B WIN (feec18e0-all)  fish62_f84 vs feec18e0-all  02stalactites  Round 0719/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/fish62_f84/02stalactites/b.repl26a
+[|] STARTING  feec18e0-all vs fish62_f84  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/fish62_f84/00gemfight/a.repl26a
+[|] STARTING  fish62_f84 vs feec18e0-all  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/fish62_f84/00gemfight/b.repl26a
+[|] STARTING  feec18e0-all vs fish62_f84  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/fish62_f84/01boss-battle/a.repl26a
+[|] STARTING  fish62_f84 vs feec18e0-all  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/fish62_f84/01boss-battle/b.repl26a
+[+] TEAM A WIN (feec18e0-all)  feec18e0-all vs fish62_f84  02cuts  Round 1015/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/fish62_f84/02cuts/a.repl26a
+[|] STARTING  feec18e0-all vs fish62_f84  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/fish62_f84/01gold-rush/a.repl26a
+[+] TEAM B WIN (fish62_f84)  feec18e0-all vs fish62_f84  00gemfight  Round 0954/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/fish62_f84/00gemfight/a.repl26a
+[+] TEAM B WIN (feec18e0-all)  fish62_f84 vs feec18e0-all  00gemfight  Round 0910/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/fish62_f84/00gemfight/b.repl26a
+[|] STARTING  fish62_f84 vs feec18e0-all  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/fish62_f84/01gold-rush/b.repl26a
+[|] STARTING  feec18e0-all vs fish62_f84  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/fish62_f84/00vault/a.repl26a
+[+] TEAM B WIN (feec18e0-all)  fish62_f84 vs feec18e0-all  02cuts  Round 1052/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/fish62_f84/02cuts/b.repl26a
+[|] STARTING  fish62_f84 vs feec18e0-all  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/fish62_f84/00vault/b.repl26a
+[+] TEAM B WIN (feec18e0-all)  fish62_f84 vs feec18e0-all  01boss-battle  Round 1160/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/fish62_f84/01boss-battle/b.repl26a
+[|] STARTING  feec18e0-all vs tm30_f84  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/tm30_f84/00lanes/a.repl26a
+[+] TEAM A WIN (feec18e0-all)  feec18e0-all vs fish62_f84  01gold-rush  Round 1520/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/fish62_f84/01gold-rush/a.repl26a
+[|] STARTING  tm30_f84 vs feec18e0-all  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/tm30_f84/00lanes/b.repl26a
+[+] TEAM A WIN (feec18e0-all)  feec18e0-all vs fish62_f84  00vault  Round 0357/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/fish62_f84/00vault/a.repl26a
+[|] STARTING  feec18e0-all vs tm30_f84  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/tm30_f84/01elk-arena/a.repl26a
+[+] TEAM A WIN (fish62_f84)  fish62_f84 vs feec18e0-all  00vault  Round 0404/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/fish62_f84/00vault/b.repl26a
+[|] STARTING  tm30_f84 vs feec18e0-all  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/tm30_f84/01elk-arena/b.repl26a
+[+] TEAM B WIN (fish62_f84)  feec18e0-all vs fish62_f84  01boss-battle  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/fish62_f84/01boss-battle/a.repl26a
+[|] STARTING  feec18e0-all vs tm30_f84  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/tm30_f84/02treasure-box/a.repl26a
+[+] TEAM B WIN (feec18e0-all)  fish62_f84 vs feec18e0-all  01gold-rush  Round 1891/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/fish62_f84/01gold-rush/b.repl26a
+[|] STARTING  tm30_f84 vs feec18e0-all  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/tm30_f84/02treasure-box/b.repl26a
+[+] TEAM A WIN (feec18e0-all)  feec18e0-all vs tm30_f84  02treasure-box  Round 1052/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/tm30_f84/02treasure-box/a.repl26a
+[|] STARTING  feec18e0-all vs tm30_f84  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/tm30_f84/01broken-curve/a.repl26a
+[+] TEAM A WIN (feec18e0-all)  feec18e0-all vs tm30_f84  01elk-arena  Round 1374/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/tm30_f84/01elk-arena/a.repl26a
+[|] STARTING  tm30_f84 vs feec18e0-all  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/tm30_f84/01broken-curve/b.repl26a
+[+] TEAM B WIN (feec18e0-all)  tm30_f84 vs feec18e0-all  01elk-arena  Round 1410/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/tm30_f84/01elk-arena/b.repl26a
+[|] STARTING  feec18e0-all vs tm30_f84  02stalactites
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/tm30_f84/02stalactites/a.repl26a
+[+] TEAM A WIN (feec18e0-all)  feec18e0-all vs tm30_f84  00lanes  Round 1349/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/tm30_f84/00lanes/a.repl26a
+[|] STARTING  tm30_f84 vs feec18e0-all  02stalactites
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/tm30_f84/02stalactites/b.repl26a
+[+] TEAM B WIN (feec18e0-all)  tm30_f84 vs feec18e0-all  00lanes  Round 1427/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/tm30_f84/00lanes/b.repl26a
+[|] STARTING  feec18e0-all vs tm30_f84  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/tm30_f84/02cuts/a.repl26a
+[+] TEAM B WIN (feec18e0-all)  tm30_f84 vs feec18e0-all  02stalactites  Round 0415/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/tm30_f84/02stalactites/b.repl26a
+[|] STARTING  tm30_f84 vs feec18e0-all  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/tm30_f84/02cuts/b.repl26a
+[+] TEAM A WIN (feec18e0-all)  feec18e0-all vs tm30_f84  02stalactites  Round 0649/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/tm30_f84/02stalactites/a.repl26a
+[|] STARTING  feec18e0-all vs tm30_f84  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/tm30_f84/00gemfight/a.repl26a
+[+] TEAM B WIN (feec18e0-all)  tm30_f84 vs feec18e0-all  01broken-curve  Round 1113/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/tm30_f84/01broken-curve/b.repl26a
+[|] STARTING  tm30_f84 vs feec18e0-all  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/tm30_f84/00gemfight/b.repl26a
+[+] TEAM A WIN (feec18e0-all)  feec18e0-all vs tm30_f84  01broken-curve  Round 1073/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/tm30_f84/01broken-curve/a.repl26a
+[|] STARTING  feec18e0-all vs tm30_f84  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/tm30_f84/01boss-battle/a.repl26a
+[+] TEAM A WIN (feec18e0-all)  feec18e0-all vs tm30_f84  00gemfight  Round 1016/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/tm30_f84/00gemfight/a.repl26a
+[+] TEAM B WIN (feec18e0-all)  tm30_f84 vs feec18e0-all  00gemfight  Round 0874/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/tm30_f84/00gemfight/b.repl26a
+[|] STARTING  tm30_f84 vs feec18e0-all  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/tm30_f84/01boss-battle/b.repl26a
+[|] STARTING  feec18e0-all vs tm30_f84  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/tm30_f84/01gold-rush/a.repl26a
+[+] TEAM A WIN (feec18e0-all)  feec18e0-all vs tm30_f84  02cuts  Round 1206/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/tm30_f84/02cuts/a.repl26a
+[|] STARTING  tm30_f84 vs feec18e0-all  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/tm30_f84/01gold-rush/b.repl26a
+[+] TEAM B WIN (feec18e0-all)  tm30_f84 vs feec18e0-all  02cuts  Round 1118/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/tm30_f84/02cuts/b.repl26a
+[|] STARTING  feec18e0-all vs tm30_f84  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/tm30_f84/00vault/a.repl26a
+[+] TEAM B WIN (feec18e0-all)  tm30_f84 vs feec18e0-all  02treasure-box  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/tm30_f84/02treasure-box/b.repl26a
+[|] STARTING  tm30_f84 vs feec18e0-all  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/tm30_f84/00vault/b.repl26a
+[+] TEAM B WIN (tm30_f84)  feec18e0-all vs tm30_f84  01boss-battle  Round 1941/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/tm30_f84/01boss-battle/a.repl26a
+[|] STARTING  feec18e0-pressure vs v114  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/v114/00lanes/a.repl26a
+[+] TEAM B WIN (feec18e0-all)  tm30_f84 vs feec18e0-all  01gold-rush  Round 1181/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/tm30_f84/01gold-rush/b.repl26a
+[|] STARTING  v114 vs feec18e0-pressure  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/v114/00lanes/b.repl26a
+[+] TEAM A WIN (feec18e0-all)  feec18e0-all vs tm30_f84  00vault  Round 0554/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/tm30_f84/00vault/a.repl26a
+[|] STARTING  feec18e0-pressure vs v114  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/v114/01elk-arena/a.repl26a
+[+] TEAM A WIN (feec18e0-all)  feec18e0-all vs tm30_f84  01gold-rush  Round 1355/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/tm30_f84/01gold-rush/a.repl26a
+[|] STARTING  v114 vs feec18e0-pressure  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/v114/01elk-arena/b.repl26a
+[+] TEAM B WIN (feec18e0-all)  tm30_f84 vs feec18e0-all  00vault  Round 0783/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/tm30_f84/00vault/b.repl26a
+[|] STARTING  feec18e0-pressure vs v114  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/v114/02treasure-box/a.repl26a
+[+] TEAM B WIN (feec18e0-all)  tm30_f84 vs feec18e0-all  01boss-battle  Round 1059/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/all/tm30_f84/01boss-battle/b.repl26a
+[|] STARTING  v114 vs feec18e0-pressure  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/v114/02treasure-box/b.repl26a
+[+] TEAM A WIN (feec18e0-pressure)  feec18e0-pressure vs v114  01elk-arena  Round 1375/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/v114/01elk-arena/a.repl26a
+[+] TEAM A WIN (v114)  v114 vs feec18e0-pressure  01elk-arena  Round 1344/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/v114/01elk-arena/b.repl26a
+[|] STARTING  feec18e0-pressure vs v114  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/v114/01broken-curve/a.repl26a
+[|] STARTING  v114 vs feec18e0-pressure  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/v114/01broken-curve/b.repl26a
+[+] TEAM A WIN (feec18e0-pressure)  feec18e0-pressure vs v114  00lanes  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/v114/00lanes/a.repl26a
+[+] TEAM A WIN (v114)  v114 vs feec18e0-pressure  02treasure-box  Round 1352/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/v114/02treasure-box/b.repl26a
+[|] STARTING  feec18e0-pressure vs v114  02stalactites
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/v114/02stalactites/a.repl26a
+[|] STARTING  v114 vs feec18e0-pressure  02stalactites
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/v114/02stalactites/b.repl26a
+[+] TEAM B WIN (v114)  feec18e0-pressure vs v114  02treasure-box  Round 1428/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/v114/02treasure-box/a.repl26a
+[|] STARTING  feec18e0-pressure vs v114  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/v114/02cuts/a.repl26a
+[+] TEAM B WIN (feec18e0-pressure)  v114 vs feec18e0-pressure  00lanes  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/v114/00lanes/b.repl26a
+[|] STARTING  v114 vs feec18e0-pressure  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/v114/02cuts/b.repl26a
+[+] TEAM A WIN (feec18e0-pressure)  feec18e0-pressure vs v114  01broken-curve  Round 1058/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/v114/01broken-curve/a.repl26a
+[+] TEAM A WIN (v114)  v114 vs feec18e0-pressure  01broken-curve  Round 0985/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/v114/01broken-curve/b.repl26a
+[+] TEAM B WIN (feec18e0-pressure)  v114 vs feec18e0-pressure  02stalactites  Round 0572/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/v114/02stalactites/b.repl26a
+[|] STARTING  feec18e0-pressure vs v114  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/v114/00gemfight/a.repl26a
+[|] STARTING  v114 vs feec18e0-pressure  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/v114/00gemfight/b.repl26a
+[|] STARTING  feec18e0-pressure vs v114  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/v114/01boss-battle/a.repl26a
+[+] TEAM B WIN (v114)  feec18e0-pressure vs v114  02stalactites  Round 0743/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/v114/02stalactites/a.repl26a
+[|] STARTING  v114 vs feec18e0-pressure  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/v114/01boss-battle/b.repl26a
+[+] TEAM A WIN (feec18e0-pressure)  feec18e0-pressure vs v114  02cuts  Round 1088/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/v114/02cuts/a.repl26a
+[+] TEAM A WIN (v114)  v114 vs feec18e0-pressure  02cuts  Round 1027/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/v114/02cuts/b.repl26a
+[|] STARTING  feec18e0-pressure vs v114  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/v114/01gold-rush/a.repl26a
+[|] STARTING  v114 vs feec18e0-pressure  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/v114/01gold-rush/b.repl26a
+[+] TEAM B WIN (feec18e0-pressure)  v114 vs feec18e0-pressure  00gemfight  Round 0915/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/v114/00gemfight/b.repl26a
+[|] STARTING  feec18e0-pressure vs v114  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/v114/00vault/a.repl26a
+[+] TEAM A WIN (feec18e0-pressure)  feec18e0-pressure vs v114  00gemfight  Round 1064/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/v114/00gemfight/a.repl26a
+[|] STARTING  v114 vs feec18e0-pressure  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/v114/00vault/b.repl26a
+[+] TEAM B WIN (v114)  feec18e0-pressure vs v114  01boss-battle  Round 1164/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/v114/01boss-battle/a.repl26a
+[+] TEAM B WIN (feec18e0-pressure)  v114 vs feec18e0-pressure  01boss-battle  Round 1080/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/v114/01boss-battle/b.repl26a
+[+] TEAM A WIN (feec18e0-pressure)  feec18e0-pressure vs v114  00vault  Round 0438/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/v114/00vault/a.repl26a
+[|] STARTING  feec18e0-pressure vs fish62_f84  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/fish62_f84/00lanes/a.repl26a
+[|] STARTING  fish62_f84 vs feec18e0-pressure  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/fish62_f84/00lanes/b.repl26a
+[|] STARTING  feec18e0-pressure vs fish62_f84  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/fish62_f84/01elk-arena/a.repl26a
+[+] TEAM A WIN (feec18e0-pressure)  feec18e0-pressure vs v114  01gold-rush  Round 1449/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/v114/01gold-rush/a.repl26a
+[|] STARTING  fish62_f84 vs feec18e0-pressure  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/fish62_f84/01elk-arena/b.repl26a
+[+] TEAM B WIN (feec18e0-pressure)  v114 vs feec18e0-pressure  00vault  Round 0679/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/v114/00vault/b.repl26a
+[|] STARTING  feec18e0-pressure vs fish62_f84  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/fish62_f84/02treasure-box/a.repl26a
+[+] TEAM B WIN (feec18e0-pressure)  v114 vs feec18e0-pressure  01gold-rush  Round 1673/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/v114/01gold-rush/b.repl26a
+[|] STARTING  fish62_f84 vs feec18e0-pressure  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/fish62_f84/02treasure-box/b.repl26a
+[+] TEAM B WIN (fish62_f84)  feec18e0-pressure vs fish62_f84  00lanes  Round 1126/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/fish62_f84/00lanes/a.repl26a
+[+] TEAM A WIN (fish62_f84)  fish62_f84 vs feec18e0-pressure  00lanes  Round 1141/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/fish62_f84/00lanes/b.repl26a
+[|] STARTING  feec18e0-pressure vs fish62_f84  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/fish62_f84/01broken-curve/a.repl26a
+[|] STARTING  fish62_f84 vs feec18e0-pressure  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/fish62_f84/01broken-curve/b.repl26a
+[+] TEAM A WIN (feec18e0-pressure)  feec18e0-pressure vs fish62_f84  01elk-arena  Round 1417/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/fish62_f84/01elk-arena/a.repl26a
+[+] TEAM A WIN (feec18e0-pressure)  feec18e0-pressure vs fish62_f84  02treasure-box  Round 1281/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/fish62_f84/02treasure-box/a.repl26a
+[|] STARTING  feec18e0-pressure vs fish62_f84  02stalactites
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/fish62_f84/02stalactites/a.repl26a
+[|] STARTING  fish62_f84 vs feec18e0-pressure  02stalactites
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/fish62_f84/02stalactites/b.repl26a
+[+] TEAM A WIN (fish62_f84)  fish62_f84 vs feec18e0-pressure  02treasure-box  Round 1616/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/fish62_f84/02treasure-box/b.repl26a
+[|] STARTING  feec18e0-pressure vs fish62_f84  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/fish62_f84/02cuts/a.repl26a
+[+] TEAM A WIN (fish62_f84)  fish62_f84 vs feec18e0-pressure  01elk-arena  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/fish62_f84/01elk-arena/b.repl26a
+[|] STARTING  fish62_f84 vs feec18e0-pressure  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/fish62_f84/02cuts/b.repl26a
+[+] TEAM B WIN (feec18e0-pressure)  fish62_f84 vs feec18e0-pressure  02stalactites  Round 0491/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/fish62_f84/02stalactites/b.repl26a
+[|] STARTING  feec18e0-pressure vs fish62_f84  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/fish62_f84/00gemfight/a.repl26a
+[+] TEAM B WIN (feec18e0-pressure)  fish62_f84 vs feec18e0-pressure  01broken-curve  Round 0960/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/fish62_f84/01broken-curve/b.repl26a
+[+] TEAM A WIN (feec18e0-pressure)  feec18e0-pressure vs fish62_f84  02stalactites  Round 0611/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/fish62_f84/02stalactites/a.repl26a
+[|] STARTING  fish62_f84 vs feec18e0-pressure  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/fish62_f84/00gemfight/b.repl26a
+[|] STARTING  feec18e0-pressure vs fish62_f84  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/fish62_f84/01boss-battle/a.repl26a
+[+] TEAM A WIN (feec18e0-pressure)  feec18e0-pressure vs fish62_f84  01broken-curve  Round 1040/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/fish62_f84/01broken-curve/a.repl26a
+[|] STARTING  fish62_f84 vs feec18e0-pressure  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/fish62_f84/01boss-battle/b.repl26a
+[+] TEAM A WIN (feec18e0-pressure)  feec18e0-pressure vs fish62_f84  02cuts  Round 1029/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/fish62_f84/02cuts/a.repl26a
+[|] STARTING  feec18e0-pressure vs fish62_f84  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/fish62_f84/01gold-rush/a.repl26a
+[+] TEAM A WIN (feec18e0-pressure)  feec18e0-pressure vs fish62_f84  00gemfight  Round 0927/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/fish62_f84/00gemfight/a.repl26a
+[+] TEAM B WIN (feec18e0-pressure)  fish62_f84 vs feec18e0-pressure  00gemfight  Round 0966/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/fish62_f84/00gemfight/b.repl26a
+[|] STARTING  fish62_f84 vs feec18e0-pressure  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/fish62_f84/01gold-rush/b.repl26a
+[|] STARTING  feec18e0-pressure vs fish62_f84  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/fish62_f84/00vault/a.repl26a
+[+] TEAM B WIN (feec18e0-pressure)  fish62_f84 vs feec18e0-pressure  02cuts  Round 1025/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/fish62_f84/02cuts/b.repl26a
+[|] STARTING  fish62_f84 vs feec18e0-pressure  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/fish62_f84/00vault/b.repl26a
+[+] TEAM B WIN (feec18e0-pressure)  fish62_f84 vs feec18e0-pressure  01boss-battle  Round 1252/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/fish62_f84/01boss-battle/b.repl26a
+[|] STARTING  feec18e0-pressure vs tm30_f84  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/tm30_f84/00lanes/a.repl26a
+[+] TEAM A WIN (feec18e0-pressure)  feec18e0-pressure vs fish62_f84  00vault  Round 0475/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/fish62_f84/00vault/a.repl26a
+[|] STARTING  tm30_f84 vs feec18e0-pressure  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/tm30_f84/00lanes/b.repl26a
+[+] TEAM B WIN (fish62_f84)  feec18e0-pressure vs fish62_f84  01boss-battle  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/fish62_f84/01boss-battle/a.repl26a
+[|] STARTING  feec18e0-pressure vs tm30_f84  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/tm30_f84/01elk-arena/a.repl26a
+[+] TEAM A WIN (fish62_f84)  fish62_f84 vs feec18e0-pressure  00vault  Round 0404/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/fish62_f84/00vault/b.repl26a
+[|] STARTING  tm30_f84 vs feec18e0-pressure  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/tm30_f84/01elk-arena/b.repl26a
+[+] TEAM A WIN (feec18e0-pressure)  feec18e0-pressure vs fish62_f84  01gold-rush  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/fish62_f84/01gold-rush/a.repl26a
+[+] TEAM B WIN (feec18e0-pressure)  fish62_f84 vs feec18e0-pressure  01gold-rush  Round 1461/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/fish62_f84/01gold-rush/b.repl26a
+[|] STARTING  feec18e0-pressure vs tm30_f84  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/tm30_f84/02treasure-box/a.repl26a
+[|] STARTING  tm30_f84 vs feec18e0-pressure  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/tm30_f84/02treasure-box/b.repl26a
+[+] TEAM A WIN (feec18e0-pressure)  feec18e0-pressure vs tm30_f84  02treasure-box  Round 1029/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/tm30_f84/02treasure-box/a.repl26a
+[|] STARTING  feec18e0-pressure vs tm30_f84  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/tm30_f84/01broken-curve/a.repl26a
+[+] TEAM B WIN (feec18e0-pressure)  tm30_f84 vs feec18e0-pressure  01elk-arena  Round 1333/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/tm30_f84/01elk-arena/b.repl26a
+[|] STARTING  tm30_f84 vs feec18e0-pressure  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/tm30_f84/01broken-curve/b.repl26a
+[+] TEAM A WIN (feec18e0-pressure)  feec18e0-pressure vs tm30_f84  01elk-arena  Round 1380/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/tm30_f84/01elk-arena/a.repl26a
+[|] STARTING  feec18e0-pressure vs tm30_f84  02stalactites
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/tm30_f84/02stalactites/a.repl26a
+[+] TEAM B WIN (tm30_f84)  feec18e0-pressure vs tm30_f84  00lanes  Round 1436/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/tm30_f84/00lanes/a.repl26a
+[|] STARTING  tm30_f84 vs feec18e0-pressure  02stalactites
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/tm30_f84/02stalactites/b.repl26a
+[+] TEAM A WIN (feec18e0-pressure)  feec18e0-pressure vs tm30_f84  02stalactites  Round 0405/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/tm30_f84/02stalactites/a.repl26a
+[+] TEAM B WIN (feec18e0-pressure)  tm30_f84 vs feec18e0-pressure  02stalactites  Round 0370/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/tm30_f84/02stalactites/b.repl26a
+[|] STARTING  feec18e0-pressure vs tm30_f84  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/tm30_f84/02cuts/a.repl26a
+[|] STARTING  tm30_f84 vs feec18e0-pressure  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/tm30_f84/02cuts/b.repl26a
+[+] TEAM B WIN (feec18e0-pressure)  tm30_f84 vs feec18e0-pressure  00lanes  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/tm30_f84/00lanes/b.repl26a
+[|] STARTING  feec18e0-pressure vs tm30_f84  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/tm30_f84/00gemfight/a.repl26a
+[+] TEAM A WIN (feec18e0-pressure)  feec18e0-pressure vs tm30_f84  01broken-curve  Round 1023/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/tm30_f84/01broken-curve/a.repl26a
+[|] STARTING  tm30_f84 vs feec18e0-pressure  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/tm30_f84/00gemfight/b.repl26a
+[+] TEAM B WIN (feec18e0-pressure)  tm30_f84 vs feec18e0-pressure  01broken-curve  Round 1093/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/tm30_f84/01broken-curve/b.repl26a
+[|] STARTING  feec18e0-pressure vs tm30_f84  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/tm30_f84/01boss-battle/a.repl26a
+[+] TEAM B WIN (feec18e0-pressure)  tm30_f84 vs feec18e0-pressure  02treasure-box  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/tm30_f84/02treasure-box/b.repl26a
+[|] STARTING  tm30_f84 vs feec18e0-pressure  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/tm30_f84/01boss-battle/b.repl26a
+[+] TEAM A WIN (feec18e0-pressure)  feec18e0-pressure vs tm30_f84  00gemfight  Round 0792/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/tm30_f84/00gemfight/a.repl26a
+[|] STARTING  feec18e0-pressure vs tm30_f84  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/tm30_f84/01gold-rush/a.repl26a
+[+] TEAM B WIN (feec18e0-pressure)  tm30_f84 vs feec18e0-pressure  00gemfight  Round 0783/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/tm30_f84/00gemfight/b.repl26a
+[|] STARTING  tm30_f84 vs feec18e0-pressure  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/tm30_f84/01gold-rush/b.repl26a
+[+] TEAM B WIN (feec18e0-pressure)  tm30_f84 vs feec18e0-pressure  02cuts  Round 1056/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/tm30_f84/02cuts/b.repl26a
+[|] STARTING  feec18e0-pressure vs tm30_f84  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/tm30_f84/00vault/a.repl26a
+[+] TEAM A WIN (feec18e0-pressure)  feec18e0-pressure vs tm30_f84  02cuts  Round 1124/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/tm30_f84/02cuts/a.repl26a
+[|] STARTING  tm30_f84 vs feec18e0-pressure  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/tm30_f84/00vault/b.repl26a
+[+] TEAM A WIN (feec18e0-pressure)  feec18e0-pressure vs tm30_f84  01gold-rush  Round 1282/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/tm30_f84/01gold-rush/a.repl26a
+[+] TEAM B WIN (tm30_f84)  feec18e0-pressure vs tm30_f84  01boss-battle  Round 1705/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/tm30_f84/01boss-battle/a.repl26a
+[+] TEAM B WIN (feec18e0-pressure)  tm30_f84 vs feec18e0-pressure  01gold-rush  Round 1134/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/tm30_f84/01gold-rush/b.repl26a
+[+] TEAM B WIN (feec18e0-pressure)  tm30_f84 vs feec18e0-pressure  01boss-battle  Round 1086/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/tm30_f84/01boss-battle/b.repl26a
+[+] TEAM A WIN (feec18e0-pressure)  feec18e0-pressure vs tm30_f84  00vault  Round 0545/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/tm30_f84/00vault/a.repl26a
+[+] TEAM B WIN (feec18e0-pressure)  tm30_f84 vs feec18e0-pressure  00vault  Round 0776/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v114_fix_c100_2026-10-29/local_ablation/games/pressure/tm30_f84/00vault/b.repl26a
+Finished: 240 replay bundles saved, 0 failed
+injected 0 checks into 0 functions
+injected 0 checks into 0 functions
+injected 0 checks into 0 functions
+injected 0 checks into 0 functions

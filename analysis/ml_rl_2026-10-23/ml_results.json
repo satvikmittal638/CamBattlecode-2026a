@@ -1,0 +1,3089 @@
+{
+  "versions": {
+    "sklearn": "1.9.1",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "tasks": {
+    "motion": {
+      "rows": 31004,
+      "trainingRowsUsed": 21504,
+      "trainingGames": 56,
+      "trainingTeachers": 14,
+      "classes": [
+        "approach",
+        "same-distance",
+        "withdraw"
+      ],
+      "selection": "Choose model per feature set by validation macro-F1 only; report all test scores. Models and hyperparameters fixed before training. Training weighting balances action classes and games; training capped at2000 examples/game.",
+      "baselines": {
+        "validation": {
+          "training_majority": {
+            "n": 4271,
+            "games": 12,
+            "accuracy": 0.60009,
+            "balancedAccuracy": 0.33333,
+            "macroF1": 0.25002,
+            "meanGameAccuracy": 0.62476,
+            "classCounts": [
+              787,
+              2563,
+              921
+            ],
+            "confusion": [
+              [
+                0,
+                787,
+                0
+              ],
+              [
+                0,
+                2563,
+                0
+              ],
+              [
+                0,
+                921,
+                0
+              ]
+            ],
+            "logLoss": 0.94965,
+            "brier": 0.55972
+          },
+          "previous_observed_motion": {
+            "n": 4271,
+            "games": 12,
+            "accuracy": 0.57645,
+            "balancedAccuracy": 0.48811,
+            "macroF1": 0.48993,
+            "meanGameAccuracy": 0.59906,
+            "classCounts": [
+              787,
+              2563,
+              921
+            ],
+            "confusion": [
+              [
+                313,
+                385,
+                89
+              ],
+              [
+                490,
+                1821,
+                252
+              ],
+              [
+                169,
+                424,
+                328
+              ]
+            ]
+          }
+        },
+        "test": {
+          "training_majority": {
+            "n": 5229,
+            "games": 12,
+            "accuracy": 0.55422,
+            "balancedAccuracy": 0.33333,
+            "macroF1": 0.23773,
+            "meanGameAccuracy": 0.56771,
+            "classCounts": [
+              1160,
+              2898,
+              1171
+            ],
+            "confusion": [
+              [
+                0,
+                1160,
+                0
+              ],
+              [
+                0,
+                2898,
+                0
+              ],
+              [
+                0,
+                1171,
+                0
+              ]
+            ],
+            "logLoss": 1.0001,
+            "brier": 0.59627
+          },
+          "previous_observed_motion": {
+            "n": 5229,
+            "games": 12,
+            "accuracy": 0.57927,
+            "balancedAccuracy": 0.52299,
+            "macroF1": 0.52431,
+            "meanGameAccuracy": 0.60154,
+            "classCounts": [
+              1160,
+              2898,
+              1171
+            ],
+            "confusion": [
+              [
+                517,
+                460,
+                183
+              ],
+              [
+                602,
+                2008,
+                288
+              ],
+              [
+                252,
+                415,
+                504
+              ]
+            ]
+          }
+        }
+      },
+      "models": {
+        "state_logistic": {
+          "seconds": 0.11,
+          "features": 48,
+          "scores": {
+            "validation": {
+              "n": 4271,
+              "games": 12,
+              "accuracy": 0.5446,
+              "balancedAccuracy": 0.44691,
+              "macroF1": 0.44715,
+              "meanGameAccuracy": 0.57034,
+              "classCounts": [
+                787,
+                2563,
+                921
+              ],
+              "confusion": [
+                [
+                  285,
+                  411,
+                  91
+                ],
+                [
+                  469,
+                  1779,
+                  315
+                ],
+                [
+                  173,
+                  486,
+                  262
+                ]
+              ],
+              "logLoss": 0.95567,
+              "brier": 0.57294
+            },
+            "test": {
+              "n": 5229,
+              "games": 12,
+              "accuracy": 0.48269,
+              "balancedAccuracy": 0.46643,
+              "macroF1": 0.45304,
+              "meanGameAccuracy": 0.4866,
+              "classCounts": [
+                1160,
+                2898,
+                1171
+              ],
+              "confusion": [
+                [
+                  452,
+                  482,
+                  226
+                ],
+                [
+                  600,
+                  1493,
+                  805
+                ],
+                [
+                  184,
+                  408,
+                  579
+                ]
+              ],
+              "logLoss": 1.00813,
+              "brier": 0.61044
+            }
+          }
+        },
+        "state_extra_trees": {
+          "seconds": 2.1,
+          "features": 48,
+          "scores": {
+            "validation": {
+              "n": 4271,
+              "games": 12,
+              "accuracy": 0.55935,
+              "balancedAccuracy": 0.45403,
+              "macroF1": 0.45449,
+              "meanGameAccuracy": 0.58095,
+              "classCounts": [
+                787,
+                2563,
+                921
+              ],
+              "confusion": [
+                [
+                  294,
+                  394,
+                  99
+                ],
+                [
+                  474,
+                  1849,
+                  240
+                ],
+                [
+                  176,
+                  499,
+                  246
+                ]
+              ],
+              "logLoss": 0.91627,
+              "brier": 0.54876
+            },
+            "test": {
+              "n": 5229,
+              "games": 12,
+              "accuracy": 0.54255,
+              "balancedAccuracy": 0.51328,
+              "macroF1": 0.50178,
+              "meanGameAccuracy": 0.55614,
+              "classCounts": [
+                1160,
+                2898,
+                1171
+              ],
+              "confusion": [
+                [
+                  636,
+                  355,
+                  169
+                ],
+                [
+                  666,
+                  1745,
+                  487
+                ],
+                [
+                  288,
+                  427,
+                  456
+                ]
+              ],
+              "logLoss": 0.91439,
+              "brier": 0.5472
+            }
+          }
+        },
+        "state_hist_boost": {
+          "seconds": 1.25,
+          "features": 48,
+          "scores": {
+            "validation": {
+              "n": 4271,
+              "games": 12,
+              "accuracy": 0.5329,
+              "balancedAccuracy": 0.47019,
+              "macroF1": 0.46187,
+              "meanGameAccuracy": 0.5625,
+              "classCounts": [
+                787,
+                2563,
+                921
+              ],
+              "confusion": [
+                [
+                  347,
+                  324,
+                  116
+                ],
+                [
+                  596,
+                  1617,
+                  350
+                ],
+                [
+                  191,
+                  418,
+                  312
+                ]
+              ],
+              "logLoss": 0.92524,
+              "brier": 0.5582
+            },
+            "test": {
+              "n": 5229,
+              "games": 12,
+              "accuracy": 0.52763,
+              "balancedAccuracy": 0.53561,
+              "macroF1": 0.50859,
+              "meanGameAccuracy": 0.54064,
+              "classCounts": [
+                1160,
+                2898,
+                1171
+              ],
+              "confusion": [
+                [
+                  672,
+                  275,
+                  213
+                ],
+                [
+                  802,
+                  1483,
+                  613
+                ],
+                [
+                  278,
+                  289,
+                  604
+                ]
+              ],
+              "logLoss": 0.92404,
+              "brier": 0.55767
+            }
+          }
+        },
+        "history_logistic": {
+          "seconds": 0.06,
+          "features": 60,
+          "scores": {
+            "validation": {
+              "n": 4271,
+              "games": 12,
+              "accuracy": 0.54577,
+              "balancedAccuracy": 0.46786,
+              "macroF1": 0.46427,
+              "meanGameAccuracy": 0.57757,
+              "classCounts": [
+                787,
+                2563,
+                921
+              ],
+              "confusion": [
+                [
+                  306,
+                  355,
+                  126
+                ],
+                [
+                  474,
+                  1702,
+                  387
+                ],
+                [
+                  193,
+                  405,
+                  323
+                ]
+              ],
+              "logLoss": 0.94948,
+              "brier": 0.56765
+            },
+            "test": {
+              "n": 5229,
+              "games": 12,
+              "accuracy": 0.51979,
+              "balancedAccuracy": 0.53176,
+              "macroF1": 0.50248,
+              "meanGameAccuracy": 0.53367,
+              "classCounts": [
+                1160,
+                2898,
+                1171
+              ],
+              "confusion": [
+                [
+                  613,
+                  288,
+                  259
+                ],
+                [
+                  722,
+                  1436,
+                  740
+                ],
+                [
+                  244,
+                  258,
+                  669
+                ]
+              ],
+              "logLoss": 0.97921,
+              "brier": 0.58957
+            }
+          }
+        },
+        "history_extra_trees": {
+          "seconds": 2.21,
+          "features": 60,
+          "scores": {
+            "validation": {
+              "n": 4271,
+              "games": 12,
+              "accuracy": 0.57059,
+              "balancedAccuracy": 0.49164,
+              "macroF1": 0.48547,
+              "meanGameAccuracy": 0.59899,
+              "classCounts": [
+                787,
+                2563,
+                921
+              ],
+              "confusion": [
+                [
+                  359,
+                  299,
+                  129
+                ],
+                [
+                  508,
+                  1779,
+                  276
+                ],
+                [
+                  224,
+                  398,
+                  299
+                ]
+              ],
+              "logLoss": 0.90278,
+              "brier": 0.53692
+            },
+            "test": {
+              "n": 5229,
+              "games": 12,
+              "accuracy": 0.58443,
+              "balancedAccuracy": 0.57038,
+              "macroF1": 0.55126,
+              "meanGameAccuracy": 0.60438,
+              "classCounts": [
+                1160,
+                2898,
+                1171
+              ],
+              "confusion": [
+                [
+                  706,
+                  246,
+                  208
+                ],
+                [
+                  636,
+                  1777,
+                  485
+                ],
+                [
+                  329,
+                  269,
+                  573
+                ]
+              ],
+              "logLoss": 0.88238,
+              "brier": 0.52334
+            }
+          }
+        },
+        "history_hist_boost": {
+          "seconds": 1.46,
+          "features": 60,
+          "scores": {
+            "validation": {
+              "n": 4271,
+              "games": 12,
+              "accuracy": 0.57528,
+              "balancedAccuracy": 0.53266,
+              "macroF1": 0.51519,
+              "meanGameAccuracy": 0.60127,
+              "classCounts": [
+                787,
+                2563,
+                921
+              ],
+              "confusion": [
+                [
+                  418,
+                  227,
+                  142
+                ],
+                [
+                  538,
+                  1649,
+                  376
+                ],
+                [
+                  236,
+                  295,
+                  390
+                ]
+              ],
+              "logLoss": 0.88927,
+              "brier": 0.53084
+            },
+            "test": {
+              "n": 5229,
+              "games": 12,
+              "accuracy": 0.60031,
+              "balancedAccuracy": 0.60533,
+              "macroF1": 0.57623,
+              "meanGameAccuracy": 0.61586,
+              "classCounts": [
+                1160,
+                2898,
+                1171
+              ],
+              "confusion": [
+                [
+                  755,
+                  167,
+                  238
+                ],
+                [
+                  622,
+                  1711,
+                  565
+                ],
+                [
+                  301,
+                  197,
+                  673
+                ]
+              ],
+              "logLoss": 0.85206,
+              "brier": 0.50563
+            }
+          }
+        }
+      },
+      "selected": {
+        "state": "state_hist_boost",
+        "history": "history_hist_boost"
+      },
+      "seconds": 7.64
+    },
+    "action": {
+      "rows": 183851,
+      "trainingRowsUsed": 93454,
+      "trainingGames": 56,
+      "trainingTeachers": 14,
+      "classes": [
+        "fight",
+        "farm",
+        "bank",
+        "recall",
+        "shop",
+        "move",
+        "ability",
+        "idle"
+      ],
+      "selection": "Choose model per feature set by validation macro-F1 only; report all test scores. Models and hyperparameters fixed before training. Training weighting balances action classes and games; training capped at2000 examples/game.",
+      "baselines": {
+        "validation": {
+          "training_majority": {
+            "n": 10375,
+            "games": 12,
+            "accuracy": 0.38371,
+            "balancedAccuracy": 0.125,
+            "macroF1": 0.06933,
+            "meanGameAccuracy": 0.23924,
+            "classCounts": [
+              1986,
+              2402,
+              76,
+              997,
+              105,
+              3981,
+              120,
+              708
+            ],
+            "confusion": [
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1986,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                2402,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                76,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                997,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                105,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                3981,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                120,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                708,
+                0,
+                0
+              ]
+            ],
+            "logLoss": 1.72934,
+            "brier": 0.7972
+          },
+          "previous_own_action": {
+            "n": 10375,
+            "games": 12,
+            "accuracy": 0.69812,
+            "balancedAccuracy": 0.40456,
+            "macroF1": 0.40437,
+            "meanGameAccuracy": 0.69694,
+            "classCounts": [
+              1986,
+              2402,
+              76,
+              997,
+              105,
+              3981,
+              120,
+              708
+            ],
+            "confusion": [
+              [
+                1346,
+                32,
+                0,
+                102,
+                0,
+                320,
+                6,
+                180
+              ],
+              [
+                14,
+                2010,
+                6,
+                68,
+                2,
+                277,
+                1,
+                24
+              ],
+              [
+                3,
+                0,
+                0,
+                8,
+                0,
+                63,
+                1,
+                1
+              ],
+              [
+                120,
+                93,
+                18,
+                397,
+                48,
+                184,
+                0,
+                137
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                105
+              ],
+              [
+                286,
+                243,
+                6,
+                1,
+                82,
+                3105,
+                108,
+                150
+              ],
+              [
+                14,
+                8,
+                0,
+                0,
+                1,
+                94,
+                0,
+                3
+              ],
+              [
+                127,
+                26,
+                2,
+                40,
+                1,
+                127,
+                0,
+                385
+              ]
+            ]
+          }
+        },
+        "test": {
+          "training_majority": {
+            "n": 17846,
+            "games": 12,
+            "accuracy": 0.5399,
+            "balancedAccuracy": 0.125,
+            "macroF1": 0.08765,
+            "meanGameAccuracy": 0.42421,
+            "classCounts": [
+              2886,
+              3062,
+              82,
+              586,
+              167,
+              9635,
+              97,
+              1331
+            ],
+            "confusion": [
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                2886,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                3062,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                82,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                586,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                167,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                9635,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                97,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1331,
+                0,
+                0
+              ]
+            ],
+            "logLoss": 1.3483,
+            "brier": 0.64874
+          },
+          "previous_own_action": {
+            "n": 17846,
+            "games": 12,
+            "accuracy": 0.78135,
+            "balancedAccuracy": 0.41783,
+            "macroF1": 0.42099,
+            "meanGameAccuracy": 0.76228,
+            "classCounts": [
+              2886,
+              3062,
+              82,
+              586,
+              167,
+              9635,
+              97,
+              1331
+            ],
+            "confusion": [
+              [
+                2126,
+                27,
+                1,
+                55,
+                0,
+                489,
+                6,
+                182
+              ],
+              [
+                22,
+                2557,
+                0,
+                39,
+                0,
+                409,
+                2,
+                33
+              ],
+              [
+                0,
+                1,
+                0,
+                0,
+                0,
+                74,
+                0,
+                7
+              ],
+              [
+                76,
+                46,
+                8,
+                159,
+                2,
+                146,
+                0,
+                149
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                2,
+                0,
+                165
+              ],
+              [
+                445,
+                415,
+                5,
+                7,
+                171,
+                8245,
+                94,
+                253
+              ],
+              [
+                9,
+                4,
+                0,
+                0,
+                0,
+                77,
+                0,
+                7
+              ],
+              [
+                139,
+                69,
+                0,
+                20,
+                0,
+                246,
+                0,
+                857
+              ]
+            ]
+          }
+        },
+        "test_fish": {
+          "training_majority": {
+            "n": 44411,
+            "games": 20,
+            "accuracy": 0.65867,
+            "balancedAccuracy": 0.125,
+            "macroF1": 0.09928,
+            "meanGameAccuracy": 0.63013,
+            "classCounts": [
+              2735,
+              7868,
+              205,
+              547,
+              223,
+              29252,
+              196,
+              3385
+            ],
+            "confusion": [
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                2735,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                7868,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                205,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                547,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                223,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                29252,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                196,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                3385,
+                0,
+                0
+              ]
+            ],
+            "logLoss": 1.11229,
+            "brier": 0.53853
+          },
+          "previous_own_action": {
+            "n": 44411,
+            "games": 20,
+            "accuracy": 0.79899,
+            "balancedAccuracy": 0.35333,
+            "macroF1": 0.34874,
+            "meanGameAccuracy": 0.79772,
+            "classCounts": [
+              2735,
+              7868,
+              205,
+              547,
+              223,
+              29252,
+              196,
+              3385
+            ],
+            "confusion": [
+              [
+                1478,
+                66,
+                0,
+                1,
+                1,
+                864,
+                5,
+                320
+              ],
+              [
+                39,
+                6283,
+                5,
+                0,
+                3,
+                1385,
+                7,
+                146
+              ],
+              [
+                1,
+                1,
+                0,
+                0,
+                0,
+                157,
+                0,
+                46
+              ],
+              [
+                22,
+                20,
+                4,
+                1,
+                0,
+                366,
+                2,
+                132
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                9,
+                0,
+                214
+              ],
+              [
+                825,
+                1329,
+                12,
+                7,
+                247,
+                25662,
+                152,
+                1018
+              ],
+              [
+                1,
+                5,
+                0,
+                0,
+                0,
+                163,
+                0,
+                27
+              ],
+              [
+                220,
+                211,
+                0,
+                7,
+                1,
+                867,
+                19,
+                2060
+              ]
+            ]
+          }
+        }
+      },
+      "models": {
+        "state_logistic": {
+          "seconds": 2.03,
+          "features": 48,
+          "scores": {
+            "validation": {
+              "n": 10375,
+              "games": 12,
+              "accuracy": 0.42805,
+              "balancedAccuracy": 0.6015,
+              "macroF1": 0.34061,
+              "meanGameAccuracy": 0.52005,
+              "classCounts": [
+                1986,
+                2402,
+                76,
+                997,
+                105,
+                3981,
+                120,
+                708
+              ],
+              "confusion": [
+                [
+                  1610,
+                  13,
+                  29,
+                  139,
+                  5,
+                  7,
+                  180,
+                  3
+                ],
+                [
+                  46,
+                  1711,
+                  112,
+                  265,
+                  24,
+                  68,
+                  147,
+                  29
+                ],
+                [
+                  1,
+                  4,
+                  61,
+                  4,
+                  0,
+                  0,
+                  3,
+                  3
+                ],
+                [
+                  173,
+                  173,
+                  94,
+                  312,
+                  136,
+                  19,
+                  75,
+                  15
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  1,
+                  104,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  603,
+                  219,
+                  435,
+                  944,
+                  293,
+                  270,
+                  661,
+                  556
+                ],
+                [
+                  5,
+                  1,
+                  14,
+                  3,
+                  4,
+                  3,
+                  85,
+                  5
+                ],
+                [
+                  41,
+                  11,
+                  51,
+                  127,
+                  79,
+                  41,
+                  70,
+                  288
+                ]
+              ],
+              "logLoss": 1.57352,
+              "brier": 0.7346
+            },
+            "test": {
+              "n": 17846,
+              "games": 12,
+              "accuracy": 0.47854,
+              "balancedAccuracy": 0.68191,
+              "macroF1": 0.37984,
+              "meanGameAccuracy": 0.50231,
+              "classCounts": [
+                2886,
+                3062,
+                82,
+                586,
+                167,
+                9635,
+                97,
+                1331
+              ],
+              "confusion": [
+                [
+                  2497,
+                  6,
+                  22,
+                  186,
+                  5,
+                  24,
+                  143,
+                  3
+                ],
+                [
+                  115,
+                  2481,
+                  40,
+                  255,
+                  16,
+                  47,
+                  60,
+                  48
+                ],
+                [
+                  0,
+                  1,
+                  78,
+                  2,
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  103,
+                  107,
+                  59,
+                  187,
+                  16,
+                  35,
+                  39,
+                  40
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  2,
+                  165,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  1231,
+                  679,
+                  377,
+                  2541,
+                  580,
+                  2539,
+                  708,
+                  980
+                ],
+                [
+                  0,
+                  4,
+                  0,
+                  1,
+                  0,
+                  0,
+                  85,
+                  7
+                ],
+                [
+                  2,
+                  112,
+                  39,
+                  345,
+                  70,
+                  220,
+                  35,
+                  508
+                ]
+              ],
+              "logLoss": 1.26105,
+              "brier": 0.6466
+            },
+            "test_fish": {
+              "n": 44411,
+              "games": 20,
+              "accuracy": 0.36959,
+              "balancedAccuracy": 0.64181,
+              "macroF1": 0.29274,
+              "meanGameAccuracy": 0.38846,
+              "classCounts": [
+                2735,
+                7868,
+                205,
+                547,
+                223,
+                29252,
+                196,
+                3385
+              ],
+              "confusion": [
+                [
+                  2090,
+                  14,
+                  73,
+                  253,
+                  10,
+                  28,
+                  258,
+                  9
+                ],
+                [
+                  246,
+                  5764,
+                  117,
+                  1080,
+                  9,
+                  139,
+                  220,
+                  293
+                ],
+                [
+                  3,
+                  3,
+                  143,
+                  37,
+                  0,
+                  2,
+                  10,
+                  7
+                ],
+                [
+                  53,
+                  44,
+                  27,
+                  312,
+                  10,
+                  21,
+                  39,
+                  41
+                ],
+                [
+                  0,
+                  0,
+                  2,
+                  5,
+                  213,
+                  2,
+                  1,
+                  0
+                ],
+                [
+                  3279,
+                  1550,
+                  1428,
+                  7303,
+                  1118,
+                  6656,
+                  2661,
+                  5257
+                ],
+                [
+                  1,
+                  7,
+                  1,
+                  8,
+                  0,
+                  1,
+                  171,
+                  7
+                ],
+                [
+                  253,
+                  140,
+                  136,
+                  1142,
+                  121,
+                  294,
+                  234,
+                  1065
+                ]
+              ],
+              "logLoss": 1.58597,
+              "brier": 0.77645
+            }
+          }
+        },
+        "state_extra_trees": {
+          "seconds": 9.13,
+          "features": 48,
+          "scores": {
+            "validation": {
+              "n": 10375,
+              "games": 12,
+              "accuracy": 0.59827,
+              "balancedAccuracy": 0.6648,
+              "macroF1": 0.49505,
+              "meanGameAccuracy": 0.65408,
+              "classCounts": [
+                1986,
+                2402,
+                76,
+                997,
+                105,
+                3981,
+                120,
+                708
+              ],
+              "confusion": [
+                [
+                  1901,
+                  2,
+                  0,
+                  50,
+                  0,
+                  9,
+                  23,
+                  1
+                ],
+                [
+                  15,
+                  1996,
+                  23,
+                  145,
+                  2,
+                  125,
+                  58,
+                  38
+                ],
+                [
+                  0,
+                  1,
+                  52,
+                  12,
+                  0,
+                  6,
+                  1,
+                  4
+                ],
+                [
+                  132,
+                  165,
+                  49,
+                  268,
+                  37,
+                  269,
+                  33,
+                  44
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  105,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  351,
+                  157,
+                  124,
+                  923,
+                  76,
+                  1459,
+                  242,
+                  649
+                ],
+                [
+                  0,
+                  3,
+                  1,
+                  2,
+                  0,
+                  19,
+                  88,
+                  7
+                ],
+                [
+                  22,
+                  5,
+                  13,
+                  111,
+                  43,
+                  153,
+                  23,
+                  338
+                ]
+              ],
+              "logLoss": 1.04453,
+              "brier": 0.50811
+            },
+            "test": {
+              "n": 17846,
+              "games": 12,
+              "accuracy": 0.70514,
+              "balancedAccuracy": 0.72943,
+              "macroF1": 0.56398,
+              "meanGameAccuracy": 0.70643,
+              "classCounts": [
+                2886,
+                3062,
+                82,
+                586,
+                167,
+                9635,
+                97,
+                1331
+              ],
+              "confusion": [
+                [
+                  2815,
+                  1,
+                  0,
+                  43,
+                  0,
+                  5,
+                  21,
+                  1
+                ],
+                [
+                  63,
+                  2501,
+                  17,
+                  172,
+                  3,
+                  251,
+                  19,
+                  36
+                ],
+                [
+                  0,
+                  1,
+                  77,
+                  2,
+                  0,
+                  1,
+                  0,
+                  1
+                ],
+                [
+                  83,
+                  94,
+                  27,
+                  151,
+                  0,
+                  171,
+                  11,
+                  49
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  167,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  534,
+                  233,
+                  146,
+                  1440,
+                  99,
+                  6230,
+                  135,
+                  818
+                ],
+                [
+                  0,
+                  2,
+                  1,
+                  1,
+                  0,
+                  18,
+                  75,
+                  0
+                ],
+                [
+                  4,
+                  41,
+                  29,
+                  139,
+                  35,
+                  504,
+                  11,
+                  568
+                ]
+              ],
+              "logLoss": 0.90141,
+              "brier": 0.45208
+            },
+            "test_fish": {
+              "n": 44411,
+              "games": 20,
+              "accuracy": 0.67319,
+              "balancedAccuracy": 0.75433,
+              "macroF1": 0.48425,
+              "meanGameAccuracy": 0.6749,
+              "classCounts": [
+                2735,
+                7868,
+                205,
+                547,
+                223,
+                29252,
+                196,
+                3385
+              ],
+              "confusion": [
+                [
+                  2608,
+                  6,
+                  7,
+                  11,
+                  0,
+                  61,
+                  24,
+                  18
+                ],
+                [
+                  108,
+                  6497,
+                  41,
+                  210,
+                  0,
+                  679,
+                  57,
+                  276
+                ],
+                [
+                  0,
+                  5,
+                  171,
+                  2,
+                  0,
+                  20,
+                  1,
+                  6
+                ],
+                [
+                  16,
+                  35,
+                  7,
+                  355,
+                  0,
+                  100,
+                  11,
+                  23
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  222,
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  1830,
+                  1177,
+                  661,
+                  2448,
+                  221,
+                  18405,
+                  755,
+                  3755
+                ],
+                [
+                  9,
+                  7,
+                  2,
+                  7,
+                  0,
+                  30,
+                  138,
+                  3
+                ],
+                [
+                  189,
+                  173,
+                  133,
+                  428,
+                  80,
+                  823,
+                  58,
+                  1501
+                ]
+              ],
+              "logLoss": 0.98223,
+              "brier": 0.49684
+            }
+          }
+        },
+        "state_hist_boost": {
+          "seconds": 8.91,
+          "features": 48,
+          "scores": {
+            "validation": {
+              "n": 10375,
+              "games": 12,
+              "accuracy": 0.57369,
+              "balancedAccuracy": 0.67912,
+              "macroF1": 0.54151,
+              "meanGameAccuracy": 0.65493,
+              "classCounts": [
+                1986,
+                2402,
+                76,
+                997,
+                105,
+                3981,
+                120,
+                708
+              ],
+              "confusion": [
+                [
+                  1887,
+                  1,
+                  5,
+                  36,
+                  1,
+                  17,
+                  36,
+                  3
+                ],
+                [
+                  8,
+                  2063,
+                  19,
+                  180,
+                  0,
+                  72,
+                  37,
+                  23
+                ],
+                [
+                  0,
+                  2,
+                  66,
+                  4,
+                  0,
+                  0,
+                  0,
+                  4
+                ],
+                [
+                  109,
+                  161,
+                  50,
+                  335,
+                  6,
+                  253,
+                  26,
+                  57
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  102,
+                  0,
+                  0,
+                  3
+                ],
+                [
+                  253,
+                  195,
+                  128,
+                  1472,
+                  4,
+                  1053,
+                  166,
+                  710
+                ],
+                [
+                  0,
+                  5,
+                  1,
+                  10,
+                  0,
+                  18,
+                  80,
+                  6
+                ],
+                [
+                  23,
+                  4,
+                  14,
+                  186,
+                  4,
+                  84,
+                  27,
+                  366
+                ]
+              ],
+              "logLoss": 1.0572,
+              "brier": 0.54502
+            },
+            "test": {
+              "n": 17846,
+              "games": 12,
+              "accuracy": 0.65555,
+              "balancedAccuracy": 0.7507,
+              "macroF1": 0.60021,
+              "meanGameAccuracy": 0.67786,
+              "classCounts": [
+                2886,
+                3062,
+                82,
+                586,
+                167,
+                9635,
+                97,
+                1331
+              ],
+              "confusion": [
+                [
+                  2810,
+                  0,
+                  2,
+                  40,
+                  0,
+                  7,
+                  26,
+                  1
+                ],
+                [
+                  60,
+                  2660,
+                  13,
+                  137,
+                  2,
+                  108,
+                  19,
+                  63
+                ],
+                [
+                  0,
+                  0,
+                  82,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  80,
+                  101,
+                  12,
+                  193,
+                  2,
+                  122,
+                  15,
+                  61
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  166,
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  361,
+                  342,
+                  85,
+                  2120,
+                  4,
+                  5070,
+                  175,
+                  1478
+                ],
+                [
+                  0,
+                  2,
+                  1,
+                  4,
+                  0,
+                  8,
+                  81,
+                  1
+                ],
+                [
+                  4,
+                  115,
+                  10,
+                  272,
+                  1,
+                  265,
+                  27,
+                  637
+                ]
+              ],
+              "logLoss": 0.83564,
+              "brier": 0.45362
+            },
+            "test_fish": {
+              "n": 44411,
+              "games": 20,
+              "accuracy": 0.63489,
+              "balancedAccuracy": 0.78083,
+              "macroF1": 0.53938,
+              "meanGameAccuracy": 0.6356,
+              "classCounts": [
+                2735,
+                7868,
+                205,
+                547,
+                223,
+                29252,
+                196,
+                3385
+              ],
+              "confusion": [
+                [
+                  2443,
+                  9,
+                  12,
+                  7,
+                  0,
+                  137,
+                  96,
+                  31
+                ],
+                [
+                  64,
+                  6883,
+                  5,
+                  168,
+                  0,
+                  398,
+                  86,
+                  264
+                ],
+                [
+                  0,
+                  0,
+                  187,
+                  3,
+                  0,
+                  12,
+                  1,
+                  2
+                ],
+                [
+                  5,
+                  23,
+                  6,
+                  368,
+                  0,
+                  81,
+                  9,
+                  55
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  1,
+                  218,
+                  0,
+                  0,
+                  4
+                ],
+                [
+                  1083,
+                  1475,
+                  418,
+                  2566,
+                  11,
+                  16148,
+                  939,
+                  6612
+                ],
+                [
+                  5,
+                  6,
+                  0,
+                  7,
+                  0,
+                  6,
+                  164,
+                  8
+                ],
+                [
+                  109,
+                  279,
+                  111,
+                  440,
+                  5,
+                  573,
+                  83,
+                  1785
+                ]
+              ],
+              "logLoss": 0.86656,
+              "brier": 0.47652
+            }
+          }
+        },
+        "history_logistic": {
+          "seconds": 2.79,
+          "features": 60,
+          "scores": {
+            "validation": {
+              "n": 10375,
+              "games": 12,
+              "accuracy": 0.46766,
+              "balancedAccuracy": 0.63535,
+              "macroF1": 0.39228,
+              "meanGameAccuracy": 0.56685,
+              "classCounts": [
+                1986,
+                2402,
+                76,
+                997,
+                105,
+                3981,
+                120,
+                708
+              ],
+              "confusion": [
+                [
+                  1517,
+                  10,
+                  36,
+                  182,
+                  2,
+                  17,
+                  160,
+                  62
+                ],
+                [
+                  39,
+                  1829,
+                  116,
+                  229,
+                  2,
+                  44,
+                  109,
+                  34
+                ],
+                [
+                  0,
+                  4,
+                  61,
+                  7,
+                  0,
+                  0,
+                  3,
+                  1
+                ],
+                [
+                  161,
+                  152,
+                  96,
+                  352,
+                  57,
+                  83,
+                  75,
+                  21
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  1,
+                  104,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  376,
+                  161,
+                  429,
+                  1184,
+                  139,
+                  518,
+                  740,
+                  434
+                ],
+                [
+                  4,
+                  4,
+                  12,
+                  2,
+                  3,
+                  3,
+                  89,
+                  3
+                ],
+                [
+                  10,
+                  3,
+                  44,
+                  87,
+                  100,
+                  22,
+                  60,
+                  382
+                ]
+              ],
+              "logLoss": 1.46047,
+              "brier": 0.68293
+            },
+            "test": {
+              "n": 17846,
+              "games": 12,
+              "accuracy": 0.56013,
+              "balancedAccuracy": 0.72972,
+              "macroF1": 0.46319,
+              "meanGameAccuracy": 0.58203,
+              "classCounts": [
+                2886,
+                3062,
+                82,
+                586,
+                167,
+                9635,
+                97,
+                1331
+              ],
+              "confusion": [
+                [
+                  2338,
+                  11,
+                  28,
+                  196,
+                  1,
+                  59,
+                  134,
+                  119
+                ],
+                [
+                  113,
+                  2515,
+                  36,
+                  207,
+                  5,
+                  110,
+                  43,
+                  33
+                ],
+                [
+                  0,
+                  1,
+                  78,
+                  0,
+                  0,
+                  0,
+                  1,
+                  2
+                ],
+                [
+                  81,
+                  87,
+                  59,
+                  198,
+                  6,
+                  39,
+                  29,
+                  87
+                ],
+                [
+                  0,
+                  0,
+                  2,
+                  0,
+                  165,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  678,
+                  414,
+                  458,
+                  2791,
+                  167,
+                  3731,
+                  733,
+                  663
+                ],
+                [
+                  0,
+                  4,
+                  0,
+                  0,
+                  0,
+                  7,
+                  85,
+                  1
+                ],
+                [
+                  3,
+                  30,
+                  33,
+                  196,
+                  79,
+                  81,
+                  23,
+                  886
+                ]
+              ],
+              "logLoss": 1.1442,
+              "brier": 0.58793
+            },
+            "test_fish": {
+              "n": 44411,
+              "games": 20,
+              "accuracy": 0.44894,
+              "balancedAccuracy": 0.66591,
+              "macroF1": 0.36596,
+              "meanGameAccuracy": 0.461,
+              "classCounts": [
+                2735,
+                7868,
+                205,
+                547,
+                223,
+                29252,
+                196,
+                3385
+              ],
+              "confusion": [
+                [
+                  1778,
+                  25,
+                  87,
+                  455,
+                  10,
+                  69,
+                  245,
+                  66
+                ],
+                [
+                  216,
+                  5756,
+                  108,
+                  1101,
+                  8,
+                  277,
+                  168,
+                  234
+                ],
+                [
+                  1,
+                  0,
+                  146,
+                  37,
+                  4,
+                  5,
+                  7,
+                  5
+                ],
+                [
+                  33,
+                  8,
+                  31,
+                  334,
+                  11,
+                  17,
+                  35,
+                  78
+                ],
+                [
+                  0,
+                  0,
+                  1,
+                  8,
+                  208,
+                  4,
+                  2,
+                  0
+                ],
+                [
+                  2031,
+                  871,
+                  1527,
+                  9376,
+                  364,
+                  9834,
+                  2575,
+                  2674
+                ],
+                [
+                  1,
+                  6,
+                  2,
+                  14,
+                  0,
+                  4,
+                  166,
+                  3
+                ],
+                [
+                  108,
+                  52,
+                  143,
+                  883,
+                  136,
+                  157,
+                  190,
+                  1716
+                ]
+              ],
+              "logLoss": 1.46997,
+              "brier": 0.72006
+            }
+          }
+        },
+        "history_extra_trees": {
+          "seconds": 12.43,
+          "features": 60,
+          "scores": {
+            "validation": {
+              "n": 10375,
+              "games": 12,
+              "accuracy": 0.75441,
+              "balancedAccuracy": 0.76146,
+              "macroF1": 0.63776,
+              "meanGameAccuracy": 0.77072,
+              "classCounts": [
+                1986,
+                2402,
+                76,
+                997,
+                105,
+                3981,
+                120,
+                708
+              ],
+              "confusion": [
+                [
+                  1791,
+                  12,
+                  3,
+                  116,
+                  1,
+                  23,
+                  21,
+                  19
+                ],
+                [
+                  9,
+                  2013,
+                  6,
+                  110,
+                  0,
+                  225,
+                  20,
+                  19
+                ],
+                [
+                  0,
+                  0,
+                  55,
+                  11,
+                  0,
+                  8,
+                  1,
+                  1
+                ],
+                [
+                  65,
+                  80,
+                  26,
+                  542,
+                  8,
+                  204,
+                  12,
+                  60
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  105,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  306,
+                  142,
+                  155,
+                  229,
+                  7,
+                  2733,
+                  213,
+                  196
+                ],
+                [
+                  0,
+                  6,
+                  0,
+                  0,
+                  0,
+                  29,
+                  82,
+                  3
+                ],
+                [
+                  16,
+                  4,
+                  6,
+                  32,
+                  54,
+                  78,
+                  12,
+                  506
+                ]
+              ],
+              "logLoss": 0.80407,
+              "brier": 0.38165
+            },
+            "test": {
+              "n": 17846,
+              "games": 12,
+              "accuracy": 0.8203,
+              "balancedAccuracy": 0.8101,
+              "macroF1": 0.67348,
+              "meanGameAccuracy": 0.81246,
+              "classCounts": [
+                2886,
+                3062,
+                82,
+                586,
+                167,
+                9635,
+                97,
+                1331
+              ],
+              "confusion": [
+                [
+                  2756,
+                  7,
+                  2,
+                  74,
+                  0,
+                  22,
+                  12,
+                  13
+                ],
+                [
+                  55,
+                  2529,
+                  6,
+                  87,
+                  2,
+                  346,
+                  6,
+                  31
+                ],
+                [
+                  0,
+                  1,
+                  76,
+                  0,
+                  0,
+                  1,
+                  0,
+                  4
+                ],
+                [
+                  49,
+                  36,
+                  20,
+                  294,
+                  0,
+                  85,
+                  4,
+                  98
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  165,
+                  2,
+                  0,
+                  0
+                ],
+                [
+                  459,
+                  237,
+                  189,
+                  617,
+                  7,
+                  7769,
+                  101,
+                  256
+                ],
+                [
+                  0,
+                  3,
+                  0,
+                  1,
+                  0,
+                  19,
+                  72,
+                  2
+                ],
+                [
+                  3,
+                  23,
+                  7,
+                  94,
+                  50,
+                  170,
+                  6,
+                  978
+                ]
+              ],
+              "logLoss": 0.66594,
+              "brier": 0.31175
+            },
+            "test_fish": {
+              "n": 44411,
+              "games": 20,
+              "accuracy": 0.79832,
+              "balancedAccuracy": 0.77004,
+              "macroF1": 0.59159,
+              "meanGameAccuracy": 0.80227,
+              "classCounts": [
+                2735,
+                7868,
+                205,
+                547,
+                223,
+                29252,
+                196,
+                3385
+              ],
+              "confusion": [
+                [
+                  2490,
+                  29,
+                  14,
+                  9,
+                  0,
+                  121,
+                  16,
+                  56
+                ],
+                [
+                  48,
+                  6362,
+                  69,
+                  129,
+                  1,
+                  1105,
+                  22,
+                  132
+                ],
+                [
+                  0,
+                  1,
+                  141,
+                  14,
+                  0,
+                  18,
+                  0,
+                  31
+                ],
+                [
+                  14,
+                  5,
+                  5,
+                  323,
+                  0,
+                  129,
+                  9,
+                  62
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  216,
+                  7,
+                  0,
+                  0
+                ],
+                [
+                  1571,
+                  899,
+                  967,
+                  1215,
+                  8,
+                  23398,
+                  324,
+                  870
+                ],
+                [
+                  7,
+                  3,
+                  1,
+                  1,
+                  0,
+                  41,
+                  135,
+                  8
+                ],
+                [
+                  79,
+                  69,
+                  71,
+                  196,
+                  90,
+                  470,
+                  21,
+                  2389
+                ]
+              ],
+              "logLoss": 0.76199,
+              "brier": 0.35231
+            }
+          }
+        },
+        "history_hist_boost": {
+          "seconds": 10.95,
+          "features": 60,
+          "scores": {
+            "validation": {
+              "n": 10375,
+              "games": 12,
+              "accuracy": 0.71576,
+              "balancedAccuracy": 0.7549,
+              "macroF1": 0.6409,
+              "meanGameAccuracy": 0.75391,
+              "classCounts": [
+                1986,
+                2402,
+                76,
+                997,
+                105,
+                3981,
+                120,
+                708
+              ],
+              "confusion": [
+                [
+                  1886,
+                  4,
+                  7,
+                  37,
+                  1,
+                  20,
+                  28,
+                  3
+                ],
+                [
+                  6,
+                  2094,
+                  18,
+                  135,
+                  0,
+                  111,
+                  28,
+                  10
+                ],
+                [
+                  0,
+                  0,
+                  66,
+                  3,
+                  0,
+                  6,
+                  0,
+                  1
+                ],
+                [
+                  81,
+                  114,
+                  52,
+                  494,
+                  6,
+                  170,
+                  28,
+                  52
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  103,
+                  0,
+                  0,
+                  2
+                ],
+                [
+                  259,
+                  164,
+                  126,
+                  887,
+                  2,
+                  2237,
+                  130,
+                  176
+                ],
+                [
+                  0,
+                  4,
+                  1,
+                  6,
+                  0,
+                  29,
+                  78,
+                  2
+                ],
+                [
+                  24,
+                  1,
+                  13,
+                  122,
+                  6,
+                  62,
+                  12,
+                  468
+                ]
+              ],
+              "logLoss": 0.79347,
+              "brier": 0.40587
+            },
+            "test": {
+              "n": 17846,
+              "games": 12,
+              "accuracy": 0.8115,
+              "balancedAccuracy": 0.82328,
+              "macroF1": 0.70035,
+              "meanGameAccuracy": 0.80672,
+              "classCounts": [
+                2886,
+                3062,
+                82,
+                586,
+                167,
+                9635,
+                97,
+                1331
+              ],
+              "confusion": [
+                [
+                  2822,
+                  1,
+                  2,
+                  22,
+                  0,
+                  14,
+                  22,
+                  3
+                ],
+                [
+                  60,
+                  2680,
+                  12,
+                  72,
+                  2,
+                  190,
+                  19,
+                  27
+                ],
+                [
+                  0,
+                  0,
+                  82,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  69,
+                  77,
+                  12,
+                  258,
+                  3,
+                  75,
+                  20,
+                  72
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  165,
+                  0,
+                  0,
+                  2
+                ],
+                [
+                  371,
+                  266,
+                  75,
+                  1178,
+                  2,
+                  7381,
+                  112,
+                  250
+                ],
+                [
+                  0,
+                  2,
+                  1,
+                  3,
+                  0,
+                  15,
+                  75,
+                  1
+                ],
+                [
+                  2,
+                  15,
+                  10,
+                  145,
+                  0,
+                  128,
+                  12,
+                  1019
+                ]
+              ],
+              "logLoss": 0.58517,
+              "brier": 0.2973
+            },
+            "test_fish": {
+              "n": 44411,
+              "games": 20,
+              "accuracy": 0.79561,
+              "balancedAccuracy": 0.81869,
+              "macroF1": 0.62118,
+              "meanGameAccuracy": 0.79746,
+              "classCounts": [
+                2735,
+                7868,
+                205,
+                547,
+                223,
+                29252,
+                196,
+                3385
+              ],
+              "confusion": [
+                [
+                  2402,
+                  15,
+                  9,
+                  3,
+                  0,
+                  168,
+                  95,
+                  43
+                ],
+                [
+                  38,
+                  6882,
+                  3,
+                  142,
+                  0,
+                  604,
+                  59,
+                  140
+                ],
+                [
+                  0,
+                  0,
+                  185,
+                  2,
+                  0,
+                  13,
+                  0,
+                  5
+                ],
+                [
+                  5,
+                  4,
+                  5,
+                  370,
+                  0,
+                  117,
+                  8,
+                  38
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  219,
+                  0,
+                  0,
+                  4
+                ],
+                [
+                  995,
+                  1195,
+                  394,
+                  2090,
+                  7,
+                  22804,
+                  687,
+                  1080
+                ],
+                [
+                  7,
+                  8,
+                  1,
+                  6,
+                  0,
+                  19,
+                  151,
+                  4
+                ],
+                [
+                  78,
+                  66,
+                  104,
+                  341,
+                  4,
+                  418,
+                  53,
+                  2321
+                ]
+              ],
+              "logLoss": 0.63559,
+              "brier": 0.31797
+            }
+          }
+        }
+      },
+      "selected": {
+        "state": "state_hist_boost",
+        "history": "history_hist_boost"
+      },
+      "seconds": 48.53
+    }
+  },
+  "warnings": []
+}

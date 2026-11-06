@@ -1,0 +1,30 @@
+A newer version of cambc is available for macos-arm64. Download: https://2026a.battlecode.co.uk/game/download
+If installed with pip, run `python -m pip install --upgrade cambc`.
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/dmitt/Library/Caches/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/dmitt/Desktop/CamBattlecode/workspace/bots/v42h-on/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/v42h-on/src/boss/draft.cpp.obj
+[2/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/v42h-on/src/boss_main.cpp.obj
+[3/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/v42h-on/src/main.cpp.obj
+[4/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/v42h-on/src/draft.cpp.obj
+[5/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/v42h-on/src/boss/bot.cpp.obj
+[6/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/v42h-on/src/bot.cpp.obj
+[7/8] Linking CXX executable bot.wasm
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/dmitt/Library/Caches/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/dmitt/Desktop/CamBattlecode/workspace/bots/v42h-on/.cambc/build
+injected 0 checks into 0 functions
+built /Users/dmitt/Desktop/CamBattlecode/workspace/bots/v42h-on/.cambc/build-release/bot-injected.wasm

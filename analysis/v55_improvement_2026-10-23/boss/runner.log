@@ -1,0 +1,208 @@
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/feebbf32-base
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/dmitt/Library/Caches/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/dmitt/Desktop/CamBattlecode/workspace/bots/feebbf32-base/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/feebbf32-base/src/draft.cpp.obj
+[2/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/feebbf32-base/src/boss_main.cpp.obj
+[3/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/feebbf32-base/src/boss/draft.cpp.obj
+[4/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/feebbf32-base/src/main.cpp.obj
+[5/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/feebbf32-base/src/boss/bot.cpp.obj
+[6/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/feebbf32-base/src/bot.cpp.obj
+[7/8] Linking CXX executable bot.wasm
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/v54-frozen
+v54-frozen is up to date
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/v27
+v27 is up to date
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/mimic-mite
+mimic-mite is up to date
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/feebbf32-front
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/dmitt/Library/Caches/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/dmitt/Desktop/CamBattlecode/workspace/bots/feebbf32-front/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/feebbf32-front/src/draft.cpp.obj
+[2/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/feebbf32-front/src/boss_main.cpp.obj
+[3/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/feebbf32-front/src/boss/draft.cpp.obj
+[4/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/feebbf32-front/src/main.cpp.obj
+[5/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/feebbf32-front/src/boss/bot.cpp.obj
+[6/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/feebbf32-front/src/bot.cpp.obj
+[7/8] Linking CXX executable bot.wasm
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/feebbf32-commit
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/dmitt/Library/Caches/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/dmitt/Desktop/CamBattlecode/workspace/bots/feebbf32-commit/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/feebbf32-commit/src/boss/draft.cpp.obj
+[2/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/feebbf32-commit/src/boss_main.cpp.obj
+[3/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/feebbf32-commit/src/main.cpp.obj
+[4/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/feebbf32-commit/src/draft.cpp.obj
+[5/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/feebbf32-commit/src/boss/bot.cpp.obj
+[6/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/feebbf32-commit/src/bot.cpp.obj
+[7/8] Linking CXX executable bot.wasm
+[|] STARTING  feebbf32-base vs v54-frozen  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/base/v54-frozen/00contest/a.repl26a
+[|] STARTING  v54-frozen vs feebbf32-base  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/base/v54-frozen/00contest/b.repl26a
+[|] STARTING  feebbf32-base vs v54-frozen  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/base/v54-frozen/01boss-battle/a.repl26a
+[|] STARTING  v54-frozen vs feebbf32-base  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/base/v54-frozen/01boss-battle/b.repl26a
+[+] TEAM A WIN (feebbf32-base)  feebbf32-base vs v54-frozen  00contest  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/base/v54-frozen/00contest/a.repl26a
+[+] TEAM A WIN (v54-frozen)  v54-frozen vs feebbf32-base  00contest  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/base/v54-frozen/00contest/b.repl26a
+[|] STARTING  feebbf32-base vs v27  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/base/v27/00contest/a.repl26a
+[|] STARTING  v27 vs feebbf32-base  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/base/v27/00contest/b.repl26a
+[+] TEAM A WIN (v54-frozen)  v54-frozen vs feebbf32-base  01boss-battle  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/base/v54-frozen/01boss-battle/b.repl26a
+[|] STARTING  feebbf32-base vs v27  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/base/v27/01boss-battle/a.repl26a
+[+] TEAM A WIN (feebbf32-base)  feebbf32-base vs v54-frozen  01boss-battle  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/base/v54-frozen/01boss-battle/a.repl26a
+[|] STARTING  v27 vs feebbf32-base  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/base/v27/01boss-battle/b.repl26a
+[+] TEAM A WIN (feebbf32-base)  feebbf32-base vs v27  00contest  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/base/v27/00contest/a.repl26a
+[+] TEAM B WIN (feebbf32-base)  v27 vs feebbf32-base  00contest  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/base/v27/00contest/b.repl26a
+[|] STARTING  feebbf32-base vs mimic-mite  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/base/mimic-mite/00contest/a.repl26a
+[|] STARTING  mimic-mite vs feebbf32-base  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/base/mimic-mite/00contest/b.repl26a
+[+] TEAM B WIN (feebbf32-base)  mimic-mite vs feebbf32-base  00contest  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/base/mimic-mite/00contest/b.repl26a
+[|] STARTING  feebbf32-base vs mimic-mite  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/base/mimic-mite/01boss-battle/a.repl26a
+[+] TEAM A WIN (feebbf32-base)  feebbf32-base vs mimic-mite  00contest  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/base/mimic-mite/00contest/a.repl26a
+[|] STARTING  mimic-mite vs feebbf32-base  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/base/mimic-mite/01boss-battle/b.repl26a
+[+] TEAM A WIN (feebbf32-base)  feebbf32-base vs v27  01boss-battle  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/base/v27/01boss-battle/a.repl26a
+[+] TEAM B WIN (feebbf32-base)  v27 vs feebbf32-base  01boss-battle  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/base/v27/01boss-battle/b.repl26a
+[|] STARTING  feebbf32-front vs v54-frozen  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/front/v54-frozen/00contest/a.repl26a
+[|] STARTING  v54-frozen vs feebbf32-front  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/front/v54-frozen/00contest/b.repl26a
+[+] TEAM A WIN (feebbf32-front)  feebbf32-front vs v54-frozen  00contest  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/front/v54-frozen/00contest/a.repl26a
+[+] TEAM A WIN (v54-frozen)  v54-frozen vs feebbf32-front  00contest  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/front/v54-frozen/00contest/b.repl26a
+[|] STARTING  feebbf32-front vs v54-frozen  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/front/v54-frozen/01boss-battle/a.repl26a
+[|] STARTING  v54-frozen vs feebbf32-front  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/front/v54-frozen/01boss-battle/b.repl26a
+[+] TEAM A WIN (feebbf32-base)  feebbf32-base vs mimic-mite  01boss-battle  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/base/mimic-mite/01boss-battle/a.repl26a
+[|] STARTING  feebbf32-front vs v27  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/front/v27/00contest/a.repl26a
+[+] TEAM B WIN (feebbf32-base)  mimic-mite vs feebbf32-base  01boss-battle  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/base/mimic-mite/01boss-battle/b.repl26a
+[|] STARTING  v27 vs feebbf32-front  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/front/v27/00contest/b.repl26a
+[+] TEAM A WIN (v54-frozen)  v54-frozen vs feebbf32-front  01boss-battle  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/front/v54-frozen/01boss-battle/b.repl26a
+[|] STARTING  feebbf32-front vs v27  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/front/v27/01boss-battle/a.repl26a
+[+] TEAM A WIN (feebbf32-front)  feebbf32-front vs v54-frozen  01boss-battle  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/front/v54-frozen/01boss-battle/a.repl26a
+[|] STARTING  v27 vs feebbf32-front  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/front/v27/01boss-battle/b.repl26a
+[+] TEAM A WIN (feebbf32-front)  feebbf32-front vs v27  00contest  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/front/v27/00contest/a.repl26a
+[|] STARTING  feebbf32-front vs mimic-mite  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/front/mimic-mite/00contest/a.repl26a
+[+] TEAM B WIN (feebbf32-front)  v27 vs feebbf32-front  00contest  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/front/v27/00contest/b.repl26a
+[|] STARTING  mimic-mite vs feebbf32-front  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/front/mimic-mite/00contest/b.repl26a
+[+] TEAM A WIN (feebbf32-front)  feebbf32-front vs mimic-mite  00contest  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/front/mimic-mite/00contest/a.repl26a
+[|] STARTING  feebbf32-front vs mimic-mite  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/front/mimic-mite/01boss-battle/a.repl26a
+[+] TEAM B WIN (feebbf32-front)  mimic-mite vs feebbf32-front  00contest  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/front/mimic-mite/00contest/b.repl26a
+[|] STARTING  mimic-mite vs feebbf32-front  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/front/mimic-mite/01boss-battle/b.repl26a
+[+] TEAM B WIN (feebbf32-front)  v27 vs feebbf32-front  01boss-battle  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/front/v27/01boss-battle/b.repl26a
+[|] STARTING  feebbf32-commit vs v54-frozen  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/commit/v54-frozen/00contest/a.repl26a
+[+] TEAM A WIN (feebbf32-front)  feebbf32-front vs v27  01boss-battle  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/front/v27/01boss-battle/a.repl26a
+[|] STARTING  v54-frozen vs feebbf32-commit  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/commit/v54-frozen/00contest/b.repl26a
+[+] TEAM B WIN (v54-frozen)  feebbf32-commit vs v54-frozen  00contest  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/commit/v54-frozen/00contest/a.repl26a
+[+] TEAM A WIN (v54-frozen)  v54-frozen vs feebbf32-commit  00contest  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/commit/v54-frozen/00contest/b.repl26a
+[|] STARTING  feebbf32-commit vs v54-frozen  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/commit/v54-frozen/01boss-battle/a.repl26a
+[|] STARTING  v54-frozen vs feebbf32-commit  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/commit/v54-frozen/01boss-battle/b.repl26a
+[+] TEAM A WIN (feebbf32-front)  feebbf32-front vs mimic-mite  01boss-battle  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/front/mimic-mite/01boss-battle/a.repl26a
+[+] TEAM B WIN (feebbf32-front)  mimic-mite vs feebbf32-front  01boss-battle  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/front/mimic-mite/01boss-battle/b.repl26a
+[|] STARTING  feebbf32-commit vs v27  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/commit/v27/00contest/a.repl26a
+[|] STARTING  v27 vs feebbf32-commit  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/commit/v27/00contest/b.repl26a
+[+] TEAM A WIN (v54-frozen)  v54-frozen vs feebbf32-commit  01boss-battle  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/commit/v54-frozen/01boss-battle/b.repl26a
+[+] TEAM B WIN (v27)  feebbf32-commit vs v27  00contest  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/commit/v27/00contest/a.repl26a
+[+] TEAM A WIN (v27)  v27 vs feebbf32-commit  00contest  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/commit/v27/00contest/b.repl26a
+[|] STARTING  feebbf32-commit vs v27  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/commit/v27/01boss-battle/a.repl26a
+[|] STARTING  v27 vs feebbf32-commit  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/commit/v27/01boss-battle/b.repl26a
+[|] STARTING  feebbf32-commit vs mimic-mite  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/commit/mimic-mite/00contest/a.repl26a
+[+] TEAM A WIN (feebbf32-commit)  feebbf32-commit vs v54-frozen  01boss-battle  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/commit/v54-frozen/01boss-battle/a.repl26a
+[|] STARTING  mimic-mite vs feebbf32-commit  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/commit/mimic-mite/00contest/b.repl26a
+[+] TEAM A WIN (feebbf32-commit)  feebbf32-commit vs mimic-mite  00contest  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/commit/mimic-mite/00contest/a.repl26a
+[+] TEAM B WIN (feebbf32-commit)  mimic-mite vs feebbf32-commit  00contest  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/commit/mimic-mite/00contest/b.repl26a
+[|] STARTING  feebbf32-commit vs mimic-mite  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/commit/mimic-mite/01boss-battle/a.repl26a
+[|] STARTING  mimic-mite vs feebbf32-commit  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/commit/mimic-mite/01boss-battle/b.repl26a
+[+] TEAM B WIN (feebbf32-commit)  v27 vs feebbf32-commit  01boss-battle  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/commit/v27/01boss-battle/b.repl26a
+[+] TEAM A WIN (feebbf32-commit)  feebbf32-commit vs v27  01boss-battle  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/commit/v27/01boss-battle/a.repl26a
+[+] TEAM A WIN (feebbf32-commit)  feebbf32-commit vs mimic-mite  01boss-battle  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/commit/mimic-mite/01boss-battle/a.repl26a
+[+] TEAM B WIN (feebbf32-commit)  mimic-mite vs feebbf32-commit  01boss-battle  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/boss/games/commit/mimic-mite/01boss-battle/b.repl26a
+Finished: 36 replay bundles saved, 0 failed
+injected 0 checks into 0 functions
+injected 0 checks into 0 functions
+injected 0 checks into 0 functions

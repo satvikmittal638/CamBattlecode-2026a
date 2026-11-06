@@ -1,0 +1,446 @@
+diff --color -r -u --strip-trailing-cr v40/src/bot.cpp v41/src/bot.cpp
+--- v40/src/bot.cpp	2026-10-21 09:20:52
++++ v41/src/bot.cpp	2026-10-21 09:20:44
+@@ -148,7 +148,7 @@
+         bushBB = bc::map::bushes();
+         staticBlocked = bc::map::walls() | bc::map::holes() | bc::map::altars() | enemySpawnBB;
+         terrain = staticBlocked.export_linear_buffer();
+-        tileGroup.assign(W * H, -1);
++        tileGroup.assign(W * H, -1);campRanges.assign(W*H,0);
+         rawGroups = bc::map::camp_groups(); groups.resize(rawGroups.size());stalledUntil.assign(groups.size(),0);
+         auto byte = [](int i) { return std::to_integer<unsigned char>(bc::draft_memory[i]); };
+         auto word = [&](int i) { return byte(i) | (byte(i+1) << 8); };
+@@ -183,7 +183,7 @@
+         long sx=0,sy=0;
+         for(auto t:g.tiles){sx+=t.x;sy+=t.y;tileGroup[idx(t)]=g.id;}
+         if(!g.tiles.empty())g.center={static_cast<int>(sx/g.tiles.size()),static_cast<int>(sy/g.tiles.size())};
+-        for(auto c:rg.camps()){auto st=c.base_stats();g.totalHp+=st.base_health;g.totalStr+=st.base_strength;g.clearOrder.push_back({st.base_health,st.base_strength});if(c.is_monolith())g.monolith=true;}
++        for(auto c:rg.camps()){auto st=c.base_stats();campRanges[idx(c.spawn_position())]=st.base_strength>0?st.base_attack_range:0;g.totalHp+=st.base_health;g.totalStr+=st.base_strength;g.clearOrder.push_back({st.base_health,st.base_strength});if(c.is_monolith())g.monolith=true;}
+         std::sort(g.clearOrder.begin(),g.clearOrder.end(),[](auto a,auto b){return a.first/std::max(.01f,a.second)<b.first/std::max(.01f,b.second);});
+         for(auto p:g.tiles){int n=0;for(auto q:g.tiles)if(cheb(p,q)<=1)++n;g.splashTargets=std::max(g.splashTargets,n);}
+         g.hpLeft=g.totalHp;
+@@ -351,7 +351,7 @@
+     // family index: 0 monster 1 power 2 durability 3 treasure 4 jungle 5 home 6 bruiser; stat 0 str 1 focus 2 health
+     struct Step { int fam, stat, count; };
+     std::vector<Step> plan;
+-    const bool focusUser = myType == bc::champion_type::cassi || myType == bc::champion_type::stellar || myType == bc::champion_type::prism || (!X_GATEDRAFT&&bankGateHint>=0&&myType!=bc::champion_type::issac);
++    const bool focusUser = myType == bc::champion_type::heart_of_ruin || myType == bc::champion_type::cassi || myType == bc::champion_type::stellar || myType == bc::champion_type::prism || (!X_GATEDRAFT&&bankGateHint>=0&&myType!=bc::champion_type::issac);
+     if (focusUser) {
+         plan = {{4, 1, 5}, {2, 1, 5}, {1, 1, 1000}};
+     } else if (farMap) {
+@@ -359,6 +359,7 @@
+     } else {
+         plan = {{4, 0, 5}, {2, 0, 5}, {6, 2, 5}, {1, 0, 1000}};
+     }
++    if(myType==bc::champion_type::heart_of_ruin)plan={{4,1,5},{2,1,5},{1,1,1000}};
+     if(myType==bc::champion_type::ren&&bankGateHint<0)plan={{6,2,5},{2,2,5},{1,1,1000}};
+     if (X_BUILDSTELLAR && !X_BUILD && bankGateHint < 0 && myType == bc::champion_type::stellar)
+         plan = {{1, 1, 5}, {5, 2, 5}, {2, 2, 5}, {1, 1, 1000}};  // Fish's Stellar: Power Focus, Home Health, Durability Health, Power Focus
+@@ -774,7 +775,7 @@
+     if(myType==bc::champion_type::cassi||myType==bc::champion_type::stellar)cast=2*F;
+     else if(myType==bc::champion_type::prism)cast=1.5f*F;
+     else if(myType==bc::champion_type::ren)cast=1.25f*F;
+-    else if(myType==bc::champion_type::tavi)cast=std::max(S,2.2f*F);
++    else if(myType==bc::champion_type::tavi)cast=std::max(S,1.4f*F);
+     else if(myType==bc::champion_type::ryth)cast=std::max(S,F);
+     else cast=S;
+     return std::max(1.0f,S+cast/8);
+@@ -785,14 +786,17 @@
+ // ------------------------------------------------------------------ low hp
+ bool Bot::handleLowHp(bool statusOnly) {
+     auto& me = bc::self();
+-    const float hpf = me.health() / std::max(1.0f, me.max_health());
++    bc::detail::champion_info own{};
++    const unsigned id=static_cast<unsigned>(static_cast<bc::handle_champion_t>(me));
++    bc::detail::check(bc::detail::sdk_champion(id,&own));
++    const float hpf=own.health/std::max(1.0f,own.max_health);
+     static bool prevPartnerLow = false;
+     const bool partnerLow = partnerSlot >= 0 && partnerSlot < 8 && (shared[partnerSlot] & 0x80);
+     const bool partnerRise = partnerLow && !prevPartnerLow;
+     prevPartnerLow = partnerLow;
+-    if (onSpawn()) {
++    if (ownSpawnBB.is_set({own.x,own.y})) {
+         stalledRetreat=false;lowTrail.clear();
+-        if (me.health() >= me.max_health() - 0.5f) { lowMode = false; return false; }
++        if (own.health >= own.max_health - 0.5f) { lowMode = false; return false; }
+         if (lowMode) return true;  // stay on spawn until healed (heal happens at our turn end)
+         return false;
+     }
+@@ -801,36 +805,34 @@
+     if(statusOnly)return lowMode;
+     if (!lowMode){stalledRetreat=false;lowTrail.clear();return false;}
+     progressKind=recovery;
+-    const auto lowPos=me.position();const float lowHp=me.health();
++    const auto lowPos=vec2{own.x,own.y};const float lowHp=own.health;
+     if(lowHp>lastLowHp+1)lowTrail.clear();
+     lastLowHp=lowHp;lowTrail.push_back(lowPos);
+     if(lowTrail.size()>12)lowTrail.erase(lowTrail.begin());
+     if(lowTrail.size()>=6 && std::count(lowTrail.begin(),lowTrail.end(),lowPos)>=3)stalledRetreat=true;
+     releaseCapture();
+ 
+-    const vec2 pos = me.position();
++    const vec2 pos = vec2{own.x,own.y};
+     std::vector<vec2> threats;
+     for (auto& e : safeChamps(team::enemy)) {
+         try { if (e.is_alive() && cheb(e.position(), pos) <= 6) threats.push_back(e.position()); } catch (const TurnAbort&) { throw; } catch (...) {}
+     }
+     // awake (damaged) camps within their range 3 would interrupt the recall too
+-    for (auto& c : safeCamps()) {
+-        try {
+-            // Camps stay on their tiles. Only an awake armed camp in actual
+-            // attack range can interrupt this recall; damage alone is not a
+-            // threat, and range four is already safe from range-three camps.
+-            if(cheb(c.position(),pos)<=c.attack_range()&&c.strength()>0&&c.is_awake())threats.push_back(c.position());
+-        } catch (const TurnAbort&) { throw; } catch (...) {}
++    for(auto tile:bc::vision::camp_tiles().positions()){
++        const int range=campRanges[idx(tile)];if(range==0||cheb(tile,pos)>range)continue;
++        if(!enough(32000)){threats.push_back(tile);continue;}
++        unsigned camp=0,state=0;bc::detail::camp_state current{};
++        if(!bc::detail::sdk_camp_at(tile.x,tile.y,&camp)&&!bc::detail::sdk_camp(camp,&current)&&current.strength>0&&!bc::detail::sdk_camp_state(camp,&state)&&state==1)threats.push_back(tile);
+     }
+     if (me.is_recalling()) return true;
+     if (threats.empty()) {
+         // X_RECALLGUARD: a recall issued last turn that was cancelled by damage from an unseen
+         // source (e.g. a camp behind a wall) is not reissued in place; walk home first.
+-        if (X_RECALLGUARD && round - recallTryRound <= 1 && me.health() < recallTryHp - 0.5f) {
+-            recallTryHp = me.health(); recallTryRound = round;
++        if (X_RECALLGUARD && round - recallTryRound <= 1 && own.health < recallTryHp - 0.5f) {
++            recallTryHp = own.health; recallTryRound = round;
+             if (escapeHome(threats)) { stage = "x-recall-guard"; return true; }
+         }
+-        if (X_RECALLGUARD) { recallTryRound = round; recallTryHp = me.health(); }
++        if (X_RECALLGUARD) { recallTryRound = round; recallTryHp = own.health; }
+         try { ACT(me.recall()); } catch (const TurnAbort&) { throw; } catch (...) {}
+         return true;
+     }
+@@ -1071,6 +1073,7 @@
+ static int carryRank(int type) {
+     using ct = bc::champion_type;
+     const auto t = static_cast<ct>(type);
++    if(t==ct::heart_of_ruin)return 0;
+     if (X_CARRYMODE == 1) {
+         // casters first: our ranked losses showed Stellar and Cassi starved of capture gold
+         if (t == ct::stellar || t == ct::cassi || t == ct::prism || t == ct::tavi) return 0;
+diff --color -r -u --strip-trailing-cr v40/src/bot.h v41/src/bot.h
+--- v40/src/bot.h	2026-10-21 09:20:53
++++ v41/src/bot.h	2026-10-21 09:20:44
+@@ -32,7 +32,7 @@
+     cambc::bitboard tilesBB;
+     int gems = 0, gold = 0, respawn = 50;
+     float totalHp = 0, totalStr = 0;
+-    int bankDistance=-1;
++    int bankDistance=-1,bankCursor=0,bankBest=65535;
+     bool monolith = false, eligible = false;
+     int dOwn = 0, dEnemy = 0;         // walking distance from own / enemy spawn
+     vec2 center{0, 0};
+@@ -57,6 +57,7 @@
+     void play_turn();
+     const char* where() const { return stage; }
+     int goal() const { return target; }
++    int type_id() const { return static_cast<int>(myType); }
+     bool draft_ready() const { return draftValid; }
+ 
+ private:
+@@ -73,7 +74,7 @@
+     cambc::bitboard staticBlocked;
+     cambc::bitboard ownSpawnBB, enemySpawnBB, bushBB;
+     std::vector<std::uint8_t> terrain;
+-    std::vector<int> tileGroup;
++    std::vector<int> tileGroup;std::vector<std::uint8_t> campRanges;
+     std::unique_ptr<Route> homeRoute, moveRoute;
+     cambc::bitboard moveGoals;
+     int initNext = 0;
+diff --color -r -u --strip-trailing-cr v40/src/draft.cpp v41/src/draft.cpp
+--- v40/src/draft.cpp	2026-10-21 09:20:53
++++ v41/src/draft.cpp	2026-10-21 09:20:45
+@@ -56,22 +56,22 @@
+ void play_draft() {
+     // current Mite (2026-10-14): 3-pick maps -> Varg, Ryth, Cassi&Issac; 4/5-pick maps keep Vendetta.
+     static constexpr std::array big0{
+-        cambc::champion_draft::cassi_and_issac,cambc::champion_draft::stellar,
++        cambc::champion_draft::heart_of_ruin,cambc::champion_draft::stellar,
+         cambc::champion_draft::ren,cambc::champion_draft::varg,cambc::champion_draft::ryth};
+     static constexpr std::array bigFish{
+-        cambc::champion_draft::cassi_and_issac,cambc::champion_draft::stellar,
++        cambc::champion_draft::heart_of_ruin,cambc::champion_draft::stellar,
+         cambc::champion_draft::ren,cambc::champion_draft::ryth,cambc::champion_draft::varg};
+     const auto& big = X_DRAFT4 ? bigFish : big0;
+     static constexpr std::array small{
+-        cambc::champion_draft::cassi_and_issac,cambc::champion_draft::stellar,cambc::champion_draft::ren,
++        cambc::champion_draft::heart_of_ruin,cambc::champion_draft::stellar,cambc::champion_draft::ren,
+         cambc::champion_draft::varg,cambc::champion_draft::ryth};
+     static constexpr std::array farSmall{
+-        cambc::champion_draft::cassi_and_issac,cambc::champion_draft::stellar,cambc::champion_draft::varg,
++        cambc::champion_draft::heart_of_ruin,cambc::champion_draft::stellar,cambc::champion_draft::varg,
+         cambc::champion_draft::ren,cambc::champion_draft::ryth};
+     const auto mine = cambc::draft::current_draft(cambc::team::ally);
+     prepare_fast_metadata();
+     const bool gated=v1DraftBankGate>=0;
+-    static constexpr std::array gateTeam{cambc::champion_draft::cassi_and_issac,cambc::champion_draft::stellar,cambc::champion_draft::tavi,cambc::champion_draft::prism,cambc::champion_draft::ren};
++    static constexpr std::array gateTeam{cambc::champion_draft::heart_of_ruin,cambc::champion_draft::stellar,cambc::champion_draft::tavi,cambc::champion_draft::prism,cambc::champion_draft::ren};
+     if(gated&&!X_GATEDRAFT){for(auto pick:gateTeam)if(std::find(mine.begin(),mine.end(),pick)==mine.end()){cambc::draft::pick(pick);return;}}
+     const bool threePicks = cambc::draft::team_size() <= 3;
+     for (auto pick : threePicks ? (v1DraftSpawnDistance>60?farSmall:small) : big) {
+diff --color -r -u --strip-trailing-cr v40/src/main.cpp v41/src/main.cpp
+--- v40/src/main.cpp	2026-10-21 09:20:54
++++ v41/src/main.cpp	2026-10-21 09:20:46
+@@ -1,5 +1,6 @@
+ #include <cambc.h>
+ #include <iostream>
++#include <cstdio>
+ #include "bot.h"
+ #include "draft.h"
+ #ifndef PHASE2_LOG
+@@ -20,9 +21,17 @@
+         if(!draft) {
+             const auto r1=cambc::round_number();
+             const auto remaining=cambc::fuel_remaining();
+-            if(r0!=r1){mm::invalidate_frame();std::cout<<"suspended "<<r0<<" "<<r1<<" "<<bot.where()<<std::endl;}
+-            if(PHASE2_LOG && (r1<=3 || r0!=r1 || mm::frame_aborted() || mm::frame_errors() || PHASE2_LOG>1))
+-                std::cout<<"decision "<<r1<<" "<<static_cast<int>(cambc::self().champion_name())<<" "<<bot.where()<<" goal "<<bot.goal()<<" draft "<<bot.draft_ready()<<" remaining "<<remaining<<" spent "<<(r0==r1&&f0>=remaining?f0-remaining:0)<<" yielded "<<mm::frame_aborted()<<" errors "<<mm::frame_errors()<<" blocked "<<mm::frame_blocked()<<std::endl;
++            if(r0!=r1)mm::invalidate_frame();
++            // C++ stream formatting after the last action can itself exhaust
++            // fuel. Use one bounded printf with the already known type ID.
++            // Official native events remain the authoritative fuel count.
++            if(remaining>=10000){
++                if(r0!=r1)std::printf("suspended %d %d %s\n",static_cast<int>(r0),static_cast<int>(r1),bot.where());
++                if(PHASE2_LOG&&(r1<=3||r0!=r1||mm::frame_aborted()||mm::frame_errors()||PHASE2_LOG>1))
++                    std::printf("decision %d %d %s goal %d draft %d remaining %llu spent %llu yielded %d errors %d blocked %d\n",static_cast<int>(r1),bot.type_id(),bot.where(),bot.goal(),bot.draft_ready(),static_cast<unsigned long long>(remaining),static_cast<unsigned long long>(r0==r1&&f0>=remaining?f0-remaining:0),mm::frame_aborted(),mm::frame_errors(),mm::frame_blocked());
++            }else if(mm::frame_errors()){
++                std::printf("decision %d errors %d\n",static_cast<int>(r1),mm::frame_errors());
++            }
+         }
+         cambc::end_turn();
+     }
+diff --color -r -u --strip-trailing-cr v40/src/v1_bank_access.h v41/src/v1_bank_access.h
+--- v40/src/v1_bank_access.h	2026-10-21 09:20:54
++++ v41/src/v1_bank_access.h	2026-10-21 09:20:46
+@@ -33,7 +33,7 @@
+ }
+ 
+ bool Bot::removeBankLock(vec2 altar){
+-    if(bankGate<0)return false;
++    // Locks can be placed on any altar, regardless of static boss gates.
+     if(!enough(26000))return true;
+     auto& me=bc::self();
+     for(const auto& lock:bc::vision::altar_locks(team::enemy)){
+diff --color -r -u --strip-trailing-cr v40/src/v1_camp_executor.h v41/src/v1_camp_executor.h
+--- v40/src/v1_camp_executor.h	2026-10-21 09:20:55
++++ v41/src/v1_camp_executor.h	2026-10-21 09:20:47
+@@ -2,7 +2,7 @@
+ // refresh the chosen live target after damage instead of attacking a dead handle.
+ bool Bot::attackCampsOf(int gid){
+     stage="v1-camp-actions";auto& me=bc::self();
+-    if(!enough(38000))return false;
++    if(!enough(42000))return false;
+     const auto pos=me.position();const int range=me.attack_range();
+     const float strength=me.strength(),focus=me.focus();
+     if(!me.can_attack()&&(castThisTurn||!me.can_cast()))return false;
+@@ -63,6 +63,28 @@
+         for(const auto& c:seen)if(c.target&&c.hp>0&&cheb(pos,c.p)<=reach&&(!campStun||c.strength>0)&&(!target||(campStun?c.strength>target->strength:c.hp>target->hp)))target=&c;
+         if(target&&cast(k,static_cast<unsigned>(bc::detail::entity_kind::camp),target->id,target->p))break;
+     }
++        // A damaging dash requires a different, legally reachable landing tile.
++    // Never wake an excluded boss as collateral while clearing a regular camp.
++    if(myType==bc::champion_type::heart_of_ruin&&!castThisTurn&&enough(42000)&&me.can_cast()){
++        int cd=8;bc::detail::check(bc::detail::sdk_champion_cooldown(selfId,1,&cd));
++        if(!cd){
++            float amount=0;bc::detail::check(bc::detail::sdk_champion_ability_damage(selfId,1,&amount));
++            const auto current=me.position();const auto blocked=blockedNow();const auto passable=blocked&~bc::map::holes();
++            vec2 landing=current;float value=0;
++            for(auto p:(passable.reachable_tiles(current,2)&~blocked).positions()){
++                if(p==current)continue;float hit=0,exposure=0;bool collateral=false;
++                for(const auto& c:seen){
++                    const int d=cheb(p,c.p);
++                    if(d<=1){if(c.target)hit+=std::min(c.hp,amount)+c.strength;else if(c.strength>0)collateral=true;}
++                    else if(d<=5)exposure+=c.strength*2;
++                }
++                const float candidate=hit-exposure;
++                if(!collateral&&candidate>value+1){value=candidate;landing=p;}
++            }
++            if(value>20&&landing!=current&&cast(1,0,0,landing)){movedThisTurn=true;previousTile=current;}
++        }
++    }
++
+     basic();
+     if(!castThisTurn&&attackedThisTurn&&enough(26000)&&me.can_cast()){
+         for(int k=0;k<2;++k){
+@@ -71,8 +93,8 @@
+             bc::detail::check(bc::detail::sdk_champion_ability_props(selfId,k,&a));
+             if(a.kind==1){if(cast(k,0,0,me.position()))basic();break;}
+         }
+-        if(!castThisTurn&&myType==bc::champion_type::varg&&enough(24000)){
+-            int cd=8;bc::detail::check(bc::detail::sdk_champion_cooldown(selfId,1,&cd));if(!cd)cast(1,0,0,me.position());
++        if(!castThisTurn&&(myType==bc::champion_type::varg||myType==bc::champion_type::heart_of_ruin)&&enough(24000)){
++            int cd=8;bc::detail::check(bc::detail::sdk_champion_cooldown(selfId,myType==bc::champion_type::heart_of_ruin?0:1,&cd));if(!cd)cast(myType==bc::champion_type::heart_of_ruin?0:1,0,0,me.position());
+         }
+     }
+     return acted;
+diff --color -r -u --strip-trailing-cr v40/src/v1_cycle.h v41/src/v1_cycle.h
+--- v40/src/v1_cycle.h	2026-10-21 09:20:55
++++ v41/src/v1_cycle.h	2026-10-21 09:20:48
+@@ -3,7 +3,7 @@
+ int Bot::scoreTargets() {
+     auto& me=bc::self();stage="v1-cycle";
+     if(myType==bc::champion_type::willow && supportUntil>round && supportTask>=0 && supportTask<static_cast<int>(groups.size()) && groups[supportTask].state!=3 && !allyCapturing(supportTask))return supportTask;
+-    if(!enough(62000)){
++    if(!enough(68000)){
+         if(!stale&&target>=0&&target<static_cast<int>(groups.size())&&(groups[target].eligible||(groups[target].totalStr==0&&groups[target].gold>0&&!groups[target].monolith&&groups[target].dOwn!=UNR&&groups[target].dOwn<=groups[target].dEnemy+4))&&stalledUntil[target]<=round&&!allyCapturing(target))return target;
+         return -1;
+     }
+@@ -15,10 +15,12 @@
+     if(myType==bc::champion_type::cassi||myType==bc::champion_type::stellar)spell=2*F;
+     else if(myType==bc::champion_type::prism)spell=1.5f*F;
+     else if(myType==bc::champion_type::ren)spell=1.25f*F;
+-    else if(myType==bc::champion_type::tavi)spell=std::max(strength,2.2f*F);
++    else if(myType==bc::champion_type::tavi)spell=std::max(strength,1.4f*F);
+     else if(myType==bc::champion_type::ryth)spell=std::max(strength,F);
++    else if(myType==bc::champion_type::heart_of_ruin)spell=1.75f*F;
+     else spell=strength;
+     const float md=std::max(1.0f,strength+spell/8);
++    if(!enough(57000))return target;
+     unsigned rawBag=0,items[42]{};bc::detail::check(bc::detail::sdk_champion_gems(selfId,&rawBag));bc::detail::check(bc::detail::sdk_champion_items(selfId,items));
+     const int bag=rawBag;const bool jungle=items[25]||items[27]||items[29],durability=items[13]||items[15]||items[17];
+     float shield=0;bc::detail::buff_data buffs[3]{};unsigned nBuffs=0;bc::detail::check(bc::detail::sdk_champion_buff_data(selfId,buffs,3,&nBuffs));
+@@ -31,10 +33,12 @@
+         if(a.kind==2)opening=std::max(opening,F*a.payload.damage.modifier);
+         if(a.kind==3)opening=std::max(opening,F*a.payload.aoe_damage.modifier);
+         if(a.kind==4&&myType==bc::champion_type::ren)opening=std::max(opening,F*a.payload.cc.modifier);
+-        if(a.kind==7&&myType==bc::champion_type::varg)readyShield=std::max(readyShield,F*a.payload.shield.modifier);
++        if(a.kind==6&&myType==bc::champion_type::heart_of_ruin)opening=std::max(opening,1.75f*F);
++        if(a.kind==7&&(myType==bc::champion_type::varg||myType==bc::champion_type::heart_of_ruin))readyShield=std::max(readyShield,F*a.payload.shield.modifier);
+     }
+     struct Ally{unsigned id;bc::detail::champion_info info;};std::vector<Ally> allies;
+     if(enough(45000))for(auto p:bc::vision::champion_tiles(team::ally).positions()){
++        if(!enough(49000))break;
+         unsigned id;bc::detail::champion_info info{};
+         if(!bc::detail::sdk_champion_at(p.x,p.y,&id)&&!bc::detail::sdk_champion(id,&info)&&(info.state&1))allies.push_back({id,info});
+     }
+@@ -75,7 +79,7 @@
+         }
+         const bool observed=g.state==1&&g.fullyObserved&&round-g.seenRound<2;
+         const auto& order=observed?g.liveOrder:g.clearOrder;
+-        const float rate=std::max(1.0f,md*(myType==bc::champion_type::varg?std::min(3,g.splashTargets):1)+help),ratio=observed?1:(g.totalHp>0?remaining/g.totalHp:0);
++        const float rate=std::max(1.0f,(myType==bc::champion_type::heart_of_ruin?strength+spell*std::min(3,g.splashTargets)/8:md*(myType==bc::champion_type::varg?std::min(3,g.splashTargets):1))+help),ratio=observed?1:(g.totalHp>0?remaining/g.totalHp:0);
+         float incoming=0,clear=0,aliveStrength=observed?0:g.totalStr,burst=opening;
+         if(observed)for(auto m:order)aliveStrength+=m.second;
+         for(const auto& member:order){
+@@ -101,8 +105,12 @@
+         if(incoming<=usable*5.0f && wait<=2)safeGem=true;
+         // Include delivery and countdown, amortized over the combined bag so a
+         // batched route does not pay the entire altar journey for every camp.
+-        if(g.bankDistance<0){int distance=UNR;for(int a=0;a<static_cast<int>(altars.size());++a)distance=std::min<int>(distance,altarDistance(a,g.center));g.bankDistance=distance==UNR?20:distance;}
+-        const int altar=g.bankDistance;
++        if(g.bankDistance<0){
++            for(;g.bankCursor<static_cast<int>(altars.size())&&enough(49000);++g.bankCursor)
++                g.bankBest=std::min<int>(g.bankBest,altarDistance(g.bankCursor,g.center));
++            if(g.bankCursor==static_cast<int>(altars.size()))g.bankDistance=g.bankBest==UNR?20:g.bankBest;
++        }
++        const int altar=g.bankDistance>=0?g.bankDistance:(g.bankBest==UNR?20:g.bankBest);
+         const float combined=bag+g.gems;
+         const float bankCost=g.gems>0?(altar+std::ceil(combined/10.0f)+1)*g.gems/std::max(1.0f,combined):0;
+         const float time=d+wait+clear+5+bankCost*.25f;
+diff --color -r -u --strip-trailing-cr v40/src/v1_progress.h v41/src/v1_progress.h
+--- v40/src/v1_progress.h	2026-10-21 09:20:56
++++ v41/src/v1_progress.h	2026-10-21 09:20:48
+@@ -23,13 +23,15 @@
+ }
+ 
+ void Bot::progressFinish() {
+-    if(!inited || stale || static_cast<int>(bc::round_number())!=frameRound || bc::fuel_remaining()<17000)return;
++    if(!inited || stale || static_cast<int>(bc::round_number())!=frameRound || bc::fuel_remaining()<28000)return;
+     if(bankGateClosed()&&target==bankGate&&gateFiring.is_set(bc::self().position())){quietTurns=0;return;}
+     if(movedThisTurn||attackedThisTurn||castThisTurn){quietTurns=0;progressPosition={-1,-1};previousKind=progressKind;return;}
+-    auto& me=bc::self();if(!me.is_alive())return;
+-    const auto pos=me.position();
++    auto& me=bc::self();bc::detail::champion_info info{};
++    const unsigned id=static_cast<unsigned>(static_cast<bc::handle_champion_t>(me));
++    if(bc::detail::sdk_champion(id,&info)||!(info.state&1))return;
++    const vec2 pos{info.x,info.y};
+     // These waits have engine-defined progress. They must not be evicted.
+-    if(me.is_recalling() || me.is_submitting_gems() || me.is_teleporting() || me.buffs().has_stun() || (capturing && target>=0 && groups[target].tilesBB.is_set(pos)) || (onSpawn()&&me.health()<me.max_health()-.5f)){
++    if((info.state&(2|4|4096)) || !(info.state&8) || (capturing && target>=0 && groups[target].tilesBB.is_set(pos)) || (ownSpawnBB.is_set(pos)&&info.health<info.max_health-.5f)){
+         quietTurns=0;progressPosition=pos;return;
+     }
+     const float hp=target>=0?groups[target].hpLeft:-1;
+diff --color -r -u --strip-trailing-cr v40/src/v1_tactical.h v41/src/v1_tactical.h
+--- v40/src/v1_tactical.h	2026-10-21 09:20:57
++++ v41/src/v1_tactical.h	2026-10-21 09:20:49
+@@ -2,7 +2,7 @@
+ // estimates from personally visible state, not an exact adversarial game tree.
+ struct V1Body {
+     unsigned id=0;bc::detail::champion_info info{};float shield=0,mitigation=1;
+-    unsigned bag=0;int cd[2]{8,8};bool stun=false;
++    unsigned bag=0;int cd[2]{8,8};bool stun=false;float heartDash=0;
+     vec2 position()const{return {info.x,info.y};}
+ };
+ static V1Body v1Body(unsigned id,const bc::detail::champion_info& info){
+@@ -14,6 +14,7 @@
+     if(items[13]||items[15]||items[17])b.mitigation=.9f;
+     bc::detail::check(bc::detail::sdk_champion_gems(id,&b.bag));
+     for(unsigned k=0;k<2;++k)bc::detail::check(bc::detail::sdk_champion_cooldown(id,k,&b.cd[k]));
++    if(info.type==12)bc::detail::check(bc::detail::sdk_champion_ability_damage(id,1,&b.heartDash));
+     return b;
+ }
+ static bool v1Cast(unsigned slot,unsigned kind,unsigned id,vec2 p){
+@@ -26,7 +27,10 @@
+     const float basic=d<=i.attack_range+(melee?1:0)?i.strength:0;float best=basic;
+     auto ready=[&](int k){return b.cd[k]<=tick;};
+     const int t=i.type;
+-    float spell=t==3||t==5||t==7?2*i.focus:t==6?1.5f*i.focus:t==9?1.25f*i.focus:t==11?2.2f*i.focus:t==0?i.focus:0;
++    // Heart can walk, then dash two tiles and land a radius-one hit/stun.
++    // The native amount includes its current missing-health damage bonus.
++    if(t==12&&ready(1)&&d<=3+((i.state&8)?1:0))best=std::max(best,b.heartDash+i.strength*1.5f);
++    float spell=t==3||t==5||t==7?2*i.focus:t==6?1.5f*i.focus:t==9?1.25f*i.focus:t==11?1.4f*i.focus:t==0?i.focus:0;
+     const int slot=t==7||t==11?1:0;
+     if(spell&&ready(slot)&&d<=4)best=std::max(best,spell+(d<=i.attack_range?i.strength:0));
+     const bool reset=t==0||t==1||t==2||t==4||t==7||t==8||t==10||t==11;
+@@ -84,6 +88,38 @@
+             if(!(f.info.state&32))sum+=v1Response(f,p,1,false);
+         }return sum*own.mitigation;
+     };
++        // Heart's landing damage/control is part of the cast, not a second spell.
++    if(selfInfo.type==12&&own.cd[1]==0&&!castThisTurn&&(selfInfo.state&2048)&&enough(43000)){
++        const auto passable=blocked&~bc::map::holes();vec2 landing=origin;float bestValue=0;
++        for(auto p:(passable.reachable_tiles(origin,2)&~blocked).positions()){
++            if(p==origin)continue;float hit=0,risk=0;bool touches=false;
++            for(const auto& f:foes){
++                const bool affected=cheb(p,f.position())<=1;
++                const float damage=affected?std::max(0.0f,own.heartDash*f.mitigation-f.shield):0;
++                const bool kill=damage>=f.info.health;
++                if(affected){touches=true;hit+=std::min(f.info.health,damage)+(kill?120+f.bag*2:0);}
++                if(!kill){const bool disabled=affected&&f.info.type!=7;risk+=v1Response(f,p,0,disabled);if(!(f.info.state&32))risk+=v1Response(f,p,1);}
++                if(affected&&f.info.type==9)risk+=.2f*f.info.focus;
++            }
++            risk=std::max(0.0f,risk*own.mitigation-own.shield);
++            if(!touches||risk>=selfInfo.health*.8f)continue;
++            const float value=hit-risk*(own.bag?1.7f:1.1f);
++            if(value>bestValue+10){bestValue=value;landing=p;}
++        }
++        if(landing!=origin&&enough(23000))try{
++            if(ACT(v1Cast(1,0,0,landing))){
++                castThisTurn=movedThisTurn=true;previousTile=origin;
++                for(const auto& f:foes)if(cheb(f.position(),landing)<=1&&me.can_attack()){
++                    bc::detail::champion_info now{};
++                    if(!bc::detail::sdk_champion(f.id,&now)&&(now.state&1)&&bc::vision::champion_tiles(team::enemy).is_set({now.x,now.y})){
++                        ACT(v1Attack(f.id));attackedThisTurn=true;break;
++                    }
++                }
++                releaseCapture();stage="v36-heart-control";return 1;
++            }
++        }catch(const TurnAbort&){throw;}catch(...){}
++    }
++
+     struct Plan{const V1Body* target=nullptr;vec2 move;int spell=-1;bool reset=false;float value=0,damage=0;bool kill=false;};
+     Plan best;best.move=origin;
+     std::vector<const V1Body*> choices;for(const auto& f:foes)choices.push_back(&f);
+@@ -159,6 +195,9 @@
+         return -1;
+     }
+     const auto& target=*best.target;bool acted=false;
++    // Source position is not a destination visibility test. A newly revealed
++    // occupant may block a planned walk even when the old mask was clear.
++    if(best.move!=origin&&(!me.can_move()||blockedNow().is_set(best.move)))return 0;
+     if(best.move!=origin){try{if(!ACT(me.move_absolute(best.move)))return 0;movedThisTurn=acted=true;previousTile=origin;}catch(const TurnAbort&){throw;}catch(...){return 0;}}
+     auto basic=[&](){bc::detail::champion_info now{};if(bc::detail::sdk_champion(target.id,&now)||!(now.state&1))return false;
+         if(!me.can_attack()||cheb(me.position(),{now.x,now.y})>me.attack_range())return false;

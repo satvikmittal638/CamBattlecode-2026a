@@ -1,0 +1,32 @@
+[
+  {
+    "command": "hdiutil",
+    "exit": 0,
+    "output": "expected CRC32 $E335F549\n/dev/disk4          \tGUID_partition_scheme          \t\n/dev/disk4s1        \tApple_HFS                      \t/private/tmp/rea-hopper-verified-udtvezti/mounted\nhdiutil: WARNING: 'hdiutil attach -readonly -nobrowse -mountpoint ...' is deprecated. Please use 'diskutil image attach --readOnly --mountOptions nobrowse --mountPoint ...' instead.\n"
+  },
+  {
+    "command": "codesign",
+    "exit": 0,
+    "output": ""
+  },
+  {
+    "command": "codesign",
+    "exit": 0,
+    "output": ""
+  },
+  {
+    "command": "ditto",
+    "exit": 0,
+    "output": ""
+  },
+  {
+    "command": "codesign",
+    "exit": 0,
+    "output": ""
+  },
+  {
+    "command": "hdiutil",
+    "exit": 0,
+    "output": "\"disk4\" ejected.\nhdiutil: WARNING: 'hdiutil detach ...' is deprecated. Please use 'diskutil eject ...' instead.\n"
+  }
+]

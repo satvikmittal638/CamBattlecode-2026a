@@ -1,0 +1,15 @@
+{
+  "bot": "prism-tempo",
+  "reason": "Alternative companion/cycle development comparison, selected before validation against v27/v54/Kratos; earlier balanced candidate failed holdout and is rejected.",
+  "development": {
+    "games": 60,
+    "wins": 37,
+    "meanMargin": 119.81666666666666,
+    "heavyLosses": 12,
+    "faults": 0,
+    "errors": 0
+  },
+  "validationCriteria": "Complete native games; no bot faults/errors/source mutation; wins and mean margin at least frozen active v58. Report v57 separately.",
+  "validationPhase": "tempo",
+  "liveExperimentAuthorization": "User explicitly notes that slightly weaker local results may outperform on the live leaderboard. Local outcomes are diagnostic, not a mandatory superiority gate. Upload requested strongest Prism candidate; evaluate live."
+}

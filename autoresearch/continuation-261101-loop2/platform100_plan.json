@@ -1,0 +1,37 @@
+{
+  "design": "100 candidate games, two distinct opponent pools; exact pinned opponent versions from original114 controls;50near/50half;70weak/30strong; saved controls reused rather than repeated deterministic games. Second pool previously inspected, not a blinded holdout.",
+  "arms": [
+    {
+      "baseline": "s21_v114",
+      "candidate": "s21_v145",
+      "plan": "autoresearch/online_plan_s21.json",
+      "source": "s21_v114",
+      "baselineWins": 17,
+      "rank": 102,
+      "counts": {
+        "near": 25,
+        "half": 25
+      },
+      "classes": {
+        "weak": 35,
+        "strong": 15
+      }
+    },
+    {
+      "baseline": "s20_v114",
+      "candidate": "s19_v145",
+      "plan": "autoresearch/online_plan_s19.json",
+      "source": "s20_v114",
+      "baselineWins": 11,
+      "rank": 99,
+      "counts": {
+        "near": 25,
+        "half": 25
+      },
+      "classes": {
+        "weak": 35,
+        "strong": 15
+      }
+    }
+  ]
+}

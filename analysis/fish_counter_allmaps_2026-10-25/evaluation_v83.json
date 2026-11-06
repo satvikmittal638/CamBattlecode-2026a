@@ -1,0 +1,2188 @@
+{
+  "at": "2026-10-25T10:23:21.564Z",
+  "version": 83,
+  "labels": [
+    "atlas08"
+  ],
+  "games": 15,
+  "distinctCells": 15,
+  "wins": 4,
+  "winRate": 0.26666666666666666,
+  "balancedMatrixComplete": false,
+  "targetWinRateReached": false,
+  "mapsWithWin": 4,
+  "mapsWonBothSides": 0,
+  "missing": [
+    {
+      "map": "00ambush",
+      "side": "b"
+    },
+    {
+      "map": "00collision",
+      "side": "a"
+    },
+    {
+      "map": "00contest",
+      "side": "b"
+    },
+    {
+      "map": "00corners",
+      "side": "a"
+    },
+    {
+      "map": "00eight",
+      "side": "b"
+    },
+    {
+      "map": "00elkring",
+      "side": "a"
+    },
+    {
+      "map": "00expanse",
+      "side": "b"
+    },
+    {
+      "map": "00fragment",
+      "side": "a"
+    },
+    {
+      "map": "00gem_fields",
+      "side": "b"
+    },
+    {
+      "map": "00gemfight",
+      "side": "a"
+    },
+    {
+      "map": "00great_wall",
+      "side": "b"
+    },
+    {
+      "map": "00interlock",
+      "side": "a"
+    },
+    {
+      "map": "00lanes",
+      "side": "b"
+    },
+    {
+      "map": "00lost_world",
+      "side": "a"
+    },
+    {
+      "map": "00monolith",
+      "side": "b"
+    },
+    {
+      "map": "00packs",
+      "side": "a"
+    },
+    {
+      "map": "00packs",
+      "side": "b"
+    },
+    {
+      "map": "00pilgrimage",
+      "side": "a"
+    },
+    {
+      "map": "00pilgrimage",
+      "side": "b"
+    },
+    {
+      "map": "00quadrants",
+      "side": "a"
+    },
+    {
+      "map": "00quadrants",
+      "side": "b"
+    },
+    {
+      "map": "00reverse_spiral",
+      "side": "a"
+    },
+    {
+      "map": "00reverse_spiral",
+      "side": "b"
+    },
+    {
+      "map": "00road_of_riches",
+      "side": "a"
+    },
+    {
+      "map": "00road_of_riches",
+      "side": "b"
+    },
+    {
+      "map": "00rows",
+      "side": "a"
+    },
+    {
+      "map": "00rows",
+      "side": "b"
+    },
+    {
+      "map": "00rushbait_v2",
+      "side": "a"
+    },
+    {
+      "map": "00rushbait_v2",
+      "side": "b"
+    },
+    {
+      "map": "00split",
+      "side": "a"
+    },
+    {
+      "map": "00split",
+      "side": "b"
+    },
+    {
+      "map": "00stampede",
+      "side": "a"
+    },
+    {
+      "map": "00stampede",
+      "side": "b"
+    },
+    {
+      "map": "00swirl",
+      "side": "a"
+    },
+    {
+      "map": "00swirl",
+      "side": "b"
+    },
+    {
+      "map": "01big_world",
+      "side": "a"
+    },
+    {
+      "map": "01big_world",
+      "side": "b"
+    },
+    {
+      "map": "01boss_battle",
+      "side": "a"
+    },
+    {
+      "map": "01boss_battle",
+      "side": "b"
+    },
+    {
+      "map": "01broken_curve",
+      "side": "a"
+    },
+    {
+      "map": "01broken_curve",
+      "side": "b"
+    },
+    {
+      "map": "01concentrated_wealth",
+      "side": "a"
+    },
+    {
+      "map": "01concentrated_wealth",
+      "side": "b"
+    },
+    {
+      "map": "01corridors",
+      "side": "a"
+    },
+    {
+      "map": "01corridors",
+      "side": "b"
+    },
+    {
+      "map": "01elk_arena",
+      "side": "a"
+    },
+    {
+      "map": "01elk_arena",
+      "side": "b"
+    },
+    {
+      "map": "01fracture",
+      "side": "a"
+    },
+    {
+      "map": "01fracture",
+      "side": "b"
+    },
+    {
+      "map": "01gold_rush",
+      "side": "a"
+    },
+    {
+      "map": "01gold_rush",
+      "side": "b"
+    },
+    {
+      "map": "01hooks",
+      "side": "a"
+    },
+    {
+      "map": "01hooks",
+      "side": "b"
+    },
+    {
+      "map": "01islands",
+      "side": "a"
+    },
+    {
+      "map": "01islands",
+      "side": "b"
+    },
+    {
+      "map": "01shortcut",
+      "side": "a"
+    },
+    {
+      "map": "01shortcut",
+      "side": "b"
+    },
+    {
+      "map": "01starfish",
+      "side": "a"
+    },
+    {
+      "map": "01starfish",
+      "side": "b"
+    },
+    {
+      "map": "01starvation",
+      "side": "a"
+    },
+    {
+      "map": "01starvation",
+      "side": "b"
+    },
+    {
+      "map": "01the_farm",
+      "side": "a"
+    },
+    {
+      "map": "01the_farm",
+      "side": "b"
+    },
+    {
+      "map": "01yellow_brick_road",
+      "side": "a"
+    },
+    {
+      "map": "01yellow_brick_road",
+      "side": "b"
+    }
+  ],
+  "losses": [
+    {
+      "matchId": "14c6169f-1d5c-407a-879e-7fd34f71c85a",
+      "groupId": "4fac68a8-2bda-4252-bd6b-2d59a32fd634",
+      "createdAt": "2026-10-25T10:21:30.512Z",
+      "map": "00ambush",
+      "side": "a",
+      "result": "loss",
+      "score": 131,
+      "oppScore": 1011,
+      "myDraft": [
+        "1",
+        "11",
+        "2",
+        "10",
+        "6"
+      ],
+      "oppDraft": [
+        "1",
+        "2",
+        "11",
+        "9",
+        "3"
+      ],
+      "opponent": "Intercontinental Fish",
+      "opponentId": "1890540d-1ffc-4847-adbf-d0d08772f268",
+      "rounds": 1037,
+      "kind": "unranked",
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "version": 83,
+      "file": "00ambush/14c6169f-1d5c-407a-879e-7fd34f71c85a.repl26a"
+    },
+    {
+      "matchId": "ebd1830b-59dc-44f6-8862-ac9f3192cac3",
+      "groupId": "4fac68a8-2bda-4252-bd6b-2d59a32fd634",
+      "createdAt": "2026-10-25T10:21:30.540Z",
+      "map": "00collision",
+      "side": "b",
+      "result": "loss",
+      "score": 893,
+      "oppScore": 1042,
+      "myDraft": [
+        "6",
+        "2",
+        "10"
+      ],
+      "oppDraft": [
+        "1",
+        "11",
+        "6"
+      ],
+      "opponent": "Intercontinental Fish",
+      "opponentId": "1890540d-1ffc-4847-adbf-d0d08772f268",
+      "rounds": 1295,
+      "kind": "unranked",
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "version": 83,
+      "file": "00collision/ebd1830b-59dc-44f6-8862-ac9f3192cac3.repl26a"
+    },
+    {
+      "matchId": "7d76b0f6-0cc2-4fbc-826a-2d6e87c8c357",
+      "groupId": "4fac68a8-2bda-4252-bd6b-2d59a32fd634",
+      "createdAt": "2026-10-25T10:21:30.553Z",
+      "map": "00contest",
+      "side": "a",
+      "result": "loss",
+      "score": 400,
+      "oppScore": 1000,
+      "myDraft": [
+        "1",
+        "2",
+        "11",
+        "10",
+        "6"
+      ],
+      "oppDraft": [
+        "1",
+        "2",
+        "11",
+        "3",
+        "6"
+      ],
+      "opponent": "Intercontinental Fish",
+      "opponentId": "1890540d-1ffc-4847-adbf-d0d08772f268",
+      "rounds": 1838,
+      "kind": "unranked",
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "version": 83,
+      "file": "00contest/7d76b0f6-0cc2-4fbc-826a-2d6e87c8c357.repl26a"
+    },
+    {
+      "matchId": "7d0b5f25-4916-4faa-8084-3bc6c5f73072",
+      "groupId": "4fac68a8-2bda-4252-bd6b-2d59a32fd634",
+      "createdAt": "2026-10-25T10:21:30.564Z",
+      "map": "00corners",
+      "side": "b",
+      "result": "loss",
+      "score": 0,
+      "oppScore": 1015,
+      "myDraft": [
+        "1",
+        "11",
+        "2",
+        "10",
+        "6"
+      ],
+      "oppDraft": [
+        "1",
+        "2",
+        "11",
+        "3",
+        "6"
+      ],
+      "opponent": "Intercontinental Fish",
+      "opponentId": "1890540d-1ffc-4847-adbf-d0d08772f268",
+      "rounds": 699,
+      "kind": "unranked",
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "version": 83,
+      "file": "00corners/7d0b5f25-4916-4faa-8084-3bc6c5f73072.repl26a"
+    },
+    {
+      "matchId": "e2818070-cbba-425b-9d75-51da914499e0",
+      "groupId": "4fac68a8-2bda-4252-bd6b-2d59a32fd634",
+      "createdAt": "2026-10-25T10:21:30.575Z",
+      "map": "00eight",
+      "side": "a",
+      "result": "loss",
+      "score": 807,
+      "oppScore": 1012,
+      "myDraft": [
+        "1",
+        "2",
+        "11",
+        "10",
+        "6"
+      ],
+      "oppDraft": [
+        "1",
+        "2",
+        "11",
+        "3",
+        "7"
+      ],
+      "opponent": "Intercontinental Fish",
+      "opponentId": "1890540d-1ffc-4847-adbf-d0d08772f268",
+      "rounds": 1086,
+      "kind": "unranked",
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "version": 83,
+      "file": "00eight/e2818070-cbba-425b-9d75-51da914499e0.repl26a"
+    },
+    {
+      "matchId": "69bf5199-8221-406f-a01c-869b0c99c96a",
+      "groupId": "46630522-76ff-4a67-94ee-a804a781b905",
+      "createdAt": "2026-10-25T10:21:31.960Z",
+      "map": "00elkring",
+      "side": "b",
+      "result": "loss",
+      "score": 22,
+      "oppScore": 1012,
+      "myDraft": [
+        "1",
+        "11",
+        "2",
+        "10",
+        "6"
+      ],
+      "oppDraft": [
+        "1",
+        "2",
+        "11",
+        "3",
+        "6"
+      ],
+      "opponent": "Intercontinental Fish",
+      "opponentId": "1890540d-1ffc-4847-adbf-d0d08772f268",
+      "rounds": 631,
+      "kind": "unranked",
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "version": 83,
+      "file": "00elkring/69bf5199-8221-406f-a01c-869b0c99c96a.repl26a"
+    },
+    {
+      "matchId": "e1a83893-0281-4571-8941-83519f0148c7",
+      "groupId": "46630522-76ff-4a67-94ee-a804a781b905",
+      "createdAt": "2026-10-25T10:21:32.013Z",
+      "map": "00fragment",
+      "side": "b",
+      "result": "loss",
+      "score": 26,
+      "oppScore": 1018,
+      "myDraft": [
+        "1",
+        "11",
+        "2"
+      ],
+      "oppDraft": [
+        "1",
+        "11",
+        "6"
+      ],
+      "opponent": "Intercontinental Fish",
+      "opponentId": "1890540d-1ffc-4847-adbf-d0d08772f268",
+      "rounds": 1331,
+      "kind": "unranked",
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "version": 83,
+      "file": "00fragment/e1a83893-0281-4571-8941-83519f0148c7.repl26a"
+    },
+    {
+      "matchId": "0b2b2d47-3aa1-4304-87ab-ed6a5541d0c2",
+      "groupId": "46630522-76ff-4a67-94ee-a804a781b905",
+      "createdAt": "2026-10-25T10:21:32.056Z",
+      "map": "00gemfight",
+      "side": "b",
+      "result": "loss",
+      "score": 0,
+      "oppScore": 1057,
+      "myDraft": [
+        "5",
+        "6",
+        "0",
+        "11"
+      ],
+      "oppDraft": [
+        "1",
+        "2",
+        "11",
+        "3"
+      ],
+      "opponent": "Intercontinental Fish",
+      "opponentId": "1890540d-1ffc-4847-adbf-d0d08772f268",
+      "rounds": 638,
+      "kind": "unranked",
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "version": 83,
+      "file": "00gemfight/0b2b2d47-3aa1-4304-87ab-ed6a5541d0c2.repl26a"
+    },
+    {
+      "matchId": "312e8c40-db00-41be-bbb1-dfbeea7fbc5b",
+      "groupId": "f5d783b0-1a93-4b22-b7ee-c6897d75f5e6",
+      "createdAt": "2026-10-25T10:21:33.060Z",
+      "map": "00interlock",
+      "side": "b",
+      "result": "loss",
+      "score": 60,
+      "oppScore": 1000,
+      "myDraft": [
+        "1",
+        "11",
+        "2",
+        "10"
+      ],
+      "oppDraft": [
+        "1",
+        "2",
+        "11",
+        "3"
+      ],
+      "opponent": "Intercontinental Fish",
+      "opponentId": "1890540d-1ffc-4847-adbf-d0d08772f268",
+      "rounds": 829,
+      "kind": "unranked",
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "version": 83,
+      "file": "00interlock/312e8c40-db00-41be-bbb1-dfbeea7fbc5b.repl26a"
+    },
+    {
+      "matchId": "4a882f77-d2cc-49ec-ad9f-b7bb8bd6db81",
+      "groupId": "f5d783b0-1a93-4b22-b7ee-c6897d75f5e6",
+      "createdAt": "2026-10-25T10:21:33.097Z",
+      "map": "00lanes",
+      "side": "a",
+      "result": "loss",
+      "score": 26,
+      "oppScore": 1014,
+      "myDraft": [
+        "1",
+        "2",
+        "11",
+        "10",
+        "6"
+      ],
+      "oppDraft": [
+        "1",
+        "2",
+        "11",
+        "3",
+        "6"
+      ],
+      "opponent": "Intercontinental Fish",
+      "opponentId": "1890540d-1ffc-4847-adbf-d0d08772f268",
+      "rounds": 838,
+      "kind": "unranked",
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "version": 83,
+      "file": "00lanes/4a882f77-d2cc-49ec-ad9f-b7bb8bd6db81.repl26a"
+    },
+    {
+      "matchId": "eb3d9fd7-81d6-4e28-b043-e84400ff3157",
+      "groupId": "f5d783b0-1a93-4b22-b7ee-c6897d75f5e6",
+      "createdAt": "2026-10-25T10:21:33.110Z",
+      "map": "00lost_world",
+      "side": "b",
+      "result": "loss",
+      "score": 10,
+      "oppScore": 1000,
+      "myDraft": [
+        "1",
+        "11",
+        "2",
+        "10",
+        "6"
+      ],
+      "oppDraft": [
+        "1",
+        "2",
+        "11",
+        "3",
+        "6"
+      ],
+      "opponent": "Intercontinental Fish",
+      "opponentId": "1890540d-1ffc-4847-adbf-d0d08772f268",
+      "rounds": 394,
+      "kind": "unranked",
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "version": 83,
+      "file": "00lost_world/eb3d9fd7-81d6-4e28-b043-e84400ff3157.repl26a"
+    }
+  ],
+  "cells": [
+    {
+      "map": "00ambush",
+      "side": "a",
+      "matches": [
+        {
+          "matchId": "14c6169f-1d5c-407a-879e-7fd34f71c85a",
+          "groupId": "4fac68a8-2bda-4252-bd6b-2d59a32fd634",
+          "createdAt": "2026-10-25T10:21:30.512Z",
+          "map": "00ambush",
+          "side": "a",
+          "result": "loss",
+          "score": 131,
+          "oppScore": 1011,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "11",
+            "9",
+            "3"
+          ],
+          "opponent": "Intercontinental Fish",
+          "opponentId": "1890540d-1ffc-4847-adbf-d0d08772f268",
+          "rounds": 1037,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 83,
+          "file": "00ambush/14c6169f-1d5c-407a-879e-7fd34f71c85a.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00ambush",
+      "side": "b",
+      "matches": []
+    },
+    {
+      "map": "00collision",
+      "side": "a",
+      "matches": []
+    },
+    {
+      "map": "00collision",
+      "side": "b",
+      "matches": [
+        {
+          "matchId": "ebd1830b-59dc-44f6-8862-ac9f3192cac3",
+          "groupId": "4fac68a8-2bda-4252-bd6b-2d59a32fd634",
+          "createdAt": "2026-10-25T10:21:30.540Z",
+          "map": "00collision",
+          "side": "b",
+          "result": "loss",
+          "score": 893,
+          "oppScore": 1042,
+          "myDraft": [
+            "6",
+            "2",
+            "10"
+          ],
+          "oppDraft": [
+            "1",
+            "11",
+            "6"
+          ],
+          "opponent": "Intercontinental Fish",
+          "opponentId": "1890540d-1ffc-4847-adbf-d0d08772f268",
+          "rounds": 1295,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 83,
+          "file": "00collision/ebd1830b-59dc-44f6-8862-ac9f3192cac3.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00contest",
+      "side": "a",
+      "matches": [
+        {
+          "matchId": "7d76b0f6-0cc2-4fbc-826a-2d6e87c8c357",
+          "groupId": "4fac68a8-2bda-4252-bd6b-2d59a32fd634",
+          "createdAt": "2026-10-25T10:21:30.553Z",
+          "map": "00contest",
+          "side": "a",
+          "result": "loss",
+          "score": 400,
+          "oppScore": 1000,
+          "myDraft": [
+            "1",
+            "2",
+            "11",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "11",
+            "3",
+            "6"
+          ],
+          "opponent": "Intercontinental Fish",
+          "opponentId": "1890540d-1ffc-4847-adbf-d0d08772f268",
+          "rounds": 1838,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 83,
+          "file": "00contest/7d76b0f6-0cc2-4fbc-826a-2d6e87c8c357.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00contest",
+      "side": "b",
+      "matches": []
+    },
+    {
+      "map": "00corners",
+      "side": "a",
+      "matches": []
+    },
+    {
+      "map": "00corners",
+      "side": "b",
+      "matches": [
+        {
+          "matchId": "7d0b5f25-4916-4faa-8084-3bc6c5f73072",
+          "groupId": "4fac68a8-2bda-4252-bd6b-2d59a32fd634",
+          "createdAt": "2026-10-25T10:21:30.564Z",
+          "map": "00corners",
+          "side": "b",
+          "result": "loss",
+          "score": 0,
+          "oppScore": 1015,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "11",
+            "3",
+            "6"
+          ],
+          "opponent": "Intercontinental Fish",
+          "opponentId": "1890540d-1ffc-4847-adbf-d0d08772f268",
+          "rounds": 699,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 83,
+          "file": "00corners/7d0b5f25-4916-4faa-8084-3bc6c5f73072.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00eight",
+      "side": "a",
+      "matches": [
+        {
+          "matchId": "e2818070-cbba-425b-9d75-51da914499e0",
+          "groupId": "4fac68a8-2bda-4252-bd6b-2d59a32fd634",
+          "createdAt": "2026-10-25T10:21:30.575Z",
+          "map": "00eight",
+          "side": "a",
+          "result": "loss",
+          "score": 807,
+          "oppScore": 1012,
+          "myDraft": [
+            "1",
+            "2",
+            "11",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "11",
+            "3",
+            "7"
+          ],
+          "opponent": "Intercontinental Fish",
+          "opponentId": "1890540d-1ffc-4847-adbf-d0d08772f268",
+          "rounds": 1086,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 83,
+          "file": "00eight/e2818070-cbba-425b-9d75-51da914499e0.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00eight",
+      "side": "b",
+      "matches": []
+    },
+    {
+      "map": "00elkring",
+      "side": "a",
+      "matches": []
+    },
+    {
+      "map": "00elkring",
+      "side": "b",
+      "matches": [
+        {
+          "matchId": "69bf5199-8221-406f-a01c-869b0c99c96a",
+          "groupId": "46630522-76ff-4a67-94ee-a804a781b905",
+          "createdAt": "2026-10-25T10:21:31.960Z",
+          "map": "00elkring",
+          "side": "b",
+          "result": "loss",
+          "score": 22,
+          "oppScore": 1012,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "11",
+            "3",
+            "6"
+          ],
+          "opponent": "Intercontinental Fish",
+          "opponentId": "1890540d-1ffc-4847-adbf-d0d08772f268",
+          "rounds": 631,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 83,
+          "file": "00elkring/69bf5199-8221-406f-a01c-869b0c99c96a.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00expanse",
+      "side": "a",
+      "matches": [
+        {
+          "matchId": "2b462daf-3fa9-4a0d-9765-d4ad95237c27",
+          "groupId": "46630522-76ff-4a67-94ee-a804a781b905",
+          "createdAt": "2026-10-25T10:21:31.988Z",
+          "map": "00expanse",
+          "side": "a",
+          "result": "win",
+          "score": 1012,
+          "oppScore": 905,
+          "myDraft": [
+            "1",
+            "2",
+            "11",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "11",
+            "9",
+            "3"
+          ],
+          "opponent": "Intercontinental Fish",
+          "opponentId": "1890540d-1ffc-4847-adbf-d0d08772f268",
+          "rounds": 889,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 83,
+          "file": "00expanse/2b462daf-3fa9-4a0d-9765-d4ad95237c27.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00expanse",
+      "side": "b",
+      "matches": []
+    },
+    {
+      "map": "00fragment",
+      "side": "a",
+      "matches": []
+    },
+    {
+      "map": "00fragment",
+      "side": "b",
+      "matches": [
+        {
+          "matchId": "e1a83893-0281-4571-8941-83519f0148c7",
+          "groupId": "46630522-76ff-4a67-94ee-a804a781b905",
+          "createdAt": "2026-10-25T10:21:32.013Z",
+          "map": "00fragment",
+          "side": "b",
+          "result": "loss",
+          "score": 26,
+          "oppScore": 1018,
+          "myDraft": [
+            "1",
+            "11",
+            "2"
+          ],
+          "oppDraft": [
+            "1",
+            "11",
+            "6"
+          ],
+          "opponent": "Intercontinental Fish",
+          "opponentId": "1890540d-1ffc-4847-adbf-d0d08772f268",
+          "rounds": 1331,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 83,
+          "file": "00fragment/e1a83893-0281-4571-8941-83519f0148c7.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00gem_fields",
+      "side": "a",
+      "matches": [
+        {
+          "matchId": "68c90cef-9e5b-4878-923d-40605b1a4cc3",
+          "groupId": "46630522-76ff-4a67-94ee-a804a781b905",
+          "createdAt": "2026-10-25T10:21:32.031Z",
+          "map": "00gem_fields",
+          "side": "a",
+          "result": "win",
+          "score": 1003,
+          "oppScore": 776,
+          "myDraft": [
+            "1",
+            "2",
+            "11",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "11",
+            "3",
+            "6"
+          ],
+          "opponent": "Intercontinental Fish",
+          "opponentId": "1890540d-1ffc-4847-adbf-d0d08772f268",
+          "rounds": 596,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 83,
+          "file": "00gem_fields/68c90cef-9e5b-4878-923d-40605b1a4cc3.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00gem_fields",
+      "side": "b",
+      "matches": []
+    },
+    {
+      "map": "00gemfight",
+      "side": "a",
+      "matches": []
+    },
+    {
+      "map": "00gemfight",
+      "side": "b",
+      "matches": [
+        {
+          "matchId": "0b2b2d47-3aa1-4304-87ab-ed6a5541d0c2",
+          "groupId": "46630522-76ff-4a67-94ee-a804a781b905",
+          "createdAt": "2026-10-25T10:21:32.056Z",
+          "map": "00gemfight",
+          "side": "b",
+          "result": "loss",
+          "score": 0,
+          "oppScore": 1057,
+          "myDraft": [
+            "5",
+            "6",
+            "0",
+            "11"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "11",
+            "3"
+          ],
+          "opponent": "Intercontinental Fish",
+          "opponentId": "1890540d-1ffc-4847-adbf-d0d08772f268",
+          "rounds": 638,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 83,
+          "file": "00gemfight/0b2b2d47-3aa1-4304-87ab-ed6a5541d0c2.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00great_wall",
+      "side": "a",
+      "matches": [
+        {
+          "matchId": "ef79fbf4-e3d5-4ca5-90a4-b042f363052d",
+          "groupId": "f5d783b0-1a93-4b22-b7ee-c6897d75f5e6",
+          "createdAt": "2026-10-25T10:21:33.043Z",
+          "map": "00great_wall",
+          "side": "a",
+          "result": "win",
+          "score": 1039,
+          "oppScore": 883,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "11",
+            "3",
+            "6"
+          ],
+          "opponent": "Intercontinental Fish",
+          "opponentId": "1890540d-1ffc-4847-adbf-d0d08772f268",
+          "rounds": 926,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 83,
+          "file": "00great_wall/ef79fbf4-e3d5-4ca5-90a4-b042f363052d.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00great_wall",
+      "side": "b",
+      "matches": []
+    },
+    {
+      "map": "00interlock",
+      "side": "a",
+      "matches": []
+    },
+    {
+      "map": "00interlock",
+      "side": "b",
+      "matches": [
+        {
+          "matchId": "312e8c40-db00-41be-bbb1-dfbeea7fbc5b",
+          "groupId": "f5d783b0-1a93-4b22-b7ee-c6897d75f5e6",
+          "createdAt": "2026-10-25T10:21:33.060Z",
+          "map": "00interlock",
+          "side": "b",
+          "result": "loss",
+          "score": 60,
+          "oppScore": 1000,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "11",
+            "3"
+          ],
+          "opponent": "Intercontinental Fish",
+          "opponentId": "1890540d-1ffc-4847-adbf-d0d08772f268",
+          "rounds": 829,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 83,
+          "file": "00interlock/312e8c40-db00-41be-bbb1-dfbeea7fbc5b.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00lanes",
+      "side": "a",
+      "matches": [
+        {
+          "matchId": "4a882f77-d2cc-49ec-ad9f-b7bb8bd6db81",
+          "groupId": "f5d783b0-1a93-4b22-b7ee-c6897d75f5e6",
+          "createdAt": "2026-10-25T10:21:33.097Z",
+          "map": "00lanes",
+          "side": "a",
+          "result": "loss",
+          "score": 26,
+          "oppScore": 1014,
+          "myDraft": [
+            "1",
+            "2",
+            "11",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "11",
+            "3",
+            "6"
+          ],
+          "opponent": "Intercontinental Fish",
+          "opponentId": "1890540d-1ffc-4847-adbf-d0d08772f268",
+          "rounds": 838,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 83,
+          "file": "00lanes/4a882f77-d2cc-49ec-ad9f-b7bb8bd6db81.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00lanes",
+      "side": "b",
+      "matches": []
+    },
+    {
+      "map": "00lost_world",
+      "side": "a",
+      "matches": []
+    },
+    {
+      "map": "00lost_world",
+      "side": "b",
+      "matches": [
+        {
+          "matchId": "eb3d9fd7-81d6-4e28-b043-e84400ff3157",
+          "groupId": "f5d783b0-1a93-4b22-b7ee-c6897d75f5e6",
+          "createdAt": "2026-10-25T10:21:33.110Z",
+          "map": "00lost_world",
+          "side": "b",
+          "result": "loss",
+          "score": 10,
+          "oppScore": 1000,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "11",
+            "3",
+            "6"
+          ],
+          "opponent": "Intercontinental Fish",
+          "opponentId": "1890540d-1ffc-4847-adbf-d0d08772f268",
+          "rounds": 394,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 83,
+          "file": "00lost_world/eb3d9fd7-81d6-4e28-b043-e84400ff3157.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00monolith",
+      "side": "a",
+      "matches": [
+        {
+          "matchId": "845bd31a-9fc7-4435-baf5-74bb946607dd",
+          "groupId": "f5d783b0-1a93-4b22-b7ee-c6897d75f5e6",
+          "createdAt": "2026-10-25T10:21:33.136Z",
+          "map": "00monolith",
+          "side": "a",
+          "result": "win",
+          "score": 1012,
+          "oppScore": 861,
+          "myDraft": [
+            "6",
+            "2",
+            "0",
+            "1",
+            "9"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "11",
+            "3",
+            "6"
+          ],
+          "opponent": "Intercontinental Fish",
+          "opponentId": "1890540d-1ffc-4847-adbf-d0d08772f268",
+          "rounds": 935,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 83,
+          "file": "00monolith/845bd31a-9fc7-4435-baf5-74bb946607dd.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00monolith",
+      "side": "b",
+      "matches": []
+    },
+    {
+      "map": "00packs",
+      "side": "a",
+      "matches": []
+    },
+    {
+      "map": "00packs",
+      "side": "b",
+      "matches": []
+    },
+    {
+      "map": "00pilgrimage",
+      "side": "a",
+      "matches": []
+    },
+    {
+      "map": "00pilgrimage",
+      "side": "b",
+      "matches": []
+    },
+    {
+      "map": "00quadrants",
+      "side": "a",
+      "matches": []
+    },
+    {
+      "map": "00quadrants",
+      "side": "b",
+      "matches": []
+    },
+    {
+      "map": "00reverse_spiral",
+      "side": "a",
+      "matches": []
+    },
+    {
+      "map": "00reverse_spiral",
+      "side": "b",
+      "matches": []
+    },
+    {
+      "map": "00road_of_riches",
+      "side": "a",
+      "matches": []
+    },
+    {
+      "map": "00road_of_riches",
+      "side": "b",
+      "matches": []
+    },
+    {
+      "map": "00rows",
+      "side": "a",
+      "matches": []
+    },
+    {
+      "map": "00rows",
+      "side": "b",
+      "matches": []
+    },
+    {
+      "map": "00rushbait_v2",
+      "side": "a",
+      "matches": []
+    },
+    {
+      "map": "00rushbait_v2",
+      "side": "b",
+      "matches": []
+    },
+    {
+      "map": "00split",
+      "side": "a",
+      "matches": []
+    },
+    {
+      "map": "00split",
+      "side": "b",
+      "matches": []
+    },
+    {
+      "map": "00stampede",
+      "side": "a",
+      "matches": []
+    },
+    {
+      "map": "00stampede",
+      "side": "b",
+      "matches": []
+    },
+    {
+      "map": "00swirl",
+      "side": "a",
+      "matches": []
+    },
+    {
+      "map": "00swirl",
+      "side": "b",
+      "matches": []
+    },
+    {
+      "map": "01big_world",
+      "side": "a",
+      "matches": []
+    },
+    {
+      "map": "01big_world",
+      "side": "b",
+      "matches": []
+    },
+    {
+      "map": "01boss_battle",
+      "side": "a",
+      "matches": []
+    },
+    {
+      "map": "01boss_battle",
+      "side": "b",
+      "matches": []
+    },
+    {
+      "map": "01broken_curve",
+      "side": "a",
+      "matches": []
+    },
+    {
+      "map": "01broken_curve",
+      "side": "b",
+      "matches": []
+    },
+    {
+      "map": "01concentrated_wealth",
+      "side": "a",
+      "matches": []
+    },
+    {
+      "map": "01concentrated_wealth",
+      "side": "b",
+      "matches": []
+    },
+    {
+      "map": "01corridors",
+      "side": "a",
+      "matches": []
+    },
+    {
+      "map": "01corridors",
+      "side": "b",
+      "matches": []
+    },
+    {
+      "map": "01elk_arena",
+      "side": "a",
+      "matches": []
+    },
+    {
+      "map": "01elk_arena",
+      "side": "b",
+      "matches": []
+    },
+    {
+      "map": "01fracture",
+      "side": "a",
+      "matches": []
+    },
+    {
+      "map": "01fracture",
+      "side": "b",
+      "matches": []
+    },
+    {
+      "map": "01gold_rush",
+      "side": "a",
+      "matches": []
+    },
+    {
+      "map": "01gold_rush",
+      "side": "b",
+      "matches": []
+    },
+    {
+      "map": "01hooks",
+      "side": "a",
+      "matches": []
+    },
+    {
+      "map": "01hooks",
+      "side": "b",
+      "matches": []
+    },
+    {
+      "map": "01islands",
+      "side": "a",
+      "matches": []
+    },
+    {
+      "map": "01islands",
+      "side": "b",
+      "matches": []
+    },
+    {
+      "map": "01shortcut",
+      "side": "a",
+      "matches": []
+    },
+    {
+      "map": "01shortcut",
+      "side": "b",
+      "matches": []
+    },
+    {
+      "map": "01starfish",
+      "side": "a",
+      "matches": []
+    },
+    {
+      "map": "01starfish",
+      "side": "b",
+      "matches": []
+    },
+    {
+      "map": "01starvation",
+      "side": "a",
+      "matches": []
+    },
+    {
+      "map": "01starvation",
+      "side": "b",
+      "matches": []
+    },
+    {
+      "map": "01the_farm",
+      "side": "a",
+      "matches": []
+    },
+    {
+      "map": "01the_farm",
+      "side": "b",
+      "matches": []
+    },
+    {
+      "map": "01yellow_brick_road",
+      "side": "a",
+      "matches": []
+    },
+    {
+      "map": "01yellow_brick_road",
+      "side": "b",
+      "matches": []
+    }
+  ],
+  "maps": [
+    {
+      "map": "00ambush",
+      "tested": 1,
+      "wins": 0,
+      "rows": [
+        {
+          "matchId": "14c6169f-1d5c-407a-879e-7fd34f71c85a",
+          "groupId": "4fac68a8-2bda-4252-bd6b-2d59a32fd634",
+          "createdAt": "2026-10-25T10:21:30.512Z",
+          "map": "00ambush",
+          "side": "a",
+          "result": "loss",
+          "score": 131,
+          "oppScore": 1011,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "11",
+            "9",
+            "3"
+          ],
+          "opponent": "Intercontinental Fish",
+          "opponentId": "1890540d-1ffc-4847-adbf-d0d08772f268",
+          "rounds": 1037,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 83,
+          "file": "00ambush/14c6169f-1d5c-407a-879e-7fd34f71c85a.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00collision",
+      "tested": 1,
+      "wins": 0,
+      "rows": [
+        {
+          "matchId": "ebd1830b-59dc-44f6-8862-ac9f3192cac3",
+          "groupId": "4fac68a8-2bda-4252-bd6b-2d59a32fd634",
+          "createdAt": "2026-10-25T10:21:30.540Z",
+          "map": "00collision",
+          "side": "b",
+          "result": "loss",
+          "score": 893,
+          "oppScore": 1042,
+          "myDraft": [
+            "6",
+            "2",
+            "10"
+          ],
+          "oppDraft": [
+            "1",
+            "11",
+            "6"
+          ],
+          "opponent": "Intercontinental Fish",
+          "opponentId": "1890540d-1ffc-4847-adbf-d0d08772f268",
+          "rounds": 1295,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 83,
+          "file": "00collision/ebd1830b-59dc-44f6-8862-ac9f3192cac3.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00contest",
+      "tested": 1,
+      "wins": 0,
+      "rows": [
+        {
+          "matchId": "7d76b0f6-0cc2-4fbc-826a-2d6e87c8c357",
+          "groupId": "4fac68a8-2bda-4252-bd6b-2d59a32fd634",
+          "createdAt": "2026-10-25T10:21:30.553Z",
+          "map": "00contest",
+          "side": "a",
+          "result": "loss",
+          "score": 400,
+          "oppScore": 1000,
+          "myDraft": [
+            "1",
+            "2",
+            "11",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "11",
+            "3",
+            "6"
+          ],
+          "opponent": "Intercontinental Fish",
+          "opponentId": "1890540d-1ffc-4847-adbf-d0d08772f268",
+          "rounds": 1838,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 83,
+          "file": "00contest/7d76b0f6-0cc2-4fbc-826a-2d6e87c8c357.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00corners",
+      "tested": 1,
+      "wins": 0,
+      "rows": [
+        {
+          "matchId": "7d0b5f25-4916-4faa-8084-3bc6c5f73072",
+          "groupId": "4fac68a8-2bda-4252-bd6b-2d59a32fd634",
+          "createdAt": "2026-10-25T10:21:30.564Z",
+          "map": "00corners",
+          "side": "b",
+          "result": "loss",
+          "score": 0,
+          "oppScore": 1015,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "11",
+            "3",
+            "6"
+          ],
+          "opponent": "Intercontinental Fish",
+          "opponentId": "1890540d-1ffc-4847-adbf-d0d08772f268",
+          "rounds": 699,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 83,
+          "file": "00corners/7d0b5f25-4916-4faa-8084-3bc6c5f73072.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00eight",
+      "tested": 1,
+      "wins": 0,
+      "rows": [
+        {
+          "matchId": "e2818070-cbba-425b-9d75-51da914499e0",
+          "groupId": "4fac68a8-2bda-4252-bd6b-2d59a32fd634",
+          "createdAt": "2026-10-25T10:21:30.575Z",
+          "map": "00eight",
+          "side": "a",
+          "result": "loss",
+          "score": 807,
+          "oppScore": 1012,
+          "myDraft": [
+            "1",
+            "2",
+            "11",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "11",
+            "3",
+            "7"
+          ],
+          "opponent": "Intercontinental Fish",
+          "opponentId": "1890540d-1ffc-4847-adbf-d0d08772f268",
+          "rounds": 1086,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 83,
+          "file": "00eight/e2818070-cbba-425b-9d75-51da914499e0.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00elkring",
+      "tested": 1,
+      "wins": 0,
+      "rows": [
+        {
+          "matchId": "69bf5199-8221-406f-a01c-869b0c99c96a",
+          "groupId": "46630522-76ff-4a67-94ee-a804a781b905",
+          "createdAt": "2026-10-25T10:21:31.960Z",
+          "map": "00elkring",
+          "side": "b",
+          "result": "loss",
+          "score": 22,
+          "oppScore": 1012,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "11",
+            "3",
+            "6"
+          ],
+          "opponent": "Intercontinental Fish",
+          "opponentId": "1890540d-1ffc-4847-adbf-d0d08772f268",
+          "rounds": 631,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 83,
+          "file": "00elkring/69bf5199-8221-406f-a01c-869b0c99c96a.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00expanse",
+      "tested": 1,
+      "wins": 1,
+      "rows": [
+        {
+          "matchId": "2b462daf-3fa9-4a0d-9765-d4ad95237c27",
+          "groupId": "46630522-76ff-4a67-94ee-a804a781b905",
+          "createdAt": "2026-10-25T10:21:31.988Z",
+          "map": "00expanse",
+          "side": "a",
+          "result": "win",
+          "score": 1012,
+          "oppScore": 905,
+          "myDraft": [
+            "1",
+            "2",
+            "11",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "11",
+            "9",
+            "3"
+          ],
+          "opponent": "Intercontinental Fish",
+          "opponentId": "1890540d-1ffc-4847-adbf-d0d08772f268",
+          "rounds": 889,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 83,
+          "file": "00expanse/2b462daf-3fa9-4a0d-9765-d4ad95237c27.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00fragment",
+      "tested": 1,
+      "wins": 0,
+      "rows": [
+        {
+          "matchId": "e1a83893-0281-4571-8941-83519f0148c7",
+          "groupId": "46630522-76ff-4a67-94ee-a804a781b905",
+          "createdAt": "2026-10-25T10:21:32.013Z",
+          "map": "00fragment",
+          "side": "b",
+          "result": "loss",
+          "score": 26,
+          "oppScore": 1018,
+          "myDraft": [
+            "1",
+            "11",
+            "2"
+          ],
+          "oppDraft": [
+            "1",
+            "11",
+            "6"
+          ],
+          "opponent": "Intercontinental Fish",
+          "opponentId": "1890540d-1ffc-4847-adbf-d0d08772f268",
+          "rounds": 1331,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 83,
+          "file": "00fragment/e1a83893-0281-4571-8941-83519f0148c7.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00gem_fields",
+      "tested": 1,
+      "wins": 1,
+      "rows": [
+        {
+          "matchId": "68c90cef-9e5b-4878-923d-40605b1a4cc3",
+          "groupId": "46630522-76ff-4a67-94ee-a804a781b905",
+          "createdAt": "2026-10-25T10:21:32.031Z",
+          "map": "00gem_fields",
+          "side": "a",
+          "result": "win",
+          "score": 1003,
+          "oppScore": 776,
+          "myDraft": [
+            "1",
+            "2",
+            "11",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "11",
+            "3",
+            "6"
+          ],
+          "opponent": "Intercontinental Fish",
+          "opponentId": "1890540d-1ffc-4847-adbf-d0d08772f268",
+          "rounds": 596,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 83,
+          "file": "00gem_fields/68c90cef-9e5b-4878-923d-40605b1a4cc3.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00gemfight",
+      "tested": 1,
+      "wins": 0,
+      "rows": [
+        {
+          "matchId": "0b2b2d47-3aa1-4304-87ab-ed6a5541d0c2",
+          "groupId": "46630522-76ff-4a67-94ee-a804a781b905",
+          "createdAt": "2026-10-25T10:21:32.056Z",
+          "map": "00gemfight",
+          "side": "b",
+          "result": "loss",
+          "score": 0,
+          "oppScore": 1057,
+          "myDraft": [
+            "5",
+            "6",
+            "0",
+            "11"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "11",
+            "3"
+          ],
+          "opponent": "Intercontinental Fish",
+          "opponentId": "1890540d-1ffc-4847-adbf-d0d08772f268",
+          "rounds": 638,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 83,
+          "file": "00gemfight/0b2b2d47-3aa1-4304-87ab-ed6a5541d0c2.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00great_wall",
+      "tested": 1,
+      "wins": 1,
+      "rows": [
+        {
+          "matchId": "ef79fbf4-e3d5-4ca5-90a4-b042f363052d",
+          "groupId": "f5d783b0-1a93-4b22-b7ee-c6897d75f5e6",
+          "createdAt": "2026-10-25T10:21:33.043Z",
+          "map": "00great_wall",
+          "side": "a",
+          "result": "win",
+          "score": 1039,
+          "oppScore": 883,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "11",
+            "3",
+            "6"
+          ],
+          "opponent": "Intercontinental Fish",
+          "opponentId": "1890540d-1ffc-4847-adbf-d0d08772f268",
+          "rounds": 926,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 83,
+          "file": "00great_wall/ef79fbf4-e3d5-4ca5-90a4-b042f363052d.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00interlock",
+      "tested": 1,
+      "wins": 0,
+      "rows": [
+        {
+          "matchId": "312e8c40-db00-41be-bbb1-dfbeea7fbc5b",
+          "groupId": "f5d783b0-1a93-4b22-b7ee-c6897d75f5e6",
+          "createdAt": "2026-10-25T10:21:33.060Z",
+          "map": "00interlock",
+          "side": "b",
+          "result": "loss",
+          "score": 60,
+          "oppScore": 1000,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "11",
+            "3"
+          ],
+          "opponent": "Intercontinental Fish",
+          "opponentId": "1890540d-1ffc-4847-adbf-d0d08772f268",
+          "rounds": 829,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 83,
+          "file": "00interlock/312e8c40-db00-41be-bbb1-dfbeea7fbc5b.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00lanes",
+      "tested": 1,
+      "wins": 0,
+      "rows": [
+        {
+          "matchId": "4a882f77-d2cc-49ec-ad9f-b7bb8bd6db81",
+          "groupId": "f5d783b0-1a93-4b22-b7ee-c6897d75f5e6",
+          "createdAt": "2026-10-25T10:21:33.097Z",
+          "map": "00lanes",
+          "side": "a",
+          "result": "loss",
+          "score": 26,
+          "oppScore": 1014,
+          "myDraft": [
+            "1",
+            "2",
+            "11",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "11",
+            "3",
+            "6"
+          ],
+          "opponent": "Intercontinental Fish",
+          "opponentId": "1890540d-1ffc-4847-adbf-d0d08772f268",
+          "rounds": 838,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 83,
+          "file": "00lanes/4a882f77-d2cc-49ec-ad9f-b7bb8bd6db81.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00lost_world",
+      "tested": 1,
+      "wins": 0,
+      "rows": [
+        {
+          "matchId": "eb3d9fd7-81d6-4e28-b043-e84400ff3157",
+          "groupId": "f5d783b0-1a93-4b22-b7ee-c6897d75f5e6",
+          "createdAt": "2026-10-25T10:21:33.110Z",
+          "map": "00lost_world",
+          "side": "b",
+          "result": "loss",
+          "score": 10,
+          "oppScore": 1000,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "11",
+            "3",
+            "6"
+          ],
+          "opponent": "Intercontinental Fish",
+          "opponentId": "1890540d-1ffc-4847-adbf-d0d08772f268",
+          "rounds": 394,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 83,
+          "file": "00lost_world/eb3d9fd7-81d6-4e28-b043-e84400ff3157.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00monolith",
+      "tested": 1,
+      "wins": 1,
+      "rows": [
+        {
+          "matchId": "845bd31a-9fc7-4435-baf5-74bb946607dd",
+          "groupId": "f5d783b0-1a93-4b22-b7ee-c6897d75f5e6",
+          "createdAt": "2026-10-25T10:21:33.136Z",
+          "map": "00monolith",
+          "side": "a",
+          "result": "win",
+          "score": 1012,
+          "oppScore": 861,
+          "myDraft": [
+            "6",
+            "2",
+            "0",
+            "1",
+            "9"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "11",
+            "3",
+            "6"
+          ],
+          "opponent": "Intercontinental Fish",
+          "opponentId": "1890540d-1ffc-4847-adbf-d0d08772f268",
+          "rounds": 935,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 83,
+          "file": "00monolith/845bd31a-9fc7-4435-baf5-74bb946607dd.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00packs",
+      "tested": 0,
+      "wins": 0,
+      "rows": []
+    },
+    {
+      "map": "00pilgrimage",
+      "tested": 0,
+      "wins": 0,
+      "rows": []
+    },
+    {
+      "map": "00quadrants",
+      "tested": 0,
+      "wins": 0,
+      "rows": []
+    },
+    {
+      "map": "00reverse_spiral",
+      "tested": 0,
+      "wins": 0,
+      "rows": []
+    },
+    {
+      "map": "00road_of_riches",
+      "tested": 0,
+      "wins": 0,
+      "rows": []
+    },
+    {
+      "map": "00rows",
+      "tested": 0,
+      "wins": 0,
+      "rows": []
+    },
+    {
+      "map": "00rushbait_v2",
+      "tested": 0,
+      "wins": 0,
+      "rows": []
+    },
+    {
+      "map": "00split",
+      "tested": 0,
+      "wins": 0,
+      "rows": []
+    },
+    {
+      "map": "00stampede",
+      "tested": 0,
+      "wins": 0,
+      "rows": []
+    },
+    {
+      "map": "00swirl",
+      "tested": 0,
+      "wins": 0,
+      "rows": []
+    },
+    {
+      "map": "01big_world",
+      "tested": 0,
+      "wins": 0,
+      "rows": []
+    },
+    {
+      "map": "01boss_battle",
+      "tested": 0,
+      "wins": 0,
+      "rows": []
+    },
+    {
+      "map": "01broken_curve",
+      "tested": 0,
+      "wins": 0,
+      "rows": []
+    },
+    {
+      "map": "01concentrated_wealth",
+      "tested": 0,
+      "wins": 0,
+      "rows": []
+    },
+    {
+      "map": "01corridors",
+      "tested": 0,
+      "wins": 0,
+      "rows": []
+    },
+    {
+      "map": "01elk_arena",
+      "tested": 0,
+      "wins": 0,
+      "rows": []
+    },
+    {
+      "map": "01fracture",
+      "tested": 0,
+      "wins": 0,
+      "rows": []
+    },
+    {
+      "map": "01gold_rush",
+      "tested": 0,
+      "wins": 0,
+      "rows": []
+    },
+    {
+      "map": "01hooks",
+      "tested": 0,
+      "wins": 0,
+      "rows": []
+    },
+    {
+      "map": "01islands",
+      "tested": 0,
+      "wins": 0,
+      "rows": []
+    },
+    {
+      "map": "01shortcut",
+      "tested": 0,
+      "wins": 0,
+      "rows": []
+    },
+    {
+      "map": "01starfish",
+      "tested": 0,
+      "wins": 0,
+      "rows": []
+    },
+    {
+      "map": "01starvation",
+      "tested": 0,
+      "wins": 0,
+      "rows": []
+    },
+    {
+      "map": "01the_farm",
+      "tested": 0,
+      "wins": 0,
+      "rows": []
+    },
+    {
+      "map": "01yellow_brick_road",
+      "tested": 0,
+      "wins": 0,
+      "rows": []
+    }
+  ]
+}

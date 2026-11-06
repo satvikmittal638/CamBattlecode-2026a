@@ -1,0 +1,28 @@
+diff --color -r analysis/iterations/v43x-E/src/fishx_features.h analysis/iterations/v43x-F/src/fishx_features.h
+60c60
+< constexpr bool X_BOSSRAID = true;     // boss-only maps: meta draft + Tung builds; raid monoliths as a team once ready
+---
+> constexpr bool X_BOSSRAID = false;    // boss-only maps: meta draft + Tung builds; raid monoliths as a team once ready
+62a63,64
+> constexpr bool X_FOCUS = true;        // shared focus target (byte 5): allies prefer the enemy a teammate just committed to
+> constexpr float X_FOCUSBONUS = 80.0f;
+diff --color -r analysis/iterations/v43x-E/src/main.cpp analysis/iterations/v43x-F/src/main.cpp
+42c42
+<     std::puts("build v43x-E");
+---
+>     std::puts("build v43x-F");
+diff --color -r analysis/iterations/v43x-E/src/v1_tactical.h analysis/iterations/v43x-F/src/v1_tactical.h
+51a52,54
+> // X_FOCUS: shared byte 5 = focus target (handle % 63 + 1) | (round & 3) << 6, fresh for 2 rounds.
+> static int v1FocusRead(const std::uint8_t* shared,int round){const unsigned b=shared[5];if(!(b&63))return 0;return ((round-static_cast<int>(b>>6))&3)<=1?static_cast<int>(b&63):0;}
+> static int v1FocusKey(unsigned id){return static_cast<int>(id%63)+1;}
+138a142,143
+>     const int focus=X_FOCUS?v1FocusRead(shared,round):0;
+>     if(focus)for(const auto& f:foes)if(v1FocusKey(f.id)==focus&&std::find(choices.begin(),choices.end(),&f)==choices.end()&&cheb(origin,f.position())<=reach+2)choices.push_back(&f);
+170a176
+>             if(focus&&dealt>0&&v1FocusKey(target.id)==focus)value+=X_FOCUSBONUS;
+230a237,240
+>     if(acted&&X_FOCUS&&enough(20000)){
+>         const std::uint8_t v=static_cast<std::uint8_t>(v1FocusKey(target.id)|((round&3)<<6));
+>         if(shared[5]!=v)try{bc::shared_memory[5]=v;shared[5]=v;}catch(const TurnAbort&){throw;}catch(...){}
+>     }

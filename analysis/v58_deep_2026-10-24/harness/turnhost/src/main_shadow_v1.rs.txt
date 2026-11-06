@@ -1,0 +1,1038 @@
+// turnhost: run a compiled CAMBC bot (wasm) in "shadow mode" against a recorded replay.
+//
+// The game engine wasm replays the match; at every turn start of one team's champions the bot instance for
+// that champion runs its turn against the exact recorded state (vision, camps, cooldowns, buffs ...), with
+// Wasmtime fuel sliced like the official runner (100k per turn, 2x on a champion's first turn, preemption
+// resumes on the next turn). The bot's actions are recorded, not applied: the replay drives the true state.
+// Within one turn the bot's own move/attack/cast/recall are overlaid on what it reads back (position, state
+// bits), so move-then-act code sees its own move. Team shared memory (8 bytes) and draft memory are
+// emulated, because replays do not store them.
+//
+// Output: one JSON line per champion turn: the bot's actions next to the actions recorded in the replay.
+//
+//   turnhost --engine tools/engines/v1_0_3.wasm --bot bot.wasm --replay game.repl26a --team 1
+//            [--from R] [--to R] [--quantum 100000] [--out turns.jsonl] [--log N]
+use anyhow::{anyhow, bail, Context as _, Result};
+use std::collections::HashMap;
+use std::future::Future;
+use std::io::Write;
+use std::pin::Pin;
+use std::sync::{Arc, Mutex};
+use std::task::{Context, Poll, Waker};
+use wasmtime::*;
+
+const RESERVE_SLICES: u64 = 1_000_000;
+const SNAPSHOT_SIZE: usize = 40152;
+const ITEM_TYPES: usize = 42;
+const CHAMPION_TYPES: [&str; 13] = ["Ryth", "VesperVale", "Vendetta", "Cassi", "Issac", "Stellar", "Prism", "Marcella", "Willow", "Ren", "Varg", "Tavi", "HeartOfRuin"];
+
+// ------------------------------------------------------------------ game engine bridge
+struct Eng {
+    store: Store<()>,
+    mem: Memory,
+    f: HashMap<String, (Func, usize)>,
+    game: i64,
+    persp: i32,
+    out: i32,
+    slots: Vec<i32>,
+    slot_size: usize,
+    snap: i32,
+    meta: i32,
+    meta_bytes: [u8; 28],
+    w: i32,
+    h: i32,
+    cw: usize,
+    stride: usize,
+    bb: usize,
+    df: usize,
+    last_err: String,
+    layout: Option<Vec<u32>>,
+}
+
+fn rd32(d: &[u8], p: usize) -> u32 { u32::from_le_bytes(d[p..p + 4].try_into().unwrap()) }
+fn wr32(d: &mut [u8], p: usize, v: u32) { d[p..p + 4].copy_from_slice(&v.to_le_bytes()); }
+
+fn mem_of<T>(c: &mut Caller<'_, T>) -> Memory { c.get_export("memory").and_then(|e| e.into_memory()).expect("guest memory export") }
+
+fn add_wasi<T: 'static>(l: &mut Linker<T>, sink: fn(&mut T, i32, &[u8])) -> Result<()> {
+    let m = "wasi_snapshot_preview1";
+    l.func_wrap(m, "args_get", |_: Caller<'_, T>, _: i32, _: i32| -> i32 { 0 })?;
+    l.func_wrap(m, "args_sizes_get", |mut c: Caller<'_, T>, a: i32, b: i32| -> i32 {
+        let mem = mem_of(&mut c);
+        let d = mem.data_mut(&mut c);
+        wr32(d, a as usize, 0);
+        wr32(d, b as usize, 0);
+        0
+    })?;
+    l.func_wrap(m, "environ_get", |_: Caller<'_, T>, _: i32, _: i32| -> i32 { 0 })?;
+    l.func_wrap(m, "environ_sizes_get", |mut c: Caller<'_, T>, a: i32, b: i32| -> i32 {
+        let mem = mem_of(&mut c);
+        let d = mem.data_mut(&mut c);
+        wr32(d, a as usize, 0);
+        wr32(d, b as usize, 0);
+        0
+    })?;
+    l.func_wrap(m, "fd_close", |_: Caller<'_, T>, fd: i32| -> i32 { if fd <= 2 { 0 } else { 8 } })?;
+    l.func_wrap(m, "fd_fdstat_get", |mut c: Caller<'_, T>, fd: i32, p: i32| -> i32 {
+        if fd > 2 { return 8; }
+        let mem = mem_of(&mut c);
+        let d = mem.data_mut(&mut c);
+        d[p as usize..p as usize + 24].fill(0);
+        d[p as usize] = 2;
+        0
+    })?;
+    l.func_wrap(m, "fd_prestat_get", |_: Caller<'_, T>, _: i32, _: i32| -> i32 { 8 })?;
+    l.func_wrap(m, "fd_prestat_dir_name", |_: Caller<'_, T>, _: i32, _: i32, _: i32| -> i32 { 8 })?;
+    l.func_wrap(m, "fd_read", |_: Caller<'_, T>, _: i32, _: i32, _: i32, _: i32| -> i32 { 8 })?;
+    l.func_wrap(m, "fd_seek", |_: Caller<'_, T>, _: i32, _: i64, _: i32, _: i32| -> i32 { 8 })?;
+    l.func_wrap(m, "fd_write", move |mut c: Caller<'_, T>, fd: i32, iovs: i32, n: i32, written: i32| -> i32 {
+        let mem = mem_of(&mut c);
+        let mut buf = Vec::new();
+        {
+            let d = mem.data(&c);
+            for i in 0..n as usize {
+                let p = rd32(d, iovs as usize + i * 8) as usize;
+                let len = rd32(d, iovs as usize + i * 8 + 4) as usize;
+                buf.extend_from_slice(&d[p..p + len]);
+            }
+        }
+        wr32(mem.data_mut(&mut c), written as usize, buf.len() as u32);
+        sink(c.data_mut(), fd, &buf);
+        0
+    })?;
+    l.func_wrap(m, "proc_exit", |_: Caller<'_, T>, code: i32| -> wasmtime::Result<()> { Err(wasmtime::Error::msg(format!("proc_exit {code}"))) })?;
+    // Deterministic, as on the official runner.
+    l.func_wrap(m, "random_get", |mut c: Caller<'_, T>, p: i32, n: i32| -> i32 {
+        let mem = mem_of(&mut c);
+        let d = mem.data_mut(&mut c);
+        let mut x: u32 = 0x9e3779b9;
+        for b in &mut d[p as usize..(p + n) as usize] {
+            x ^= x << 13;
+            x ^= x >> 17;
+            x ^= x << 5;
+            *b = x as u8;
+        }
+        0
+    })?;
+    l.func_wrap(m, "clock_time_get", |mut c: Caller<'_, T>, _: i32, _: i64, p: i32| -> i32 {
+        let mem = mem_of(&mut c);
+        mem.data_mut(&mut c)[p as usize..p as usize + 8].fill(0);
+        0
+    })?;
+    Ok(())
+}
+
+impl Eng {
+    fn new(engine_wasm: &str, replay: &[u8]) -> Result<Eng> {
+        let mut cfg = Config::new();
+        cfg.max_wasm_stack(8 << 20);
+        cfg.async_stack_size(16 << 20);
+        let engine = Engine::new(&cfg)?;
+        let module = load_module(&engine, engine_wasm)?;
+        let mut linker: Linker<()> = Linker::new(&engine);
+        add_wasi(&mut linker, |_, _, _| {})?;
+        linker.define_unknown_imports_as_traps(&module)?;
+        let mut store = Store::new(&engine, ());
+        let inst = linker.instantiate(&mut store, &module)?;
+        let mut f = HashMap::new();
+        let names: Vec<String> = module.exports().map(|e| e.name().to_string()).collect();
+        for n in names {
+            if let Some(func) = inst.get_func(&mut store, &n) {
+                let nres = func.ty(&store).results().len();
+                f.insert(n, (func, nres));
+            }
+        }
+        let mem = inst.get_memory(&mut store, "memory").ok_or_else(|| anyhow!("engine memory"))?;
+        let mut e = Eng { store, mem, f, game: 0, persp: 0, out: 0, slots: vec![], slot_size: 0, snap: 0, meta: 0, meta_bytes: [0; 28], w: 0, h: 0, cw: 0, stride: 0, bb: 0, df: 0, last_err: String::new(), layout: None };
+        if e.f.contains_key("_initialize") { e.call("_initialize", &[]); }
+        e.out = e.malloc(64);
+        e.persp = e.malloc(16);
+        e.meta = e.malloc(64);
+        e.snap = e.malloc(SNAPSHOT_SIZE as i32);
+        let p = e.malloc(replay.len() as i32);
+        e.write(p, replay);
+        let rc = e.call("Game_FromReplayFileBytes", &[Val::I32(p), Val::I32(replay.len() as i32), Val::I32(e.out)]);
+        if rc != 0 { bail!("Game_FromReplayFileBytes: {} {}", rc, e.err_msg()); }
+        e.game = e.r64(e.out) as i64;
+        e.call("Engine_Free", &[Val::I32(p)]);
+        let rc = e.call("Game_GetBitboardMetadata", &[Val::I64(e.game), Val::I32(e.meta)]);
+        if rc != 0 { bail!("metadata {rc}"); }
+        e.w = e.r32(e.meta) as i32;
+        e.h = e.r32(e.meta + 4) as i32;
+        e.cw = e.r32(e.meta + 8) as usize;
+        e.stride = e.r32(e.meta + 16) as usize;
+        e.call("Bitboard_GetRawBufferSize", &[Val::I32(e.meta), Val::I32(e.out)]);
+        e.bb = e.r32(e.out) as usize;
+        e.call("DistanceField_GetRawBufferSize", &[Val::I32(e.meta), Val::I32(e.out)]);
+        e.df = e.r32(e.out) as usize;
+        let m = e.read(e.meta, 20);
+        e.meta_bytes[..20].copy_from_slice(&m);
+        e.meta_bytes[20..24].copy_from_slice(&(e.bb as u32).to_le_bytes());
+        e.meta_bytes[24..28].copy_from_slice(&(e.df as u32).to_le_bytes());
+        e.slot_size = (65536usize).max((e.w * e.h) as usize * 8 + 64).max(e.df + 64);
+        for _ in 0..8 {
+            let s = e.malloc(e.slot_size as i32);
+            e.slots.push(s);
+        }
+        let rc = e.call("Game_Visualiser_Timeline_GetMain", &[Val::I64(e.game), Val::I32(e.out)]);
+        if rc != 0 { bail!("timeline {rc}"); }
+        let main = e.r64(e.out) as i64;
+        e.call("Game_Visualiser_Timeline_Seek", &[Val::I64(e.game), Val::I64(main), Val::I32(0), Val::I32(0)]);
+        Ok(e)
+    }
+    fn call(&mut self, name: &str, args: &[Val]) -> i32 {
+        let (func, nres) = *self.f.get(name).unwrap_or_else(|| panic!("engine export {name} missing"));
+        let mut res = [Val::I32(0)];
+        if let Err(err) = func.call(&mut self.store, args, &mut res[..nres]) { panic!("engine {name} trapped: {err:?}"); }
+        if nres == 1 { res[0].unwrap_i32() } else { 0 }
+    }
+    fn malloc(&mut self, n: i32) -> i32 { self.call("Engine_Malloc", &[Val::I32(n)]) }
+    fn data(&mut self) -> &mut [u8] { self.mem.data_mut(&mut self.store) }
+    fn r32(&mut self, p: i32) -> u32 { rd32(self.data(), p as usize) }
+    fn r64(&mut self, p: i32) -> u64 { u64::from_le_bytes(self.data()[p as usize..p as usize + 8].try_into().unwrap()) }
+    fn write(&mut self, p: i32, b: &[u8]) { self.data()[p as usize..p as usize + b.len()].copy_from_slice(b); }
+    fn read(&mut self, p: i32, n: usize) -> Vec<u8> { self.data()[p as usize..p as usize + n].to_vec() }
+    fn err_msg(&mut self) -> String {
+        let p = self.call("GetLastErrorMsg", &[]) as usize;
+        let d = self.data();
+        let mut e = p;
+        while e < d.len() && d[e] != 0 { e += 1; }
+        String::from_utf8_lossy(&d[p..e]).into_owned()
+    }
+    fn set_persp(&mut self, team: u32, champ: i32) {
+        let p = self.persp;
+        let d = self.data();
+        wr32(d, p as usize, team);
+        wr32(d, p as usize + 4, champ as u32);
+    }
+    fn next(&mut self) -> bool { self.call("Game_Visualiser_Timeline_ReplayNext", &[Val::I64(self.game), Val::I32(1)]) == 0 }
+    fn state(&mut self) -> St {
+        let rc = self.call("Game_Visualiser_ReadTimelineState", &[Val::I64(self.game), Val::I32(self.snap)]);
+        assert_eq!(rc, 0, "ReadTimelineState");
+        let t = self.snap as usize;
+        let d = self.data();
+        let u = |o: usize| rd32(d, t + o);
+        let i = |o: usize| rd32(d, t + o) as i32;
+        let f = |o: usize| f32::from_bits(rd32(d, t + o));
+        assert!(u(0) == 1 && u(4) as usize == SNAPSHOT_SIZE, "timeline snapshot ABI");
+        let slot = u(108);
+        let kind = u(68);
+        let n = u(172) as usize;
+        let mut ch = Vec::with_capacity(n);
+        for k in 0..n {
+            let b = 196 + k * 252;
+            let pos = if i(b + 16) >= 0 && i(b + 20) >= 0 { Some((i(b + 16), i(b + 20))) } else { None };
+            ch.push(Ch { idx: u(b + 4), team: u(b + 8), typ: u(b + 12), pos, hp: f(b + 24), mhp: f(b + 28), alive: u(b + 32) != 0, gems: u(b + 40) });
+        }
+        St {
+            round: u(8), phase: u(24), cur: u(60), sphase: u(64), kind, actor_kind: u(72), actor: u(76),
+            from: (i(80), i(84)), to: (i(88), i(92)),
+            slot: if slot != 0xffff_ffff && kind != 19 { Some(slot) } else { None },
+            prio: i(116), ch,
+        }
+    }
+    fn camp_layout(&mut self) -> Vec<u32> {
+        if let Some(l) = &self.layout { return l.clone(); }
+        let (g, s0, s1, s2) = (self.game, self.slots[0], self.slots[1], self.slots[2]);
+        let cap = (self.slot_size / 4) as i32;
+        assert_eq!(self.call("Game_API_Map_GetCampGroups", &[Val::I64(g), Val::I32(s0), Val::I32(cap), Val::I32(s1)]), 0);
+        let n = self.r32(s1) as usize;
+        let groups: Vec<u32> = (0..n).map(|k| self.r32(s0 + 4 * k as i32)).collect();
+        let mut words = Vec::new();
+        for gid in groups {
+            assert_eq!(self.call("Game_API_Map_CampGroup_Get", &[Val::I64(g), Val::I32(gid as i32), Val::I32(s0)]), 0);
+            let (gems, gold) = (self.r32(s0), self.r32(s0 + 4));
+            assert_eq!(self.call("Game_API_Map_CampGroup_GetRespawnTime", &[Val::I64(g), Val::I32(gid as i32), Val::I32(s0)]), 0);
+            let respawn = self.r32(s0);
+            assert_eq!(self.call("Game_API_Map_CampGroup_GetCampInfo", &[Val::I64(g), Val::I32(gid as i32), Val::I32(s0), Val::I32(cap), Val::I32(s1)]), 0);
+            let m = self.r32(s1) as usize;
+            let camps: Vec<u32> = (0..m).map(|k| self.r32(s0 + 4 * k as i32)).collect();
+            words.extend_from_slice(&[gid, gold, gems, respawn, m as u32]);
+            for cid in camps {
+                assert_eq!(self.call("Game_API_Map_CampInfo_Get", &[Val::I64(g), Val::I32(cid as i32), Val::I32(s2)]), 0);
+                let (x, y, ty) = (self.r32(s2), self.r32(s2 + 4), self.r32(s2 + 8));
+                words.extend_from_slice(&[cid, ty, x, y]);
+            }
+        }
+        self.layout = Some(words.clone());
+        words
+    }
+    // Native bitboard / distance-field accessors (layout checked against the engine by self_test).
+    fn bit(&self, x: i32, y: i32) -> (usize, u32) {
+        let word = (y as usize >> 3) * self.stride + (x as usize >> 3);
+        (word * 8 + (((y & 7) * 8 + (x & 7)) as usize >> 3), ((y & 7) * 8 + (x & 7)) as u32 & 7)
+    }
+    fn df_off(&self, x: i32, y: i32) -> usize { (((y as usize >> 3) * self.cw + (x as usize >> 3)) * 64 + ((y & 7) * 8 + (x & 7)) as usize) * 2 }
+    fn inb(&self, x: i32, y: i32) -> bool { x >= 0 && y >= 0 && x < self.w && y < self.h }
+}
+
+fn load_module(engine: &Engine, path: &str) -> Result<Module> {
+    let cache = format!("{path}.turnhost-{}.cwasm", env!("CARGO_PKG_VERSION"));
+    let src_t = std::fs::metadata(path)?.modified()?;
+    if let Ok(m) = std::fs::metadata(&cache) {
+        if m.modified()? >= src_t {
+            if let Ok(module) = unsafe { Module::deserialize_file(engine, &cache) } { return Ok(module); }
+        }
+    }
+    let module = Module::from_file(engine, path).map_err(|e| anyhow!("compile {path}: {e:?}"))?;
+    if let Ok(bytes) = module.serialize() { let _ = std::fs::write(&cache, bytes); }
+    Ok(module)
+}
+
+#[derive(Clone, Debug)]
+struct Ch { idx: u32, team: u32, typ: u32, pos: Option<(i32, i32)>, hp: f32, mhp: f32, alive: bool, gems: u32 }
+#[derive(Debug)]
+#[allow(dead_code)]
+struct St { round: u32, phase: u32, cur: u32, sphase: u32, kind: u32, actor_kind: u32, actor: u32, from: (i32, i32), to: (i32, i32), slot: Option<u32>, prio: i32, ch: Vec<Ch> }
+
+// ------------------------------------------------------------------ bot side
+#[derive(Default, Clone)]
+struct Ov { orig: (i32, i32), pos: Option<(i32, i32)>, clr: u32, set: u32, cd: [Option<i32>; 2] }
+
+#[derive(Default)]
+struct Ctl {
+    champ: i32,
+    team: u32,
+    q: u64,
+    reserve: u64,
+    k_turn: u64,
+    preempts_turn: u64,
+    preempts_since_reset: u64,
+    yielded: bool,
+    used: Option<u64>,
+    actions: Vec<String>,
+    out: String,
+    ov: Ov,
+    draft_submitted: bool,
+    calls: u64,
+}
+
+struct BotState {
+    eng: Arc<Mutex<Eng>>,
+    ctl: Arc<Mutex<Ctl>>,
+    shared: Arc<Mutex<Vec<u8>>>,
+    draft: Arc<Mutex<Vec<u8>>>,
+}
+
+struct YieldOnce(bool);
+impl Future for YieldOnce {
+    type Output = ();
+    fn poll(mut self: Pin<&mut Self>, _: &mut Context<'_>) -> Poll<()> {
+        if self.0 { Poll::Ready(()) } else { self.0 = true; Poll::Pending }
+    }
+}
+
+#[derive(Clone, Copy)]
+enum A { G, P, I(i32), F(f32), S(usize), M }
+#[derive(Clone, Copy, PartialEq)]
+enum D { In, Out, InOut }
+#[derive(Clone, Copy)]
+struct Cp { slot: usize, ptr: i32, len: usize, d: D }
+fn cp(slot: usize, ptr: i32, len: usize, d: D) -> Cp { Cp { slot, ptr, len, d } }
+
+fn who(c: &Caller<'_, BotState>) -> (u32, i32) {
+    let k = c.data().ctl.lock().unwrap();
+    (k.team, k.champ)
+}
+
+// Copy guest buffers into engine scratch slots, call the engine export, copy outputs back on success.
+fn bridge(c: &mut Caller<'_, BotState>, name: &str, args: &[A], cps: &[Cp]) -> i32 {
+    let (team, champ) = who(c);
+    c.data().ctl.lock().unwrap().calls += 1;
+    let eng = c.data().eng.clone();
+    let mut e = eng.lock().unwrap();
+    let mem = mem_of(c);
+    for k in cps {
+        if k.d != D::Out && k.len > 0 && k.ptr != 0 {
+            let src = mem.data(&*c)[k.ptr as usize..k.ptr as usize + k.len].to_vec();
+            let dst = e.slots[k.slot];
+            e.write(dst, &src);
+        }
+    }
+    e.set_persp(team, champ);
+    let vals: Vec<Val> = args.iter().map(|a| match *a {
+        A::G => Val::I64(e.game),
+        A::P => Val::I32(e.persp),
+        A::I(v) => Val::I32(v),
+        A::F(v) => Val::F32(v.to_bits()),
+        A::S(k) => Val::I32(e.slots[k]),
+        A::M => Val::I32(e.meta),
+    }).collect();
+    let rc = e.call(name, &vals);
+    if rc != 0 {
+        e.last_err = e.err_msg();
+        return rc;
+    }
+    for k in cps {
+        if k.d != D::In && k.len > 0 && k.ptr != 0 {
+            let sp = e.slots[k.slot];
+            let b = e.read(sp, k.len);
+            mem.data_mut(&mut *c)[k.ptr as usize..k.ptr as usize + k.len].copy_from_slice(&b);
+        }
+    }
+    rc
+}
+
+// List outputs: the engine writes a count; copy only the returned elements.
+fn bridge_list(c: &mut Caller<'_, BotState>, name: &str, pre: &[A], buf: i32, cap: i32, cnt: i32, elem: usize) -> i32 {
+    let (team, champ) = who(c);
+    let eng = c.data().eng.clone();
+    let mut e = eng.lock().unwrap();
+    let capc = (cap.max(0) as usize).min(e.slot_size / elem) as i32;
+    e.set_persp(team, champ);
+    let mut vals: Vec<Val> = pre.iter().map(|a| match *a {
+        A::G => Val::I64(e.game),
+        A::P => Val::I32(e.persp),
+        A::I(v) => Val::I32(v),
+        _ => unreachable!(),
+    }).collect();
+    vals.push(Val::I32(e.slots[0]));
+    vals.push(Val::I32(capc));
+    vals.push(Val::I32(e.slots[1]));
+    let rc = e.call(name, &vals);
+    if rc != 0 {
+        e.last_err = e.err_msg();
+        return rc;
+    }
+    let (s0, s1) = (e.slots[0], e.slots[1]);
+    let n = e.r32(s1);
+    let take = (n as usize).min(capc as usize);
+    let b = e.read(s0, take * elem);
+    let mem = mem_of(c);
+    let d = mem.data_mut(&mut *c);
+    if buf != 0 && take > 0 { d[buf as usize..buf as usize + take * elem].copy_from_slice(&b); }
+    if cnt != 0 { wr32(d, cnt as usize, n); }
+    rc
+}
+
+fn put32(c: &mut Caller<'_, BotState>, p: i32, v: u32) {
+    let mem = mem_of(c);
+    wr32(mem.data_mut(&mut *c), p as usize, v);
+}
+
+fn act(c: &mut Caller<'_, BotState>, s: String, f: impl FnOnce(&mut Ov)) {
+    let mut k = c.data().ctl.lock().unwrap();
+    k.actions.push(s);
+    f(&mut k.ov);
+}
+
+// Position of a champion (kind 1) or camp (kind 2) handle, for comparing targets with the replay.
+fn target_pos(c: &mut Caller<'_, BotState>, kind: i32, handle: i32) -> Option<(i32, i32)> {
+    let (team, champ) = who(c);
+    let eng = c.data().eng.clone();
+    let mut e = eng.lock().unwrap();
+    e.set_persp(team, champ);
+    let (g, p, s) = (e.game, e.persp, e.slots[7]);
+    let rc = match kind {
+        1 => e.call("Game_API_Champion_Get", &[Val::I64(g), Val::I32(p), Val::I32(handle), Val::I32(s)]),
+        2 => e.call("Game_API_Camp_Get", &[Val::I64(g), Val::I32(p), Val::I32(handle), Val::I32(s)]),
+        _ => -1,
+    };
+    if rc != 0 { return None; }
+    let off = if kind == 1 { 8 } else { 0 };
+    Some((e.r32(s + off) as i32, e.r32(s + off + 4) as i32))
+}
+
+fn fuel_left(c: &Caller<'_, BotState>) -> u64 {
+    let k = c.data().ctl.lock().unwrap();
+    let total = c.get_fuel().unwrap_or(0);
+    let reserve_now = k.reserve.saturating_sub((k.preempts_since_reset + 1) * k.q);
+    let active = total.saturating_sub(reserve_now).min(k.q);
+    active + k.k_turn.saturating_sub(k.preempts_turn + 1) * k.q
+}
+
+fn add_env(l: &mut Linker<BotState>) -> Result<()> {
+    use A::*;
+    use D::*;
+    let e = "env";
+    macro_rules! bbsz { ($c:expr) => { $c.data().eng.lock().unwrap().bb } }
+    macro_rules! dfsz { ($c:expr) => { $c.data().eng.lock().unwrap().df } }
+
+    // --- settings, memories, identity
+    l.func_wrap(e, "game_settings", |mut c: Caller<'_, BotState>, out: i32| -> i32 { bridge(&mut c, "Game_API_GetSettings", &[S(0)], &[cp(0, out, 120, Out)]) })?;
+    l.func_wrap(e, "shared_memory_size", |mut c: Caller<'_, BotState>, out: i32| -> i32 { let n = c.data().shared.lock().unwrap().len() as u32; put32(&mut c, out, n); 0 })?;
+    l.func_wrap(e, "draft_memory_size", |mut c: Caller<'_, BotState>, out: i32| -> i32 { let n = c.data().draft.lock().unwrap().len() as u32; put32(&mut c, out, n); 0 })?;
+    l.func_wrap(e, "read_shared_memory", |mut c: Caller<'_, BotState>, off: i32, buf: i32, n: i32| -> i32 {
+        let sh = c.data().shared.lock().unwrap().clone();
+        if off < 0 || n < 0 || (off + n) as usize > sh.len() { return 19; }
+        let mem = mem_of(&mut c);
+        mem.data_mut(&mut c)[buf as usize..(buf + n) as usize].copy_from_slice(&sh[off as usize..(off + n) as usize]);
+        0
+    })?;
+    l.func_wrap(e, "write_shared_memory", |mut c: Caller<'_, BotState>, off: i32, buf: i32, n: i32| -> i32 {
+        let mem = mem_of(&mut c);
+        let src = mem.data(&c)[buf as usize..(buf + n.max(0)) as usize].to_vec();
+        let mut sh = c.data().shared.lock().unwrap();
+        if off < 0 || n < 0 || (off + n) as usize > sh.len() { return 19; }
+        sh[off as usize..(off + n) as usize].copy_from_slice(&src);
+        0
+    })?;
+    l.func_wrap(e, "read_draft_memory", |mut c: Caller<'_, BotState>, off: i32, buf: i32, n: i32| -> i32 {
+        let dm = c.data().draft.lock().unwrap().clone();
+        if off < 0 || n < 0 || (off + n) as usize > dm.len() { return 19; }
+        let mem = mem_of(&mut c);
+        mem.data_mut(&mut c)[buf as usize..(buf + n) as usize].copy_from_slice(&dm[off as usize..(off + n) as usize]);
+        0
+    })?;
+    l.func_wrap(e, "bc_submit_draft_memory", |mut c: Caller<'_, BotState>, buf: i32, n: i32| -> i32 {
+        let mem = mem_of(&mut c);
+        let src = mem.data(&c)[buf as usize..(buf + n.max(0)) as usize].to_vec();
+        let mut dm = c.data().draft.lock().unwrap();
+        let m = src.len().min(dm.len());
+        dm[..m].copy_from_slice(&src[..m]);
+        c.data().ctl.lock().unwrap().draft_submitted = true;
+        0
+    })?;
+    l.func_wrap(e, "bc_metadata", |mut c: Caller<'_, BotState>, out: i32| -> i32 {
+        let mb = c.data().eng.lock().unwrap().meta_bytes;
+        let mem = mem_of(&mut c);
+        mem.data_mut(&mut c)[out as usize..out as usize + 28].copy_from_slice(&mb);
+        0
+    })?;
+    l.func_wrap(e, "my_champion", |c: Caller<'_, BotState>| -> i32 { c.data().ctl.lock().unwrap().champ })?;
+    l.func_wrap(e, "my_team", |c: Caller<'_, BotState>| -> i32 { c.data().ctl.lock().unwrap().team as i32 })?;
+    l.func_wrap(e, "fuel_remaining", |c: Caller<'_, BotState>| -> i64 { fuel_left(&c) as i64 })?;
+    l.func_wrap(e, "bc_get_last_error", |mut c: Caller<'_, BotState>, buf: i32, n: i32| -> i32 {
+        let msg = c.data().eng.lock().unwrap().last_err.clone();
+        if n <= 0 { return 0; }
+        let mut b = msg.into_bytes();
+        b.truncate(n as usize - 1);
+        b.push(0);
+        let mem = mem_of(&mut c);
+        mem.data_mut(&mut c)[buf as usize..buf as usize + b.len()].copy_from_slice(&b);
+        0
+    })?;
+    l.func_wrap(e, "consumable_info", |mut c: Caller<'_, BotState>, id: i32, out: i32| -> i32 { bridge(&mut c, "Game_API_GetConsumableInfo", &[I(id), S(0)], &[cp(0, out, 8, Out)]) })?;
+    l.func_wrap(e, "item_info", |mut c: Caller<'_, BotState>, id: i32, out: i32| -> i32 { bridge(&mut c, "Game_API_GetItemInfo", &[I(id), S(0)], &[cp(0, out, 40, Out)]) })?;
+    l.func_wrap(e, "champion_design", |mut c: Caller<'_, BotState>, t: i32, out: i32| -> i32 { bridge(&mut c, "Game_API_Champion_Design", &[G, I(t), S(0)], &[cp(0, out, 128, Out)]) })?;
+    l.func_wrap(e, "camp_design", |mut c: Caller<'_, BotState>, t: i32, out: i32| -> i32 { bridge(&mut c, "Game_API_Camp_Design", &[G, I(t), S(0)], &[cp(0, out, 124, Out)]) })?;
+    l.func_wrap(e, "bc_map_symmetry", |mut c: Caller<'_, BotState>, out: i32| -> i32 { bridge(&mut c, "Game_API_Map_GetSymmetry", &[G, S(0)], &[cp(0, out, 4, Out)]) })?;
+    l.func_wrap(e, "bc_round_number", |mut c: Caller<'_, BotState>, out: i32| -> i32 { bridge(&mut c, "Game_API_GetRoundNumber", &[G, S(0)], &[cp(0, out, 4, Out)]) })?;
+    l.func_wrap(e, "spawn_region", |mut c: Caller<'_, BotState>, t: i32, out: i32| -> i32 { bridge(&mut c, "Game_API_GetSpawnRegion", &[G, I(t), S(0)], &[cp(0, out, 16, Out)]) })?;
+    l.func_wrap(e, "bc_submitted_gems", |mut c: Caller<'_, BotState>, t: i32, out: i32| -> i32 { bridge(&mut c, "Game_API_GetSubmittedGemCount", &[G, I(t), S(0)], &[cp(0, out, 4, Out)]) })?;
+    l.func_wrap(e, "bc_map_mask", |mut c: Caller<'_, BotState>, kind: i32, out: i32| -> i32 {
+        let name = match kind { 0 => "Game_GetWallBuffer", 1 => "Game_GetBushBuffer", 2 => "Game_GetHoleBuffer", 3 => "Game_GetAltarBuffer", _ => return 5 };
+        let eng = c.data().eng.clone();
+        let b = {
+            let mut e = eng.lock().unwrap();
+            let (g, o) = (e.game, e.out);
+            let rc = e.call(name, &[Val::I64(g), Val::I32(o)]);
+            if rc != 0 { return rc; }
+            let p = e.r32(o) as i32;
+            let n = e.bb;
+            e.read(p, n)
+        };
+        let mem = mem_of(&mut c);
+        mem.data_mut(&mut c)[out as usize..out as usize + b.len()].copy_from_slice(&b);
+        0
+    })?;
+    l.func_wrap(e, "map_camp_layout", |mut c: Caller<'_, BotState>, buf: i32, cap: i32, cnt: i32| -> i32 {
+        let words = c.data().eng.lock().unwrap().camp_layout();
+        let take = words.len().min(cap.max(0) as usize);
+        let mem = mem_of(&mut c);
+        let d = mem.data_mut(&mut c);
+        for (k, w) in words[..take].iter().enumerate() { wr32(d, buf as usize + 4 * k, *w); }
+        wr32(d, cnt as usize, words.len() as u32);
+        0
+    })?;
+    l.func_wrap(e, "map_camp_info", |mut c: Caller<'_, BotState>, id: i32, out: i32| -> i32 { bridge(&mut c, "Game_API_Map_CampInfo_Get", &[G, I(id), S(0)], &[cp(0, out, 12, Out)]) })?;
+    l.func_wrap(e, "map_camp_group_of", |mut c: Caller<'_, BotState>, id: i32, out: i32| -> i32 { bridge(&mut c, "Game_API_Map_CampInfo_GetGroup", &[G, I(id), S(0)], &[cp(0, out, 4, Out)]) })?;
+
+    // --- draft
+    l.func_wrap(e, "draft_num_rounds", |mut c: Caller<'_, BotState>, out: i32| -> i32 {
+        let eng = c.data().eng.clone();
+        let v = {
+            let mut e = eng.lock().unwrap();
+            let (g, s) = (e.game, e.slots[0]);
+            e.write(s, &[0, 0, 0, 0]);
+            let rc = e.call("Game_API_Draft_GetNumRounds", &[Val::I64(g), Val::I32(s)]);
+            if rc != 0 { e.last_err = e.err_msg(); return rc; }
+            e.read(s, 1)[0]
+        };
+        let mem = mem_of(&mut c);
+        mem.data_mut(&mut c)[out as usize] = v;
+        0
+    })?;
+    l.func_wrap(e, "draft_get", |mut c: Caller<'_, BotState>, t: i32, r: i32, out: i32| -> i32 { bridge(&mut c, "Game_API_Draft_Get", &[G, I(t), I(r), S(0)], &[cp(0, out, 4, Out)]) })?;
+    l.func_wrap(e, "draft_champion", |mut c: Caller<'_, BotState>, pick: i32| -> i32 { act(&mut c, format!("draft {pick}"), |_| {}); 0 })?;
+
+    // --- champions
+    l.func_wrap(e, "champion", |mut c: Caller<'_, BotState>, id: i32, out: i32| -> i32 {
+        let rc = bridge(&mut c, "Game_API_Champion_Get", &[G, P, I(id), S(0)], &[cp(0, out, 44, Out)]);
+        let (self_id, ov) = { let k = c.data().ctl.lock().unwrap(); (k.champ, k.ov.clone()) };
+        if rc == 0 && id == self_id {
+            let mem = mem_of(&mut c);
+            let d = mem.data_mut(&mut c);
+            if let Some((x, y)) = ov.pos { wr32(d, out as usize + 8, x as u32); wr32(d, out as usize + 12, y as u32); }
+            let s = rd32(d, out as usize + 40);
+            wr32(d, out as usize + 40, (s & !ov.clr) | ov.set);
+        }
+        rc
+    })?;
+    l.func_wrap(e, "champion_at", |mut c: Caller<'_, BotState>, x: i32, y: i32, out: i32| -> i32 {
+        let (self_id, ov) = { let k = c.data().ctl.lock().unwrap(); (k.champ, k.ov.clone()) };
+        if let Some(p) = ov.pos {
+            if p == (x, y) { put32(&mut c, out, self_id as u32); return 0; }
+            if ov.orig == (x, y) { c.data().eng.lock().unwrap().last_err = "no champion".into(); return 98; }
+        }
+        bridge(&mut c, "Game_API_GetChampion", &[G, P, I(x), I(y), S(0)], &[cp(0, out, 4, Out)])
+    })?;
+    l.func_wrap(e, "champion_identity", |mut c: Caller<'_, BotState>, id: i32, out: i32| -> i32 { bridge(&mut c, "Game_API_Champion_GetIdentity", &[G, P, I(id), S(0)], &[cp(0, out, 8, Out)]) })?;
+    l.func_wrap(e, "champion_is_alive", |mut c: Caller<'_, BotState>, id: i32, out: i32| -> i32 { bridge(&mut c, "Game_API_Champion_IsAlive", &[G, I(id), S(0)], &[cp(0, out, 4, Out)]) })?;
+    l.func_wrap(e, "champion_gems", |mut c: Caller<'_, BotState>, id: i32, out: i32| -> i32 { bridge(&mut c, "Game_API_Champion_GetGems", &[G, P, I(id), S(0)], &[cp(0, out, 4, Out)]) })?;
+    l.func_wrap(e, "champion_gold", |mut c: Caller<'_, BotState>, id: i32, out: i32| -> i32 { bridge(&mut c, "Game_API_Champion_GetGold", &[G, P, I(id), S(0)], &[cp(0, out, 4, Out)]) })?;
+    l.func_wrap(e, "champion_items", |mut c: Caller<'_, BotState>, id: i32, out: i32| -> i32 { bridge(&mut c, "Game_API_Champion_GetItems", &[G, P, I(id), S(0), I(ITEM_TYPES as i32)], &[cp(0, out, ITEM_TYPES * 4, Out)]) })?;
+    l.func_wrap(e, "champion_can_shop", |mut c: Caller<'_, BotState>, id: i32, flag: i32, out: i32| -> i32 { bridge(&mut c, "Game_API_Champion_CanShop", &[G, P, I(id), I(flag), S(0)], &[cp(0, out, 4, Out)]) })?;
+    l.func_wrap(e, "champion_restrictions", |mut c: Caller<'_, BotState>, id: i32, out: i32| -> i32 { bridge(&mut c, "Game_API_Champion_GetRestrictions", &[G, P, I(id), S(0)], &[cp(0, out, 1, Out)]) })?;
+    l.func_wrap(e, "champion_wards", |mut c: Caller<'_, BotState>, id: i32, out: i32| -> i32 { bridge(&mut c, "Game_API_Champion_GetWards", &[G, P, I(id), S(0)], &[cp(0, out, 8, Out)]) })?;
+    l.func_wrap(e, "champion_cooldown", |mut c: Caller<'_, BotState>, id: i32, slot: i32, out: i32| -> i32 {
+        let (self_id, ov) = { let k = c.data().ctl.lock().unwrap(); (k.champ, k.ov.clone()) };
+        if id == self_id && (0..2).contains(&slot) {
+            if let Some(v) = ov.cd[slot as usize] { put32(&mut c, out, v as u32); return 0; }
+        }
+        bridge(&mut c, "Game_API_Champion_GetCooldown", &[G, P, I(id), I(slot), S(0)], &[cp(0, out, 4, Out)])
+    })?;
+    l.func_wrap(e, "champion_ability_props", |mut c: Caller<'_, BotState>, id: i32, slot: i32, out: i32| -> i32 { bridge(&mut c, "Game_API_Champion_GetAbilityProps", &[G, P, I(id), I(slot), S(0)], &[cp(0, out, 36, Out)]) })?;
+    l.func_wrap(e, "champion_ability_damage", |mut c: Caller<'_, BotState>, id: i32, slot: i32, out: i32| -> i32 { bridge(&mut c, "Game_API_Champion_GetAbilityDamage", &[G, P, I(id), I(slot), S(0)], &[cp(0, out, 4, Out)]) })?;
+    l.func_wrap(e, "bc_champion_priority", |mut c: Caller<'_, BotState>, id: i32, next: i32, out: i32| -> i32 { bridge(&mut c, "Game_API_Champion_GetPriority", &[G, P, I(id), I(next), S(0)], &[cp(0, out, 4, Out)]) })?;
+    l.func_wrap(e, "num_allies", |mut c: Caller<'_, BotState>, out: i32| -> i32 { bridge(&mut c, "Game_API_Champion_GetNumAllies", &[G, P, S(0)], &[cp(0, out, 4, Out)]) })?;
+    l.func_wrap(e, "num_enemies", |mut c: Caller<'_, BotState>, out: i32| -> i32 { bridge(&mut c, "Game_API_Champion_GetNumEnemies", &[G, P, S(0)], &[cp(0, out, 4, Out)]) })?;
+    l.func_wrap(e, "allies", |mut c: Caller<'_, BotState>, buf: i32, cap: i32, cnt: i32| -> i32 { bridge_list(&mut c, "Game_API_Champion_GetAllies", &[G, P], buf, cap, cnt, 4) })?;
+    l.func_wrap(e, "enemies", |mut c: Caller<'_, BotState>, buf: i32, cap: i32, cnt: i32| -> i32 { bridge_list(&mut c, "Game_API_Champion_GetEnemies", &[G, P], buf, cap, cnt, 4) })?;
+    l.func_wrap(e, "champion_buff_data", |mut c: Caller<'_, BotState>, id: i32, buf: i32, cap: i32, cnt: i32| -> i32 { bridge_list(&mut c, "Game_API_Champion_GetBuffData", &[G, P, I(id)], buf, cap, cnt, 12) })?;
+    l.func_wrap(e, "bc_champion_ward_positions", |mut c: Caller<'_, BotState>, id: i32, buf: i32, cap: i32, cnt: i32| -> i32 { bridge_list(&mut c, "Game_API_Champion_GetWardPositions", &[G, P, I(id)], buf, cap, cnt, 8) })?;
+    l.func_wrap(e, "altar_locks", |mut c: Caller<'_, BotState>, buf: i32, cap: i32, cnt: i32| -> i32 { bridge_list(&mut c, "Game_API_GetAltarLocks", &[G, P], buf, cap, cnt, 24) })?;
+
+    // --- camps
+    l.func_wrap(e, "camp", |mut c: Caller<'_, BotState>, id: i32, out: i32| -> i32 { bridge(&mut c, "Game_API_Camp_Get", &[G, P, I(id), S(0)], &[cp(0, out, 32, Out)]) })?;
+    l.func_wrap(e, "camp_state", |mut c: Caller<'_, BotState>, id: i32, out: i32| -> i32 { bridge(&mut c, "Game_API_Camp_GetState", &[G, P, I(id), S(0)], &[cp(0, out, 4, Out)]) })?;
+    l.func_wrap(e, "camp_at", |mut c: Caller<'_, BotState>, x: i32, y: i32, out: i32| -> i32 { bridge(&mut c, "Game_API_GetCamp", &[G, P, I(x), I(y), S(0)], &[cp(0, out, 4, Out)]) })?;
+    l.func_wrap(e, "camp_group_state", |mut c: Caller<'_, BotState>, g: i32, out: i32| -> i32 { bridge(&mut c, "Game_API_CampGroup_GetState", &[G, P, I(g), S(0)], &[cp(0, out, 4, Out)]) })?;
+    l.func_wrap(e, "camp_group_cooldown", |mut c: Caller<'_, BotState>, g: i32, out: i32| -> i32 { bridge(&mut c, "Game_API_CampGroup_GetCooldown", &[G, P, I(g), S(0)], &[cp(0, out, 4, Out)]) })?;
+    l.func_wrap(e, "camp_buffs", |mut c: Caller<'_, BotState>, id: i32, buf: i32, cap: i32, cnt: i32| -> i32 { bridge_list(&mut c, "Game_API_Camp_GetBuffs", &[G, P, I(id)], buf, cap, cnt, 12) })?;
+
+    // --- boards
+    for (imp, exp) in [("board_camp_occupancy", "Game_API_GetCampOccupancy"), ("board_vision", "Game_API_GetVision"), ("board_ally_ward_occupancy", "Game_API_GetAllyWardOccupancy"),
+                       ("board_teleport_occupancy", "Game_API_GetTeleportOccupancy"), ("board_enemy_occupancy", "Game_API_GetEnemyOccupancy"),
+                       ("board_enemy_altar_lock_occupancy", "Game_API_GetEnemyAltarLockOccupancy")] {
+        l.func_wrap(e, imp, move |mut c: Caller<'_, BotState>, out: i32| -> i32 { let n = bbsz!(c); bridge(&mut c, exp, &[G, P, S(0)], &[cp(0, out, n, Out)]) })?;
+    }
+    l.func_wrap(e, "board_ally_occupancy", |mut c: Caller<'_, BotState>, out: i32| -> i32 {
+        let n = bbsz!(c);
+        let rc = bridge(&mut c, "Game_API_GetAllyOccupancy", &[G, P, S(0)], &[cp(0, out, n, Out)]);
+        let ov = c.data().ctl.lock().unwrap().ov.clone();
+        if rc == 0 {
+            if let Some((x, y)) = ov.pos {
+                let (a, b) = { let e = c.data().eng.lock().unwrap(); (e.bit(ov.orig.0, ov.orig.1), e.bit(x, y)) };
+                let mem = mem_of(&mut c);
+                let d = mem.data_mut(&mut c);
+                d[out as usize + a.0] &= !(1 << a.1);
+                d[out as usize + b.0] |= 1 << b.1;
+            }
+        }
+        rc
+    })?;
+
+    // --- bitboards (forwarded with the engine's metadata pointer; hot accessors native)
+    l.func_wrap(e, "bc_Bitboard_Zero", |mut c: Caller<'_, BotState>, buf: i32| -> i32 {
+        let n = bbsz!(c);
+        let mem = mem_of(&mut c);
+        mem.data_mut(&mut c)[buf as usize..buf as usize + n].fill(0);
+        0
+    })?;
+    l.func_wrap(e, "bc_Bitboard_Set", |mut c: Caller<'_, BotState>, buf: i32, x: i32, y: i32, v: i32| -> i32 {
+        let (inb, (o, b), n) = { let e = c.data().eng.lock().unwrap(); (e.inb(x, y), if e.inb(x, y) { e.bit(x, y) } else { (0, 0) }, e.bb) };
+        if !inb { return bridge(&mut c, "Bitboard_Set", &[M, S(0), I(x), I(y), I(v)], &[cp(0, buf, n, InOut)]); }
+        let mem = mem_of(&mut c);
+        let d = mem.data_mut(&mut c);
+        if v != 0 { d[buf as usize + o] |= 1 << b; } else { d[buf as usize + o] &= !(1 << b); }
+        0
+    })?;
+    l.func_wrap(e, "bc_Bitboard_Test", |mut c: Caller<'_, BotState>, buf: i32, x: i32, y: i32, out: i32| -> i32 {
+        let (inb, (o, b), n) = { let e = c.data().eng.lock().unwrap(); (e.inb(x, y), if e.inb(x, y) { e.bit(x, y) } else { (0, 0) }, e.bb) };
+        if !inb { return bridge(&mut c, "Bitboard_Test", &[M, S(0), I(x), I(y), S(1)], &[cp(0, buf, n, In), cp(1, out, 4, Out)]); }
+        let mem = mem_of(&mut c);
+        let d = mem.data_mut(&mut c);
+        let v = (d[buf as usize + o] >> b) & 1;
+        wr32(d, out as usize, v as u32);
+        0
+    })?;
+    l.func_wrap(e, "bc_Bitboard_Union", |mut c: Caller<'_, BotState>, a: i32, b: i32, r: i32| -> i32 {
+        let n = bbsz!(c);
+        let mem = mem_of(&mut c);
+        let d = mem.data_mut(&mut c);
+        for k in 0..n { d[r as usize + k] = d[a as usize + k] | d[b as usize + k]; }
+        0
+    })?;
+    l.func_wrap(e, "bc_Bitboard_Intersect", |mut c: Caller<'_, BotState>, a: i32, b: i32, r: i32| -> i32 {
+        let n = bbsz!(c);
+        let mem = mem_of(&mut c);
+        let d = mem.data_mut(&mut c);
+        for k in 0..n { d[r as usize + k] = d[a as usize + k] & d[b as usize + k]; }
+        0
+    })?;
+    l.func_wrap(e, "bc_Bitboard_IsZero", |mut c: Caller<'_, BotState>, a: i32, out: i32| -> i32 {
+        let n = bbsz!(c);
+        let mem = mem_of(&mut c);
+        let d = mem.data_mut(&mut c);
+        let z = d[a as usize..a as usize + n].iter().all(|&x| x == 0);
+        wr32(d, out as usize, z as u32);
+        0
+    })?;
+    l.func_wrap(e, "bc_Bitboard_IsEqual", |mut c: Caller<'_, BotState>, a: i32, b: i32, out: i32| -> i32 {
+        let n = bbsz!(c);
+        let mem = mem_of(&mut c);
+        let d = mem.data_mut(&mut c);
+        let z = d[a as usize..a as usize + n] == d[b as usize..b as usize + n];
+        wr32(d, out as usize, z as u32);
+        0
+    })?;
+    l.func_wrap(e, "bc_Bitboard_Not", |mut c: Caller<'_, BotState>, a: i32, r: i32| -> i32 { let n = bbsz!(c); bridge(&mut c, "Bitboard_Not", &[M, S(0), S(1)], &[cp(0, a, n, In), cp(1, r, n, Out)]) })?;
+    l.func_wrap(e, "bc_Bitboard_NumSetBits", |mut c: Caller<'_, BotState>, a: i32, out: i32| -> i32 { let n = bbsz!(c); bridge(&mut c, "Bitboard_NumSetBits", &[M, S(0), S(1)], &[cp(0, a, n, In), cp(1, out, 4, Out)]) })?;
+    l.func_wrap(e, "bc_Bitboard_GetSetBits", |mut c: Caller<'_, BotState>, a: i32, pos: i32, cap: i32, cnt: i32| -> i32 {
+        let (team, champ) = who(&c);
+        let eng = c.data().eng.clone();
+        let mem = mem_of(&mut c);
+        let src = { let n = eng.lock().unwrap().bb; mem.data(&c)[a as usize..a as usize + n].to_vec() };
+        let mut e = eng.lock().unwrap();
+        e.set_persp(team, champ);
+        let capc = (cap.max(0) as usize).min(e.slot_size / 8) as i32;
+        let (m, s0, s1, s2) = (e.meta, e.slots[0], e.slots[1], e.slots[2]);
+        e.write(s0, &src);
+        let rc = e.call("Bitboard_GetSetBits", &[Val::I32(m), Val::I32(s0), Val::I32(s1), Val::I32(capc), Val::I32(s2)]);
+        if rc != 0 { e.last_err = e.err_msg(); return rc; }
+        let n = e.r32(s2);
+        let take = (n as usize).min(capc as usize);
+        let b = e.read(s1, take * 8);
+        drop(e);
+        let d = mem.data_mut(&mut c);
+        if take > 0 { d[pos as usize..pos as usize + take * 8].copy_from_slice(&b); }
+        if cnt != 0 { wr32(d, cnt as usize, n); }
+        0
+    })?;
+    l.func_wrap(e, "bc_Bitboard_ImportRawBuffer", |mut c: Caller<'_, BotState>, buf: i32, bytes: i32, size: i32| -> i32 { let n = bbsz!(c); bridge(&mut c, "Bitboard_ImportRawBuffer", &[M, S(0), S(1), I(size)], &[cp(1, bytes, size as usize, In), cp(0, buf, n, Out)]) })?;
+    l.func_wrap(e, "bc_Bitboard_ExportLinearBuffer", |mut c: Caller<'_, BotState>, buf: i32, bytes: i32, size: i32| -> i32 { let n = bbsz!(c); bridge(&mut c, "Bitboard_ExportLinearBuffer", &[M, S(0), S(1), I(size)], &[cp(0, buf, n, In), cp(1, bytes, size as usize, Out)]) })?;
+    l.func_wrap(e, "bc_Bitboard_DrawChebyshev", |mut c: Caller<'_, BotState>, buf: i32, x: i32, y: i32, r: f32| -> i32 { let n = bbsz!(c); bridge(&mut c, "Bitboard_DrawChebyshev", &[M, S(0), I(x), I(y), F(r)], &[cp(0, buf, n, InOut)]) })?;
+    l.func_wrap(e, "bc_Bitboard_ShiftRight", |mut c: Caller<'_, BotState>, a: i32, r: i32, k: i32| -> i32 { let n = bbsz!(c); bridge(&mut c, "Bitboard_ShiftRight", &[M, S(0), S(1), I(k)], &[cp(0, a, n, In), cp(1, r, n, Out)]) })?;
+    l.func_wrap(e, "bc_Bitboard_ShiftUp", |mut c: Caller<'_, BotState>, a: i32, r: i32, k: i32| -> i32 { let n = bbsz!(c); bridge(&mut c, "Bitboard_ShiftUp", &[M, S(0), S(1), I(k)], &[cp(0, a, n, In), cp(1, r, n, Out)]) })?;
+    l.func_wrap(e, "bc_Bitboard_ReachableMask", |mut c: Caller<'_, BotState>, w: i32, x: i32, y: i32, r: i32, dist: i32| -> i32 { let n = bbsz!(c); bridge(&mut c, "Bitboard_ReachableMask", &[M, S(0), I(x), I(y), S(1), I(dist)], &[cp(0, w, n, In), cp(1, r, n, Out)]) })?;
+    l.func_wrap(e, "bc_DistanceField_Get", |mut c: Caller<'_, BotState>, df: i32, x: i32, y: i32, out: i32| -> i32 {
+        let (inb, off, n) = { let e = c.data().eng.lock().unwrap(); (e.inb(x, y), if e.inb(x, y) { e.df_off(x, y) } else { 0 }, e.df) };
+        if !inb { return bridge(&mut c, "DistanceField_Get", &[M, S(0), I(x), I(y), S(1)], &[cp(0, df, n, In), cp(1, out, 2, Out)]); }
+        let mem = mem_of(&mut c);
+        let d = mem.data_mut(&mut c);
+        let v = [d[df as usize + off], d[df as usize + off + 1]];
+        d[out as usize..out as usize + 2].copy_from_slice(&v);
+        0
+    })?;
+    l.func_wrap(e, "bc_DistanceField_ExportLinearBuffer", |mut c: Caller<'_, BotState>, df: i32, bytes: i32, size: i32| -> i32 { let n = dfsz!(c); bridge(&mut c, "DistanceField_ExportLinearBuffer", &[M, S(0), S(1), I(size)], &[cp(0, df, n, In), cp(1, bytes, size as usize, Out)]) })?;
+    l.func_wrap(e, "bc_DistanceField_ComputeWithExpansionCount", |mut c: Caller<'_, BotState>, w: i32, roots: i32, vis: i32, dist: i32, max: i32, cnt: i32| -> i32 {
+        let (n, f) = { let e = c.data().eng.lock().unwrap(); (e.bb, e.df) };
+        bridge(&mut c, "DistanceField_ComputeWithExpansionCount", &[M, S(0), S(1), S(2), S(3), I(max), S(4)],
+               &[cp(0, w, n, In), cp(1, roots, n, In), cp(2, vis, n, InOut), cp(3, dist, f, InOut), cp(4, cnt, 2, Out)])
+    })?;
+    l.func_wrap(e, "bc_DistanceField_ComputeToWithExpansionCount", |mut c: Caller<'_, BotState>, w: i32, roots: i32, dests: i32, vis: i32, dist: i32, max: i32, cnt: i32| -> i32 {
+        let (n, f) = { let e = c.data().eng.lock().unwrap(); (e.bb, e.df) };
+        bridge(&mut c, "DistanceField_ComputeToWithExpansionCount", &[M, S(0), S(1), S(2), S(3), S(4), I(max), S(5)],
+               &[cp(0, w, n, In), cp(1, roots, n, In), cp(2, dests, n, In), cp(3, vis, n, InOut), cp(4, dist, f, InOut), cp(5, cnt, 2, Out)])
+    })?;
+
+    // --- actions: recorded, overlaid for the rest of the turn, never applied
+    l.func_wrap(e, "move_to_with_result", |mut c: Caller<'_, BotState>, x: i32, y: i32, out: i32| -> i32 {
+        act(&mut c, format!("move {x},{y}"), |ov| { ov.pos = Some((x, y)); ov.clr |= 1 << 3; });
+        put32(&mut c, out, 1);
+        0
+    })?;
+    l.func_wrap(e, "attack", |mut c: Caller<'_, BotState>, kind: i32, handle: i32| -> i32 {
+        let p = target_pos(&mut c, kind, handle);
+        let s = match p { Some((x, y)) => format!("attack {x},{y}"), None => format!("attack ?{kind}:{handle}") };
+        act(&mut c, s, |ov| ov.clr |= 1 << 4);
+        0
+    })?;
+    l.func_wrap(e, "cast_with_result", |mut c: Caller<'_, BotState>, slot: i32, kind: i32, handle: i32, x: i32, y: i32, out: i32| -> i32 {
+        let p = if kind != 0 { target_pos(&mut c, kind, handle) } else { Some((x, y)) };
+        let s = match p { Some((tx, ty)) => format!("cast{slot} {tx},{ty}"), None => format!("cast{slot} ?{kind}:{handle}") };
+        act(&mut c, s, |ov| { ov.clr |= 1 << 11; if (0..2).contains(&slot) { ov.cd[slot as usize] = Some(1); } });
+        put32(&mut c, out, 1);
+        0
+    })?;
+    l.func_wrap(e, "recall", |mut c: Caller<'_, BotState>| -> i32 { act(&mut c, "recall".into(), |ov| ov.set |= (1 << 1) | (1 << 6)); 0 })?;
+    l.func_wrap(e, "cancel_channel", |mut c: Caller<'_, BotState>| -> i32 { act(&mut c, "cancel".into(), |ov| ov.clr |= (1 << 1) | (1 << 2)); 0 })?;
+    l.func_wrap(e, "submit_gems", |mut c: Caller<'_, BotState>, x: i32, y: i32| -> i32 { act(&mut c, format!("submit {x},{y}"), |ov| ov.set |= (1 << 2) | (1 << 7)); 0 })?;
+    l.func_wrap(e, "set_priority", |mut c: Caller<'_, BotState>, p: i32| -> i32 { act(&mut c, format!("prio {p}"), |_| {}); 0 })?;
+    l.func_wrap(e, "buy_item", |mut c: Caller<'_, BotState>, t: i32, n: i32| -> i32 { act(&mut c, format!("buy {t}x{n}"), |_| {}); 0 })?;
+    l.func_wrap(e, "place_ward_with_result", |mut c: Caller<'_, BotState>, x: i32, y: i32, out: i32| -> i32 { act(&mut c, format!("ward {x},{y}"), |_| {}); put32(&mut c, out, 1); 0 })?;
+
+    l.func_wrap_async(e, "yield", |mut c: Caller<'_, BotState>, (): ()| {
+        Box::new(async move {
+            let used = {
+                let left = fuel_left(&c);
+                let k = c.data().ctl.lock().unwrap();
+                k.k_turn * k.q - left
+            };
+            {
+                let mut k = c.data().ctl.lock().unwrap();
+                k.yielded = true;
+                k.used = Some(used);
+            }
+            YieldOnce(false).await;
+            // Resumed at the champion's next turn: a fresh fuel slice.
+            let reserve = c.data().ctl.lock().unwrap().reserve;
+            let _ = c.set_fuel(reserve);
+            c.data().ctl.lock().unwrap().preempts_since_reset = 0;
+        })
+    })?;
+    Ok(())
+}
+
+struct Bot {
+    fut: Pin<Box<dyn Future<Output = Result<()>> + Send>>,
+    ctl: Arc<Mutex<Ctl>>,
+    ended: Option<String>,
+}
+
+impl Bot {
+    fn new(engine: &Engine, module: &Module, linker: &Linker<BotState>, st: BotState, q: u64) -> Result<Bot> {
+        let ctl = st.ctl.clone();
+        let reserve = q * RESERVE_SLICES;
+        {
+            let mut k = ctl.lock().unwrap();
+            k.q = q;
+            k.reserve = reserve;
+        }
+        let mut store = Store::new(engine, st);
+        store.fuel_async_yield_interval(Some(q))?;
+        store.set_fuel(reserve)?;
+        let module = module.clone();
+        let linker = linker.clone();
+        let fut = Box::pin(async move {
+            let inst = linker.instantiate_async(&mut store, &module).await?;
+            let start = inst.get_typed_func::<(), ()>(&mut store, "_start")?;
+            start.call_async(&mut store, ()).await?;
+            Ok(())
+        });
+        Ok(Bot { fut, ctl, ended: None })
+    }
+    // Run one turn of `k_turn` fuel slices; returns (fuel used, preempted).
+    fn turn(&mut self, k_turn: u64) -> (u64, bool) {
+        {
+            let mut k = self.ctl.lock().unwrap();
+            k.yielded = false;
+            k.used = None;
+            k.k_turn = k_turn;
+            k.preempts_turn = 0;
+            k.actions.clear();
+            k.out.clear();
+        }
+        if self.ended.is_some() { return (0, false); }
+        let mut cx = Context::from_waker(Waker::noop());
+        loop {
+            match self.fut.as_mut().poll(&mut cx) {
+                Poll::Ready(r) => {
+                    self.ended = Some(match r { Ok(()) => "exited".into(), Err(e) => format!("{e:#}") });
+                    return (0, false);
+                }
+                Poll::Pending => {
+                    let mut k = self.ctl.lock().unwrap();
+                    if k.yielded { return (k.used.unwrap_or(0), false); }
+                    k.preempts_turn += 1;
+                    k.preempts_since_reset += 1;
+                    if k.preempts_turn >= k.k_turn { return (k.k_turn * k.q, true); }
+                }
+            }
+        }
+    }
+}
+
+fn jstr(s: &str) -> String {
+    let mut o = String::with_capacity(s.len() + 2);
+    o.push('"');
+    for ch in s.chars() {
+        match ch {
+            '"' => o.push_str("\\\""),
+            '\\' => o.push_str("\\\\"),
+            '\n' => o.push_str("\\n"),
+            c if (c as u32) < 0x20 => o.push_str(&format!("\\u{:04x}", c as u32)),
+            c => o.push(c),
+        }
+    }
+    o.push('"');
+    o
+}
+fn jarr(v: &[String]) -> String { format!("[{}]", v.iter().map(|s| jstr(s)).collect::<Vec<_>>().join(",")) }
+
+fn read_replay(path: &str) -> Result<Vec<u8>> {
+    let b = std::fs::read(path).with_context(|| format!("read {path}"))?;
+    if b.len() > 2 && b[0] == 0x50 && b[1] == 0x4b {
+        let out = std::process::Command::new("unzip").args(["-p", path, "replay.repl26a"]).output()?;
+        if !out.status.success() { bail!("unzip {path}"); }
+        return Ok(out.stdout);
+    }
+    Ok(b)
+}
+
+struct Rec { round: u32, id: u32, typ: u32, pos: Option<(i32, i32)>, hp: f32, mhp: f32, gems: u32, fuel: u64, pre: bool, bot: Vec<String>, rep: Vec<String>, out: String, err: Option<String> }
+
+fn self_test(eng: &Arc<Mutex<Eng>>) -> Result<()> {
+    // Check the native bitboard / distance-field layouts against the engine on this map.
+    let mut e = eng.lock().unwrap();
+    let (m, s0, s1, s2, s3, s4, o) = (e.meta, e.slots[0], e.slots[1], e.slots[2], e.slots[3], e.slots[4], e.out);
+    let (bb, df, w, h) = (e.bb, e.df, e.w, e.h);
+    e.call("Bitboard_Zero", &[Val::I32(m), Val::I32(s0)]);
+    let pts = [(0, 0), (w - 1, h - 1), (w / 2, h / 3), (3, h - 2), (w - 2, 5)];
+    for &(x, y) in &pts { e.call("Bitboard_Set", &[Val::I32(m), Val::I32(s0), Val::I32(x), Val::I32(y), Val::I32(1)]); }
+    let board = e.read(s0, bb);
+    for y in 0..h {
+        for x in 0..w {
+            let (off, b) = e.bit(x, y);
+            let native = (board[off] >> b) & 1;
+            let want = pts.contains(&(x, y)) as u8;
+            if native != want { bail!("bitboard layout mismatch at {x},{y}"); }
+        }
+    }
+    // Distance field from the first point over the wall map.
+    let (g, oo) = (e.game, e.out);
+    e.call("Game_GetWallBuffer", &[Val::I64(g), Val::I32(oo)]);
+    let wp = e.r32(oo) as i32;
+    let walls = e.read(wp, bb);
+    e.write(s1, &walls);
+    e.call("Bitboard_Zero", &[Val::I32(m), Val::I32(s2)]);
+    e.call("Bitboard_Set", &[Val::I32(m), Val::I32(s2), Val::I32(w / 2), Val::I32(h / 2), Val::I32(1)]);
+    let rc = e.call("DistanceField_ComputeWithExpansionCount", &[Val::I32(m), Val::I32(s1), Val::I32(s2), Val::I32(s3), Val::I32(s4), Val::I32(65535), Val::I32(o)]);
+    if rc != 0 { bail!("df compute {rc}"); }
+    let field = e.read(s4, df);
+    for y in 0..h {
+        for x in 0..w {
+            e.call("DistanceField_Get", &[Val::I32(m), Val::I32(s4), Val::I32(x), Val::I32(y), Val::I32(o)]);
+            let want = e.read(o, 2);
+            let off = e.df_off(x, y);
+            if field[off..off + 2] != want[..] { bail!("distance-field layout mismatch at {x},{y}"); }
+        }
+    }
+    Ok(())
+}
+
+fn main() -> Result<()> {
+    let args: Vec<String> = std::env::args().collect();
+    let opt = |k: &str| args.iter().position(|a| a == k).and_then(|i| args.get(i + 1)).cloned();
+    let engine_wasm = opt("--engine").ok_or_else(|| anyhow!("--engine"))?;
+    let bot_wasm = opt("--bot").ok_or_else(|| anyhow!("--bot"))?;
+    let replay = opt("--replay").ok_or_else(|| anyhow!("--replay"))?;
+    let team: u32 = opt("--team").ok_or_else(|| anyhow!("--team"))?.parse()?;
+    let from: u32 = opt("--from").map(|s| s.parse()).transpose()?.unwrap_or(0);
+    let to: u32 = opt("--to").map(|s| s.parse()).transpose()?.unwrap_or(u32::MAX);
+    let q: u64 = opt("--quantum").map(|s| s.parse()).transpose()?.unwrap_or(100_000);
+    let log_bytes: usize = opt("--log").map(|s| s.parse()).transpose()?.unwrap_or(400);
+    let mut out: Box<dyn Write> = match opt("--out") { Some(p) => Box::new(std::io::BufWriter::new(std::fs::File::create(p)?)), None => Box::new(std::io::stdout()) };
+
+    let bytes = read_replay(&replay)?;
+    let eng = Arc::new(Mutex::new(Eng::new(&engine_wasm, &bytes)?));
+    self_test(&eng)?;
+
+    let mut cfg = Config::new();
+    cfg.consume_fuel(true);
+    cfg.wasm_exceptions(true);
+    cfg.max_wasm_stack(4 << 20);
+    cfg.async_stack_size(64 << 20);
+    let bengine = Engine::new(&cfg)?;
+    let module = load_module(&bengine, &bot_wasm)?;
+    let mut linker: Linker<BotState> = Linker::new(&bengine);
+    add_wasi(&mut linker, |st: &mut BotState, _fd, b| {
+        let mut k = st.ctl.lock().unwrap();
+        if k.out.len() < 1 << 16 { k.out.push_str(&String::from_utf8_lossy(b)); }
+    })?;
+    add_env(&mut linker)?;
+    linker.define_unknown_imports_as_traps(&module)?;
+
+    let shared = Arc::new(Mutex::new(vec![0u8; 8]));
+    let draft = Arc::new(Mutex::new(vec![0u8; 1024]));
+    let mk = |champ: i32| BotState {
+        eng: eng.clone(),
+        ctl: Arc::new(Mutex::new(Ctl { champ, team, ..Default::default() })),
+        shared: shared.clone(),
+        draft: draft.clone(),
+    };
+
+    // Draft instance: only to reproduce the team's draft memory.
+    {
+        let mut d = Bot::new(&bengine, &module, &linker, mk(-1), q)?;
+        for t in 0..6 {
+            d.turn(if t == 0 { 10 } else { 1 });
+            if d.ctl.lock().unwrap().draft_submitted || d.ended.is_some() { break; }
+        }
+        let k = d.ctl.lock().unwrap();
+        eprintln!("draft: memory submitted={} ended={:?} out={}", k.draft_submitted, d.ended, k.out.chars().take(200).collect::<String>());
+    }
+
+    let mut bots: HashMap<u32, Bot> = HashMap::new();
+    let mut pending: Option<Rec> = None;
+    let mut turns = 0u64;
+    let mut same = 0u64;
+    let t0 = std::time::Instant::now();
+    loop {
+        let st = {
+            let mut e = eng.lock().unwrap();
+            if !e.next() { break; }
+            e.state()
+        };
+        if let Some(rec) = pending.as_mut() {
+            if st.actor_kind == 1 && st.actor == rec.id {
+                let a = match st.kind {
+                    4 => Some(format!("move {},{}", st.to.0, st.to.1)),
+                    5 => Some(format!("attack {},{}", st.to.0, st.to.1)),
+                    6 => Some(format!("cast{} {},{}", st.slot.unwrap_or(9), st.to.0, st.to.1)),
+                    9 => Some(format!("prio {}", st.prio)),
+                    11 => Some("recall".into()),
+                    12 => Some(format!("submit {},{}", st.to.0, st.to.1)),
+                    13 => Some("buy".into()),
+                    14 => Some(format!("ward {},{}", st.to.0, st.to.1)),
+                    15 => Some("consumable".into()),
+                    16 => Some("cancel".into()),
+                    23 => Some("blocked".into()),
+                    25 => Some("sell".into()),
+                    27 => Some("boterror".into()),
+                    _ => None,
+                };
+                if let Some(a) = a { rec.rep.push(a); }
+            }
+            if st.kind == 8 && st.actor_kind == 1 && st.actor == rec.id {
+                let rec = pending.take().unwrap();
+                let norm = |v: &[String]| -> Vec<String> { v.iter().filter(|a| !a.starts_with("prio") && !a.starts_with("buy")).cloned().collect() };
+                let m = norm(&rec.bot) == norm(&rec.rep);
+                turns += 1;
+                if m { same += 1; }
+                let mut log = rec.out.clone();
+                if log.len() > log_bytes { log.truncate(log_bytes); }
+                writeln!(out, "{{\"r\":{},\"id\":{},\"type\":{},\"pos\":{},\"hp\":{},\"mhp\":{},\"gems\":{},\"fuel\":{},\"pre\":{},\"match\":{},\"bot\":{},\"rep\":{},\"log\":{}{}}}",
+                         rec.round, rec.id, jstr(CHAMPION_TYPES.get(rec.typ as usize).copied().unwrap_or("?")),
+                         rec.pos.map(|p| format!("[{},{}]", p.0, p.1)).unwrap_or("null".into()), rec.hp.round(), rec.mhp.round(), rec.gems,
+                         rec.fuel, rec.pre, m, jarr(&rec.bot), jarr(&rec.rep), jstr(&log),
+                         rec.err.map(|e| format!(",\"ended\":{}", jstr(&e))).unwrap_or_default())?;
+            }
+        }
+        if st.kind == 3 && st.sphase == 14 && st.phase == 10 {
+            if let Some(c) = st.ch.iter().find(|c| c.idx == st.cur).cloned() {
+                if c.team == team && st.round >= from && st.round <= to {
+                    let first = !bots.contains_key(&c.idx);
+                    if first {
+                        let b = Bot::new(&bengine, &module, &linker, mk(c.idx as i32), q)?;
+                        bots.insert(c.idx, b);
+                    }
+                    let bot = bots.get_mut(&c.idx).unwrap();
+                    {
+                        let mut k = bot.ctl.lock().unwrap();
+                        k.ov = Ov { orig: c.pos.unwrap_or((-1, -1)), ..Default::default() };
+                    }
+                    let (fuel, pre) = bot.turn(if first { 2 } else { 1 });
+                    let k = bot.ctl.lock().unwrap();
+                    pending = Some(Rec { round: st.round, id: c.idx, typ: c.typ, pos: c.pos, hp: c.hp, mhp: c.mhp, gems: c.gems, fuel, pre,
+                                         bot: k.actions.clone(), rep: vec![], out: k.out.clone(), err: bot.ended.clone() });
+                }
+            }
+        }
+        if st.phase == 11 || st.round > to { break; }
+    }
+    out.flush()?;
+    eprintln!("turns {turns}, identical actions {same} ({:.1}%), {:.1}s", 100.0 * same as f64 / turns.max(1) as f64, t0.elapsed().as_secs_f64());
+    Ok(())
+}

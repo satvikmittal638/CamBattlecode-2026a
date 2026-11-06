@@ -1,0 +1,32 @@
+{
+  "status": "not_selected",
+  "reason": "One net win in 240 matched schedules, with 25 gains and 24 losses; insufficient robust advantage to replace the active candidate.",
+  "baseline": {
+    "games": 240,
+    "finished": 240,
+    "wins": 164,
+    "gemDiff": 269.5,
+    "myFaults": 0,
+    "oppFaults": 0,
+    "errors": 0
+  },
+  "candidate": {
+    "games": 240,
+    "finished": 240,
+    "wins": 165,
+    "gemDiff": 277.1,
+    "myFaults": 0,
+    "oppFaults": 0,
+    "errors": 0
+  },
+  "paired": {
+    "paired": 240,
+    "gained": 25,
+    "lost": 24,
+    "net": 1,
+    "gemDiffDelta": 7.5
+  },
+  "sourceChanged": [],
+  "uploaded": false,
+  "remainingWeakness": "Legacy travel can still enter a personally visible, ready single-spell lethal range; this candidate does not establish a reliable global fix."
+}

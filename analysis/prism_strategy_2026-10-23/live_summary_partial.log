@@ -1,0 +1,60 @@
+{
+  "games": 100,
+  "steps": 20768550,
+  "decodeErrors": [],
+  "nativeBotErrorsBothTeams": 0,
+  "prismTurns": 105372,
+  "focusFormulaMaxResidual": 0,
+  "prismGemShare": 0.21276315981708474,
+  "prismAllyWithin5Fraction": 0.4764833162509965,
+  "cohorts": {
+    "near_half_rank": {
+      "games": 50,
+      "wins": 11,
+      "prismGemsMean": 119.32,
+      "prismDeathsMean": 4.26,
+      "prismMaxBagMedian": 45.0,
+      "prismMaxFocusMedian": 187.5
+    },
+    "near_our_rank": {
+      "games": 50,
+      "wins": 18,
+      "prismGemsMean": 171.94,
+      "prismDeathsMean": 3.34,
+      "prismMaxBagMedian": 66.5,
+      "prismMaxFocusMedian": 234.25
+    }
+  },
+  "outcomePatterns": {
+    "wins": {
+      "games": 29,
+      "prismGems": 195.86206896551724,
+      "prismDeaths": 1.9310344827586208,
+      "teamDeaths": 6.172413793103448,
+      "enemyDeaths": 11.068965517241379,
+      "teamCaptured": 1037.6896551724137,
+      "enemyCaptured": 713.448275862069,
+      "finalBag": 30.137931034482758
+    },
+    "losses": {
+      "games": 71,
+      "prismGems": 125.11267605633803,
+      "prismDeaths": 4.563380281690141,
+      "teamDeaths": 16.225352112676056,
+      "enemyDeaths": 3.915492957746479,
+      "teamCaptured": 540.1971830985915,
+      "enemyCaptured": 1064.3521126760563,
+      "finalBag": 30.887323943661972
+    },
+    "heavyLosses": {
+      "games": 43,
+      "prismGems": 92.51162790697674,
+      "prismDeaths": 6.093023255813954,
+      "teamDeaths": 22.11627906976744,
+      "enemyDeaths": 4.4186046511627906,
+      "teamCaptured": 320.3953488372093,
+      "enemyCaptured": 1016.1860465116279,
+      "finalBag": 25.325581395348838
+    }
+  }
+}

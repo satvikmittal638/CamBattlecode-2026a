@@ -1,0 +1,248 @@
+21:03:21 10313 groups, 219 replays on the cluster, 10301 groups to fetch
+21:05:22 triggered 50/10301 groups, in flight 0, shipping 0; groups ok 48 (240 replays), failed 0, gave up 0; 51 requests, 0 rate-limited
+21:07:24 triggered 99/10301 groups, in flight 3, shipping 0; groups ok 93 (465 replays), failed 0, gave up 0; 102 requests, 0 rate-limited
+21:09:24 triggered 132/10301 groups, in flight 3, shipping 1; groups ok 117 (585 replays), failed 0, gave up 0; 150 requests, 1 rate-limited
+21:11:25 triggered 168/10301 groups, in flight 6, shipping 0; groups ok 156 (780 replays), failed 0, gave up 0; 199 requests, 1 rate-limited
+21:13:27 triggered 200/10301 groups, in flight 1, shipping 0; groups ok 191 (955 replays), failed 0, gave up 0; 250 requests, 1 rate-limited
+21:15:28 triggered 249/10301 groups, in flight 13, shipping 0; groups ok 235 (1175 replays), failed 0, gave up 0; 300 requests, 1 rate-limited
+21:17:28 triggered 284/10301 groups, in flight 5, shipping 0; groups ok 270 (1350 replays), failed 0, gave up 0; 350 requests, 1 rate-limited
+21:19:28 triggered 314/10301 groups, in flight 7, shipping 0; groups ok 305 (1525 replays), failed 0, gave up 0; 400 requests, 1 rate-limited
+21:21:29 triggered 348/10301 groups, in flight 6, shipping 0; groups ok 336 (1680 replays), failed 0, gave up 0; 450 requests, 1 rate-limited
+21:23:32 triggered 393/10301 groups, in flight 0, shipping 0; groups ok 384 (1920 replays), failed 0, gave up 0; 501 requests, 1 rate-limited
+21:23:47 fail f6ff3508-7901-41ab-a955-614bb633f013 curl curl: (60) SSL certificate problem: unable to get local issuer certificate
+21:23:47 More details here: https://curl.se/docs/sslce
+21:23:47 fail e98ef082-5e04-4669-90c4-1b9d483f1861 curl curl: (60) SSL certificate problem: unable to get local issuer certificate
+21:23:47 More details here: https://curl.se/docs/sslce
+21:23:47 fail e241cea0-e181-47c8-b2a8-f6d116a1fc96 curl curl: (60) SSL certificate problem: unable to get local issuer certificate
+21:23:47 More details here: https://curl.se/docs/sslce
+21:23:47 fail 6f0848d2-bd65-4b97-9ce9-cd2bab360bc7 curl curl: (60) SSL certificate problem: unable to get local issuer certificate
+21:23:47 More details here: https://curl.se/docs/sslce
+21:23:47 fail ea0ed03f-2aab-40a2-8cef-f6660ae13453 curl curl: (60) SSL certificate problem: unable to get local issuer certificate
+21:23:47 More details here: https://curl.se/docs/sslce
+21:23:47 fail 3bec86cc-e85d-4f02-a721-5ff2438e8440 curl curl: (60) SSL certificate problem: unable to get local issuer certificate
+21:23:47 More details here: https://curl.se/docs/sslce
+21:23:47 fail 8ee86644-5a27-4a7e-8186-f0ce729cb694 curl curl: (60) SSL certificate problem: unable to get local issuer certificate
+21:23:47 More details here: https://curl.se/docs/sslce
+21:25:33 triggered 430/10301 groups, in flight 5, shipping 0; groups ok 414 (2070 replays), failed 14, gave up 0; 543 requests, 3 rate-limited
+21:27:36 triggered 466/10301 groups, in flight 7, shipping 0; groups ok 448 (2240 replays), failed 14, gave up 0; 594 requests, 3 rate-limited
+21:29:36 triggered 494/10301 groups, in flight 9, shipping 0; groups ok 478 (2390 replays), failed 14, gave up 0; 643 requests, 4 rate-limited
+21:31:30 fail 2683e4a2-fe40-40d4-a91e-4b2b526519a4 curl curl: (6) Could not resolve host: cambc-event-2026a-prod-userdata-rfcmixzmrano.s3.eu-west-2.amazonaws.com
+21:31:30 fail 58180327-7130-4fb4-bf66-ce8fdaa394cd curl curl: (6) Could not resolve host: cambc-event-2026a-prod-userdata-rfcmixzmrano.s3.eu-west-2.amazonaws.com
+21:31:30 fail 0c55a6af-eda1-4da2-aa01-1701fce5ac89 curl curl: (6) Could not resolve host: cambc-event-2026a-prod-userdata-rfcmixzmrano.s3.eu-west-2.amazonaws.com
+21:31:37 triggered 519/10301 groups, in flight 11, shipping 0; groups ok 492 (2460 replays), failed 17, gave up 0; 692 requests, 5 rate-limited
+21:31:50 fail d36fc89e-5b7a-4ada-9182-7105e321a875 curl curl: (6) Could not resolve host: cambc-event-2026a-prod-userdata-rfcmixzmrano.s3.eu-west-2.amazonaws.com
+21:31:50 fail 59b86cfa-32b2-451f-88e4-9f745f3ccfe3 curl curl: (6) Could not resolve host: cambc-event-2026a-prod-userdata-rfcmixzmrano.s3.eu-west-2.amazonaws.com
+21:33:37 triggered 541/10301 groups, in flight 5, shipping 0; groups ok 502 (2510 replays), failed 35, gave up 0; 742 requests, 5 rate-limited
+21:35:37 triggered 569/10301 groups, in flight 11, shipping 0; groups ok 526 (2630 replays), failed 35, gave up 0; 792 requests, 5 rate-limited
+21:37:39 triggered 593/10301 groups, in flight 7, shipping 0; groups ok 556 (2780 replays), failed 35, gave up 0; 843 requests, 5 rate-limited
+21:39:39 triggered 620/10301 groups, in flight 11, shipping 0; groups ok 577 (2885 replays), failed 35, gave up 0; 893 requests, 5 rate-limited
+21:41:41 triggered 642/10301 groups, in flight 8, shipping 0; groups ok 604 (3020 replays), failed 35, gave up 0; 941 requests, 7 rate-limited
+21:43:44 triggered 669/10301 groups, in flight 10, shipping 0; groups ok 630 (3150 replays), failed 35, gave up 0; 992 requests, 7 rate-limited
+21:45:45 triggered 691/10301 groups, in flight 8, shipping 1; groups ok 646 (3230 replays), failed 35, gave up 0; 1040 requests, 9 rate-limited
+21:47:46 triggered 715/10301 groups, in flight 7, shipping 0; groups ok 673 (3365 replays), failed 37, gave up 0; 1089 requests, 10 rate-limited
+21:49:46 triggered 742/10301 groups, in flight 11, shipping 0; groups ok 697 (3485 replays), failed 37, gave up 0; 1139 requests, 10 rate-limited
+21:51:46 triggered 764/10301 groups, in flight 5, shipping 0; groups ok 727 (3635 replays), failed 37, gave up 0; 1189 requests, 10 rate-limited
+21:53:47 triggered 788/10301 groups, in flight 7, shipping 0; groups ok 748 (3740 replays), failed 37, gave up 0; 1237 requests, 12 rate-limited
+21:55:47 triggered 814/10301 groups, in flight 6, shipping 0; groups ok 778 (3890 replays), failed 37, gave up 0; 1287 requests, 12 rate-limited
+21:57:50 triggered 842/10301 groups, in flight 10, shipping 0; groups ok 802 (4010 replays), failed 37, gave up 0; 1338 requests, 12 rate-limited
+21:59:50 triggered 866/10301 groups, in flight 7, shipping 1; groups ok 823 (4115 replays), failed 37, gave up 0; 1388 requests, 12 rate-limited
+22:01:50 triggered 894/10301 groups, in flight 13, shipping 0; groups ok 848 (4240 replays), failed 37, gave up 0; 1438 requests, 12 rate-limited
+22:03:51 triggered 914/10301 groups, in flight 5, shipping 0; groups ok 875 (4375 replays), failed 37, gave up 0; 1487 requests, 13 rate-limited
+22:05:51 triggered 943/10301 groups, in flight 12, shipping 0; groups ok 900 (4500 replays), failed 37, gave up 0; 1537 requests, 13 rate-limited
+22:07:53 triggered 965/10301 groups, in flight 5, shipping 0; groups ok 927 (4635 replays), failed 37, gave up 0; 1588 requests, 13 rate-limited
+22:09:54 triggered 991/10301 groups, in flight 9, shipping 0; groups ok 952 (4760 replays), failed 37, gave up 0; 1637 requests, 14 rate-limited
+22:11:56 triggered 1016/10301 groups, in flight 10, shipping 0; groups ok 977 (4885 replays), failed 37, gave up 0; 1688 requests, 14 rate-limited
+22:13:58 triggered 1040/10301 groups, in flight 10, shipping 1; groups ok 994 (4970 replays), failed 37, gave up 0; 1737 requests, 15 rate-limited
+22:15:59 triggered 1063/10301 groups, in flight 7, shipping 0; groups ok 1024 (5120 replays), failed 37, gave up 0; 1786 requests, 16 rate-limited
+22:17:59 triggered 1089/10301 groups, in flight 8, shipping 0; groups ok 1045 (5225 replays), failed 37, gave up 0; 1836 requests, 16 rate-limited
+22:19:59 triggered 1115/10301 groups, in flight 9, shipping 0; groups ok 1076 (5380 replays), failed 37, gave up 0; 1886 requests, 16 rate-limited
+22:21:59 triggered 1140/10301 groups, in flight 9, shipping 0; groups ok 1099 (5495 replays), failed 37, gave up 0; 1936 requests, 16 rate-limited
+22:24:00 triggered 1163/10301 groups, in flight 7, shipping 0; groups ok 1127 (5635 replays), failed 37, gave up 0; 1985 requests, 17 rate-limited
+22:26:00 triggered 1188/10301 groups, in flight 9, shipping 1; groups ok 1143 (5715 replays), failed 37, gave up 0; 2034 requests, 18 rate-limited
+22:28:01 triggered 1212/10301 groups, in flight 7, shipping 0; groups ok 1169 (5845 replays), failed 41, gave up 0; 2084 requests, 18 rate-limited
+22:30:01 triggered 1238/10301 groups, in flight 9, shipping 0; groups ok 1193 (5965 replays), failed 41, gave up 0; 2134 requests, 18 rate-limited
+22:32:01 triggered 1263/10301 groups, in flight 9, shipping 0; groups ok 1220 (6100 replays), failed 41, gave up 0; 2184 requests, 18 rate-limited
+22:34:02 triggered 1286/10301 groups, in flight 9, shipping 0; groups ok 1245 (6225 replays), failed 41, gave up 0; 2232 requests, 20 rate-limited
+22:36:03 triggered 1309/10301 groups, in flight 7, shipping 0; groups ok 1269 (6345 replays), failed 41, gave up 0; 2281 requests, 21 rate-limited
+22:38:03 triggered 1338/10301 groups, in flight 12, shipping 1; groups ok 1292 (6460 replays), failed 41, gave up 0; 2331 requests, 21 rate-limited
+22:40:03 triggered 1360/10301 groups, in flight 6, shipping 0; groups ok 1313 (6565 replays), failed 41, gave up 0; 2381 requests, 21 rate-limited
+22:42:03 triggered 1387/10301 groups, in flight 10, shipping 0; groups ok 1344 (6720 replays), failed 41, gave up 0; 2431 requests, 21 rate-limited
+22:44:05 triggered 1411/10301 groups, in flight 7, shipping 0; groups ok 1365 (6825 replays), failed 41, gave up 0; 2482 requests, 21 rate-limited
+22:46:06 triggered 1437/10301 groups, in flight 9, shipping 0; groups ok 1396 (6980 replays), failed 41, gave up 0; 2532 requests, 21 rate-limited
+22:48:08 triggered 1460/10301 groups, in flight 10, shipping 0; groups ok 1417 (7085 replays), failed 41, gave up 0; 2578 requests, 21 rate-limited
+22:50:11 triggered 1483/10301 groups, in flight 8, shipping 1; groups ok 1439 (7195 replays), failed 41, gave up 0; 2627 requests, 22 rate-limited
+22:52:11 triggered 1503/10301 groups, in flight 6, shipping 0; groups ok 1457 (7285 replays), failed 41, gave up 0; 2668 requests, 23 rate-limited
+22:54:11 triggered 1530/10301 groups, in flight 11, shipping 0; groups ok 1488 (7440 replays), failed 41, gave up 0; 2718 requests, 23 rate-limited
+22:56:12 triggered 1553/10301 groups, in flight 7, shipping 0; groups ok 1508 (7540 replays), failed 41, gave up 0; 2768 requests, 23 rate-limited
+22:58:12 triggered 1579/10301 groups, in flight 6, shipping 0; groups ok 1541 (7705 replays), failed 41, gave up 0; 2818 requests, 23 rate-limited
+23:00:14 triggered 1607/10301 groups, in flight 11, shipping 0; groups ok 1562 (7810 replays), failed 41, gave up 0; 2869 requests, 23 rate-limited
+23:02:14 triggered 1630/10301 groups, in flight 6, shipping 0; groups ok 1592 (7960 replays), failed 41, gave up 0; 2919 requests, 23 rate-limited
+23:04:14 triggered 1658/10301 groups, in flight 12, shipping 1; groups ok 1611 (8055 replays), failed 41, gave up 0; 2969 requests, 23 rate-limited
+23:06:14 triggered 1681/10301 groups, in flight 7, shipping 0; groups ok 1637 (8185 replays), failed 41, gave up 0; 3019 requests, 23 rate-limited
+23:08:14 triggered 1708/10301 groups, in flight 11, shipping 0; groups ok 1662 (8310 replays), failed 41, gave up 0; 3069 requests, 23 rate-limited
+23:10:15 triggered 1730/10301 groups, in flight 5, shipping 0; groups ok 1690 (8450 replays), failed 41, gave up 0; 3119 requests, 23 rate-limited
+23:12:15 triggered 1759/10301 groups, in flight 13, shipping 0; groups ok 1714 (8570 replays), failed 41, gave up 0; 3169 requests, 23 rate-limited
+23:14:15 triggered 1779/10301 groups, in flight 3, shipping 0; groups ok 1742 (8710 replays), failed 41, gave up 0; 3219 requests, 23 rate-limited
+23:16:15 triggered 1809/10301 groups, in flight 13, shipping 0; groups ok 1765 (8825 replays), failed 41, gave up 0; 3269 requests, 23 rate-limited
+23:18:15 triggered 1830/10301 groups, in flight 5, shipping 0; groups ok 1785 (8925 replays), failed 41, gave up 0; 3319 requests, 23 rate-limited
+23:20:15 triggered 1858/10301 groups, in flight 11, shipping 0; groups ok 1813 (9065 replays), failed 41, gave up 0; 3369 requests, 23 rate-limited
+23:22:15 triggered 1881/10301 groups, in flight 7, shipping 0; groups ok 1837 (9185 replays), failed 41, gave up 0; 3419 requests, 23 rate-limited
+23:24:15 triggered 1908/10301 groups, in flight 11, shipping 0; groups ok 1865 (9325 replays), failed 41, gave up 0; 3469 requests, 23 rate-limited
+23:26:18 triggered 1931/10301 groups, in flight 6, shipping 0; groups ok 1890 (9450 replays), failed 41, gave up 0; 3520 requests, 23 rate-limited
+23:28:18 triggered 1958/10301 groups, in flight 10, shipping 0; groups ok 1917 (9585 replays), failed 41, gave up 0; 3570 requests, 23 rate-limited
+23:30:18 triggered 1980/10301 groups, in flight 6, shipping 1; groups ok 1933 (9665 replays), failed 41, gave up 0; 3619 requests, 24 rate-limited
+23:32:19 triggered 2007/10301 groups, in flight 10, shipping 0; groups ok 1963 (9815 replays), failed 41, gave up 0; 3669 requests, 24 rate-limited
+23:34:19 triggered 2030/10301 groups, in flight 8, shipping 0; groups ok 1984 (9920 replays), failed 41, gave up 0; 3719 requests, 24 rate-limited
+23:36:21 triggered 2056/10301 groups, in flight 9, shipping 0; groups ok 2014 (10070 replays), failed 41, gave up 0; 3770 requests, 24 rate-limited
+23:38:21 triggered 2080/10301 groups, in flight 7, shipping 0; groups ok 2036 (10180 replays), failed 41, gave up 0; 3820 requests, 24 rate-limited
+23:40:21 triggered 2106/10301 groups, in flight 9, shipping 0; groups ok 2065 (10325 replays), failed 41, gave up 0; 3870 requests, 24 rate-limited
+23:42:21 triggered 2130/10301 groups, in flight 7, shipping 0; groups ok 2089 (10445 replays), failed 41, gave up 0; 3920 requests, 24 rate-limited
+23:44:21 triggered 2156/10301 groups, in flight 9, shipping 1; groups ok 2110 (10550 replays), failed 41, gave up 0; 3970 requests, 24 rate-limited
+23:46:21 triggered 2181/10301 groups, in flight 9, shipping 0; groups ok 2135 (10675 replays), failed 41, gave up 0; 4020 requests, 24 rate-limited
+23:48:22 triggered 2205/10301 groups, in flight 7, shipping 0; groups ok 2162 (10810 replays), failed 41, gave up 0; 4070 requests, 24 rate-limited
+23:50:22 triggered 2232/10301 groups, in flight 11, shipping 0; groups ok 2186 (10930 replays), failed 41, gave up 0; 4120 requests, 24 rate-limited
+23:52:22 triggered 2254/10301 groups, in flight 5, shipping 0; groups ok 2215 (11075 replays), failed 41, gave up 0; 4170 requests, 24 rate-limited
+23:54:22 triggered 2282/10301 groups, in flight 11, shipping 0; groups ok 2238 (11190 replays), failed 41, gave up 0; 4220 requests, 24 rate-limited
+23:56:22 triggered 2305/10301 groups, in flight 7, shipping 0; groups ok 2266 (11330 replays), failed 41, gave up 0; 4270 requests, 24 rate-limited
+23:58:22 triggered 2331/10301 groups, in flight 9, shipping 1; groups ok 2286 (11430 replays), failed 41, gave up 0; 4320 requests, 24 rate-limited
+00:00:22 triggered 2355/10301 groups, in flight 7, shipping 0; groups ok 2310 (11550 replays), failed 41, gave up 0; 4370 requests, 24 rate-limited
+00:02:24 triggered 2381/10301 groups, in flight 11, shipping 0; groups ok 2338 (11690 replays), failed 41, gave up 0; 4418 requests, 24 rate-limited
+00:04:25 triggered 2404/10301 groups, in flight 11, shipping 0; groups ok 2357 (11785 replays), failed 41, gave up 0; 4465 requests, 24 rate-limited
+00:06:27 triggered 2426/10301 groups, in flight 5, shipping 0; groups ok 2386 (11930 replays), failed 41, gave up 0; 4515 requests, 24 rate-limited
+00:08:28 triggered 2453/10301 groups, in flight 11, shipping 0; groups ok 2407 (12035 replays), failed 41, gave up 0; 4564 requests, 25 rate-limited
+00:10:28 triggered 2475/10301 groups, in flight 5, shipping 0; groups ok 2437 (12185 replays), failed 41, gave up 0; 4614 requests, 25 rate-limited
+00:12:30 triggered 2504/10301 groups, in flight 12, shipping 0; groups ok 2459 (12295 replays), failed 41, gave up 0; 4665 requests, 25 rate-limited
+00:14:30 triggered 2525/10301 groups, in flight 4, shipping 1; groups ok 2480 (12400 replays), failed 41, gave up 0; 4715 requests, 25 rate-limited
+00:16:31 triggered 2555/10301 groups, in flight 14, shipping 0; groups ok 2508 (12540 replays), failed 41, gave up 0; 4765 requests, 25 rate-limited
+00:18:33 triggered 2575/10301 groups, in flight 3, shipping 0; groups ok 2532 (12660 replays), failed 41, gave up 0; 4816 requests, 25 rate-limited
+00:20:33 triggered 2605/10301 groups, in flight 13, shipping 0; groups ok 2559 (12795 replays), failed 41, gave up 0; 4866 requests, 25 rate-limited
+00:22:33 triggered 2625/10301 groups, in flight 3, shipping 0; groups ok 2585 (12925 replays), failed 41, gave up 0; 4916 requests, 25 rate-limited
+00:24:35 triggered 2654/10301 groups, in flight 12, shipping 0; groups ok 2611 (13055 replays), failed 41, gave up 0; 4966 requests, 25 rate-limited
+00:26:35 triggered 2676/10301 groups, in flight 6, shipping 0; groups ok 2637 (13185 replays), failed 41, gave up 0; 5016 requests, 25 rate-limited
+00:28:40 triggered 2694/10301 groups, in flight 1, shipping 1; groups ok 2658 (13290 replays), failed 41, gave up 0; 5061 requests, 30 rate-limited
+00:30:41 triggered 2694/10301 groups, in flight 1, shipping 0; groups ok 2662 (13310 replays), failed 41, gave up 0; 5082 requests, 51 rate-limited
+00:32:45 triggered 2694/10301 groups, in flight 1, shipping 0; groups ok 2662 (13310 replays), failed 41, gave up 0; 5103 requests, 72 rate-limited
+00:34:46 triggered 2694/10301 groups, in flight 1, shipping 0; groups ok 2662 (13310 replays), failed 41, gave up 0; 5124 requests, 93 rate-limited
+00:36:51 triggered 2707/10301 groups, in flight 1, shipping 0; groups ok 2675 (13375 replays), failed 41, gave up 0; 5161 requests, 104 rate-limited
+00:38:53 triggered 2717/10301 groups, in flight 1, shipping 0; groups ok 2685 (13425 replays), failed 41, gave up 0; 5194 requests, 117 rate-limited
+00:40:53 triggered 2733/10301 groups, in flight 7, shipping 1; groups ok 2686 (13430 replays), failed 41, gave up 0; 5231 requests, 127 rate-limited
+00:42:53 triggered 2760/10301 groups, in flight 12, shipping 0; groups ok 2713 (13565 replays), failed 41, gave up 0; 5280 requests, 128 rate-limited
+00:44:53 triggered 2781/10301 groups, in flight 4, shipping 0; groups ok 2740 (13700 replays), failed 41, gave up 0; 5330 requests, 128 rate-limited
+00:46:53 triggered 2811/10301 groups, in flight 13, shipping 0; groups ok 2765 (13825 replays), failed 41, gave up 0; 5380 requests, 128 rate-limited
+00:48:53 triggered 2846/10301 groups, in flight 0, shipping 0; groups ok 2807 (14035 replays), failed 41, gave up 0; 5430 requests, 128 rate-limited
+00:50:54 triggered 2896/10301 groups, in flight 0, shipping 0; groups ok 2855 (14275 replays), failed 41, gave up 0; 5480 requests, 128 rate-limited
+00:52:54 triggered 2946/10301 groups, in flight 0, shipping 1; groups ok 2903 (14515 replays), failed 41, gave up 0; 5530 requests, 128 rate-limited
+00:54:54 triggered 2996/10301 groups, in flight 0, shipping 0; groups ok 2963 (14815 replays), failed 41, gave up 0; 5580 requests, 128 rate-limited
+00:56:54 triggered 3029/10301 groups, in flight 5, shipping 1; groups ok 2984 (14920 replays), failed 41, gave up 0; 5630 requests, 128 rate-limited
+00:58:54 triggered 3058/10301 groups, in flight 13, shipping 0; groups ok 3010 (15050 replays), failed 41, gave up 0; 5680 requests, 128 rate-limited
+01:00:56 triggered 3076/10301 groups, in flight 3, shipping 0; groups ok 3039 (15195 replays), failed 41, gave up 0; 5728 requests, 130 rate-limited
+01:02:56 triggered 3104/10301 groups, in flight 10, shipping 0; groups ok 3061 (15305 replays), failed 41, gave up 0; 5777 requests, 131 rate-limited
+01:04:57 triggered 3126/10301 groups, in flight 7, shipping 0; groups ok 3088 (15440 replays), failed 41, gave up 0; 5826 requests, 132 rate-limited
+01:06:57 triggered 3153/10301 groups, in flight 11, shipping 1; groups ok 3106 (15530 replays), failed 41, gave up 0; 5876 requests, 132 rate-limited
+01:08:57 triggered 3175/10301 groups, in flight 5, shipping 0; groups ok 3132 (15660 replays), failed 41, gave up 0; 5926 requests, 132 rate-limited
+01:10:59 triggered 3200/10301 groups, in flight 9, shipping 0; groups ok 3158 (15790 replays), failed 41, gave up 0; 5974 requests, 134 rate-limited
+01:12:59 triggered 3225/10301 groups, in flight 11, shipping 0; groups ok 3181 (15905 replays), failed 41, gave up 0; 6023 requests, 135 rate-limited
+01:14:59 triggered 3248/10301 groups, in flight 7, shipping 0; groups ok 3209 (16045 replays), failed 41, gave up 0; 6073 requests, 135 rate-limited
+01:17:00 triggered 3272/10301 groups, in flight 8, shipping 1; groups ok 3227 (16135 replays), failed 41, gave up 0; 6121 requests, 136 rate-limited
+01:19:00 triggered 3297/10301 groups, in flight 8, shipping 0; groups ok 3252 (16260 replays), failed 41, gave up 0; 6171 requests, 136 rate-limited
+01:21:05 triggered 3322/10301 groups, in flight 8, shipping 0; groups ok 3278 (16390 replays), failed 41, gave up 0; 6221 requests, 137 rate-limited
+01:23:06 triggered 3348/10301 groups, in flight 10, shipping 0; groups ok 3304 (16520 replays), failed 41, gave up 0; 6272 requests, 137 rate-limited
+01:25:08 triggered 3372/10301 groups, in flight 7, shipping 0; groups ok 3327 (16635 replays), failed 41, gave up 0; 6323 requests, 137 rate-limited
+01:27:08 triggered 3398/10301 groups, in flight 9, shipping 0; groups ok 3357 (16785 replays), failed 41, gave up 0; 6373 requests, 137 rate-limited
+01:29:08 triggered 3423/10301 groups, in flight 9, shipping 0; groups ok 3378 (16890 replays), failed 41, gave up 0; 6423 requests, 137 rate-limited
+01:31:08 triggered 3447/10301 groups, in flight 7, shipping 0; groups ok 3409 (17045 replays), failed 41, gave up 0; 6473 requests, 137 rate-limited
+01:33:11 triggered 3474/10301 groups, in flight 10, shipping 0; groups ok 3431 (17155 replays), failed 41, gave up 0; 6524 requests, 137 rate-limited
+01:35:11 triggered 3497/10301 groups, in flight 6, shipping 1; groups ok 3453 (17265 replays), failed 41, gave up 0; 6574 requests, 137 rate-limited
+01:37:11 triggered 3526/10301 groups, in flight 14, shipping 0; groups ok 3477 (17385 replays), failed 41, gave up 0; 6624 requests, 137 rate-limited
+01:39:15 triggered 3545/10301 groups, in flight 3, shipping 0; groups ok 3504 (17520 replays), failed 41, gave up 0; 6673 requests, 137 rate-limited
+01:41:16 triggered 3576/10301 groups, in flight 14, shipping 0; groups ok 3530 (17650 replays), failed 41, gave up 0; 6724 requests, 137 rate-limited
+01:43:16 triggered 3596/10301 groups, in flight 4, shipping 0; groups ok 3555 (17775 replays), failed 41, gave up 0; 6774 requests, 137 rate-limited
+01:45:16 triggered 3623/10301 groups, in flight 10, shipping 0; groups ok 3581 (17905 replays), failed 41, gave up 0; 6823 requests, 138 rate-limited
+01:47:16 triggered 3647/10301 groups, in flight 8, shipping 0; groups ok 3605 (18025 replays), failed 41, gave up 0; 6873 requests, 138 rate-limited
+01:49:16 triggered 3672/10301 groups, in flight 8, shipping 1; groups ok 3627 (18135 replays), failed 41, gave up 0; 6923 requests, 138 rate-limited
+01:51:17 triggered 3698/10301 groups, in flight 12, shipping 0; groups ok 3650 (18250 replays), failed 41, gave up 0; 6972 requests, 139 rate-limited
+01:53:18 triggered 3719/10301 groups, in flight 6, shipping 0; groups ok 3679 (18395 replays), failed 41, gave up 0; 7021 requests, 140 rate-limited
+01:55:18 triggered 3747/10301 groups, in flight 12, shipping 0; groups ok 3700 (18500 replays), failed 41, gave up 0; 7071 requests, 140 rate-limited
+01:57:19 triggered 3768/10301 groups, in flight 6, shipping 0; groups ok 3729 (18645 replays), failed 41, gave up 0; 7120 requests, 141 rate-limited
+01:59:19 triggered 3795/10301 groups, in flight 10, shipping 1; groups ok 3748 (18740 replays), failed 41, gave up 0; 7170 requests, 141 rate-limited
+02:01:19 triggered 3819/10301 groups, in flight 8, shipping 0; groups ok 3774 (18870 replays), failed 41, gave up 0; 7220 requests, 141 rate-limited
+02:03:53 triggered 3838/10301 groups, in flight 6, shipping 1; groups ok 3798 (18990 replays), failed 41, gave up 0; 7263 requests, 141 rate-limited
+02:05:54 triggered 3859/10301 groups, in flight 9, shipping 0; groups ok 3816 (19080 replays), failed 41, gave up 0; 7307 requests, 145 rate-limited
+02:07:55 triggered 3882/10301 groups, in flight 8, shipping 0; groups ok 3836 (19180 replays), failed 41, gave up 0; 7356 requests, 146 rate-limited
+02:09:55 triggered 3907/10301 groups, in flight 8, shipping 0; groups ok 3866 (19330 replays), failed 41, gave up 0; 7406 requests, 146 rate-limited
+02:11:56 triggered 3931/10301 groups, in flight 8, shipping 0; groups ok 3889 (19445 replays), failed 41, gave up 0; 7455 requests, 147 rate-limited
+02:13:56 triggered 3952/10301 groups, in flight 9, shipping 0; groups ok 3912 (19560 replays), failed 41, gave up 0; 7500 requests, 151 rate-limited
+02:15:56 triggered 3975/10301 groups, in flight 7, shipping 1; groups ok 3929 (19645 replays), failed 41, gave up 0; 7549 requests, 152 rate-limited
+02:17:56 triggered 4001/10301 groups, in flight 9, shipping 0; groups ok 3956 (19780 replays), failed 41, gave up 0; 7599 requests, 152 rate-limited
+02:19:57 triggered 4025/10301 groups, in flight 8, shipping 0; groups ok 3981 (19905 replays), failed 41, gave up 0; 7648 requests, 153 rate-limited
+02:21:57 triggered 4051/10301 groups, in flight 10, shipping 0; groups ok 4009 (20045 replays), failed 41, gave up 0; 7698 requests, 153 rate-limited
+02:23:58 triggered 4073/10301 groups, in flight 6, shipping 0; groups ok 4031 (20155 replays), failed 41, gave up 0; 7747 requests, 154 rate-limited
+02:25:58 triggered 4100/10301 groups, in flight 8, shipping 0; groups ok 4061 (20305 replays), failed 41, gave up 0; 7797 requests, 154 rate-limited
+02:27:58 triggered 4126/10301 groups, in flight 12, shipping 1; groups ok 4078 (20390 replays), failed 41, gave up 0; 7846 requests, 155 rate-limited
+02:29:58 triggered 4147/10301 groups, in flight 4, shipping 0; groups ok 4104 (20520 replays), failed 41, gave up 0; 7896 requests, 155 rate-limited
+02:31:59 triggered 4176/10301 groups, in flight 11, shipping 0; groups ok 4131 (20655 replays), failed 41, gave up 0; 7945 requests, 156 rate-limited
+02:33:59 triggered 4199/10301 groups, in flight 7, shipping 0; groups ok 4154 (20770 replays), failed 41, gave up 0; 7995 requests, 156 rate-limited
+02:36:00 triggered 4223/10301 groups, in flight 9, shipping 0; groups ok 4183 (20915 replays), failed 41, gave up 0; 8042 requests, 158 rate-limited
+02:38:01 triggered 4247/10301 groups, in flight 9, shipping 0; groups ok 4207 (21035 replays), failed 41, gave up 0; 8092 requests, 159 rate-limited
+02:40:01 triggered 4272/10301 groups, in flight 9, shipping 1; groups ok 4224 (21120 replays), failed 41, gave up 0; 8142 requests, 159 rate-limited
+02:42:02 triggered 4296/10301 groups, in flight 7, shipping 0; groups ok 4253 (21265 replays), failed 41, gave up 0; 8192 requests, 159 rate-limited
+02:44:04 triggered 4323/10301 groups, in flight 10, shipping 0; groups ok 4275 (21375 replays), failed 41, gave up 0; 8243 requests, 159 rate-limited
+02:46:04 triggered 4346/10301 groups, in flight 6, shipping 0; groups ok 4306 (21530 replays), failed 41, gave up 0; 8293 requests, 159 rate-limited
+02:48:04 triggered 4373/10301 groups, in flight 10, shipping 0; groups ok 4327 (21635 replays), failed 41, gave up 0; 8343 requests, 159 rate-limited
+02:50:09 triggered 4396/10301 groups, in flight 6, shipping 0; groups ok 4357 (21785 replays), failed 41, gave up 0; 8393 requests, 160 rate-limited
+02:52:11 triggered 4424/10301 groups, in flight 14, shipping 0; groups ok 4378 (21890 replays), failed 41, gave up 0; 8443 requests, 161 rate-limited
+02:54:13 triggered 4445/10301 groups, in flight 5, shipping 0; groups ok 4407 (22035 replays), failed 41, gave up 0; 8494 requests, 161 rate-limited
+02:56:13 triggered 4472/10301 groups, in flight 8, shipping 0; groups ok 4433 (22165 replays), failed 41, gave up 0; 8543 requests, 162 rate-limited
+02:58:13 triggered 4498/10301 groups, in flight 8, shipping 1; groups ok 4451 (22255 replays), failed 41, gave up 0; 8593 requests, 162 rate-limited
+03:00:14 triggered 4521/10301 groups, in flight 6, shipping 0; groups ok 4477 (22385 replays), failed 41, gave up 0; 8642 requests, 163 rate-limited
+03:02:14 triggered 4548/10301 groups, in flight 10, shipping 0; groups ok 4503 (22515 replays), failed 41, gave up 0; 8692 requests, 163 rate-limited
+03:04:14 triggered 4575/10301 groups, in flight 0, shipping 0; groups ok 4536 (22680 replays), failed 41, gave up 0; 8742 requests, 163 rate-limited
+03:06:14 triggered 4625/10301 groups, in flight 0, shipping 0; groups ok 4584 (22920 replays), failed 41, gave up 0; 8792 requests, 163 rate-limited
+03:08:15 triggered 4671/10301 groups, in flight 13, shipping 0; groups ok 4625 (23125 replays), failed 41, gave up 0; 8841 requests, 164 rate-limited
+03:10:16 triggered 4691/10301 groups, in flight 5, shipping 0; groups ok 4648 (23240 replays), failed 41, gave up 0; 8890 requests, 165 rate-limited
+03:12:16 triggered 4719/10301 groups, in flight 11, shipping 0; groups ok 4674 (23370 replays), failed 41, gave up 0; 8940 requests, 165 rate-limited
+03:14:19 triggered 4742/10301 groups, in flight 6, shipping 0; groups ok 4700 (23500 replays), failed 41, gave up 0; 8991 requests, 165 rate-limited
+03:16:19 triggered 4766/10301 groups, in flight 6, shipping 0; groups ok 4726 (23630 replays), failed 41, gave up 0; 9040 requests, 166 rate-limited
+03:18:19 triggered 4793/10301 groups, in flight 10, shipping 0; groups ok 4751 (23755 replays), failed 41, gave up 0; 9090 requests, 166 rate-limited
+03:20:20 triggered 4817/10301 groups, in flight 8, shipping 0; groups ok 4777 (23885 replays), failed 41, gave up 0; 9140 requests, 166 rate-limited
+03:22:20 triggered 4841/10301 groups, in flight 9, shipping 0; groups ok 4796 (23980 replays), failed 41, gave up 0; 9189 requests, 167 rate-limited
+03:24:22 triggered 4864/10301 groups, in flight 7, shipping 0; groups ok 4818 (24090 replays), failed 41, gave up 0; 9238 requests, 168 rate-limited
+03:26:22 triggered 4888/10301 groups, in flight 7, shipping 0; groups ok 4845 (24225 replays), failed 41, gave up 0; 9287 requests, 169 rate-limited
+03:28:22 triggered 4916/10301 groups, in flight 12, shipping 0; groups ok 4870 (24350 replays), failed 41, gave up 0; 9337 requests, 169 rate-limited
+03:30:22 triggered 4937/10301 groups, in flight 4, shipping 0; groups ok 4898 (24490 replays), failed 41, gave up 0; 9387 requests, 169 rate-limited
+03:32:22 triggered 4963/10301 groups, in flight 12, shipping 0; groups ok 4920 (24600 replays), failed 41, gave up 0; 9432 requests, 170 rate-limited
+03:34:22 triggered 4985/10301 groups, in flight 6, shipping 1; groups ok 4938 (24690 replays), failed 41, gave up 0; 9482 requests, 170 rate-limited
+03:36:23 triggered 5010/10301 groups, in flight 8, shipping 0; groups ok 4965 (24825 replays), failed 41, gave up 0; 9531 requests, 171 rate-limited
+03:38:23 triggered 5036/10301 groups, in flight 10, shipping 0; groups ok 4991 (24955 replays), failed 41, gave up 0; 9581 requests, 171 rate-limited
+03:40:23 triggered 5059/10301 groups, in flight 6, shipping 0; groups ok 5016 (25080 replays), failed 41, gave up 0; 9631 requests, 171 rate-limited
+03:42:26 triggered 5084/10301 groups, in flight 8, shipping 0; groups ok 5044 (25220 replays), failed 41, gave up 0; 9680 requests, 172 rate-limited
+03:44:26 triggered 5110/10301 groups, in flight 10, shipping 0; groups ok 5066 (25330 replays), failed 41, gave up 0; 9730 requests, 172 rate-limited
+03:46:26 triggered 5134/10301 groups, in flight 8, shipping 0; groups ok 5095 (25475 replays), failed 41, gave up 0; 9780 requests, 172 rate-limited
+03:48:26 triggered 5158/10301 groups, in flight 7, shipping 0; groups ok 5114 (25570 replays), failed 41, gave up 0; 9829 requests, 173 rate-limited
+03:50:27 triggered 5184/10301 groups, in flight 11, shipping 0; groups ok 5138 (25690 replays), failed 41, gave up 0; 9878 requests, 174 rate-limited
+03:52:28 triggered 5207/10301 groups, in flight 11, shipping 0; groups ok 5163 (25815 replays), failed 41, gave up 0; 9926 requests, 176 rate-limited
+03:54:28 triggered 5229/10301 groups, in flight 5, shipping 0; groups ok 5190 (25950 replays), failed 41, gave up 0; 9976 requests, 176 rate-limited
+03:56:28 triggered 5257/10301 groups, in flight 11, shipping 0; groups ok 5214 (26070 replays), failed 41, gave up 0; 10026 requests, 176 rate-limited
+03:58:29 triggered 5277/10301 groups, in flight 3, shipping 1; groups ok 5234 (26170 replays), failed 41, gave up 0; 10075 requests, 177 rate-limited
+04:00:29 triggered 5307/10301 groups, in flight 13, shipping 0; groups ok 5262 (26310 replays), failed 41, gave up 0; 10125 requests, 177 rate-limited
+04:02:31 triggered 5328/10301 groups, in flight 4, shipping 0; groups ok 5284 (26420 replays), failed 41, gave up 0; 10176 requests, 177 rate-limited
+04:04:33 triggered 5353/10301 groups, in flight 8, shipping 0; groups ok 5313 (26565 replays), failed 41, gave up 0; 10224 requests, 179 rate-limited
+04:06:33 triggered 5379/10301 groups, in flight 12, shipping 0; groups ok 5332 (26660 replays), failed 41, gave up 0; 10273 requests, 180 rate-limited
+04:08:34 triggered 5398/10301 groups, in flight 2, shipping 0; groups ok 5364 (26820 replays), failed 41, gave up 0; 10322 requests, 181 rate-limited
+04:10:35 triggered 5419/10301 groups, in flight 6, shipping 2; groups ok 5365 (26825 replays), failed 41, gave up 0; 10361 requests, 181 rate-limited
+node:events:498
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:95:16)
+Emitted 'error' event on Socket instance at:
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write'
+}
+
+Node.js v22.6.0

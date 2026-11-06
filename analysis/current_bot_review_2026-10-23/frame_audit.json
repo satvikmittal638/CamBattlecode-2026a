@@ -1,0 +1,3114 @@
+{
+  "scope": "Five diagnostic replay cases selected by extreme score patterns, not a population sample. Counted opportunities are observations, not all necessarily optimal actions.",
+  "games": [
+    {
+      "matchId": "db4b8500-77ba-4347-a2ab-1fe6c6220060",
+      "map": "01elk_arena",
+      "opponent": "smurphy",
+      "result": "loss",
+      "score": 0,
+      "oppScore": 1008,
+      "counts": {
+        "HeartOfRuin": {
+          "turns": 920,
+          "attacksCamp": 63,
+          "attacksEnemy": 146,
+          "casts": 133,
+          "move": 468,
+          "recall": 10,
+          "submit": 0,
+          "rythStrongCampOpportunities": 0,
+          "rythCast0AmongOpportunities": 0,
+          "heartUnshieldedLowMoves": 20
+        },
+        "VesperVale": {
+          "turns": 1057,
+          "attacksCamp": 85,
+          "attacksEnemy": 267,
+          "casts": 127,
+          "move": 464,
+          "recall": 6,
+          "submit": 0,
+          "rythStrongCampOpportunities": 0,
+          "rythCast0AmongOpportunities": 0,
+          "heartUnshieldedLowMoves": 0
+        },
+        "Ryth": {
+          "turns": 972,
+          "attacksCamp": 34,
+          "attacksEnemy": 60,
+          "casts": 75,
+          "move": 609,
+          "recall": 10,
+          "submit": 0,
+          "rythStrongCampOpportunities": 1,
+          "rythCast0AmongOpportunities": 1,
+          "heartUnshieldedLowMoves": 0
+        },
+        "Marcella": {
+          "turns": 1168,
+          "attacksCamp": 45,
+          "attacksEnemy": 200,
+          "casts": 110,
+          "move": 672,
+          "recall": 13,
+          "submit": 0,
+          "rythStrongCampOpportunities": 0,
+          "rythCast0AmongOpportunities": 0,
+          "heartUnshieldedLowMoves": 0
+        },
+        "Vendetta": {
+          "turns": 757,
+          "attacksCamp": 76,
+          "attacksEnemy": 59,
+          "casts": 112,
+          "move": 453,
+          "recall": 7,
+          "submit": 0,
+          "rythStrongCampOpportunities": 0,
+          "rythCast0AmongOpportunities": 0,
+          "heartUnshieldedLowMoves": 0
+        }
+      },
+      "checkpoints": {
+        "100_1": {
+          "type": "VesperVale",
+          "hp": 1000,
+          "maxHp": 1000,
+          "gold": 0,
+          "gems": 0,
+          "items": {},
+          "pos": [
+            12,
+            23
+          ],
+          "nearEnemies": 0
+        },
+        "100_2": {
+          "type": "Ryth",
+          "hp": 870,
+          "maxHp": 1200,
+          "gold": 40,
+          "gems": 0,
+          "items": {},
+          "pos": [
+            23,
+            24
+          ],
+          "nearEnemies": 3
+        },
+        "100_3": {
+          "type": "Marcella",
+          "hp": 1200,
+          "maxHp": 1200,
+          "gold": 0,
+          "gems": 0,
+          "items": {},
+          "pos": [
+            11,
+            20
+          ],
+          "nearEnemies": 0
+        },
+        "100_0": {
+          "type": "HeartOfRuin",
+          "hp": 1400,
+          "maxHp": 1400,
+          "gold": 20,
+          "gems": 0,
+          "items": {
+            "22": 4
+          },
+          "pos": [
+            5,
+            32
+          ],
+          "nearEnemies": 0
+        },
+        "300_3": {
+          "type": "Marcella",
+          "hp": 500,
+          "maxHp": 1700,
+          "gold": 4,
+          "gems": 0,
+          "items": {
+            "23": 1,
+            "25": 1
+          },
+          "pos": [
+            16,
+            23
+          ],
+          "nearEnemies": 0
+        },
+        "300_4": {
+          "type": "Vendetta",
+          "hp": 1500,
+          "maxHp": 1500,
+          "gold": 154,
+          "gems": 0,
+          "items": {
+            "23": 1
+          },
+          "pos": [
+            3,
+            49
+          ],
+          "nearEnemies": 0
+        },
+        "300_2": {
+          "type": "Ryth",
+          "hp": 1700,
+          "maxHp": 1700,
+          "gold": 68,
+          "gems": 0,
+          "items": {
+            "23": 1,
+            "24": 1
+          },
+          "pos": [
+            2,
+            2
+          ],
+          "nearEnemies": 0
+        },
+        "300_0": {
+          "type": "HeartOfRuin",
+          "hp": 646,
+          "maxHp": 1500,
+          "gold": 10,
+          "gems": 0,
+          "items": {
+            "23": 1,
+            "26": 2
+          },
+          "pos": [
+            22,
+            26
+          ],
+          "nearEnemies": 3
+        },
+        "600_1": {
+          "type": "VesperVale",
+          "hp": 670,
+          "maxHp": 1900,
+          "gold": 18,
+          "gems": 0,
+          "items": {
+            "16": 4,
+            "19": 1,
+            "25": 1,
+            "41": 1
+          },
+          "pos": [
+            18,
+            23
+          ],
+          "nearEnemies": 1
+        },
+        "600_4": {
+          "type": "Vendetta",
+          "hp": 2300,
+          "maxHp": 2300,
+          "gold": 4,
+          "gems": 0,
+          "items": {
+            "16": 3,
+            "23": 1,
+            "25": 1,
+            "41": 1
+          },
+          "pos": [
+            6,
+            17
+          ],
+          "nearEnemies": 0
+        },
+        "600_2": {
+          "type": "Ryth",
+          "hp": 2354,
+          "maxHp": 2700,
+          "gold": 14,
+          "gems": 0,
+          "items": {
+            "17": 1,
+            "23": 1,
+            "25": 1,
+            "36": 3,
+            "41": 1
+          },
+          "pos": [
+            21,
+            22
+          ],
+          "nearEnemies": 4
+        },
+        "600_3": {
+          "type": "Marcella",
+          "hp": 1181,
+          "maxHp": 2700,
+          "gold": 10,
+          "gems": 0,
+          "items": {
+            "17": 1,
+            "23": 1,
+            "25": 1,
+            "36": 1,
+            "41": 1
+          },
+          "pos": [
+            21,
+            23
+          ],
+          "nearEnemies": 4
+        },
+        "900_1": {
+          "type": "VesperVale",
+          "hp": 2300,
+          "maxHp": 2300,
+          "gold": 22,
+          "gems": 0,
+          "items": {
+            "17": 1,
+            "19": 1,
+            "25": 1,
+            "37": 1,
+            "40": 2,
+            "41": 1
+          },
+          "pos": [
+            21,
+            22
+          ],
+          "nearEnemies": 3
+        },
+        "900_4": {
+          "type": "Vendetta",
+          "hp": 2500,
+          "maxHp": 2500,
+          "gold": 112,
+          "gems": 0,
+          "items": {
+            "17": 1,
+            "23": 1,
+            "25": 1,
+            "36": 4,
+            "41": 1
+          },
+          "pos": [
+            20,
+            23
+          ],
+          "nearEnemies": 0
+        },
+        "900_2": {
+          "type": "Ryth",
+          "hp": 3100,
+          "maxHp": 3100,
+          "gold": 104,
+          "gems": 0,
+          "items": {
+            "17": 1,
+            "23": 1,
+            "25": 1,
+            "37": 1,
+            "40": 3,
+            "41": 1
+          },
+          "pos": [
+            14,
+            15
+          ],
+          "nearEnemies": 0
+        },
+        "900_3": {
+          "type": "Marcella",
+          "hp": 3300,
+          "maxHp": 3300,
+          "gold": 28,
+          "gems": 0,
+          "items": {
+            "17": 1,
+            "23": 1,
+            "25": 1,
+            "37": 1,
+            "41": 2
+          },
+          "pos": [
+            17,
+            23
+          ],
+          "nearEnemies": 0
+        },
+        "900_0": {
+          "type": "HeartOfRuin",
+          "hp": 2500,
+          "maxHp": 2500,
+          "gold": 4,
+          "gems": 0,
+          "items": {
+            "17": 1,
+            "23": 1,
+            "27": 1,
+            "41": 1
+          },
+          "pos": [
+            22,
+            24
+          ],
+          "nearEnemies": 4
+        }
+      },
+      "examples": {
+        "ryth": [
+          {
+            "r": 245,
+            "hp": 1300,
+            "pos": [
+              1,
+              20
+            ],
+            "cd": [
+              0,
+              0
+            ],
+            "acts": [
+              {
+                "k": "Cast ability",
+                "to": [
+                  0,
+                  21
+                ],
+                "tk": "camp",
+                "tid": 44,
+                "tt": "GoldCluster",
+                "slot": 0,
+                "ab": "AoeDamage"
+              },
+              {
+                "k": "Attack",
+                "to": [
+                  0,
+                  21
+                ],
+                "tk": "camp",
+                "tid": 44,
+                "tt": "GoldCluster"
+              }
+            ],
+            "camps": [
+              {
+                "id": 30,
+                "hp": 120,
+                "str": 0,
+                "pos": [
+                  0,
+                  22
+                ]
+              },
+              {
+                "id": 44,
+                "hp": 120,
+                "str": 0,
+                "pos": [
+                  0,
+                  21
+                ]
+              }
+            ]
+          }
+        ],
+        "heart": [
+          {
+            "r": 26,
+            "hp": 255,
+            "maxHp": 1000,
+            "pos": [
+              26,
+              24
+            ],
+            "cd": [
+              0,
+              4
+            ],
+            "acts": [
+              {
+                "k": "Attack",
+                "to": [
+                  27,
+                  23
+                ],
+                "tk": "champion",
+                "tid": 5,
+                "tt": "VesperVale",
+                "tteam": 1
+              },
+              {
+                "k": "Move",
+                "to": [
+                  25,
+                  23
+                ]
+              },
+              {
+                "k": "Set priority",
+                "v": 1000
+              }
+            ],
+            "enemies": [
+              {
+                "type": "VesperVale",
+                "hp": 545,
+                "pos": [
+                  27,
+                  23
+                ]
+              },
+              {
+                "type": "Vendetta",
+                "hp": 295,
+                "pos": [
+                  33,
+                  23
+                ]
+              },
+              {
+                "type": "Varg",
+                "hp": 900,
+                "pos": [
+                  27,
+                  25
+                ]
+              },
+              {
+                "type": "Marcella",
+                "hp": 173,
+                "pos": [
+                  28,
+                  23
+                ]
+              }
+            ]
+          },
+          {
+            "r": 27,
+            "hp": 135,
+            "maxHp": 1000,
+            "pos": [
+              25,
+              23
+            ],
+            "cd": [
+              0,
+              3
+            ],
+            "acts": [
+              {
+                "k": "Move",
+                "to": [
+                  24,
+                  22
+                ]
+              }
+            ],
+            "enemies": [
+              {
+                "type": "VesperVale",
+                "hp": 504,
+                "pos": [
+                  27,
+                  23
+                ]
+              },
+              {
+                "type": "Varg",
+                "hp": 900,
+                "pos": [
+                  27,
+                  25
+                ]
+              },
+              {
+                "type": "Marcella",
+                "hp": 173,
+                "pos": [
+                  28,
+                  23
+                ]
+              }
+            ]
+          },
+          {
+            "r": 28,
+            "hp": 80,
+            "maxHp": 1000,
+            "pos": [
+              24,
+              22
+            ],
+            "cd": [
+              0,
+              2
+            ],
+            "acts": [
+              {
+                "k": "Move",
+                "to": [
+                  23,
+                  21
+                ]
+              }
+            ],
+            "enemies": [
+              {
+                "type": "VesperVale",
+                "hp": 459,
+                "pos": [
+                  27,
+                  23
+                ]
+              },
+              {
+                "type": "Varg",
+                "hp": 900,
+                "pos": [
+                  27,
+                  24
+                ]
+              },
+              {
+                "type": "Marcella",
+                "hp": 173,
+                "pos": [
+                  29,
+                  23
+                ]
+              }
+            ]
+          },
+          {
+            "r": 29,
+            "hp": 80,
+            "maxHp": 1000,
+            "pos": [
+              23,
+              21
+            ],
+            "cd": [
+              0,
+              1
+            ],
+            "acts": [
+              {
+                "k": "Move",
+                "to": [
+                  22,
+                  21
+                ]
+              }
+            ],
+            "enemies": [
+              {
+                "type": "VesperVale",
+                "hp": 414,
+                "pos": [
+                  27,
+                  23
+                ]
+              },
+              {
+                "type": "Varg",
+                "hp": 900,
+                "pos": [
+                  27,
+                  24
+                ]
+              }
+            ]
+          },
+          {
+            "r": 79,
+            "hp": 340,
+            "maxHp": 1000,
+            "pos": [
+              24,
+              22
+            ],
+            "cd": [
+              0,
+              3
+            ],
+            "acts": [
+              {
+                "k": "Move",
+                "to": [
+                  23,
+                  21
+                ]
+              }
+            ],
+            "enemies": [
+              {
+                "type": "VesperVale",
+                "hp": 269,
+                "pos": [
+                  31,
+                  23
+                ]
+              },
+              {
+                "type": "Vendetta",
+                "hp": 1000,
+                "pos": [
+                  30,
+                  24
+                ]
+              },
+              {
+                "type": "Varg",
+                "hp": 432,
+                "pos": [
+                  26,
+                  24
+                ]
+              },
+              {
+                "type": "Marcella",
+                "hp": 1200,
+                "pos": [
+                  30,
+                  25
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "turns": 4874
+    },
+    {
+      "matchId": "c343f0f2-8272-43ee-a75d-9ce29791be59",
+      "map": "01hooks",
+      "opponent": "smurphy",
+      "result": "loss",
+      "score": 0,
+      "oppScore": 1001,
+      "counts": {
+        "HeartOfRuin": {
+          "turns": 611,
+          "attacksCamp": 32,
+          "attacksEnemy": 117,
+          "casts": 101,
+          "move": 421,
+          "recall": 10,
+          "submit": 0,
+          "rythStrongCampOpportunities": 0,
+          "rythCast0AmongOpportunities": 0,
+          "heartUnshieldedLowMoves": 15
+        },
+        "VesperVale": {
+          "turns": 695,
+          "attacksCamp": 63,
+          "attacksEnemy": 111,
+          "casts": 99,
+          "move": 456,
+          "recall": 9,
+          "submit": 0,
+          "rythStrongCampOpportunities": 0,
+          "rythCast0AmongOpportunities": 0,
+          "heartUnshieldedLowMoves": 0
+        },
+        "Ryth": {
+          "turns": 649,
+          "attacksCamp": 16,
+          "attacksEnemy": 115,
+          "casts": 62,
+          "move": 475,
+          "recall": 7,
+          "submit": 0,
+          "rythStrongCampOpportunities": 0,
+          "rythCast0AmongOpportunities": 0,
+          "heartUnshieldedLowMoves": 0
+        },
+        "Marcella": {
+          "turns": 865,
+          "attacksCamp": 30,
+          "attacksEnemy": 173,
+          "casts": 68,
+          "move": 601,
+          "recall": 14,
+          "submit": 0,
+          "rythStrongCampOpportunities": 0,
+          "rythCast0AmongOpportunities": 0,
+          "heartUnshieldedLowMoves": 0
+        }
+      },
+      "checkpoints": {
+        "100_3": {
+          "type": "Marcella",
+          "hp": 419,
+          "maxHp": 1200,
+          "gold": 60,
+          "gems": 0,
+          "items": {},
+          "pos": [
+            8,
+            6
+          ],
+          "nearEnemies": 0
+        },
+        "100_0": {
+          "type": "HeartOfRuin",
+          "hp": 1200,
+          "maxHp": 1200,
+          "gold": 0,
+          "gems": 0,
+          "items": {
+            "22": 2
+          },
+          "pos": [
+            2,
+            6
+          ],
+          "nearEnemies": 0
+        },
+        "600_3": {
+          "type": "Marcella",
+          "hp": 668,
+          "maxHp": 1700,
+          "gold": 22,
+          "gems": 0,
+          "items": {
+            "23": 1,
+            "24": 2
+          },
+          "pos": [
+            14,
+            17
+          ],
+          "nearEnemies": 3
+        },
+        "600_2": {
+          "type": "Ryth",
+          "hp": 1400,
+          "maxHp": 1400,
+          "gold": 0,
+          "gems": 0,
+          "items": {
+            "22": 2
+          },
+          "pos": [
+            12,
+            9
+          ],
+          "nearEnemies": 0
+        },
+        "600_0": {
+          "type": "HeartOfRuin",
+          "hp": 1446,
+          "maxHp": 1500,
+          "gold": 12,
+          "gems": 0,
+          "items": {
+            "23": 1,
+            "26": 2
+          },
+          "pos": [
+            14,
+            13
+          ],
+          "nearEnemies": 2
+        },
+        "900_1": {
+          "type": "VesperVale",
+          "hp": 1200,
+          "maxHp": 1200,
+          "gold": 29,
+          "gems": 0,
+          "items": {
+            "19": 1,
+            "25": 1,
+            "40": 2
+          },
+          "pos": [
+            1,
+            8
+          ],
+          "nearEnemies": 0
+        },
+        "900_3": {
+          "type": "Marcella",
+          "hp": 1700,
+          "maxHp": 1700,
+          "gold": 22,
+          "gems": 0,
+          "items": {
+            "23": 1,
+            "24": 2
+          },
+          "pos": [
+            4,
+            12
+          ],
+          "nearEnemies": 0
+        }
+      },
+      "examples": {
+        "ryth": [],
+        "heart": [
+          {
+            "r": 33,
+            "hp": 265,
+            "maxHp": 1000,
+            "pos": [
+              14,
+              17
+            ],
+            "cd": [
+              0,
+              4
+            ],
+            "acts": [
+              {
+                "k": "Attack",
+                "to": [
+                  15,
+                  18
+                ],
+                "tk": "champion",
+                "tid": 4,
+                "tt": "Vendetta",
+                "tteam": 1
+              },
+              {
+                "k": "Move",
+                "to": [
+                  13,
+                  16
+                ]
+              },
+              {
+                "k": "Set priority",
+                "v": 1000
+              }
+            ],
+            "enemies": [
+              {
+                "type": "Vendetta",
+                "hp": 805,
+                "pos": [
+                  15,
+                  18
+                ]
+              },
+              {
+                "type": "VesperVale",
+                "hp": 1000,
+                "pos": [
+                  16,
+                  20
+                ]
+              },
+              {
+                "type": "HeartOfRuin",
+                "hp": 790,
+                "pos": [
+                  14,
+                  19
+                ]
+              },
+              {
+                "type": "Marcella",
+                "hp": 900,
+                "pos": [
+                  15,
+                  16
+                ]
+              }
+            ]
+          },
+          {
+            "r": 34,
+            "hp": 265,
+            "maxHp": 1000,
+            "pos": [
+              13,
+              16
+            ],
+            "cd": [
+              0,
+              3
+            ],
+            "acts": [
+              {
+                "k": "Move",
+                "to": [
+                  12,
+                  15
+                ]
+              }
+            ],
+            "enemies": [
+              {
+                "type": "Vendetta",
+                "hp": 764,
+                "pos": [
+                  15,
+                  18
+                ]
+              },
+              {
+                "type": "VesperVale",
+                "hp": 1000,
+                "pos": [
+                  16,
+                  19
+                ]
+              },
+              {
+                "type": "HeartOfRuin",
+                "hp": 790,
+                "pos": [
+                  14,
+                  20
+                ]
+              },
+              {
+                "type": "Marcella",
+                "hp": 840,
+                "pos": [
+                  15,
+                  16
+                ]
+              }
+            ]
+          },
+          {
+            "r": 35,
+            "hp": 195,
+            "maxHp": 1000,
+            "pos": [
+              12,
+              15
+            ],
+            "cd": [
+              0,
+              2
+            ],
+            "acts": [
+              {
+                "k": "Attack",
+                "to": [
+                  13,
+                  16
+                ],
+                "tk": "champion",
+                "tid": 4,
+                "tt": "Vendetta",
+                "tteam": 1
+              },
+              {
+                "k": "Move",
+                "to": [
+                  12,
+                  14
+                ]
+              }
+            ],
+            "enemies": [
+              {
+                "type": "Vendetta",
+                "hp": 764,
+                "pos": [
+                  13,
+                  16
+                ]
+              },
+              {
+                "type": "VesperVale",
+                "hp": 1000,
+                "pos": [
+                  15,
+                  18
+                ]
+              },
+              {
+                "type": "HeartOfRuin",
+                "hp": 790,
+                "pos": [
+                  14,
+                  20
+                ]
+              },
+              {
+                "type": "Marcella",
+                "hp": 780,
+                "pos": [
+                  14,
+                  16
+                ]
+              }
+            ]
+          },
+          {
+            "r": 36,
+            "hp": 80,
+            "maxHp": 1000,
+            "pos": [
+              12,
+              14
+            ],
+            "cd": [
+              0,
+              1
+            ],
+            "acts": [
+              {
+                "k": "Attack",
+                "to": [
+                  12,
+                  15
+                ],
+                "tk": "champion",
+                "tid": 4,
+                "tt": "Vendetta",
+                "tteam": 1
+              },
+              {
+                "k": "Move",
+                "to": [
+                  12,
+                  13
+                ]
+              }
+            ],
+            "enemies": [
+              {
+                "type": "Vendetta",
+                "hp": 722,
+                "pos": [
+                  12,
+                  15
+                ]
+              },
+              {
+                "type": "VesperVale",
+                "hp": 940,
+                "pos": [
+                  14,
+                  17
+                ]
+              },
+              {
+                "type": "HeartOfRuin",
+                "hp": 790,
+                "pos": [
+                  15,
+                  18
+                ]
+              },
+              {
+                "type": "Marcella",
+                "hp": 780,
+                "pos": [
+                  13,
+                  15
+                ]
+              }
+            ]
+          },
+          {
+            "r": 130,
+            "hp": 283,
+            "maxHp": 1200,
+            "pos": [
+              6,
+              21
+            ],
+            "cd": [
+              0,
+              7
+            ],
+            "acts": [
+              {
+                "k": "Move",
+                "to": [
+                  5,
+                  20
+                ]
+              }
+            ],
+            "enemies": [
+              {
+                "type": "Vendetta",
+                "hp": 342,
+                "pos": [
+                  9,
+                  25
+                ]
+              },
+              {
+                "type": "VesperVale",
+                "hp": 672,
+                "pos": [
+                  11,
+                  26
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "turns": 2820
+    },
+    {
+      "matchId": "102cf32b-7129-4a70-b2dd-5f5db3ff766e",
+      "map": "00gemfight",
+      "opponent": "Valenki",
+      "result": "loss",
+      "score": 22,
+      "oppScore": 1019,
+      "counts": {
+        "HeartOfRuin": {
+          "turns": 395,
+          "attacksCamp": 106,
+          "attacksEnemy": 57,
+          "casts": 73,
+          "move": 219,
+          "recall": 1,
+          "submit": 2,
+          "rythStrongCampOpportunities": 0,
+          "rythCast0AmongOpportunities": 0,
+          "heartUnshieldedLowMoves": 19
+        },
+        "VesperVale": {
+          "turns": 456,
+          "attacksCamp": 63,
+          "attacksEnemy": 51,
+          "casts": 61,
+          "move": 302,
+          "recall": 2,
+          "submit": 2,
+          "rythStrongCampOpportunities": 0,
+          "rythCast0AmongOpportunities": 0,
+          "heartUnshieldedLowMoves": 0
+        },
+        "Ryth": {
+          "turns": 587,
+          "attacksCamp": 62,
+          "attacksEnemy": 64,
+          "casts": 59,
+          "move": 397,
+          "recall": 3,
+          "submit": 0,
+          "rythStrongCampOpportunities": 3,
+          "rythCast0AmongOpportunities": 3,
+          "heartUnshieldedLowMoves": 0
+        },
+        "Marcella": {
+          "turns": 519,
+          "attacksCamp": 56,
+          "attacksEnemy": 59,
+          "casts": 49,
+          "move": 356,
+          "recall": 3,
+          "submit": 1,
+          "rythStrongCampOpportunities": 0,
+          "rythCast0AmongOpportunities": 0,
+          "heartUnshieldedLowMoves": 0
+        }
+      },
+      "checkpoints": {
+        "100_0": {
+          "type": "HeartOfRuin",
+          "hp": 1000,
+          "maxHp": 1000,
+          "gold": 0,
+          "gems": 0,
+          "items": {},
+          "pos": [
+            6,
+            4
+          ],
+          "nearEnemies": 0
+        },
+        "300_1": {
+          "type": "VesperVale",
+          "hp": 1000,
+          "maxHp": 1000,
+          "gold": 0,
+          "gems": 0,
+          "items": {},
+          "pos": [
+            8,
+            12
+          ],
+          "nearEnemies": 1
+        },
+        "300_2": {
+          "type": "Ryth",
+          "hp": 770,
+          "maxHp": 1700,
+          "gold": 0,
+          "gems": 0,
+          "items": {
+            "23": 1,
+            "24": 1
+          },
+          "pos": [
+            5,
+            6
+          ],
+          "nearEnemies": 0
+        },
+        "300_3": {
+          "type": "Marcella",
+          "hp": 1400,
+          "maxHp": 1400,
+          "gold": 34,
+          "gems": 0,
+          "items": {
+            "22": 2
+          },
+          "pos": [
+            5,
+            4
+          ],
+          "nearEnemies": 0
+        },
+        "600_1": {
+          "type": "VesperVale",
+          "hp": 1000,
+          "maxHp": 1000,
+          "gold": 13,
+          "gems": 0,
+          "items": {
+            "18": 4
+          },
+          "pos": [
+            3,
+            2
+          ],
+          "nearEnemies": 0
+        },
+        "600_3": {
+          "type": "Marcella",
+          "hp": 700,
+          "maxHp": 1700,
+          "gold": 14,
+          "gems": 0,
+          "items": {
+            "23": 1,
+            "24": 3
+          },
+          "pos": [
+            8,
+            19
+          ],
+          "nearEnemies": 1
+        },
+        "600_2": {
+          "type": "Ryth",
+          "hp": 1700,
+          "maxHp": 1700,
+          "gold": 24,
+          "gems": 0,
+          "items": {
+            "23": 1,
+            "24": 1
+          },
+          "pos": [
+            6,
+            18
+          ],
+          "nearEnemies": 0
+        },
+        "600_0": {
+          "type": "HeartOfRuin",
+          "hp": 700,
+          "maxHp": 1500,
+          "gold": 20,
+          "gems": 0,
+          "items": {
+            "23": 1,
+            "26": 1
+          },
+          "pos": [
+            13,
+            17
+          ],
+          "nearEnemies": 1
+        }
+      },
+      "examples": {
+        "ryth": [
+          {
+            "r": 116,
+            "hp": 1420,
+            "pos": [
+              7,
+              4
+            ],
+            "cd": [
+              0,
+              4
+            ],
+            "acts": [
+              {
+                "k": "Cast ability",
+                "to": [
+                  7,
+                  5
+                ],
+                "tk": "camp",
+                "tid": 22,
+                "tt": "Wolf",
+                "slot": 0,
+                "ab": "AoeDamage"
+              },
+              {
+                "k": "Attack",
+                "to": [
+                  7,
+                  5
+                ],
+                "tk": "camp",
+                "tid": 22,
+                "tt": "Wolf"
+              }
+            ],
+            "camps": [
+              {
+                "id": 18,
+                "hp": 120,
+                "str": 0,
+                "pos": [
+                  8,
+                  1
+                ]
+              },
+              {
+                "id": 22,
+                "hp": 182,
+                "str": 20,
+                "pos": [
+                  7,
+                  5
+                ]
+              },
+              {
+                "id": 34,
+                "hp": 120,
+                "str": 0,
+                "pos": [
+                  2,
+                  9
+                ]
+              }
+            ]
+          },
+          {
+            "r": 433,
+            "hp": 1580,
+            "pos": [
+              6,
+              4
+            ],
+            "cd": [
+              0,
+              3
+            ],
+            "acts": [
+              {
+                "k": "Cast ability",
+                "to": [
+                  7,
+                  5
+                ],
+                "tk": "camp",
+                "tid": 22,
+                "tt": "Wolf",
+                "slot": 0,
+                "ab": "AoeDamage"
+              },
+              {
+                "k": "Attack",
+                "to": [
+                  7,
+                  5
+                ],
+                "tk": "camp",
+                "tid": 22,
+                "tt": "Wolf"
+              }
+            ],
+            "camps": [
+              {
+                "id": 18,
+                "hp": 120,
+                "str": 0,
+                "pos": [
+                  8,
+                  1
+                ]
+              },
+              {
+                "id": 22,
+                "hp": 1030,
+                "str": 20,
+                "pos": [
+                  7,
+                  5
+                ]
+              },
+              {
+                "id": 34,
+                "hp": 120,
+                "str": 0,
+                "pos": [
+                  2,
+                  9
+                ]
+              }
+            ]
+          },
+          {
+            "r": 441,
+            "hp": 1440,
+            "pos": [
+              6,
+              4
+            ],
+            "cd": [
+              0,
+              3
+            ],
+            "acts": [
+              {
+                "k": "Cast ability",
+                "to": [
+                  7,
+                  5
+                ],
+                "tk": "camp",
+                "tid": 22,
+                "tt": "Wolf",
+                "slot": 0,
+                "ab": "AoeDamage"
+              },
+              {
+                "k": "Attack",
+                "to": [
+                  7,
+                  5
+                ],
+                "tk": "camp",
+                "tid": 22,
+                "tt": "Wolf"
+              }
+            ],
+            "camps": [
+              {
+                "id": 18,
+                "hp": 120,
+                "str": 0,
+                "pos": [
+                  8,
+                  1
+                ]
+              },
+              {
+                "id": 22,
+                "hp": 255,
+                "str": 20,
+                "pos": [
+                  7,
+                  5
+                ]
+              },
+              {
+                "id": 34,
+                "hp": 120,
+                "str": 0,
+                "pos": [
+                  2,
+                  9
+                ]
+              }
+            ]
+          }
+        ],
+        "heart": [
+          {
+            "r": 180,
+            "hp": 50,
+            "maxHp": 1000,
+            "pos": [
+              8,
+              14
+            ],
+            "cd": [
+              0,
+              7
+            ],
+            "acts": [
+              {
+                "k": "Move",
+                "to": [
+                  7,
+                  13
+                ]
+              }
+            ],
+            "enemies": [
+              {
+                "type": "HeartOfRuin",
+                "hp": 374,
+                "pos": [
+                  15,
+                  16
+                ]
+              },
+              {
+                "type": "Marcella",
+                "hp": 980,
+                "pos": [
+                  13,
+                  16
+                ]
+              },
+              {
+                "type": "VesperVale",
+                "hp": 370,
+                "pos": [
+                  10,
+                  17
+                ]
+              },
+              {
+                "type": "Ryth",
+                "hp": 880,
+                "pos": [
+                  13,
+                  17
+                ]
+              }
+            ]
+          },
+          {
+            "r": 181,
+            "hp": 50,
+            "maxHp": 1000,
+            "pos": [
+              7,
+              13
+            ],
+            "cd": [
+              0,
+              6
+            ],
+            "acts": [
+              {
+                "k": "Move",
+                "to": [
+                  7,
+                  12
+                ]
+              }
+            ],
+            "enemies": [
+              {
+                "type": "Marcella",
+                "hp": 980,
+                "pos": [
+                  12,
+                  15
+                ]
+              },
+              {
+                "type": "VesperVale",
+                "hp": 370,
+                "pos": [
+                  10,
+                  17
+                ]
+              },
+              {
+                "type": "Ryth",
+                "hp": 840,
+                "pos": [
+                  14,
+                  16
+                ]
+              }
+            ]
+          },
+          {
+            "r": 182,
+            "hp": 50,
+            "maxHp": 1000,
+            "pos": [
+              7,
+              12
+            ],
+            "cd": [
+              0,
+              5
+            ],
+            "acts": [
+              {
+                "k": "Move",
+                "to": [
+                  7,
+                  11
+                ]
+              }
+            ],
+            "enemies": [
+              {
+                "type": "Marcella",
+                "hp": 980,
+                "pos": [
+                  11,
+                  14
+                ]
+              },
+              {
+                "type": "VesperVale",
+                "hp": 370,
+                "pos": [
+                  8,
+                  15
+                ]
+              },
+              {
+                "type": "Ryth",
+                "hp": 840,
+                "pos": [
+                  14,
+                  16
+                ]
+              }
+            ]
+          },
+          {
+            "r": 272,
+            "hp": 270,
+            "maxHp": 1000,
+            "pos": [
+              12,
+              18
+            ],
+            "cd": [
+              0,
+              4
+            ],
+            "acts": [
+              {
+                "k": "Move",
+                "to": [
+                  13,
+                  19
+                ]
+              }
+            ],
+            "enemies": [
+              {
+                "type": "Marcella",
+                "hp": 1948,
+                "pos": [
+                  13,
+                  16
+                ]
+              },
+              {
+                "type": "VesperVale",
+                "hp": 1130,
+                "pos": [
+                  13,
+                  15
+                ]
+              },
+              {
+                "type": "Ryth",
+                "hp": 1040,
+                "pos": [
+                  13,
+                  14
+                ]
+              }
+            ]
+          },
+          {
+            "r": 275,
+            "hp": 105,
+            "maxHp": 1000,
+            "pos": [
+              13,
+              19
+            ],
+            "cd": [
+              0,
+              1
+            ],
+            "acts": [
+              {
+                "k": "Attack",
+                "to": [
+                  13,
+                  18
+                ],
+                "tk": "champion",
+                "tid": 5,
+                "tt": "Marcella",
+                "tteam": 1
+              },
+              {
+                "k": "Move",
+                "to": [
+                  12,
+                  18
+                ]
+              }
+            ],
+            "enemies": [
+              {
+                "type": "Marcella",
+                "hp": 1848,
+                "pos": [
+                  13,
+                  18
+                ]
+              },
+              {
+                "type": "VesperVale",
+                "hp": 1030,
+                "pos": [
+                  13,
+                  16
+                ]
+              },
+              {
+                "type": "Ryth",
+                "hp": 940,
+                "pos": [
+                  12,
+                  16
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "turns": 1957
+    },
+    {
+      "matchId": "edd49d9a-bead-44d1-a453-86796b72dc79",
+      "map": "01yellow_brick_road",
+      "opponent": "DOOMSDAY",
+      "result": "win",
+      "score": 1003,
+      "oppScore": 8,
+      "counts": {
+        "HeartOfRuin": {
+          "turns": 915,
+          "attacksCamp": 429,
+          "attacksEnemy": 0,
+          "casts": 149,
+          "move": 301,
+          "recall": 15,
+          "submit": 14,
+          "rythStrongCampOpportunities": 0,
+          "rythCast0AmongOpportunities": 0,
+          "heartUnshieldedLowMoves": 0
+        },
+        "VesperVale": {
+          "turns": 915,
+          "attacksCamp": 435,
+          "attacksEnemy": 0,
+          "casts": 89,
+          "move": 266,
+          "recall": 9,
+          "submit": 9,
+          "rythStrongCampOpportunities": 0,
+          "rythCast0AmongOpportunities": 0,
+          "heartUnshieldedLowMoves": 0
+        },
+        "Ryth": {
+          "turns": 915,
+          "attacksCamp": 23,
+          "attacksEnemy": 8,
+          "casts": 9,
+          "move": 23,
+          "recall": 2,
+          "submit": 0,
+          "rythStrongCampOpportunities": 2,
+          "rythCast0AmongOpportunities": 2,
+          "heartUnshieldedLowMoves": 0
+        },
+        "Marcella": {
+          "turns": 915,
+          "attacksCamp": 116,
+          "attacksEnemy": 6,
+          "casts": 37,
+          "move": 294,
+          "recall": 53,
+          "submit": 3,
+          "rythStrongCampOpportunities": 0,
+          "rythCast0AmongOpportunities": 0,
+          "heartUnshieldedLowMoves": 0
+        },
+        "Vendetta": {
+          "turns": 916,
+          "attacksCamp": 348,
+          "attacksEnemy": 0,
+          "casts": 128,
+          "move": 400,
+          "recall": 78,
+          "submit": 14,
+          "rythStrongCampOpportunities": 0,
+          "rythCast0AmongOpportunities": 0,
+          "heartUnshieldedLowMoves": 0
+        }
+      },
+      "checkpoints": {
+        "100_4": {
+          "type": "Vendetta",
+          "hp": 440,
+          "maxHp": 1400,
+          "gold": 0,
+          "gems": 0,
+          "items": {
+            "22": 4
+          },
+          "pos": [
+            17,
+            26
+          ],
+          "nearEnemies": 0
+        },
+        "100_1": {
+          "type": "VesperVale",
+          "hp": 980,
+          "maxHp": 1000,
+          "gold": 0,
+          "gems": 0,
+          "items": {},
+          "pos": [
+            14,
+            21
+          ],
+          "nearEnemies": 0
+        },
+        "100_2": {
+          "type": "Ryth",
+          "hp": 1200,
+          "maxHp": 1200,
+          "gold": 0,
+          "gems": 0,
+          "items": {},
+          "pos": [
+            5,
+            12
+          ],
+          "nearEnemies": 0
+        },
+        "100_3": {
+          "type": "Marcella",
+          "hp": 1160,
+          "maxHp": 1200,
+          "gold": 0,
+          "gems": 0,
+          "items": {},
+          "pos": [
+            17,
+            17
+          ],
+          "nearEnemies": 0
+        },
+        "100_0": {
+          "type": "HeartOfRuin",
+          "hp": 1010,
+          "maxHp": 1300,
+          "gold": 90,
+          "gems": 0,
+          "items": {
+            "22": 3
+          },
+          "pos": [
+            3,
+            1
+          ],
+          "nearEnemies": 0
+        },
+        "300_4": {
+          "type": "Vendetta",
+          "hp": 2500,
+          "maxHp": 2500,
+          "gold": 28,
+          "gems": 0,
+          "items": {
+            "17": 1,
+            "23": 1,
+            "25": 1,
+            "36": 4,
+            "41": 1
+          },
+          "pos": [
+            3,
+            12
+          ],
+          "nearEnemies": 0
+        },
+        "300_1": {
+          "type": "VesperVale",
+          "hp": 1086,
+          "maxHp": 1100,
+          "gold": 9,
+          "gems": 0,
+          "items": {
+            "19": 1,
+            "25": 1,
+            "40": 1
+          },
+          "pos": [
+            14,
+            12
+          ],
+          "nearEnemies": 0
+        },
+        "300_2": {
+          "type": "Ryth",
+          "hp": 680,
+          "maxHp": 1200,
+          "gold": 0,
+          "gems": 0,
+          "items": {},
+          "pos": [
+            5,
+            12
+          ],
+          "nearEnemies": 0
+        },
+        "300_3": {
+          "type": "Marcella",
+          "hp": 400,
+          "maxHp": 1200,
+          "gold": 0,
+          "gems": 0,
+          "items": {},
+          "pos": [
+            17,
+            17
+          ],
+          "nearEnemies": 0
+        },
+        "300_0": {
+          "type": "HeartOfRuin",
+          "hp": 1238,
+          "maxHp": 1600,
+          "gold": 6,
+          "gems": 0,
+          "items": {
+            "23": 1,
+            "27": 1,
+            "40": 1
+          },
+          "pos": [
+            1,
+            5
+          ],
+          "nearEnemies": 0
+        },
+        "600_1": {
+          "type": "VesperVale",
+          "hp": 3598,
+          "maxHp": 3800,
+          "gold": 19,
+          "gems": 0,
+          "items": {
+            "17": 1,
+            "19": 1,
+            "25": 1,
+            "36": 4,
+            "37": 3,
+            "41": 4
+          },
+          "pos": [
+            19,
+            12
+          ],
+          "nearEnemies": 0
+        },
+        "600_4": {
+          "type": "Vendetta",
+          "hp": 4237,
+          "maxHp": 4300,
+          "gold": 28,
+          "gems": 0,
+          "items": {
+            "17": 1,
+            "23": 1,
+            "25": 1,
+            "37": 3,
+            "41": 4
+          },
+          "pos": [
+            11,
+            6
+          ],
+          "nearEnemies": 0
+        },
+        "600_0": {
+          "type": "HeartOfRuin",
+          "hp": 3974,
+          "maxHp": 4100,
+          "gold": 24,
+          "gems": 0,
+          "items": {
+            "17": 1,
+            "23": 1,
+            "27": 1,
+            "39": 3,
+            "40": 3,
+            "41": 3
+          },
+          "pos": [
+            21,
+            14
+          ],
+          "nearEnemies": 0
+        },
+        "600_2": {
+          "type": "Ryth",
+          "hp": 440,
+          "maxHp": 1200,
+          "gold": 0,
+          "gems": 0,
+          "items": {},
+          "pos": [
+            5,
+            12
+          ],
+          "nearEnemies": 0
+        },
+        "600_3": {
+          "type": "Marcella",
+          "hp": 1200,
+          "maxHp": 1200,
+          "gold": 0,
+          "gems": 0,
+          "items": {},
+          "pos": [
+            2,
+            14
+          ],
+          "nearEnemies": 0
+        },
+        "900_4": {
+          "type": "Vendetta",
+          "hp": 5453,
+          "maxHp": 6700,
+          "gold": 16,
+          "gems": 0,
+          "items": {
+            "17": 1,
+            "23": 1,
+            "25": 1,
+            "36": 4,
+            "37": 7,
+            "41": 8
+          },
+          "pos": [
+            22,
+            14
+          ],
+          "nearEnemies": 0
+        },
+        "900_1": {
+          "type": "VesperVale",
+          "hp": 3531,
+          "maxHp": 4400,
+          "gold": 467,
+          "gems": 45,
+          "items": {
+            "17": 1,
+            "19": 1,
+            "25": 1,
+            "37": 4,
+            "41": 5
+          },
+          "pos": [
+            14,
+            17
+          ],
+          "nearEnemies": 0
+        },
+        "900_0": {
+          "type": "HeartOfRuin",
+          "hp": 7237,
+          "maxHp": 7300,
+          "gold": 12,
+          "gems": 0,
+          "items": {
+            "17": 1,
+            "23": 1,
+            "27": 1,
+            "38": 2,
+            "39": 8,
+            "41": 9
+          },
+          "pos": [
+            21,
+            13
+          ],
+          "nearEnemies": 0
+        },
+        "900_3": {
+          "type": "Marcella",
+          "hp": 1460,
+          "maxHp": 1700,
+          "gold": 216,
+          "gems": 0,
+          "items": {
+            "23": 1,
+            "24": 2
+          },
+          "pos": [
+            5,
+            4
+          ],
+          "nearEnemies": 0
+        },
+        "900_2": {
+          "type": "Ryth",
+          "hp": 1100,
+          "maxHp": 1200,
+          "gold": 0,
+          "gems": 0,
+          "items": {},
+          "pos": [
+            5,
+            12
+          ],
+          "nearEnemies": 0
+        }
+      },
+      "examples": {
+        "ryth": [
+          {
+            "r": 11,
+            "hp": 1100,
+            "pos": [
+              8,
+              13
+            ],
+            "cd": [
+              0,
+              2
+            ],
+            "acts": [
+              {
+                "k": "Cast ability",
+                "to": [
+                  9,
+                  15
+                ],
+                "tk": "camp",
+                "tid": 60,
+                "tt": "Wolf",
+                "slot": 0,
+                "ab": "AoeDamage"
+              },
+              {
+                "k": "Attack",
+                "to": [
+                  9,
+                  14
+                ],
+                "tk": "camp",
+                "tid": 62,
+                "tt": "Wolf"
+              }
+            ],
+            "camps": [
+              {
+                "id": 0,
+                "hp": 120,
+                "str": 0,
+                "pos": [
+                  5,
+                  17
+                ]
+              },
+              {
+                "id": 2,
+                "hp": 120,
+                "str": 0,
+                "pos": [
+                  6,
+                  17
+                ]
+              },
+              {
+                "id": 4,
+                "hp": 120,
+                "str": 0,
+                "pos": [
+                  7,
+                  17
+                ]
+              },
+              {
+                "id": 6,
+                "hp": 120,
+                "str": 0,
+                "pos": [
+                  8,
+                  17
+                ]
+              },
+              {
+                "id": 8,
+                "hp": 120,
+                "str": 0,
+                "pos": [
+                  9,
+                  17
+                ]
+              },
+              {
+                "id": 10,
+                "hp": 120,
+                "str": 0,
+                "pos": [
+                  10,
+                  17
+                ]
+              },
+              {
+                "id": 12,
+                "hp": 120,
+                "str": 0,
+                "pos": [
+                  11,
+                  17
+                ]
+              },
+              {
+                "id": 14,
+                "hp": 120,
+                "str": 0,
+                "pos": [
+                  12,
+                  17
+                ]
+              },
+              {
+                "id": 16,
+                "hp": 120,
+                "str": 0,
+                "pos": [
+                  13,
+                  17
+                ]
+              },
+              {
+                "id": 43,
+                "hp": 120,
+                "str": 0,
+                "pos": [
+                  13,
+                  12
+                ]
+              },
+              {
+                "id": 45,
+                "hp": 120,
+                "str": 0,
+                "pos": [
+                  12,
+                  12
+                ]
+              },
+              {
+                "id": 47,
+                "hp": 120,
+                "str": 0,
+                "pos": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "id": 49,
+                "hp": 120,
+                "str": 0,
+                "pos": [
+                  10,
+                  12
+                ]
+              },
+              {
+                "id": 51,
+                "hp": 120,
+                "str": 0,
+                "pos": [
+                  9,
+                  12
+                ]
+              },
+              {
+                "id": 53,
+                "hp": 120,
+                "str": 0,
+                "pos": [
+                  8,
+                  12
+                ]
+              },
+              {
+                "id": 55,
+                "hp": 120,
+                "str": 0,
+                "pos": [
+                  7,
+                  12
+                ]
+              },
+              {
+                "id": 57,
+                "hp": 120,
+                "str": 0,
+                "pos": [
+                  6,
+                  12
+                ]
+              },
+              {
+                "id": 59,
+                "hp": 120,
+                "str": 0,
+                "pos": [
+                  5,
+                  12
+                ]
+              },
+              {
+                "id": 60,
+                "hp": 1250,
+                "str": 20,
+                "pos": [
+                  9,
+                  15
+                ]
+              },
+              {
+                "id": 62,
+                "hp": 305,
+                "str": 20,
+                "pos": [
+                  9,
+                  14
+                ]
+              },
+              {
+                "id": 64,
+                "hp": 2400,
+                "str": 60,
+                "pos": [
+                  13,
+                  15
+                ]
+              },
+              {
+                "id": 66,
+                "hp": 2400,
+                "str": 60,
+                "pos": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "id": 123,
+                "hp": 120,
+                "str": 0,
+                "pos": [
+                  12,
+                  15
+                ]
+              },
+              {
+                "id": 125,
+                "hp": 120,
+                "str": 0,
+                "pos": [
+                  12,
+                  14
+                ]
+              }
+            ]
+          },
+          {
+            "r": 19,
+            "hp": 1100,
+            "pos": [
+              9,
+              13
+            ],
+            "cd": [
+              0,
+              2
+            ],
+            "acts": [
+              {
+                "k": "Cast ability",
+                "to": [
+                  5,
+                  12
+                ],
+                "tk": "camp",
+                "tid": 59,
+                "tt": "GoldCluster",
+                "slot": 0,
+                "ab": "AoeDamage"
+              },
+              {
+                "k": "Attack",
+                "to": [
+                  8,
+                  12
+                ],
+                "tk": "camp",
+                "tid": 53,
+                "tt": "GoldCluster"
+              }
+            ],
+            "camps": [
+              {
+                "id": 0,
+                "hp": 120,
+                "str": 0,
+                "pos": [
+                  5,
+                  17
+                ]
+              },
+              {
+                "id": 2,
+                "hp": 120,
+                "str": 0,
+                "pos": [
+                  6,
+                  17
+                ]
+              },
+              {
+                "id": 4,
+                "hp": 120,
+                "str": 0,
+                "pos": [
+                  7,
+                  17
+                ]
+              },
+              {
+                "id": 6,
+                "hp": 120,
+                "str": 0,
+                "pos": [
+                  8,
+                  17
+                ]
+              },
+              {
+                "id": 8,
+                "hp": 120,
+                "str": 0,
+                "pos": [
+                  9,
+                  17
+                ]
+              },
+              {
+                "id": 10,
+                "hp": 120,
+                "str": 0,
+                "pos": [
+                  10,
+                  17
+                ]
+              },
+              {
+                "id": 12,
+                "hp": 120,
+                "str": 0,
+                "pos": [
+                  11,
+                  17
+                ]
+              },
+              {
+                "id": 14,
+                "hp": 120,
+                "str": 0,
+                "pos": [
+                  12,
+                  17
+                ]
+              },
+              {
+                "id": 16,
+                "hp": 120,
+                "str": 0,
+                "pos": [
+                  13,
+                  17
+                ]
+              },
+              {
+                "id": 18,
+                "hp": 120,
+                "str": 0,
+                "pos": [
+                  14,
+                  17
+                ]
+              },
+              {
+                "id": 41,
+                "hp": 120,
+                "str": 0,
+                "pos": [
+                  14,
+                  12
+                ]
+              },
+              {
+                "id": 43,
+                "hp": 120,
+                "str": 0,
+                "pos": [
+                  13,
+                  12
+                ]
+              },
+              {
+                "id": 45,
+                "hp": 120,
+                "str": 0,
+                "pos": [
+                  12,
+                  12
+                ]
+              },
+              {
+                "id": 47,
+                "hp": 120,
+                "str": 0,
+                "pos": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "id": 49,
+                "hp": 120,
+                "str": 0,
+                "pos": [
+                  10,
+                  12
+                ]
+              },
+              {
+                "id": 51,
+                "hp": 120,
+                "str": 0,
+                "pos": [
+                  9,
+                  12
+                ]
+              },
+              {
+                "id": 53,
+                "hp": 120,
+                "str": 0,
+                "pos": [
+                  8,
+                  12
+                ]
+              },
+              {
+                "id": 55,
+                "hp": 120,
+                "str": 0,
+                "pos": [
+                  7,
+                  12
+                ]
+              },
+              {
+                "id": 57,
+                "hp": 120,
+                "str": 0,
+                "pos": [
+                  6,
+                  12
+                ]
+              },
+              {
+                "id": 59,
+                "hp": 120,
+                "str": 0,
+                "pos": [
+                  5,
+                  12
+                ]
+              },
+              {
+                "id": 64,
+                "hp": 2400,
+                "str": 60,
+                "pos": [
+                  13,
+                  15
+                ]
+              },
+              {
+                "id": 66,
+                "hp": 2400,
+                "str": 60,
+                "pos": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "id": 123,
+                "hp": 120,
+                "str": 0,
+                "pos": [
+                  12,
+                  15
+                ]
+              },
+              {
+                "id": 125,
+                "hp": 120,
+                "str": 0,
+                "pos": [
+                  12,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "heart": []
+      },
+      "turns": 4576
+    },
+    {
+      "matchId": "c681db6f-e725-4efd-84b5-4b633d9dee4a",
+      "map": "01boss_battle",
+      "opponent": "Ninja Turtles",
+      "result": "loss",
+      "score": 0,
+      "oppScore": 4414,
+      "counts": {
+        "HeartOfRuin": {
+          "turns": 1859,
+          "attacksCamp": 541,
+          "attacksEnemy": 3,
+          "casts": 236,
+          "move": 650,
+          "recall": 22,
+          "submit": 0,
+          "rythStrongCampOpportunities": 0,
+          "rythCast0AmongOpportunities": 0,
+          "heartUnshieldedLowMoves": 0
+        },
+        "Stellar": {
+          "turns": 1859,
+          "attacksCamp": 137,
+          "attacksEnemy": 1,
+          "casts": 114,
+          "move": 1016,
+          "recall": 15,
+          "submit": 0,
+          "rythStrongCampOpportunities": 0,
+          "rythCast0AmongOpportunities": 0,
+          "heartUnshieldedLowMoves": 0
+        },
+        "Tavi": {
+          "turns": 1860,
+          "attacksCamp": 228,
+          "attacksEnemy": 4,
+          "casts": 92,
+          "move": 1078,
+          "recall": 7,
+          "submit": 0,
+          "rythStrongCampOpportunities": 0,
+          "rythCast0AmongOpportunities": 0,
+          "heartUnshieldedLowMoves": 0
+        },
+        "Prism": {
+          "turns": 1859,
+          "attacksCamp": 135,
+          "attacksEnemy": 0,
+          "casts": 103,
+          "move": 1047,
+          "recall": 16,
+          "submit": 0,
+          "rythStrongCampOpportunities": 0,
+          "rythCast0AmongOpportunities": 0,
+          "heartUnshieldedLowMoves": 0
+        },
+        "Ren": {
+          "turns": 1859,
+          "attacksCamp": 236,
+          "attacksEnemy": 0,
+          "casts": 164,
+          "move": 957,
+          "recall": 16,
+          "submit": 0,
+          "rythStrongCampOpportunities": 0,
+          "rythCast0AmongOpportunities": 0,
+          "heartUnshieldedLowMoves": 0
+        }
+      },
+      "checkpoints": {
+        "100_2": {
+          "type": "Tavi",
+          "hp": 900,
+          "maxHp": 900,
+          "gold": 0,
+          "gems": 0,
+          "items": {},
+          "pos": [
+            24,
+            1
+          ],
+          "nearEnemies": 0
+        },
+        "100_3": {
+          "type": "Prism",
+          "hp": 700,
+          "maxHp": 700,
+          "gold": 0,
+          "gems": 0,
+          "items": {},
+          "pos": [
+            25,
+            0
+          ],
+          "nearEnemies": 0
+        },
+        "100_4": {
+          "type": "Ren",
+          "hp": 900,
+          "maxHp": 900,
+          "gold": 0,
+          "gems": 0,
+          "items": {
+            "26": 2
+          },
+          "pos": [
+            44,
+            17
+          ],
+          "nearEnemies": 0
+        },
+        "100_0": {
+          "type": "HeartOfRuin",
+          "hp": 1000,
+          "maxHp": 1000,
+          "gold": 0,
+          "gems": 8,
+          "items": {
+            "26": 4
+          },
+          "pos": [
+            27,
+            6
+          ],
+          "nearEnemies": 0
+        },
+        "100_1": {
+          "type": "Stellar",
+          "hp": 650,
+          "maxHp": 650,
+          "gold": 40,
+          "gems": 0,
+          "items": {},
+          "pos": [
+            15,
+            1
+          ],
+          "nearEnemies": 0
+        },
+        "300_2": {
+          "type": "Tavi",
+          "hp": 900,
+          "maxHp": 900,
+          "gold": 0,
+          "gems": 8,
+          "items": {
+            "26": 4
+          },
+          "pos": [
+            37,
+            11
+          ],
+          "nearEnemies": 0
+        },
+        "300_3": {
+          "type": "Prism",
+          "hp": 760,
+          "maxHp": 760,
+          "gold": 10,
+          "gems": 15,
+          "items": {
+            "27": 1,
+            "40": 1
+          },
+          "pos": [
+            37,
+            12
+          ],
+          "nearEnemies": 0
+        },
+        "300_4": {
+          "type": "Ren",
+          "hp": 1200,
+          "maxHp": 1200,
+          "gold": 50,
+          "gems": 15,
+          "items": {
+            "27": 1,
+            "40": 3
+          },
+          "pos": [
+            7,
+            16
+          ],
+          "nearEnemies": 0
+        },
+        "300_0": {
+          "type": "HeartOfRuin",
+          "hp": 604,
+          "maxHp": 1000,
+          "gold": 190,
+          "gems": 23,
+          "items": {
+            "26": 4
+          },
+          "pos": [
+            36,
+            15
+          ],
+          "nearEnemies": 0
+        },
+        "300_1": {
+          "type": "Stellar",
+          "hp": 845,
+          "maxHp": 845,
+          "gold": 0,
+          "gems": 8,
+          "items": {
+            "27": 1,
+            "40": 3
+          },
+          "pos": [
+            39,
+            12
+          ],
+          "nearEnemies": 0
+        },
+        "600_2": {
+          "type": "Tavi",
+          "hp": 533,
+          "maxHp": 1275,
+          "gold": 0,
+          "gems": 61,
+          "items": {
+            "8": 1,
+            "9": 2,
+            "27": 1,
+            "41": 1
+          },
+          "pos": [
+            42,
+            5
+          ],
+          "nearEnemies": 0
+        },
+        "600_4": {
+          "type": "Ren",
+          "hp": 1218,
+          "maxHp": 1400,
+          "gold": 10,
+          "gems": 30,
+          "items": {
+            "8": 1,
+            "9": 2,
+            "27": 1,
+            "41": 1
+          },
+          "pos": [
+            7,
+            16
+          ],
+          "nearEnemies": 0
+        },
+        "600_3": {
+          "type": "Prism",
+          "hp": 762,
+          "maxHp": 1000,
+          "gold": 0,
+          "gems": 60,
+          "items": {
+            "8": 3,
+            "9": 1,
+            "27": 1,
+            "41": 1
+          },
+          "pos": [
+            46,
+            6
+          ],
+          "nearEnemies": 0
+        },
+        "600_0": {
+          "type": "HeartOfRuin",
+          "hp": 1232,
+          "maxHp": 1500,
+          "gold": 10,
+          "gems": 76,
+          "items": {
+            "9": 3,
+            "27": 1,
+            "41": 1
+          },
+          "pos": [
+            27,
+            17
+          ],
+          "nearEnemies": 2
+        },
+        "600_1": {
+          "type": "Stellar",
+          "hp": 975,
+          "maxHp": 975,
+          "gold": 0,
+          "gems": 24,
+          "items": {
+            "8": 3,
+            "9": 1,
+            "27": 1,
+            "41": 1
+          },
+          "pos": [
+            36,
+            9
+          ],
+          "nearEnemies": 0
+        },
+        "900_2": {
+          "type": "Tavi",
+          "hp": 1275,
+          "maxHp": 1275,
+          "gold": 0,
+          "gems": 118,
+          "items": {
+            "9": 6,
+            "27": 1,
+            "41": 1
+          },
+          "pos": [
+            29,
+            1
+          ],
+          "nearEnemies": 0
+        },
+        "900_4": {
+          "type": "Ren",
+          "hp": 1400,
+          "maxHp": 1400,
+          "gold": 10,
+          "gems": 69,
+          "items": {
+            "8": 2,
+            "9": 6,
+            "27": 1,
+            "41": 1
+          },
+          "pos": [
+            26,
+            0
+          ],
+          "nearEnemies": 0
+        },
+        "900_3": {
+          "type": "Prism",
+          "hp": 1000,
+          "maxHp": 1000,
+          "gold": 20,
+          "gems": 113,
+          "items": {
+            "9": 5,
+            "27": 1,
+            "41": 1
+          },
+          "pos": [
+            26,
+            2
+          ],
+          "nearEnemies": 0
+        },
+        "900_0": {
+          "type": "HeartOfRuin",
+          "hp": 1304,
+          "maxHp": 1500,
+          "gold": 10,
+          "gems": 276,
+          "items": {
+            "8": 2,
+            "9": 13,
+            "27": 1,
+            "41": 1
+          },
+          "pos": [
+            9,
+            5
+          ],
+          "nearEnemies": 0
+        },
+        "900_1": {
+          "type": "Stellar",
+          "hp": 975,
+          "maxHp": 975,
+          "gold": 140,
+          "gems": 89,
+          "items": {
+            "8": 2,
+            "9": 5,
+            "27": 1,
+            "41": 1
+          },
+          "pos": [
+            23,
+            1
+          ],
+          "nearEnemies": 0
+        }
+      },
+      "examples": {
+        "ryth": [],
+        "heart": []
+      },
+      "turns": 9296
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+diff --color -r analysis/iterations/v43x-D/src/bot.cpp analysis/iterations/v47p/src/bot.cpp
+1249c1249,1250
+<             if (!threat && homeFirst && round - captureSince >= 1 && static_cast<int>(me.gold_count()) + g.gold >= 150 && !me.is_recalling()) {
+---
+>             const bool healTrip = X_HEALRECALL > 0 && bankGateHint < 0 && me.health() < X_HEALRECALL * me.max_health();
+>             if (!threat && (homeFirst || healTrip) && round - captureSince >= 1 && (static_cast<int>(me.gold_count()) + g.gold >= 150 || healTrip) && !me.is_recalling()) {
+1416c1417,1420
+<     if (X_SHOPRECALL && !capturing && !onSpawn() && !me.is_recalling() && static_cast<int>(me.gold_count()) >= X_SHOPGOLD) {
+---
+>     // X_HEALRECALL: procless recalls to heal at mid HP after camp work (33% of its recalls at 35-70% HP vs our 17%),
+>     // so its champions start fights near full HP. Same safety checks as the shopping recall; not on gated maps.
+>     const bool healTrip = X_HEALRECALL > 0 && bankGateHint < 0 && me.health() < X_HEALRECALL * me.max_health();
+>     if (X_SHOPRECALL && !capturing && !onSpawn() && !me.is_recalling() && (static_cast<int>(me.gold_count()) >= X_SHOPGOLD || healTrip)) {
+diff --color -r analysis/iterations/v43x-D/src/fishx_features.h analysis/iterations/v47p/src/fishx_features.h
+46a47,49
+> // --- v47p: improvements ported onto v47 (v43x-D) ---
+> constexpr int X_COMMITDIST = 12;      // keep a still-valid target once within this route distance (0 = off)
+> constexpr float X_HEALRECALL = 0.0f;  // recall (shopping-recall safety checks, or during a capture) below this HP fraction (0 = off)
+diff --color -r analysis/iterations/v43x-D/src/main.cpp analysis/iterations/v47p/src/main.cpp
+42c42
+<     std::puts("build v43x-D");
+---
+>     std::puts("build v47p");
+diff --color -r analysis/iterations/v43x-D/src/v1_cycle.h analysis/iterations/v47p/src/v1_cycle.h
+190a191,199
+>     // X_COMMITDIST: within this route distance of a still-valid target, keep it. Ally claims reshuffled scores and
+>     // champions ping-ponged between groups (59 steps per own capture vs procless 32, same straight distance).
+>     // Not on gated-altar maps (separate caster team and gate logic).
+>     if(X_COMMITDIST>0&&bankGateHint<0&&!stale&&target>=0&&target<static_cast<int>(groups.size())){
+>         const auto& g=groups[target];
+>         const bool kind=g.eligible||(X_GOLDGROUPS&&g.gems<=0&&g.gold>0&&!g.monolith);
+>         const bool live=g.state!=3||g.respawnAt-round<=4;
+>         if(kind&&live&&stalledUntil[target]<=round&&!allyCapturing(target)&&gdist(g,pos)<=X_COMMITDIST){stage="x-commit";return target;}
+>     }

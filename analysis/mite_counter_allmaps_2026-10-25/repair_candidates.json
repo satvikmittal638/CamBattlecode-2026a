@@ -1,0 +1,3792 @@
+[
+  {
+    "case": "00collision/a",
+    "live": {
+      "matchId": "b0e68ad5-05a3-47a0-8b19-b7a552911a0e",
+      "groupId": "28b77a1d-64ce-4591-8028-3c14a6b808b1",
+      "createdAt": "2026-10-25T12:46:45.723Z",
+      "map": "00collision",
+      "side": "a",
+      "result": "loss",
+      "score": 0,
+      "oppScore": 1022,
+      "myDraft": [
+        "6",
+        "2",
+        "0"
+      ],
+      "oppDraft": [
+        "6",
+        "2",
+        "3"
+      ],
+      "opponent": "Mite",
+      "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+      "rounds": 795,
+      "kind": "unranked",
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "version": 86,
+      "file": "00collision/b0e68ad5-05a3-47a0-8b19-b7a552911a0e.repl26a"
+    },
+    "candidates": []
+  },
+  {
+    "case": "00collision/b",
+    "live": {
+      "matchId": "4b647409-a302-4525-b6e8-74d4054a959e",
+      "groupId": "99f9024d-3ecb-4b54-81b3-627af28fa196",
+      "createdAt": "2026-10-25T12:42:29.853Z",
+      "map": "00collision",
+      "side": "b",
+      "result": "loss",
+      "score": 0,
+      "oppScore": 1004,
+      "myDraft": [
+        "6",
+        "2",
+        "0"
+      ],
+      "oppDraft": [
+        "6",
+        "2",
+        "3"
+      ],
+      "opponent": "Mite",
+      "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+      "rounds": 765,
+      "kind": "unranked",
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "version": 86,
+      "file": "00collision/4b647409-a302-4525-b6e8-74d4054a959e.repl26a"
+    },
+    "candidates": []
+  },
+  {
+    "case": "00great_wall/a",
+    "live": {
+      "matchId": "992a60dd-4e4b-4f48-88b3-b2b29be37bda",
+      "groupId": "145f0aca-02ae-462a-a006-63077d70c387",
+      "createdAt": "2026-10-25T12:42:32.742Z",
+      "map": "00great_wall",
+      "side": "a",
+      "result": "loss",
+      "score": 0,
+      "oppScore": 1002,
+      "myDraft": [
+        "1",
+        "11",
+        "2",
+        "10",
+        "6"
+      ],
+      "oppDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ],
+      "opponent": "Mite",
+      "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+      "rounds": 606,
+      "kind": "unranked",
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "version": 86,
+      "file": "00great_wall/992a60dd-4e4b-4f48-88b3-b2b29be37bda.repl26a"
+    },
+    "candidates": [
+      {
+        "matchId": "8189fb23-1ff7-4385-946a-9a081779f25e",
+        "groupId": "8d029501-da3c-48d6-85dc-e737c1a9a6d9",
+        "createdAt": "2026-10-25T09:42:06.665Z",
+        "map": "00great_wall",
+        "side": "a",
+        "result": "win",
+        "score": 1077,
+        "oppScore": 841,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 1044,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "00great_wall/8189fb23-1ff7-4385-946a-9a081779f25e.repl26a"
+      },
+      {
+        "matchId": "0f1882f7-2512-4aaf-a667-538e11eef010",
+        "groupId": "5fbb46a4-b22e-46b0-85d6-fd0217fcee1a",
+        "createdAt": "2026-10-25T06:03:10.376Z",
+        "map": "00great_wall",
+        "side": "a",
+        "result": "win",
+        "score": 1011,
+        "oppScore": 603,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 820,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "00great_wall/0f1882f7-2512-4aaf-a667-538e11eef010.repl26a"
+      },
+      {
+        "matchId": "1d74cab6-564b-44e7-a171-a117a2defcbc",
+        "groupId": "a3b8c4cc-6955-41a4-bd93-a2d83771cc8b",
+        "createdAt": "2026-10-25T04:34:44.906Z",
+        "map": "00great_wall",
+        "side": "a",
+        "result": "win",
+        "score": 1001,
+        "oppScore": 790,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 956,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "00great_wall/1d74cab6-564b-44e7-a171-a117a2defcbc.repl26a"
+      },
+      {
+        "matchId": "358d1de7-e13c-46b8-bc4c-6377bd8f2f80",
+        "groupId": "870b93ff-6dd9-49f7-b2f7-022b978128cd",
+        "createdAt": "2026-10-25T01:15:43.306Z",
+        "map": "00great_wall",
+        "side": "a",
+        "result": "win",
+        "score": 1011,
+        "oppScore": 603,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 820,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "00great_wall/358d1de7-e13c-46b8-bc4c-6377bd8f2f80.repl26a"
+      },
+      {
+        "matchId": "24dd1c77-c8bc-4485-99b9-3726bce7cdd5",
+        "groupId": "6f97bd01-25a6-48d2-96a8-863462940d53",
+        "createdAt": "2026-10-24T23:52:55.253Z",
+        "map": "00great_wall",
+        "side": "a",
+        "result": "win",
+        "score": 1014,
+        "oppScore": 985,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 1042,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "00great_wall/24dd1c77-c8bc-4485-99b9-3726bce7cdd5.repl26a"
+      },
+      {
+        "matchId": "f8a08614-a981-4d7b-b33a-4cc776577a9d",
+        "groupId": "237db046-8f68-42b8-91b5-688f7089ff03",
+        "createdAt": "2026-10-24T22:30:12.180Z",
+        "map": "00great_wall",
+        "side": "a",
+        "result": "win",
+        "score": 1011,
+        "oppScore": 603,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 820,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "00great_wall/f8a08614-a981-4d7b-b33a-4cc776577a9d.repl26a"
+      },
+      {
+        "matchId": "57423ce4-1487-41f6-bc46-8ac0c48921f4",
+        "groupId": "6615a2cd-c7cc-4c6b-bda0-9bc060d81250",
+        "createdAt": "2026-10-24T21:40:20.586Z",
+        "map": "00great_wall",
+        "side": "a",
+        "result": "win",
+        "score": 1006,
+        "oppScore": 510,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 784,
+        "kind": "ranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "00great_wall/57423ce4-1487-41f6-bc46-8ac0c48921f4.repl26a"
+      },
+      {
+        "matchId": "7e81749b-cae0-4d24-922a-cb836e3fdc48",
+        "groupId": "98442906-bf96-420b-b653-a9e2adf9fa2e",
+        "createdAt": "2026-10-24T18:53:34.173Z",
+        "map": "00great_wall",
+        "side": "a",
+        "result": "win",
+        "score": 1008,
+        "oppScore": 172,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 749,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "00great_wall/7e81749b-cae0-4d24-922a-cb836e3fdc48.repl26a"
+      },
+      {
+        "matchId": "5f881fb9-b169-4a94-94c8-340662ecfca2",
+        "groupId": "1ed741ab-5d57-40d8-be84-64f576b04e50",
+        "createdAt": "2026-10-24T15:07:20.218Z",
+        "map": "00great_wall",
+        "side": "a",
+        "result": "win",
+        "score": 1003,
+        "oppScore": 833,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 872,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "00great_wall/5f881fb9-b169-4a94-94c8-340662ecfca2.repl26a"
+      },
+      {
+        "matchId": "70d5399c-bb44-4d16-a51f-fdced0fcdad9",
+        "groupId": "e2c0751d-918b-45e8-8838-b45c6edb07b2",
+        "createdAt": "2026-10-24T10:22:22.136Z",
+        "map": "00great_wall",
+        "side": "a",
+        "result": "win",
+        "score": 1044,
+        "oppScore": 775,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 1024,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "00great_wall/70d5399c-bb44-4d16-a51f-fdced0fcdad9.repl26a"
+      }
+    ]
+  },
+  {
+    "case": "00great_wall/b",
+    "live": {
+      "matchId": "ecfd1c32-587a-4226-8794-8055721a58b0",
+      "groupId": "92461a7c-c390-4ebb-9300-7d7ed0e0b4c4",
+      "createdAt": "2026-10-25T12:46:53.117Z",
+      "map": "00great_wall",
+      "side": "b",
+      "result": "loss",
+      "score": 0,
+      "oppScore": 1002,
+      "myDraft": [
+        "1",
+        "11",
+        "2",
+        "10",
+        "6"
+      ],
+      "oppDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ],
+      "opponent": "Mite",
+      "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+      "rounds": 938,
+      "kind": "unranked",
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "version": 86,
+      "file": "00great_wall/ecfd1c32-587a-4226-8794-8055721a58b0.repl26a"
+    },
+    "candidates": [
+      {
+        "matchId": "cbadd82e-87e2-4e66-ab28-8dff9131169c",
+        "groupId": "d60c8b92-4638-4420-bc13-5c0b1d9dac25",
+        "createdAt": "2026-10-25T06:06:21.463Z",
+        "map": "00great_wall",
+        "side": "b",
+        "result": "win",
+        "score": 1037,
+        "oppScore": 677,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 899,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "00great_wall/cbadd82e-87e2-4e66-ab28-8dff9131169c.repl26a"
+      },
+      {
+        "matchId": "34286a18-4791-4e17-9e9a-7d8adf0cbc41",
+        "groupId": "f2910c82-51e5-4e8a-9aa5-172178faef14",
+        "createdAt": "2026-10-25T04:36:13.183Z",
+        "map": "00great_wall",
+        "side": "b",
+        "result": "win",
+        "score": 1013,
+        "oppScore": 589,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 907,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "00great_wall/34286a18-4791-4e17-9e9a-7d8adf0cbc41.repl26a"
+      },
+      {
+        "matchId": "659c2556-2bf4-4c0a-b343-aacf8cae3435",
+        "groupId": "04ed5599-cc19-45e3-9a69-8729331b7685",
+        "createdAt": "2026-10-25T01:17:16.012Z",
+        "map": "00great_wall",
+        "side": "b",
+        "result": "win",
+        "score": 1037,
+        "oppScore": 677,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 899,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "00great_wall/659c2556-2bf4-4c0a-b343-aacf8cae3435.repl26a"
+      },
+      {
+        "matchId": "9dea6c48-10b3-4227-9ad4-51b1a037363a",
+        "groupId": "abaab596-b330-4063-b997-19ff6e154e92",
+        "createdAt": "2026-10-24T22:36:34.140Z",
+        "map": "00great_wall",
+        "side": "b",
+        "result": "win",
+        "score": 1017,
+        "oppScore": 885,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 1036,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "00great_wall/9dea6c48-10b3-4227-9ad4-51b1a037363a.repl26a"
+      },
+      {
+        "matchId": "5841e638-0e10-4b4e-8d73-548ef8e90944",
+        "groupId": "568f44c2-f32e-46a3-8119-7a9b67eaf088",
+        "createdAt": "2026-10-24T22:30:18.710Z",
+        "map": "00great_wall",
+        "side": "b",
+        "result": "win",
+        "score": 1037,
+        "oppScore": 677,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 899,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "00great_wall/5841e638-0e10-4b4e-8d73-548ef8e90944.repl26a"
+      },
+      {
+        "matchId": "e7f27424-ed95-49ae-9ffd-3e48180043ee",
+        "groupId": "f6998502-ff05-437d-8ec2-a6619a89ff3a",
+        "createdAt": "2026-10-24T20:45:18.606Z",
+        "map": "00great_wall",
+        "side": "b",
+        "result": "win",
+        "score": 1000,
+        "oppScore": 835,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 901,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "00great_wall/e7f27424-ed95-49ae-9ffd-3e48180043ee.repl26a"
+      },
+      {
+        "matchId": "7655a07d-6388-4c6b-97ce-17ba66d78b2c",
+        "groupId": "84be288a-5878-4b96-ba13-3f9d1b7c1890",
+        "createdAt": "2026-10-24T18:51:50.443Z",
+        "map": "00great_wall",
+        "side": "b",
+        "result": "win",
+        "score": 1053,
+        "oppScore": 617,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 926,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "00great_wall/7655a07d-6388-4c6b-97ce-17ba66d78b2c.repl26a"
+      },
+      {
+        "matchId": "8f1eaca0-3de7-4ea3-ad69-cf4b967b9629",
+        "groupId": "19d47cc0-1748-4a32-900b-c478554495f5",
+        "createdAt": "2026-10-24T18:38:17.204Z",
+        "map": "00great_wall",
+        "side": "b",
+        "result": "win",
+        "score": 1048,
+        "oppScore": 769,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 908,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "00great_wall/8f1eaca0-3de7-4ea3-ad69-cf4b967b9629.repl26a"
+      },
+      {
+        "matchId": "41705d92-e553-452b-b60c-006b58876c99",
+        "groupId": "bef81ac7-18e9-41d4-8eb7-d79805835d31",
+        "createdAt": "2026-10-24T16:30:09.016Z",
+        "map": "00great_wall",
+        "side": "b",
+        "result": "win",
+        "score": 1042,
+        "oppScore": 945,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 878,
+        "kind": "ranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "00great_wall/41705d92-e553-452b-b60c-006b58876c99.repl26a"
+      },
+      {
+        "matchId": "b2d666af-8e4b-40d4-a543-d9b91742eb88",
+        "groupId": "811b07d3-5884-4a98-8812-e39af6611cb0",
+        "createdAt": "2026-10-24T16:26:03.771Z",
+        "map": "00great_wall",
+        "side": "b",
+        "result": "win",
+        "score": 1042,
+        "oppScore": 945,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 878,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "00great_wall/b2d666af-8e4b-40d4-a543-d9b91742eb88.repl26a"
+      },
+      {
+        "matchId": "43e886a8-706b-4b4a-81e8-7bbb9a87b40d",
+        "groupId": "803f0b3a-541b-487a-a2c5-28c0986c5936",
+        "createdAt": "2026-10-24T16:01:00.942Z",
+        "map": "00great_wall",
+        "side": "b",
+        "result": "win",
+        "score": 1042,
+        "oppScore": 945,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 878,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "00great_wall/43e886a8-706b-4b4a-81e8-7bbb9a87b40d.repl26a"
+      },
+      {
+        "matchId": "5142e8ad-d4c6-4e57-8f21-5bcd0a7a82b8",
+        "groupId": "ec668e59-92cd-4a39-97e6-e0373025c5b6",
+        "createdAt": "2026-10-24T15:07:20.856Z",
+        "map": "00great_wall",
+        "side": "b",
+        "result": "win",
+        "score": 1042,
+        "oppScore": 945,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 878,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "00great_wall/5142e8ad-d4c6-4e57-8f21-5bcd0a7a82b8.repl26a"
+      }
+    ]
+  },
+  {
+    "case": "00lost_world/a",
+    "live": {
+      "matchId": "5cb430b4-35ea-4c77-8003-e1cf3e757377",
+      "groupId": "38a035cb-636d-457c-a789-c1835744c805",
+      "createdAt": "2026-10-25T12:46:47.470Z",
+      "map": "00lost_world",
+      "side": "a",
+      "result": "loss",
+      "score": 0,
+      "oppScore": 1008,
+      "myDraft": [
+        "6",
+        "2",
+        "0",
+        "1",
+        "11"
+      ],
+      "oppDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ],
+      "opponent": "Mite",
+      "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+      "rounds": 383,
+      "kind": "unranked",
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "version": 86,
+      "file": "00lost_world/5cb430b4-35ea-4c77-8003-e1cf3e757377.repl26a"
+    },
+    "candidates": [
+      {
+        "matchId": "49068b73-30a7-482c-ad18-8a0252a8ea8f",
+        "groupId": "36421e14-298f-452c-9b8d-05e8ea15548c",
+        "createdAt": "2026-10-25T10:54:37.401Z",
+        "map": "00lost_world",
+        "side": "a",
+        "result": "win",
+        "score": 1001,
+        "oppScore": 644,
+        "myDraft": [
+          "6",
+          "2",
+          "0",
+          "1",
+          "11"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Trzy Kwaterki",
+        "sourceTeamId": "36258abf-3fd0-4827-8fa5-2a217438cf6f",
+        "rounds": 989,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "00lost_world/49068b73-30a7-482c-ad18-8a0252a8ea8f.repl26a"
+      },
+      {
+        "matchId": "f159f8ef-f83f-46f8-9e8c-73533195d4f1",
+        "groupId": "6083a88e-e659-41e3-b625-4978b26bc216",
+        "createdAt": "2026-10-25T08:42:53.718Z",
+        "map": "00lost_world",
+        "side": "a",
+        "result": "win",
+        "score": 1001,
+        "oppScore": 427,
+        "myDraft": [
+          "6",
+          "2",
+          "0",
+          "1",
+          "11"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Trzy Kwaterki",
+        "sourceTeamId": "36258abf-3fd0-4827-8fa5-2a217438cf6f",
+        "rounds": 776,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "00lost_world/f159f8ef-f83f-46f8-9e8c-73533195d4f1.repl26a"
+      },
+      {
+        "matchId": "82fb8ebf-4ae2-4a5f-97a9-9e91bfcb2cd1",
+        "groupId": "4a12ea80-e722-44f4-9b67-1da5cd3632cd",
+        "createdAt": "2026-10-25T03:52:55.516Z",
+        "map": "00lost_world",
+        "side": "a",
+        "result": "win",
+        "score": 1015,
+        "oppScore": 427,
+        "myDraft": [
+          "6",
+          "2",
+          "0",
+          "1",
+          "11"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Trzy Kwaterki",
+        "sourceTeamId": "36258abf-3fd0-4827-8fa5-2a217438cf6f",
+        "rounds": 684,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "00lost_world/82fb8ebf-4ae2-4a5f-97a9-9e91bfcb2cd1.repl26a"
+      },
+      {
+        "matchId": "89ab3fc8-0346-4132-8943-0ef952e5386c",
+        "groupId": "85034694-83e9-44a8-8e1b-533855370e23",
+        "createdAt": "2026-10-25T03:05:28.057Z",
+        "map": "00lost_world",
+        "side": "a",
+        "result": "win",
+        "score": 1015,
+        "oppScore": 427,
+        "myDraft": [
+          "6",
+          "2",
+          "0",
+          "1",
+          "11"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Trzy Kwaterki",
+        "sourceTeamId": "36258abf-3fd0-4827-8fa5-2a217438cf6f",
+        "rounds": 684,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "00lost_world/89ab3fc8-0346-4132-8943-0ef952e5386c.repl26a"
+      },
+      {
+        "matchId": "187e8503-7ba2-46cc-8765-59c64a87ddf1",
+        "groupId": "ee20eb08-d975-4ca0-a343-7c46b95788c6",
+        "createdAt": "2026-10-25T02:49:13.526Z",
+        "map": "00lost_world",
+        "side": "a",
+        "result": "win",
+        "score": 1001,
+        "oppScore": 554,
+        "myDraft": [
+          "6",
+          "2",
+          "0",
+          "1",
+          "11"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Trzy Kwaterki",
+        "sourceTeamId": "36258abf-3fd0-4827-8fa5-2a217438cf6f",
+        "rounds": 839,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "00lost_world/187e8503-7ba2-46cc-8765-59c64a87ddf1.repl26a"
+      },
+      {
+        "matchId": "9efebc41-42d2-4828-b485-c1db4a0836eb",
+        "groupId": "12ceb9f1-d01f-40e1-96b3-3dc4cc3dcb8f",
+        "createdAt": "2026-10-24T22:30:54.484Z",
+        "map": "00lost_world",
+        "side": "a",
+        "result": "win",
+        "score": 1029,
+        "oppScore": 532,
+        "myDraft": [
+          "6",
+          "2",
+          "0",
+          "1",
+          "11"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Trzy Kwaterki",
+        "sourceTeamId": "36258abf-3fd0-4827-8fa5-2a217438cf6f",
+        "rounds": 925,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "00lost_world/9efebc41-42d2-4828-b485-c1db4a0836eb.repl26a"
+      },
+      {
+        "matchId": "e56c0733-385f-44fe-9603-f9dce66748ca",
+        "groupId": "371dc6af-1e04-4c46-9ee7-acb5add6544f",
+        "createdAt": "2026-10-24T22:04:02.882Z",
+        "map": "00lost_world",
+        "side": "a",
+        "result": "win",
+        "score": 1015,
+        "oppScore": 427,
+        "myDraft": [
+          "6",
+          "2",
+          "0",
+          "1",
+          "11"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Trzy Kwaterki",
+        "sourceTeamId": "36258abf-3fd0-4827-8fa5-2a217438cf6f",
+        "rounds": 684,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "00lost_world/e56c0733-385f-44fe-9603-f9dce66748ca.repl26a"
+      },
+      {
+        "matchId": "3afddb0d-61aa-44ed-872b-408042006e26",
+        "groupId": "b925ec3b-6ac0-4f04-a2d4-5ef40549d74c",
+        "createdAt": "2026-10-24T21:08:48.289Z",
+        "map": "00lost_world",
+        "side": "a",
+        "result": "win",
+        "score": 1008,
+        "oppScore": 210,
+        "myDraft": [
+          "6",
+          "2",
+          "0",
+          "1",
+          "11"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Trzy Kwaterki",
+        "sourceTeamId": "36258abf-3fd0-4827-8fa5-2a217438cf6f",
+        "rounds": 651,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "00lost_world/3afddb0d-61aa-44ed-872b-408042006e26.repl26a"
+      },
+      {
+        "matchId": "feaab351-425e-4fc7-87d2-70ca85ea60a7",
+        "groupId": "abfd6dc1-8542-4cbe-8df4-91691d10f815",
+        "createdAt": "2026-10-24T20:24:21.946Z",
+        "map": "00lost_world",
+        "side": "a",
+        "result": "win",
+        "score": 1010,
+        "oppScore": 715,
+        "myDraft": [
+          "6",
+          "2",
+          "0",
+          "1",
+          "11"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Trzy Kwaterki",
+        "sourceTeamId": "36258abf-3fd0-4827-8fa5-2a217438cf6f",
+        "rounds": 1028,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "00lost_world/feaab351-425e-4fc7-87d2-70ca85ea60a7.repl26a"
+      },
+      {
+        "matchId": "bf32ddb8-4fc6-42cb-b5b0-adb2cee598bb",
+        "groupId": "2dd79aa4-aef8-45ab-9018-91ec1ca21016",
+        "createdAt": "2026-10-24T20:10:12.554Z",
+        "map": "00lost_world",
+        "side": "a",
+        "result": "win",
+        "score": 1010,
+        "oppScore": 715,
+        "myDraft": [
+          "6",
+          "2",
+          "0",
+          "1",
+          "11"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Trzy Kwaterki",
+        "sourceTeamId": "36258abf-3fd0-4827-8fa5-2a217438cf6f",
+        "rounds": 1028,
+        "kind": "ranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "00lost_world/bf32ddb8-4fc6-42cb-b5b0-adb2cee598bb.repl26a"
+      }
+    ]
+  },
+  {
+    "case": "00lost_world/b",
+    "live": {
+      "matchId": "b6c5abea-fc07-4609-9750-aa6e8fde4f99",
+      "groupId": "145f0aca-02ae-462a-a006-63077d70c387",
+      "createdAt": "2026-10-25T12:42:32.822Z",
+      "map": "00lost_world",
+      "side": "b",
+      "result": "loss",
+      "score": 21,
+      "oppScore": 1016,
+      "myDraft": [
+        "1",
+        "11",
+        "2",
+        "10",
+        "6"
+      ],
+      "oppDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ],
+      "opponent": "Mite",
+      "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+      "rounds": 404,
+      "kind": "unranked",
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "version": 86,
+      "file": "00lost_world/b6c5abea-fc07-4609-9750-aa6e8fde4f99.repl26a"
+    },
+    "candidates": [
+      {
+        "matchId": "17d04d84-2b93-45c5-9d4e-670394104888",
+        "groupId": "8d029501-da3c-48d6-85dc-e737c1a9a6d9",
+        "createdAt": "2026-10-25T09:42:06.649Z",
+        "map": "00lost_world",
+        "side": "b",
+        "result": "win",
+        "score": 1009,
+        "oppScore": 133,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 584,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "00lost_world/17d04d84-2b93-45c5-9d4e-670394104888.repl26a"
+      },
+      {
+        "matchId": "cd9b9b0e-04ef-4056-b416-1854f2879417",
+        "groupId": "a3b8c4cc-6955-41a4-bd93-a2d83771cc8b",
+        "createdAt": "2026-10-25T04:34:44.891Z",
+        "map": "00lost_world",
+        "side": "b",
+        "result": "win",
+        "score": 1009,
+        "oppScore": 42,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 657,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "00lost_world/cd9b9b0e-04ef-4056-b416-1854f2879417.repl26a"
+      },
+      {
+        "matchId": "7d2ccf43-de22-4c4c-bb31-b2f7386731df",
+        "groupId": "870b93ff-6dd9-49f7-b2f7-022b978128cd",
+        "createdAt": "2026-10-25T01:15:43.296Z",
+        "map": "00lost_world",
+        "side": "b",
+        "result": "win",
+        "score": 1003,
+        "oppScore": 350,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 707,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "00lost_world/7d2ccf43-de22-4c4c-bb31-b2f7386731df.repl26a"
+      },
+      {
+        "matchId": "a3f16eee-5d2b-4da4-b94a-facdf0d4333d",
+        "groupId": "615fbb58-b9cd-481c-a8cf-be52b188d4fc",
+        "createdAt": "2026-10-24T23:38:35.473Z",
+        "map": "00lost_world",
+        "side": "b",
+        "result": "win",
+        "score": 1015,
+        "oppScore": 301,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 661,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "00lost_world/a3f16eee-5d2b-4da4-b94a-facdf0d4333d.repl26a"
+      }
+    ]
+  },
+  {
+    "case": "01boss_battle/a",
+    "live": {
+      "matchId": "08121a82-181d-4f71-ad22-2595b977513a",
+      "groupId": "da396247-61f6-4273-acbe-ce430546e738",
+      "createdAt": "2026-10-25T12:46:49.301Z",
+      "map": "01boss_battle",
+      "side": "a",
+      "result": "loss",
+      "score": 0,
+      "oppScore": 1330,
+      "myDraft": [
+        "1",
+        "11",
+        "2",
+        "10",
+        "6"
+      ],
+      "oppDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ],
+      "opponent": "Mite",
+      "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+      "rounds": 683,
+      "kind": "unranked",
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "version": 86,
+      "file": "01boss_battle/08121a82-181d-4f71-ad22-2595b977513a.repl26a"
+    },
+    "candidates": [
+      {
+        "matchId": "9b01c20c-2140-48a0-9d15-5d6fa95c7845",
+        "groupId": "65e5dbc7-1d52-43c2-9828-144188a16bad",
+        "createdAt": "2026-10-25T11:14:13.676Z",
+        "map": "01boss_battle",
+        "side": "a",
+        "result": "win",
+        "score": 1284,
+        "oppScore": 0,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 883,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01boss_battle/9b01c20c-2140-48a0-9d15-5d6fa95c7845.repl26a"
+      },
+      {
+        "matchId": "730878ca-d4d0-42fa-94eb-05574baa131d",
+        "groupId": "212bcfdf-d049-4e70-89a1-ca9087271e6a",
+        "createdAt": "2026-10-25T08:41:37.630Z",
+        "map": "01boss_battle",
+        "side": "a",
+        "result": "win",
+        "score": 1255,
+        "oppScore": 30,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 1985,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01boss_battle/730878ca-d4d0-42fa-94eb-05574baa131d.repl26a"
+      },
+      {
+        "matchId": "a19f2958-df4b-4203-b2c2-3292fb4c2c3e",
+        "groupId": "3acafdac-e90d-4d71-906c-d7dc176ca4db",
+        "createdAt": "2026-10-25T05:01:36.348Z",
+        "map": "01boss_battle",
+        "side": "a",
+        "result": "win",
+        "score": 1038,
+        "oppScore": 0,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 862,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01boss_battle/a19f2958-df4b-4203-b2c2-3292fb4c2c3e.repl26a"
+      },
+      {
+        "matchId": "2599ad7b-eaea-4e1c-8957-1a65d2ffe2bd",
+        "groupId": "75ea59cf-22aa-46d2-941b-87ae634e70fd",
+        "createdAt": "2026-10-25T03:33:04.018Z",
+        "map": "01boss_battle",
+        "side": "a",
+        "result": "win",
+        "score": 1437,
+        "oppScore": 15,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 1000,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01boss_battle/2599ad7b-eaea-4e1c-8957-1a65d2ffe2bd.repl26a"
+      },
+      {
+        "matchId": "e5ac74e9-40d9-4188-a809-e04731536835",
+        "groupId": "0c64cd09-4969-4310-ac86-959aa2124600",
+        "createdAt": "2026-10-25T02:16:08.710Z",
+        "map": "01boss_battle",
+        "side": "a",
+        "result": "win",
+        "score": 1162,
+        "oppScore": 0,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 618,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01boss_battle/e5ac74e9-40d9-4188-a809-e04731536835.repl26a"
+      },
+      {
+        "matchId": "ea7e4a07-c884-407d-bad3-5ee49e9943dc",
+        "groupId": "b684bf98-1609-48a1-85c3-77ee08d72aa0",
+        "createdAt": "2026-10-24T21:28:43.769Z",
+        "map": "01boss_battle",
+        "side": "a",
+        "result": "win",
+        "score": 1274,
+        "oppScore": 284,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 1783,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01boss_battle/ea7e4a07-c884-407d-bad3-5ee49e9943dc.repl26a"
+      },
+      {
+        "matchId": "ac933d76-181a-4281-8596-58dd934dca60",
+        "groupId": "02854447-a954-4697-90cd-d382c64cc40f",
+        "createdAt": "2026-10-24T18:49:02.269Z",
+        "map": "01boss_battle",
+        "side": "a",
+        "result": "win",
+        "score": 1015,
+        "oppScore": 331,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 1456,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01boss_battle/ac933d76-181a-4281-8596-58dd934dca60.repl26a"
+      },
+      {
+        "matchId": "ce4d5c1e-ef29-45af-bc19-8c8fc6cd13a2",
+        "groupId": "be72e8e2-291a-465e-a705-5f0ca0755ea3",
+        "createdAt": "2026-10-24T16:45:52.851Z",
+        "map": "01boss_battle",
+        "side": "a",
+        "result": "win",
+        "score": 1118,
+        "oppScore": 0,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 733,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01boss_battle/ce4d5c1e-ef29-45af-bc19-8c8fc6cd13a2.repl26a"
+      },
+      {
+        "matchId": "575d6576-2d63-4e68-8bd3-264e17fd1693",
+        "groupId": "1dfd928e-a1fe-4c27-a245-a36fdd554fb2",
+        "createdAt": "2026-10-24T16:19:12.025Z",
+        "map": "01boss_battle",
+        "side": "a",
+        "result": "win",
+        "score": 1251,
+        "oppScore": 0,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 682,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01boss_battle/575d6576-2d63-4e68-8bd3-264e17fd1693.repl26a"
+      },
+      {
+        "matchId": "bce4b1d3-3758-4d3d-b350-4d771df3b9ee",
+        "groupId": "3fa212b4-f256-4fdb-872e-93342cbd8d3c",
+        "createdAt": "2026-10-24T15:32:40.315Z",
+        "map": "01boss_battle",
+        "side": "a",
+        "result": "win",
+        "score": 1243,
+        "oppScore": 193,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 1006,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01boss_battle/bce4b1d3-3758-4d3d-b350-4d771df3b9ee.repl26a"
+      },
+      {
+        "matchId": "5cadf5d8-5d7d-4c4b-8cf2-c6d716a86d6e",
+        "groupId": "8ca4f8ca-84f2-4f8c-8593-3437b88a4394",
+        "createdAt": "2026-10-24T13:53:38.765Z",
+        "map": "01boss_battle",
+        "side": "a",
+        "result": "win",
+        "score": 1251,
+        "oppScore": 0,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 682,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01boss_battle/5cadf5d8-5d7d-4c4b-8cf2-c6d716a86d6e.repl26a"
+      },
+      {
+        "matchId": "b5f737b7-dd1c-4c64-a96c-1b5620181a28",
+        "groupId": "64c1ed7b-adb3-4ff8-8280-6ef02caf8527",
+        "createdAt": "2026-10-24T08:55:38.257Z",
+        "map": "01boss_battle",
+        "side": "a",
+        "result": "win",
+        "score": 632,
+        "oppScore": 128,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 2000,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01boss_battle/b5f737b7-dd1c-4c64-a96c-1b5620181a28.repl26a"
+      }
+    ]
+  },
+  {
+    "case": "01boss_battle/b",
+    "live": {
+      "matchId": "2da84a63-ca25-4bdd-a095-f67136350f76",
+      "groupId": "a59d3d78-7441-464f-bc82-12e952400ab5",
+      "createdAt": "2026-10-25T12:46:55.794Z",
+      "map": "01boss_battle",
+      "side": "b",
+      "result": "loss",
+      "score": 0,
+      "oppScore": 1003,
+      "myDraft": [
+        "1",
+        "11",
+        "2",
+        "10",
+        "6"
+      ],
+      "oppDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ],
+      "opponent": "Mite",
+      "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+      "rounds": 946,
+      "kind": "unranked",
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "version": 86,
+      "file": "01boss_battle/2da84a63-ca25-4bdd-a095-f67136350f76.repl26a"
+    },
+    "candidates": [
+      {
+        "matchId": "7255f100-f66d-4e6d-b86e-28d893f59a2e",
+        "groupId": "dab5c4ea-677b-481f-95f7-9d06ad55b793",
+        "createdAt": "2026-10-25T08:41:38.677Z",
+        "map": "01boss_battle",
+        "side": "b",
+        "result": "win",
+        "score": 1569,
+        "oppScore": 124,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 1119,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01boss_battle/7255f100-f66d-4e6d-b86e-28d893f59a2e.repl26a"
+      },
+      {
+        "matchId": "4ef63466-cf93-4185-b1da-2f33fea02a20",
+        "groupId": "32eba7c8-14fa-4986-8c01-c09d9c8606d1",
+        "createdAt": "2026-10-25T05:03:09.902Z",
+        "map": "01boss_battle",
+        "side": "b",
+        "result": "win",
+        "score": 2094,
+        "oppScore": 0,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 1253,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01boss_battle/4ef63466-cf93-4185-b1da-2f33fea02a20.repl26a"
+      },
+      {
+        "matchId": "deced980-3d92-4c5c-9355-c6ae2ec4bdf2",
+        "groupId": "9d879109-b930-4731-a97e-cc7c10e1284e",
+        "createdAt": "2026-10-25T02:17:47.930Z",
+        "map": "01boss_battle",
+        "side": "b",
+        "result": "win",
+        "score": 942,
+        "oppScore": 30,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 2000,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01boss_battle/deced980-3d92-4c5c-9355-c6ae2ec4bdf2.repl26a"
+      },
+      {
+        "matchId": "57bb0af9-8bda-4368-adf4-d6b68463df37",
+        "groupId": "c1c7b557-5775-48bc-9811-2cd2731579ed",
+        "createdAt": "2026-10-25T00:16:11.368Z",
+        "map": "01boss_battle",
+        "side": "b",
+        "result": "win",
+        "score": 1071,
+        "oppScore": 0,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 778,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01boss_battle/57bb0af9-8bda-4368-adf4-d6b68463df37.repl26a"
+      },
+      {
+        "matchId": "dbe5e810-03b3-4150-a960-c689ed7fdd54",
+        "groupId": "615fbb58-b9cd-481c-a8cf-be52b188d4fc",
+        "createdAt": "2026-10-24T23:38:35.428Z",
+        "map": "01boss_battle",
+        "side": "b",
+        "result": "win",
+        "score": 1195,
+        "oppScore": 128,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 1335,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01boss_battle/dbe5e810-03b3-4150-a960-c689ed7fdd54.repl26a"
+      },
+      {
+        "matchId": "272716db-8a22-48df-ac02-1ce124b01dfa",
+        "groupId": "ee79f3d5-c306-47f4-bb08-dc2d0c1f8e10",
+        "createdAt": "2026-10-24T19:40:17.011Z",
+        "map": "01boss_battle",
+        "side": "b",
+        "result": "win",
+        "score": 1322,
+        "oppScore": 171,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 1668,
+        "kind": "ranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01boss_battle/272716db-8a22-48df-ac02-1ce124b01dfa.repl26a"
+      },
+      {
+        "matchId": "b2e38425-6415-421a-a89e-c75c21f07b9c",
+        "groupId": "b6076c41-4541-46f6-9946-6febc86a42af",
+        "createdAt": "2026-10-24T18:51:49.102Z",
+        "map": "01boss_battle",
+        "side": "b",
+        "result": "win",
+        "score": 1948,
+        "oppScore": 49,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 1032,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01boss_battle/b2e38425-6415-421a-a89e-c75c21f07b9c.repl26a"
+      },
+      {
+        "matchId": "e60c2078-7f59-49cf-9107-6358fec085b6",
+        "groupId": "36064633-1724-40d0-ba56-f1fae687787a",
+        "createdAt": "2026-10-24T16:48:05.406Z",
+        "map": "01boss_battle",
+        "side": "b",
+        "result": "win",
+        "score": 1023,
+        "oppScore": 0,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 765,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01boss_battle/e60c2078-7f59-49cf-9107-6358fec085b6.repl26a"
+      },
+      {
+        "matchId": "1c6ce737-3045-4a0f-91d7-94729cbc5d03",
+        "groupId": "153d0d28-f936-4b11-b3e6-28a5aee3cf78",
+        "createdAt": "2026-10-24T07:39:23.237Z",
+        "map": "01boss_battle",
+        "side": "b",
+        "result": "win",
+        "score": 1206,
+        "oppScore": 0,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 702,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01boss_battle/1c6ce737-3045-4a0f-91d7-94729cbc5d03.repl26a"
+      },
+      {
+        "matchId": "267dbc4b-8efa-48b5-bdf2-ca4e0a10593a",
+        "groupId": "8be0bb73-8d8b-4557-bd31-0f16cd929a36",
+        "createdAt": "2026-10-24T05:40:22.323Z",
+        "map": "01boss_battle",
+        "side": "b",
+        "result": "win",
+        "score": 1206,
+        "oppScore": 0,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 702,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01boss_battle/267dbc4b-8efa-48b5-bdf2-ca4e0a10593a.repl26a"
+      }
+    ]
+  },
+  {
+    "case": "01corridors/a",
+    "live": {
+      "matchId": "41c0da7e-8649-4741-bedd-b6a378746c33",
+      "groupId": "07fa4b2e-b9bf-48e2-8017-f69bdb65994a",
+      "createdAt": "2026-10-25T12:46:50.147Z",
+      "map": "01corridors",
+      "side": "a",
+      "result": "loss",
+      "score": 0,
+      "oppScore": 1004,
+      "myDraft": [
+        "1",
+        "11",
+        "2",
+        "10",
+        "6"
+      ],
+      "oppDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ],
+      "opponent": "Mite",
+      "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+      "rounds": 975,
+      "kind": "unranked",
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "version": 86,
+      "file": "01corridors/41c0da7e-8649-4741-bedd-b6a378746c33.repl26a"
+    },
+    "candidates": [
+      {
+        "matchId": "76947875-f3a3-4666-a797-159a91dcb93b",
+        "groupId": "dab5c4ea-677b-481f-95f7-9d06ad55b793",
+        "createdAt": "2026-10-25T08:41:38.662Z",
+        "map": "01corridors",
+        "side": "a",
+        "result": "win",
+        "score": 1002,
+        "oppScore": 278,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 984,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01corridors/76947875-f3a3-4666-a797-159a91dcb93b.repl26a"
+      },
+      {
+        "matchId": "9a40ff77-5077-4832-acea-6e2303a10276",
+        "groupId": "b47a0f32-baef-4cf2-b966-048826d730d9",
+        "createdAt": "2026-10-25T03:34:42.448Z",
+        "map": "01corridors",
+        "side": "a",
+        "result": "win",
+        "score": 1027,
+        "oppScore": 529,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 1145,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01corridors/9a40ff77-5077-4832-acea-6e2303a10276.repl26a"
+      },
+      {
+        "matchId": "5b158a69-5c53-4ee1-a4db-bcface97c68d",
+        "groupId": "c1c7b557-5775-48bc-9811-2cd2731579ed",
+        "createdAt": "2026-10-25T00:16:11.359Z",
+        "map": "01corridors",
+        "side": "a",
+        "result": "win",
+        "score": 1318,
+        "oppScore": 678,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 1193,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01corridors/5b158a69-5c53-4ee1-a4db-bcface97c68d.repl26a"
+      },
+      {
+        "matchId": "78752ea0-9298-4b80-908e-6d7db2aad5e4",
+        "groupId": "8f8583c4-c330-4fdb-8883-e3061e9a05ba",
+        "createdAt": "2026-10-24T23:28:13.335Z",
+        "map": "01corridors",
+        "side": "a",
+        "result": "win",
+        "score": 1228,
+        "oppScore": 561,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 1301,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01corridors/78752ea0-9298-4b80-908e-6d7db2aad5e4.repl26a"
+      },
+      {
+        "matchId": "7729547a-c195-4801-aaf7-f2afd79f461e",
+        "groupId": "e1b78be1-68a5-4f2b-a4a8-af416b73a51e",
+        "createdAt": "2026-10-24T21:28:43.952Z",
+        "map": "01corridors",
+        "side": "a",
+        "result": "win",
+        "score": 1133,
+        "oppScore": 0,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 1033,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01corridors/7729547a-c195-4801-aaf7-f2afd79f461e.repl26a"
+      },
+      {
+        "matchId": "5d2854d9-88fe-423b-99a3-40a8f217260e",
+        "groupId": "6a2bbfc9-54c0-434b-a55e-315eb136401b",
+        "createdAt": "2026-10-24T19:07:01.372Z",
+        "map": "01corridors",
+        "side": "a",
+        "result": "win",
+        "score": 1177,
+        "oppScore": 415,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 1348,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01corridors/5d2854d9-88fe-423b-99a3-40a8f217260e.repl26a"
+      },
+      {
+        "matchId": "c0a5f5fd-d01f-4165-a3cc-1f4b2347df45",
+        "groupId": "b6043c6e-34b5-422a-9f45-a3d1cbaab44c",
+        "createdAt": "2026-10-24T16:19:14.926Z",
+        "map": "01corridors",
+        "side": "a",
+        "result": "win",
+        "score": 1216,
+        "oppScore": 336,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 1101,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01corridors/c0a5f5fd-d01f-4165-a3cc-1f4b2347df45.repl26a"
+      },
+      {
+        "matchId": "f05b4bb1-243f-49bd-9779-924d46ba571b",
+        "groupId": "99e02d84-24c5-492c-ba19-e21bf1ac7e01",
+        "createdAt": "2026-10-24T15:30:21.101Z",
+        "map": "01corridors",
+        "side": "a",
+        "result": "win",
+        "score": 1382,
+        "oppScore": 758,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 1413,
+        "kind": "ranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01corridors/f05b4bb1-243f-49bd-9779-924d46ba571b.repl26a"
+      },
+      {
+        "matchId": "4e25af5f-bd03-4820-b45f-43cc345ac9b7",
+        "groupId": "7409cdaf-dbd2-4e43-9c0e-b95a97b8c372",
+        "createdAt": "2026-10-24T13:55:31.547Z",
+        "map": "01corridors",
+        "side": "a",
+        "result": "win",
+        "score": 1216,
+        "oppScore": 336,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 1101,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01corridors/4e25af5f-bd03-4820-b45f-43cc345ac9b7.repl26a"
+      },
+      {
+        "matchId": "929a9a53-301d-4f79-ac40-5cf1a0fe37ef",
+        "groupId": "5c310a69-4727-4750-a8d7-1603ad39e1dd",
+        "createdAt": "2026-10-24T12:26:14.988Z",
+        "map": "01corridors",
+        "side": "a",
+        "result": "win",
+        "score": 1294,
+        "oppScore": 534,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 1097,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01corridors/929a9a53-301d-4f79-ac40-5cf1a0fe37ef.repl26a"
+      },
+      {
+        "matchId": "d5346aab-b1f6-48b8-bce3-6586ab4e15f0",
+        "groupId": "8be0bb73-8d8b-4557-bd31-0f16cd929a36",
+        "createdAt": "2026-10-24T05:40:22.317Z",
+        "map": "01corridors",
+        "side": "a",
+        "result": "win",
+        "score": 1014,
+        "oppScore": 262,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 931,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01corridors/d5346aab-b1f6-48b8-bce3-6586ab4e15f0.repl26a"
+      }
+    ]
+  },
+  {
+    "case": "01corridors/b",
+    "live": {
+      "matchId": "2d10218a-73f2-4e75-b2f8-8d6bbe1346f1",
+      "groupId": "a59d3d78-7441-464f-bc82-12e952400ab5",
+      "createdAt": "2026-10-25T12:46:55.850Z",
+      "map": "01corridors",
+      "side": "b",
+      "result": "loss",
+      "score": 0,
+      "oppScore": 1062,
+      "myDraft": [
+        "1",
+        "11",
+        "2",
+        "10",
+        "6"
+      ],
+      "oppDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ],
+      "opponent": "Mite",
+      "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+      "rounds": 924,
+      "kind": "unranked",
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "version": 86,
+      "file": "01corridors/2d10218a-73f2-4e75-b2f8-8d6bbe1346f1.repl26a"
+    },
+    "candidates": [
+      {
+        "matchId": "da7823ee-a99e-4f06-b2c4-f57c063a310b",
+        "groupId": "212bcfdf-d049-4e70-89a1-ca9087271e6a",
+        "createdAt": "2026-10-25T08:41:37.589Z",
+        "map": "01corridors",
+        "side": "b",
+        "result": "win",
+        "score": 1004,
+        "oppScore": 564,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 1075,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01corridors/da7823ee-a99e-4f06-b2c4-f57c063a310b.repl26a"
+      },
+      {
+        "matchId": "40e86807-5e65-4bcb-b81b-6c5effffef98",
+        "groupId": "0b92e657-cfd7-4f62-9e84-fa7465c0fc04",
+        "createdAt": "2026-10-24T23:30:18.030Z",
+        "map": "01corridors",
+        "side": "b",
+        "result": "win",
+        "score": 1022,
+        "oppScore": 572,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 1168,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01corridors/40e86807-5e65-4bcb-b81b-6c5effffef98.repl26a"
+      }
+    ]
+  },
+  {
+    "case": "01elk_arena/a",
+    "live": {
+      "matchId": "358d70df-f758-4df7-82a4-2a0cb0e0b8f7",
+      "groupId": "07fa4b2e-b9bf-48e2-8017-f69bdb65994a",
+      "createdAt": "2026-10-25T12:46:50.166Z",
+      "map": "01elk_arena",
+      "side": "a",
+      "result": "loss",
+      "score": 0,
+      "oppScore": 1008,
+      "myDraft": [
+        "1",
+        "11",
+        "2",
+        "10",
+        "6"
+      ],
+      "oppDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ],
+      "opponent": "Mite",
+      "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+      "rounds": 1045,
+      "kind": "unranked",
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "version": 86,
+      "file": "01elk_arena/358d70df-f758-4df7-82a4-2a0cb0e0b8f7.repl26a"
+    },
+    "candidates": [
+      {
+        "matchId": "4aff5182-c27a-443b-aac6-bc0789d36a4d",
+        "groupId": "a010ee80-a873-49b5-a9a0-9f49843dfb79",
+        "createdAt": "2026-10-25T09:42:09.300Z",
+        "map": "01elk_arena",
+        "side": "a",
+        "result": "win",
+        "score": 984,
+        "oppScore": 384,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 2000,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01elk_arena/4aff5182-c27a-443b-aac6-bc0789d36a4d.repl26a"
+      },
+      {
+        "matchId": "a9fc96b5-e8a7-4ce3-a4bb-882620be8e02",
+        "groupId": "f2910c82-51e5-4e8a-9aa5-172178faef14",
+        "createdAt": "2026-10-25T04:36:13.205Z",
+        "map": "01elk_arena",
+        "side": "a",
+        "result": "win",
+        "score": 1056,
+        "oppScore": 168,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 1608,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01elk_arena/a9fc96b5-e8a7-4ce3-a4bb-882620be8e02.repl26a"
+      },
+      {
+        "matchId": "846a318f-642b-4c5d-989c-fd494a7d8284",
+        "groupId": "568f44c2-f32e-46a3-8119-7a9b67eaf088",
+        "createdAt": "2026-10-24T22:30:18.738Z",
+        "map": "01elk_arena",
+        "side": "a",
+        "result": "win",
+        "score": 1008,
+        "oppScore": 0,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 1348,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01elk_arena/846a318f-642b-4c5d-989c-fd494a7d8284.repl26a"
+      },
+      {
+        "matchId": "d18d898d-0cd6-45c9-add4-455721ffde48",
+        "groupId": "84be288a-5878-4b96-ba13-3f9d1b7c1890",
+        "createdAt": "2026-10-24T18:51:50.461Z",
+        "map": "01elk_arena",
+        "side": "a",
+        "result": "win",
+        "score": 1008,
+        "oppScore": 72,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 1560,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01elk_arena/d18d898d-0cd6-45c9-add4-455721ffde48.repl26a"
+      },
+      {
+        "matchId": "56cfe907-a8d3-4f61-8786-ba8687816f05",
+        "groupId": "daf84f53-f28a-4657-8956-16867aff450b",
+        "createdAt": "2026-10-24T12:42:42.411Z",
+        "map": "01elk_arena",
+        "side": "a",
+        "result": "win",
+        "score": 1008,
+        "oppScore": 216,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 1639,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01elk_arena/56cfe907-a8d3-4f61-8786-ba8687816f05.repl26a"
+      },
+      {
+        "matchId": "d0c50387-6cc9-40f4-a542-5f29ae273b1e",
+        "groupId": "4ab5c2ae-2a88-486b-8dd1-2c3078c5d8d4",
+        "createdAt": "2026-10-24T08:14:37.269Z",
+        "map": "01elk_arena",
+        "side": "a",
+        "result": "win",
+        "score": 1026,
+        "oppScore": 198,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 1744,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01elk_arena/d0c50387-6cc9-40f4-a542-5f29ae273b1e.repl26a"
+      }
+    ]
+  },
+  {
+    "case": "01elk_arena/b",
+    "live": {
+      "matchId": "0456e6e9-5164-47f1-9abf-001fdcdcd321",
+      "groupId": "6da6cb04-b536-4a25-860a-673098e1bc71",
+      "createdAt": "2026-10-25T12:46:56.807Z",
+      "map": "01elk_arena",
+      "side": "b",
+      "result": "loss",
+      "score": 0,
+      "oppScore": 1008,
+      "myDraft": [
+        "1",
+        "11",
+        "2",
+        "10",
+        "6"
+      ],
+      "oppDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ],
+      "opponent": "Mite",
+      "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+      "rounds": 1044,
+      "kind": "unranked",
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "version": 86,
+      "file": "01elk_arena/0456e6e9-5164-47f1-9abf-001fdcdcd321.repl26a"
+    },
+    "candidates": [
+      {
+        "matchId": "955dddf6-c4e2-459a-930b-44addaaa118a",
+        "groupId": "5fbb46a4-b22e-46b0-85d6-fd0217fcee1a",
+        "createdAt": "2026-10-25T06:03:10.390Z",
+        "map": "01elk_arena",
+        "side": "b",
+        "result": "win",
+        "score": 1008,
+        "oppScore": 216,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 1714,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01elk_arena/955dddf6-c4e2-459a-930b-44addaaa118a.repl26a"
+      },
+      {
+        "matchId": "ebd4e482-0bcd-4842-b93e-4aadca8c6479",
+        "groupId": "ae850cde-cbb7-44a8-86b8-a4a45dcfead5",
+        "createdAt": "2026-10-25T02:34:27.710Z",
+        "map": "01elk_arena",
+        "side": "b",
+        "result": "win",
+        "score": 1010,
+        "oppScore": 106,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 1522,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01elk_arena/ebd4e482-0bcd-4842-b93e-4aadca8c6479.repl26a"
+      },
+      {
+        "matchId": "82c7a4fc-64cf-4feb-8557-fc21b4d4530f",
+        "groupId": "ac04a61a-886b-422e-a70d-c722164c7e74",
+        "createdAt": "2026-10-24T12:42:52.270Z",
+        "map": "01elk_arena",
+        "side": "b",
+        "result": "win",
+        "score": 1014,
+        "oppScore": 210,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 1763,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01elk_arena/82c7a4fc-64cf-4feb-8557-fc21b4d4530f.repl26a"
+      },
+      {
+        "matchId": "b547bbc6-e5e8-4ca1-9a39-80f3ea408929",
+        "groupId": "3db5c0b2-3c4f-4f28-adb0-575eefed69bf",
+        "createdAt": "2026-10-24T08:14:34.065Z",
+        "map": "01elk_arena",
+        "side": "b",
+        "result": "win",
+        "score": 1008,
+        "oppScore": 144,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 1603,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01elk_arena/b547bbc6-e5e8-4ca1-9a39-80f3ea408929.repl26a"
+      }
+    ]
+  },
+  {
+    "case": "01fracture/a",
+    "live": {
+      "matchId": "2372ccc2-de74-4e3b-9893-8544e0a8e903",
+      "groupId": "07fa4b2e-b9bf-48e2-8017-f69bdb65994a",
+      "createdAt": "2026-10-25T12:46:50.184Z",
+      "map": "01fracture",
+      "side": "a",
+      "result": "loss",
+      "score": 123,
+      "oppScore": 1015,
+      "myDraft": [
+        "1",
+        "11",
+        "2",
+        "10",
+        "6"
+      ],
+      "oppDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ],
+      "opponent": "Mite",
+      "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+      "rounds": 998,
+      "kind": "unranked",
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "version": 86,
+      "file": "01fracture/2372ccc2-de74-4e3b-9893-8544e0a8e903.repl26a"
+    },
+    "candidates": [
+      {
+        "matchId": "df918a7d-0bd9-4d11-90a3-ea11ccc5c301",
+        "groupId": "5fbb46a4-b22e-46b0-85d6-fd0217fcee1a",
+        "createdAt": "2026-10-25T06:03:10.340Z",
+        "map": "01fracture",
+        "side": "a",
+        "result": "win",
+        "score": 1174,
+        "oppScore": 496,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 1011,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01fracture/df918a7d-0bd9-4d11-90a3-ea11ccc5c301.repl26a"
+      },
+      {
+        "matchId": "50723dc3-7618-4650-982a-7ada91e1aa44",
+        "groupId": "a3b8c4cc-6955-41a4-bd93-a2d83771cc8b",
+        "createdAt": "2026-10-25T04:34:44.876Z",
+        "map": "01fracture",
+        "side": "a",
+        "result": "win",
+        "score": 1016,
+        "oppScore": 639,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 1106,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01fracture/50723dc3-7618-4650-982a-7ada91e1aa44.repl26a"
+      },
+      {
+        "matchId": "c7d9a01a-52f6-4f36-b89d-75fae26fb2fa",
+        "groupId": "c8745ada-11ef-45db-b4fe-33343379c650",
+        "createdAt": "2026-10-25T02:53:54.591Z",
+        "map": "01fracture",
+        "side": "a",
+        "result": "win",
+        "score": 1045,
+        "oppScore": 889,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 1163,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01fracture/c7d9a01a-52f6-4f36-b89d-75fae26fb2fa.repl26a"
+      },
+      {
+        "matchId": "9811522b-b046-44fd-a049-a42a28e4fcf9",
+        "groupId": "ae850cde-cbb7-44a8-86b8-a4a45dcfead5",
+        "createdAt": "2026-10-25T02:34:27.758Z",
+        "map": "01fracture",
+        "side": "a",
+        "result": "win",
+        "score": 1045,
+        "oppScore": 889,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 1163,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01fracture/9811522b-b046-44fd-a049-a42a28e4fcf9.repl26a"
+      },
+      {
+        "matchId": "eeaa2956-ed7e-4b87-8c30-fcef7fded516",
+        "groupId": "870b93ff-6dd9-49f7-b2f7-022b978128cd",
+        "createdAt": "2026-10-25T01:15:43.284Z",
+        "map": "01fracture",
+        "side": "a",
+        "result": "win",
+        "score": 1113,
+        "oppScore": 549,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 977,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01fracture/eeaa2956-ed7e-4b87-8c30-fcef7fded516.repl26a"
+      },
+      {
+        "matchId": "2231039d-6801-46cc-9072-eb6f15de860c",
+        "groupId": "50203b28-4148-43ae-8351-446f2099242f",
+        "createdAt": "2026-10-24T23:52:57.115Z",
+        "map": "01fracture",
+        "side": "a",
+        "result": "win",
+        "score": 1179,
+        "oppScore": 312,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 993,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01fracture/2231039d-6801-46cc-9072-eb6f15de860c.repl26a"
+      },
+      {
+        "matchId": "72dd324b-c9d3-499c-87bb-b87e06ab0cb6",
+        "groupId": "99f86d29-559e-434e-bf97-2baeb903f4a4",
+        "createdAt": "2026-10-24T23:20:18.406Z",
+        "map": "01fracture",
+        "side": "a",
+        "result": "win",
+        "score": 1179,
+        "oppScore": 312,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 993,
+        "kind": "ranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01fracture/72dd324b-c9d3-499c-87bb-b87e06ab0cb6.repl26a"
+      },
+      {
+        "matchId": "7c8287c4-15ed-48bb-bca7-93e0a4ce558c",
+        "groupId": "237db046-8f68-42b8-91b5-688f7089ff03",
+        "createdAt": "2026-10-24T22:30:12.120Z",
+        "map": "01fracture",
+        "side": "a",
+        "result": "win",
+        "score": 1080,
+        "oppScore": 474,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 966,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01fracture/7c8287c4-15ed-48bb-bca7-93e0a4ce558c.repl26a"
+      },
+      {
+        "matchId": "26067406-a58e-4c29-b707-f6555717c4d7",
+        "groupId": "84be288a-5878-4b96-ba13-3f9d1b7c1890",
+        "createdAt": "2026-10-24T18:51:50.428Z",
+        "map": "01fracture",
+        "side": "a",
+        "result": "win",
+        "score": 1094,
+        "oppScore": 313,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 940,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01fracture/26067406-a58e-4c29-b707-f6555717c4d7.repl26a"
+      },
+      {
+        "matchId": "8d335d6b-60c4-439b-a8dc-c2af8b678c83",
+        "groupId": "1ed741ab-5d57-40d8-be84-64f576b04e50",
+        "createdAt": "2026-10-24T15:07:20.194Z",
+        "map": "01fracture",
+        "side": "a",
+        "result": "win",
+        "score": 1189,
+        "oppScore": 437,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 891,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01fracture/8d335d6b-60c4-439b-a8dc-c2af8b678c83.repl26a"
+      },
+      {
+        "matchId": "d097ce44-edab-49f7-b884-496df7eed26c",
+        "groupId": "e184f59f-e739-461e-b618-3d454dc56f5e",
+        "createdAt": "2026-10-24T12:26:21.130Z",
+        "map": "01fracture",
+        "side": "a",
+        "result": "win",
+        "score": 1165,
+        "oppScore": 190,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 778,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01fracture/d097ce44-edab-49f7-b884-496df7eed26c.repl26a"
+      },
+      {
+        "matchId": "dc4fae7a-9f50-43f3-8732-ea297a06e446",
+        "groupId": "e2c0751d-918b-45e8-8838-b45c6edb07b2",
+        "createdAt": "2026-10-24T10:22:22.094Z",
+        "map": "01fracture",
+        "side": "a",
+        "result": "win",
+        "score": 1029,
+        "oppScore": 728,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 1145,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01fracture/dc4fae7a-9f50-43f3-8732-ea297a06e446.repl26a"
+      }
+    ]
+  },
+  {
+    "case": "01fracture/b",
+    "live": {
+      "matchId": "00eb8e7a-8412-4576-860b-0509bc70632e",
+      "groupId": "6da6cb04-b536-4a25-860a-673098e1bc71",
+      "createdAt": "2026-10-25T12:46:56.861Z",
+      "map": "01fracture",
+      "side": "b",
+      "result": "loss",
+      "score": 34,
+      "oppScore": 1065,
+      "myDraft": [
+        "1",
+        "11",
+        "2",
+        "10",
+        "6"
+      ],
+      "oppDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ],
+      "opponent": "Mite",
+      "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+      "rounds": 1006,
+      "kind": "unranked",
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "version": 86,
+      "file": "01fracture/00eb8e7a-8412-4576-860b-0509bc70632e.repl26a"
+    },
+    "candidates": [
+      {
+        "matchId": "e1e9e619-1701-4bd6-aa39-b2d9e4cbbe95",
+        "groupId": "a010ee80-a873-49b5-a9a0-9f49843dfb79",
+        "createdAt": "2026-10-25T09:42:09.183Z",
+        "map": "01fracture",
+        "side": "b",
+        "result": "win",
+        "score": 1016,
+        "oppScore": 463,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 963,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01fracture/e1e9e619-1701-4bd6-aa39-b2d9e4cbbe95.repl26a"
+      },
+      {
+        "matchId": "dd391a89-209d-405e-b1df-ed7e8a430da3",
+        "groupId": "d60c8b92-4638-4420-bc13-5c0b1d9dac25",
+        "createdAt": "2026-10-25T06:06:21.428Z",
+        "map": "01fracture",
+        "side": "b",
+        "result": "win",
+        "score": 1135,
+        "oppScore": 516,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 963,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01fracture/dd391a89-209d-405e-b1df-ed7e8a430da3.repl26a"
+      },
+      {
+        "matchId": "fb85ee49-342f-4ca8-8b46-71252aec2842",
+        "groupId": "f2910c82-51e5-4e8a-9aa5-172178faef14",
+        "createdAt": "2026-10-25T04:36:13.154Z",
+        "map": "01fracture",
+        "side": "b",
+        "result": "win",
+        "score": 1104,
+        "oppScore": 751,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 1054,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01fracture/fb85ee49-342f-4ca8-8b46-71252aec2842.repl26a"
+      },
+      {
+        "matchId": "f6ba4c3e-e7bf-4f10-8c86-2e4a2d58eeab",
+        "groupId": "c1f8e60b-d944-4acf-bc51-879e3276bf6b",
+        "createdAt": "2026-10-25T02:53:55.808Z",
+        "map": "01fracture",
+        "side": "b",
+        "result": "win",
+        "score": 1230,
+        "oppScore": 964,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 1166,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01fracture/f6ba4c3e-e7bf-4f10-8c86-2e4a2d58eeab.repl26a"
+      },
+      {
+        "matchId": "a6f4c3e1-6562-4c44-b310-49dfb2b5c5b8",
+        "groupId": "11c958cc-b734-47f0-bdf9-c909acd2974b",
+        "createdAt": "2026-10-25T02:34:27.463Z",
+        "map": "01fracture",
+        "side": "b",
+        "result": "win",
+        "score": 1230,
+        "oppScore": 964,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 1166,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01fracture/a6f4c3e1-6562-4c44-b310-49dfb2b5c5b8.repl26a"
+      },
+      {
+        "matchId": "409b1b24-397f-4188-8b6f-af7a49bd1194",
+        "groupId": "04ed5599-cc19-45e3-9a69-8729331b7685",
+        "createdAt": "2026-10-25T01:17:15.980Z",
+        "map": "01fracture",
+        "side": "b",
+        "result": "win",
+        "score": 1188,
+        "oppScore": 441,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 935,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01fracture/409b1b24-397f-4188-8b6f-af7a49bd1194.repl26a"
+      },
+      {
+        "matchId": "5f692772-20da-412f-915c-722d4a755637",
+        "groupId": "6f97bd01-25a6-48d2-96a8-863462940d53",
+        "createdAt": "2026-10-24T23:52:55.238Z",
+        "map": "01fracture",
+        "side": "b",
+        "result": "win",
+        "score": 1013,
+        "oppScore": 406,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 996,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01fracture/5f692772-20da-412f-915c-722d4a755637.repl26a"
+      },
+      {
+        "matchId": "2ac39f9f-bcbf-47e8-9e61-69fa0fbc6d85",
+        "groupId": "568f44c2-f32e-46a3-8119-7a9b67eaf088",
+        "createdAt": "2026-10-24T22:30:18.670Z",
+        "map": "01fracture",
+        "side": "b",
+        "result": "win",
+        "score": 1025,
+        "oppScore": 496,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 1021,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01fracture/2ac39f9f-bcbf-47e8-9e61-69fa0fbc6d85.repl26a"
+      },
+      {
+        "matchId": "5a90644f-e003-48f0-b1a5-a8a42e609795",
+        "groupId": "5c310a69-4727-4750-a8d7-1603ad39e1dd",
+        "createdAt": "2026-10-24T12:26:14.999Z",
+        "map": "01fracture",
+        "side": "b",
+        "result": "win",
+        "score": 1063,
+        "oppScore": 688,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 1029,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01fracture/5a90644f-e003-48f0-b1a5-a8a42e609795.repl26a"
+      },
+      {
+        "matchId": "c47784ad-4974-4eb3-9a33-005eb217f8fb",
+        "groupId": "4ab5c2ae-2a88-486b-8dd1-2c3078c5d8d4",
+        "createdAt": "2026-10-24T08:14:37.169Z",
+        "map": "01fracture",
+        "side": "b",
+        "result": "win",
+        "score": 1001,
+        "oppScore": 146,
+        "myDraft": [
+          "1",
+          "11",
+          "2",
+          "10",
+          "6"
+        ],
+        "oppDraft": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ],
+        "opponent": "Mite",
+        "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+        "sourceTeam": "Claudus Maximus",
+        "sourceTeamId": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+        "rounds": 823,
+        "kind": "unranked",
+        "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+        "file": "01fracture/c47784ad-4974-4eb3-9a33-005eb217f8fb.repl26a"
+      }
+    ]
+  }
+]

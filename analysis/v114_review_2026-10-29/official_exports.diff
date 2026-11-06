@@ -1,0 +1,1114 @@
+--- previous/BotAPICpp.md
++++ current/BotAPICpp.md
+@@ -621,7 +621,7 @@
+ std::uint64_t fuel_remaining()
+ ```
+ 
+-Get the fuel left in the current turn's budget; the first draft turn gets 10x and each champion's first turn gets 2x.
++Get the fuel left in the current turn's budget; the first draft turn gets 100x and each champion's first turn gets 2x.
+ 
+ Stop optional planning when little fuel remains and yield the current turn.
+ 
+@@ -631,6 +631,20 @@
+ }
+ ```
+ 
++### get_item_enum
++
++```cpp
++constexpr item_type get_item_enum(item_family family, item_stat stat, bool shard = true)
++```
++
++Select an item without spelling out its full enum name. @param family Emblem family. @param stat Stat granted by the item. @param shard True selects a shard (default); false selects an emblem.
++
++Select a completed Greed strength emblem by family and stat. Shards are the default in C++, Python and OCaml; Rust takes an explicit boolean.
++
++```cpp
++auto item = bc::get_item_enum(bc::item_family::greed, bc::item_stat::strength, false);
++```
++
+ ### global_submitted_gems
+ 
+ ```cpp
+@@ -724,6 +738,20 @@
+ using item = item_type;
+ ```
+ 
++### item_family
++
++```cpp
++enum class item_family : std::int32_t { monster, power, durability, treasure, jungle, home, bruiser, tribute, capture, prospector, hunter, skirmish, greed, collectors };
++```
++
++Item family, independent of its stat and shard/emblem tier.
++
++Public SDK type declaration.
++
++```cpp
++enum class item_family : std::int32_t { monster, power, durability, treasure, jungle, home, bruiser, tribute, capture, prospector, hunter, skirmish, greed, collectors };
++```
++
+ ### item_info
+ 
+ ```cpp
+@@ -741,7 +769,7 @@
+ ### item_passive
+ 
+ ```cpp
+-enum class item_passive : std::uint32_t { monster = 1, durability, treasure, jungle, home };
++enum class item_passive : std::uint32_t { monster = 1, durability, treasure, jungle, home, tribute, capture, prospector, hunter, skirmish, collectors };
+ ```
+ 
+ Optional item passive tags; no passive is represented by an empty optional.
+@@ -749,13 +777,27 @@
+ Public SDK type declaration.
+ 
+ ```cpp
+-enum class item_passive : std::uint32_t { monster = 1, durability, treasure, jungle, home };
++enum class item_passive : std::uint32_t { monster = 1, durability, treasure, jungle, home, tribute, capture, prospector, hunter, skirmish, collectors };
++```
++
++### item_stat
++
++```cpp
++enum class item_stat : std::int32_t { strength, focus, health };
++```
++
++Stat selected for an item.
++
++Public SDK type declaration.
++
++```cpp
++enum class item_stat : std::int32_t { strength, focus, health };
+ ```
+ 
+ ### item_type
+ 
+ ```cpp
+-class item_type { public: enum class enum_type : std::uint32_t { monster_shard_of_strength, monster_emblem_of_strength, monster_shard_of_focus, monster_emblem_of_focus, monster_shard_of_health, monster_emblem_of_health, power_shard_of_strength, power_emblem_of_strength, power_shard_of_focus, power_emblem_of_focus, power_shard_of_health, power_emblem_of_health, durability_shard_of_strength, durability_emblem_of_strength, durability_shard_of_focus, durability_emblem_of_focus, durability_shard_of_health, durability_emblem_of_health, treasure_shard_of_strength, treasure_emblem_of_strength, treasure_shard_of_focus, treasure_emblem_of_focus, treasure_shard_of_health, treasure_emblem_of_health, jungle_shard_of_strength, jungle_emblem_of_strength, jungle_shard_of_focus, jungle_emblem_of_focus, jungle_shard_of_health, jungle_emblem_of_health, home_shard_of_strength, home_emblem_of_strength, home_shard_of_focus, home_emblem_of_focus, home_shard_of_health, home_emblem_of_health, bruiser_shard_of_strength, bruiser_emblem_of_strength, bruiser_shard_of_focus, bruiser_emblem_of_focus, bruiser_shard_of_health, bruiser_emblem_of_health, count }; static const item_type monster_shard_of_strength; static const item_type monster_emblem_of_strength; static const item_type monster_shard_of_focus; static const item_type monster_emblem_of_focus; static const item_type monster_shard_of_health; static const item_type monster_emblem_of_health; static const item_type power_shard_of_strength; static const item_type power_emblem_of_strength; static const item_type power_shard_of_focus; static const item_type power_emblem_of_focus; static const item_type power_shard_of_health; static const item_type power_emblem_of_health; static const item_type durability_shard_of_strength; static const item_type durability_emblem_of_strength; static const item_type durability_shard_of_focus; static const item_type durability_emblem_of_focus; static const item_type durability_shard_of_health; static const item_type durability_emblem_of_health; static const item_type treasure_shard_of_strength; static const item_type treasure_emblem_of_strength; static const item_type treasure_shard_of_focus; static const item_type treasure_emblem_of_focus; static const item_type treasure_shard_of_health; static const item_type treasure_emblem_of_health; static const item_type jungle_shard_of_strength; static const item_type jungle_emblem_of_strength; static const item_type jungle_shard_of_focus; static const item_type jungle_emblem_of_focus; static const item_type jungle_shard_of_health; static const item_type jungle_emblem_of_health; static const item_type home_shard_of_strength; static const item_type home_emblem_of_strength; static const item_type home_shard_of_focus; static const item_type home_emblem_of_focus; static const item_type home_shard_of_health; static const item_type home_emblem_of_health; static const item_type bruiser_shard_of_strength; static const item_type bruiser_emblem_of_strength; static const item_type bruiser_shard_of_focus; static const item_type bruiser_emblem_of_focus; static const item_type bruiser_shard_of_health; static const item_type bruiser_emblem_of_health; static const item_type count; };
++class item_type { public: enum class enum_type : std::uint32_t { monster_shard_of_strength, monster_emblem_of_strength, monster_shard_of_focus, monster_emblem_of_focus, monster_shard_of_health, monster_emblem_of_health, power_shard_of_strength, power_emblem_of_strength, power_shard_of_focus, power_emblem_of_focus, power_shard_of_health, power_emblem_of_health, durability_shard_of_strength, durability_emblem_of_strength, durability_shard_of_focus, durability_emblem_of_focus, durability_shard_of_health, durability_emblem_of_health, treasure_shard_of_strength, treasure_emblem_of_strength, treasure_shard_of_focus, treasure_emblem_of_focus, treasure_shard_of_health, treasure_emblem_of_health, jungle_shard_of_strength, jungle_emblem_of_strength, jungle_shard_of_focus, jungle_emblem_of_focus, jungle_shard_of_health, jungle_emblem_of_health, home_shard_of_strength, home_emblem_of_strength, home_shard_of_focus, home_emblem_of_focus, home_shard_of_health, home_emblem_of_health, bruiser_shard_of_strength, bruiser_emblem_of_strength, bruiser_shard_of_focus, bruiser_emblem_of_focus, bruiser_shard_of_health, bruiser_emblem_of_health, tribute_shard_of_strength, tribute_emblem_of_strength, tribute_shard_of_focus, tribute_emblem_of_focus, tribute_shard_of_health, tribute_emblem_of_health, capture_shard_of_strength, capture_emblem_of_strength, capture_shard_of_focus, capture_emblem_of_focus, capture_shard_of_health, capture_emblem_of_health, prospector_shard_of_strength, prospector_emblem_of_strength, prospector_shard_of_focus, prospector_emblem_of_focus, prospector_shard_of_health, prospector_emblem_of_health, hunter_shard_of_strength, hunter_emblem_of_strength, hunter_shard_of_focus, hunter_emblem_of_focus, hunter_shard_of_health, hunter_emblem_of_health, skirmish_shard_of_strength, skirmish_emblem_of_strength, skirmish_shard_of_focus, skirmish_emblem_of_focus, skirmish_shard_of_health, skirmish_emblem_of_health, greed_shard_of_strength, greed_emblem_of_strength, greed_shard_of_focus, greed_emblem_of_focus, greed_shard_of_health, greed_emblem_of_health, collectors_shard_of_strength, collectors_emblem_of_strength, collectors_shard_of_focus, collectors_emblem_of_focus, collectors_shard_of_health, collectors_emblem_of_health, count }; static const item_type monster_shard_of_strength; static const item_type monster_emblem_of_strength; static const item_type monster_shard_of_focus; static const item_type monster_emblem_of_focus; static const item_type monster_shard_of_health; static const item_type monster_emblem_of_health; static const item_type power_shard_of_strength; static const item_type power_emblem_of_strength; static const item_type power_shard_of_focus; static const item_type power_emblem_of_focus; static const item_type power_shard_of_health; static const item_type power_emblem_of_health; static const item_type durability_shard_of_strength; static const item_type durability_emblem_of_strength; static const item_type durability_shard_of_focus; static const item_type durability_emblem_of_focus; static const item_type durability_shard_of_health; static const item_type durability_emblem_of_health; static const item_type treasure_shard_of_strength; static const item_type treasure_emblem_of_strength; static const item_type treasure_shard_of_focus; static const item_type treasure_emblem_of_focus; static const item_type treasure_shard_of_health; static const item_type treasure_emblem_of_health; static const item_type jungle_shard_of_strength; static const item_type jungle_emblem_of_strength; static const item_type jungle_shard_of_focus; static const item_type jungle_emblem_of_focus; static const item_type jungle_shard_of_health; static const item_type jungle_emblem_of_health; static const item_type home_shard_of_strength; static const item_type home_emblem_of_strength; static const item_type home_shard_of_focus; static const item_type home_emblem_of_focus; static const item_type home_shard_of_health; static const item_type home_emblem_of_health; static const item_type bruiser_shard_of_strength; static const item_type bruiser_emblem_of_strength; static const item_type bruiser_shard_of_focus; static const item_type bruiser_emblem_of_focus; static const item_type bruiser_shard_of_health; static const item_type bruiser_emblem_of_health; static const item_type tribute_shard_of_strength; static const item_type tribute_emblem_of_strength; static const item_type tribute_shard_of_focus; static const item_type tribute_emblem_of_focus; static const item_type tribute_shard_of_health; static const item_type tribute_emblem_of_health; static const item_type capture_shard_of_strength; static const item_type capture_emblem_of_strength; static const item_type capture_shard_of_focus; static const item_type capture_emblem_of_focus; static const item_type capture_shard_of_health; static const item_type capture_emblem_of_health; static const item_type prospector_shard_of_strength; static const item_type prospector_emblem_of_strength; static const item_type prospector_shard_of_focus; static const item_type prospector_emblem_of_focus; static const item_type prospector_shard_of_health; static const item_type prospector_emblem_of_health; static const item_type hunter_shard_of_strength; static const item_type hunter_emblem_of_strength; static const item_type hunter_shard_of_focus; static const item_type hunter_emblem_of_focus; static const item_type hunter_shard_of_health; static const item_type hunter_emblem_of_health; static const item_type skirmish_shard_of_strength; static const item_type skirmish_emblem_of_strength; static const item_type skirmish_shard_of_focus; static const item_type skirmish_emblem_of_focus; static const item_type skirmish_shard_of_health; static const item_type skirmish_emblem_of_health; static const item_type greed_shard_of_strength; static const item_type greed_emblem_of_strength; static const item_type greed_shard_of_focus; static const item_type greed_emblem_of_focus; static const item_type greed_shard_of_health; static const item_type greed_emblem_of_health; static const item_type collectors_shard_of_strength; static const item_type collectors_emblem_of_strength; static const item_type collectors_shard_of_focus; static const item_type collectors_emblem_of_focus; static const item_type collectors_shard_of_health; static const item_type collectors_emblem_of_health; static const item_type count; };
+ ```
+ 
+ Purchasable item types.
+@@ -763,7 +805,7 @@
+ Public SDK type declaration.
+ 
+ ```cpp
+-class item_type { public: enum class enum_type : std::uint32_t { monster_shard_of_strength, monster_emblem_of_strength, monster_shard_of_focus, monster_emblem_of_focus, monster_shard_of_health, monster_emblem_of_health, power_shard_of_strength, power_emblem_of_strength, power_shard_of_focus, power_emblem_of_focus, power_shard_of_health, power_emblem_of_health, durability_shard_of_strength, durability_emblem_of_strength, durability_shard_of_focus, durability_emblem_of_focus, durability_shard_of_health, durability_emblem_of_health, treasure_shard_of_strength, treasure_emblem_of_strength, treasure_shard_of_focus, treasure_emblem_of_focus, treasure_shard_of_health, treasure_emblem_of_health, jungle_shard_of_strength, jungle_emblem_of_strength, jungle_shard_of_focus, jungle_emblem_of_focus, jungle_shard_of_health, jungle_emblem_of_health, home_shard_of_strength, home_emblem_of_strength, home_shard_of_focus, home_emblem_of_focus, home_shard_of_health, home_emblem_of_health, bruiser_shard_of_strength, bruiser_emblem_of_strength, bruiser_shard_of_focus, bruiser_emblem_of_focus, bruiser_shard_of_health, bruiser_emblem_of_health, count }; static const item_type monster_shard_of_strength; static const item_type monster_emblem_of_strength; static const item_type monster_shard_of_focus; static const item_type monster_emblem_of_focus; static const item_type monster_shard_of_health; static const item_type monster_emblem_of_health; static const item_type power_shard_of_strength; static const item_type power_emblem_of_strength; static const item_type power_shard_of_focus; static const item_type power_emblem_of_focus; static const item_type power_shard_of_health; static const item_type power_emblem_of_health; static const item_type durability_shard_of_strength; static const item_type durability_emblem_of_strength; static const item_type durability_shard_of_focus; static const item_type durability_emblem_of_focus; static const item_type durability_shard_of_health; static const item_type durability_emblem_of_health; static const item_type treasure_shard_of_strength; static const item_type treasure_emblem_of_strength; static const item_type treasure_shard_of_focus; static const item_type treasure_emblem_of_focus; static const item_type treasure_shard_of_health; static const item_type treasure_emblem_of_health; static const item_type jungle_shard_of_strength; static const item_type jungle_emblem_of_strength; static const item_type jungle_shard_of_focus; static const item_type jungle_emblem_of_focus; static const item_type jungle_shard_of_health; static const item_type jungle_emblem_of_health; static const item_type home_shard_of_strength; static const item_type home_emblem_of_strength; static const item_type home_shard_of_focus; static const item_type home_emblem_of_focus; static const item_type home_shard_of_health; static const item_type home_emblem_of_health; static const item_type bruiser_shard_of_strength; static const item_type bruiser_emblem_of_strength; static const item_type bruiser_shard_of_focus; static const item_type bruiser_emblem_of_focus; static const item_type bruiser_shard_of_health; static const item_type bruiser_emblem_of_health; static const item_type count; };
++class item_type { public: enum class enum_type : std::uint32_t { monster_shard_of_strength, monster_emblem_of_strength, monster_shard_of_focus, monster_emblem_of_focus, monster_shard_of_health, monster_emblem_of_health, power_shard_of_strength, power_emblem_of_strength, power_shard_of_focus, power_emblem_of_focus, power_shard_of_health, power_emblem_of_health, durability_shard_of_strength, durability_emblem_of_strength, durability_shard_of_focus, durability_emblem_of_focus, durability_shard_of_health, durability_emblem_of_health, treasure_shard_of_strength, treasure_emblem_of_strength, treasure_shard_of_focus, treasure_emblem_of_focus, treasure_shard_of_health, treasure_emblem_of_health, jungle_shard_of_strength, jungle_emblem_of_strength, jungle_shard_of_focus, jungle_emblem_of_focus, jungle_shard_of_health, jungle_emblem_of_health, home_shard_of_strength, home_emblem_of_strength, home_shard_of_focus, home_emblem_of_focus, home_shard_of_health, home_emblem_of_health, bruiser_shard_of_strength, bruiser_emblem_of_strength, bruiser_shard_of_focus, bruiser_emblem_of_focus, bruiser_shard_of_health, bruiser_emblem_of_health, tribute_shard_of_strength, tribute_emblem_of_strength, tribute_shard_of_focus, tribute_emblem_of_focus, tribute_shard_of_health, tribute_emblem_of_health, capture_shard_of_strength, capture_emblem_of_strength, capture_shard_of_focus, capture_emblem_of_focus, capture_shard_of_health, capture_emblem_of_health, prospector_shard_of_strength, prospector_emblem_of_strength, prospector_shard_of_focus, prospector_emblem_of_focus, prospector_shard_of_health, prospector_emblem_of_health, hunter_shard_of_strength, hunter_emblem_of_strength, hunter_shard_of_focus, hunter_emblem_of_focus, hunter_shard_of_health, hunter_emblem_of_health, skirmish_shard_of_strength, skirmish_emblem_of_strength, skirmish_shard_of_focus, skirmish_emblem_of_focus, skirmish_shard_of_health, skirmish_emblem_of_health, greed_shard_of_strength, greed_emblem_of_strength, greed_shard_of_focus, greed_emblem_of_focus, greed_shard_of_health, greed_emblem_of_health, collectors_shard_of_strength, collectors_emblem_of_strength, collectors_shard_of_focus, collectors_emblem_of_focus, collectors_shard_of_health, collectors_emblem_of_health, count }; static const item_type monster_shard_of_strength; static const item_type monster_emblem_of_strength; static const item_type monster_shard_of_focus; static const item_type monster_emblem_of_focus; static const item_type monster_shard_of_health; static const item_type monster_emblem_of_health; static const item_type power_shard_of_strength; static const item_type power_emblem_of_strength; static const item_type power_shard_of_focus; static const item_type power_emblem_of_focus; static const item_type power_shard_of_health; static const item_type power_emblem_of_health; static const item_type durability_shard_of_strength; static const item_type durability_emblem_of_strength; static const item_type durability_shard_of_focus; static const item_type durability_emblem_of_focus; static const item_type durability_shard_of_health; static const item_type durability_emblem_of_health; static const item_type treasure_shard_of_strength; static const item_type treasure_emblem_of_strength; static const item_type treasure_shard_of_focus; static const item_type treasure_emblem_of_focus; static const item_type treasure_shard_of_health; static const item_type treasure_emblem_of_health; static const item_type jungle_shard_of_strength; static const item_type jungle_emblem_of_strength; static const item_type jungle_shard_of_focus; static const item_type jungle_emblem_of_focus; static const item_type jungle_shard_of_health; static const item_type jungle_emblem_of_health; static const item_type home_shard_of_strength; static const item_type home_emblem_of_strength; static const item_type home_shard_of_focus; static const item_type home_emblem_of_focus; static const item_type home_shard_of_health; static const item_type home_emblem_of_health; static const item_type bruiser_shard_of_strength; static const item_type bruiser_emblem_of_strength; static const item_type bruiser_shard_of_focus; static const item_type bruiser_emblem_of_focus; static const item_type bruiser_shard_of_health; static const item_type bruiser_emblem_of_health; static const item_type tribute_shard_of_strength; static const item_type tribute_emblem_of_strength; static const item_type tribute_shard_of_focus; static const item_type tribute_emblem_of_focus; static const item_type tribute_shard_of_health; static const item_type tribute_emblem_of_health; static const item_type capture_shard_of_strength; static const item_type capture_emblem_of_strength; static const item_type capture_shard_of_focus; static const item_type capture_emblem_of_focus; static const item_type capture_shard_of_health; static const item_type capture_emblem_of_health; static const item_type prospector_shard_of_strength; static const item_type prospector_emblem_of_strength; static const item_type prospector_shard_of_focus; static const item_type prospector_emblem_of_focus; static const item_type prospector_shard_of_health; static const item_type prospector_emblem_of_health; static const item_type hunter_shard_of_strength; static const item_type hunter_emblem_of_strength; static const item_type hunter_shard_of_focus; static const item_type hunter_emblem_of_focus; static const item_type hunter_shard_of_health; static const item_type hunter_emblem_of_health; static const item_type skirmish_shard_of_strength; static const item_type skirmish_emblem_of_strength; static const item_type skirmish_shard_of_focus; static const item_type skirmish_emblem_of_focus; static const item_type skirmish_shard_of_health; static const item_type skirmish_emblem_of_health; static const item_type greed_shard_of_strength; static const item_type greed_emblem_of_strength; static const item_type greed_shard_of_focus; static const item_type greed_emblem_of_focus; static const item_type greed_shard_of_health; static const item_type greed_emblem_of_health; static const item_type collectors_shard_of_strength; static const item_type collectors_emblem_of_strength; static const item_type collectors_shard_of_focus; static const item_type collectors_emblem_of_focus; static const item_type collectors_shard_of_health; static const item_type collectors_emblem_of_health; static const item_type count; };
+ ```
+ 
+ ### opponent
+@@ -1673,7 +1715,7 @@
+ ability_target_mask valid_targets() const
+ ```
+ 
+-Query the engine's live target-category flags.
++Get the target-category flags of the owner's immutable ability design.
+ 
+ Evaluate an ability before choosing a spell.
+ 
+@@ -7584,7 +7626,7 @@
+ ### enum_type
+ 
+ ```cpp
+-enum class enum_type : std::uint32_t { monster_shard_of_strength, monster_emblem_of_strength, monster_shard_of_focus, monster_emblem_of_focus, monster_shard_of_health, monster_emblem_of_health, power_shard_of_strength, power_emblem_of_strength, power_shard_of_focus, power_emblem_of_focus, power_shard_of_health, power_emblem_of_health, durability_shard_of_strength, durability_emblem_of_strength, durability_shard_of_focus, durability_emblem_of_focus, durability_shard_of_health, durability_emblem_of_health, treasure_shard_of_strength, treasure_emblem_of_strength, treasure_shard_of_focus, treasure_emblem_of_focus, treasure_shard_of_health, treasure_emblem_of_health, jungle_shard_of_strength, jungle_emblem_of_strength, jungle_shard_of_focus, jungle_emblem_of_focus, jungle_shard_of_health, jungle_emblem_of_health, home_shard_of_strength, home_emblem_of_strength, home_shard_of_focus, home_emblem_of_focus, home_shard_of_health, home_emblem_of_health, bruiser_shard_of_strength, bruiser_emblem_of_strength, bruiser_shard_of_focus, bruiser_emblem_of_focus, bruiser_shard_of_health, bruiser_emblem_of_health, count };
++enum class enum_type : std::uint32_t { monster_shard_of_strength, monster_emblem_of_strength, monster_shard_of_focus, monster_emblem_of_focus, monster_shard_of_health, monster_emblem_of_health, power_shard_of_strength, power_emblem_of_strength, power_shard_of_focus, power_emblem_of_focus, power_shard_of_health, power_emblem_of_health, durability_shard_of_strength, durability_emblem_of_strength, durability_shard_of_focus, durability_emblem_of_focus, durability_shard_of_health, durability_emblem_of_health, treasure_shard_of_strength, treasure_emblem_of_strength, treasure_shard_of_focus, treasure_emblem_of_focus, treasure_shard_of_health, treasure_emblem_of_health, jungle_shard_of_strength, jungle_emblem_of_strength, jungle_shard_of_focus, jungle_emblem_of_focus, jungle_shard_of_health, jungle_emblem_of_health, home_shard_of_strength, home_emblem_of_strength, home_shard_of_focus, home_emblem_of_focus, home_shard_of_health, home_emblem_of_health, bruiser_shard_of_strength, bruiser_emblem_of_strength, bruiser_shard_of_focus, bruiser_emblem_of_focus, bruiser_shard_of_health, bruiser_emblem_of_health, tribute_shard_of_strength, tribute_emblem_of_strength, tribute_shard_of_focus, tribute_emblem_of_focus, tribute_shard_of_health, tribute_emblem_of_health, capture_shard_of_strength, capture_emblem_of_strength, capture_shard_of_focus, capture_emblem_of_focus, capture_shard_of_health, capture_emblem_of_health, prospector_shard_of_strength, prospector_emblem_of_strength, prospector_shard_of_focus, prospector_emblem_of_focus, prospector_shard_of_health, prospector_emblem_of_health, hunter_shard_of_strength, hunter_emblem_of_strength, hunter_shard_of_focus, hunter_emblem_of_focus, hunter_shard_of_health, hunter_emblem_of_health, skirmish_shard_of_strength, skirmish_emblem_of_strength, skirmish_shard_of_focus, skirmish_emblem_of_focus, skirmish_shard_of_health, skirmish_emblem_of_health, greed_shard_of_strength, greed_emblem_of_strength, greed_shard_of_focus, greed_emblem_of_focus, greed_shard_of_health, greed_emblem_of_health, collectors_shard_of_strength, collectors_emblem_of_strength, collectors_shard_of_focus, collectors_emblem_of_focus, collectors_shard_of_health, collectors_emblem_of_health, count };
+ ```
+ 
+ Underlying engine enum; wrapper values convert to it implicitly.
+@@ -7592,7 +7634,7 @@
+ Public SDK type declaration.
+ 
+ ```cpp
+-enum class enum_type : std::uint32_t { monster_shard_of_strength, monster_emblem_of_strength, monster_shard_of_focus, monster_emblem_of_focus, monster_shard_of_health, monster_emblem_of_health, power_shard_of_strength, power_emblem_of_strength, power_shard_of_focus, power_emblem_of_focus, power_shard_of_health, power_emblem_of_health, durability_shard_of_strength, durability_emblem_of_strength, durability_shard_of_focus, durability_emblem_of_focus, durability_shard_of_health, durability_emblem_of_health, treasure_shard_of_strength, treasure_emblem_of_strength, treasure_shard_of_focus, treasure_emblem_of_focus, treasure_shard_of_health, treasure_emblem_of_health, jungle_shard_of_strength, jungle_emblem_of_strength, jungle_shard_of_focus, jungle_emblem_of_focus, jungle_shard_of_health, jungle_emblem_of_health, home_shard_of_strength, home_emblem_of_strength, home_shard_of_focus, home_emblem_of_focus, home_shard_of_health, home_emblem_of_health, bruiser_shard_of_strength, bruiser_emblem_of_strength, bruiser_shard_of_focus, bruiser_emblem_of_focus, bruiser_shard_of_health, bruiser_emblem_of_health, count };
++enum class enum_type : std::uint32_t { monster_shard_of_strength, monster_emblem_of_strength, monster_shard_of_focus, monster_emblem_of_focus, monster_shard_of_health, monster_emblem_of_health, power_shard_of_strength, power_emblem_of_strength, power_shard_of_focus, power_emblem_of_focus, power_shard_of_health, power_emblem_of_health, durability_shard_of_strength, durability_emblem_of_strength, durability_shard_of_focus, durability_emblem_of_focus, durability_shard_of_health, durability_emblem_of_health, treasure_shard_of_strength, treasure_emblem_of_strength, treasure_shard_of_focus, treasure_emblem_of_focus, treasure_shard_of_health, treasure_emblem_of_health, jungle_shard_of_strength, jungle_emblem_of_strength, jungle_shard_of_focus, jungle_emblem_of_focus, jungle_shard_of_health, jungle_emblem_of_health, home_shard_of_strength, home_emblem_of_strength, home_shard_of_focus, home_emblem_of_focus, home_shard_of_health, home_emblem_of_health, bruiser_shard_of_strength, bruiser_emblem_of_strength, bruiser_shard_of_focus, bruiser_emblem_of_focus, bruiser_shard_of_health, bruiser_emblem_of_health, tribute_shard_of_strength, tribute_emblem_of_strength, tribute_shard_of_focus, tribute_emblem_of_focus, tribute_shard_of_health, tribute_emblem_of_health, capture_shard_of_strength, capture_emblem_of_strength, capture_shard_of_focus, capture_emblem_of_focus, capture_shard_of_health, capture_emblem_of_health, prospector_shard_of_strength, prospector_emblem_of_strength, prospector_shard_of_focus, prospector_emblem_of_focus, prospector_shard_of_health, prospector_emblem_of_health, hunter_shard_of_strength, hunter_emblem_of_strength, hunter_shard_of_focus, hunter_emblem_of_focus, hunter_shard_of_health, hunter_emblem_of_health, skirmish_shard_of_strength, skirmish_emblem_of_strength, skirmish_shard_of_focus, skirmish_emblem_of_focus, skirmish_shard_of_health, skirmish_emblem_of_health, greed_shard_of_strength, greed_emblem_of_strength, greed_shard_of_focus, greed_emblem_of_focus, greed_shard_of_health, greed_emblem_of_health, collectors_shard_of_strength, collectors_emblem_of_strength, collectors_shard_of_focus, collectors_emblem_of_focus, collectors_shard_of_health, collectors_emblem_of_health, count };
+ ```
+ 
+ ### focus_points
+@@ -7877,6 +7919,46 @@
+ }
+ ```
+ 
++### camp_group_capture_state
++
++```cpp
++struct camp_group_capture_state { std::int32_t timer; camp_group_capture_type state; };
++```
++
++Capture countdown and status; timer is the configured maximum when not capturing.
++
++Read the visible group's capture state, even when its occupants are hidden. AllyCapturing and EnemyCapturing carry the remaining countdown; all other states carry the configured maximum (five turns).
++
++Inputs:
++- group: a camp group currently in vision
++
++```cpp
++auto capture = group.capture_state();
++if (capture.state == bc::map::camp_group_capture_type::contested) {
++}
++auto turns = capture.timer;
++```
++
++### camp_group_capture_type
++
++```cpp
++enum class camp_group_capture_type : std::int32_t { no_capture_available, ally_capturing, contested, enemy_capturing, capture_available };
++```
++
++Capture status relative to the querying champion's team.
++
++Read the visible group's capture state, even when its occupants are hidden. AllyCapturing and EnemyCapturing carry the remaining countdown; all other states carry the configured maximum (five turns).
++
++Inputs:
++- group: a camp group currently in vision
++
++```cpp
++auto capture = group.capture_state();
++if (capture.state == bc::map::camp_group_capture_type::contested) {
++}
++auto turns = capture.timer;
++```
++
+ ### camp_group_respawning
+ 
+ ```cpp
+@@ -8132,6 +8214,30 @@
+ auto result = subject.camps();
+ ```
+ 
++### capture_state
++
++```cpp
++camp_group_capture_state capture_state() const
++```
++
++Read current capture progress; group visibility is required, champion visibility is not.
++
++**gameplay**: This function can only be used by champion bots and is not usable during draft phase.
++
++**vision**: This function requires you to have the subject in vision.
++
++Read the visible group's capture state, even when its occupants are hidden. AllyCapturing and EnemyCapturing carry the remaining countdown; all other states carry the configured maximum (five turns).
++
++Inputs:
++- group: a camp group currently in vision
++
++```cpp
++auto capture = group.capture_state();
++if (capture.state == bc::map::camp_group_capture_type::contested) {
++}
++auto turns = capture.timer;
++```
++
+ ### end
+ 
+ ```cpp
+--- previous/BotAPIOCaml.md
++++ current/BotAPIOCaml.md
+@@ -127,6 +127,20 @@
+ ```ocaml
+ let yield_if_low_on_fuel () =
+   if fuel_remaining () < 1000 then end_turn ()
++```
++
++### get_item_enum
++
++```ocaml
++val get_item_enum : ?shard:bool -> Item_family.t -> Item_stat.t -> Item.t
++```
++
++Select an item by family and stat. `shard` defaults to `true`; `false` selects an emblem.
++
++Select a completed Greed strength emblem by family and stat. Shards are the default in C++, Python and OCaml; Rust takes an explicit boolean.
++
++```ocaml
++let item = get_item_enum ~shard:false Item_family.Greed Item_stat.Strength
+ ```
+ 
+ ### global_submitted_gems
+@@ -2984,6 +2998,57 @@
+ 
+ ```ocaml
+ let result = Camp_group.camps value1
++```
++
++### capture_state
++
++```ocaml
++type capture_state = { timer : int; state : capture_type }
++```
++
++
++
++Public SDK type declaration.
++
++```ocaml
++type capture_state = { timer : int; state : capture_type }
++```
++
++### capture_state
++
++```ocaml
++val capture_state : t -> capture_state
++```
++
++Read visible group capture progress, even if its occupants are hidden. Timer is remaining turns when capturing, configured maximum otherwise.
++
++**gameplay**: This function can only be used by champion bots and is not usable during draft phase.
++
++**vision**: This function requires you to have the subject in vision.
++
++Read the visible group's capture state, even when its occupants are hidden. AllyCapturing and EnemyCapturing carry the remaining countdown; all other states carry the configured maximum (five turns).
++
++Inputs:
++- group: a camp group currently in vision
++
++```ocaml
++let capture = Camp_group.capture_state group
++let contested = capture.state = Camp_group.Contested
++let turns = capture.timer
++```
++
++### capture_type
++
++```ocaml
++type capture_type = No_capture_available | Ally_capturing | Contested | Enemy_capturing | Capture_available
++```
++
++
++
++Public SDK type declaration.
++
++```ocaml
++type capture_type = No_capture_available | Ally_capturing | Contested | Enemy_capturing | Capture_available
+ ```
+ 
+ ### equal
+@@ -6307,7 +6372,7 @@
+ ### t
+ 
+ ```ocaml
+-type t = | Monster_shard_of_strength | Monster_emblem_of_strength | Monster_shard_of_focus | Monster_emblem_of_focus | Monster_shard_of_health | Monster_emblem_of_health | Power_shard_of_strength | Power_emblem_of_strength | Power_shard_of_focus | Power_emblem_of_focus | Power_shard_of_health | Power_emblem_of_health | Durability_shard_of_strength | Durability_emblem_of_strength | Durability_shard_of_focus | Durability_emblem_of_focus | Durability_shard_of_health | Durability_emblem_of_health | Treasure_shard_of_strength | Treasure_emblem_of_strength | Treasure_shard_of_focus | Treasure_emblem_of_focus | Treasure_shard_of_health | Treasure_emblem_of_health | Jungle_shard_of_strength | Jungle_emblem_of_strength | Jungle_shard_of_focus | Jungle_emblem_of_focus | Jungle_shard_of_health | Jungle_emblem_of_health | Home_shard_of_strength | Home_emblem_of_strength | Home_shard_of_focus | Home_emblem_of_focus | Home_shard_of_health | Home_emblem_of_health | Bruiser_shard_of_strength | Bruiser_emblem_of_strength | Bruiser_shard_of_focus | Bruiser_emblem_of_focus | Bruiser_shard_of_health | Bruiser_emblem_of_health
++type t = | Monster_shard_of_strength | Monster_emblem_of_strength | Monster_shard_of_focus | Monster_emblem_of_focus | Monster_shard_of_health | Monster_emblem_of_health | Power_shard_of_strength | Power_emblem_of_strength | Power_shard_of_focus | Power_emblem_of_focus | Power_shard_of_health | Power_emblem_of_health | Durability_shard_of_strength | Durability_emblem_of_strength | Durability_shard_of_focus | Durability_emblem_of_focus | Durability_shard_of_health | Durability_emblem_of_health | Treasure_shard_of_strength | Treasure_emblem_of_strength | Treasure_shard_of_focus | Treasure_emblem_of_focus | Treasure_shard_of_health | Treasure_emblem_of_health | Jungle_shard_of_strength | Jungle_emblem_of_strength | Jungle_shard_of_focus | Jungle_emblem_of_focus | Jungle_shard_of_health | Jungle_emblem_of_health | Home_shard_of_strength | Home_emblem_of_strength | Home_shard_of_focus | Home_emblem_of_focus | Home_shard_of_health | Home_emblem_of_health | Bruiser_shard_of_strength | Bruiser_emblem_of_strength | Bruiser_shard_of_focus | Bruiser_emblem_of_focus | Bruiser_shard_of_health | Bruiser_emblem_of_health | Tribute_shard_of_strength | Tribute_emblem_of_strength | Tribute_shard_of_focus | Tribute_emblem_of_focus | Tribute_shard_of_health | Tribute_emblem_of_health | Capture_shard_of_strength | Capture_emblem_of_strength | Capture_shard_of_focus | Capture_emblem_of_focus | Capture_shard_of_health | Capture_emblem_of_health | Prospector_shard_of_strength | Prospector_emblem_of_strength | Prospector_shard_of_focus | Prospector_emblem_of_focus | Prospector_shard_of_health | Prospector_emblem_of_health | Hunter_shard_of_strength | Hunter_emblem_of_strength | Hunter_shard_of_focus | Hunter_emblem_of_focus | Hunter_shard_of_health | Hunter_emblem_of_health | Skirmish_shard_of_strength | Skirmish_emblem_of_strength | Skirmish_shard_of_focus | Skirmish_emblem_of_focus | Skirmish_shard_of_health | Skirmish_emblem_of_health | Greed_shard_of_strength | Greed_emblem_of_strength | Greed_shard_of_focus | Greed_emblem_of_focus | Greed_shard_of_health | Greed_emblem_of_health | Collectors_shard_of_strength | Collectors_emblem_of_strength | Collectors_shard_of_focus | Collectors_emblem_of_focus | Collectors_shard_of_health | Collectors_emblem_of_health
+ ```
+ 
+ 
+@@ -6315,7 +6380,7 @@
+ Public SDK type declaration.
+ 
+ ```ocaml
+-type t = | Monster_shard_of_strength | Monster_emblem_of_strength | Monster_shard_of_focus | Monster_emblem_of_focus | Monster_shard_of_health | Monster_emblem_of_health | Power_shard_of_strength | Power_emblem_of_strength | Power_shard_of_focus | Power_emblem_of_focus | Power_shard_of_health | Power_emblem_of_health | Durability_shard_of_strength | Durability_emblem_of_strength | Durability_shard_of_focus | Durability_emblem_of_focus | Durability_shard_of_health | Durability_emblem_of_health | Treasure_shard_of_strength | Treasure_emblem_of_strength | Treasure_shard_of_focus | Treasure_emblem_of_focus | Treasure_shard_of_health | Treasure_emblem_of_health | Jungle_shard_of_strength | Jungle_emblem_of_strength | Jungle_shard_of_focus | Jungle_emblem_of_focus | Jungle_shard_of_health | Jungle_emblem_of_health | Home_shard_of_strength | Home_emblem_of_strength | Home_shard_of_focus | Home_emblem_of_focus | Home_shard_of_health | Home_emblem_of_health | Bruiser_shard_of_strength | Bruiser_emblem_of_strength | Bruiser_shard_of_focus | Bruiser_emblem_of_focus | Bruiser_shard_of_health | Bruiser_emblem_of_health
++type t = | Monster_shard_of_strength | Monster_emblem_of_strength | Monster_shard_of_focus | Monster_emblem_of_focus | Monster_shard_of_health | Monster_emblem_of_health | Power_shard_of_strength | Power_emblem_of_strength | Power_shard_of_focus | Power_emblem_of_focus | Power_shard_of_health | Power_emblem_of_health | Durability_shard_of_strength | Durability_emblem_of_strength | Durability_shard_of_focus | Durability_emblem_of_focus | Durability_shard_of_health | Durability_emblem_of_health | Treasure_shard_of_strength | Treasure_emblem_of_strength | Treasure_shard_of_focus | Treasure_emblem_of_focus | Treasure_shard_of_health | Treasure_emblem_of_health | Jungle_shard_of_strength | Jungle_emblem_of_strength | Jungle_shard_of_focus | Jungle_emblem_of_focus | Jungle_shard_of_health | Jungle_emblem_of_health | Home_shard_of_strength | Home_emblem_of_strength | Home_shard_of_focus | Home_emblem_of_focus | Home_shard_of_health | Home_emblem_of_health | Bruiser_shard_of_strength | Bruiser_emblem_of_strength | Bruiser_shard_of_focus | Bruiser_emblem_of_focus | Bruiser_shard_of_health | Bruiser_emblem_of_health | Tribute_shard_of_strength | Tribute_emblem_of_strength | Tribute_shard_of_focus | Tribute_emblem_of_focus | Tribute_shard_of_health | Tribute_emblem_of_health | Capture_shard_of_strength | Capture_emblem_of_strength | Capture_shard_of_focus | Capture_emblem_of_focus | Capture_shard_of_health | Capture_emblem_of_health | Prospector_shard_of_strength | Prospector_emblem_of_strength | Prospector_shard_of_focus | Prospector_emblem_of_focus | Prospector_shard_of_health | Prospector_emblem_of_health | Hunter_shard_of_strength | Hunter_emblem_of_strength | Hunter_shard_of_focus | Hunter_emblem_of_focus | Hunter_shard_of_health | Hunter_emblem_of_health | Skirmish_shard_of_strength | Skirmish_emblem_of_strength | Skirmish_shard_of_focus | Skirmish_emblem_of_focus | Skirmish_shard_of_health | Skirmish_emblem_of_health | Greed_shard_of_strength | Greed_emblem_of_strength | Greed_shard_of_focus | Greed_emblem_of_focus | Greed_shard_of_health | Greed_emblem_of_health | Collectors_shard_of_strength | Collectors_emblem_of_strength | Collectors_shard_of_focus | Collectors_emblem_of_focus | Collectors_shard_of_health | Collectors_emblem_of_health
+ ```
+ 
+ ### to_string
+@@ -6414,6 +6479,70 @@
+ let result = Item_counts.to_list value1
+ ```
+ 
++## Cambc.Item_family
++
++### all
++
++```ocaml
++val all : t list
++```
++
++All emblem families in engine enum order.
++
++Plan a purchase or use an owned consumable.
++
++```ocaml
++let result = Item_family.all
++```
++
++### of_int
++
++```ocaml
++val of_int : int -> t
++```
++
++Decode an engine family value; raises on an unknown value.
++
++Plan a purchase or use an owned consumable.
++
++Inputs:
++- value1: int (types from Cambc.Item_family)
++
++```ocaml
++let result = Item_family.of_int value1
++```
++
++### t
++
++```ocaml
++type t = Monster | Power | Durability | Treasure | Jungle | Home | Bruiser | Tribute | Capture | Prospector | Hunter | Skirmish | Greed | Collectors
++```
++
++Item selection key, independent of shard/emblem tier.
++
++Public SDK type declaration.
++
++```ocaml
++type t = Monster | Power | Durability | Treasure | Jungle | Home | Bruiser | Tribute | Capture | Prospector | Hunter | Skirmish | Greed | Collectors
++```
++
++### to_int
++
++```ocaml
++val to_int : t -> int
++```
++
++Convert a family to its engine enum value.
++
++Plan a purchase or use an owned consumable.
++
++Inputs:
++- value1: t (types from Cambc.Item_family)
++
++```ocaml
++let result = Item_family.to_int value1
++```
++
+ ## Cambc.Item_info
+ 
+ ### combine_count
+@@ -6623,6 +6752,70 @@
+ ```
+ 
+ `to_string p` is the name of an item passive. @param p Item passive.
++
++## Cambc.Item_stat
++
++### all
++
++```ocaml
++val all : t list
++```
++
++All emblem stat types in engine enum order.
++
++Plan a purchase or use an owned consumable.
++
++```ocaml
++let result = Item_stat.all
++```
++
++### of_int
++
++```ocaml
++val of_int : int -> t
++```
++
++Decode an engine stat type; raises on an unknown value.
++
++Plan a purchase or use an owned consumable.
++
++Inputs:
++- value1: int (types from Cambc.Item_stat)
++
++```ocaml
++let result = Item_stat.of_int value1
++```
++
++### t
++
++```ocaml
++type t = Strength | Focus | Health
++```
++
++Item selection key, independent of shard/emblem tier.
++
++Public SDK type declaration.
++
++```ocaml
++type t = Strength | Focus | Health
++```
++
++### to_int
++
++```ocaml
++val to_int : t -> int
++```
++
++Convert a stat type to its engine enum value.
++
++Plan a purchase or use an owned consumable.
++
++Inputs:
++- value1: t (types from Cambc.Item_stat)
++
++```ocaml
++let result = Item_stat.to_int value1
++```
+ 
+ ## Cambc.Passive
+ 
+--- previous/BotAPIPython.md
++++ current/BotAPIPython.md
+@@ -302,6 +302,25 @@
+ 
+ ```python
+ class Camp(Unit): ...
++```
++
++### CampGroupCaptureType
++
++```python
++class CampGroupCaptureType(IntEnum): NO_CAPTURE_AVAILABLE = 0; ALLY_CAPTURING = 1; CONTESTED = 2; ENEMY_CAPTURING = 3; CAPTURE_AVAILABLE = 4
++```
++
++CampGroupCaptureType selection values.
++
++Read the visible group's capture state, even when its occupants are hidden. AllyCapturing and EnemyCapturing carry the remaining countdown; all other states carry the configured maximum (five turns).
++
++Inputs:
++- group: a camp group currently in vision
++
++```python
++capture = group.capture_state()
++contested = capture.state == bc.CampGroupCaptureType.CONTESTED
++turns = capture.timer
+ ```
+ 
+ ### CampState
+@@ -580,6 +599,20 @@
+     bc.end_turn()
+ ```
+ 
++### get_item_enum
++
++```python
++def get_item_enum(family: ItemFamily, stat: ItemStat, shard: bool = True) -> ItemType
++```
++
++Select an item by family and stat; shard=False selects the completed emblem. Args: family: Item family. stat: Stat granted by the item. shard: Select a shard (default True) or an emblem (False).
++
++Select a completed Greed strength emblem by family and stat. Shards are the default in C++, Python and OCaml; Rust takes an explicit boolean.
++
++```python
++item = bc.get_item_enum(bc.ItemFamily.GREED, bc.ItemStat.STRENGTH, shard=False)
++```
++
+ ### global_submitted_gems
+ 
+ ```python
+@@ -613,6 +646,20 @@
+ is_draft = bc.is_draft()
+ ```
+ 
++### ItemFamily
++
++```python
++class ItemFamily(IntEnum): MONSTER = 0; POWER = 1; DURABILITY = 2; TREASURE = 3; JUNGLE = 4; HOME = 5; BRUISER = 6; TRIBUTE = 7; CAPTURE = 8; PROSPECTOR = 9; HUNTER = 10; SKIRMISH = 11; GREED = 12; COLLECTORS = 13
++```
++
++ItemFamily selection values.
++
++Public SDK type declaration.
++
++```python
++class ItemFamily(IntEnum): MONSTER = 0; POWER = 1; DURABILITY = 2; TREASURE = 3; JUNGLE = 4; HOME = 5; BRUISER = 6; TRIBUTE = 7; CAPTURE = 8; PROSPECTOR = 9; HUNTER = 10; SKIRMISH = 11; GREED = 12; COLLECTORS = 13
++```
++
+ ### ItemInfo
+ 
+ ```python
+@@ -630,7 +677,7 @@
+ ### ItemPassive
+ 
+ ```python
+-class ItemPassive(IntEnum): MONSTER = 1; DURABILITY = 2; TREASURE = 3; JUNGLE = 4; HOME = 5
++class ItemPassive(IntEnum): MONSTER = 1; DURABILITY = 2; TREASURE = 3; JUNGLE = 4; HOME = 5; TRIBUTE = 6; CAPTURE = 7; PROSPECTOR = 8; HUNTER = 9; SKIRMISH = 10; COLLECTORS = 11
+ ```
+ 
+ Item passive group.
+@@ -638,13 +685,27 @@
+ Public SDK type declaration.
+ 
+ ```python
+-class ItemPassive(IntEnum): MONSTER = 1; DURABILITY = 2; TREASURE = 3; JUNGLE = 4; HOME = 5
++class ItemPassive(IntEnum): MONSTER = 1; DURABILITY = 2; TREASURE = 3; JUNGLE = 4; HOME = 5; TRIBUTE = 6; CAPTURE = 7; PROSPECTOR = 8; HUNTER = 9; SKIRMISH = 10; COLLECTORS = 11
++```
++
++### ItemStat
++
++```python
++class ItemStat(IntEnum): STRENGTH = 0; FOCUS = 1; HEALTH = 2
++```
++
++ItemStat selection values.
++
++Public SDK type declaration.
++
++```python
++class ItemStat(IntEnum): STRENGTH = 0; FOCUS = 1; HEALTH = 2
+ ```
+ 
+ ### ItemType
+ 
+ ```python
+-class ItemType(int): MONSTER_SHARD_OF_STRENGTH: ClassVar[ItemType]; MONSTER_EMBLEM_OF_STRENGTH: ClassVar[ItemType]; MONSTER_SHARD_OF_FOCUS: ClassVar[ItemType]; MONSTER_EMBLEM_OF_FOCUS: ClassVar[ItemType]; MONSTER_SHARD_OF_HEALTH: ClassVar[ItemType]; MONSTER_EMBLEM_OF_HEALTH: ClassVar[ItemType]; POWER_SHARD_OF_STRENGTH: ClassVar[ItemType]; POWER_EMBLEM_OF_STRENGTH: ClassVar[ItemType]; POWER_SHARD_OF_FOCUS: ClassVar[ItemType]; POWER_EMBLEM_OF_FOCUS: ClassVar[ItemType]; POWER_SHARD_OF_HEALTH: ClassVar[ItemType]; POWER_EMBLEM_OF_HEALTH: ClassVar[ItemType]; DURABILITY_SHARD_OF_STRENGTH: ClassVar[ItemType]; DURABILITY_EMBLEM_OF_STRENGTH: ClassVar[ItemType]; DURABILITY_SHARD_OF_FOCUS: ClassVar[ItemType]; DURABILITY_EMBLEM_OF_FOCUS: ClassVar[ItemType]; DURABILITY_SHARD_OF_HEALTH: ClassVar[ItemType]; DURABILITY_EMBLEM_OF_HEALTH: ClassVar[ItemType]; TREASURE_SHARD_OF_STRENGTH: ClassVar[ItemType]; TREASURE_EMBLEM_OF_STRENGTH: ClassVar[ItemType]; TREASURE_SHARD_OF_FOCUS: ClassVar[ItemType]; TREASURE_EMBLEM_OF_FOCUS: ClassVar[ItemType]; TREASURE_SHARD_OF_HEALTH: ClassVar[ItemType]; TREASURE_EMBLEM_OF_HEALTH: ClassVar[ItemType]; JUNGLE_SHARD_OF_STRENGTH: ClassVar[ItemType]; JUNGLE_EMBLEM_OF_STRENGTH: ClassVar[ItemType]; JUNGLE_SHARD_OF_FOCUS: ClassVar[ItemType]; JUNGLE_EMBLEM_OF_FOCUS: ClassVar[ItemType]; JUNGLE_SHARD_OF_HEALTH: ClassVar[ItemType]; JUNGLE_EMBLEM_OF_HEALTH: ClassVar[ItemType]; HOME_SHARD_OF_STRENGTH: ClassVar[ItemType]; HOME_EMBLEM_OF_STRENGTH: ClassVar[ItemType]; HOME_SHARD_OF_FOCUS: ClassVar[ItemType]; HOME_EMBLEM_OF_FOCUS: ClassVar[ItemType]; HOME_SHARD_OF_HEALTH: ClassVar[ItemType]; HOME_EMBLEM_OF_HEALTH: ClassVar[ItemType]; BRUISER_SHARD_OF_STRENGTH: ClassVar[ItemType]; BRUISER_EMBLEM_OF_STRENGTH: ClassVar[ItemType]; BRUISER_SHARD_OF_FOCUS: ClassVar[ItemType]; BRUISER_EMBLEM_OF_FOCUS: ClassVar[ItemType]; BRUISER_SHARD_OF_HEALTH: ClassVar[ItemType]; BRUISER_EMBLEM_OF_HEALTH: ClassVar[ItemType]; COUNT: ClassVar[int]; name: str
++class ItemType(int): MONSTER_SHARD_OF_STRENGTH: ClassVar[ItemType]; MONSTER_EMBLEM_OF_STRENGTH: ClassVar[ItemType]; MONSTER_SHARD_OF_FOCUS: ClassVar[ItemType]; MONSTER_EMBLEM_OF_FOCUS: ClassVar[ItemType]; MONSTER_SHARD_OF_HEALTH: ClassVar[ItemType]; MONSTER_EMBLEM_OF_HEALTH: ClassVar[ItemType]; POWER_SHARD_OF_STRENGTH: ClassVar[ItemType]; POWER_EMBLEM_OF_STRENGTH: ClassVar[ItemType]; POWER_SHARD_OF_FOCUS: ClassVar[ItemType]; POWER_EMBLEM_OF_FOCUS: ClassVar[ItemType]; POWER_SHARD_OF_HEALTH: ClassVar[ItemType]; POWER_EMBLEM_OF_HEALTH: ClassVar[ItemType]; DURABILITY_SHARD_OF_STRENGTH: ClassVar[ItemType]; DURABILITY_EMBLEM_OF_STRENGTH: ClassVar[ItemType]; DURABILITY_SHARD_OF_FOCUS: ClassVar[ItemType]; DURABILITY_EMBLEM_OF_FOCUS: ClassVar[ItemType]; DURABILITY_SHARD_OF_HEALTH: ClassVar[ItemType]; DURABILITY_EMBLEM_OF_HEALTH: ClassVar[ItemType]; TREASURE_SHARD_OF_STRENGTH: ClassVar[ItemType]; TREASURE_EMBLEM_OF_STRENGTH: ClassVar[ItemType]; TREASURE_SHARD_OF_FOCUS: ClassVar[ItemType]; TREASURE_EMBLEM_OF_FOCUS: ClassVar[ItemType]; TREASURE_SHARD_OF_HEALTH: ClassVar[ItemType]; TREASURE_EMBLEM_OF_HEALTH: ClassVar[ItemType]; JUNGLE_SHARD_OF_STRENGTH: ClassVar[ItemType]; JUNGLE_EMBLEM_OF_STRENGTH: ClassVar[ItemType]; JUNGLE_SHARD_OF_FOCUS: ClassVar[ItemType]; JUNGLE_EMBLEM_OF_FOCUS: ClassVar[ItemType]; JUNGLE_SHARD_OF_HEALTH: ClassVar[ItemType]; JUNGLE_EMBLEM_OF_HEALTH: ClassVar[ItemType]; HOME_SHARD_OF_STRENGTH: ClassVar[ItemType]; HOME_EMBLEM_OF_STRENGTH: ClassVar[ItemType]; HOME_SHARD_OF_FOCUS: ClassVar[ItemType]; HOME_EMBLEM_OF_FOCUS: ClassVar[ItemType]; HOME_SHARD_OF_HEALTH: ClassVar[ItemType]; HOME_EMBLEM_OF_HEALTH: ClassVar[ItemType]; BRUISER_SHARD_OF_STRENGTH: ClassVar[ItemType]; BRUISER_EMBLEM_OF_STRENGTH: ClassVar[ItemType]; BRUISER_SHARD_OF_FOCUS: ClassVar[ItemType]; BRUISER_EMBLEM_OF_FOCUS: ClassVar[ItemType]; BRUISER_SHARD_OF_HEALTH: ClassVar[ItemType]; BRUISER_EMBLEM_OF_HEALTH: ClassVar[ItemType]; TRIBUTE_SHARD_OF_STRENGTH: ClassVar[ItemType]; TRIBUTE_EMBLEM_OF_STRENGTH: ClassVar[ItemType]; TRIBUTE_SHARD_OF_FOCUS: ClassVar[ItemType]; TRIBUTE_EMBLEM_OF_FOCUS: ClassVar[ItemType]; TRIBUTE_SHARD_OF_HEALTH: ClassVar[ItemType]; TRIBUTE_EMBLEM_OF_HEALTH: ClassVar[ItemType]; CAPTURE_SHARD_OF_STRENGTH: ClassVar[ItemType]; CAPTURE_EMBLEM_OF_STRENGTH: ClassVar[ItemType]; CAPTURE_SHARD_OF_FOCUS: ClassVar[ItemType]; CAPTURE_EMBLEM_OF_FOCUS: ClassVar[ItemType]; CAPTURE_SHARD_OF_HEALTH: ClassVar[ItemType]; CAPTURE_EMBLEM_OF_HEALTH: ClassVar[ItemType]; PROSPECTOR_SHARD_OF_STRENGTH: ClassVar[ItemType]; PROSPECTOR_EMBLEM_OF_STRENGTH: ClassVar[ItemType]; PROSPECTOR_SHARD_OF_FOCUS: ClassVar[ItemType]; PROSPECTOR_EMBLEM_OF_FOCUS: ClassVar[ItemType]; PROSPECTOR_SHARD_OF_HEALTH: ClassVar[ItemType]; PROSPECTOR_EMBLEM_OF_HEALTH: ClassVar[ItemType]; HUNTER_SHARD_OF_STRENGTH: ClassVar[ItemType]; HUNTER_EMBLEM_OF_STRENGTH: ClassVar[ItemType]; HUNTER_SHARD_OF_FOCUS: ClassVar[ItemType]; HUNTER_EMBLEM_OF_FOCUS: ClassVar[ItemType]; HUNTER_SHARD_OF_HEALTH: ClassVar[ItemType]; HUNTER_EMBLEM_OF_HEALTH: ClassVar[ItemType]; SKIRMISH_SHARD_OF_STRENGTH: ClassVar[ItemType]; SKIRMISH_EMBLEM_OF_STRENGTH: ClassVar[ItemType]; SKIRMISH_SHARD_OF_FOCUS: ClassVar[ItemType]; SKIRMISH_EMBLEM_OF_FOCUS: ClassVar[ItemType]; SKIRMISH_SHARD_OF_HEALTH: ClassVar[ItemType]; SKIRMISH_EMBLEM_OF_HEALTH: ClassVar[ItemType]; GREED_SHARD_OF_STRENGTH: ClassVar[ItemType]; GREED_EMBLEM_OF_STRENGTH: ClassVar[ItemType]; GREED_SHARD_OF_FOCUS: ClassVar[ItemType]; GREED_EMBLEM_OF_FOCUS: ClassVar[ItemType]; GREED_SHARD_OF_HEALTH: ClassVar[ItemType]; GREED_EMBLEM_OF_HEALTH: ClassVar[ItemType]; COLLECTORS_SHARD_OF_STRENGTH: ClassVar[ItemType]; COLLECTORS_EMBLEM_OF_STRENGTH: ClassVar[ItemType]; COLLECTORS_SHARD_OF_FOCUS: ClassVar[ItemType]; COLLECTORS_EMBLEM_OF_FOCUS: ClassVar[ItemType]; COLLECTORS_SHARD_OF_HEALTH: ClassVar[ItemType]; COLLECTORS_EMBLEM_OF_HEALTH: ClassVar[ItemType]; COUNT: ClassVar[int]; name: str
+ ```
+ 
+ Item type: an engine item ID with getters that forward to info().
+@@ -652,7 +713,7 @@
+ Public SDK type declaration.
+ 
+ ```python
+-class ItemType(int): MONSTER_SHARD_OF_STRENGTH: ClassVar[ItemType]; MONSTER_EMBLEM_OF_STRENGTH: ClassVar[ItemType]; MONSTER_SHARD_OF_FOCUS: ClassVar[ItemType]; MONSTER_EMBLEM_OF_FOCUS: ClassVar[ItemType]; MONSTER_SHARD_OF_HEALTH: ClassVar[ItemType]; MONSTER_EMBLEM_OF_HEALTH: ClassVar[ItemType]; POWER_SHARD_OF_STRENGTH: ClassVar[ItemType]; POWER_EMBLEM_OF_STRENGTH: ClassVar[ItemType]; POWER_SHARD_OF_FOCUS: ClassVar[ItemType]; POWER_EMBLEM_OF_FOCUS: ClassVar[ItemType]; POWER_SHARD_OF_HEALTH: ClassVar[ItemType]; POWER_EMBLEM_OF_HEALTH: ClassVar[ItemType]; DURABILITY_SHARD_OF_STRENGTH: ClassVar[ItemType]; DURABILITY_EMBLEM_OF_STRENGTH: ClassVar[ItemType]; DURABILITY_SHARD_OF_FOCUS: ClassVar[ItemType]; DURABILITY_EMBLEM_OF_FOCUS: ClassVar[ItemType]; DURABILITY_SHARD_OF_HEALTH: ClassVar[ItemType]; DURABILITY_EMBLEM_OF_HEALTH: ClassVar[ItemType]; TREASURE_SHARD_OF_STRENGTH: ClassVar[ItemType]; TREASURE_EMBLEM_OF_STRENGTH: ClassVar[ItemType]; TREASURE_SHARD_OF_FOCUS: ClassVar[ItemType]; TREASURE_EMBLEM_OF_FOCUS: ClassVar[ItemType]; TREASURE_SHARD_OF_HEALTH: ClassVar[ItemType]; TREASURE_EMBLEM_OF_HEALTH: ClassVar[ItemType]; JUNGLE_SHARD_OF_STRENGTH: ClassVar[ItemType]; JUNGLE_EMBLEM_OF_STRENGTH: ClassVar[ItemType]; JUNGLE_SHARD_OF_FOCUS: ClassVar[ItemType]; JUNGLE_EMBLEM_OF_FOCUS: ClassVar[ItemType]; JUNGLE_SHARD_OF_HEALTH: ClassVar[ItemType]; JUNGLE_EMBLEM_OF_HEALTH: ClassVar[ItemType]; HOME_SHARD_OF_STRENGTH: ClassVar[ItemType]; HOME_EMBLEM_OF_STRENGTH: ClassVar[ItemType]; HOME_SHARD_OF_FOCUS: ClassVar[ItemType]; HOME_EMBLEM_OF_FOCUS: ClassVar[ItemType]; HOME_SHARD_OF_HEALTH: ClassVar[ItemType]; HOME_EMBLEM_OF_HEALTH: ClassVar[ItemType]; BRUISER_SHARD_OF_STRENGTH: ClassVar[ItemType]; BRUISER_EMBLEM_OF_STRENGTH: ClassVar[ItemType]; BRUISER_SHARD_OF_FOCUS: ClassVar[ItemType]; BRUISER_EMBLEM_OF_FOCUS: ClassVar[ItemType]; BRUISER_SHARD_OF_HEALTH: ClassVar[ItemType]; BRUISER_EMBLEM_OF_HEALTH: ClassVar[ItemType]; COUNT: ClassVar[int]; name: str
++class ItemType(int): MONSTER_SHARD_OF_STRENGTH: ClassVar[ItemType]; MONSTER_EMBLEM_OF_STRENGTH: ClassVar[ItemType]; MONSTER_SHARD_OF_FOCUS: ClassVar[ItemType]; MONSTER_EMBLEM_OF_FOCUS: ClassVar[ItemType]; MONSTER_SHARD_OF_HEALTH: ClassVar[ItemType]; MONSTER_EMBLEM_OF_HEALTH: ClassVar[ItemType]; POWER_SHARD_OF_STRENGTH: ClassVar[ItemType]; POWER_EMBLEM_OF_STRENGTH: ClassVar[ItemType]; POWER_SHARD_OF_FOCUS: ClassVar[ItemType]; POWER_EMBLEM_OF_FOCUS: ClassVar[ItemType]; POWER_SHARD_OF_HEALTH: ClassVar[ItemType]; POWER_EMBLEM_OF_HEALTH: ClassVar[ItemType]; DURABILITY_SHARD_OF_STRENGTH: ClassVar[ItemType]; DURABILITY_EMBLEM_OF_STRENGTH: ClassVar[ItemType]; DURABILITY_SHARD_OF_FOCUS: ClassVar[ItemType]; DURABILITY_EMBLEM_OF_FOCUS: ClassVar[ItemType]; DURABILITY_SHARD_OF_HEALTH: ClassVar[ItemType]; DURABILITY_EMBLEM_OF_HEALTH: ClassVar[ItemType]; TREASURE_SHARD_OF_STRENGTH: ClassVar[ItemType]; TREASURE_EMBLEM_OF_STRENGTH: ClassVar[ItemType]; TREASURE_SHARD_OF_FOCUS: ClassVar[ItemType]; TREASURE_EMBLEM_OF_FOCUS: ClassVar[ItemType]; TREASURE_SHARD_OF_HEALTH: ClassVar[ItemType]; TREASURE_EMBLEM_OF_HEALTH: ClassVar[ItemType]; JUNGLE_SHARD_OF_STRENGTH: ClassVar[ItemType]; JUNGLE_EMBLEM_OF_STRENGTH: ClassVar[ItemType]; JUNGLE_SHARD_OF_FOCUS: ClassVar[ItemType]; JUNGLE_EMBLEM_OF_FOCUS: ClassVar[ItemType]; JUNGLE_SHARD_OF_HEALTH: ClassVar[ItemType]; JUNGLE_EMBLEM_OF_HEALTH: ClassVar[ItemType]; HOME_SHARD_OF_STRENGTH: ClassVar[ItemType]; HOME_EMBLEM_OF_STRENGTH: ClassVar[ItemType]; HOME_SHARD_OF_FOCUS: ClassVar[ItemType]; HOME_EMBLEM_OF_FOCUS: ClassVar[ItemType]; HOME_SHARD_OF_HEALTH: ClassVar[ItemType]; HOME_EMBLEM_OF_HEALTH: ClassVar[ItemType]; BRUISER_SHARD_OF_STRENGTH: ClassVar[ItemType]; BRUISER_EMBLEM_OF_STRENGTH: ClassVar[ItemType]; BRUISER_SHARD_OF_FOCUS: ClassVar[ItemType]; BRUISER_EMBLEM_OF_FOCUS: ClassVar[ItemType]; BRUISER_SHARD_OF_HEALTH: ClassVar[ItemType]; BRUISER_EMBLEM_OF_HEALTH: ClassVar[ItemType]; TRIBUTE_SHARD_OF_STRENGTH: ClassVar[ItemType]; TRIBUTE_EMBLEM_OF_STRENGTH: ClassVar[ItemType]; TRIBUTE_SHARD_OF_FOCUS: ClassVar[ItemType]; TRIBUTE_EMBLEM_OF_FOCUS: ClassVar[ItemType]; TRIBUTE_SHARD_OF_HEALTH: ClassVar[ItemType]; TRIBUTE_EMBLEM_OF_HEALTH: ClassVar[ItemType]; CAPTURE_SHARD_OF_STRENGTH: ClassVar[ItemType]; CAPTURE_EMBLEM_OF_STRENGTH: ClassVar[ItemType]; CAPTURE_SHARD_OF_FOCUS: ClassVar[ItemType]; CAPTURE_EMBLEM_OF_FOCUS: ClassVar[ItemType]; CAPTURE_SHARD_OF_HEALTH: ClassVar[ItemType]; CAPTURE_EMBLEM_OF_HEALTH: ClassVar[ItemType]; PROSPECTOR_SHARD_OF_STRENGTH: ClassVar[ItemType]; PROSPECTOR_EMBLEM_OF_STRENGTH: ClassVar[ItemType]; PROSPECTOR_SHARD_OF_FOCUS: ClassVar[ItemType]; PROSPECTOR_EMBLEM_OF_FOCUS: ClassVar[ItemType]; PROSPECTOR_SHARD_OF_HEALTH: ClassVar[ItemType]; PROSPECTOR_EMBLEM_OF_HEALTH: ClassVar[ItemType]; HUNTER_SHARD_OF_STRENGTH: ClassVar[ItemType]; HUNTER_EMBLEM_OF_STRENGTH: ClassVar[ItemType]; HUNTER_SHARD_OF_FOCUS: ClassVar[ItemType]; HUNTER_EMBLEM_OF_FOCUS: ClassVar[ItemType]; HUNTER_SHARD_OF_HEALTH: ClassVar[ItemType]; HUNTER_EMBLEM_OF_HEALTH: ClassVar[ItemType]; SKIRMISH_SHARD_OF_STRENGTH: ClassVar[ItemType]; SKIRMISH_EMBLEM_OF_STRENGTH: ClassVar[ItemType]; SKIRMISH_SHARD_OF_FOCUS: ClassVar[ItemType]; SKIRMISH_EMBLEM_OF_FOCUS: ClassVar[ItemType]; SKIRMISH_SHARD_OF_HEALTH: ClassVar[ItemType]; SKIRMISH_EMBLEM_OF_HEALTH: ClassVar[ItemType]; GREED_SHARD_OF_STRENGTH: ClassVar[ItemType]; GREED_EMBLEM_OF_STRENGTH: ClassVar[ItemType]; GREED_SHARD_OF_FOCUS: ClassVar[ItemType]; GREED_EMBLEM_OF_FOCUS: ClassVar[ItemType]; GREED_SHARD_OF_HEALTH: ClassVar[ItemType]; GREED_EMBLEM_OF_HEALTH: ClassVar[ItemType]; COLLECTORS_SHARD_OF_STRENGTH: ClassVar[ItemType]; COLLECTORS_EMBLEM_OF_STRENGTH: ClassVar[ItemType]; COLLECTORS_SHARD_OF_FOCUS: ClassVar[ItemType]; COLLECTORS_EMBLEM_OF_FOCUS: ClassVar[ItemType]; COLLECTORS_SHARD_OF_HEALTH: ClassVar[ItemType]; COLLECTORS_EMBLEM_OF_HEALTH: ClassVar[ItemType]; COUNT: ClassVar[int]; name: str
+ ```
+ 
+ ### me
+@@ -3470,6 +3531,16 @@
+ result = subject.strength()
+ ```
+ 
++## cambc.CampGroupCaptureType
++
++### to_string
++
++```python
++def to_string(value: int) -> str
++```
++
++
++
+ ## cambc.CampState
+ 
+ ### __new__
+@@ -5955,6 +6026,25 @@
+     print(state.timer)
+ ```
+ 
++### CampGroupCaptureState
++
++```python
++class CampGroupCaptureState: timer: int; state: CampGroupCaptureType
++```
++
++Timer and capture status; occupants can be hidden when the group is visible.
++
++Read the visible group's capture state, even when its occupants are hidden. AllyCapturing and EnemyCapturing carry the remaining countdown; all other states carry the configured maximum (five turns).
++
++Inputs:
++- group: a camp group currently in vision
++
++```python
++capture = group.capture_state()
++contested = capture.state == bc.CampGroupCaptureType.CONTESTED
++turns = capture.timer
++```
++
+ ### CampGroupRespawning
+ 
+ ```python
+@@ -6239,6 +6329,29 @@
+ result = subject.camps()
+ ```
+ 
++### capture_state
++
++```python
++def capture_state(self) -> CampGroupCaptureState
++```
++
++Read capture progress; raises API_NOT_IN_VISION for a hidden group. Timer is the remaining countdown while capturing, or the configured maximum otherwise.
++
++**gameplay**: This function can only be used by champion bots and is not usable during draft phase.
++
++**vision**: This function requires you to have the subject in vision.
++
++Read the visible group's capture state, even when its occupants are hidden. AllyCapturing and EnemyCapturing carry the remaining countdown; all other states carry the configured maximum (five turns).
++
++Inputs:
++- group: a camp group currently in vision
++
++```python
++capture = group.capture_state()
++contested = capture.state == bc.CampGroupCaptureType.CONTESTED
++turns = capture.timer
++```
++
+ ### gem_value
+ 
+ ```python
+@@ -6346,7 +6459,27 @@
+     print(state.timer)
+ ```
+ 
++## cambc.ItemFamily
++
++### to_string
++
++```python
++def to_string(value: int) -> str
++```
++
++
++
+ ## cambc.ItemPassive
++
++### to_string
++
++```python
++def to_string(value: int) -> str
++```
++
++
++
++## cambc.ItemStat
+ 
+ ### to_string
+ 
+--- previous/BotAPIRust.md
++++ current/BotAPIRust.md
+@@ -337,6 +337,44 @@
+ }
+ ```
+ 
++### CampGroupCaptureState
++
++```rust
++pub struct CampGroupCaptureState { pub timer: i32, pub state: crate::CampGroupCaptureType, }
++```
++
++Capture countdown and status from the visible group, even when its occupants are hidden.
++
++Read the visible group's capture state, even when its occupants are hidden. AllyCapturing and EnemyCapturing carry the remaining countdown; all other states carry the configured maximum (five turns).
++
++Inputs:
++- group: a camp group currently in vision
++
++```rust
++let capture = group.capture_state()?;
++let contested = capture.state == bc::CampGroupCaptureType::Contested;
++let turns = capture.timer;
++```
++
++### CampGroupCaptureType
++
++```rust
++pub enum CampGroupCaptureType { NoCaptureAvailable = 0,AllyCapturing = 1,Contested = 2,EnemyCapturing = 3,CaptureAvailable = 4 }
++```
++
++Checked engine values. Implements TryFrom<i32> and Display; ALL lists the recognised values.
++
++Read the visible group's capture state, even when its occupants are hidden. AllyCapturing and EnemyCapturing carry the remaining countdown; all other states carry the configured maximum (five turns).
++
++Inputs:
++- group: a camp group currently in vision
++
++```rust
++let capture = group.capture_state()?;
++let contested = capture.state == bc::CampGroupCaptureType::Contested;
++let turns = capture.timer;
++```
++
+ ### CampGroupState
+ 
+ ```rust
+@@ -708,7 +746,7 @@
+ pub fn fuel_remaining() -> Result<u64>
+ ```
+ 
+-Return remaining guest fuel (10x on a team's first draft turn, 2x on each champion's first turn); invalid negative host values return an error.
++Return remaining guest fuel (100x on a team's first draft turn, 2x on each champion's first turn); invalid negative host values return an error.
+ 
+ Stop optional planning when little fuel remains and yield the current turn.
+ 
+@@ -718,6 +756,20 @@
+ }
+ ```
+ 
++### get_item_enum
++
++```rust
++pub const fn get_item_enum(family: ItemFamily, stat: ItemStat, shard: bool) -> ItemType
++```
++
++Select a shard (true) or emblem (false) by family and stat, without querying the engine.
++
++Select a completed Greed strength emblem by family and stat. Shards are the default in C++, Python and OCaml; Rust takes an explicit boolean.
++
++```rust
++let item = bc::get_item_enum(bc::ItemFamily::Greed, bc::ItemStat::Strength, false);
++```
++
+ ### global_submitted_gems
+ 
+ ```rust
+@@ -779,6 +831,20 @@
+ pub struct ItemCounts(/* private fields */);
+ ```
+ 
++### ItemFamily
++
++```rust
++pub enum ItemFamily { Monster = 0,Power = 1,Durability = 2,Treasure = 3,Jungle = 4,Home = 5,Bruiser = 6,Tribute = 7,Capture = 8,Prospector = 9,Hunter = 10,Skirmish = 11,Greed = 12,Collectors = 13 }
++```
++
++Checked engine values. Implements TryFrom<i32> and Display; ALL lists the recognised values.
++
++Public SDK type declaration.
++
++```rust
++pub enum ItemFamily { Monster = 0,Power = 1,Durability = 2,Treasure = 3,Jungle = 4,Home = 5,Bruiser = 6,Tribute = 7,Capture = 8,Prospector = 9,Hunter = 10,Skirmish = 11,Greed = 12,Collectors = 13 }
++```
++
+ ### ItemInfo
+ 
+ ```rust
+@@ -796,7 +862,7 @@
+ ### ItemPassive
+ 
+ ```rust
+-pub enum ItemPassive { Monster = 1, Durability = 2, Treasure = 3, Jungle = 4, Home = 5, }
++pub enum ItemPassive { Monster = 1, Durability = 2, Treasure = 3, Jungle = 4, Home = 5, Tribute = 6, Capture = 7, Prospector = 8, Hunter = 9, Skirmish = 10, Collectors = 11, }
+ ```
+ 
+ Checked item-passive tag; item metadata uses `None` for no passive.
+@@ -804,13 +870,27 @@
+ Public SDK type declaration.
+ 
+ ```rust
+-pub enum ItemPassive { Monster = 1, Durability = 2, Treasure = 3, Jungle = 4, Home = 5, }
++pub enum ItemPassive { Monster = 1, Durability = 2, Treasure = 3, Jungle = 4, Home = 5, Tribute = 6, Capture = 7, Prospector = 8, Hunter = 9, Skirmish = 10, Collectors = 11, }
++```
++
++### ItemStat
++
++```rust
++pub enum ItemStat { Strength = 0,Focus = 1,Health = 2 }
++```
++
++Checked engine values. Implements TryFrom<i32> and Display; ALL lists the recognised values.
++
++Public SDK type declaration.
++
++```rust
++pub enum ItemStat { Strength = 0,Focus = 1,Health = 2 }
+ ```
+ 
+ ### ItemType
+ 
+ ```rust
+-pub enum ItemType { MonsterShardOfStrength = 0,MonsterEmblemOfStrength = 1,MonsterShardOfFocus = 2,MonsterEmblemOfFocus = 3,MonsterShardOfHealth = 4,MonsterEmblemOfHealth = 5,PowerShardOfStrength = 6,PowerEmblemOfStrength = 7,PowerShardOfFocus = 8,PowerEmblemOfFocus = 9,PowerShardOfHealth = 10,PowerEmblemOfHealth = 11,DurabilityShardOfStrength = 12,DurabilityEmblemOfStrength = 13,DurabilityShardOfFocus = 14,DurabilityEmblemOfFocus = 15,DurabilityShardOfHealth = 16,DurabilityEmblemOfHealth = 17,TreasureShardOfStrength = 18,TreasureEmblemOfStrength = 19,TreasureShardOfFocus = 20,TreasureEmblemOfFocus = 21,TreasureShardOfHealth = 22,TreasureEmblemOfHealth = 23,JungleShardOfStrength = 24,JungleEmblemOfStrength = 25,JungleShardOfFocus = 26,JungleEmblemOfFocus = 27,JungleShardOfHealth = 28,JungleEmblemOfHealth = 29,HomeShardOfStrength = 30,HomeEmblemOfStrength = 31,HomeShardOfFocus = 32,HomeEmblemOfFocus = 33,HomeShardOfHealth = 34,HomeEmblemOfHealth = 35,BruiserShardOfStrength = 36,BruiserEmblemOfStrength = 37,BruiserShardOfFocus = 38,BruiserEmblemOfFocus = 39,BruiserShardOfHealth = 40,BruiserEmblemOfHealth = 41 }
++pub enum ItemType { MonsterShardOfStrength = 0,MonsterEmblemOfStrength = 1,MonsterShardOfFocus = 2,MonsterEmblemOfFocus = 3,MonsterShardOfHealth = 4,MonsterEmblemOfHealth = 5,PowerShardOfStrength = 6,PowerEmblemOfStrength = 7,PowerShardOfFocus = 8,PowerEmblemOfFocus = 9,PowerShardOfHealth = 10,PowerEmblemOfHealth = 11,DurabilityShardOfStrength = 12,DurabilityEmblemOfStrength = 13,DurabilityShardOfFocus = 14,DurabilityEmblemOfFocus = 15,DurabilityShardOfHealth = 16,DurabilityEmblemOfHealth = 17,TreasureShardOfStrength = 18,TreasureEmblemOfStrength = 19,TreasureShardOfFocus = 20,TreasureEmblemOfFocus = 21,TreasureShardOfHealth = 22,TreasureEmblemOfHealth = 23,JungleShardOfStrength = 24,JungleEmblemOfStrength = 25,JungleShardOfFocus = 26,JungleEmblemOfFocus = 27,JungleShardOfHealth = 28,JungleEmblemOfHealth = 29,HomeShardOfStrength = 30,HomeEmblemOfStrength = 31,HomeShardOfFocus = 32,HomeEmblemOfFocus = 33,HomeShardOfHealth = 34,HomeEmblemOfHealth = 35,BruiserShardOfStrength = 36,BruiserEmblemOfStrength = 37,BruiserShardOfFocus = 38,BruiserEmblemOfFocus = 39,BruiserShardOfHealth = 40,BruiserEmblemOfHealth = 41,TributeShardOfStrength = 42,TributeEmblemOfStrength = 43,TributeShardOfFocus = 44,TributeEmblemOfFocus = 45,TributeShardOfHealth = 46,TributeEmblemOfHealth = 47,CaptureShardOfStrength = 48,CaptureEmblemOfStrength = 49,CaptureShardOfFocus = 50,CaptureEmblemOfFocus = 51,CaptureShardOfHealth = 52,CaptureEmblemOfHealth = 53,ProspectorShardOfStrength = 54,ProspectorEmblemOfStrength = 55,ProspectorShardOfFocus = 56,ProspectorEmblemOfFocus = 57,ProspectorShardOfHealth = 58,ProspectorEmblemOfHealth = 59,HunterShardOfStrength = 60,HunterEmblemOfStrength = 61,HunterShardOfFocus = 62,HunterEmblemOfFocus = 63,HunterShardOfHealth = 64,HunterEmblemOfHealth = 65,SkirmishShardOfStrength = 66,SkirmishEmblemOfStrength = 67,SkirmishShardOfFocus = 68,SkirmishEmblemOfFocus = 69,SkirmishShardOfHealth = 70,SkirmishEmblemOfHealth = 71,GreedShardOfStrength = 72,GreedEmblemOfStrength = 73,GreedShardOfFocus = 74,GreedEmblemOfFocus = 75,GreedShardOfHealth = 76,GreedEmblemOfHealth = 77,CollectorsShardOfStrength = 78,CollectorsEmblemOfStrength = 79,CollectorsShardOfFocus = 80,CollectorsEmblemOfFocus = 81,CollectorsShardOfHealth = 82,CollectorsEmblemOfHealth = 83 }
+ ```
+ 
+ Checked engine values. Implements TryFrom<u32> and Display; ALL lists the recognised values.
+@@ -818,7 +898,7 @@
+ Public SDK type declaration.
+ 
+ ```rust
+-pub enum ItemType { MonsterShardOfStrength = 0,MonsterEmblemOfStrength = 1,MonsterShardOfFocus = 2,MonsterEmblemOfFocus = 3,MonsterShardOfHealth = 4,MonsterEmblemOfHealth = 5,PowerShardOfStrength = 6,PowerEmblemOfStrength = 7,PowerShardOfFocus = 8,PowerEmblemOfFocus = 9,PowerShardOfHealth = 10,PowerEmblemOfHealth = 11,DurabilityShardOfStrength = 12,DurabilityEmblemOfStrength = 13,DurabilityShardOfFocus = 14,DurabilityEmblemOfFocus = 15,DurabilityShardOfHealth = 16,DurabilityEmblemOfHealth = 17,TreasureShardOfStrength = 18,TreasureEmblemOfStrength = 19,TreasureShardOfFocus = 20,TreasureEmblemOfFocus = 21,TreasureShardOfHealth = 22,TreasureEmblemOfHealth = 23,JungleShardOfStrength = 24,JungleEmblemOfStrength = 25,JungleShardOfFocus = 26,JungleEmblemOfFocus = 27,JungleShardOfHealth = 28,JungleEmblemOfHealth = 29,HomeShardOfStrength = 30,HomeEmblemOfStrength = 31,HomeShardOfFocus = 32,HomeEmblemOfFocus = 33,HomeShardOfHealth = 34,HomeEmblemOfHealth = 35,BruiserShardOfStrength = 36,BruiserEmblemOfStrength = 37,BruiserShardOfFocus = 38,BruiserEmblemOfFocus = 39,BruiserShardOfHealth = 40,BruiserEmblemOfHealth = 41 }
++pub enum ItemType { MonsterShardOfStrength = 0,MonsterEmblemOfStrength = 1,MonsterShardOfFocus = 2,MonsterEmblemOfFocus = 3,MonsterShardOfHealth = 4,MonsterEmblemOfHealth = 5,PowerShardOfStrength = 6,PowerEmblemOfStrength = 7,PowerShardOfFocus = 8,PowerEmblemOfFocus = 9,PowerShardOfHealth = 10,PowerEmblemOfHealth = 11,DurabilityShardOfStrength = 12,DurabilityEmblemOfStrength = 13,DurabilityShardOfFocus = 14,DurabilityEmblemOfFocus = 15,DurabilityShardOfHealth = 16,DurabilityEmblemOfHealth = 17,TreasureShardOfStrength = 18,TreasureEmblemOfStrength = 19,TreasureShardOfFocus = 20,TreasureEmblemOfFocus = 21,TreasureShardOfHealth = 22,TreasureEmblemOfHealth = 23,JungleShardOfStrength = 24,JungleEmblemOfStrength = 25,JungleShardOfFocus = 26,JungleEmblemOfFocus = 27,JungleShardOfHealth = 28,JungleEmblemOfHealth = 29,HomeShardOfStrength = 30,HomeEmblemOfStrength = 31,HomeShardOfFocus = 32,HomeEmblemOfFocus = 33,HomeShardOfHealth = 34,HomeEmblemOfHealth = 35,BruiserShardOfStrength = 36,BruiserEmblemOfStrength = 37,BruiserShardOfFocus = 38,BruiserEmblemOfFocus = 39,BruiserShardOfHealth = 40,BruiserEmblemOfHealth = 41,TributeShardOfStrength = 42,TributeEmblemOfStrength = 43,TributeShardOfFocus = 44,TributeEmblemOfFocus = 45,TributeShardOfHealth = 46,TributeEmblemOfHealth = 47,CaptureShardOfStrength = 48,CaptureEmblemOfStrength = 49,CaptureShardOfFocus = 50,CaptureEmblemOfFocus = 51,CaptureShardOfHealth = 52,CaptureEmblemOfHealth = 53,ProspectorShardOfStrength = 54,ProspectorEmblemOfStrength = 55,ProspectorShardOfFocus = 56,ProspectorEmblemOfFocus = 57,ProspectorShardOfHealth = 58,ProspectorEmblemOfHealth = 59,HunterShardOfStrength = 60,HunterEmblemOfStrength = 61,HunterShardOfFocus = 62,HunterEmblemOfFocus = 63,HunterShardOfHealth = 64,HunterEmblemOfHealth = 65,SkirmishShardOfStrength = 66,SkirmishEmblemOfStrength = 67,SkirmishShardOfFocus = 68,SkirmishEmblemOfFocus = 69,SkirmishShardOfHealth = 70,SkirmishEmblemOfHealth = 71,GreedShardOfStrength = 72,GreedEmblemOfStrength = 73,GreedShardOfFocus = 74,GreedEmblemOfFocus = 75,GreedShardOfHealth = 76,GreedEmblemOfHealth = 77,CollectorsShardOfStrength = 78,CollectorsEmblemOfStrength = 79,CollectorsShardOfFocus = 80,CollectorsEmblemOfFocus = 81,CollectorsShardOfHealth = 82,CollectorsEmblemOfHealth = 83 }
+ ```
+ 
+ ### PassiveType
+@@ -1542,7 +1622,7 @@
+ pub fn valid_targets(&self) -> Result<AbilityTargetMask>
+ ```
+ 
+-Query current live targeting flags, or use cached flags for a draft design.
++Get the targeting flags of the owner's immutable ability design.
+ 
+ Evaluate an ability before choosing a spell.
+ 
+@@ -3903,6 +3983,29 @@
+ 
+ ```rust
+ let result = subject.camps();
++```
++
++### capture_state
++
++```rust
++pub fn capture_state(&self) -> Result<CampGroupCaptureState>
++```
++
++Read capture progress; hidden groups return ApiNotInVision. Occupants need not be visible.
++
++**gameplay**: This function can only be used by champion bots and is not usable during draft phase.
++
++**vision**: This function requires you to have the subject in vision.
++
++Read the visible group's capture state, even when its occupants are hidden. AllyCapturing and EnemyCapturing carry the remaining countdown; all other states carry the configured maximum (five turns).
++
++Inputs:
++- group: a camp group currently in vision
++
++```rust
++let capture = group.capture_state()?;
++let contested = capture.state == bc::CampGroupCaptureType::Contested;
++let turns = capture.timer;
+ ```
+ 
+ ### gem_value
+@@ -6515,6 +6618,25 @@
+ }
+ ```
+ 
++### CampGroupCaptureState
++
++```rust
++pub use cambc::CampGroupCaptureState;
++```
++
++Capture countdown and status from the visible group, even when its occupants are hidden.
++
++Read the visible group's capture state, even when its occupants are hidden. AllyCapturing and EnemyCapturing carry the remaining countdown; all other states carry the configured maximum (five turns).
++
++Inputs:
++- group: a camp group currently in vision
++
++```rust
++let capture = group.capture_state()?;
++let contested = capture.state == bc::CampGroupCaptureType::Contested;
++let turns = capture.timer;
++```
++
+ ### CampGroupState
+ 
+ ```rust
+--- previous/GameRules.md
++++ current/GameRules.md
+@@ -191,7 +191,7 @@
+ 
+ ### After defeating a camp, make sure to capture!
+ 
+-After every monster in a group dies, occupy at least one of its spawn tiles uncontested. At a capture phase your team starts a five-round timer; later capture phases count it down. Leaving the region empty or admitting an enemy resets progress. More allies do not speed it up. Rewards are shared among allies present when it finishes; the lowest ID receives any integer remainder. The group respawns together after rewards are claimed, using the longest cooldown of its members. Any occupied spawn tile delays the entire group.
++After every monster in a group dies, occupy at least one of its spawn tiles uncontested. At a capture phase your team starts a five-round timer; later capture phases count it down. An allied Capture Emblem holder caps the remaining timer at three rounds, including when joining mid-capture. A shorter timer never increases, and the reduction persists if the holder leaves while another ally keeps capturing. Leaving the region empty or admitting an enemy resets progress. Additional allies without the emblem do not speed it up. Rewards are shared among allies present when it finishes; the lowest ID receives any integer remainder. The group respawns together after rewards are claimed, using the longest cooldown of its members. Any occupied spawn tile delays the entire group.
+ 
+ After defeating an entire group (cardinally connected monsters), you can then capture the rewards by standing on one of the tiles a monster was underneath, and wait 5 turns (the capture timer). This will award the waiting champion the gold and gems from the camp. If there are multiple champions, the reward is split evenly among them.
+ 
+@@ -284,25 +284,36 @@
+ - Health, increasing your maximum health
+ - Focus, increasing the power of your abilities
+ 
+-Shards cost 30 gold and after purchasing 5, combine into an emblem providing a unique bonus based on which shard type you purchased.
++Shards cost 30 gold and after purchasing 5 (25 for Greed), combine into an emblem providing a unique bonus based on which shard type you purchased.
+ 
+ Try building an emblem below:
+ 
+ Shards cost 30 gold and add their champion's growth for the chosen stat. Five matching shards automatically combine into the corresponding emblem. Only the completed emblem grants its passive. Families have Strength, Health and Focus variants; use the family table for stat points and passives.
+ 
++**Sharing Prospector rewards**
++
++The camp group's gem/gold cluster rewards are split among allied capturers. Each capturer who owns a Prospector emblem gets 25% of their own share as an additional reward, rounded down separately for gold and gems. Capturers without Prospector receive only their normal share. For example, 20 cluster gold shared by two allies gives each 10 base gold. A Prospector holder gets 2 extra gold; if both own it, both get 2 extra.
++
+ ### Emblem families
+ 
+-Every family has Strength, Health and Focus versions. 5 shards automatically combine to an emblem (150 gold total). Shards give stats; only the finished emblem gives the passive.
++Every family has Strength, Health and Focus versions. 5 shards automatically combine to an emblem (150 gold total), except Greed: 25 shards (750 gold). Shards give stats; only the finished emblem gives the passive.
+ 
+ | Family | Counts as | Passive |
+ | --- | --- | --- |
+-| Monster | 5 shards of the chosen stat | 10% more damage to camps. |
++| Monster | 5 shards of the chosen stat | 15% more damage to camps. |
+ | Power | 6 shards of the chosen stat | None; one extra shard’s worth instead. |
+ | Durability | 5 shards of the chosen stat | 10% less incoming damage. |
+-| Treasure | 5 shards of the chosen stat | 20% more gold gained. |
++| Treasure | 5 shards of the chosen stat | 10% more gold gained. |
+ | Jungle | 5 shards of the chosen stat | 30% less damage from camps. |
+ | Home | 5 shards of the chosen stat | 50% shorter recall: five turn ends become three, rounded up. |
+ | Bruiser | 5 of the chosen stat, 1 of each other | None; a spread of stats instead. |
++| Tribute | 5 shards of the chosen stat | 33% shorter tribute, rounded up to at least one turn. |
++| Capture | 5 shards of the chosen stat | Caps your team's remaining capture time at 3 turns, including when joining mid-capture. Never increases a shorter timer; the reduction remains if the holder leaves and an ally keeps capturing. |
++| Prospector | 5 shards of the chosen stat | 25% more gold and gems from your share of cluster rewards, rounded down. |
++| Hunter | 5 shards of the chosen stat | 50 extra gold per champion kill, before gold bonuses. Linked duo deaths grant one reward. |
++| Skirmish | 5 shards of the chosen stat | 5% more damage to champions. |
++| Greed | 35 shards of the chosen stat | No passive. Combines at 25 shards (750 gold) to give 35 shards worth of stats points. |
++| Collectors | 5 shards of the chosen stat | 1% bonus damage per unique completed emblem family owned, including Collectors itself. Shards and duplicate stat variants do not add families. |
+ 
+ ### Consumables
+ 
+@@ -319,7 +330,7 @@
+ 
+ - **Stats stack**: Every shard counts, including those inside duplicate emblems.
+ - **Emblem passives don’t**: A second emblem of a family adds no extra passive.
+-- **Gold bonuses add**: Treasure with Vesper Vale: 33% + 20% = 53%.
++- **Gold bonuses add**: Treasure with Vesper Vale: 33% + 10% = 43%.
+ - **Spawn purchases heal**: Buying Health on your spawn heals the amount gained; Tavi’s field purchases do not.
+ - **Only Tavi can sell**: On spawn, for the full purchase value. Refunds are not earned gold.
+ 
+@@ -387,7 +398,7 @@
+ 
+ When a bot runs out of fuel, its execution is suspended and the next bot in the turn order gets to go. The next round, this bot's turn will resume from the point of suspension and continues.
+ 
+-We provide bots with 10x fuel for the first turn of draft, to facilitate precomputation, and 2x fuel for the first turn of play, giving bots room to initialise and precompute. Unused fuel at the end of a turn is not added to the next turn's fuel budget.
++We provide bots with 100x fuel for the first turn of draft, to facilitate precomputation, and 2x fuel for the first turn of play, giving bots room to initialise and precompute. Unused fuel at the end of a turn is not added to the next turn's fuel budget.
+ 
+ ## Shared memory
+ 
+@@ -448,7 +459,7 @@
+ | --- | --- | --- |
+ | Health | 600 | 65 |
+ | Strength | 30 | 3 |
+-| Focus | 70 | 13 |
++| Focus | 100 | 13 |
+ 
+ Attack type: Ranged. Basic attack range: 3 tiles.
+ 
+@@ -471,7 +482,7 @@
+ | Stat | Base | Growth per matching shard |
+ | --- | --- | --- |
+ | Health | 900 | 80 |
+-| Strength | 40 | 3 |
++| Strength | 45 | 3 |
+ | Focus | 100 | 10 |
+ 
+ Attack type: Melee. Basic attack range: 1 tiles.
+@@ -503,41 +514,41 @@
+ | Stat | Base | Growth per matching shard |
+ | --- | --- | --- |
+ | Health | 1200 | 100 |
++| Strength | 45 | 4.5 |
++| Focus | 100 | 10 |
++
++Attack type: Melee. Basic attack range: 1 tiles.
++
++## Vesper Vale
++
++A ranged champion with strong basic attacks, bonus gold and a short dash.
++
++### Kit
++
++**Vesper Vale**
++
++**Passive:** Vesper Vale gains 33% more gold. A Treasure emblem adds another 10 percentage points, for a combined 43% bonus.
++
++#### Slot 0: Attack reset
++
++Resets your basic attack cooldown.
++
++Target / range: Self. Walking: Compatible. Cooldown: 8 owner turn ends.
++
++#### Slot 1: Dash
++
++Move up to 2 steps, including diagonals.
++
++Target / range: Ground · 2 tiles. Walking: Compatible. Cooldown: 8 owner turn ends.
++
++### Starting stats
++
++| Stat | Base | Growth per matching shard |
++| --- | --- | --- |
++| Health | 1000 | 100 |
+ | Strength | 45 | 5 |
+ | Focus | 100 | 10 |
+ 
+-Attack type: Melee. Basic attack range: 1 tiles.
+-
+-## Vesper Vale
+-
+-A ranged champion with strong basic attacks, bonus gold and a short dash.
+-
+-### Kit
+-
+-**Vesper Vale**
+-
+-**Passive:** Vesper Vale gains 33% more gold. A Treasure emblem adds another 20 percentage points, for a combined 53% bonus.
+-
+-#### Slot 0: Attack reset
+-
+-Resets your basic attack cooldown.
+-
+-Target / range: Self. Walking: Compatible. Cooldown: 8 owner turn ends.
+-
+-#### Slot 1: Dash
+-
+-Move up to 2 steps, including diagonals.
+-
+-Target / range: Ground · 2 tiles. Walking: Compatible. Cooldown: 8 owner turn ends.
+-
+-### Starting stats
+-
+-| Stat | Base | Growth per matching shard |
+-| --- | --- | --- |
+-| Health | 1000 | 100 |
+-| Strength | 55 | 5 |
+-| Focus | 100 | 10 |
+-
+ Attack type: Ranged. Basic attack range: 3 tiles.
+ 
+ ## Prism
+@@ -566,7 +577,7 @@
+ 
+ | Stat | Base | Growth per matching shard |
+ | --- | --- | --- |
+-| Health | 700 | 60 |
++| Health | 700 | 65 |
+ | Strength | 35 | 2.5 |
+ | Focus | 80 | 8 |
+ 
+@@ -598,7 +609,7 @@
+ | --- | --- | --- |
+ | Health | 650 | 65 |
+ | Strength | 30 | 3.5 |
+-| Focus | 70 | 7 |
++| Focus | 70 | 8.5 |
+ 
+ Attack type: Ranged. Basic attack range: 3 tiles.
+ 
+@@ -661,8 +672,8 @@
+ | Stat | Base | Growth per matching shard |
+ | --- | --- | --- |
+ | Health | 1200 | 100 |
+-| Strength | 45 | 5 |
+-| Focus | 60 | 15 |
++| Strength | 45 | 4.5 |
++| Focus | 60 | 14 |
+ 
+ Attack type: Melee. Basic attack range: 1 tiles.
+ 
+@@ -684,7 +695,7 @@
+ 
+ #### Slot 1: Damage and stun
+ 
+-1.4 × Focus damage and a one-round stun.
++1.6 × Focus damage and a one-round stun.
+ 
+ Target / range: Enemy or camp · 4. Walking: Excludes walking. Cooldown: 8 owner turn ends.
+ 
+@@ -724,7 +735,7 @@
+ | --- | --- | --- |
+ | Health | 700 | 50 |
+ | Strength | 55 | 3 |
+-| Focus | 120 | 5 |
++| Focus | 140 | 5 |
+ 
+ Attack type: Ranged. Basic attack range: 3 tiles.
+ 
+@@ -740,7 +751,7 @@
+ 
+ #### Slot 0: Damage and stun
+ 
+-0.75 × Focus damage and a one-round stun.
++1.1 × Focus damage and a one-round stun.
+ 
+ Target / range: Enemy or camp · 4. Walking: Excludes walking. Cooldown: 8 owner turn ends.
+ 
+@@ -787,7 +798,7 @@
+ | Stat | Base | Growth per matching shard |
+ | --- | --- | --- |
+ | Health | 1000 | 100 |
+-| Strength | 40 | 5 |
++| Strength | 45 | 5 |
+ | Focus | 100 | 10 |
+ 
+ Attack type: Melee. Basic attack range: 1 tiles.
+@@ -819,7 +830,7 @@
+ | Stat | Base | Growth per matching shard |
+ | --- | --- | --- |
+ | Health | 1000 | 100 |
+-| Strength | 30 | 3.5 |
+-| Focus | 100 | 12 |
++| Strength | 30 | 3 |
++| Focus | 100 | 10 |
+ 
+ Attack type: Melee. Basic attack range: 1 tiles.

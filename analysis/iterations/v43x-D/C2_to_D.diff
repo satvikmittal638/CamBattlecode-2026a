@@ -1,0 +1,24 @@
+diff --color -r analysis/iterations/v43x-C2/src/fishx_features.h analysis/iterations/v43x-D/src/fishx_features.h
+44a45,46
+> constexpr int X_GOLDRICH = 25;        // own shards at which gold weight drops (1000 = off; v43x-D: 25, gold_rush -189 -> +93 local mean margin)
+> constexpr float X_GOLDRICHW = 0.3f;   // multiplier on X_GOLDW once rich
+diff --color -r analysis/iterations/v43x-C2/src/main.cpp analysis/iterations/v43x-D/src/main.cpp
+42c42
+<     std::puts("build v43x-C2");
+---
+>     std::puts("build v43x-D");
+diff --color -r analysis/iterations/v43x-C2/src/v1_cycle.h analysis/iterations/v43x-D/src/v1_cycle.h
+0a1,3
+> // X_GOLDRICH: gem-equivalents per gold drop to X_GOLDW*X_GOLDRICHW once this champion owns X_GOLDRICH
+> // shards (gold_rush: 28 central gold clusters kept a fully itemised team off the edge gem camps).
+> static float v1GoldW=X_GOLDW;
+23c26
+<         float score=(g.gems+X_GOLDW*g.gold)*q*q/(d+wait+clear+13);
+---
+>         float score=(g.gems+v1GoldW*g.gold)*q*q/(d+wait+clear+13);
+50a54
+>     {int shards=0;for(int i=0;i<42;++i)if(items[i])shards+=items[i]*((i&1)?((i/6)==1?6:5):1);v1GoldW=X_GOLDW*(shards>=X_GOLDRICH?X_GOLDRICHW:1.0f);}
+161c165
+<         float score=(g.gems+X_GOLDW*g.gold)/(time+8);
+---
+>         float score=(g.gems+v1GoldW*g.gold)/(time+8);

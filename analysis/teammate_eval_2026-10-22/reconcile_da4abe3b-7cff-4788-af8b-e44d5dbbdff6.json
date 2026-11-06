@@ -1,0 +1,342 @@
+{
+  "group": {
+    "id": "da4abe3b-7cff-4788-af8b-e44d5dbbdff6",
+    "kind": "unranked",
+    "gameCount": 5,
+    "status": "finished",
+    "winnerTeamId": "5e127d43-5b21-445c-8b94-32a6e34192bf",
+    "createdAt": "2026-10-22T17:38:16.375Z",
+    "finishedAt": "2026-10-22T17:38:23.760Z",
+    "ratedAt": null,
+    "sides": [
+      {
+        "side": "a",
+        "teamId": "6b04505b-d16c-4196-b7c6-53a4688a32ca",
+        "teamName": "Agentic Loop Builders",
+        "submissionId": "9ffe9fbb-c82d-4160-8491-0c79772cc4bf",
+        "version": 54,
+        "wins": 2,
+        "ratingBefore": null,
+        "ratingAfter": null
+      },
+      {
+        "side": "b",
+        "teamId": "5e127d43-5b21-445c-8b94-32a6e34192bf",
+        "teamName": "Sloppy Joe Pirates",
+        "submissionId": null,
+        "version": null,
+        "wins": 3,
+        "ratingBefore": null,
+        "ratingAfter": null
+      }
+    ]
+  },
+  "admin": false,
+  "myTeamId": "6b04505b-d16c-4196-b7c6-53a4688a32ca",
+  "matches": [
+    {
+      "id": "36de242c-0724-41e8-8f96-9d34178fc473",
+      "kind": "unranked",
+      "label": null,
+      "status": "finished",
+      "progress": "finished",
+      "errorCode": null,
+      "mapId": "d316c02a-d072-4b46-a275-0e3a17d5bdb2",
+      "summaryAvailable": true,
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "coinflip": false,
+      "endReason": "gems",
+      "map": "00elkring",
+      "rounds": 851,
+      "replayUrl": "/api/v1/matches/36de242c-0724-41e8-8f96-9d34178fc473/bundle",
+      "error": null,
+      "createdAt": "2026-10-22T17:38:16.380Z",
+      "startedAt": "2026-10-22T17:38:18.606Z",
+      "finishedAt": "2026-10-22T17:38:22.743Z",
+      "sides": [
+        {
+          "side": "a",
+          "teamId": "6b04505b-d16c-4196-b7c6-53a4688a32ca",
+          "teamName": "Agentic Loop Builders",
+          "version": 54,
+          "result": "win",
+          "score": 1001,
+          "draft": [
+            "11",
+            "1",
+            "0",
+            "6",
+            "2"
+          ],
+          "botError": null,
+          "ratingBefore": null,
+          "ratingAfter": null,
+          "hasLog": true
+        },
+        {
+          "side": "b",
+          "teamId": "5e127d43-5b21-445c-8b94-32a6e34192bf",
+          "teamName": "Sloppy Joe Pirates",
+          "version": null,
+          "result": "loss",
+          "score": 957,
+          "draft": [
+            "2",
+            "1",
+            "6",
+            "0",
+            "7"
+          ],
+          "botError": null,
+          "ratingBefore": null,
+          "ratingAfter": null,
+          "hasLog": false
+        }
+      ],
+      "position": 1,
+      "showcase": true
+    },
+    {
+      "id": "d0ec69bb-eee7-424b-8a16-269ca70bb72f",
+      "kind": "unranked",
+      "label": null,
+      "status": "finished",
+      "progress": "finished",
+      "errorCode": null,
+      "mapId": "07e14a72-a270-4f1e-ad1e-5c03b7470639",
+      "summaryAvailable": true,
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "coinflip": false,
+      "endReason": "gems",
+      "map": "00expanse",
+      "rounds": 1038,
+      "replayUrl": "/api/v1/matches/d0ec69bb-eee7-424b-8a16-269ca70bb72f/bundle",
+      "error": null,
+      "createdAt": "2026-10-22T17:38:16.396Z",
+      "startedAt": "2026-10-22T17:38:18.865Z",
+      "finishedAt": "2026-10-22T17:38:21.437Z",
+      "sides": [
+        {
+          "side": "a",
+          "teamId": "5e127d43-5b21-445c-8b94-32a6e34192bf",
+          "teamName": "Sloppy Joe Pirates",
+          "version": null,
+          "result": "loss",
+          "score": 486,
+          "draft": [
+            "2",
+            "1",
+            "6",
+            "0",
+            "7"
+          ],
+          "botError": null,
+          "ratingBefore": null,
+          "ratingAfter": null,
+          "hasLog": false
+        },
+        {
+          "side": "b",
+          "teamId": "6b04505b-d16c-4196-b7c6-53a4688a32ca",
+          "teamName": "Agentic Loop Builders",
+          "version": 54,
+          "result": "win",
+          "score": 1041,
+          "draft": [
+            "11",
+            "1",
+            "0",
+            "6",
+            "2"
+          ],
+          "botError": null,
+          "ratingBefore": null,
+          "ratingAfter": null,
+          "hasLog": true
+        }
+      ],
+      "position": 2,
+      "showcase": true
+    },
+    {
+      "id": "558c8a05-3f99-4f9c-91e2-c8a3f619849a",
+      "kind": "unranked",
+      "label": null,
+      "status": "finished",
+      "progress": "finished",
+      "errorCode": null,
+      "mapId": "4ddf20e5-c312-4238-b154-6b1bc370fff3",
+      "summaryAvailable": true,
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "coinflip": false,
+      "endReason": "gems",
+      "map": "00fragment",
+      "rounds": 1867,
+      "replayUrl": "/api/v1/matches/558c8a05-3f99-4f9c-91e2-c8a3f619849a/bundle",
+      "error": null,
+      "createdAt": "2026-10-22T17:38:16.407Z",
+      "startedAt": "2026-10-22T17:38:19.100Z",
+      "finishedAt": "2026-10-22T17:38:23.231Z",
+      "sides": [
+        {
+          "side": "a",
+          "teamId": "6b04505b-d16c-4196-b7c6-53a4688a32ca",
+          "teamName": "Agentic Loop Builders",
+          "version": 54,
+          "result": "loss",
+          "score": 214,
+          "draft": [
+            "11",
+            "1",
+            "2"
+          ],
+          "botError": null,
+          "ratingBefore": null,
+          "ratingAfter": null,
+          "hasLog": true
+        },
+        {
+          "side": "b",
+          "teamId": "5e127d43-5b21-445c-8b94-32a6e34192bf",
+          "teamName": "Sloppy Joe Pirates",
+          "version": null,
+          "result": "win",
+          "score": 1008,
+          "draft": [
+            "2",
+            "1",
+            "6"
+          ],
+          "botError": null,
+          "ratingBefore": null,
+          "ratingAfter": null,
+          "hasLog": false
+        }
+      ],
+      "position": 3,
+      "showcase": true
+    },
+    {
+      "id": "f0848153-f190-4d84-8cc3-a2f77d800a75",
+      "kind": "unranked",
+      "label": null,
+      "status": "finished",
+      "progress": "finished",
+      "errorCode": null,
+      "mapId": "357ca6e8-2c45-4e95-950e-4ed777cf93d0",
+      "summaryAvailable": true,
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "coinflip": false,
+      "endReason": "gems",
+      "map": "00gem_fields",
+      "rounds": 824,
+      "replayUrl": "/api/v1/matches/f0848153-f190-4d84-8cc3-a2f77d800a75/bundle",
+      "error": null,
+      "createdAt": "2026-10-22T17:38:16.424Z",
+      "startedAt": "2026-10-22T17:38:19.326Z",
+      "finishedAt": "2026-10-22T17:38:23.615Z",
+      "sides": [
+        {
+          "side": "a",
+          "teamId": "5e127d43-5b21-445c-8b94-32a6e34192bf",
+          "teamName": "Sloppy Joe Pirates",
+          "version": null,
+          "result": "win",
+          "score": 1030,
+          "draft": [
+            "2",
+            "1",
+            "6",
+            "0",
+            "7"
+          ],
+          "botError": null,
+          "ratingBefore": null,
+          "ratingAfter": null,
+          "hasLog": false
+        },
+        {
+          "side": "b",
+          "teamId": "6b04505b-d16c-4196-b7c6-53a4688a32ca",
+          "teamName": "Agentic Loop Builders",
+          "version": 54,
+          "result": "loss",
+          "score": 621,
+          "draft": [
+            "11",
+            "1",
+            "0",
+            "6",
+            "2"
+          ],
+          "botError": null,
+          "ratingBefore": null,
+          "ratingAfter": null,
+          "hasLog": true
+        }
+      ],
+      "position": 4,
+      "showcase": true
+    },
+    {
+      "id": "9785d19d-fc22-466b-bd23-e6737799fe20",
+      "kind": "unranked",
+      "label": null,
+      "status": "finished",
+      "progress": "finished",
+      "errorCode": null,
+      "mapId": "310a18b1-70ce-44df-896e-ce121a568bb3",
+      "summaryAvailable": true,
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "coinflip": false,
+      "endReason": "gems",
+      "map": "00gemfight",
+      "rounds": 1561,
+      "replayUrl": "/api/v1/matches/9785d19d-fc22-466b-bd23-e6737799fe20/bundle",
+      "error": null,
+      "createdAt": "2026-10-22T17:38:16.437Z",
+      "startedAt": "2026-10-22T17:38:19.410Z",
+      "finishedAt": "2026-10-22T17:38:23.711Z",
+      "sides": [
+        {
+          "side": "a",
+          "teamId": "6b04505b-d16c-4196-b7c6-53a4688a32ca",
+          "teamName": "Agentic Loop Builders",
+          "version": 54,
+          "result": "loss",
+          "score": 872,
+          "draft": [
+            "11",
+            "1",
+            "0",
+            "6"
+          ],
+          "botError": null,
+          "ratingBefore": null,
+          "ratingAfter": null,
+          "hasLog": true
+        },
+        {
+          "side": "b",
+          "teamId": "5e127d43-5b21-445c-8b94-32a6e34192bf",
+          "teamName": "Sloppy Joe Pirates",
+          "version": null,
+          "result": "win",
+          "score": 1032,
+          "draft": [
+            "2",
+            "1",
+            "6",
+            "0"
+          ],
+          "botError": null,
+          "ratingBefore": null,
+          "ratingAfter": null,
+          "hasLog": false
+        }
+      ],
+      "position": 5,
+      "showcase": true
+    }
+  ]
+}

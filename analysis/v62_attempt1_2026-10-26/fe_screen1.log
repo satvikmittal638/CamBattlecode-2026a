@@ -1,0 +1,8 @@
+field_eval analysis/v62_attempt1_2026-10-26/fe_screen1: 840 games in 452s, runner exit 0, source changes 0
+variant            wins gemDiff        v62  vsBase(+/-/net, dGem) faults err
+base             82/140    65.3     82/140  -                           0    0
+gate             82/140    88.1     82/140  +2/-2/+0, 22.8              0    0
+watch            79/140    43.1     79/140  +20/-23/-3, -22.2           0    0
+evac             49/140  -139.4     49/140  +8/-41/-33, -204.7          0    0
+napevac          60/140  -101.9     60/140  +15/-37/-22, -167.2         0    0
+all              58/140  -100.7     58/140  +16/-40/-24, -166           0    0

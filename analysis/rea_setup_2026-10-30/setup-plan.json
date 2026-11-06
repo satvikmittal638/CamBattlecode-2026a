@@ -1,0 +1,41 @@
+{
+  "status": "planned",
+  "reaVersion": "6.8.0",
+  "setupCommand": "npx rea-agents@latest setup --client codex",
+  "plannedActions": [
+    {
+      "id": "configure_client:codex",
+      "kind": "configure_client",
+      "label": "Codex",
+      "target": "/Users/dmitt/.codex/config.toml",
+      "detail": "Add the REA MCP registration for Codex; preserve unrelated configuration. The backup path reflects the configuration inspected for this plan; if that file changes before execution, setup will select a recovery path for its current contents. Command: \"npx\" \"-y\" \"rea-agents@6.8.0\" \"mcp\". No additional provider environment variables. Existing server environment overrides are retained.",
+      "external": false,
+      "operation": "update",
+      "backupPath": "/Users/dmitt/.codex/config.toml.rea.backup"
+    },
+    {
+      "id": "install_skill",
+      "kind": "install_skill",
+      "label": "REA reverse-engineering skill",
+      "target": "/Users/dmitt/.agents/skills/reverse-engineer-anything",
+      "detail": "Install or update the bundled REA reverse-engineering skill and on-demand references.",
+      "external": false,
+      "operation": "install"
+    }
+  ],
+  "appliedActions": [],
+  "additionalRuntimePlan": {
+    "version": "22.23.4",
+    "privateRoot": "/Users/dmitt/.local/share/rea/node-v22.23.4-darwin-arm64",
+    "source": "https://nodejs.org/dist/v22.23.4/node-v22.23.4-darwin-arm64.tar.gz",
+    "verifiedSHA256": "c9e1dbc748b33ed2d14f42445191ecaf14c56259c7a9a26d0042c49ec2b66428",
+    "scope": "Prepend private runtime bin directory to REA MCP server PATH only; retain existing shell and game runtime."
+  },
+  "verification": [
+    "REA version",
+    "REA doctor --client codex --json",
+    "Codex REA server registration",
+    "MCP initialize and tool discovery smoke test"
+  ],
+  "restart": "Client restart may be required for REA tools to appear in this chat."
+}

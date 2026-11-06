@@ -1,0 +1,3915 @@
+{
+ "dir": "analysis/v43x/v47/all_them",
+ "overall": {
+  "games": 97,
+  "winRate": 0.41,
+  "avgRounds": 1368.5,
+  "tributedAt": {
+   "100": 12.9,
+   "200": 43.4,
+   "300": 77.7,
+   "400": 121.4,
+   "500": 171.5,
+   "700": 293.8,
+   "1000": 473.7
+  },
+  "netWorthAt": {
+   "150": 468.1,
+   "300": 1073,
+   "500": 2083.5
+  },
+  "firstCapture": 39,
+  "firstTribute": 183.8,
+  "capturesPer100": 3.9,
+  "gemsPerCapture": 8.5,
+  "goldPerCapture": 56.7,
+  "grouping": 0.8,
+  "enemySideFrac": 0.1,
+  "activity": {
+   "Varg": {
+    "walk": 0.472,
+    "farm": 0.147,
+    "recall": 0.138,
+    "dead": 0.127,
+    "idle": 0.075,
+    "fight": 0.026,
+    "tribute": 0.015
+   },
+   "_all": {
+    "walk": 0.503,
+    "farm": 0.141,
+    "dead": 0.114,
+    "idle": 0.105,
+    "recall": 0.083,
+    "fight": 0.04,
+    "tribute": 0.014
+   },
+   "Stellar": {
+    "walk": 0.564,
+    "farm": 0.13,
+    "dead": 0.129,
+    "idle": 0.113,
+    "recall": 0.034,
+    "fight": 0.023,
+    "tribute": 0.006
+   },
+   "Cassi": {
+    "walk": 0.447,
+    "dead": 0.279,
+    "farm": 0.115,
+    "idle": 0.111,
+    "recall": 0.024,
+    "fight": 0.016,
+    "tribute": 0.007
+   },
+   "Issac": {
+    "walk": 0.413,
+    "dead": 0.279,
+    "idle": 0.141,
+    "farm": 0.118,
+    "recall": 0.032,
+    "tribute": 0.009,
+    "fight": 0.008
+   },
+   "Ryth": {
+    "walk": 0.529,
+    "farm": 0.118,
+    "recall": 0.108,
+    "dead": 0.099,
+    "idle": 0.088,
+    "fight": 0.043,
+    "tribute": 0.014
+   },
+   "Ren": {
+    "walk": 0.505,
+    "dead": 0.156,
+    "farm": 0.148,
+    "idle": 0.107,
+    "recall": 0.038,
+    "fight": 0.038,
+    "tribute": 0.009
+   },
+   "Vendetta": {
+    "walk": 0.449,
+    "recall": 0.148,
+    "farm": 0.131,
+    "idle": 0.123,
+    "dead": 0.086,
+    "fight": 0.04,
+    "tribute": 0.022
+   },
+   "VesperVale": {
+    "walk": 0.459,
+    "farm": 0.166,
+    "recall": 0.117,
+    "idle": 0.11,
+    "dead": 0.081,
+    "fight": 0.051,
+    "tribute": 0.016
+   },
+   "Prism": {
+    "walk": 0.538,
+    "farm": 0.175,
+    "idle": 0.098,
+    "dead": 0.077,
+    "fight": 0.075,
+    "recall": 0.025,
+    "tribute": 0.011
+   },
+   "HeartOfRuin": {
+    "walk": 0.486,
+    "farm": 0.163,
+    "idle": 0.109,
+    "recall": 0.096,
+    "dead": 0.079,
+    "fight": 0.048,
+    "tribute": 0.019
+   },
+   "Marcella": {
+    "walk": 0.573,
+    "farm": 0.131,
+    "idle": 0.105,
+    "dead": 0.089,
+    "fight": 0.045,
+    "recall": 0.043,
+    "tribute": 0.014
+   },
+   "Willow": {
+    "walk": 0.58,
+    "farm": 0.136,
+    "dead": 0.136,
+    "idle": 0.081,
+    "fight": 0.039,
+    "recall": 0.022,
+    "tribute": 0.006
+   },
+   "Tavi": {
+    "walk": 0.537,
+    "dead": 0.179,
+    "farm": 0.107,
+    "idle": 0.099,
+    "fight": 0.048,
+    "recall": 0.021,
+    "tribute": 0.01
+   }
+  }
+ },
+ "byMap": {
+  "00ambush": {
+   "games": 3,
+   "winRate": 0.33,
+   "avgRounds": 1296.7,
+   "tributedAt": {
+    "100": 12.3,
+    "200": 17,
+    "300": 56,
+    "400": 77.7,
+    "500": 150.7,
+    "700": 263.3,
+    "1000": 506.3
+   },
+   "netWorthAt": {
+    "150": 272,
+    "300": 595.3,
+    "500": 1246
+   },
+   "firstCapture": 64.3,
+   "firstTribute": 226,
+   "capturesPer100": 3.3,
+   "gemsPerCapture": 8.9,
+   "goldPerCapture": 55.1,
+   "grouping": 0.9,
+   "enemySideFrac": 0.1,
+   "activity": {
+    "Varg": {
+     "walk": 0.636,
+     "farm": 0.177,
+     "idle": 0.098,
+     "dead": 0.049,
+     "recall": 0.022,
+     "tribute": 0.013,
+     "fight": 0.005
+    },
+    "_all": {
+     "walk": 0.621,
+     "farm": 0.133,
+     "idle": 0.12,
+     "dead": 0.077,
+     "recall": 0.026,
+     "tribute": 0.013,
+     "fight": 0.01
+    },
+    "Stellar": {
+     "walk": 0.73,
+     "dead": 0.096,
+     "farm": 0.076,
+     "idle": 0.064,
+     "recall": 0.02,
+     "fight": 0.011,
+     "tribute": 0.003
+    },
+    "Cassi": {
+     "walk": 0.559,
+     "idle": 0.146,
+     "dead": 0.145,
+     "farm": 0.12,
+     "recall": 0.014,
+     "fight": 0.009,
+     "tribute": 0.007
+    },
+    "Issac": {
+     "walk": 0.476,
+     "idle": 0.267,
+     "dead": 0.145,
+     "farm": 0.078,
+     "recall": 0.018,
+     "tribute": 0.014,
+     "fight": 0.003
+    },
+    "Ryth": {
+     "walk": 0.773,
+     "farm": 0.092,
+     "dead": 0.045,
+     "idle": 0.033,
+     "recall": 0.028,
+     "fight": 0.024,
+     "tribute": 0.005
+    },
+    "Ren": {
+     "walk": 0.515,
+     "idle": 0.192,
+     "farm": 0.182,
+     "dead": 0.072,
+     "recall": 0.027,
+     "tribute": 0.007,
+     "fight": 0.006
+    },
+    "Vendetta": {
+     "walk": 0.621,
+     "farm": 0.178,
+     "idle": 0.124,
+     "recall": 0.04,
+     "tribute": 0.029,
+     "fight": 0.008
+    },
+    "HeartOfRuin": {
+     "walk": 0.557,
+     "farm": 0.183,
+     "idle": 0.108,
+     "dead": 0.092,
+     "recall": 0.03,
+     "tribute": 0.02,
+     "fight": 0.01
+    },
+    "VesperVale": {
+     "walk": 0.748,
+     "dead": 0.087,
+     "farm": 0.077,
+     "idle": 0.038,
+     "recall": 0.036,
+     "fight": 0.007,
+     "tribute": 0.007
+    },
+    "Marcella": {
+     "walk": 0.763,
+     "farm": 0.102,
+     "dead": 0.043,
+     "recall": 0.032,
+     "idle": 0.031,
+     "tribute": 0.015,
+     "fight": 0.014
+    }
+   }
+  },
+  "00collision": {
+   "games": 3,
+   "winRate": 0.33,
+   "avgRounds": 1375.3,
+   "tributedAt": {
+    "100": 12.3,
+    "200": 46,
+    "300": 97.7,
+    "400": 141,
+    "500": 191.3,
+    "700": 266.3,
+    "1000": 435.3
+   },
+   "netWorthAt": {
+    "150": 536.7,
+    "300": 1320.7,
+    "500": 2026
+   },
+   "firstCapture": 20.7,
+   "firstTribute": 130.7,
+   "capturesPer100": 4.2,
+   "gemsPerCapture": 6,
+   "goldPerCapture": 44.2,
+   "grouping": 0.6,
+   "enemySideFrac": 0.1,
+   "activity": {
+    "HeartOfRuin": {
+     "walk": 0.436,
+     "farm": 0.23,
+     "idle": 0.105,
+     "fight": 0.1,
+     "dead": 0.057,
+     "recall": 0.039,
+     "tribute": 0.033
+    },
+    "_all": {
+     "walk": 0.412,
+     "farm": 0.184,
+     "dead": 0.183,
+     "idle": 0.088,
+     "fight": 0.071,
+     "recall": 0.04,
+     "tribute": 0.022
+    },
+    "Ryth": {
+     "walk": 0.529,
+     "farm": 0.17,
+     "dead": 0.082,
+     "fight": 0.081,
+     "recall": 0.07,
+     "idle": 0.041,
+     "tribute": 0.027
+    },
+    "Marcella": {
+     "walk": 0.46,
+     "farm": 0.172,
+     "dead": 0.154,
+     "fight": 0.083,
+     "idle": 0.062,
+     "recall": 0.047,
+     "tribute": 0.022
+    },
+    "Varg": {
+     "walk": 0.325,
+     "dead": 0.287,
+     "farm": 0.24,
+     "idle": 0.092,
+     "recall": 0.021,
+     "tribute": 0.019,
+     "fight": 0.017
+    },
+    "Stellar": {
+     "walk": 0.339,
+     "farm": 0.289,
+     "dead": 0.196,
+     "idle": 0.106,
+     "recall": 0.052,
+     "fight": 0.016,
+     "tribute": 0.003
+    },
+    "Cassi": {
+     "dead": 0.382,
+     "walk": 0.362,
+     "farm": 0.118,
+     "idle": 0.093,
+     "fight": 0.021,
+     "recall": 0.021,
+     "tribute": 0.002
+    },
+    "Issac": {
+     "dead": 0.38,
+     "walk": 0.302,
+     "idle": 0.148,
+     "farm": 0.131,
+     "recall": 0.031,
+     "tribute": 0.006,
+     "fight": 0.001
+    },
+    "Vendetta": {
+     "walk": 0.36,
+     "dead": 0.271,
+     "fight": 0.113,
+     "farm": 0.109,
+     "idle": 0.097,
+     "tribute": 0.028,
+     "recall": 0.023
+    }
+   }
+  },
+  "00corners": {
+   "games": 3,
+   "winRate": 0.67,
+   "avgRounds": 1105.3,
+   "tributedAt": {
+    "100": 5.3,
+    "200": 38.7,
+    "300": 67.7,
+    "400": 106.3,
+    "500": 159.7,
+    "700": 318.3,
+    "1000": 653.3
+   },
+   "netWorthAt": {
+    "150": 496.7,
+    "300": 1184.3,
+    "500": 2905
+   },
+   "firstCapture": 53.3,
+   "firstTribute": 89.3,
+   "capturesPer100": 4.9,
+   "gemsPerCapture": 8.6,
+   "goldPerCapture": 69.2,
+   "grouping": 0.9,
+   "enemySideFrac": 0.1,
+   "activity": {
+    "Vendetta": {
+     "walk": 0.479,
+     "farm": 0.168,
+     "dead": 0.129,
+     "idle": 0.078,
+     "fight": 0.071,
+     "recall": 0.047,
+     "tribute": 0.028
+    },
+    "_all": {
+     "walk": 0.453,
+     "farm": 0.197,
+     "dead": 0.131,
+     "idle": 0.091,
+     "fight": 0.063,
+     "recall": 0.048,
+     "tribute": 0.017
+    },
+    "HeartOfRuin": {
+     "walk": 0.453,
+     "farm": 0.193,
+     "fight": 0.126,
+     "idle": 0.089,
+     "recall": 0.059,
+     "dead": 0.052,
+     "tribute": 0.027
+    },
+    "Cassi": {
+     "walk": 0.446,
+     "dead": 0.234,
+     "farm": 0.163,
+     "idle": 0.094,
+     "recall": 0.034,
+     "fight": 0.022,
+     "tribute": 0.007
+    },
+    "Issac": {
+     "walk": 0.352,
+     "dead": 0.234,
+     "farm": 0.196,
+     "idle": 0.14,
+     "recall": 0.04,
+     "fight": 0.031,
+     "tribute": 0.007
+    },
+    "Ren": {
+     "walk": 0.432,
+     "farm": 0.247,
+     "idle": 0.112,
+     "dead": 0.079,
+     "fight": 0.07,
+     "recall": 0.045,
+     "tribute": 0.015
+    },
+    "Varg": {
+     "walk": 0.473,
+     "farm": 0.219,
+     "dead": 0.106,
+     "idle": 0.104,
+     "fight": 0.043,
+     "recall": 0.037,
+     "tribute": 0.017
+    },
+    "VesperVale": {
+     "walk": 0.427,
+     "farm": 0.229,
+     "dead": 0.118,
+     "fight": 0.109,
+     "recall": 0.057,
+     "idle": 0.043,
+     "tribute": 0.017
+    },
+    "Ryth": {
+     "walk": 0.525,
+     "farm": 0.183,
+     "dead": 0.09,
+     "recall": 0.071,
+     "fight": 0.071,
+     "idle": 0.052,
+     "tribute": 0.008
+    },
+    "Marcella": {
+     "walk": 0.525,
+     "farm": 0.203,
+     "recall": 0.075,
+     "fight": 0.061,
+     "dead": 0.058,
+     "tribute": 0.042,
+     "idle": 0.036
+    },
+    "Stellar": {
+     "walk": 0.449,
+     "dead": 0.188,
+     "farm": 0.181,
+     "idle": 0.113,
+     "fight": 0.033,
+     "recall": 0.031,
+     "tribute": 0.004
+    }
+   }
+  },
+  "00eight": {
+   "games": 3,
+   "winRate": 0,
+   "avgRounds": 1095,
+   "tributedAt": {
+    "100": 15,
+    "200": 41,
+    "300": 63.3,
+    "400": 83,
+    "500": 114,
+    "700": 142.3,
+    "1000": 286
+   },
+   "netWorthAt": {
+    "150": 306.7,
+    "300": 616.3,
+    "500": 1061.7
+   },
+   "firstCapture": 37.7,
+   "firstTribute": 108,
+   "capturesPer100": 2.4,
+   "gemsPerCapture": 5.5,
+   "goldPerCapture": 34.5,
+   "grouping": 1.2,
+   "enemySideFrac": 0.1,
+   "activity": {
+    "HeartOfRuin": {
+     "walk": 0.45,
+     "dead": 0.235,
+     "farm": 0.11,
+     "idle": 0.082,
+     "fight": 0.073,
+     "recall": 0.042,
+     "tribute": 0.006
+    },
+    "_all": {
+     "walk": 0.46,
+     "dead": 0.227,
+     "farm": 0.113,
+     "idle": 0.088,
+     "fight": 0.06,
+     "recall": 0.043,
+     "tribute": 0.009
+    },
+    "Vendetta": {
+     "walk": 0.35,
+     "dead": 0.32,
+     "farm": 0.103,
+     "fight": 0.077,
+     "idle": 0.073,
+     "recall": 0.04,
+     "tribute": 0.036
+    },
+    "Willow": {
+     "walk": 0.534,
+     "dead": 0.244,
+     "farm": 0.128,
+     "recall": 0.041,
+     "idle": 0.031,
+     "fight": 0.022
+    },
+    "Marcella": {
+     "walk": 0.508,
+     "dead": 0.209,
+     "farm": 0.096,
+     "fight": 0.073,
+     "idle": 0.066,
+     "recall": 0.045,
+     "tribute": 0.002
+    },
+    "VesperVale": {
+     "walk": 0.442,
+     "dead": 0.239,
+     "farm": 0.157,
+     "idle": 0.066,
+     "recall": 0.048,
+     "fight": 0.046,
+     "tribute": 0.003
+    },
+    "Ryth": {
+     "walk": 0.527,
+     "dead": 0.209,
+     "farm": 0.089,
+     "fight": 0.071,
+     "idle": 0.063,
+     "recall": 0.038,
+     "tribute": 0.004
+    },
+    "Varg": {
+     "walk": 0.446,
+     "dead": 0.194,
+     "farm": 0.191,
+     "fight": 0.059,
+     "idle": 0.053,
+     "recall": 0.048,
+     "tribute": 0.01
+    },
+    "Stellar": {
+     "walk": 0.399,
+     "dead": 0.284,
+     "idle": 0.11,
+     "farm": 0.109,
+     "fight": 0.054,
+     "recall": 0.036,
+     "tribute": 0.009
+    },
+    "Cassi": {
+     "walk": 0.462,
+     "dead": 0.241,
+     "idle": 0.114,
+     "farm": 0.077,
+     "fight": 0.065,
+     "recall": 0.032,
+     "tribute": 0.009
+    },
+    "Issac": {
+     "walk": 0.407,
+     "dead": 0.241,
+     "idle": 0.204,
+     "farm": 0.079,
+     "recall": 0.048,
+     "fight": 0.013,
+     "tribute": 0.009
+    },
+    "Ren": {
+     "walk": 0.547,
+     "idle": 0.154,
+     "farm": 0.112,
+     "fight": 0.068,
+     "recall": 0.06,
+     "dead": 0.048,
+     "tribute": 0.011
+    }
+   }
+  },
+  "00elkring": {
+   "games": 3,
+   "winRate": 0.67,
+   "avgRounds": 971,
+   "tributedAt": {
+    "100": 66,
+    "200": 124.7,
+    "300": 245.7,
+    "400": 304.3,
+    "500": 451,
+    "700": 627,
+    "1000": 876.3
+   },
+   "netWorthAt": {
+    "150": 822,
+    "300": 1619.3,
+    "500": 3224.3
+   },
+   "firstCapture": 28,
+   "firstTribute": 49,
+   "capturesPer100": 4.2,
+   "gemsPerCapture": 11.1,
+   "goldPerCapture": 58.5,
+   "grouping": 1.1,
+   "enemySideFrac": 0.1,
+   "activity": {
+    "HeartOfRuin": {
+     "walk": 0.469,
+     "farm": 0.236,
+     "idle": 0.124,
+     "dead": 0.071,
+     "recall": 0.042,
+     "fight": 0.042,
+     "tribute": 0.016
+    },
+    "_all": {
+     "walk": 0.467,
+     "farm": 0.206,
+     "dead": 0.101,
+     "idle": 0.098,
+     "fight": 0.064,
+     "recall": 0.041,
+     "tribute": 0.022
+    },
+    "Marcella": {
+     "walk": 0.542,
+     "farm": 0.186,
+     "fight": 0.107,
+     "idle": 0.071,
+     "recall": 0.06,
+     "tribute": 0.035
+    },
+    "VesperVale": {
+     "walk": 0.45,
+     "farm": 0.24,
+     "fight": 0.094,
+     "idle": 0.092,
+     "dead": 0.062,
+     "recall": 0.039,
+     "tribute": 0.023
+    },
+    "Vendetta": {
+     "walk": 0.447,
+     "farm": 0.203,
+     "idle": 0.139,
+     "fight": 0.077,
+     "tribute": 0.058,
+     "recall": 0.045,
+     "dead": 0.031
+    },
+    "Ryth": {
+     "walk": 0.539,
+     "farm": 0.195,
+     "fight": 0.069,
+     "idle": 0.068,
+     "dead": 0.058,
+     "recall": 0.041,
+     "tribute": 0.029
+    },
+    "Cassi": {
+     "dead": 0.3,
+     "walk": 0.294,
+     "idle": 0.178,
+     "farm": 0.174,
+     "recall": 0.032,
+     "tribute": 0.013,
+     "fight": 0.011
+    },
+    "Issac": {
+     "walk": 0.435,
+     "dead": 0.299,
+     "farm": 0.099,
+     "idle": 0.07,
+     "recall": 0.048,
+     "fight": 0.026,
+     "tribute": 0.022
+    },
+    "Stellar": {
+     "walk": 0.422,
+     "farm": 0.243,
+     "idle": 0.14,
+     "dead": 0.127,
+     "recall": 0.042,
+     "fight": 0.017,
+     "tribute": 0.009
+    },
+    "Prism": {
+     "walk": 0.505,
+     "farm": 0.239,
+     "idle": 0.112,
+     "fight": 0.071,
+     "dead": 0.032,
+     "recall": 0.032,
+     "tribute": 0.009
+    },
+    "Varg": {
+     "walk": 0.435,
+     "dead": 0.263,
+     "farm": 0.146,
+     "idle": 0.048,
+     "recall": 0.047,
+     "fight": 0.035,
+     "tribute": 0.025
+    },
+    "Ren": {
+     "walk": 0.474,
+     "farm": 0.198,
+     "dead": 0.132,
+     "fight": 0.113,
+     "idle": 0.044,
+     "recall": 0.031,
+     "tribute": 0.008
+    },
+    "Willow": {
+     "walk": 0.579,
+     "farm": 0.227,
+     "fight": 0.078,
+     "dead": 0.065,
+     "recall": 0.038,
+     "idle": 0.014
+    }
+   }
+  },
+  "00expanse": {
+   "games": 3,
+   "winRate": 0.33,
+   "avgRounds": 1105.3,
+   "tributedAt": {
+    "100": 17.7,
+    "200": 41.7,
+    "300": 72,
+    "400": 119.7,
+    "500": 171.3,
+    "700": 322,
+    "1000": 627.3
+   },
+   "netWorthAt": {
+    "150": 563,
+    "300": 1315,
+    "500": 2733.3
+   },
+   "firstCapture": 46.3,
+   "firstTribute": 48.7,
+   "capturesPer100": 6,
+   "gemsPerCapture": 5.8,
+   "goldPerCapture": 52.8,
+   "grouping": 0.4,
+   "enemySideFrac": 0.1,
+   "activity": {
+    "HeartOfRuin": {
+     "walk": 0.546,
+     "farm": 0.238,
+     "idle": 0.149,
+     "recall": 0.04,
+     "tribute": 0.02,
+     "fight": 0.007
+    },
+    "_all": {
+     "walk": 0.606,
+     "farm": 0.2,
+     "idle": 0.111,
+     "recall": 0.046,
+     "tribute": 0.018,
+     "dead": 0.01,
+     "fight": 0.009
+    },
+    "Marcella": {
+     "walk": 0.65,
+     "farm": 0.155,
+     "idle": 0.104,
+     "recall": 0.038,
+     "fight": 0.037,
+     "tribute": 0.016
+    },
+    "VesperVale": {
+     "walk": 0.575,
+     "farm": 0.228,
+     "idle": 0.116,
+     "recall": 0.059,
+     "tribute": 0.015,
+     "fight": 0.006
+    },
+    "Vendetta": {
+     "walk": 0.543,
+     "idle": 0.196,
+     "farm": 0.184,
+     "recall": 0.044,
+     "tribute": 0.031,
+     "fight": 0.003
+    },
+    "Ryth": {
+     "walk": 0.666,
+     "farm": 0.183,
+     "idle": 0.073,
+     "recall": 0.035,
+     "fight": 0.027,
+     "tribute": 0.016
+    },
+    "Cassi": {
+     "walk": 0.592,
+     "farm": 0.165,
+     "idle": 0.13,
+     "dead": 0.053,
+     "recall": 0.04,
+     "tribute": 0.014,
+     "fight": 0.006
+    },
+    "Issac": {
+     "walk": 0.49,
+     "farm": 0.204,
+     "idle": 0.168,
+     "recall": 0.061,
+     "dead": 0.053,
+     "tribute": 0.024
+    },
+    "Prism": {
+     "walk": 0.705,
+     "farm": 0.171,
+     "idle": 0.066,
+     "recall": 0.041,
+     "tribute": 0.011,
+     "fight": 0.006
+    },
+    "Varg": {
+     "walk": 0.699,
+     "farm": 0.141,
+     "recall": 0.066,
+     "idle": 0.035,
+     "tribute": 0.03,
+     "fight": 0.028
+    },
+    "Tavi": {
+     "walk": 0.592,
+     "farm": 0.229,
+     "idle": 0.086,
+     "recall": 0.071,
+     "tribute": 0.023
+    },
+    "Ren": {
+     "walk": 0.635,
+     "farm": 0.245,
+     "idle": 0.078,
+     "recall": 0.036,
+     "tribute": 0.006
+    },
+    "Willow": {
+     "walk": 0.646,
+     "farm": 0.234,
+     "dead": 0.057,
+     "idle": 0.044,
+     "recall": 0.014,
+     "fight": 0.004,
+     "tribute": 0.001
+    }
+   }
+  },
+  "00fragment": {
+   "games": 3,
+   "winRate": 0,
+   "avgRounds": 2000,
+   "tributedAt": {
+    "100": 10,
+    "200": 21.3,
+    "300": 32.7,
+    "400": 79.3,
+    "500": 93.3,
+    "700": 147.3,
+    "1000": 207
+   },
+   "netWorthAt": {
+    "150": 319.7,
+    "300": 669.3,
+    "500": 1276
+   },
+   "firstCapture": 17.3,
+   "firstTribute": 124,
+   "capturesPer100": 2.9,
+   "gemsPerCapture": 4.8,
+   "goldPerCapture": 44.5,
+   "grouping": 0.8,
+   "enemySideFrac": 0.1,
+   "activity": {
+    "HeartOfRuin": {
+     "walk": 0.459,
+     "dead": 0.18,
+     "farm": 0.135,
+     "idle": 0.112,
+     "fight": 0.076,
+     "recall": 0.029,
+     "tribute": 0.009
+    },
+    "_all": {
+     "walk": 0.428,
+     "dead": 0.23,
+     "farm": 0.141,
+     "idle": 0.094,
+     "fight": 0.075,
+     "recall": 0.025,
+     "tribute": 0.008
+    },
+    "Marcella": {
+     "walk": 0.462,
+     "dead": 0.151,
+     "fight": 0.131,
+     "idle": 0.12,
+     "farm": 0.093,
+     "recall": 0.034,
+     "tribute": 0.008
+    },
+    "VesperVale": {
+     "walk": 0.452,
+     "farm": 0.211,
+     "fight": 0.118,
+     "idle": 0.093,
+     "dead": 0.089,
+     "recall": 0.028,
+     "tribute": 0.009
+    },
+    "Cassi": {
+     "dead": 0.397,
+     "walk": 0.34,
+     "farm": 0.165,
+     "idle": 0.044,
+     "recall": 0.027,
+     "fight": 0.022,
+     "tribute": 0.004
+    },
+    "Issac": {
+     "walk": 0.411,
+     "dead": 0.397,
+     "farm": 0.096,
+     "idle": 0.061,
+     "recall": 0.024,
+     "fight": 0.006,
+     "tribute": 0.004
+    },
+    "Varg": {
+     "walk": 0.476,
+     "dead": 0.24,
+     "idle": 0.136,
+     "farm": 0.098,
+     "recall": 0.023,
+     "tribute": 0.014,
+     "fight": 0.012
+    },
+    "Vendetta": {
+     "walk": 0.407,
+     "dead": 0.212,
+     "fight": 0.142,
+     "idle": 0.115,
+     "farm": 0.093,
+     "recall": 0.02,
+     "tribute": 0.009
+    },
+    "Ren": {
+     "dead": 0.362,
+     "walk": 0.361,
+     "farm": 0.171,
+     "idle": 0.049,
+     "fight": 0.045,
+     "recall": 0.01,
+     "tribute": 0
+    }
+   }
+  },
+  "00interlock": {
+   "games": 3,
+   "winRate": 0.33,
+   "avgRounds": 1334,
+   "tributedAt": {
+    "100": 10,
+    "200": 21.3,
+    "300": 60.3,
+    "400": 99.7,
+    "500": 152,
+    "700": 272,
+    "1000": 453.3
+   },
+   "netWorthAt": {
+    "150": 385.3,
+    "300": 875.3,
+    "500": 1772
+   },
+   "firstCapture": 24.3,
+   "firstTribute": 133.7,
+   "capturesPer100": 4.2,
+   "gemsPerCapture": 5.9,
+   "goldPerCapture": 42.3,
+   "grouping": 0.6,
+   "enemySideFrac": 0.1,
+   "activity": {
+    "Vendetta": {
+     "walk": 0.528,
+     "farm": 0.195,
+     "idle": 0.106,
+     "fight": 0.056,
+     "recall": 0.052,
+     "tribute": 0.038,
+     "dead": 0.024
+    },
+    "_all": {
+     "walk": 0.541,
+     "farm": 0.172,
+     "dead": 0.1,
+     "idle": 0.079,
+     "fight": 0.049,
+     "recall": 0.045,
+     "tribute": 0.015
+    },
+    "VesperVale": {
+     "walk": 0.544,
+     "farm": 0.211,
+     "idle": 0.11,
+     "fight": 0.048,
+     "dead": 0.045,
+     "recall": 0.033,
+     "tribute": 0.009
+    },
+    "Ren": {
+     "walk": 0.524,
+     "farm": 0.181,
+     "dead": 0.163,
+     "idle": 0.068,
+     "fight": 0.036,
+     "recall": 0.028
+    },
+    "Prism": {
+     "walk": 0.609,
+     "farm": 0.22,
+     "idle": 0.053,
+     "dead": 0.05,
+     "fight": 0.039,
+     "recall": 0.029
+    },
+    "HeartOfRuin": {
+     "walk": 0.51,
+     "farm": 0.177,
+     "dead": 0.09,
+     "idle": 0.081,
+     "fight": 0.066,
+     "recall": 0.062,
+     "tribute": 0.014
+    },
+    "Marcella": {
+     "walk": 0.619,
+     "farm": 0.122,
+     "fight": 0.117,
+     "idle": 0.064,
+     "recall": 0.047,
+     "tribute": 0.031
+    },
+    "Ryth": {
+     "walk": 0.517,
+     "dead": 0.23,
+     "farm": 0.096,
+     "idle": 0.067,
+     "recall": 0.049,
+     "fight": 0.033,
+     "tribute": 0.008
+    },
+    "Cassi": {
+     "walk": 0.481,
+     "dead": 0.23,
+     "farm": 0.162,
+     "idle": 0.065,
+     "recall": 0.039,
+     "fight": 0.016,
+     "tribute": 0.007
+    },
+    "Issac": {
+     "walk": 0.491,
+     "dead": 0.23,
+     "farm": 0.161,
+     "idle": 0.063,
+     "recall": 0.04,
+     "fight": 0.008,
+     "tribute": 0.008
+    },
+    "Varg": {
+     "walk": 0.624,
+     "farm": 0.135,
+     "dead": 0.091,
+     "idle": 0.049,
+     "recall": 0.049,
+     "fight": 0.039,
+     "tribute": 0.012
+    }
+   }
+  },
+  "00lanes": {
+   "games": 3,
+   "winRate": 1,
+   "avgRounds": 1296.3,
+   "tributedAt": {
+    "100": 6.3,
+    "200": 46,
+    "300": 70,
+    "400": 141.7,
+    "500": 208,
+    "700": 352,
+    "1000": 640
+   },
+   "netWorthAt": {
+    "150": 682,
+    "300": 1539.7,
+    "500": 2769.7
+   },
+   "firstCapture": 50.7,
+   "firstTribute": 109,
+   "capturesPer100": 7,
+   "gemsPerCapture": 5.6,
+   "goldPerCapture": 40.9,
+   "grouping": 0.6,
+   "enemySideFrac": 0.2,
+   "activity": {
+    "Cassi": {
+     "walk": 0.495,
+     "farm": 0.182,
+     "idle": 0.149,
+     "dead": 0.115,
+     "recall": 0.028,
+     "tribute": 0.027,
+     "fight": 0.003
+    },
+    "_all": {
+     "walk": 0.494,
+     "farm": 0.224,
+     "idle": 0.133,
+     "dead": 0.058,
+     "fight": 0.043,
+     "recall": 0.028,
+     "tribute": 0.021
+    },
+    "Issac": {
+     "walk": 0.404,
+     "farm": 0.275,
+     "idle": 0.146,
+     "dead": 0.114,
+     "recall": 0.028,
+     "tribute": 0.026,
+     "fight": 0.006
+    },
+    "Prism": {
+     "walk": 0.476,
+     "farm": 0.241,
+     "idle": 0.138,
+     "dead": 0.093,
+     "recall": 0.018,
+     "tribute": 0.017,
+     "fight": 0.016
+    },
+    "Varg": {
+     "walk": 0.546,
+     "farm": 0.194,
+     "idle": 0.124,
+     "dead": 0.057,
+     "recall": 0.033,
+     "tribute": 0.025,
+     "fight": 0.022
+    },
+    "Tavi": {
+     "walk": 0.606,
+     "farm": 0.169,
+     "idle": 0.128,
+     "tribute": 0.035,
+     "fight": 0.034,
+     "recall": 0.028
+    },
+    "HeartOfRuin": {
+     "walk": 0.442,
+     "farm": 0.301,
+     "idle": 0.134,
+     "dead": 0.041,
+     "recall": 0.034,
+     "fight": 0.026,
+     "tribute": 0.022
+    },
+    "Vendetta": {
+     "walk": 0.487,
+     "idle": 0.186,
+     "farm": 0.171,
+     "fight": 0.053,
+     "dead": 0.043,
+     "tribute": 0.032,
+     "recall": 0.029
+    },
+    "VesperVale": {
+     "walk": 0.466,
+     "farm": 0.227,
+     "idle": 0.144,
+     "fight": 0.078,
+     "dead": 0.043,
+     "recall": 0.025,
+     "tribute": 0.017
+    },
+    "Ren": {
+     "walk": 0.476,
+     "farm": 0.239,
+     "idle": 0.105,
+     "fight": 0.078,
+     "dead": 0.078,
+     "recall": 0.017,
+     "tribute": 0.006
+    },
+    "Willow": {
+     "walk": 0.463,
+     "farm": 0.308,
+     "idle": 0.103,
+     "dead": 0.078,
+     "fight": 0.028,
+     "recall": 0.012,
+     "tribute": 0.006
+    },
+    "Marcella": {
+     "walk": 0.581,
+     "farm": 0.206,
+     "idle": 0.093,
+     "fight": 0.051,
+     "recall": 0.051,
+     "tribute": 0.019
+    },
+    "Ryth": {
+     "walk": 0.612,
+     "farm": 0.121,
+     "idle": 0.082,
+     "fight": 0.079,
+     "dead": 0.047,
+     "recall": 0.039,
+     "tribute": 0.019
+    }
+   }
+  },
+  "00monolith": {
+   "games": 3,
+   "winRate": 0.33,
+   "avgRounds": 1357.7,
+   "tributedAt": {
+    "100": 28.3,
+    "200": 59.3,
+    "300": 117.7,
+    "400": 173.7,
+    "500": 262,
+    "700": 351.3,
+    "1000": 633.3
+   },
+   "netWorthAt": {
+    "150": 612.3,
+    "300": 1573.7,
+    "500": 2834.7
+   },
+   "firstCapture": 31,
+   "firstTribute": 55.3,
+   "capturesPer100": 5.3,
+   "gemsPerCapture": 6.1,
+   "goldPerCapture": 38.2,
+   "grouping": 1,
+   "enemySideFrac": 0.1,
+   "activity": {
+    "HeartOfRuin": {
+     "walk": 0.564,
+     "farm": 0.17,
+     "idle": 0.088,
+     "recall": 0.072,
+     "fight": 0.055,
+     "tribute": 0.027,
+     "dead": 0.024
+    },
+    "_all": {
+     "walk": 0.588,
+     "farm": 0.148,
+     "idle": 0.082,
+     "dead": 0.076,
+     "recall": 0.047,
+     "fight": 0.042,
+     "tribute": 0.017
+    },
+    "Marcella": {
+     "walk": 0.615,
+     "farm": 0.191,
+     "recall": 0.078,
+     "idle": 0.073,
+     "fight": 0.023,
+     "tribute": 0.02
+    },
+    "Ryth": {
+     "walk": 0.575,
+     "farm": 0.139,
+     "idle": 0.082,
+     "fight": 0.062,
+     "dead": 0.059,
+     "recall": 0.056,
+     "tribute": 0.027
+    },
+    "Willow": {
+     "walk": 0.585,
+     "dead": 0.158,
+     "farm": 0.117,
+     "idle": 0.09,
+     "fight": 0.027,
+     "recall": 0.02,
+     "tribute": 0.003
+    },
+    "Vendetta": {
+     "walk": 0.543,
+     "farm": 0.203,
+     "idle": 0.138,
+     "recall": 0.065,
+     "fight": 0.032,
+     "tribute": 0.019
+    },
+    "Prism": {
+     "walk": 0.559,
+     "dead": 0.223,
+     "farm": 0.071,
+     "idle": 0.07,
+     "fight": 0.051,
+     "recall": 0.014,
+     "tribute": 0.012
+    },
+    "Tavi": {
+     "walk": 0.598,
+     "dead": 0.154,
+     "farm": 0.101,
+     "idle": 0.095,
+     "fight": 0.046,
+     "tribute": 0.004,
+     "recall": 0.002
+    },
+    "VesperVale": {
+     "walk": 0.598,
+     "farm": 0.118,
+     "dead": 0.116,
+     "idle": 0.081,
+     "fight": 0.047,
+     "recall": 0.026,
+     "tribute": 0.014
+    },
+    "Stellar": {
+     "walk": 0.614,
+     "farm": 0.217,
+     "idle": 0.062,
+     "recall": 0.05,
+     "dead": 0.043,
+     "fight": 0.011,
+     "tribute": 0.004
+    },
+    "Ren": {
+     "walk": 0.65,
+     "farm": 0.175,
+     "recall": 0.074,
+     "idle": 0.048,
+     "fight": 0.035,
+     "tribute": 0.017
+    }
+   }
+  },
+  "00packs": {
+   "games": 3,
+   "winRate": 0.33,
+   "avgRounds": 1180.3,
+   "tributedAt": {
+    "100": 30,
+    "200": 91,
+    "300": 152.7,
+    "400": 218,
+    "500": 272,
+    "700": 402,
+    "1000": 537.3
+   },
+   "netWorthAt": {
+    "150": 530,
+    "300": 1338.3,
+    "500": 2524
+   },
+   "firstCapture": 24,
+   "firstTribute": 51,
+   "capturesPer100": 2.5,
+   "gemsPerCapture": 9,
+   "goldPerCapture": 70,
+   "grouping": 0.8,
+   "enemySideFrac": 0.1,
+   "activity": {
+    "VesperVale": {
+     "walk": 0.438,
+     "idle": 0.191,
+     "farm": 0.18,
+     "recall": 0.084,
+     "fight": 0.077,
+     "tribute": 0.03
+    },
+    "_all": {
+     "walk": 0.505,
+     "idle": 0.116,
+     "dead": 0.114,
+     "farm": 0.107,
+     "fight": 0.082,
+     "recall": 0.056,
+     "tribute": 0.019
+    },
+    "HeartOfRuin": {
+     "walk": 0.478,
+     "idle": 0.198,
+     "farm": 0.121,
+     "recall": 0.109,
+     "fight": 0.05,
+     "tribute": 0.044
+    },
+    "Vendetta": {
+     "walk": 0.507,
+     "idle": 0.15,
+     "farm": 0.137,
+     "recall": 0.109,
+     "fight": 0.07,
+     "tribute": 0.026
+    },
+    "Ryth": {
+     "walk": 0.499,
+     "dead": 0.175,
+     "fight": 0.134,
+     "idle": 0.082,
+     "farm": 0.069,
+     "recall": 0.032,
+     "tribute": 0.009
+    },
+    "Stellar": {
+     "walk": 0.508,
+     "dead": 0.224,
+     "idle": 0.096,
+     "fight": 0.067,
+     "farm": 0.067,
+     "recall": 0.028,
+     "tribute": 0.01
+    },
+    "Tavi": {
+     "walk": 0.574,
+     "idle": 0.136,
+     "dead": 0.13,
+     "fight": 0.069,
+     "farm": 0.054,
+     "tribute": 0.025,
+     "recall": 0.011
+    },
+    "Marcella": {
+     "walk": 0.48,
+     "farm": 0.19,
+     "dead": 0.116,
+     "recall": 0.081,
+     "fight": 0.081,
+     "idle": 0.035,
+     "tribute": 0.017
+    },
+    "Ren": {
+     "walk": 0.537,
+     "farm": 0.116,
+     "dead": 0.114,
+     "fight": 0.113,
+     "idle": 0.065,
+     "recall": 0.048,
+     "tribute": 0.007
+    }
+   }
+  },
+  "00pilgrimage": {
+   "games": 3,
+   "winRate": 0,
+   "avgRounds": 1861.7,
+   "tributedAt": {
+    "100": 3,
+    "200": 9.7,
+    "300": 15.7,
+    "400": 30.7,
+    "500": 40.7,
+    "700": 91,
+    "1000": 192.3
+   },
+   "netWorthAt": {
+    "150": 549.3,
+    "300": 1088.7,
+    "500": 1701.3
+   },
+   "firstCapture": 19.7,
+   "firstTribute": 117.3,
+   "capturesPer100": 4,
+   "gemsPerCapture": 3.9,
+   "goldPerCapture": 41,
+   "grouping": 0.8,
+   "enemySideFrac": 0,
+   "activity": {
+    "HeartOfRuin": {
+     "walk": 0.671,
+     "idle": 0.125,
+     "farm": 0.116,
+     "recall": 0.054,
+     "fight": 0.026,
+     "tribute": 0.008
+    },
+    "_all": {
+     "walk": 0.687,
+     "idle": 0.082,
+     "farm": 0.079,
+     "dead": 0.075,
+     "recall": 0.036,
+     "fight": 0.035,
+     "tribute": 0.005
+    },
+    "Marcella": {
+     "walk": 0.715,
+     "farm": 0.072,
+     "dead": 0.071,
+     "idle": 0.071,
+     "recall": 0.038,
+     "fight": 0.026,
+     "tribute": 0.005
+    },
+    "Ryth": {
+     "walk": 0.703,
+     "idle": 0.078,
+     "farm": 0.068,
+     "dead": 0.054,
+     "fight": 0.048,
+     "recall": 0.039,
+     "tribute": 0.009
+    },
+    "Willow": {
+     "walk": 0.653,
+     "dead": 0.174,
+     "farm": 0.07,
+     "idle": 0.057,
+     "fight": 0.03,
+     "recall": 0.015,
+     "tribute": 0.001
+    },
+    "Vendetta": {
+     "walk": 0.683,
+     "idle": 0.124,
+     "farm": 0.062,
+     "recall": 0.054,
+     "fight": 0.039,
+     "dead": 0.033,
+     "tribute": 0.005
+    },
+    "Stellar": {
+     "walk": 0.689,
+     "dead": 0.098,
+     "idle": 0.079,
+     "farm": 0.066,
+     "fight": 0.035,
+     "recall": 0.029,
+     "tribute": 0.003
+    },
+    "Tavi": {
+     "walk": 0.629,
+     "dead": 0.155,
+     "idle": 0.074,
+     "farm": 0.069,
+     "fight": 0.063,
+     "recall": 0.007,
+     "tribute": 0.002
+    },
+    "Ren": {
+     "walk": 0.714,
+     "farm": 0.134,
+     "idle": 0.065,
+     "recall": 0.06,
+     "fight": 0.019,
+     "tribute": 0.008
+    }
+   }
+  },
+  "00quadrants": {
+   "games": 3,
+   "winRate": 1,
+   "avgRounds": 722,
+   "tributedAt": {
+    "100": 32.3,
+    "200": 135,
+    "300": 225,
+    "400": 376,
+    "500": 523.3,
+    "700": 975.7,
+    "1000": 1090.7
+   },
+   "netWorthAt": {
+    "150": 363.3,
+    "300": 1065.3,
+    "500": 1983.3
+   },
+   "firstCapture": 37.3,
+   "firstTribute": 58.7,
+   "capturesPer100": 3,
+   "gemsPerCapture": 22.7,
+   "goldPerCapture": 42.6,
+   "grouping": 1.3,
+   "enemySideFrac": 0.1,
+   "activity": {
+    "HeartOfRuin": {
+     "walk": 0.501,
+     "farm": 0.166,
+     "idle": 0.117,
+     "dead": 0.079,
+     "recall": 0.059,
+     "fight": 0.046,
+     "tribute": 0.032
+    },
+    "_all": {
+     "walk": 0.541,
+     "farm": 0.165,
+     "idle": 0.104,
+     "dead": 0.072,
+     "recall": 0.048,
+     "tribute": 0.035,
+     "fight": 0.035
+    },
+    "Marcella": {
+     "walk": 0.616,
+     "farm": 0.138,
+     "idle": 0.06,
+     "recall": 0.06,
+     "dead": 0.055,
+     "tribute": 0.045,
+     "fight": 0.025
+    },
+    "Ryth": {
+     "walk": 0.573,
+     "farm": 0.166,
+     "idle": 0.089,
+     "tribute": 0.06,
+     "recall": 0.057,
+     "fight": 0.054
+    },
+    "Willow": {
+     "walk": 0.495,
+     "farm": 0.17,
+     "idle": 0.133,
+     "dead": 0.132,
+     "fight": 0.026,
+     "tribute": 0.023,
+     "recall": 0.022
+    },
+    "Vendetta": {
+     "walk": 0.476,
+     "farm": 0.172,
+     "idle": 0.134,
+     "dead": 0.083,
+     "recall": 0.06,
+     "tribute": 0.04,
+     "fight": 0.035
+    },
+    "Stellar": {
+     "walk": 0.528,
+     "farm": 0.176,
+     "dead": 0.125,
+     "idle": 0.112,
+     "recall": 0.035,
+     "fight": 0.021,
+     "tribute": 0.004
+    },
+    "Tavi": {
+     "walk": 0.517,
+     "farm": 0.221,
+     "idle": 0.208,
+     "fight": 0.032,
+     "tribute": 0.022
+    },
+    "Ren": {
+     "walk": 0.51,
+     "dead": 0.152,
+     "farm": 0.151,
+     "recall": 0.069,
+     "idle": 0.056,
+     "fight": 0.031,
+     "tribute": 0.031
+    }
+   }
+  },
+  "00reverse_spiral": {
+   "games": 3,
+   "winRate": 0,
+   "avgRounds": 1433.7,
+   "tributedAt": {
+    "100": 0,
+    "200": 22,
+    "300": 36.3,
+    "400": 67.3,
+    "500": 72.7,
+    "700": 148.3,
+    "1000": 255.3
+   },
+   "netWorthAt": {
+    "150": 176.7,
+    "300": 477.3,
+    "500": 784
+   },
+   "firstCapture": 38.3,
+   "firstTribute": 177.7,
+   "capturesPer100": 2.4,
+   "gemsPerCapture": 9.5,
+   "goldPerCapture": 38.4,
+   "grouping": 0.9,
+   "enemySideFrac": 0.2,
+   "activity": {
+    "HeartOfRuin": {
+     "walk": 0.548,
+     "dead": 0.256,
+     "idle": 0.089,
+     "farm": 0.068,
+     "fight": 0.018,
+     "recall": 0.017,
+     "tribute": 0.005
+    },
+    "_all": {
+     "walk": 0.58,
+     "dead": 0.115,
+     "idle": 0.098,
+     "farm": 0.096,
+     "fight": 0.071,
+     "recall": 0.031,
+     "tribute": 0.011
+    },
+    "Varg": {
+     "walk": 0.567,
+     "dead": 0.153,
+     "farm": 0.116,
+     "idle": 0.071,
+     "fight": 0.061,
+     "recall": 0.027,
+     "tribute": 0.005
+    },
+    "Ryth": {
+     "walk": 0.634,
+     "dead": 0.112,
+     "farm": 0.095,
+     "idle": 0.079,
+     "recall": 0.037,
+     "fight": 0.024,
+     "tribute": 0.019
+    },
+    "Prism": {
+     "walk": 0.451,
+     "fight": 0.209,
+     "farm": 0.117,
+     "idle": 0.113,
+     "dead": 0.082,
+     "recall": 0.019,
+     "tribute": 0.009
+    },
+    "Stellar": {
+     "walk": 0.644,
+     "dead": 0.097,
+     "idle": 0.095,
+     "farm": 0.074,
+     "fight": 0.052,
+     "recall": 0.035,
+     "tribute": 0.005
+    },
+    "Tavi": {
+     "walk": 0.542,
+     "idle": 0.195,
+     "farm": 0.145,
+     "fight": 0.045,
+     "dead": 0.039,
+     "recall": 0.019,
+     "tribute": 0.014
+    },
+    "Marcella": {
+     "walk": 0.655,
+     "dead": 0.09,
+     "idle": 0.082,
+     "recall": 0.066,
+     "fight": 0.059,
+     "farm": 0.035,
+     "tribute": 0.013
+    }
+   }
+  },
+  "00rows": {
+   "games": 3,
+   "winRate": 0.33,
+   "avgRounds": 1528.7,
+   "tributedAt": {
+    "100": 10.3,
+    "200": 47.7,
+    "300": 81.7,
+    "400": 134,
+    "500": 192.7,
+    "700": 308.3,
+    "1000": 516.3
+   },
+   "netWorthAt": {
+    "150": 684.3,
+    "300": 1515,
+    "500": 3135.3
+   },
+   "firstCapture": 45.3,
+   "firstTribute": 120.7,
+   "capturesPer100": 4.1,
+   "gemsPerCapture": 7.5,
+   "goldPerCapture": 94.2,
+   "grouping": 0.7,
+   "enemySideFrac": 0.1,
+   "activity": {
+    "HeartOfRuin": {
+     "walk": 0.668,
+     "farm": 0.178,
+     "idle": 0.072,
+     "dead": 0.039,
+     "recall": 0.027,
+     "tribute": 0.016,
+     "fight": 0
+    },
+    "_all": {
+     "walk": 0.677,
+     "farm": 0.187,
+     "idle": 0.063,
+     "recall": 0.038,
+     "tribute": 0.018,
+     "dead": 0.016,
+     "fight": 0.002
+    },
+    "Varg": {
+     "walk": 0.758,
+     "farm": 0.148,
+     "recall": 0.027,
+     "idle": 0.027,
+     "dead": 0.019,
+     "tribute": 0.016,
+     "fight": 0.004
+    },
+    "VesperVale": {
+     "walk": 0.591,
+     "farm": 0.203,
+     "idle": 0.11,
+     "recall": 0.062,
+     "tribute": 0.034
+    },
+    "Marcella": {
+     "walk": 0.663,
+     "farm": 0.197,
+     "idle": 0.072,
+     "recall": 0.034,
+     "dead": 0.02,
+     "tribute": 0.008,
+     "fight": 0.006
+    },
+    "Stellar": {
+     "walk": 0.761,
+     "farm": 0.187,
+     "recall": 0.023,
+     "idle": 0.017,
+     "tribute": 0.012
+    },
+    "Ryth": {
+     "walk": 0.744,
+     "farm": 0.183,
+     "recall": 0.037,
+     "tribute": 0.019,
+     "idle": 0.017
+    },
+    "Vendetta": {
+     "walk": 0.567,
+     "farm": 0.243,
+     "idle": 0.094,
+     "recall": 0.077,
+     "tribute": 0.019
+    }
+   }
+  },
+  "00rushbait_v2": {
+   "games": 3,
+   "winRate": 1,
+   "avgRounds": 1350.7,
+   "tributedAt": {
+    "100": 0,
+    "200": 47.7,
+    "300": 112,
+    "400": 150.7,
+    "500": 220.7,
+    "700": 377.7,
+    "1000": 647
+   },
+   "netWorthAt": {
+    "150": 557,
+    "300": 1227,
+    "500": 2267.7
+   },
+   "firstCapture": 35,
+   "firstTribute": 145.7,
+   "capturesPer100": 4.8,
+   "gemsPerCapture": 8.6,
+   "goldPerCapture": 59.1,
+   "grouping": 0.6,
+   "enemySideFrac": 0.5,
+   "activity": {
+    "Vendetta": {
+     "walk": 0.572,
+     "idle": 0.124,
+     "farm": 0.121,
+     "recall": 0.064,
+     "dead": 0.049,
+     "fight": 0.039,
+     "tribute": 0.031
+    },
+    "_all": {
+     "walk": 0.571,
+     "farm": 0.207,
+     "idle": 0.091,
+     "dead": 0.041,
+     "recall": 0.036,
+     "fight": 0.03,
+     "tribute": 0.024
+    },
+    "VesperVale": {
+     "walk": 0.474,
+     "farm": 0.206,
+     "idle": 0.147,
+     "dead": 0.071,
+     "recall": 0.042,
+     "tribute": 0.034,
+     "fight": 0.026
+    },
+    "HeartOfRuin": {
+     "walk": 0.605,
+     "farm": 0.18,
+     "idle": 0.103,
+     "fight": 0.035,
+     "tribute": 0.033,
+     "recall": 0.029,
+     "dead": 0.015
+    },
+    "Marcella": {
+     "walk": 0.596,
+     "farm": 0.182,
+     "dead": 0.094,
+     "idle": 0.063,
+     "fight": 0.029,
+     "recall": 0.024,
+     "tribute": 0.012
+    },
+    "Varg": {
+     "walk": 0.565,
+     "farm": 0.266,
+     "idle": 0.054,
+     "dead": 0.043,
+     "fight": 0.029,
+     "recall": 0.027,
+     "tribute": 0.017
+    },
+    "Stellar": {
+     "walk": 0.593,
+     "farm": 0.252,
+     "idle": 0.069,
+     "recall": 0.05,
+     "fight": 0.021,
+     "tribute": 0.014
+    },
+    "Ryth": {
+     "walk": 0.593,
+     "farm": 0.235,
+     "idle": 0.074,
+     "recall": 0.045,
+     "fight": 0.033,
+     "tribute": 0.019
+    }
+   }
+  },
+  "00split": {
+   "games": 3,
+   "winRate": 1,
+   "avgRounds": 829,
+   "tributedAt": {
+    "100": 0,
+    "200": 79,
+    "300": 156.3,
+    "400": 269.7,
+    "500": 422,
+    "700": 740.7,
+    "1000": 1029
+   },
+   "netWorthAt": {
+    "150": 661.3,
+    "300": 1508,
+    "500": 3245
+   },
+   "firstCapture": 38.7,
+   "firstTribute": 137.7,
+   "capturesPer100": 5.1,
+   "gemsPerCapture": 11.4,
+   "goldPerCapture": 64.1,
+   "grouping": 1.1,
+   "enemySideFrac": 0,
+   "activity": {
+    "Stellar": {
+     "walk": 0.428,
+     "farm": 0.422,
+     "dead": 0.069,
+     "recall": 0.028,
+     "idle": 0.024,
+     "fight": 0.023,
+     "tribute": 0.006
+    },
+    "_all": {
+     "walk": 0.511,
+     "farm": 0.287,
+     "idle": 0.078,
+     "recall": 0.042,
+     "tribute": 0.031,
+     "dead": 0.029,
+     "fight": 0.022
+    },
+    "HeartOfRuin": {
+     "walk": 0.498,
+     "farm": 0.248,
+     "idle": 0.116,
+     "tribute": 0.045,
+     "recall": 0.04,
+     "fight": 0.03,
+     "dead": 0.024
+    },
+    "Varg": {
+     "walk": 0.544,
+     "farm": 0.309,
+     "idle": 0.059,
+     "recall": 0.045,
+     "tribute": 0.032,
+     "fight": 0.009
+    },
+    "Ryth": {
+     "walk": 0.527,
+     "farm": 0.259,
+     "idle": 0.076,
+     "dead": 0.048,
+     "recall": 0.037,
+     "fight": 0.031,
+     "tribute": 0.022
+    },
+    "Ren": {
+     "walk": 0.435,
+     "farm": 0.379,
+     "idle": 0.076,
+     "recall": 0.051,
+     "tribute": 0.033,
+     "fight": 0.026
+    },
+    "VesperVale": {
+     "walk": 0.475,
+     "farm": 0.251,
+     "idle": 0.082,
+     "dead": 0.075,
+     "tribute": 0.05,
+     "recall": 0.045,
+     "fight": 0.022
+    },
+    "Marcella": {
+     "walk": 0.568,
+     "farm": 0.298,
+     "idle": 0.063,
+     "recall": 0.04,
+     "tribute": 0.017,
+     "fight": 0.014
+    },
+    "Vendetta": {
+     "walk": 0.567,
+     "farm": 0.25,
+     "idle": 0.084,
+     "recall": 0.056,
+     "tribute": 0.029,
+     "fight": 0.014
+    }
+   }
+  },
+  "00stampede": {
+   "games": 3,
+   "winRate": 0,
+   "avgRounds": 1716,
+   "tributedAt": {
+    "100": 0,
+    "200": 0,
+    "300": 0,
+    "400": 0,
+    "500": 0,
+    "700": 0,
+    "1000": 106.7
+   },
+   "netWorthAt": {
+    "150": 243.3,
+    "300": 493.3,
+    "500": 948.7
+   },
+   "firstCapture": 24.3,
+   "firstTribute": 880,
+   "capturesPer100": 4.9,
+   "gemsPerCapture": 1.2,
+   "goldPerCapture": 30.6,
+   "grouping": 0.7,
+   "enemySideFrac": 0.1,
+   "activity": {
+    "Stellar": {
+     "walk": 0.599,
+     "dead": 0.267,
+     "idle": 0.069,
+     "farm": 0.039,
+     "fight": 0.013,
+     "recall": 0.013
+    },
+    "_all": {
+     "walk": 0.623,
+     "dead": 0.16,
+     "idle": 0.109,
+     "fight": 0.039,
+     "farm": 0.034,
+     "recall": 0.033,
+     "tribute": 0.001
+    },
+    "HeartOfRuin": {
+     "walk": 0.631,
+     "dead": 0.129,
+     "idle": 0.128,
+     "fight": 0.055,
+     "recall": 0.036,
+     "farm": 0.021
+    },
+    "Varg": {
+     "walk": 0.633,
+     "dead": 0.203,
+     "idle": 0.067,
+     "fight": 0.047,
+     "farm": 0.025,
+     "recall": 0.023,
+     "tribute": 0.002
+    },
+    "Ryth": {
+     "walk": 0.639,
+     "dead": 0.144,
+     "idle": 0.111,
+     "farm": 0.043,
+     "fight": 0.032,
+     "recall": 0.031
+    },
+    "Ren": {
+     "walk": 0.626,
+     "dead": 0.099,
+     "farm": 0.091,
+     "idle": 0.083,
+     "fight": 0.051,
+     "recall": 0.046,
+     "tribute": 0.004
+    },
+    "VesperVale": {
+     "walk": 0.561,
+     "dead": 0.217,
+     "idle": 0.114,
+     "fight": 0.041,
+     "recall": 0.034,
+     "farm": 0.034
+    },
+    "Marcella": {
+     "walk": 0.639,
+     "dead": 0.127,
+     "idle": 0.122,
+     "fight": 0.042,
+     "farm": 0.033,
+     "recall": 0.033,
+     "tribute": 0.005
+    },
+    "Vendetta": {
+     "walk": 0.647,
+     "idle": 0.154,
+     "dead": 0.13,
+     "recall": 0.05,
+     "farm": 0.011,
+     "fight": 0.009
+    }
+   }
+  },
+  "00swirl": {
+   "games": 3,
+   "winRate": 0.67,
+   "avgRounds": 926.3,
+   "tributedAt": {
+    "100": 20.3,
+    "200": 71,
+    "300": 101.3,
+    "400": 166.7,
+    "500": 237.3,
+    "700": 495,
+    "1000": 719.7
+   },
+   "netWorthAt": {
+    "150": 843,
+    "300": 2150.3,
+    "500": 4610
+   },
+   "firstCapture": 18,
+   "firstTribute": 78.3,
+   "capturesPer100": 2.9,
+   "gemsPerCapture": 12.9,
+   "goldPerCapture": 124.4,
+   "grouping": 1.3,
+   "enemySideFrac": 0.3,
+   "activity": {
+    "Stellar": {
+     "walk": 0.467,
+     "farm": 0.279,
+     "idle": 0.104,
+     "fight": 0.086,
+     "recall": 0.044,
+     "tribute": 0.021
+    },
+    "_all": {
+     "walk": 0.418,
+     "farm": 0.171,
+     "dead": 0.146,
+     "idle": 0.114,
+     "fight": 0.085,
+     "recall": 0.041,
+     "tribute": 0.025
+    },
+    "HeartOfRuin": {
+     "walk": 0.41,
+     "farm": 0.171,
+     "dead": 0.13,
+     "idle": 0.109,
+     "fight": 0.104,
+     "recall": 0.05,
+     "tribute": 0.025
+    },
+    "Varg": {
+     "walk": 0.467,
+     "farm": 0.237,
+     "idle": 0.095,
+     "fight": 0.055,
+     "tribute": 0.055,
+     "recall": 0.054,
+     "dead": 0.036
+    },
+    "Ryth": {
+     "walk": 0.456,
+     "farm": 0.197,
+     "idle": 0.114,
+     "fight": 0.111,
+     "recall": 0.082,
+     "tribute": 0.04
+    },
+    "Vendetta": {
+     "dead": 0.436,
+     "walk": 0.268,
+     "idle": 0.171,
+     "farm": 0.063,
+     "fight": 0.054,
+     "recall": 0.005,
+     "tribute": 0.004
+    },
+    "VesperVale": {
+     "walk": 0.336,
+     "dead": 0.253,
+     "farm": 0.131,
+     "idle": 0.13,
+     "fight": 0.094,
+     "tribute": 0.029,
+     "recall": 0.028
+    },
+    "Marcella": {
+     "walk": 0.512,
+     "farm": 0.152,
+     "dead": 0.126,
+     "idle": 0.097,
+     "fight": 0.082,
+     "recall": 0.029,
+     "tribute": 0.003
+    }
+   }
+  },
+  "01big_world": {
+   "games": 3,
+   "winRate": 0.67,
+   "avgRounds": 1416.3,
+   "tributedAt": {
+    "100": 13.3,
+    "200": 46,
+    "300": 72.3,
+    "400": 98.7,
+    "500": 156.7,
+    "700": 306.3,
+    "1000": 517.7
+   },
+   "netWorthAt": {
+    "150": 367.3,
+    "300": 641.7,
+    "500": 1182.3
+   },
+   "firstCapture": 37.7,
+   "firstTribute": 84,
+   "capturesPer100": 3.4,
+   "gemsPerCapture": 11,
+   "goldPerCapture": 61,
+   "grouping": 0.5,
+   "enemySideFrac": 0.1,
+   "activity": {
+    "HeartOfRuin": {
+     "walk": 0.366,
+     "recall": 0.282,
+     "farm": 0.196,
+     "idle": 0.124,
+     "tribute": 0.03,
+     "fight": 0.001
+    },
+    "_all": {
+     "walk": 0.41,
+     "recall": 0.268,
+     "farm": 0.161,
+     "idle": 0.112,
+     "dead": 0.031,
+     "tribute": 0.017,
+     "fight": 0.001
+    },
+    "Ren": {
+     "walk": 0.47,
+     "idle": 0.241,
+     "farm": 0.235,
+     "recall": 0.032,
+     "tribute": 0.022
+    },
+    "Stellar": {
+     "walk": 0.708,
+     "farm": 0.142,
+     "idle": 0.13,
+     "recall": 0.014,
+     "tribute": 0.006
+    },
+    "Vendetta": {
+     "recall": 0.453,
+     "walk": 0.373,
+     "farm": 0.081,
+     "idle": 0.068,
+     "tribute": 0.025,
+     "fight": 0.001
+    },
+    "Marcella": {
+     "walk": 0.538,
+     "idle": 0.205,
+     "farm": 0.14,
+     "dead": 0.084,
+     "recall": 0.022,
+     "tribute": 0.01,
+     "fight": 0.001
+    },
+    "VesperVale": {
+     "recall": 0.366,
+     "walk": 0.305,
+     "farm": 0.202,
+     "idle": 0.072,
+     "dead": 0.04,
+     "tribute": 0.014,
+     "fight": 0.001
+    },
+    "Ryth": {
+     "recall": 0.357,
+     "walk": 0.356,
+     "farm": 0.137,
+     "dead": 0.081,
+     "idle": 0.062,
+     "tribute": 0.004,
+     "fight": 0.003
+    },
+    "Varg": {
+     "recall": 0.719,
+     "farm": 0.18,
+     "dead": 0.044,
+     "walk": 0.027,
+     "tribute": 0.019,
+     "fight": 0.006,
+     "idle": 0.005
+    }
+   }
+  },
+  "01boss_battle": {
+   "games": 3,
+   "winRate": 0.33,
+   "avgRounds": 1826.7,
+   "tributedAt": {
+    "100": 0,
+    "200": 0,
+    "300": 0,
+    "400": 0,
+    "500": 0,
+    "700": 0,
+    "1000": 63.7
+   },
+   "netWorthAt": {
+    "150": 690,
+    "300": 1783.3,
+    "500": 3899.7
+   },
+   "firstCapture": 35.3,
+   "firstTribute": 1220.7,
+   "capturesPer100": 4.9,
+   "gemsPerCapture": 12.3,
+   "goldPerCapture": 84.9,
+   "grouping": 1.2,
+   "enemySideFrac": 0,
+   "activity": {
+    "HeartOfRuin": {
+     "recall": 0.319,
+     "farm": 0.244,
+     "walk": 0.239,
+     "idle": 0.118,
+     "dead": 0.066,
+     "tribute": 0.009,
+     "fight": 0.005
+    },
+    "_all": {
+     "recall": 0.29,
+     "walk": 0.262,
+     "farm": 0.21,
+     "idle": 0.147,
+     "dead": 0.08,
+     "tribute": 0.008,
+     "fight": 0.003
+    },
+    "Ren": {
+     "walk": 0.422,
+     "idle": 0.314,
+     "farm": 0.136,
+     "recall": 0.095,
+     "dead": 0.026,
+     "tribute": 0.005,
+     "fight": 0.003
+    },
+    "Stellar": {
+     "walk": 0.426,
+     "idle": 0.245,
+     "farm": 0.196,
+     "recall": 0.082,
+     "dead": 0.052
+    },
+    "Vendetta": {
+     "recall": 0.445,
+     "walk": 0.239,
+     "farm": 0.149,
+     "dead": 0.092,
+     "idle": 0.048,
+     "tribute": 0.024,
+     "fight": 0.002
+    },
+    "Marcella": {
+     "walk": 0.37,
+     "idle": 0.283,
+     "farm": 0.24,
+     "recall": 0.053,
+     "dead": 0.052,
+     "fight": 0.003,
+     "tribute": 0
+    },
+    "VesperVale": {
+     "recall": 0.342,
+     "farm": 0.254,
+     "walk": 0.162,
+     "idle": 0.145,
+     "dead": 0.085,
+     "fight": 0.005,
+     "tribute": 0.005
+    },
+    "Ryth": {
+     "recall": 0.348,
+     "walk": 0.231,
+     "farm": 0.212,
+     "dead": 0.114,
+     "idle": 0.081,
+     "tribute": 0.013,
+     "fight": 0.001
+    },
+    "Varg": {
+     "recall": 0.647,
+     "farm": 0.161,
+     "dead": 0.151,
+     "walk": 0.032,
+     "tribute": 0.005,
+     "idle": 0.003,
+     "fight": 0.001
+    }
+   }
+  },
+  "01broken_curve": {
+   "games": 3,
+   "winRate": 0.67,
+   "avgRounds": 1235.7,
+   "tributedAt": {
+    "100": 22.7,
+    "200": 69,
+    "300": 115,
+    "400": 159.3,
+    "500": 236,
+    "700": 446.7,
+    "1000": 711
+   },
+   "netWorthAt": {
+    "150": 432,
+    "300": 1004,
+    "500": 2049.7
+   },
+   "firstCapture": 13,
+   "firstTribute": 69.7,
+   "capturesPer100": 3.7,
+   "gemsPerCapture": 12.4,
+   "goldPerCapture": 64.7,
+   "grouping": 0.5,
+   "enemySideFrac": 0.1,
+   "activity": {
+    "Vendetta": {
+     "recall": 0.759,
+     "farm": 0.15,
+     "tribute": 0.056,
+     "walk": 0.025,
+     "fight": 0.008,
+     "idle": 0.002
+    },
+    "_all": {
+     "walk": 0.294,
+     "farm": 0.272,
+     "recall": 0.266,
+     "idle": 0.072,
+     "dead": 0.054,
+     "tribute": 0.032,
+     "fight": 0.01
+    },
+    "HeartOfRuin": {
+     "farm": 0.319,
+     "walk": 0.271,
+     "recall": 0.251,
+     "idle": 0.074,
+     "tribute": 0.035,
+     "dead": 0.033,
+     "fight": 0.016
+    },
+    "VesperVale": {
+     "recall": 0.387,
+     "farm": 0.246,
+     "walk": 0.24,
+     "idle": 0.054,
+     "dead": 0.05,
+     "tribute": 0.012,
+     "fight": 0.01
+    },
+    "Ren": {
+     "walk": 0.36,
+     "farm": 0.318,
+     "idle": 0.155,
+     "dead": 0.092,
+     "recall": 0.04,
+     "tribute": 0.035
+    },
+    "Stellar": {
+     "walk": 0.478,
+     "farm": 0.224,
+     "dead": 0.184,
+     "idle": 0.08,
+     "recall": 0.019,
+     "tribute": 0.015
+    },
+    "Marcella": {
+     "walk": 0.472,
+     "farm": 0.299,
+     "recall": 0.088,
+     "idle": 0.073,
+     "tribute": 0.057,
+     "fight": 0.012
+    }
+   }
+  },
+  "01concentrated_wealth": {
+   "games": 3,
+   "winRate": 0.67,
+   "avgRounds": 1431.3,
+   "tributedAt": {
+    "100": 0,
+    "200": 26.3,
+    "300": 56.3,
+    "400": 155,
+    "500": 157.7,
+    "700": 260.3,
+    "1000": 499.7
+   },
+   "netWorthAt": {
+    "150": 403.3,
+    "300": 900.7,
+    "500": 1955.7
+   },
+   "firstCapture": 110.7,
+   "firstTribute": 192.7,
+   "capturesPer100": 2,
+   "gemsPerCapture": 16.5,
+   "goldPerCapture": 97.9,
+   "grouping": 0.7,
+   "enemySideFrac": 0.5,
+   "activity": {
+    "HeartOfRuin": {
+     "recall": 0.364,
+     "walk": 0.321,
+     "farm": 0.123,
+     "idle": 0.089,
+     "fight": 0.056,
+     "tribute": 0.034,
+     "dead": 0.014
+    },
+    "_all": {
+     "walk": 0.404,
+     "recall": 0.37,
+     "farm": 0.096,
+     "idle": 0.05,
+     "fight": 0.033,
+     "dead": 0.031,
+     "tribute": 0.016
+    },
+    "Marcella": {
+     "walk": 0.763,
+     "farm": 0.069,
+     "idle": 0.061,
+     "dead": 0.047,
+     "recall": 0.03,
+     "fight": 0.022,
+     "tribute": 0.008
+    },
+    "VesperVale": {
+     "recall": 0.537,
+     "walk": 0.232,
+     "farm": 0.132,
+     "fight": 0.05,
+     "idle": 0.038,
+     "tribute": 0.01
+    },
+    "Ryth": {
+     "recall": 0.49,
+     "walk": 0.328,
+     "farm": 0.095,
+     "dead": 0.04,
+     "fight": 0.027,
+     "idle": 0.018,
+     "tribute": 0.001
+    },
+    "Stellar": {
+     "walk": 0.735,
+     "farm": 0.086,
+     "idle": 0.066,
+     "dead": 0.048,
+     "recall": 0.025,
+     "tribute": 0.02,
+     "fight": 0.019
+    },
+    "Vendetta": {
+     "recall": 0.512,
+     "walk": 0.294,
+     "farm": 0.095,
+     "idle": 0.044,
+     "fight": 0.02,
+     "dead": 0.02,
+     "tribute": 0.015
+    },
+    "Varg": {
+     "recall": 0.889,
+     "farm": 0.04,
+     "fight": 0.03,
+     "tribute": 0.024,
+     "walk": 0.014,
+     "idle": 0.004
+    },
+    "Ren": {
+     "walk": 0.695,
+     "dead": 0.143,
+     "farm": 0.083,
+     "idle": 0.048,
+     "recall": 0.02,
+     "fight": 0.011,
+     "tribute": 0.001
+    }
+   }
+  },
+  "01corridors": {
+   "games": 3,
+   "winRate": 0,
+   "avgRounds": 1528.7,
+   "tributedAt": {
+    "100": 0,
+    "200": 0,
+    "300": 13.3,
+    "400": 13.3,
+    "500": 43.3,
+    "700": 109.3,
+    "1000": 202.3
+   },
+   "netWorthAt": {
+    "150": 180,
+    "300": 510,
+    "500": 896.7
+   },
+   "firstCapture": 113.7,
+   "firstTribute": 363.7,
+   "capturesPer100": 1.5,
+   "gemsPerCapture": 11,
+   "goldPerCapture": 60.4,
+   "grouping": 0.8,
+   "enemySideFrac": 0.1,
+   "activity": {
+    "HeartOfRuin": {
+     "walk": 0.336,
+     "recall": 0.261,
+     "dead": 0.132,
+     "farm": 0.127,
+     "idle": 0.076,
+     "fight": 0.058,
+     "tribute": 0.009
+    },
+    "_all": {
+     "walk": 0.325,
+     "recall": 0.28,
+     "dead": 0.141,
+     "idle": 0.116,
+     "farm": 0.093,
+     "fight": 0.04,
+     "tribute": 0.005
+    },
+    "Ren": {
+     "walk": 0.382,
+     "idle": 0.227,
+     "dead": 0.154,
+     "farm": 0.133,
+     "fight": 0.052,
+     "recall": 0.044,
+     "tribute": 0.007
+    },
+    "Stellar": {
+     "walk": 0.43,
+     "idle": 0.269,
+     "dead": 0.197,
+     "farm": 0.058,
+     "recall": 0.027,
+     "fight": 0.019,
+     "tribute": 0
+    },
+    "Vendetta": {
+     "recall": 0.37,
+     "walk": 0.213,
+     "dead": 0.18,
+     "idle": 0.115,
+     "farm": 0.101,
+     "fight": 0.02,
+     "tribute": 0.001
+    },
+    "Marcella": {
+     "walk": 0.524,
+     "dead": 0.175,
+     "farm": 0.096,
+     "idle": 0.083,
+     "fight": 0.067,
+     "recall": 0.045,
+     "tribute": 0.01
+    },
+    "VesperVale": {
+     "recall": 0.449,
+     "walk": 0.256,
+     "idle": 0.146,
+     "farm": 0.086,
+     "dead": 0.051,
+     "fight": 0.009,
+     "tribute": 0.002
+    },
+    "Ryth": {
+     "recall": 0.472,
+     "walk": 0.301,
+     "dead": 0.121,
+     "fight": 0.047,
+     "farm": 0.034,
+     "idle": 0.025,
+     "tribute": 0.001
+    },
+    "Varg": {
+     "recall": 0.685,
+     "farm": 0.125,
+     "dead": 0.106,
+     "fight": 0.045,
+     "walk": 0.022,
+     "tribute": 0.015,
+     "idle": 0.003
+    }
+   }
+  },
+  "01elk_arena": {
+   "games": 3,
+   "winRate": 0.33,
+   "avgRounds": 1601.3,
+   "tributedAt": {
+    "100": 24,
+    "200": 48,
+    "300": 72,
+    "400": 96,
+    "500": 120,
+    "700": 144,
+    "1000": 192
+   },
+   "netWorthAt": {
+    "150": 526,
+    "300": 1152.7,
+    "500": 1940.7
+   },
+   "firstCapture": 35.3,
+   "firstTribute": 91.5,
+   "capturesPer100": 6.8,
+   "gemsPerCapture": 1.7,
+   "goldPerCapture": 22.3,
+   "grouping": 1.6,
+   "enemySideFrac": 0.1,
+   "activity": {
+    "Varg": {
+     "dead": 0.416,
+     "idle": 0.303,
+     "walk": 0.238,
+     "fight": 0.026,
+     "farm": 0.012,
+     "recall": 0.004
+    },
+    "_all": {
+     "walk": 0.396,
+     "dead": 0.208,
+     "idle": 0.192,
+     "fight": 0.112,
+     "farm": 0.05,
+     "recall": 0.036,
+     "tribute": 0.007
+    },
+    "Marcella": {
+     "walk": 0.392,
+     "dead": 0.221,
+     "idle": 0.205,
+     "fight": 0.082,
+     "farm": 0.05,
+     "recall": 0.045,
+     "tribute": 0.005
+    },
+    "Vendetta": {
+     "walk": 0.337,
+     "dead": 0.231,
+     "idle": 0.217,
+     "fight": 0.088,
+     "recall": 0.063,
+     "farm": 0.049,
+     "tribute": 0.015
+    },
+    "Ryth": {
+     "walk": 0.328,
+     "dead": 0.308,
+     "idle": 0.217,
+     "fight": 0.072,
+     "farm": 0.038,
+     "recall": 0.031,
+     "tribute": 0.005
+    },
+    "Ren": {
+     "walk": 0.349,
+     "dead": 0.296,
+     "idle": 0.193,
+     "fight": 0.112,
+     "farm": 0.031,
+     "recall": 0.019
+    },
+    "HeartOfRuin": {
+     "walk": 0.445,
+     "idle": 0.157,
+     "fight": 0.152,
+     "dead": 0.134,
+     "farm": 0.06,
+     "recall": 0.039,
+     "tribute": 0.013
+    },
+    "VesperVale": {
+     "walk": 0.471,
+     "idle": 0.178,
+     "fight": 0.171,
+     "farm": 0.079,
+     "dead": 0.05,
+     "recall": 0.047,
+     "tribute": 0.003
+    },
+    "Willow": {
+     "walk": 0.488,
+     "idle": 0.183,
+     "dead": 0.146,
+     "fight": 0.116,
+     "farm": 0.032,
+     "tribute": 0.019,
+     "recall": 0.017
+    },
+    "Tavi": {
+     "walk": 0.475,
+     "dead": 0.218,
+     "fight": 0.135,
+     "idle": 0.101,
+     "farm": 0.06,
+     "recall": 0.011
+    }
+   }
+  },
+  "01fracture": {
+   "games": 3,
+   "winRate": 0.33,
+   "avgRounds": 1553,
+   "tributedAt": {
+    "100": 0,
+    "200": 11.3,
+    "300": 21.3,
+    "400": 51.3,
+    "500": 69.3,
+    "700": 152,
+    "1000": 320.3
+   },
+   "netWorthAt": {
+    "150": 427.7,
+    "300": 836,
+    "500": 1530.7
+   },
+   "firstCapture": 27.7,
+   "firstTribute": 482.7,
+   "capturesPer100": 3.2,
+   "gemsPerCapture": 7.3,
+   "goldPerCapture": 58.4,
+   "grouping": 0.6,
+   "enemySideFrac": 0.2,
+   "activity": {
+    "Cassi": {
+     "walk": 0.545,
+     "dead": 0.389,
+     "idle": 0.046,
+     "farm": 0.013,
+     "recall": 0.007
+    },
+    "_all": {
+     "walk": 0.643,
+     "farm": 0.115,
+     "dead": 0.108,
+     "idle": 0.083,
+     "recall": 0.03,
+     "fight": 0.012,
+     "tribute": 0.01
+    },
+    "Issac": {
+     "walk": 0.524,
+     "dead": 0.389,
+     "idle": 0.04,
+     "farm": 0.03,
+     "recall": 0.017
+    },
+    "Ren": {
+     "walk": 0.6,
+     "dead": 0.194,
+     "farm": 0.104,
+     "idle": 0.053,
+     "recall": 0.025,
+     "fight": 0.019,
+     "tribute": 0.005
+    },
+    "Stellar": {
+     "walk": 0.862,
+     "recall": 0.066,
+     "idle": 0.055,
+     "farm": 0.017
+    },
+    "Tavi": {
+     "walk": 0.602,
+     "dead": 0.302,
+     "idle": 0.04,
+     "farm": 0.04,
+     "recall": 0.016
+    },
+    "Varg": {
+     "walk": 0.664,
+     "farm": 0.145,
+     "dead": 0.08,
+     "idle": 0.067,
+     "recall": 0.029,
+     "tribute": 0.008,
+     "fight": 0.007
+    },
+    "HeartOfRuin": {
+     "walk": 0.654,
+     "farm": 0.154,
+     "idle": 0.112,
+     "recall": 0.032,
+     "tribute": 0.02,
+     "dead": 0.018,
+     "fight": 0.011
+    },
+    "VesperVale": {
+     "walk": 0.604,
+     "farm": 0.185,
+     "idle": 0.091,
+     "dead": 0.05,
+     "fight": 0.03,
+     "recall": 0.027,
+     "tribute": 0.013
+    },
+    "Ryth": {
+     "walk": 0.667,
+     "farm": 0.117,
+     "idle": 0.103,
+     "recall": 0.038,
+     "dead": 0.037,
+     "tribute": 0.021,
+     "fight": 0.017
+    },
+    "Marcella": {
+     "walk": 0.71,
+     "farm": 0.141,
+     "idle": 0.11,
+     "recall": 0.027,
+     "tribute": 0.01,
+     "fight": 0.001
+    },
+    "Vendetta": {
+     "walk": 0.66,
+     "idle": 0.129,
+     "farm": 0.125,
+     "recall": 0.039,
+     "dead": 0.018,
+     "fight": 0.015,
+     "tribute": 0.013
+    }
+   }
+  },
+  "01gold_rush": {
+   "games": 3,
+   "winRate": 0.33,
+   "avgRounds": 2000,
+   "tributedAt": {
+    "100": 7.3,
+    "200": 14.7,
+    "300": 25.7,
+    "400": 44,
+    "500": 58.7,
+    "700": 106.3,
+    "1000": 179.7
+   },
+   "netWorthAt": {
+    "150": 304,
+    "300": 635,
+    "500": 1403.3
+   },
+   "firstCapture": 40,
+   "firstTribute": 183,
+   "capturesPer100": 4.8,
+   "gemsPerCapture": 3.1,
+   "goldPerCapture": 32,
+   "grouping": 0.6,
+   "enemySideFrac": 0.5,
+   "activity": {
+    "Varg": {
+     "walk": 0.415,
+     "dead": 0.244,
+     "idle": 0.181,
+     "farm": 0.132,
+     "recall": 0.017,
+     "tribute": 0.009,
+     "fight": 0.001
+    },
+    "_all": {
+     "walk": 0.455,
+     "dead": 0.235,
+     "idle": 0.133,
+     "farm": 0.104,
+     "recall": 0.036,
+     "fight": 0.023,
+     "tribute": 0.014
+    },
+    "Cassi": {
+     "walk": 0.402,
+     "dead": 0.363,
+     "idle": 0.171,
+     "farm": 0.038,
+     "fight": 0.012,
+     "recall": 0.007,
+     "tribute": 0.005
+    },
+    "Issac": {
+     "dead": 0.36,
+     "walk": 0.349,
+     "idle": 0.163,
+     "farm": 0.112,
+     "recall": 0.01,
+     "tribute": 0.004
+    },
+    "Ryth": {
+     "walk": 0.477,
+     "idle": 0.17,
+     "dead": 0.15,
+     "farm": 0.116,
+     "recall": 0.037,
+     "fight": 0.026,
+     "tribute": 0.023
+    },
+    "HeartOfRuin": {
+     "walk": 0.47,
+     "idle": 0.171,
+     "farm": 0.147,
+     "fight": 0.07,
+     "recall": 0.062,
+     "dead": 0.06,
+     "tribute": 0.018
+    },
+    "VesperVale": {
+     "walk": 0.52,
+     "dead": 0.153,
+     "idle": 0.118,
+     "farm": 0.088,
+     "recall": 0.067,
+     "fight": 0.03,
+     "tribute": 0.025
+    },
+    "Ren": {
+     "walk": 0.43,
+     "dead": 0.413,
+     "farm": 0.077,
+     "idle": 0.039,
+     "recall": 0.025,
+     "fight": 0.01,
+     "tribute": 0.005
+    },
+    "Tavi": {
+     "walk": 0.489,
+     "dead": 0.301,
+     "farm": 0.127,
+     "recall": 0.032,
+     "idle": 0.025,
+     "fight": 0.023,
+     "tribute": 0.002
+    }
+   }
+  },
+  "01hooks": {
+   "games": 3,
+   "winRate": 0.33,
+   "avgRounds": 1311.7,
+   "tributedAt": {
+    "100": 14.7,
+    "200": 18.3,
+    "300": 25.7,
+    "400": 33,
+    "500": 40.3,
+    "700": 84.3,
+    "1000": 179.7
+   },
+   "netWorthAt": {
+    "150": 300,
+    "300": 756,
+    "500": 1406
+   },
+   "firstCapture": 21,
+   "firstTribute": 168.7,
+   "capturesPer100": 4.4,
+   "gemsPerCapture": 2.6,
+   "goldPerCapture": 29.1,
+   "grouping": 1.1,
+   "enemySideFrac": 0.1,
+   "activity": {
+    "Cassi": {
+     "dead": 0.65,
+     "walk": 0.218,
+     "idle": 0.096,
+     "farm": 0.013,
+     "fight": 0.013,
+     "recall": 0.01
+    },
+    "_all": {
+     "walk": 0.395,
+     "dead": 0.303,
+     "idle": 0.128,
+     "fight": 0.062,
+     "farm": 0.056,
+     "recall": 0.046,
+     "tribute": 0.009
+    },
+    "Issac": {
+     "dead": 0.647,
+     "walk": 0.18,
+     "idle": 0.138,
+     "recall": 0.024,
+     "farm": 0.007,
+     "fight": 0.003
+    },
+    "Ren": {
+     "dead": 0.588,
+     "walk": 0.225,
+     "idle": 0.122,
+     "farm": 0.04,
+     "recall": 0.015,
+     "fight": 0.01
+    },
+    "Stellar": {
+     "dead": 0.582,
+     "walk": 0.239,
+     "idle": 0.114,
+     "fight": 0.027,
+     "farm": 0.024,
+     "recall": 0.014
+    },
+    "Tavi": {
+     "dead": 0.423,
+     "walk": 0.35,
+     "idle": 0.101,
+     "fight": 0.049,
+     "farm": 0.048,
+     "recall": 0.026,
+     "tribute": 0.004
+    },
+    "HeartOfRuin": {
+     "walk": 0.474,
+     "idle": 0.157,
+     "dead": 0.128,
+     "fight": 0.101,
+     "farm": 0.068,
+     "recall": 0.059,
+     "tribute": 0.013
+    },
+    "VesperVale": {
+     "walk": 0.486,
+     "idle": 0.151,
+     "farm": 0.113,
+     "fight": 0.088,
+     "dead": 0.085,
+     "recall": 0.064,
+     "tribute": 0.012
+    },
+    "Ryth": {
+     "walk": 0.513,
+     "idle": 0.144,
+     "fight": 0.094,
+     "dead": 0.079,
+     "recall": 0.075,
+     "farm": 0.064,
+     "tribute": 0.031
+    },
+    "Marcella": {
+     "walk": 0.48,
+     "idle": 0.152,
+     "dead": 0.12,
+     "fight": 0.094,
+     "recall": 0.08,
+     "farm": 0.056,
+     "tribute": 0.019
+    },
+    "Varg": {
+     "walk": 0.475,
+     "dead": 0.366,
+     "idle": 0.05,
+     "recall": 0.041,
+     "fight": 0.038,
+     "farm": 0.03
+    }
+   }
+  },
+  "01islands": {
+   "games": 3,
+   "winRate": 0.33,
+   "avgRounds": 1137.3,
+   "tributedAt": {
+    "100": 25,
+    "200": 73.7,
+    "300": 156.7,
+    "400": 176.7,
+    "500": 208,
+    "700": 374.7,
+    "1000": 543.3
+   },
+   "netWorthAt": {
+    "150": 426.3,
+    "300": 1031.3,
+    "500": 1757.7
+   },
+   "firstCapture": 17.3,
+   "firstTribute": 71.3,
+   "capturesPer100": 2.4,
+   "gemsPerCapture": 10.7,
+   "goldPerCapture": 67.7,
+   "grouping": 1.2,
+   "enemySideFrac": 0.1,
+   "activity": {
+    "HeartOfRuin": {
+     "walk": 0.571,
+     "dead": 0.14,
+     "farm": 0.131,
+     "idle": 0.084,
+     "fight": 0.035,
+     "recall": 0.031,
+     "tribute": 0.008
+    },
+    "_all": {
+     "walk": 0.564,
+     "farm": 0.138,
+     "idle": 0.12,
+     "dead": 0.092,
+     "recall": 0.049,
+     "fight": 0.027,
+     "tribute": 0.011
+    },
+    "VesperVale": {
+     "walk": 0.521,
+     "farm": 0.214,
+     "idle": 0.159,
+     "recall": 0.052,
+     "fight": 0.039,
+     "tribute": 0.014
+    },
+    "Willow": {
+     "walk": 0.704,
+     "farm": 0.127,
+     "dead": 0.055,
+     "recall": 0.048,
+     "idle": 0.03,
+     "fight": 0.029,
+     "tribute": 0.006
+    },
+    "Ren": {
+     "walk": 0.524,
+     "farm": 0.146,
+     "dead": 0.116,
+     "idle": 0.105,
+     "recall": 0.069,
+     "fight": 0.026,
+     "tribute": 0.013
+    },
+    "Tavi": {
+     "walk": 0.583,
+     "farm": 0.158,
+     "idle": 0.092,
+     "dead": 0.087,
+     "fight": 0.044,
+     "recall": 0.025,
+     "tribute": 0.011
+    },
+    "Cassi": {
+     "walk": 0.535,
+     "dead": 0.182,
+     "idle": 0.134,
+     "farm": 0.103,
+     "recall": 0.035,
+     "tribute": 0.006,
+     "fight": 0.005
+    },
+    "Issac": {
+     "walk": 0.535,
+     "dead": 0.182,
+     "idle": 0.144,
+     "farm": 0.074,
+     "recall": 0.06,
+     "tribute": 0.005
+    },
+    "Stellar": {
+     "walk": 0.541,
+     "idle": 0.151,
+     "farm": 0.125,
+     "dead": 0.122,
+     "recall": 0.056,
+     "fight": 0.004
+    },
+    "Varg": {
+     "walk": 0.46,
+     "dead": 0.241,
+     "idle": 0.174,
+     "farm": 0.078,
+     "recall": 0.035,
+     "fight": 0.009,
+     "tribute": 0.003
+    },
+    "Ryth": {
+     "walk": 0.667,
+     "idle": 0.118,
+     "farm": 0.108,
+     "recall": 0.054,
+     "fight": 0.041,
+     "tribute": 0.013
+    },
+    "Marcella": {
+     "walk": 0.617,
+     "farm": 0.131,
+     "idle": 0.117,
+     "recall": 0.053,
+     "dead": 0.045,
+     "tribute": 0.025,
+     "fight": 0.012
+    },
+    "Vendetta": {
+     "walk": 0.528,
+     "idle": 0.16,
+     "farm": 0.137,
+     "recall": 0.079,
+     "dead": 0.046,
+     "fight": 0.03,
+     "tribute": 0.02
+    }
+   }
+  },
+  "01shortcut": {
+   "games": 2,
+   "winRate": 0.5,
+   "avgRounds": 1468.5,
+   "tributedAt": {
+    "100": 0,
+    "200": 36.5,
+    "300": 68.5,
+    "400": 129,
+    "500": 243,
+    "700": 383.5,
+    "1000": 677
+   },
+   "netWorthAt": {
+    "150": 402,
+    "300": 786,
+    "500": 1433
+   },
+   "firstCapture": 11.5,
+   "firstTribute": 134,
+   "capturesPer100": 2.7,
+   "gemsPerCapture": 11.4,
+   "goldPerCapture": 38.2,
+   "grouping": 0.4,
+   "enemySideFrac": 0.1,
+   "activity": {
+    "HeartOfRuin": {
+     "walk": 0.636,
+     "dead": 0.107,
+     "farm": 0.102,
+     "idle": 0.067,
+     "fight": 0.052,
+     "recall": 0.019,
+     "tribute": 0.017
+    },
+    "_all": {
+     "walk": 0.626,
+     "dead": 0.114,
+     "farm": 0.112,
+     "idle": 0.068,
+     "fight": 0.037,
+     "recall": 0.026,
+     "tribute": 0.016
+    },
+    "VesperVale": {
+     "walk": 0.626,
+     "farm": 0.15,
+     "idle": 0.075,
+     "recall": 0.05,
+     "fight": 0.048,
+     "tribute": 0.031,
+     "dead": 0.021
+    },
+    "Ryth": {
+     "walk": 0.645,
+     "idle": 0.155,
+     "farm": 0.144,
+     "recall": 0.027,
+     "tribute": 0.016,
+     "fight": 0.014
+    },
+    "Marcella": {
+     "walk": 0.608,
+     "dead": 0.165,
+     "farm": 0.108,
+     "idle": 0.062,
+     "fight": 0.025,
+     "recall": 0.022,
+     "tribute": 0.01
+    },
+    "Ren": {
+     "walk": 0.63,
+     "dead": 0.241,
+     "farm": 0.059,
+     "fight": 0.028,
+     "idle": 0.026,
+     "recall": 0.01,
+     "tribute": 0.004
+    }
+   }
+  },
+  "01starfish": {
+   "games": 2,
+   "winRate": 0,
+   "avgRounds": 1163.5,
+   "tributedAt": {
+    "100": 6,
+    "200": 21.5,
+    "300": 25.5,
+    "400": 45.5,
+    "500": 57,
+    "700": 95,
+    "1000": 112.5
+   },
+   "netWorthAt": {
+    "150": 464,
+    "300": 821,
+    "500": 1327.5
+   },
+   "firstCapture": 63.5,
+   "firstTribute": 101,
+   "capturesPer100": 2.6,
+   "gemsPerCapture": 4.5,
+   "goldPerCapture": 57.1,
+   "grouping": 1.1,
+   "enemySideFrac": 0.1,
+   "activity": {
+    "HeartOfRuin": {
+     "walk": 0.431,
+     "dead": 0.286,
+     "farm": 0.108,
+     "fight": 0.076,
+     "idle": 0.058,
+     "recall": 0.037,
+     "tribute": 0.003
+    },
+    "_all": {
+     "walk": 0.465,
+     "dead": 0.263,
+     "farm": 0.101,
+     "fight": 0.07,
+     "idle": 0.054,
+     "recall": 0.043,
+     "tribute": 0.003
+    },
+    "VesperVale": {
+     "walk": 0.445,
+     "dead": 0.232,
+     "fight": 0.1,
+     "farm": 0.1,
+     "idle": 0.067,
+     "recall": 0.049,
+     "tribute": 0.007
+    },
+    "Ryth": {
+     "walk": 0.444,
+     "dead": 0.365,
+     "fight": 0.06,
+     "farm": 0.057,
+     "idle": 0.051,
+     "recall": 0.023
+    },
+    "Marcella": {
+     "walk": 0.49,
+     "dead": 0.226,
+     "farm": 0.107,
+     "fight": 0.076,
+     "idle": 0.053,
+     "recall": 0.043,
+     "tribute": 0.005
+    },
+    "Vendetta": {
+     "walk": 0.54,
+     "farm": 0.136,
+     "dead": 0.103,
+     "idle": 0.089,
+     "recall": 0.078,
+     "fight": 0.052,
+     "tribute": 0.002
+    },
+    "Ren": {
+     "walk": 0.495,
+     "dead": 0.311,
+     "farm": 0.089,
+     "recall": 0.043,
+     "fight": 0.031,
+     "idle": 0.03,
+     "tribute": 0.001
+    },
+    "Stellar": {
+     "walk": 0.438,
+     "dead": 0.363,
+     "farm": 0.101,
+     "fight": 0.05,
+     "recall": 0.03,
+     "idle": 0.017,
+     "tribute": 0.001
+    }
+   }
+  },
+  "01starvation": {
+   "games": 2,
+   "winRate": 0.5,
+   "avgRounds": 1896,
+   "tributedAt": {
+    "100": 0,
+    "200": 28,
+    "300": 32,
+    "400": 32,
+    "500": 32,
+    "700": 80,
+    "1000": 112
+   },
+   "netWorthAt": {
+    "150": 284.5,
+    "300": 587,
+    "500": 1096.5
+   },
+   "firstCapture": 57.5,
+   "firstTribute": 149,
+   "capturesPer100": 2.8,
+   "gemsPerCapture": 5.2,
+   "goldPerCapture": 20.4,
+   "grouping": 0.5,
+   "enemySideFrac": 0.1,
+   "activity": {
+    "HeartOfRuin": {
+     "walk": 0.693,
+     "idle": 0.089,
+     "dead": 0.079,
+     "fight": 0.062,
+     "farm": 0.046,
+     "recall": 0.026,
+     "tribute": 0.006
+    },
+    "_all": {
+     "walk": 0.685,
+     "dead": 0.103,
+     "idle": 0.076,
+     "fight": 0.055,
+     "farm": 0.049,
+     "recall": 0.027,
+     "tribute": 0.004
+    },
+    "VesperVale": {
+     "walk": 0.634,
+     "dead": 0.112,
+     "idle": 0.092,
+     "fight": 0.069,
+     "farm": 0.057,
+     "recall": 0.03,
+     "tribute": 0.007
+    },
+    "Ryth": {
+     "walk": 0.641,
+     "idle": 0.102,
+     "dead": 0.091,
+     "fight": 0.084,
+     "farm": 0.057,
+     "recall": 0.022,
+     "tribute": 0.002
+    },
+    "Marcella": {
+     "walk": 0.715,
+     "dead": 0.111,
+     "idle": 0.053,
+     "fight": 0.049,
+     "farm": 0.043,
+     "recall": 0.023,
+     "tribute": 0.004
+    },
+    "Vendetta": {
+     "walk": 0.674,
+     "idle": 0.128,
+     "farm": 0.063,
+     "fight": 0.054,
+     "recall": 0.045,
+     "dead": 0.03,
+     "tribute": 0.004
+    },
+    "Ren": {
+     "walk": 0.731,
+     "dead": 0.134,
+     "farm": 0.046,
+     "idle": 0.036,
+     "recall": 0.027,
+     "fight": 0.025,
+     "tribute": 0.001
+    },
+    "Stellar": {
+     "walk": 0.727,
+     "dead": 0.18,
+     "farm": 0.034,
+     "fight": 0.025,
+     "recall": 0.021,
+     "idle": 0.012,
+     "tribute": 0.002
+    }
+   }
+  },
+  "01the_farm": {
+   "games": 2,
+   "winRate": 0.5,
+   "avgRounds": 1416,
+   "tributedAt": {
+    "100": 12.5,
+    "200": 58,
+    "300": 65,
+    "400": 139,
+    "500": 194,
+    "700": 314.5,
+    "1000": 571
+   },
+   "netWorthAt": {
+    "150": 321,
+    "300": 662.5,
+    "500": 1283
+   },
+   "firstCapture": 54.5,
+   "firstTribute": 125.5,
+   "capturesPer100": 2.2,
+   "gemsPerCapture": 14.5,
+   "goldPerCapture": 84.7,
+   "grouping": 0.4,
+   "enemySideFrac": 0,
+   "activity": {
+    "HeartOfRuin": {
+     "walk": 0.53,
+     "farm": 0.251,
+     "idle": 0.083,
+     "dead": 0.072,
+     "recall": 0.035,
+     "tribute": 0.022,
+     "fight": 0.007
+    },
+    "_all": {
+     "walk": 0.549,
+     "farm": 0.235,
+     "idle": 0.063,
+     "recall": 0.051,
+     "dead": 0.046,
+     "fight": 0.031,
+     "tribute": 0.026
+    },
+    "VesperVale": {
+     "walk": 0.504,
+     "farm": 0.247,
+     "recall": 0.065,
+     "dead": 0.064,
+     "idle": 0.048,
+     "fight": 0.04,
+     "tribute": 0.031
+    },
+    "Marcella": {
+     "walk": 0.613,
+     "farm": 0.206,
+     "idle": 0.059,
+     "recall": 0.052,
+     "fight": 0.045,
+     "tribute": 0.025
+    }
+   }
+  },
+  "01yellow_brick_road": {
+   "games": 2,
+   "winRate": 0,
+   "avgRounds": 1139,
+   "tributedAt": {
+    "100": 26.5,
+    "200": 58.5,
+    "300": 92.5,
+    "400": 191.5,
+    "500": 255.5,
+    "700": 497,
+    "1000": 767
+   },
+   "netWorthAt": {
+    "150": 739.5,
+    "300": 2050,
+    "500": 4306.5
+   },
+   "firstCapture": 45.5,
+   "firstTribute": 55.5,
+   "capturesPer100": 4.1,
+   "gemsPerCapture": 12.3,
+   "goldPerCapture": 114.8,
+   "grouping": 1,
+   "enemySideFrac": 0.1,
+   "activity": {
+    "HeartOfRuin": {
+     "walk": 0.34,
+     "farm": 0.322,
+     "idle": 0.211,
+     "recall": 0.043,
+     "fight": 0.032,
+     "dead": 0.026,
+     "tribute": 0.024
+    },
+    "_all": {
+     "walk": 0.311,
+     "idle": 0.283,
+     "farm": 0.248,
+     "dead": 0.069,
+     "recall": 0.048,
+     "tribute": 0.021,
+     "fight": 0.021
+    },
+    "VesperVale": {
+     "walk": 0.313,
+     "farm": 0.276,
+     "idle": 0.24,
+     "recall": 0.068,
+     "dead": 0.053,
+     "tribute": 0.034,
+     "fight": 0.016
+    },
+    "Ryth": {
+     "walk": 0.332,
+     "farm": 0.23,
+     "idle": 0.227,
+     "dead": 0.154,
+     "recall": 0.034,
+     "fight": 0.013,
+     "tribute": 0.01
+    },
+    "Marcella": {
+     "idle": 0.397,
+     "walk": 0.317,
+     "farm": 0.139,
+     "dead": 0.053,
+     "recall": 0.043,
+     "fight": 0.034,
+     "tribute": 0.018
+    },
+    "Vendetta": {
+     "idle": 0.417,
+     "walk": 0.292,
+     "farm": 0.225,
+     "recall": 0.051,
+     "tribute": 0.011,
+     "fight": 0.004
+    },
+    "Ren": {
+     "farm": 0.353,
+     "walk": 0.284,
+     "idle": 0.149,
+     "dead": 0.109,
+     "recall": 0.059,
+     "tribute": 0.035,
+     "fight": 0.01
+    },
+    "Stellar": {
+     "idle": 0.333,
+     "walk": 0.256,
+     "farm": 0.202,
+     "dead": 0.165,
+     "recall": 0.023,
+     "fight": 0.016,
+     "tribute": 0.005
+    }
+   }
+  }
+ }
+}

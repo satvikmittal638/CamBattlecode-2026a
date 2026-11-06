@@ -1,0 +1,137 @@
+{
+  "purpose": "Exploratory fixed-parameter history attribution and model compression, after the initial experiment. No retuning based on test scores; all variants reported.",
+  "tasks": {
+    "motion": {
+      "ablations": {
+        "own_history_only": {
+          "validation": {
+            "accuracy": 0.53898,
+            "balancedAccuracy": 0.47721,
+            "macroF1": 0.46928,
+            "n": 4271
+          },
+          "test": {
+            "accuracy": 0.52821,
+            "balancedAccuracy": 0.53337,
+            "macroF1": 0.50775,
+            "n": 5229
+          }
+        },
+        "enemy_history_only": {
+          "validation": {
+            "accuracy": 0.58464,
+            "balancedAccuracy": 0.53874,
+            "macroF1": 0.52192,
+            "n": 4271
+          },
+          "test": {
+            "accuracy": 0.60184,
+            "balancedAccuracy": 0.6059,
+            "macroF1": 0.57757,
+            "n": 5229
+          }
+        }
+      },
+      "students": {
+        "depth5": {
+          "nodes": 57,
+          "depth": 5,
+          "scores": {
+            "validation": {
+              "accuracy": 0.46312,
+              "balancedAccuracy": 0.47153,
+              "macroF1": 0.43205,
+              "n": 4271
+            },
+            "test": {
+              "accuracy": 0.49608,
+              "balancedAccuracy": 0.52708,
+              "macroF1": 0.48357,
+              "n": 5229
+            }
+          }
+        },
+        "depth8": {
+          "nodes": 199,
+          "depth": 8,
+          "scores": {
+            "validation": {
+              "accuracy": 0.49848,
+              "balancedAccuracy": 0.45571,
+              "macroF1": 0.44,
+              "n": 4271
+            },
+            "test": {
+              "accuracy": 0.53108,
+              "balancedAccuracy": 0.54146,
+              "macroF1": 0.51232,
+              "n": 5229
+            }
+          }
+        }
+      },
+      "selectedStudent": "depth8"
+    },
+    "action": {
+      "ablations": {},
+      "students": {
+        "depth5": {
+          "nodes": 47,
+          "depth": 5,
+          "scores": {
+            "validation": {
+              "accuracy": 0.7146,
+              "balancedAccuracy": 0.66888,
+              "macroF1": 0.58876,
+              "n": 10375
+            },
+            "test": {
+              "accuracy": 0.78942,
+              "balancedAccuracy": 0.72067,
+              "macroF1": 0.65337,
+              "n": 17846
+            },
+            "test_fish": {
+              "accuracy": 0.7679,
+              "balancedAccuracy": 0.66407,
+              "macroF1": 0.56095,
+              "n": 44411
+            }
+          }
+        },
+        "depth8": {
+          "nodes": 227,
+          "depth": 8,
+          "scores": {
+            "validation": {
+              "accuracy": 0.66014,
+              "balancedAccuracy": 0.70546,
+              "macroF1": 0.54463,
+              "n": 10375
+            },
+            "test": {
+              "accuracy": 0.71108,
+              "balancedAccuracy": 0.78297,
+              "macroF1": 0.58378,
+              "n": 17846
+            },
+            "test_fish": {
+              "accuracy": 0.68249,
+              "balancedAccuracy": 0.7654,
+              "macroF1": 0.52174,
+              "n": 44411
+            }
+          }
+        }
+      },
+      "selectedStudent": "depth5"
+    }
+  },
+  "cppParity": {
+    "heldOutVectors": 6000,
+    "mismatches": 0,
+    "maxComparisonsPerPrediction": 8,
+    "caveat": "Only inference code was cross-checked; full in-game feature extraction and Wasm fuel were not benchmarked."
+  },
+  "methodologyCaveat": "Initial motion ablations used raw-column HistGradientBoost instead of the main pilot preprocessing. Those attribution scores are confounded. Use confirmation/results.json ablations, which share identical preprocessing. Tree compression and C++ parity results are unaffected."
+}

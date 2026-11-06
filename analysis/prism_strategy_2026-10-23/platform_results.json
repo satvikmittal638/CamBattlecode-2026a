@@ -1,0 +1,51 @@
+{
+  "at": "2026-10-23T17:17:06.679Z",
+  "target": {
+    "id": "9cad0a59-0831-47dd-80c5-3deeeb2da945",
+    "version": 59,
+    "bot": "prism-tempo",
+    "note": "Prism gem capital, defensive scaling and timed conversion",
+    "at": "2026-10-23T17:01:41.877Z",
+    "sourceVerified": true
+  },
+  "cohorts": {
+    "near_our_rank": {
+      "games": 50,
+      "wins": 18,
+      "sets": 10,
+      "setWins": 4,
+      "meanMargin": -155.42,
+      "heavyLosses": 17,
+      "rankRange": [
+        61,
+        71
+      ]
+    },
+    "near_half_rank": {
+      "games": 50,
+      "wins": 11,
+      "sets": 10,
+      "setWins": 1,
+      "meanMargin": -400.14,
+      "heavyLosses": 26,
+      "rankRange": [
+        28,
+        37
+      ]
+    },
+    "top_stress": {
+      "games": 25,
+      "wins": 0,
+      "sets": 5,
+      "setWins": 0,
+      "meanMargin": -708.56,
+      "heavyLosses": 18,
+      "rankRange": [
+        1,
+        5
+      ]
+    }
+  },
+  "totalGames": 125,
+  "gameWins": 29
+}

@@ -1,0 +1,17 @@
+import { openAtTurn } from './replay_state.mjs';
+import { STEP_KINDS } from '../../../tools/replay_dump.mjs';
+const [file, round, team, type] = [process.argv[2], +process.argv[3], +process.argv[4], process.argv[5]];
+const s = await openAtTurn(file, { round, team, type });
+const { eng, game, champion } = s; const E = eng.exp, V = () => eng.view;
+const persp = E.Engine_Malloc(64), out = E.Engine_Malloc(8192);
+V().setUint32(persp, team, true); V().setUint32(persp + 4, champion.entity.index, true);
+const err = (c) => (c === 0 ? 'ok' : `err ${c} ${eng.cstr(E.GetLastErrorMsg())}`);
+const rs = () => { E.Game_Runner_GetState(game, out); return Array.from({length:8},(_,k)=>V().getInt32(out+4*k,true)).join(','); };
+const pos = () => { E.Game_API_Champion_Get(game, persp, champion.entity.index, out); return [V().getInt32(out + 8, true), V().getInt32(out + 12, true)]; };
+console.log('start', rs(), pos());
+console.log('Init', err(E.Game_Runner_Init(game)), rs());
+console.log('Move', err(E.Game_Action_Move(game, champion.position.x + 1, champion.position.y + 0, out)), pos(), rs());
+console.log('Advance', err(E.Game_Runner_Advance(game)), rs());
+console.log('Move', err(E.Game_Action_Move(game, champion.position.x + 1, champion.position.y + 0, out)), pos(), rs());
+console.log('Step', err(E.Game_Runner_Step(game)), rs());
+console.log('Move', err(E.Game_Action_Move(game, champion.position.x + 1, champion.position.y + 0, out)), pos(), rs());

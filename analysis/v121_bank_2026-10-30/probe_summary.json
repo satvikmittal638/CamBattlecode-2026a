@@ -1,0 +1,99 @@
+[
+  {
+    "case": "near_r115_04",
+    "exit": 0,
+    "final": {
+      "final": true,
+      "round": 1493,
+      "outcome": 1,
+      "submitted": [
+        1369,
+        0
+      ]
+    },
+    "stages": {
+      "opening": 30,
+      "v1-camp-actions": 3915,
+      "low": 516,
+      "v1-spawn-heal": 67,
+      "route-step": 1390,
+      "farm": 216,
+      "x-commit": 4,
+      "x-shop-recall": 185,
+      "v1-score-budget": 200,
+      "route": 60,
+      "capture-yield": 14,
+      "iterate-camp-hit": 99,
+      "v1-cycle": 224,
+      "gate-assault": 12,
+      "v1-burst-escape": 41,
+      "v1-assigned-help": 12,
+      "repair-focus-escape": 38,
+      "route-budget": 21,
+      "reset": 60,
+      "outmatched-step": 11,
+      "stunned": 10,
+      "route-unreachable": 9,
+      "fight": 79,
+      "v1-two-turn-fight": 29,
+      "x-recall-guard": 2,
+      "route-occupied": 4,
+      "v36-heart-control": 1,
+      "v41-affordable-task": 19,
+      "v1-reserve-step": 4,
+      "v1-winning-bank": 173,
+      "bridge-wait-cooldown": 2,
+      "none": 1,
+      "bridge-plan-launch": 1,
+      "bridge-launch-blocked": 1,
+      "bridge-replan": 1,
+      "main": 10
+    },
+    "errors": 0
+  },
+  {
+    "case": "strong_r54_01",
+    "exit": 0,
+    "final": {
+      "final": true,
+      "round": 1346,
+      "outcome": 2,
+      "submitted": [
+        272,
+        1016
+      ]
+    },
+    "stages": {
+      "opening": 30,
+      "v1-camp-actions": 3437,
+      "low": 590,
+      "v1-spawn-heal": 64,
+      "route-step": 1249,
+      "capture-yield": 31,
+      "farm": 213,
+      "x-shop-recall": 170,
+      "v1-cycle": 132,
+      "x-commit": 7,
+      "route": 83,
+      "iterate-camp-hit": 81,
+      "v1-score-budget": 97,
+      "v41-affordable-task": 14,
+      "v1-reserve-step": 14,
+      "route-blocked": 4,
+      "v1-burst-escape": 7,
+      "fight": 33,
+      "v36-heart-control": 1,
+      "stunned": 3,
+      "v1-two-turn-fight": 11,
+      "outmatched-step": 8,
+      "x-melee-parting": 61,
+      "reset": 33,
+      "bank-unlock": 325,
+      "route-budget": 19,
+      "gate-assault": 1,
+      "v1-assigned-help": 2,
+      "main": 5
+    },
+    "errors": 0
+  }
+]

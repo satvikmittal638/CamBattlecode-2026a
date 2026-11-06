@@ -1,0 +1,811 @@
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf9f731f-v54-frozen
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/dmitt/Library/Caches/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf9f731f-v54-frozen/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf9f731f-v54-frozen/src/boss/draft.cpp.obj
+[2/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf9f731f-v54-frozen/src/boss_main.cpp.obj
+[3/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf9f731f-v54-frozen/src/draft.cpp.obj
+[4/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf9f731f-v54-frozen/src/main.cpp.obj
+[5/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf9f731f-v54-frozen/src/boss/bot.cpp.obj
+[6/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf9f731f-v54-frozen/src/bot.cpp.obj
+[7/8] Linking CXX executable bot.wasm
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf9f731f-mimic-shink
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/dmitt/Library/Caches/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf9f731f-mimic-shink/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf9f731f-mimic-shink/src/main.cpp.obj
+[2/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf9f731f-mimic-shink/src/draft.cpp.obj
+/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf9f731f-mimic-shink/src/draft.cpp:24:23: warning: enumeration value 'golem' not handled in switch [-Wswitch]
+   24 |             switch (c.kind()) {
+      |                     ~~^~~~~~
+1 warning generated.
+[3/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf9f731f-mimic-shink/src/bot.cpp.obj
+[4/5] Linking CXX executable bot.wasm
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf9f731f-mimic-whim
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/dmitt/Library/Caches/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf9f731f-mimic-whim/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf9f731f-mimic-whim/src/main.cpp.obj
+[2/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf9f731f-mimic-whim/src/draft.cpp.obj
+[3/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf9f731f-mimic-whim/src/bot.cpp.obj
+[4/5] Linking CXX executable bot.wasm
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf9f731f-codex-v55
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/dmitt/Library/Caches/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf9f731f-codex-v55/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf9f731f-codex-v55/src/boss_main.cpp.obj
+[2/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf9f731f-codex-v55/src/boss/draft.cpp.obj
+[3/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf9f731f-codex-v55/src/main.cpp.obj
+[4/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf9f731f-codex-v55/src/draft.cpp.obj
+[5/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf9f731f-codex-v55/src/boss/bot.cpp.obj
+[6/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf9f731f-codex-v55/src/bot.cpp.obj
+[7/8] Linking CXX executable bot.wasm
+[|] STARTING  vf9f731f-v54-frozen vs vf9f731f-mimic-shink  h14_collision
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_h14_collision/a.repl26a
+[|] STARTING  vf9f731f-mimic-shink vs vf9f731f-v54-frozen  h14_collision
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_h14_collision/b.repl26a
+[|] STARTING  vf9f731f-v54-frozen vs vf9f731f-mimic-shink  h14_corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_h14_corners/a.repl26a
+[|] STARTING  vf9f731f-mimic-shink vs vf9f731f-v54-frozen  h14_corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_h14_corners/b.repl26a
+[|] STARTING  vf9f731f-v54-frozen vs vf9f731f-mimic-shink  h14_elkring
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_h14_elkring/a.repl26a
+[|] STARTING  vf9f731f-mimic-shink vs vf9f731f-v54-frozen  h14_elkring
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_h14_elkring/b.repl26a
+[+] TEAM A WIN (vf9f731f-v54-frozen)  vf9f731f-v54-frozen vs vf9f731f-mimic-shink  h14_collision  Round 1266/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_h14_collision/a.repl26a
+[+] TEAM B WIN (vf9f731f-v54-frozen)  vf9f731f-mimic-shink vs vf9f731f-v54-frozen  h14_elkring  Round 0912/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_h14_elkring/b.repl26a
+[|] STARTING  vf9f731f-v54-frozen vs vf9f731f-mimic-shink  h14_expanse
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_h14_expanse/a.repl26a
+[|] STARTING  vf9f731f-mimic-shink vs vf9f731f-v54-frozen  h14_expanse
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_h14_expanse/b.repl26a
+[+] TEAM B WIN (vf9f731f-v54-frozen)  vf9f731f-mimic-shink vs vf9f731f-v54-frozen  h14_collision  Round 1348/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_h14_collision/b.repl26a
+[|] STARTING  vf9f731f-v54-frozen vs vf9f731f-mimic-shink  h14_interlock
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_h14_interlock/a.repl26a
+[+] TEAM A WIN (vf9f731f-v54-frozen)  vf9f731f-v54-frozen vs vf9f731f-mimic-shink  h14_elkring  Round 0986/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_h14_elkring/a.repl26a
+[|] STARTING  vf9f731f-mimic-shink vs vf9f731f-v54-frozen  h14_interlock
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_h14_interlock/b.repl26a
+[+] TEAM A WIN (vf9f731f-v54-frozen)  vf9f731f-v54-frozen vs vf9f731f-mimic-shink  h14_corners  Round 1050/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_h14_corners/a.repl26a
+[+] TEAM B WIN (vf9f731f-v54-frozen)  vf9f731f-mimic-shink vs vf9f731f-v54-frozen  h14_corners  Round 0997/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_h14_corners/b.repl26a
+[|] STARTING  vf9f731f-v54-frozen vs vf9f731f-mimic-shink  h14_lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_h14_lanes/a.repl26a
+[|] STARTING  vf9f731f-mimic-shink vs vf9f731f-v54-frozen  h14_lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_h14_lanes/b.repl26a
+[+] TEAM A WIN (vf9f731f-v54-frozen)  vf9f731f-v54-frozen vs vf9f731f-mimic-shink  h14_expanse  Round 1134/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_h14_expanse/a.repl26a
+[+] TEAM B WIN (vf9f731f-v54-frozen)  vf9f731f-mimic-shink vs vf9f731f-v54-frozen  h14_expanse  Round 1077/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_h14_expanse/b.repl26a
+[|] STARTING  vf9f731f-v54-frozen vs vf9f731f-mimic-shink  h14_monolith
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_h14_monolith/a.repl26a
+[|] STARTING  vf9f731f-mimic-shink vs vf9f731f-v54-frozen  h14_monolith
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_h14_monolith/b.repl26a
+[+] TEAM A WIN (vf9f731f-v54-frozen)  vf9f731f-v54-frozen vs vf9f731f-mimic-shink  h14_interlock  Round 1290/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_h14_interlock/a.repl26a
+[+] TEAM B WIN (vf9f731f-v54-frozen)  vf9f731f-mimic-shink vs vf9f731f-v54-frozen  h14_interlock  Round 1212/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_h14_interlock/b.repl26a
+[|] STARTING  vf9f731f-v54-frozen vs vf9f731f-mimic-shink  h14_packs
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_h14_packs/a.repl26a
+[|] STARTING  vf9f731f-mimic-shink vs vf9f731f-v54-frozen  h14_packs
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_h14_packs/b.repl26a
+[+] TEAM B WIN (vf9f731f-mimic-shink)  vf9f731f-v54-frozen vs vf9f731f-mimic-shink  h14_lanes  Round 1099/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_h14_lanes/a.repl26a
+[|] STARTING  vf9f731f-v54-frozen vs vf9f731f-mimic-shink  h14_rows
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_h14_rows/a.repl26a
+[+] TEAM A WIN (vf9f731f-mimic-shink)  vf9f731f-mimic-shink vs vf9f731f-v54-frozen  h14_lanes  Round 1344/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_h14_lanes/b.repl26a
+[|] STARTING  vf9f731f-mimic-shink vs vf9f731f-v54-frozen  h14_rows
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_h14_rows/b.repl26a
+[+] TEAM A WIN (vf9f731f-v54-frozen)  vf9f731f-v54-frozen vs vf9f731f-mimic-shink  h14_packs  Round 1417/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_h14_packs/a.repl26a
+[|] STARTING  vf9f731f-v54-frozen vs vf9f731f-mimic-shink  hpw_ambush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_ambush/a.repl26a
+[+] TEAM B WIN (vf9f731f-v54-frozen)  vf9f731f-mimic-shink vs vf9f731f-v54-frozen  h14_packs  Round 1414/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_h14_packs/b.repl26a
+[|] STARTING  vf9f731f-mimic-shink vs vf9f731f-v54-frozen  hpw_ambush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_ambush/b.repl26a
+[+] TEAM A WIN (vf9f731f-v54-frozen)  vf9f731f-v54-frozen vs vf9f731f-mimic-shink  h14_monolith  Round 1717/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_h14_monolith/a.repl26a
+[|] STARTING  vf9f731f-v54-frozen vs vf9f731f-mimic-shink  hpw_collision
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_collision/a.repl26a
+[+] TEAM B WIN (vf9f731f-v54-frozen)  vf9f731f-mimic-shink vs vf9f731f-v54-frozen  h14_monolith  Round 1754/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_h14_monolith/b.repl26a
+[|] STARTING  vf9f731f-mimic-shink vs vf9f731f-v54-frozen  hpw_collision
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_collision/b.repl26a
+[+] TEAM B WIN (vf9f731f-mimic-shink)  vf9f731f-v54-frozen vs vf9f731f-mimic-shink  h14_rows  Round 1771/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_h14_rows/a.repl26a
+[|] STARTING  vf9f731f-v54-frozen vs vf9f731f-mimic-shink  hpw_contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_contest/a.repl26a
+[+] TEAM A WIN (vf9f731f-mimic-shink)  vf9f731f-mimic-shink vs vf9f731f-v54-frozen  h14_rows  Round 1758/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_h14_rows/b.repl26a
+[|] STARTING  vf9f731f-mimic-shink vs vf9f731f-v54-frozen  hpw_contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_contest/b.repl26a
+[+] TEAM B WIN (vf9f731f-v54-frozen)  vf9f731f-mimic-shink vs vf9f731f-v54-frozen  hpw_ambush  Round 1401/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_ambush/b.repl26a
+[|] STARTING  vf9f731f-v54-frozen vs vf9f731f-mimic-shink  hpw_corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_corners/a.repl26a
+[+] TEAM A WIN (vf9f731f-v54-frozen)  vf9f731f-v54-frozen vs vf9f731f-mimic-shink  hpw_ambush  Round 1502/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_ambush/a.repl26a
+[|] STARTING  vf9f731f-mimic-shink vs vf9f731f-v54-frozen  hpw_corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_corners/b.repl26a
+[+] TEAM B WIN (vf9f731f-v54-frozen)  vf9f731f-mimic-shink vs vf9f731f-v54-frozen  hpw_collision  Round 1301/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_collision/b.repl26a
+[|] STARTING  vf9f731f-v54-frozen vs vf9f731f-mimic-shink  hpw_eight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_eight/a.repl26a
+[+] TEAM A WIN (vf9f731f-v54-frozen)  vf9f731f-v54-frozen vs vf9f731f-mimic-shink  hpw_collision  Round 1417/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_collision/a.repl26a
+[|] STARTING  vf9f731f-mimic-shink vs vf9f731f-v54-frozen  hpw_eight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_eight/b.repl26a
+[+] TEAM A WIN (vf9f731f-v54-frozen)  vf9f731f-v54-frozen vs vf9f731f-mimic-shink  hpw_contest  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_contest/a.repl26a
+[+] TEAM A WIN (vf9f731f-v54-frozen)  vf9f731f-v54-frozen vs vf9f731f-mimic-shink  hpw_corners  Round 1008/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_corners/a.repl26a
+[+] TEAM B WIN (vf9f731f-v54-frozen)  vf9f731f-mimic-shink vs vf9f731f-v54-frozen  hpw_eight  Round 1058/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_eight/b.repl26a
+[|] STARTING  vf9f731f-v54-frozen vs vf9f731f-mimic-shink  hpw_expanse
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_expanse/a.repl26a
+[|] STARTING  vf9f731f-mimic-shink vs vf9f731f-v54-frozen  hpw_expanse
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_expanse/b.repl26a
+[|] STARTING  vf9f731f-v54-frozen vs vf9f731f-mimic-shink  hpw_fragment
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_fragment/a.repl26a
+[+] TEAM B WIN (vf9f731f-v54-frozen)  vf9f731f-mimic-shink vs vf9f731f-v54-frozen  hpw_corners  Round 1001/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_corners/b.repl26a
+[+] TEAM A WIN (vf9f731f-v54-frozen)  vf9f731f-v54-frozen vs vf9f731f-mimic-shink  hpw_eight  Round 1113/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_eight/a.repl26a
+[|] STARTING  vf9f731f-mimic-shink vs vf9f731f-v54-frozen  hpw_fragment
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_fragment/b.repl26a
+[|] STARTING  vf9f731f-v54-frozen vs vf9f731f-mimic-shink  hpw_interlock
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_interlock/a.repl26a
+[+] TEAM B WIN (vf9f731f-v54-frozen)  vf9f731f-mimic-shink vs vf9f731f-v54-frozen  hpw_contest  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_contest/b.repl26a
+[|] STARTING  vf9f731f-mimic-shink vs vf9f731f-v54-frozen  hpw_interlock
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_interlock/b.repl26a
+[+] TEAM B WIN (vf9f731f-v54-frozen)  vf9f731f-mimic-shink vs vf9f731f-v54-frozen  hpw_expanse  Round 1165/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_expanse/b.repl26a
+[|] STARTING  vf9f731f-v54-frozen vs vf9f731f-mimic-shink  hpw_lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_lanes/a.repl26a
+[+] TEAM A WIN (vf9f731f-v54-frozen)  vf9f731f-v54-frozen vs vf9f731f-mimic-shink  hpw_expanse  Round 1223/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_expanse/a.repl26a
+[|] STARTING  vf9f731f-mimic-shink vs vf9f731f-v54-frozen  hpw_lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_lanes/b.repl26a
+[+] TEAM A WIN (vf9f731f-v54-frozen)  vf9f731f-v54-frozen vs vf9f731f-mimic-shink  hpw_fragment  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_fragment/a.repl26a
+[|] STARTING  vf9f731f-v54-frozen vs vf9f731f-mimic-shink  hpw_packs
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_packs/a.repl26a
+[+] TEAM B WIN (vf9f731f-v54-frozen)  vf9f731f-mimic-shink vs vf9f731f-v54-frozen  hpw_fragment  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_fragment/b.repl26a
+[|] STARTING  vf9f731f-mimic-shink vs vf9f731f-v54-frozen  hpw_packs
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_packs/b.repl26a
+[+] TEAM A WIN (vf9f731f-v54-frozen)  vf9f731f-v54-frozen vs vf9f731f-mimic-shink  hpw_interlock  Round 1360/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_interlock/a.repl26a
+[|] STARTING  vf9f731f-v54-frozen vs vf9f731f-mimic-shink  hpw_pilgrimage
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_pilgrimage/a.repl26a
+[+] TEAM B WIN (vf9f731f-v54-frozen)  vf9f731f-mimic-shink vs vf9f731f-v54-frozen  hpw_interlock  Round 1355/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_interlock/b.repl26a
+[|] STARTING  vf9f731f-mimic-shink vs vf9f731f-v54-frozen  hpw_pilgrimage
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_pilgrimage/b.repl26a
+[+] TEAM B WIN (vf9f731f-v54-frozen)  vf9f731f-mimic-shink vs vf9f731f-v54-frozen  hpw_packs  Round 1218/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_packs/b.repl26a
+[|] STARTING  vf9f731f-v54-frozen vs vf9f731f-mimic-shink  hpw_rushbait_v2
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_rushbait_v2/a.repl26a
+[+] TEAM A WIN (vf9f731f-v54-frozen)  vf9f731f-v54-frozen vs vf9f731f-mimic-shink  hpw_packs  Round 1309/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_packs/a.repl26a
+[|] STARTING  vf9f731f-mimic-shink vs vf9f731f-v54-frozen  hpw_rushbait_v2
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_rushbait_v2/b.repl26a
+[+] TEAM A WIN (vf9f731f-v54-frozen)  vf9f731f-v54-frozen vs vf9f731f-mimic-shink  hpw_lanes  Round 1497/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_lanes/a.repl26a
+[|] STARTING  vf9f731f-v54-frozen vs vf9f731f-mimic-shink  hpw_stampede
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_stampede/a.repl26a
+[+] TEAM B WIN (vf9f731f-v54-frozen)  vf9f731f-mimic-shink vs vf9f731f-v54-frozen  hpw_lanes  Round 1563/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_lanes/b.repl26a
+[|] STARTING  vf9f731f-mimic-shink vs vf9f731f-v54-frozen  hpw_stampede
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_stampede/b.repl26a
+[+] TEAM A WIN (vf9f731f-v54-frozen)  vf9f731f-v54-frozen vs vf9f731f-mimic-shink  hpw_pilgrimage  Round 1741/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_pilgrimage/a.repl26a
+[|] STARTING  vf9f731f-v54-frozen vs vf9f731f-mimic-shink  hpw_swirl
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_swirl/a.repl26a
+[+] TEAM B WIN (vf9f731f-v54-frozen)  vf9f731f-mimic-shink vs vf9f731f-v54-frozen  hpw_pilgrimage  Round 1979/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_pilgrimage/b.repl26a
+[|] STARTING  vf9f731f-mimic-shink vs vf9f731f-v54-frozen  hpw_swirl
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_swirl/b.repl26a
+[+] TEAM B WIN (vf9f731f-mimic-shink)  vf9f731f-v54-frozen vs vf9f731f-mimic-shink  hpw_rushbait_v2  Round 1796/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_rushbait_v2/a.repl26a
+[|] STARTING  vf9f731f-v54-frozen vs vf9f731f-mimic-whim  h14_collision
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_h14_collision/a.repl26a
+[+] TEAM B WIN (vf9f731f-v54-frozen)  vf9f731f-mimic-shink vs vf9f731f-v54-frozen  hpw_rushbait_v2  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_rushbait_v2/b.repl26a
+[|] STARTING  vf9f731f-mimic-whim vs vf9f731f-v54-frozen  h14_collision
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_h14_collision/b.repl26a
+[+] TEAM A WIN (vf9f731f-v54-frozen)  vf9f731f-v54-frozen vs vf9f731f-mimic-shink  hpw_swirl  Round 1034/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_swirl/a.repl26a
+[+] TEAM B WIN (vf9f731f-v54-frozen)  vf9f731f-mimic-shink vs vf9f731f-v54-frozen  hpw_swirl  Round 0963/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_swirl/b.repl26a
+[+] TEAM A WIN (vf9f731f-v54-frozen)  vf9f731f-v54-frozen vs vf9f731f-mimic-whim  h14_collision  Round 1359/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_h14_collision/a.repl26a
+[|] STARTING  vf9f731f-v54-frozen vs vf9f731f-mimic-whim  h14_corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_h14_corners/a.repl26a
+[|] STARTING  vf9f731f-mimic-whim vs vf9f731f-v54-frozen  h14_corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_h14_corners/b.repl26a
+[|] STARTING  vf9f731f-v54-frozen vs vf9f731f-mimic-whim  h14_elkring
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_h14_elkring/a.repl26a
+[+] TEAM B WIN (vf9f731f-v54-frozen)  vf9f731f-mimic-whim vs vf9f731f-v54-frozen  h14_collision  Round 1348/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_h14_collision/b.repl26a
+[|] STARTING  vf9f731f-mimic-whim vs vf9f731f-v54-frozen  h14_elkring
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_h14_elkring/b.repl26a
+[+] TEAM A WIN (vf9f731f-v54-frozen)  vf9f731f-v54-frozen vs vf9f731f-mimic-shink  hpw_stampede  Round 1872/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_stampede/a.repl26a
+[|] STARTING  vf9f731f-v54-frozen vs vf9f731f-mimic-whim  h14_expanse
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_h14_expanse/a.repl26a
+[+] TEAM B WIN (vf9f731f-v54-frozen)  vf9f731f-mimic-shink vs vf9f731f-v54-frozen  hpw_stampede  Round 1832/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-shink/_maps_holdout_hpw_stampede/b.repl26a
+[|] STARTING  vf9f731f-mimic-whim vs vf9f731f-v54-frozen  h14_expanse
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_h14_expanse/b.repl26a
+[+] TEAM A WIN (vf9f731f-v54-frozen)  vf9f731f-v54-frozen vs vf9f731f-mimic-whim  h14_elkring  Round 1101/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_h14_elkring/a.repl26a
+[|] STARTING  vf9f731f-v54-frozen vs vf9f731f-mimic-whim  h14_interlock
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_h14_interlock/a.repl26a
+[+] TEAM A WIN (vf9f731f-v54-frozen)  vf9f731f-v54-frozen vs vf9f731f-mimic-whim  h14_corners  Round 0914/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_h14_corners/a.repl26a
+[+] TEAM B WIN (vf9f731f-v54-frozen)  vf9f731f-mimic-whim vs vf9f731f-v54-frozen  h14_elkring  Round 1069/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_h14_elkring/b.repl26a
+[|] STARTING  vf9f731f-mimic-whim vs vf9f731f-v54-frozen  h14_interlock
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_h14_interlock/b.repl26a
+[|] STARTING  vf9f731f-v54-frozen vs vf9f731f-mimic-whim  h14_lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_h14_lanes/a.repl26a
+[+] TEAM B WIN (vf9f731f-v54-frozen)  vf9f731f-mimic-whim vs vf9f731f-v54-frozen  h14_corners  Round 0941/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_h14_corners/b.repl26a
+[|] STARTING  vf9f731f-mimic-whim vs vf9f731f-v54-frozen  h14_lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_h14_lanes/b.repl26a
+[+] TEAM A WIN (vf9f731f-v54-frozen)  vf9f731f-v54-frozen vs vf9f731f-mimic-whim  h14_expanse  Round 1102/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_h14_expanse/a.repl26a
+[|] STARTING  vf9f731f-v54-frozen vs vf9f731f-mimic-whim  h14_monolith
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_h14_monolith/a.repl26a
+[+] TEAM B WIN (vf9f731f-v54-frozen)  vf9f731f-mimic-whim vs vf9f731f-v54-frozen  h14_expanse  Round 1116/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_h14_expanse/b.repl26a
+[|] STARTING  vf9f731f-mimic-whim vs vf9f731f-v54-frozen  h14_monolith
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_h14_monolith/b.repl26a
+[+] TEAM A WIN (vf9f731f-v54-frozen)  vf9f731f-v54-frozen vs vf9f731f-mimic-whim  h14_interlock  Round 1321/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_h14_interlock/a.repl26a
+[|] STARTING  vf9f731f-v54-frozen vs vf9f731f-mimic-whim  h14_packs
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_h14_packs/a.repl26a
+[+] TEAM B WIN (vf9f731f-v54-frozen)  vf9f731f-mimic-whim vs vf9f731f-v54-frozen  h14_interlock  Round 1294/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_h14_interlock/b.repl26a
+[|] STARTING  vf9f731f-mimic-whim vs vf9f731f-v54-frozen  h14_packs
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_h14_packs/b.repl26a
+[+] TEAM B WIN (vf9f731f-v54-frozen)  vf9f731f-mimic-whim vs vf9f731f-v54-frozen  h14_lanes  Round 1394/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_h14_lanes/b.repl26a
+[|] STARTING  vf9f731f-v54-frozen vs vf9f731f-mimic-whim  h14_rows
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_h14_rows/a.repl26a
+[+] TEAM A WIN (vf9f731f-v54-frozen)  vf9f731f-v54-frozen vs vf9f731f-mimic-whim  h14_lanes  Round 1470/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_h14_lanes/a.repl26a
+[|] STARTING  vf9f731f-mimic-whim vs vf9f731f-v54-frozen  h14_rows
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_h14_rows/b.repl26a
+[+] TEAM B WIN (vf9f731f-v54-frozen)  vf9f731f-mimic-whim vs vf9f731f-v54-frozen  h14_packs  Round 1234/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_h14_packs/b.repl26a
+[|] STARTING  vf9f731f-v54-frozen vs vf9f731f-mimic-whim  hpw_ambush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_ambush/a.repl26a
+[+] TEAM A WIN (vf9f731f-v54-frozen)  vf9f731f-v54-frozen vs vf9f731f-mimic-whim  h14_packs  Round 1269/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_h14_packs/a.repl26a
+[|] STARTING  vf9f731f-mimic-whim vs vf9f731f-v54-frozen  hpw_ambush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_ambush/b.repl26a
+[+] TEAM A WIN (vf9f731f-v54-frozen)  vf9f731f-v54-frozen vs vf9f731f-mimic-whim  h14_monolith  Round 1739/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_h14_monolith/a.repl26a
+[|] STARTING  vf9f731f-v54-frozen vs vf9f731f-mimic-whim  hpw_collision
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_collision/a.repl26a
+[+] TEAM B WIN (vf9f731f-v54-frozen)  vf9f731f-mimic-whim vs vf9f731f-v54-frozen  h14_monolith  Round 1709/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_h14_monolith/b.repl26a
+[|] STARTING  vf9f731f-mimic-whim vs vf9f731f-v54-frozen  hpw_collision
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_collision/b.repl26a
+[+] TEAM A WIN (vf9f731f-v54-frozen)  vf9f731f-v54-frozen vs vf9f731f-mimic-whim  hpw_collision  Round 1424/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_collision/a.repl26a
+[|] STARTING  vf9f731f-v54-frozen vs vf9f731f-mimic-whim  hpw_contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_contest/a.repl26a
+[+] TEAM A WIN (vf9f731f-v54-frozen)  vf9f731f-v54-frozen vs vf9f731f-mimic-whim  h14_rows  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_h14_rows/a.repl26a
+[+] TEAM B WIN (vf9f731f-v54-frozen)  vf9f731f-mimic-whim vs vf9f731f-v54-frozen  h14_rows  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_h14_rows/b.repl26a
+[+] TEAM B WIN (vf9f731f-v54-frozen)  vf9f731f-mimic-whim vs vf9f731f-v54-frozen  hpw_collision  Round 1438/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_collision/b.repl26a
+[|] STARTING  vf9f731f-mimic-whim vs vf9f731f-v54-frozen  hpw_contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_contest/b.repl26a
+[|] STARTING  vf9f731f-v54-frozen vs vf9f731f-mimic-whim  hpw_corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_corners/a.repl26a
+[|] STARTING  vf9f731f-mimic-whim vs vf9f731f-v54-frozen  hpw_corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_corners/b.repl26a
+[+] TEAM A WIN (vf9f731f-v54-frozen)  vf9f731f-v54-frozen vs vf9f731f-mimic-whim  hpw_ambush  Round 1463/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_ambush/a.repl26a
+[|] STARTING  vf9f731f-v54-frozen vs vf9f731f-mimic-whim  hpw_eight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_eight/a.repl26a
+[+] TEAM B WIN (vf9f731f-v54-frozen)  vf9f731f-mimic-whim vs vf9f731f-v54-frozen  hpw_ambush  Round 1494/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_ambush/b.repl26a
+[|] STARTING  vf9f731f-mimic-whim vs vf9f731f-v54-frozen  hpw_eight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_eight/b.repl26a
+[+] TEAM B WIN (vf9f731f-v54-frozen)  vf9f731f-mimic-whim vs vf9f731f-v54-frozen  hpw_corners  Round 0971/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_corners/b.repl26a
+[|] STARTING  vf9f731f-v54-frozen vs vf9f731f-mimic-whim  hpw_expanse
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_expanse/a.repl26a
+[+] TEAM A WIN (vf9f731f-v54-frozen)  vf9f731f-v54-frozen vs vf9f731f-mimic-whim  hpw_corners  Round 0982/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_corners/a.repl26a
+[|] STARTING  vf9f731f-mimic-whim vs vf9f731f-v54-frozen  hpw_expanse
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_expanse/b.repl26a
+[+] TEAM A WIN (vf9f731f-v54-frozen)  vf9f731f-v54-frozen vs vf9f731f-mimic-whim  hpw_eight  Round 1089/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_eight/a.repl26a
+[|] STARTING  vf9f731f-v54-frozen vs vf9f731f-mimic-whim  hpw_fragment
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_fragment/a.repl26a
+[+] TEAM B WIN (vf9f731f-v54-frozen)  vf9f731f-mimic-whim vs vf9f731f-v54-frozen  hpw_eight  Round 1103/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_eight/b.repl26a
+[|] STARTING  vf9f731f-mimic-whim vs vf9f731f-v54-frozen  hpw_fragment
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_fragment/b.repl26a
+[+] TEAM A WIN (vf9f731f-v54-frozen)  vf9f731f-v54-frozen vs vf9f731f-mimic-whim  hpw_contest  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_contest/a.repl26a
+[|] STARTING  vf9f731f-v54-frozen vs vf9f731f-mimic-whim  hpw_interlock
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_interlock/a.repl26a
+[+] TEAM B WIN (vf9f731f-v54-frozen)  vf9f731f-mimic-whim vs vf9f731f-v54-frozen  hpw_contest  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_contest/b.repl26a
+[|] STARTING  vf9f731f-mimic-whim vs vf9f731f-v54-frozen  hpw_interlock
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_interlock/b.repl26a
+[+] TEAM A WIN (vf9f731f-v54-frozen)  vf9f731f-v54-frozen vs vf9f731f-mimic-whim  hpw_expanse  Round 1223/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_expanse/a.repl26a
+[+] TEAM B WIN (vf9f731f-v54-frozen)  vf9f731f-mimic-whim vs vf9f731f-v54-frozen  hpw_expanse  Round 1188/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_expanse/b.repl26a
+[|] STARTING  vf9f731f-v54-frozen vs vf9f731f-mimic-whim  hpw_lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_lanes/a.repl26a
+[|] STARTING  vf9f731f-mimic-whim vs vf9f731f-v54-frozen  hpw_lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_lanes/b.repl26a
+[+] TEAM A WIN (vf9f731f-v54-frozen)  vf9f731f-v54-frozen vs vf9f731f-mimic-whim  hpw_fragment  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_fragment/a.repl26a
+[|] STARTING  vf9f731f-v54-frozen vs vf9f731f-mimic-whim  hpw_packs
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_packs/a.repl26a
+[+] TEAM B WIN (vf9f731f-v54-frozen)  vf9f731f-mimic-whim vs vf9f731f-v54-frozen  hpw_fragment  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_fragment/b.repl26a
+[|] STARTING  vf9f731f-mimic-whim vs vf9f731f-v54-frozen  hpw_packs
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_packs/b.repl26a
+[+] TEAM A WIN (vf9f731f-v54-frozen)  vf9f731f-v54-frozen vs vf9f731f-mimic-whim  hpw_interlock  Round 1434/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_interlock/a.repl26a
+[|] STARTING  vf9f731f-v54-frozen vs vf9f731f-mimic-whim  hpw_pilgrimage
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_pilgrimage/a.repl26a
+[+] TEAM B WIN (vf9f731f-v54-frozen)  vf9f731f-mimic-whim vs vf9f731f-v54-frozen  hpw_interlock  Round 1313/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_interlock/b.repl26a
+[|] STARTING  vf9f731f-mimic-whim vs vf9f731f-v54-frozen  hpw_pilgrimage
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_pilgrimage/b.repl26a
+[+] TEAM A WIN (vf9f731f-v54-frozen)  vf9f731f-v54-frozen vs vf9f731f-mimic-whim  hpw_packs  Round 1143/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_packs/a.repl26a
+[+] TEAM B WIN (vf9f731f-v54-frozen)  vf9f731f-mimic-whim vs vf9f731f-v54-frozen  hpw_packs  Round 1128/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_packs/b.repl26a
+[|] STARTING  vf9f731f-v54-frozen vs vf9f731f-mimic-whim  hpw_rushbait_v2
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_rushbait_v2/a.repl26a
+[|] STARTING  vf9f731f-mimic-whim vs vf9f731f-v54-frozen  hpw_rushbait_v2
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_rushbait_v2/b.repl26a
+[+] TEAM A WIN (vf9f731f-v54-frozen)  vf9f731f-v54-frozen vs vf9f731f-mimic-whim  hpw_lanes  Round 1504/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_lanes/a.repl26a
+[|] STARTING  vf9f731f-v54-frozen vs vf9f731f-mimic-whim  hpw_stampede
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_stampede/a.repl26a
+[+] TEAM B WIN (vf9f731f-v54-frozen)  vf9f731f-mimic-whim vs vf9f731f-v54-frozen  hpw_lanes  Round 1487/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_lanes/b.repl26a
+[|] STARTING  vf9f731f-mimic-whim vs vf9f731f-v54-frozen  hpw_stampede
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_stampede/b.repl26a
+[+] TEAM A WIN (vf9f731f-v54-frozen)  vf9f731f-v54-frozen vs vf9f731f-mimic-whim  hpw_pilgrimage  Round 1761/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_pilgrimage/a.repl26a
+[+] TEAM B WIN (vf9f731f-v54-frozen)  vf9f731f-mimic-whim vs vf9f731f-v54-frozen  hpw_pilgrimage  Round 1729/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_pilgrimage/b.repl26a
+[|] STARTING  vf9f731f-v54-frozen vs vf9f731f-mimic-whim  hpw_swirl
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_swirl/a.repl26a
+[|] STARTING  vf9f731f-mimic-whim vs vf9f731f-v54-frozen  hpw_swirl
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_swirl/b.repl26a
+[+] TEAM A WIN (vf9f731f-v54-frozen)  vf9f731f-v54-frozen vs vf9f731f-mimic-whim  hpw_rushbait_v2  Round 1963/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_rushbait_v2/a.repl26a
+[|] STARTING  vf9f731f-codex-v55 vs vf9f731f-mimic-shink  h14_collision
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_h14_collision/a.repl26a
+[+] TEAM B WIN (vf9f731f-v54-frozen)  vf9f731f-mimic-whim vs vf9f731f-v54-frozen  hpw_rushbait_v2  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_rushbait_v2/b.repl26a
+[|] STARTING  vf9f731f-mimic-shink vs vf9f731f-codex-v55  h14_collision
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_h14_collision/b.repl26a
+[+] TEAM A WIN (vf9f731f-v54-frozen)  vf9f731f-v54-frozen vs vf9f731f-mimic-whim  hpw_swirl  Round 0776/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_swirl/a.repl26a
+[|] STARTING  vf9f731f-codex-v55 vs vf9f731f-mimic-shink  h14_corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_h14_corners/a.repl26a
+[+] TEAM B WIN (vf9f731f-v54-frozen)  vf9f731f-mimic-whim vs vf9f731f-v54-frozen  hpw_swirl  Round 0749/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_swirl/b.repl26a
+[|] STARTING  vf9f731f-mimic-shink vs vf9f731f-codex-v55  h14_corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_h14_corners/b.repl26a
+[+] TEAM A WIN (vf9f731f-v54-frozen)  vf9f731f-v54-frozen vs vf9f731f-mimic-whim  hpw_stampede  Round 1879/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_stampede/a.repl26a
+[|] STARTING  vf9f731f-codex-v55 vs vf9f731f-mimic-shink  h14_elkring
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_h14_elkring/a.repl26a
+[+] TEAM A WIN (vf9f731f-codex-v55)  vf9f731f-codex-v55 vs vf9f731f-mimic-shink  h14_collision  Round 1312/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_h14_collision/a.repl26a
+[|] STARTING  vf9f731f-mimic-shink vs vf9f731f-codex-v55  h14_elkring
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_h14_elkring/b.repl26a
+[+] TEAM B WIN (vf9f731f-v54-frozen)  vf9f731f-mimic-whim vs vf9f731f-v54-frozen  hpw_stampede  Round 1838/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/base/mimic-whim/_maps_holdout_hpw_stampede/b.repl26a
+[|] STARTING  vf9f731f-codex-v55 vs vf9f731f-mimic-shink  h14_expanse
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_h14_expanse/a.repl26a
+[+] TEAM B WIN (vf9f731f-codex-v55)  vf9f731f-mimic-shink vs vf9f731f-codex-v55  h14_collision  Round 1272/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_h14_collision/b.repl26a
+[|] STARTING  vf9f731f-mimic-shink vs vf9f731f-codex-v55  h14_expanse
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_h14_expanse/b.repl26a
+[+] TEAM A WIN (vf9f731f-codex-v55)  vf9f731f-codex-v55 vs vf9f731f-mimic-shink  h14_corners  Round 0969/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_h14_corners/a.repl26a
+[+] TEAM B WIN (vf9f731f-codex-v55)  vf9f731f-mimic-shink vs vf9f731f-codex-v55  h14_corners  Round 0956/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_h14_corners/b.repl26a
+[|] STARTING  vf9f731f-codex-v55 vs vf9f731f-mimic-shink  h14_interlock
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_h14_interlock/a.repl26a
+[|] STARTING  vf9f731f-mimic-shink vs vf9f731f-codex-v55  h14_interlock
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_h14_interlock/b.repl26a
+[+] TEAM B WIN (vf9f731f-codex-v55)  vf9f731f-mimic-shink vs vf9f731f-codex-v55  h14_elkring  Round 0903/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_h14_elkring/b.repl26a
+[+] TEAM A WIN (vf9f731f-codex-v55)  vf9f731f-codex-v55 vs vf9f731f-mimic-shink  h14_expanse  Round 1081/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_h14_expanse/a.repl26a
+[|] STARTING  vf9f731f-codex-v55 vs vf9f731f-mimic-shink  h14_lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_h14_lanes/a.repl26a
+[|] STARTING  vf9f731f-mimic-shink vs vf9f731f-codex-v55  h14_lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_h14_lanes/b.repl26a
+[+] TEAM B WIN (vf9f731f-codex-v55)  vf9f731f-mimic-shink vs vf9f731f-codex-v55  h14_expanse  Round 1135/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_h14_expanse/b.repl26a
+[|] STARTING  vf9f731f-codex-v55 vs vf9f731f-mimic-shink  h14_monolith
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_h14_monolith/a.repl26a
+[+] TEAM A WIN (vf9f731f-codex-v55)  vf9f731f-codex-v55 vs vf9f731f-mimic-shink  h14_elkring  Round 1069/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_h14_elkring/a.repl26a
+[|] STARTING  vf9f731f-mimic-shink vs vf9f731f-codex-v55  h14_monolith
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_h14_monolith/b.repl26a
+[+] TEAM B WIN (vf9f731f-codex-v55)  vf9f731f-mimic-shink vs vf9f731f-codex-v55  h14_interlock  Round 1191/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_h14_interlock/b.repl26a
+[|] STARTING  vf9f731f-codex-v55 vs vf9f731f-mimic-shink  h14_packs
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_h14_packs/a.repl26a
+[+] TEAM A WIN (vf9f731f-codex-v55)  vf9f731f-codex-v55 vs vf9f731f-mimic-shink  h14_interlock  Round 1257/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_h14_interlock/a.repl26a
+[|] STARTING  vf9f731f-mimic-shink vs vf9f731f-codex-v55  h14_packs
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_h14_packs/b.repl26a
+[+] TEAM A WIN (vf9f731f-mimic-shink)  vf9f731f-mimic-shink vs vf9f731f-codex-v55  h14_lanes  Round 1041/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_h14_lanes/b.repl26a
+[|] STARTING  vf9f731f-codex-v55 vs vf9f731f-mimic-shink  h14_rows
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_h14_rows/a.repl26a
+[+] TEAM B WIN (vf9f731f-mimic-shink)  vf9f731f-codex-v55 vs vf9f731f-mimic-shink  h14_lanes  Round 1137/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_h14_lanes/a.repl26a
+[|] STARTING  vf9f731f-mimic-shink vs vf9f731f-codex-v55  h14_rows
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_h14_rows/b.repl26a
+[+] TEAM B WIN (vf9f731f-codex-v55)  vf9f731f-mimic-shink vs vf9f731f-codex-v55  h14_monolith  Round 1769/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_h14_monolith/b.repl26a
+[+] TEAM A WIN (vf9f731f-codex-v55)  vf9f731f-codex-v55 vs vf9f731f-mimic-shink  h14_packs  Round 1368/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_h14_packs/a.repl26a
+[+] TEAM B WIN (vf9f731f-codex-v55)  vf9f731f-mimic-shink vs vf9f731f-codex-v55  h14_packs  Round 1323/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_h14_packs/b.repl26a
+[|] STARTING  vf9f731f-codex-v55 vs vf9f731f-mimic-shink  hpw_ambush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_ambush/a.repl26a
+[|] STARTING  vf9f731f-mimic-shink vs vf9f731f-codex-v55  hpw_ambush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_ambush/b.repl26a
+[|] STARTING  vf9f731f-codex-v55 vs vf9f731f-mimic-shink  hpw_collision
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_collision/a.repl26a
+[+] TEAM A WIN (vf9f731f-codex-v55)  vf9f731f-codex-v55 vs vf9f731f-mimic-shink  h14_monolith  Round 1820/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_h14_monolith/a.repl26a
+[|] STARTING  vf9f731f-mimic-shink vs vf9f731f-codex-v55  hpw_collision
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_collision/b.repl26a
+[+] TEAM B WIN (vf9f731f-mimic-shink)  vf9f731f-codex-v55 vs vf9f731f-mimic-shink  h14_rows  Round 1771/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_h14_rows/a.repl26a
+[|] STARTING  vf9f731f-codex-v55 vs vf9f731f-mimic-shink  hpw_contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_contest/a.repl26a
+[+] TEAM B WIN (vf9f731f-codex-v55)  vf9f731f-mimic-shink vs vf9f731f-codex-v55  hpw_collision  Round 1389/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_collision/b.repl26a
+[|] STARTING  vf9f731f-mimic-shink vs vf9f731f-codex-v55  hpw_contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_contest/b.repl26a
+[+] TEAM A WIN (vf9f731f-mimic-shink)  vf9f731f-mimic-shink vs vf9f731f-codex-v55  h14_rows  Round 1758/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_h14_rows/b.repl26a
+[+] TEAM A WIN (vf9f731f-codex-v55)  vf9f731f-codex-v55 vs vf9f731f-mimic-shink  hpw_collision  Round 1411/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_collision/a.repl26a
+[|] STARTING  vf9f731f-codex-v55 vs vf9f731f-mimic-shink  hpw_corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_corners/a.repl26a
+[|] STARTING  vf9f731f-mimic-shink vs vf9f731f-codex-v55  hpw_corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_corners/b.repl26a
+[+] TEAM B WIN (vf9f731f-codex-v55)  vf9f731f-mimic-shink vs vf9f731f-codex-v55  hpw_ambush  Round 1368/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_ambush/b.repl26a
+[|] STARTING  vf9f731f-codex-v55 vs vf9f731f-mimic-shink  hpw_eight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_eight/a.repl26a
+[+] TEAM A WIN (vf9f731f-codex-v55)  vf9f731f-codex-v55 vs vf9f731f-mimic-shink  hpw_ambush  Round 1443/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_ambush/a.repl26a
+[|] STARTING  vf9f731f-mimic-shink vs vf9f731f-codex-v55  hpw_eight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_eight/b.repl26a
+[+] TEAM B WIN (vf9f731f-codex-v55)  vf9f731f-mimic-shink vs vf9f731f-codex-v55  hpw_corners  Round 0876/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_corners/b.repl26a
+[|] STARTING  vf9f731f-codex-v55 vs vf9f731f-mimic-shink  hpw_expanse
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_expanse/a.repl26a
+[+] TEAM A WIN (vf9f731f-codex-v55)  vf9f731f-codex-v55 vs vf9f731f-mimic-shink  hpw_corners  Round 0979/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_corners/a.repl26a
+[|] STARTING  vf9f731f-mimic-shink vs vf9f731f-codex-v55  hpw_expanse
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_expanse/b.repl26a
+[+] TEAM A WIN (vf9f731f-codex-v55)  vf9f731f-codex-v55 vs vf9f731f-mimic-shink  hpw_eight  Round 0998/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_eight/a.repl26a
+[|] STARTING  vf9f731f-codex-v55 vs vf9f731f-mimic-shink  hpw_fragment
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_fragment/a.repl26a
+[+] TEAM A WIN (vf9f731f-codex-v55)  vf9f731f-codex-v55 vs vf9f731f-mimic-shink  hpw_contest  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_contest/a.repl26a
+[+] TEAM B WIN (vf9f731f-codex-v55)  vf9f731f-mimic-shink vs vf9f731f-codex-v55  hpw_eight  Round 1045/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_eight/b.repl26a
+[|] STARTING  vf9f731f-mimic-shink vs vf9f731f-codex-v55  hpw_fragment
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_fragment/b.repl26a
+[|] STARTING  vf9f731f-codex-v55 vs vf9f731f-mimic-shink  hpw_interlock
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_interlock/a.repl26a
+[+] TEAM B WIN (vf9f731f-codex-v55)  vf9f731f-mimic-shink vs vf9f731f-codex-v55  hpw_contest  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_contest/b.repl26a
+[|] STARTING  vf9f731f-mimic-shink vs vf9f731f-codex-v55  hpw_interlock
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_interlock/b.repl26a
+[+] TEAM A WIN (vf9f731f-codex-v55)  vf9f731f-codex-v55 vs vf9f731f-mimic-shink  hpw_expanse  Round 1229/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_expanse/a.repl26a
+[+] TEAM B WIN (vf9f731f-codex-v55)  vf9f731f-mimic-shink vs vf9f731f-codex-v55  hpw_expanse  Round 1169/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_expanse/b.repl26a
+[|] STARTING  vf9f731f-codex-v55 vs vf9f731f-mimic-shink  hpw_lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_lanes/a.repl26a
+[|] STARTING  vf9f731f-mimic-shink vs vf9f731f-codex-v55  hpw_lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_lanes/b.repl26a
+[+] TEAM A WIN (vf9f731f-codex-v55)  vf9f731f-codex-v55 vs vf9f731f-mimic-shink  hpw_fragment  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_fragment/a.repl26a
+[|] STARTING  vf9f731f-codex-v55 vs vf9f731f-mimic-shink  hpw_packs
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_packs/a.repl26a
+[+] TEAM B WIN (vf9f731f-codex-v55)  vf9f731f-mimic-shink vs vf9f731f-codex-v55  hpw_fragment  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_fragment/b.repl26a
+[+] TEAM A WIN (vf9f731f-codex-v55)  vf9f731f-codex-v55 vs vf9f731f-mimic-shink  hpw_interlock  Round 1339/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_interlock/a.repl26a
+[|] STARTING  vf9f731f-mimic-shink vs vf9f731f-codex-v55  hpw_packs
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_packs/b.repl26a
+[|] STARTING  vf9f731f-codex-v55 vs vf9f731f-mimic-shink  hpw_pilgrimage
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_pilgrimage/a.repl26a
+[+] TEAM B WIN (vf9f731f-codex-v55)  vf9f731f-mimic-shink vs vf9f731f-codex-v55  hpw_interlock  Round 1361/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_interlock/b.repl26a
+[|] STARTING  vf9f731f-mimic-shink vs vf9f731f-codex-v55  hpw_pilgrimage
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_pilgrimage/b.repl26a
+[+] TEAM A WIN (vf9f731f-codex-v55)  vf9f731f-codex-v55 vs vf9f731f-mimic-shink  hpw_packs  Round 1207/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_packs/a.repl26a
+[|] STARTING  vf9f731f-codex-v55 vs vf9f731f-mimic-shink  hpw_rushbait_v2
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_rushbait_v2/a.repl26a
+[+] TEAM B WIN (vf9f731f-codex-v55)  vf9f731f-mimic-shink vs vf9f731f-codex-v55  hpw_packs  Round 1188/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_packs/b.repl26a
+[|] STARTING  vf9f731f-mimic-shink vs vf9f731f-codex-v55  hpw_rushbait_v2
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_rushbait_v2/b.repl26a
+[+] TEAM B WIN (vf9f731f-codex-v55)  vf9f731f-mimic-shink vs vf9f731f-codex-v55  hpw_lanes  Round 1395/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_lanes/b.repl26a
+[|] STARTING  vf9f731f-codex-v55 vs vf9f731f-mimic-shink  hpw_stampede
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_stampede/a.repl26a
+[+] TEAM A WIN (vf9f731f-codex-v55)  vf9f731f-codex-v55 vs vf9f731f-mimic-shink  hpw_lanes  Round 1552/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_lanes/a.repl26a
+[|] STARTING  vf9f731f-mimic-shink vs vf9f731f-codex-v55  hpw_stampede
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_stampede/b.repl26a
+[+] TEAM A WIN (vf9f731f-codex-v55)  vf9f731f-codex-v55 vs vf9f731f-mimic-shink  hpw_pilgrimage  Round 1900/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_pilgrimage/a.repl26a
+[|] STARTING  vf9f731f-codex-v55 vs vf9f731f-mimic-shink  hpw_swirl
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_swirl/a.repl26a
+[+] TEAM B WIN (vf9f731f-codex-v55)  vf9f731f-mimic-shink vs vf9f731f-codex-v55  hpw_pilgrimage  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_pilgrimage/b.repl26a
+[|] STARTING  vf9f731f-mimic-shink vs vf9f731f-codex-v55  hpw_swirl
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_swirl/b.repl26a
+[+] TEAM A WIN (vf9f731f-codex-v55)  vf9f731f-codex-v55 vs vf9f731f-mimic-shink  hpw_rushbait_v2  Round 1923/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_rushbait_v2/a.repl26a
+[|] STARTING  vf9f731f-codex-v55 vs vf9f731f-mimic-whim  h14_collision
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_h14_collision/a.repl26a
+[+] TEAM B WIN (vf9f731f-codex-v55)  vf9f731f-mimic-shink vs vf9f731f-codex-v55  hpw_rushbait_v2  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_rushbait_v2/b.repl26a
+[|] STARTING  vf9f731f-mimic-whim vs vf9f731f-codex-v55  h14_collision
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_h14_collision/b.repl26a
+[+] TEAM A WIN (vf9f731f-codex-v55)  vf9f731f-codex-v55 vs vf9f731f-mimic-shink  hpw_swirl  Round 0858/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_swirl/a.repl26a
+[|] STARTING  vf9f731f-codex-v55 vs vf9f731f-mimic-whim  h14_corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_h14_corners/a.repl26a
+[+] TEAM A WIN (vf9f731f-codex-v55)  vf9f731f-codex-v55 vs vf9f731f-mimic-whim  h14_collision  Round 1353/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_h14_collision/a.repl26a
+[|] STARTING  vf9f731f-mimic-whim vs vf9f731f-codex-v55  h14_corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_h14_corners/b.repl26a
+[+] TEAM A WIN (vf9f731f-codex-v55)  vf9f731f-codex-v55 vs vf9f731f-mimic-shink  hpw_stampede  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_stampede/a.repl26a
+[+] TEAM B WIN (vf9f731f-codex-v55)  vf9f731f-mimic-shink vs vf9f731f-codex-v55  hpw_swirl  Round 0907/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_swirl/b.repl26a
+[|] STARTING  vf9f731f-codex-v55 vs vf9f731f-mimic-whim  h14_elkring
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_h14_elkring/a.repl26a
+[|] STARTING  vf9f731f-mimic-whim vs vf9f731f-codex-v55  h14_elkring
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_h14_elkring/b.repl26a
+[+] TEAM B WIN (vf9f731f-codex-v55)  vf9f731f-mimic-shink vs vf9f731f-codex-v55  hpw_stampede  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-shink/_maps_holdout_hpw_stampede/b.repl26a
+[+] TEAM B WIN (vf9f731f-codex-v55)  vf9f731f-mimic-whim vs vf9f731f-codex-v55  h14_collision  Round 1322/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_h14_collision/b.repl26a
+[|] STARTING  vf9f731f-codex-v55 vs vf9f731f-mimic-whim  h14_expanse
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_h14_expanse/a.repl26a
+[|] STARTING  vf9f731f-mimic-whim vs vf9f731f-codex-v55  h14_expanse
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_h14_expanse/b.repl26a
+[+] TEAM A WIN (vf9f731f-codex-v55)  vf9f731f-codex-v55 vs vf9f731f-mimic-whim  h14_corners  Round 0869/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_h14_corners/a.repl26a
+[|] STARTING  vf9f731f-codex-v55 vs vf9f731f-mimic-whim  h14_interlock
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_h14_interlock/a.repl26a
+[+] TEAM A WIN (vf9f731f-codex-v55)  vf9f731f-codex-v55 vs vf9f731f-mimic-whim  h14_elkring  Round 1072/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_h14_elkring/a.repl26a
+[|] STARTING  vf9f731f-mimic-whim vs vf9f731f-codex-v55  h14_interlock
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_h14_interlock/b.repl26a
+[+] TEAM B WIN (vf9f731f-codex-v55)  vf9f731f-mimic-whim vs vf9f731f-codex-v55  h14_elkring  Round 1060/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_h14_elkring/b.repl26a
+[|] STARTING  vf9f731f-codex-v55 vs vf9f731f-mimic-whim  h14_lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_h14_lanes/a.repl26a
+[+] TEAM A WIN (vf9f731f-codex-v55)  vf9f731f-codex-v55 vs vf9f731f-mimic-whim  h14_expanse  Round 1083/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_h14_expanse/a.repl26a
+[|] STARTING  vf9f731f-mimic-whim vs vf9f731f-codex-v55  h14_lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_h14_lanes/b.repl26a
+[+] TEAM B WIN (vf9f731f-codex-v55)  vf9f731f-mimic-whim vs vf9f731f-codex-v55  h14_expanse  Round 1056/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_h14_expanse/b.repl26a
+[|] STARTING  vf9f731f-codex-v55 vs vf9f731f-mimic-whim  h14_monolith
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_h14_monolith/a.repl26a
+[+] TEAM B WIN (vf9f731f-codex-v55)  vf9f731f-mimic-whim vs vf9f731f-codex-v55  h14_corners  Round 0946/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_h14_corners/b.repl26a
+[|] STARTING  vf9f731f-mimic-whim vs vf9f731f-codex-v55  h14_monolith
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_h14_monolith/b.repl26a
+[+] TEAM A WIN (vf9f731f-codex-v55)  vf9f731f-codex-v55 vs vf9f731f-mimic-whim  h14_interlock  Round 1279/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_h14_interlock/a.repl26a
+[|] STARTING  vf9f731f-codex-v55 vs vf9f731f-mimic-whim  h14_packs
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_h14_packs/a.repl26a
+[+] TEAM B WIN (vf9f731f-codex-v55)  vf9f731f-mimic-whim vs vf9f731f-codex-v55  h14_interlock  Round 1333/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_h14_interlock/b.repl26a
+[|] STARTING  vf9f731f-mimic-whim vs vf9f731f-codex-v55  h14_packs
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_h14_packs/b.repl26a
+[+] TEAM B WIN (vf9f731f-codex-v55)  vf9f731f-mimic-whim vs vf9f731f-codex-v55  h14_lanes  Round 1366/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_h14_lanes/b.repl26a
+[|] STARTING  vf9f731f-codex-v55 vs vf9f731f-mimic-whim  h14_rows
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_h14_rows/a.repl26a
+[+] TEAM A WIN (vf9f731f-codex-v55)  vf9f731f-codex-v55 vs vf9f731f-mimic-whim  h14_lanes  Round 1374/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_h14_lanes/a.repl26a
+[+] TEAM A WIN (vf9f731f-codex-v55)  vf9f731f-codex-v55 vs vf9f731f-mimic-whim  h14_packs  Round 1278/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_h14_packs/a.repl26a
+[|] STARTING  vf9f731f-mimic-whim vs vf9f731f-codex-v55  h14_rows
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_h14_rows/b.repl26a
+[|] STARTING  vf9f731f-codex-v55 vs vf9f731f-mimic-whim  hpw_ambush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_ambush/a.repl26a
+[+] TEAM B WIN (vf9f731f-codex-v55)  vf9f731f-mimic-whim vs vf9f731f-codex-v55  h14_monolith  Round 1729/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_h14_monolith/b.repl26a
+[|] STARTING  vf9f731f-mimic-whim vs vf9f731f-codex-v55  hpw_ambush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_ambush/b.repl26a
+[+] TEAM A WIN (vf9f731f-codex-v55)  vf9f731f-codex-v55 vs vf9f731f-mimic-whim  h14_monolith  Round 1709/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_h14_monolith/a.repl26a
+[|] STARTING  vf9f731f-codex-v55 vs vf9f731f-mimic-whim  hpw_collision
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_collision/a.repl26a
+[+] TEAM B WIN (vf9f731f-codex-v55)  vf9f731f-mimic-whim vs vf9f731f-codex-v55  h14_packs  Round 1210/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_h14_packs/b.repl26a
+[|] STARTING  vf9f731f-mimic-whim vs vf9f731f-codex-v55  hpw_collision
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_collision/b.repl26a
+[+] TEAM A WIN (vf9f731f-codex-v55)  vf9f731f-codex-v55 vs vf9f731f-mimic-whim  hpw_collision  Round 1365/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_collision/a.repl26a
+[|] STARTING  vf9f731f-codex-v55 vs vf9f731f-mimic-whim  hpw_contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_contest/a.repl26a
+[+] TEAM B WIN (vf9f731f-codex-v55)  vf9f731f-mimic-whim vs vf9f731f-codex-v55  hpw_collision  Round 1373/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_collision/b.repl26a
+[|] STARTING  vf9f731f-mimic-whim vs vf9f731f-codex-v55  hpw_contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_contest/b.repl26a
+[+] TEAM A WIN (vf9f731f-codex-v55)  vf9f731f-codex-v55 vs vf9f731f-mimic-whim  h14_rows  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_h14_rows/a.repl26a
+[|] STARTING  vf9f731f-codex-v55 vs vf9f731f-mimic-whim  hpw_corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_corners/a.repl26a
+[+] TEAM B WIN (vf9f731f-codex-v55)  vf9f731f-mimic-whim vs vf9f731f-codex-v55  h14_rows  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_h14_rows/b.repl26a
+[|] STARTING  vf9f731f-mimic-whim vs vf9f731f-codex-v55  hpw_corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_corners/b.repl26a
+[+] TEAM A WIN (vf9f731f-codex-v55)  vf9f731f-codex-v55 vs vf9f731f-mimic-whim  hpw_ambush  Round 1410/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_ambush/a.repl26a
+[|] STARTING  vf9f731f-codex-v55 vs vf9f731f-mimic-whim  hpw_eight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_eight/a.repl26a
+[+] TEAM B WIN (vf9f731f-codex-v55)  vf9f731f-mimic-whim vs vf9f731f-codex-v55  hpw_ambush  Round 1366/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_ambush/b.repl26a
+[|] STARTING  vf9f731f-mimic-whim vs vf9f731f-codex-v55  hpw_eight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_eight/b.repl26a
+[+] TEAM A WIN (vf9f731f-codex-v55)  vf9f731f-codex-v55 vs vf9f731f-mimic-whim  hpw_eight  Round 1050/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_eight/a.repl26a
+[|] STARTING  vf9f731f-codex-v55 vs vf9f731f-mimic-whim  hpw_expanse
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_expanse/a.repl26a
+[+] TEAM A WIN (vf9f731f-codex-v55)  vf9f731f-codex-v55 vs vf9f731f-mimic-whim  hpw_corners  Round 0969/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_corners/a.repl26a
+[|] STARTING  vf9f731f-mimic-whim vs vf9f731f-codex-v55  hpw_expanse
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_expanse/b.repl26a
+[+] TEAM B WIN (vf9f731f-codex-v55)  vf9f731f-mimic-whim vs vf9f731f-codex-v55  hpw_corners  Round 0994/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_corners/b.repl26a
+[+] TEAM B WIN (vf9f731f-codex-v55)  vf9f731f-mimic-whim vs vf9f731f-codex-v55  hpw_eight  Round 1065/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_eight/b.repl26a
+[|] STARTING  vf9f731f-codex-v55 vs vf9f731f-mimic-whim  hpw_fragment
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_fragment/a.repl26a
+[|] STARTING  vf9f731f-mimic-whim vs vf9f731f-codex-v55  hpw_fragment
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_fragment/b.repl26a
+[+] TEAM A WIN (vf9f731f-codex-v55)  vf9f731f-codex-v55 vs vf9f731f-mimic-whim  hpw_contest  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_contest/a.repl26a
+[|] STARTING  vf9f731f-codex-v55 vs vf9f731f-mimic-whim  hpw_interlock
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_interlock/a.repl26a
+[+] TEAM B WIN (vf9f731f-codex-v55)  vf9f731f-mimic-whim vs vf9f731f-codex-v55  hpw_contest  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_contest/b.repl26a
+[|] STARTING  vf9f731f-mimic-whim vs vf9f731f-codex-v55  hpw_interlock
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_interlock/b.repl26a
+[+] TEAM A WIN (vf9f731f-codex-v55)  vf9f731f-codex-v55 vs vf9f731f-mimic-whim  hpw_expanse  Round 1229/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_expanse/a.repl26a
+[|] STARTING  vf9f731f-codex-v55 vs vf9f731f-mimic-whim  hpw_lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_lanes/a.repl26a
+[+] TEAM B WIN (vf9f731f-codex-v55)  vf9f731f-mimic-whim vs vf9f731f-codex-v55  hpw_expanse  Round 1169/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_expanse/b.repl26a
+[|] STARTING  vf9f731f-mimic-whim vs vf9f731f-codex-v55  hpw_lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_lanes/b.repl26a
+[+] TEAM A WIN (vf9f731f-codex-v55)  vf9f731f-codex-v55 vs vf9f731f-mimic-whim  hpw_fragment  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_fragment/a.repl26a
+[+] TEAM B WIN (vf9f731f-codex-v55)  vf9f731f-mimic-whim vs vf9f731f-codex-v55  hpw_fragment  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_fragment/b.repl26a
+[|] STARTING  vf9f731f-codex-v55 vs vf9f731f-mimic-whim  hpw_packs
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_packs/a.repl26a
+[|] STARTING  vf9f731f-mimic-whim vs vf9f731f-codex-v55  hpw_packs
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_packs/b.repl26a
+[+] TEAM A WIN (vf9f731f-codex-v55)  vf9f731f-codex-v55 vs vf9f731f-mimic-whim  hpw_interlock  Round 1394/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_interlock/a.repl26a
+[|] STARTING  vf9f731f-codex-v55 vs vf9f731f-mimic-whim  hpw_pilgrimage
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_pilgrimage/a.repl26a
+[+] TEAM B WIN (vf9f731f-codex-v55)  vf9f731f-mimic-whim vs vf9f731f-codex-v55  hpw_interlock  Round 1363/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_interlock/b.repl26a
+[|] STARTING  vf9f731f-mimic-whim vs vf9f731f-codex-v55  hpw_pilgrimage
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_pilgrimage/b.repl26a
+[+] TEAM B WIN (vf9f731f-codex-v55)  vf9f731f-mimic-whim vs vf9f731f-codex-v55  hpw_packs  Round 1128/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_packs/b.repl26a
+[|] STARTING  vf9f731f-codex-v55 vs vf9f731f-mimic-whim  hpw_rushbait_v2
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_rushbait_v2/a.repl26a
+[+] TEAM A WIN (vf9f731f-codex-v55)  vf9f731f-codex-v55 vs vf9f731f-mimic-whim  hpw_packs  Round 1172/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_packs/a.repl26a
+[|] STARTING  vf9f731f-mimic-whim vs vf9f731f-codex-v55  hpw_rushbait_v2
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_rushbait_v2/b.repl26a
+[+] TEAM A WIN (vf9f731f-codex-v55)  vf9f731f-codex-v55 vs vf9f731f-mimic-whim  hpw_lanes  Round 1533/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_lanes/a.repl26a
+[|] STARTING  vf9f731f-codex-v55 vs vf9f731f-mimic-whim  hpw_stampede
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_stampede/a.repl26a
+[+] TEAM B WIN (vf9f731f-codex-v55)  vf9f731f-mimic-whim vs vf9f731f-codex-v55  hpw_lanes  Round 1494/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_lanes/b.repl26a
+[|] STARTING  vf9f731f-mimic-whim vs vf9f731f-codex-v55  hpw_stampede
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_stampede/b.repl26a
+[+] TEAM A WIN (vf9f731f-codex-v55)  vf9f731f-codex-v55 vs vf9f731f-mimic-whim  hpw_rushbait_v2  Round 1873/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_rushbait_v2/a.repl26a
+[|] STARTING  vf9f731f-codex-v55 vs vf9f731f-mimic-whim  hpw_swirl
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_swirl/a.repl26a
+[+] TEAM A WIN (vf9f731f-codex-v55)  vf9f731f-codex-v55 vs vf9f731f-mimic-whim  hpw_pilgrimage  Round 1855/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_pilgrimage/a.repl26a
+[+] TEAM B WIN (vf9f731f-codex-v55)  vf9f731f-mimic-whim vs vf9f731f-codex-v55  hpw_rushbait_v2  Round 1820/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_rushbait_v2/b.repl26a
+[|] STARTING  vf9f731f-mimic-whim vs vf9f731f-codex-v55  hpw_swirl
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_swirl/b.repl26a
+[+] TEAM B WIN (vf9f731f-codex-v55)  vf9f731f-mimic-whim vs vf9f731f-codex-v55  hpw_pilgrimage  Round 1879/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_pilgrimage/b.repl26a
+[+] TEAM A WIN (vf9f731f-codex-v55)  vf9f731f-codex-v55 vs vf9f731f-mimic-whim  hpw_swirl  Round 0820/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_swirl/a.repl26a
+[+] TEAM A WIN (vf9f731f-codex-v55)  vf9f731f-codex-v55 vs vf9f731f-mimic-whim  hpw_stampede  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_stampede/a.repl26a
+[+] TEAM B WIN (vf9f731f-codex-v55)  vf9f731f-mimic-whim vs vf9f731f-codex-v55  hpw_swirl  Round 0790/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_swirl/b.repl26a
+[+] TEAM B WIN (vf9f731f-codex-v55)  vf9f731f-mimic-whim vs vf9f731f-codex-v55  hpw_stampede  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/final_holdout/games/codex-v55/mimic-whim/_maps_holdout_hpw_stampede/b.repl26a
+Finished: 184 replay bundles saved, 0 failed
+injected 0 checks into 0 functions
+injected 0 checks into 0 functions
+injected 0 checks into 0 functions
+injected 0 checks into 0 functions

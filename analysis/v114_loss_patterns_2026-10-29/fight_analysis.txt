@@ -1,0 +1,190 @@
+{
+ "games": 69,
+ "winRate": 0.49,
+ "fights": 2816,
+ "fightsPer100Rounds": 3.34,
+ "significantFights": 1933,
+ "initiatedByUs": 0.5,
+ "kills": [
+  345,
+  577
+ ],
+ "killsPerGame": [
+  5,
+  8.36
+ ],
+ "campDeathsPerGame": [
+  2.07,
+  2.86
+ ],
+ "fightWinRate": 0.46,
+ "killTradeWhenWeInitiate": [
+  236,
+  211
+ ],
+ "killTradeWhenTheyInitiate": [
+  109,
+  366
+ ],
+ "gemsStolenPerGame": [
+  36.3,
+  87.7
+ ],
+ "hpTraded": [
+  2117403,
+  1927834
+ ],
+ "avgDuration": 7.884,
+ "avgSize": [
+  1.419,
+  1.564
+ ],
+ "sizeDist": {
+  "1v1": 717,
+  "2v2": 193,
+  "1v3": 83,
+  "2v1": 196,
+  "4v4": 25,
+  "2v4": 33,
+  "3v3": 62,
+  "3v4": 35,
+  "2v3": 73,
+  "3v2": 69,
+  "1v2": 322,
+  "3v1": 43,
+  "4v3": 15,
+  "2v5": 8,
+  "3v5": 8,
+  "1v4": 19,
+  "5v6": 1,
+  "3v6": 1,
+  "5v5": 2,
+  "5v4": 6,
+  "4v5": 8,
+  "4v6": 1,
+  "1v5": 3,
+  "4v2": 8,
+  "5v2": 1,
+  "5v3": 1
+ },
+ "zone": {
+  "own": 0.09,
+  "mid": 0.79,
+  "enemy": 0.12
+ },
+ "atOurSpawn": 0.01,
+ "atTheirSpawn": 0.01,
+ "nearAltar": 0.1,
+ "nearCamp": 0.62,
+ "weInitiateOnChannel": 0.26,
+ "channelTypesWhenWeInitiate": {
+  "tribute": 43,
+  "recall": 229,
+  "capture-tile": 91
+ },
+ "weInitiateOnCarrier": 0.3,
+ "avgFirstTargetGemsWhenWeInitiate": 10.664,
+ "weInitiateFromBush": 0.17,
+ "bushHitFrac": [
+  0.128,
+  0.107
+ ],
+ "firstActionsWhenWeInitiate": {
+  "Attack": 930,
+  "Cast:Damage": 246,
+  "Cast:AoeDamage": 233
+ },
+ "firstActionsWhenTheyInitiate": {
+  "Attack": 831,
+  "Cast:AoeDamage": 152,
+  "Cast:Cc": 99,
+  "Cast:Damage": 325
+ },
+ "startHpWhenWeInitiate": [
+  0.851,
+  0.818
+ ],
+ "abilitiesPerFight": [
+  {
+   "Attack": 6.36,
+   "Shield": 0.37,
+   "AoeDamage": 0.27,
+   "Damage": 0.27
+  },
+  {
+   "Attack": 6.93,
+   "Damage": 0.39,
+   "Shield": 0.34,
+   "AoeDamage": 0.22,
+   "Cc": 0.15,
+   "Heal": 0.02
+  }
+ ],
+ "supportPerFight": [
+  0.371,
+  0.365
+ ],
+ "dashes": [
+  {
+   "engage": 1185,
+   "escape": 1574
+  },
+  {
+   "engage": 1653,
+   "escape": 1915
+  }
+ ],
+ "focus": [
+  0.866,
+  0.922
+ ],
+ "targetChoice": [
+  {
+   "lowestHp": 0.82,
+   "mostGems": 0.221,
+   "ranged": 0.235
+  },
+  {
+   "lowestHp": 0.769,
+   "mostGems": 0.181,
+   "ranged": 0.19
+  }
+ ],
+ "openerTypeWhenWeInitiate": {
+  "VesperVale:Attack": 440,
+  "HeartOfRuin:Attack": 252,
+  "Marcella:Cast:Damage": 246,
+  "Ryth:Cast:AoeDamage": 233,
+  "Vendetta:Attack": 166,
+  "Ryth:Attack": 41,
+  "Marcella:Attack": 31
+ },
+ "killConversionWhenWeInitiateOnRecall": 0.18,
+ "killConversionWhenWeInitiate": 0.15,
+ "timeToKillRounds": [
+  8.365,
+  8.83
+ ],
+ "campDeathContext": [
+  {
+   "n": 143,
+   "afterChampFight": 0.53,
+   "hpfAtEngage": 0.866,
+   "lowHpEngage": 0.08
+  },
+  {
+   "n": 197,
+   "afterChampFight": 0.4,
+   "hpfAtEngage": 0.852,
+   "lowHpEngage": 0.06
+  }
+ ],
+ "lastActHp": [
+  0.603,
+  0.657
+ ],
+ "recallHpInFight": [
+  0.353,
+  0.489
+ ]
+}

@@ -1,0 +1,310 @@
+{
+ "dir": "top_replays/4_SHINK-AI-6500",
+ "matches": 60,
+ "winRate": 0.567,
+ "byMap": {
+  "corners": {
+   "games": 7,
+   "wins": 1
+  },
+  "expanse": {
+   "games": 5,
+   "wins": 3
+  },
+  "rows": {
+   "games": 6,
+   "wins": 3
+  },
+  "packs": {
+   "games": 10,
+   "wins": 6
+  },
+  "lanes": {
+   "games": 8,
+   "wins": 4
+  },
+  "elkring": {
+   "games": 9,
+   "wins": 5
+  },
+  "collision": {
+   "games": 6,
+   "wins": 4
+  },
+  "monolith": {
+   "games": 5,
+   "wins": 4
+  },
+  "interlock": {
+   "games": 4,
+   "wins": 4
+  }
+ },
+ "draftPickRate": {
+  "Vendetta": 1,
+  "Varg": 0.9,
+  "CassiAndIssac": 0.83,
+  "Ryth": 0.82,
+  "Tavi": 0.33,
+  "Ren": 0.25
+ },
+ "draftOrderTop": {
+  "1:Vendetta": 60,
+  "2:Varg": 54,
+  "3:CassiAndIssac": 44,
+  "4:Ryth": 39,
+  "5:Tavi": 20,
+  "3:Ryth": 10,
+  "5:Ren": 9,
+  "2:CassiAndIssac": 6,
+  "3:Ren": 6
+ },
+ "avgRounds": 471.92,
+ "avgGemDiff": 2.97,
+ "perGame": {
+  "captures": 24.18,
+  "firstCaptureRound": 31.43,
+  "tributes": 22.38,
+  "gemsPerTribute": 46.11,
+  "firstTributeRound": 53.22,
+  "recalls": 18.2,
+  "wards": 0,
+  "altarLocks": 0,
+  "consumablesUsed": 0,
+  "kills": 2.22,
+  "deaths": 3.92,
+  "prioritySets": 0
+ },
+ "attackTargets": {
+  "champion": 4704,
+  "camp": 30210,
+  "other": 186
+ },
+ "campTargets": {
+  "GemCluster": 6008,
+  "Wolf": 14115,
+  "Elk": 8506,
+  "GoldCluster": 1581
+ },
+ "spatial": {
+  "enemyHalfFrac": 0.08,
+  "meanSpawnDistFrac": 0.36,
+  "groupedFrac": 0.53
+ },
+ "perChampion": {
+  "Vendetta": {
+   "games": 60,
+   "topBuildOrders": {
+    "(none)": 8,
+    "Jungle:Strength > Durability:Strength": 5,
+    "Durability:Strength > Bruiser:Health > Power:Strength > Power:Strength > Power:Strength > Power:Strength > Power:Strength": 3
+   },
+   "avgFinalItems": {
+    "Durability Shard of Strength": 0.3,
+    "Jungle Emblem of Strength": 0.5,
+    "Power Shard of Strength": 1.6,
+    "Power Emblem of Strength": 3.4,
+    "Durability Emblem of Strength": 0.4,
+    "Bruiser Emblem of Health": 0.4,
+    "Bruiser Shard of Health": 0.1,
+    "Monster Emblem of Strength": 0.3,
+    "Durability Emblem of Health": 0.3,
+    "Jungle Emblem of Health": 0.3,
+    "Jungle Shard of Health": 0.1,
+    "Monster Shard of Strength": 0.1,
+    "Durability Shard of Health": 0.1
+   },
+   "abilities": {
+    "Dash->tile": 2116,
+    "AttackReset->champion": 1423
+   },
+   "attacksPer100Rounds": 27.79,
+   "killsPerGame": 1.08,
+   "deathsPerGame": 0.57,
+   "gemsTributedPerGame": 353.2,
+   "recallsPerGame": 5.45
+  },
+  "Varg": {
+   "games": 54,
+   "topBuildOrders": {
+    "(none)": 6,
+    "Durability:Strength > Bruiser:Health > Power:Strength": 5,
+    "Jungle:Health > Power:Strength > Durability:Health": 5
+   },
+   "avgFinalItems": {
+    "Durability Emblem of Strength": 0.4,
+    "Jungle Emblem of Strength": 0.5,
+    "Bruiser Shard of Health": 0.1,
+    "Power Shard of Strength": 1.4,
+    "Power Emblem of Strength": 2.1,
+    "Bruiser Emblem of Health": 0.4,
+    "Durability Shard of Strength": 0.1,
+    "Monster Emblem of Strength": 0.4,
+    "Durability Emblem of Health": 0.2,
+    "Jungle Emblem of Health": 0.4,
+    "Durability Shard of Health": 0.4,
+    "Monster Shard of Strength": 0
+   },
+   "abilities": {
+    "AttackReset->champion": 934,
+    "Shield->champion": 662
+   },
+   "attacksPer100Rounds": 24.88,
+   "killsPerGame": 0.24,
+   "deathsPerGame": 0.52,
+   "gemsTributedPerGame": 257.7,
+   "recallsPerGame": 3.93
+  },
+  "Cassi": {
+   "games": 50,
+   "topBuildOrders": {
+    "(none)": 40,
+    "Jungle:Focus": 4,
+    "Monster:Focus": 4
+   },
+   "avgFinalItems": {
+    "Jungle Shard of Focus": 0.1,
+    "Monster Shard of Focus": 0.2
+   },
+   "abilities": {
+    "Cc->camp": 820,
+    "Damage->camp": 757,
+    "Damage->champion": 128,
+    "Cc->champion": 92
+   },
+   "attacksPer100Rounds": 18.92,
+   "killsPerGame": 0.24,
+   "deathsPerGame": 1.1,
+   "gemsTributedPerGame": 17.8,
+   "recallsPerGame": 1.22
+  },
+  "Issac": {
+   "games": 50,
+   "topBuildOrders": {
+    "(none)": 18,
+    "Durability:Strength > Bruiser:Health > Power:Strength": 4,
+    "Durability:Strength > Power:Strength > Power:Strength": 2
+   },
+   "avgFinalItems": {
+    "Power Shard of Strength": 0.7,
+    "Power Emblem of Strength": 1.1,
+    "Durability Emblem of Strength": 0.3,
+    "Jungle Emblem of Strength": 0.3,
+    "Bruiser Emblem of Health": 0.3,
+    "Bruiser Shard of Health": 0.1,
+    "Jungle Shard of Strength": 0.1,
+    "Monster Emblem of Strength": 0.2,
+    "Jungle Emblem of Health": 0.2,
+    "Durability Shard of Health": 0.1,
+    "Durability Emblem of Health": 0.1,
+    "Monster Shard of Strength": 0.1,
+    "Jungle Shard of Health": 0.1
+   },
+   "abilities": {
+    "Dash->tile": 1626,
+    "AttackReset->champion": 911
+   },
+   "attacksPer100Rounds": 24.53,
+   "killsPerGame": 0.24,
+   "deathsPerGame": 1.1,
+   "gemsTributedPerGame": 241.8,
+   "recallsPerGame": 3.52
+  },
+  "Ryth": {
+   "games": 49,
+   "topBuildOrders": {
+    "(none)": 7,
+    "Durability:Strength": 4,
+    "Jungle:Strength": 3
+   },
+   "avgFinalItems": {
+    "Jungle Shard of Strength": 0.1,
+    "Power Shard of Strength": 0.9,
+    "Power Emblem of Strength": 0.9,
+    "Durability Emblem of Strength": 0.3,
+    "Jungle Emblem of Strength": 0.4,
+    "Bruiser Emblem of Health": 0.2,
+    "Durability Shard of Strength": 0.1,
+    "Bruiser Shard of Health": 0.2,
+    "Monster Emblem of Strength": 0.4,
+    "Durability Emblem of Health": 0.2,
+    "Jungle Emblem of Health": 0.3,
+    "Jungle Shard of Health": 0.1,
+    "Durability Shard of Health": 0.3
+   },
+   "abilities": {
+    "AttackReset->champion": 1009,
+    "AoeDamage->camp": 763,
+    "AoeDamage->champion": 144,
+    "AoeDamage->tile": 34
+   },
+   "attacksPer100Rounds": 29.65,
+   "killsPerGame": 0.31,
+   "deathsPerGame": 0.65,
+   "gemsTributedPerGame": 182.57,
+   "recallsPerGame": 3.84
+  },
+  "Tavi": {
+   "games": 20,
+   "topBuildOrders": {
+    "(none)": 6,
+    "Jungle:Strength": 5,
+    "Monster:Strength": 3
+   },
+   "avgFinalItems": {
+    "Jungle Shard of Strength": 0.3,
+    "Durability Shard of Strength": 0.3,
+    "Jungle Emblem of Strength": 0.1,
+    "Durability Emblem of Strength": 0.1,
+    "Bruiser Emblem of Health": 0.1,
+    "Monster Emblem of Strength": 0.1,
+    "Power Emblem of Strength": 0.1,
+    "Durability Emblem of Health": 0.1,
+    "Jungle Emblem of Health": 0.1,
+    "Power Shard of Strength": 0.2,
+    "Monster Shard of Strength": 0.3,
+    "Durability Shard of Health": 0.1
+   },
+   "abilities": {
+    "AttackReset->champion": 309,
+    "Cc->camp": 259,
+    "Cc->champion": 82
+   },
+   "attacksPer100Rounds": 25.66,
+   "killsPerGame": 0.3,
+   "deathsPerGame": 1.1,
+   "gemsTributedPerGame": 115.5,
+   "recallsPerGame": 1.75
+  },
+  "Ren": {
+   "games": 15,
+   "topBuildOrders": {
+    "Durability:Strength > Bruiser:Health > Power:Strength": 2,
+    "Jungle:Strength > Durability:Strength > Power:Strength > Power:Strength > Power:Strength": 2,
+    "Durability:Strength > Bruiser:Health > Power:Strength > Power:Strength > Power:Strength": 2
+   },
+   "avgFinalItems": {
+    "Power Shard of Strength": 2.4,
+    "Power Emblem of Strength": 1.3,
+    "Durability Emblem of Strength": 0.7,
+    "Jungle Emblem of Strength": 0.7,
+    "Bruiser Emblem of Health": 0.6,
+    "Bruiser Shard of Health": 0.2,
+    "Monster Emblem of Strength": 0.3,
+    "Durability Shard of Health": 0.3,
+    "Jungle Emblem of Health": 0.3,
+    "Durability Emblem of Health": 0.1
+   },
+   "abilities": {
+    "Dash->tile": 650,
+    "Cc->camp": 334,
+    "Cc->champion": 58
+   },
+   "attacksPer100Rounds": 29.96,
+   "killsPerGame": 0.67,
+   "deathsPerGame": 0.6,
+   "gemsTributedPerGame": 172.53,
+   "recallsPerGame": 6.2
+  }
+ }
+}

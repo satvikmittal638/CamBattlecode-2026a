@@ -1,0 +1,69 @@
+diff --color -r workspace/bots/v43x/src/bot.cpp workspace/bots/v43xc/src/bot.cpp
+393a394,401
+>     if (X_TBUILD && bankGateHint < 0) {
+>         // EMPEROR Tung: Treasure (Health; Strength for ranged), Jungle and Bruiser in the damage stat
+>         // (Focus for Heart), Bruiser Health, Durability Health, then Bruiser Health/damage alternating.
+>         const int dmg = myType == bc::champion_type::heart_of_ruin ? 1 : 0;
+>         const int treasure = ranged ? 0 : 2;
+>         plan = {{3, treasure, 5}, {4, dmg, 5}, {6, 2, 5}, {2, 2, 5}, {6, dmg, 5}};
+>         for (int n = 10; n <= 40; n += 5) { plan.push_back({6, 2, n}); plan.push_back({6, dmg, n}); }
+>     }
+diff --color -r workspace/bots/v43x/src/draft.cpp workspace/bots/v43xc/src/draft.cpp
+64,65c64,72
+<     const auto& big = X_DRAFT4 ? bigFish : big0;
+<     static constexpr std::array small{
+---
+>     // procless / EMPEROR Tung (ranks 2-3): the same five everywhere; four-pick maps drop Vendetta.
+>     static constexpr std::array bigMeta{
+>         cambc::champion_draft::heart_of_ruin,cambc::champion_draft::vesper_vale,
+>         cambc::champion_draft::ryth,cambc::champion_draft::marcella,cambc::champion_draft::vendetta};
+>     static constexpr std::array smallMeta{
+>         cambc::champion_draft::heart_of_ruin,cambc::champion_draft::vesper_vale,cambc::champion_draft::vendetta,
+>         cambc::champion_draft::ryth,cambc::champion_draft::marcella};
+>     const auto& big = X_META ? bigMeta : X_DRAFT4 ? bigFish : big0;
+>     static constexpr std::array small0{
+68c75
+<     static constexpr std::array farSmall{
+---
+>     static constexpr std::array farSmall0{
+70a78,79
+>     const auto& small = X_META ? smallMeta : small0;
+>     const auto& farSmall = X_META ? smallMeta : farSmall0;
+diff --color -r workspace/bots/v43x/src/fishx_features.h workspace/bots/v43xc/src/fishx_features.h
+21c21
+< constexpr int X_CARRYMODE = 1;          // with X_CARRYCAP: 0 Fish order, 1 casters first (Stellar=Cassi>Ren>Issac>Varg>Ryth), 2 poorest ally first
+---
+> constexpr int X_CARRYMODE = 2;          // with X_CARRYCAP: 0 Fish order, 1 casters first (Stellar=Cassi>Ren>Issac>Varg>Ryth), 2 poorest ally first
+34a35,40
+> // --- v43x-C: the procless / EMPEROR Tung meta (analysis/v43x/V43XC.md) ---
+> constexpr bool X_META = true;     // draft Heart, Vesper Vale, Ryth, Marcella, Vendetta (3 picks: Heart, Vesper Vale, Vendetta)
+> constexpr bool X_TBUILD = true;   // Tung builds: Treasure -> Jungle -> Bruiser Health -> Durability Health -> Bruiser damage, then Bruiser Health/damage alternating
+> constexpr float X_FIGHTRISK = 0.95f;  // tactical plans: reject a non-kill plan whose 2-turn incoming estimate reaches this share of HP (v43: .95)
+> constexpr float X_ESCAPERISK = 0.55f; // no plan: burst-escape when staying would take this share of HP (v43: .55)
+> constexpr bool X_TACTREACH = true;    // skip the tactical plan search when no enemy is within one step plus our reach (fuel standoff fix)
+diff --color -r workspace/bots/v43x/src/main.cpp workspace/bots/v43xc/src/main.cpp
+42c42
+<     std::puts("build v43x-B");
+---
+>     std::puts("build v43x-C");
+diff --color -r workspace/bots/v43x/src/v1_tactical.h workspace/bots/v43xc/src/v1_tactical.h
+96a97,101
+>     // X_TACTREACH: with no enemy within one step plus our longest reach no plan can hit anything.
+>     // Skip the enumeration: in standoffs it cost ~50k fuel a turn and starved routing/camp actions.
+>     int reach=selfInfo.attack_range;for(const auto& s:spells)if(s.kind>=2&&s.kind<=4)reach=std::max(reach,static_cast<int>(std::ceil(s.range)));
+>     int nearest=99;for(const auto& f:foes)nearest=std::min(nearest,cheb(origin,f.position()));
+>     const bool inReach=!X_TACTREACH||nearest<=reach+1||(selfInfo.type==12&&nearest<=3);
+98c103
+<     if(selfInfo.type==12&&own.cd[1]==0&&!castThisTurn&&(selfInfo.state&2048)&&enough(43000)){
+---
+>     if(inReach&&selfInfo.type==12&&own.cd[1]==0&&!castThisTurn&&(selfInfo.state&2048)&&enough(43000)){
+133a139
+>     if(!inReach)choices.clear();
+160c166
+<             if(retaliation>=selfInfo.health+own.shield || (danger>=selfInfo.health*.95f&&!kill))return;
+---
+>             if(retaliation>=selfInfo.health+own.shield || (danger>=selfInfo.health*X_FIGHTRISK&&!kill))return;
+178c184
+<     if(!best.target && stayDanger>selfInfo.health*.55f){
+---
+>     if(!best.target && stayDanger>selfInfo.health*X_ESCAPERISK){

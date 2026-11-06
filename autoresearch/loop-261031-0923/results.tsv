@@ -1,0 +1,42 @@
+# metric_direction: higher_is_better
+iteration	timestamp	commit	metric	delta	guard	guard-metric	status	description
+0	2026-10-31T09:50:00Z	65e7d47	0	0.0	pass	baseline 54/96	baseline	v121 exact (local 54/96)
+1	2026-10-31T10:06:17Z	e4df140	8	+8	pass	weak +4 strong +4 deaths -0.9/-0.6	keep-local	h1 hold <25-gem bags while safe; online screen pending (v134 build cancelled by teammate re-pin)
+2	2026-10-31T10:53:58Z	2259742	6	-2	pass	weak -5 vs h1, strong +3	discard	h2 shop recall at 90 gold (tuning); below incumbent +8
+3	2026-10-31T10:55:49Z	174e6f0	-11	-19	pass	weak 45->32, strong 9->11	discard	h3 squads: followers adopt leader target (structural); economy collapses on weak maps
+4	2026-10-31T11:00:33Z	2ad8e13	4	-4	pass	weak 49->44 vs h1; strong deaths up	discard	s2 outmatched withdrawal toward nearest healthy ally (structural)
+5	2026-10-31T11:02:16Z	29128fe	6	-2	pass	weak 47 vs h1 49 (margin +50 vs +37), weak deaths 7.29	discard	s3 focus fire by effective HP (structural); near-neutral, retry candidate
+1b	2026-10-31T11:05:58Z	e4df140	8	+8	pass	online paired +1 (weak 10->11 margin +64/g, strong 5->5)	keep	h1 online screen passed (v135 vs v121, pinned opponents)
+6	2026-10-31T11:07:00Z	af55fd6	7	-1	pass	weak 48 vs 49, margin worse	discard	s4 no late monolith pursuit (objective choice)
+7	2026-10-31T11:11:14Z	ff696e4	-1	-9	fail	strong 9->7 (guard)	discard	s5 count-outnumbered => withdraw (structural fight rule)
+5b	2026-10-31T12:04:17Z	3e8e140	6	-2	pass	online vs h1 -2 (weak 11->10 margin -93/g, strong 5->4)	discard	s3 focus fire online screen failed
+8	2026-10-31T12:23:44Z	11cc0b2	13	+5	pass	local weak 49 m+105 strong 18; ONLINE vs h1 -4 (weak 11->7 margin -224/g)	discard	s6 draft Heart/Vesper/Tavi/Marcella/Varg: local winner, online loser
+9	2026-10-31T12:37:38Z	caaa58a	11	+3	pass	local weak 48 deaths 6.0 strong 17; ONLINE vs h1 -1 (weak 11->9 m-186, strong 5->6 m+155)	discard	s7 Capture emblem 2nd for Marcella/Vesper
+10	2026-10-31T13:16:29Z	85a7d42	4	-4	fail	local weak 45->43 strong 15; holdout -4 (deaths 10.3->11.8)	discard	s8 contest whole map (enemy-side gem groups eligible at 0.75)
+c1	2026-10-31T13:20:42Z	750097b	6	-	pass	unlimited-fuel replay identical on all differing games	keep	cleanup: inline switches, remove dead code (no decision change)
+11	2026-10-31T13:22:37Z	88019a9	-5	-11	fail	local weak 45->41 deaths 9.4, strong deaths 15.7; holdout +1	discard	s9 big guarded gem groups as team objectives
+12	2026-10-31T13:24:02Z	5668171	0	-6	pass	local weak 45->41 (deaths 6.9), holdout -3	discard	s10 live danger memory (avoid groups with recent enemy sightings)
+13	2026-10-31T13:33:44Z	dd1c422	3	-3	pass	local ok, holdout -1 (deaths 8.6); ONLINE vs h1 -1 (weak 11->11 m-53, strong 5->4)	discard	s11 bank during enemy downtime
+14	2026-10-31T13:43:18Z	6c9ec10	2	-4	pass	local weak deaths 8.1->6.0 m+77, strong 9->8; holdout -2 deaths 8.4	discard	s12 own-half territory (X_TERRITORY 0); 1 game short of gate - revisit
+15	2026-10-31T14:34:34Z	7833e6e	7	+1	fail	local weak 49 vs incumbent 50, strong 12 vs 10; holdout 10 vs incumbent 14, deaths 311 vs 227	discard	s13 tactical non-kill fight risk 0.95->0.6; local +1 vs incumbent but archived-map regression -4 wins and +84 deaths
+16	2026-10-31T14:37:21Z	c8d3a7d	5	-1	fail	local weak 46 vs incumbent 50; holdout 3 vs incumbent 14, deaths 372 vs 227	discard	s14 early outmatched escape before response planning; globally retreats from fights and badly regresses archived maps
+17	2026-10-31T14:39:15Z	39502d9	8	+2	fail	local weak 52 vs incumbent 50, strong 10 vs 10; holdout 11 vs incumbent 14, deaths 319 vs 227	discard	s15 one target in crowded contact; local targeted gain but archived-map regression
+18	2026-10-31T20:27:11.182622+00:00	dda5b41	4	-2	fail	weak 43 vs incumbent 50; strong 15 vs 10; no faults	discard	s16 ranged contact priority before melee; helps strong maps but regresses weak maps
+19	2026-10-31T20:29:30.041348+00:00	27c67d8	-2	-8	fail	weak 39 vs incumbent 50; strong 13 vs 10; no faults	discard	s17 optimistic resource order before detailed scoring; weak-map regression
+20	2026-10-31T20:37:15.912028+00:00	dc70a74	4	-2	fail	local 58 vs incumbent 60; archived 11 vs 14, deaths 289 vs 227	discard	s18 leftover-gold altar locks; purchase/place mechanism executes but performance regresses
+21	2026-10-31T20:57:58.082430+00:00	050fe02	6	0	pass	local 60/96 and archived 14/24 unchanged; online v140 15/50 vs v135 14/50; targets 7/25 both	screen-inconclusive	s19 Durability replaces useless Jungle on harmless camps; 0 target win flips, defense too late (163/212 deaths before defense)
+22	2026-10-31T21:19:21.411918+00:00	22edfc2	6	0	pass	local96 60wins archived24 14wins; income target controlled36 15vs16; online v14117/50 vs14015,13514,11411	deadline-deferred	s20 Marcella income in3-pick zero-camp-gold draft; +2/-0 target wins vs140, all40 other scores equal; original114 kept for deadline because evidence remains inconclusive
+23	2026-11-01T08:24:00+00:00	0d8c427	-2	-2	pass	local target10->12/24;112guard69->68;online14116->14214/50	discard	s21 Marcella small-bag exemption on no-camp-gold maps; mechanism executes but target8->6/20;other30exact scores unchanged
+24	2026-11-01T08:24:00+00:00	42d7296	5	5	pass	local32 17->22;112guard52->53;online14417/50 vs11417 (+1/-1)	screen-no-gain	s22 Cassi&Issac replaces Ryth only4-pick zeroGold; farming throughput increases;Vendetta role-only ablation17->16/32
+25	2026-11-01T08:55:00+00:00	958c01f	4	4	fail	112 52->56 strong18->16; harmless-only52->54 strong18same	local-inconclusive	s24 graph bank insertion; actual travel/reward/delivery mechanism; armed clear risk unmodeled
+26	2026-11-01T08:55:00+00:00	2a09b38	6	6	fail	112 52->58 weak34->42 strong18->16; strong deaths worsen	local-inconclusive	s25 partial cached geometry; individual field usable before all fields complete; no platform trial yet
+27	2026-11-01T08:55:00+00:00	0ef5e41	4	4	flag	11252->56; extra strong4419->18; ONLINE14527/100 vs11428 and14133; no faults;1wrong143group excluded+rerun	screen-no-gain	s23 resume fuel-starved farm and bank plan before rescoring; Lanes native longest idle1714/1496->33/39;100 paired online scheduled
+28	2026-11-01T10:57:19.814982+00:00	-	1	1	pass	14556->57/112, margins/deaths worse	local-inconclusive	s24 immediate partial geometry on145; not submitted
+29	2026-11-01T10:57:19.815044+00:00	-	1	1	pass	14556->57/112, more deaths	local-inconclusive	s25 preserve distant target on observed geodesic travel progress; not submitted
+30	2026-11-01T10:57:19.815051+00:00	-	-13	-13	pass	14169->56/112, weak57->45	discard	s26 weighted bank insertion over all harmless unclaimed nodes; runtime overhead and poor routes
+31	2026-11-01T10:57:19.815057+00:00	-	-3	-3	fail	14169->66/112,strong12->9	discard	s26b graph cached6turns, overhead reduced but performance still worse
+32	2026-11-01T10:57:19.815063+00:00	-	-6	-6	fail	14169->63/112,more deaths; mathematical closed-form6cases pass	discard	s26c timed ally-arrival camp-clear graph, no damage credited before arrivals
+33	2026-11-01T10:57:19.815069+00:00	-	-2	-2	pass	141target32 14->12;11269->68	local-inconclusive	s27 packed-gem splash draft Varg replacesVesper; ranged presence lost
+34	2026-11-01T10:57:19.815075+00:00	-	0	0	pass	141target32 14->14;11269->68	local-inconclusive	s27b Varg replacesRyth, keepsVesperranged role; capture output not enough
+35	2026-11-01T10:57:19.815080+00:00	c5e110b	1	1	pass	141target32 14->15;11269->70; deaths near same; tested WASM frozen	screen-no-gain	s27c v146: local11269->70; platform50 15vs14115; target20 10->8; second50 superseded by147
+36	2026-11-01T12:54:40.344968+00:00	f160a66	4	4	pass	local11269->70; platform10035vs14131; +7/-3; zero faults/version errors	best-measured	s28 v147 isolated melee walk/reset forecast correction; modest gain, pairedp.34375, blockCI[-3,+11]pp; v114 remains opponent

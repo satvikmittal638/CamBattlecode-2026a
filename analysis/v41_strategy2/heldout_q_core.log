@@ -1,0 +1,23 @@
+games selected 29, results 29, decoded ok 29, failed 0, worker errors 0, non-zero exits 0; our wins 20
+team native kills (end counters): us 374, them 298; body deaths us 357, them 486
+
+Q1 us deaths 357 (12.31/game): attribution: champion 282 (79%), camp 44 (12%), ambiguous 31 (9%)
+   last own-turn action PROXY (within 4 rounds): moving 176 (49%), fighting 95 (27%), noAction 72 (20%), recalling 11 (3%), tributing 2 (1%), clearingCamp 1 (0%)
+   certified personal awareness (own basic Attack on enemy champion, last 3 own turns & <=4 rounds): unknown 204 (57%), yes 153 (43%) | simultaneous multi-death steps: 31
+   gems carried at death: total 1613 (55.62/game), deaths with >=20 gems 31
+   by type: Ren 82 (23%), Stellar 78 (22%), HeartOfRuin 65 (18%), Ryth 51 (14%), Varg 28 (8%), Cassi 15 (4%), Issac 15 (4%), Tavi 13 (4%), Prism 10 (3%)
+
+Q1 them deaths 486 (16.76/game): attribution: champion 362 (74%), camp 100 (21%), ambiguous 24 (5%)
+   last own-turn action PROXY (within 4 rounds): moving 245 (50%), fighting 142 (29%), noAction 88 (18%), recalling 8 (2%), clearingCamp 3 (1%)
+   certified personal awareness (own basic Attack on enemy champion, last 3 own turns & <=4 rounds): unknown 308 (63%), yes 178 (37%) | simultaneous multi-death steps: 71
+   gems carried at death: total 2939 (101.34/game), deaths with >=20 gems 49
+   by type: HeartOfRuin 81 (17%), Ren 74 (15%), Stellar 73 (15%), Ryth 64 (13%), VesperVale 39 (8%), Varg 33 (7%), Willow 27 (6%), Cassi 21 (4%), Issac 21 (4%), Marcella 20 (4%), Vendetta 17 (3%), Tavi 15 (3%), Prism 1 (0%)
+Q2 us: tribute starts 888 (30.62/game), bag p25/p50/p75/p90 11/18/33/58; gems lost on death 55.62/game
+Q2 them: tribute starts 543 (18.72/game), bag p25/p50/p75/p90 11/22/37/61; gems lost on death 101.34/game
+Q3 us first purchase per (game,champion) n=126: Jungle Shard of Focus 34, Jungle Shard of Strength 24, Jungle Emblem of Focus 21, Bruiser Shard of Health 14, Jungle Emblem of Strength 14
+Q3 us all positive item deltas 2218: top by type: Ryth: Power Sh Strength 57, Power Emb Strength 49, Jungle Emb Strength 22 | Stellar: Power Emb Focus 237, Power Sh Focus 193, Jungle Emb Focus 27 | HeartOfRuin: Power Emb Focus 446, Power Sh Focus 257, Jungle Emb Focus 27 | Ren: Power Emb Focus 184, Power Sh Focus 167, Bruiser Emb Health 26 | Varg: Power Emb Strength 73, Power Sh Strength 50, Jungle Emb Strength 16 | Prism: Power Sh Focus 11, Power Emb Focus 6, Durability Sh Health 2 | Issac: Power Sh Strength 5, Durability Sh Health 3, Power Emb Strength 2 | Tavi: Power Sh Focus 3, Durability Sh Health 2, Durability Emb Health 1 | Cassi: Durability Sh Health 2, Durability Emb Health 1, Power Sh Focus 1
+Q3 them first purchase per (game,champion) n=127: consumable2 31, Treasure Shard of Focus 12, Treasure Shard of Health 10, Bruiser Shard of Health 9, Treasure Shard of Strength 9
+Q3 them all positive item deltas 2629: top by type: Marcella: Power Sh Strength 120, Bruiser Sh Strength 31, Power Emb Strength 28 | HeartOfRuin: Bruiser Sh Focus 171, Power Sh Focus 106, Bruiser Emb Focus 53 | Willow: Bruiser Sh Strength 7, consumable0 6, Durability Sh Health 5 | VesperVale: Power Sh Strength 7, Power Emb Strength 7, consumable0 6 | Varg: Bruiser Sh Strength 58, Bruiser Emb Strength 30, Bruiser Emb Health 13 | Ren: Power Sh Focus 102, Power Emb Focus 43, Power Sh Strength 31 | Ryth: Power Sh Strength 80, Bruiser Sh Health 62, Bruiser Emb Health 22 | Stellar: Power Sh Focus 103, Power Emb Focus 58, Bruiser Sh Focus 57 | Vendetta: Power Sh Strength 16, Power Sh Health 14, Durability Sh Health 5 | Issac: Power Sh Strength 36, Power Emb Strength 15, Durability Sh Health 7 | Cassi: Power Sh Focus 6, Durability Sh Health 4, Bruiser Emb Focus 3 | Tavi: Power Sh Strength 14, Bruiser Sh Focus 11, Power Emb Strength 10 | Prism: Power Sh Focus 10, Power Emb Focus 6, Treasure Sh Focus 4
+saved analysis/v41_strategy2/heldout_q_core.json
+exit 0
+held-out Bruiser share: us 4.3% of 2218 them 27.7% of 2629 | HoR us 0.0% of 792 them 41.0% of 624

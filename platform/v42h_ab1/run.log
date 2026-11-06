@@ -1,0 +1,38 @@
+2026-10-21T12:36:11.359Z lock acquired 68e1034b-3afb-47c9-b205-79524e2dcdb1
+2026-10-21T12:36:13.890Z submitted fe50778c-hh as v42 dd3cdbe4-b181-481f-ba19-f7303bf17a37
+2026-10-21T12:41:21.824Z candidate build active; active v42
+2026-10-21T12:41:29.008Z uploaded source matches frozen hashes (24 files)
+2026-10-21T12:41:30.881Z chunk 0 candidate v42 A1 -> ba9356c2-ee52-4ba7-b985-d304bbe7a76a
+2026-10-21T12:41:32.801Z chunk 0 candidate v42 A2 -> 6d159975-f5ec-4d25-be36-c42c8f7293f0
+2026-10-21T12:41:34.493Z chunk 0 candidate v42 B1 -> 736ad702-66f4-446f-afb2-0d3aca63848a
+2026-10-21T12:41:36.184Z chunk 0 candidate v42 B2 -> 69d4882e-ab99-4017-924b-a0c6b1494996
+2026-10-21T12:42:08.096Z chunk 0 {"finished":2,"queued":2}
+2026-10-21T12:42:59.756Z chunk 0 {"finished":4}
+2026-10-21T12:43:23.429Z chunk 0 candidate v42 valid: 1/20 wins
+2026-10-21T12:45:33.668Z active = v41
+2026-10-21T12:45:35.013Z chunk 1 control v41 A1 -> 8baee2da-80bc-4f5f-9926-ae418bc66962
+2026-10-21T12:45:36.529Z chunk 1 control v41 A2 -> ef683426-23a5-4742-b3a3-f4b763060a95
+2026-10-21T12:45:37.733Z chunk 1 control v41 B1 -> fbbec381-ac3d-46be-882e-82f2b3bd0019
+2026-10-21T12:45:38.891Z chunk 1 control v41 B2 -> 44fd0164-8b1a-4fc5-b4d5-84a63bb5af59
+2026-10-21T12:46:10.765Z chunk 1 {"finished":4}
+2026-10-21T12:46:11.924Z chunk 1 control v41 valid: 0/20 wins
+2026-10-21T12:46:13.261Z chunk 2 control v41 C1 -> 21af2836-620b-445d-a8a6-fb28a3965f46
+2026-10-21T12:46:14.750Z chunk 2 control v41 C2 -> e95abb2e-5458-42e6-abca-2291c11a448c
+2026-10-21T12:46:15.878Z chunk 2 control v41 D1 -> 23efc302-4b08-4c5c-94c0-749c05885288
+2026-10-21T12:46:17.138Z chunk 2 control v41 D2 -> abb27d44-ae0c-45c4-8ea3-3fcce78646f4
+2026-10-21T12:46:48.938Z chunk 2 {"finished":4}
+2026-10-21T12:46:50.137Z chunk 2 control v41 valid: 5/20 wins
+2026-10-21T12:51:42.017Z active = v42
+2026-10-21T12:51:43.663Z chunk 3 candidate v42 C1 -> ed59d034-c3b1-4a75-93cf-da39fbbfc291
+2026-10-21T12:51:45.400Z chunk 3 candidate v42 C2 -> ba179be7-3b1e-40ef-a1db-eceffd721546
+2026-10-21T12:51:46.809Z chunk 3 candidate v42 D1 -> d15271f1-4da1-4f00-9aca-09ae9193c66f
+2026-10-21T12:51:49.831Z chunk 3 candidate v42 D2 -> 1b9141d5-dd2d-45e8-aa24-2a12fe6ee2f5
+2026-10-21T12:52:21.932Z chunk 3 {"finished":4}
+2026-10-21T12:52:23.319Z chunk 3 candidate v42 valid: 6/20 wins
+2026-10-21T12:58:09.012Z RESTORE NOT CONFIRMED
+2026-10-21T12:58:09.027Z lock released
+2026-10-21T12:59:11.889Z collected candidate: exit 0
+2026-10-21T12:59:11.896Z collection candidate complete: 40 replays match receipts
+2026-10-21T13:00:25.334Z collected control: exit 0
+2026-10-21T13:00:25.340Z collection control complete: 40 replays match receipts
+2026-10-21T13:00:25.349Z paired games 40: candidate 7/40, control 5/40, candidate gained 2 lost 0

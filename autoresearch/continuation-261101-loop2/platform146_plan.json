@@ -1,0 +1,19 @@
+{
+  "design": "100 candidate146games. First50freshS26vs141control15/50,rank88;second50S21vs141control16/50,frozenrank102. Each25near25half,35weak15strong;total50near50half70weak30strong. Exact opponent bots pinned. Originalv114retainedinlocalopponentsandS21platformreference.",
+  "candidate": 146,
+  "sourceCommit": "c5e110b",
+  "arms": [
+    {
+      "baseline": "s26_v141",
+      "candidate": "s26_v146",
+      "plan": "autoresearch/online_plan_s26.json",
+      "source": "s26_v141"
+    },
+    {
+      "baseline": "s21_v141",
+      "candidate": "s21_v146",
+      "plan": "autoresearch/online_plan_s21.json",
+      "source": "s21_v141"
+    }
+  ]
+}

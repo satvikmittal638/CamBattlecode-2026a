@@ -1,0 +1,57 @@
+
+=== 00lanes/r1_317c4eed-d022-45a3-83d9-491861aa5cb0.repl26a | r1 side a (loss 398-1013) | focus OUR Ren #2 dies r614
+  r608 36% g0 @38,5 | self Move; self cast Dash
+  r609 13% g0 @35,3 | self Recall
+  r610 13% g0 @35,3 | -
+  r611 13% g0 @35,3 | -
+  r612 13% g0 @35,3 | -
+  r613 13% g0 @35,3 | -
+  r614 13% g0 @35,3 | Stellar#5 basic Attack; Stellar#5 cast Damage (coord-resolved)
+  focus inventory: stat-eq str 1 foc 2 hp 10; passives [Durability]; spent 330g; items: 1xPower Sh Focus, 1xDurability Emb Health, 1xBruiser Emb Health
+  hitter Stellar#5 inventory: stat-eq str 0 foc 29 hp 10; passives [Durability,Treasure,Home]; spent 1050g; items: 4xPower Emb Focus, 1xDurability Emb Health, 1xTreasure Emb Focus, 1xHome Emb Health
+
+=== 00lanes/r7_c67a088a-55d7-4ccf-ba0a-3f8d991c2e6e.repl26a | r7 side a (loss 490-1001) | focus OUR Ryth #3 dies r605
+  r599 63% g0 @47,14 | Ryth#9 basic Attack; Ryth#9 basic Attack
+  r600 49% g0 @47,14 | Ryth#9 basic Attack; self Attack->enemy Ryth; self cast AttackReset->ally Ryth; self Attack->enemy Ryth
+  r601 40% g0 @47,14 | self Attack->enemy Ryth; Ryth#9 basic Attack
+  r602 32% g0 @47,14 | Ryth#9 basic Attack; self Attack->enemy Ryth; self Move
+  r603 24% g0 @46,15 | self Move
+  r604 4% STUN g0 @45,16 | -
+  r605 4% STUN g0 @45,16 | Ryth#9 basic Attack
+  focus inventory: stat-eq str 2 foc 0 hp 0; passives []; spent 60g; items: 2xJungle Sh Strength
+  hitter Ryth#9 inventory: stat-eq str 4 foc 12 hp 14; passives []; spent 660g; items: 2xMonster Sh Health, 2xBruiser Emb Focus, 2xBruiser Emb Health
+
+=== 00lanes/r12_d8fcbc40-8221-460a-be95-24f39d897262.repl26a | r12 side b (loss 209-1012) | focus OUR Ren #8 dies r819
+  r813 100% g0 @57,0 | self Move
+  r814 100% g0 @56,1 | self Move
+  r815 100% g0 @55,2 | self cast Cc->enemy Marcella
+  r816 100% g0 @55,2 | self Move
+  r817 100% g0 @54,1 | Marcella#4 basic Attack; self Attack->enemy Marcella
+  r818 97% g0 @54,1 | Marcella#4 basic Attack; Marcella#4 basic Attack
+  r819 92% STUN g0 @54,1 | Marcella#4 cast Damage (coord-resolved); Marcella#4 basic Attack; Willow#5 basic Attack; Willow#5 basic Attack
+  focus inventory: stat-eq str 1 foc 1 hp 8; passives []; spent 240g; items: 3xDurability Sh Health, 1xBruiser Emb Health
+  hitter Marcella#4 inventory: stat-eq str 0 foc 42 hp 5; passives [Durability]; spent 1200g; items: 7xPower Emb Focus, 1xDurability Emb Health
+  hitter Willow#5 inventory: stat-eq str 12 foc 0 hp 5; passives [Durability]; spent 450g; items: 2xPower Emb Strength, 1xDurability Emb Health
+
+=== 00rushbait_v2/r30_cae74fe4-fee5-40cc-bc70-2e139b3a09b6.repl26a | r30 side a (win 1023-886) | focus ENEMY Varg #5 dies r676
+  r670 59% STUN g0 @8,55 | self Attack->enemy Ryth; self Move; Ryth#3 basic Attack; Ren#2 basic Attack
+  r671 50% g0 @7,56 | Ryth#3 basic Attack; self Attack->enemy Ryth; self Move; Ren#2 basic Attack
+  r672 41% g0 @6,57 | self Attack->enemy Ren; self Move; Ren#2 basic Attack
+  r673 37% g0 @6,58 | Ryth#3 basic Attack; self Attack->enemy Ren; self Move; Ren#2 basic Attack
+  r674 26% g0 @6,59 | self Attack->enemy Ren; self Move; Ren#2 basic Attack
+  r675 22% g0 @6,60 | Ryth#3 basic Attack; self Attack->enemy Ren; self Move; Ren#2 basic Attack
+  r676 12% g0 @6,61 | self Attack->enemy Ren; self Move; Ryth#3 cast AoeDamage (coord-resolved); Ren#2 cast Cc (coord-resolved)
+  focus inventory: stat-eq str 7 foc 0 hp 5; passives [Durability,Jungle]; spent 360g; items: 2xMonster Sh Strength, 1xDurability Emb Health, 1xJungle Emb Strength
+  hitter Ryth#3 inventory: stat-eq str 12 foc 1 hp 5; passives [Durability,Jungle]; spent 480g; items: 1xPower Sh Strength, 1xDurability Emb Strength, 1xJungle Emb Strength, 1xBruiser Emb Health
+  hitter Ren#2 inventory: stat-eq str 1 foc 4 hp 10; passives [Durability]; spent 390g; items: 3xPower Sh Focus, 1xDurability Emb Health, 1xBruiser Emb Health
+
+=== 01the_farm/r2_86c09785-2c55-4dbb-b2a6-e9b2244ee40e.repl26a | r2 side a (loss 170-1018) | focus OUR HeartOfRuin #0 dies r466
+  r460 70% g37 @18,16 | self Move
+  r461 70% g37 @17,17 | self Move
+  r462 70% g37 @18,17 | self cast Dash; self Attack->enemy HeartOfRuin
+  r463 70% g37 @19,15 | self cast Shield->ally HeartOfRuin; self Attack->enemy HeartOfRuin
+  r464 70% g37 @19,15 | HeartOfRuin#3 basic Attack; self Move; self Attack->enemy HeartOfRuin
+  r465 70% g37 @20,14 | self Attack->enemy HeartOfRuin; self Move
+  r466 70% g37 @20,15 | -
+  focus inventory: stat-eq str 0 foc 26 hp 0; passives [Durability,Jungle]; spent 720g; items: 4xPower Sh Focus, 2xPower Emb Focus, 1xDurability Emb Focus, 1xJungle Emb Focus
+  hitter HeartOfRuin#3 inventory: stat-eq str 8 foc 51 hp 21; passives [Monster,Durability,Treasure,Jungle]; spent 1920g; items: 1xMonster Emb Focus, 1xDurability Emb Health, 1xTreasure Emb Focus, 1xJungle Emb Focus, 4xBruiser Sh Focus, 6xBruiser Emb Focus, 2xBruiser Emb Health

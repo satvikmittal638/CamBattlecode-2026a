@@ -1,0 +1,61 @@
+{
+  "nativeAuditedGames": 64,
+  "includedGames": 58,
+  "includedTurnMatchFraction": 0.9996086676556702,
+  "excludedGames": [
+    {
+      "matchId": "60c1dc65-e3f6-4636-afcb-2a40234a9340",
+      "map": "00the_line",
+      "fidelity": 0.3055,
+      "ended": 0,
+      "preempted": 0
+    },
+    {
+      "matchId": "677c9639-ac39-457c-961e-37d98e7154db",
+      "map": "00breadcrumbs",
+      "fidelity": 0.9584905660377359,
+      "ended": 0,
+      "preempted": 0
+    },
+    {
+      "matchId": "8a8c6b94-9920-46d2-b7f0-4c12c9c861b6",
+      "map": "01elk_arena",
+      "fidelity": 0.7004,
+      "ended": 0,
+      "preempted": 0
+    },
+    {
+      "matchId": "95c59e42-99d2-4c0e-8ea9-fba376555b42",
+      "map": "01yellow_brick_road",
+      "fidelity": 0.9997915581031788,
+      "ended": 0,
+      "preempted": 1
+    },
+    {
+      "matchId": "a4892203-9ac3-4c1c-831e-e66e104113a3",
+      "map": "00great_wall",
+      "fidelity": 0.4834,
+      "ended": 0,
+      "preempted": 0
+    },
+    {
+      "matchId": "f589e75c-e5d3-4ccd-86d2-94238af26ce9",
+      "map": "00collision",
+      "fidelity": 0.9772596430627519,
+      "ended": 0,
+      "preempted": 0
+    }
+  ],
+  "focusStageTurns": 3467,
+  "focusStageGames": 51,
+  "blockedThenMovedTurns": 123,
+  "blockedThenMovedGames": 20,
+  "observedFocusTurns": 3463,
+  "observedFocusPositionChanges": 1331,
+  "focusMovesWithBasicExposure": 788,
+  "reducedBasicExposure": 696,
+  "equalBasicExposure": 90,
+  "increasedBasicExposure": 2,
+  "basicExposureBeforeTotal": 141114.5,
+  "basicExposureAfterTotal": 20274.5
+}

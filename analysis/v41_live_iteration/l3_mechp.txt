@@ -1,0 +1,103 @@
+completeness: games 700, metrics 700, missing 0, worker errors 0, non-zero worker exits 0
+raw per-game metrics -> analysis/v41_live_iteration/l3_mechp_raw.json
+base  deaths/game by type id (12=HeartOfRuin): 0:0.98 3:0.19 4:0.19 5:1.55 6:0.16 9:1.23 10:0.77 11:0.15 12:1.63
+base  ALL n=350 stat 3.2% capGems/1kR 772 deaths 6.83 kills 15.19
+      tm30       n=70 stat 1.7% capGems/1kR 726 deaths 9.13 kills 18.87
+      v27        n=70 stat 1.7% capGems/1kR 787 deaths 9.39 kills 16.43
+      v21        n=70 stat 3.6% capGems/1kR 765 deaths 5.83 kills 18.43
+      mimic-mite n=70 stat 2.8% capGems/1kR 768 deaths 4.10 kills 14.64
+      edge       n=70 stat 6.0% capGems/1kR 816 deaths 5.70 kills 7.56
+hh    deaths/game by type id (12=HeartOfRuin): 0:0.98 3:0.19 4:0.19 5:1.54 6:0.16 9:1.25 10:0.71 11:0.15 12:1.22
+hh    ALL n=350 stat 3.2% capGems/1kR 792 deaths 6.38 kills 15.34
+      tm30       n=70 stat 1.5% capGems/1kR 753 deaths 7.97 kills 19.43
+      v27        n=70 stat 2.3% capGems/1kR 803 deaths 9.73 kills 16.10
+      v21        n=70 stat 3.6% capGems/1kR 777 deaths 5.39 kills 18.83
+      mimic-mite n=70 stat 3.0% capGems/1kR 794 deaths 3.64 kills 14.79
+      edge       n=70 stat 5.6% capGems/1kR 834 deaths 5.17 kills 7.54
+
+per map:
+  00ambush             base   n=10 stat 0.0% capGems/1kR 825 deaths 1.50 kills 5.60
+  00ambush             hh     n=10 stat 0.0% capGems/1kR 783 deaths 2.10 kills 4.80
+  00collision          base   n=10 stat 0.0% capGems/1kR 935 deaths 3.50 kills 17.70
+  00collision          hh     n=10 stat 0.0% capGems/1kR 898 deaths 3.50 kills 17.80
+  00contest            base   n=10 stat 0.0% capGems/1kR 0 deaths 27.70 kills 47.20
+  00contest            hh     n=10 stat 0.0% capGems/1kR 0 deaths 27.70 kills 47.20
+  00corners            base   n=10 stat 0.2% capGems/1kR 1143 deaths 3.80 kills 16.90
+  00corners            hh     n=10 stat 0.2% capGems/1kR 1068 deaths 5.10 kills 19.10
+  00eight              base   n=10 stat 0.1% capGems/1kR 990 deaths 3.90 kills 18.40
+  00eight              hh     n=10 stat 0.1% capGems/1kR 992 deaths 4.60 kills 18.60
+  00elkring            base   n=10 stat 0.0% capGems/1kR 1143 deaths 2.90 kills 10.90
+  00elkring            hh     n=10 stat 0.0% capGems/1kR 1154 deaths 2.30 kills 10.70
+  00expanse            base   n=10 stat 0.0% capGems/1kR 1027 deaths 0.70 kills 0.70
+  00expanse            hh     n=10 stat 0.0% capGems/1kR 1075 deaths 0.10 kills 0.40
+  00fragment           base   n=10 stat 0.8% capGems/1kR 441 deaths 4.60 kills 24.20
+  00fragment           hh     n=10 stat 1.0% capGems/1kR 450 deaths 4.50 kills 23.70
+  00interlock          base   n=10 stat 0.0% capGems/1kR 883 deaths 2.90 kills 11.60
+  00interlock          hh     n=10 stat 0.0% capGems/1kR 874 deaths 1.80 kills 11.00
+  00lanes              base   n=10 stat 33.2% capGems/1kR 516 deaths 1.00 kills 1.10
+  00lanes              hh     n=10 stat 33.3% capGems/1kR 497 deaths 1.10 kills 0.60
+  00monolith           base   n=10 stat 0.0% capGems/1kR 750 deaths 4.60 kills 14.00
+  00monolith           hh     n=10 stat 0.0% capGems/1kR 765 deaths 3.60 kills 13.30
+  00packs              base   n=10 stat 0.0% capGems/1kR 842 deaths 11.10 kills 19.70
+  00packs              hh     n=10 stat 0.0% capGems/1kR 882 deaths 9.30 kills 20.00
+  00pilgrimage         base   n=10 stat 0.1% capGems/1kR 517 deaths 6.00 kills 19.30
+  00pilgrimage         hh     n=10 stat 0.1% capGems/1kR 507 deaths 5.60 kills 21.10
+  00quadrants          base   n=10 stat 0.1% capGems/1kR 1518 deaths 4.30 kills 5.30
+  00quadrants          hh     n=10 stat 0.1% capGems/1kR 1663 deaths 4.90 kills 5.00
+  00reverse-spiral     base   n=10 stat 21.0% capGems/1kR 470 deaths 6.40 kills 16.10
+  00reverse-spiral     hh     n=10 stat 20.2% capGems/1kR 502 deaths 5.30 kills 17.30
+  00rows               base   n=10 stat 0.0% capGems/1kR 471 deaths 0.00 kills 0.00
+  00rows               hh     n=10 stat 0.0% capGems/1kR 490 deaths 0.00 kills 0.00
+  00rushbait-v2        base   n=10 stat 27.4% capGems/1kR 462 deaths 4.20 kills 6.00
+  00rushbait-v2        hh     n=10 stat 27.3% capGems/1kR 480 deaths 4.50 kills 6.50
+  00split              base   n=10 stat 5.4% capGems/1kR 1071 deaths 3.80 kills 5.30
+  00split              hh     n=10 stat 6.4% capGems/1kR 1072 deaths 4.10 kills 4.80
+  00stampede           base   n=10 stat 0.0% capGems/1kR 456 deaths 7.70 kills 35.30
+  00stampede           hh     n=10 stat 0.0% capGems/1kR 562 deaths 6.10 kills 33.30
+  00swirl              base   n=10 stat 0.4% capGems/1kR 986 deaths 13.60 kills 35.80
+  00swirl              hh     n=10 stat 2.4% capGems/1kR 1047 deaths 13.10 kills 33.50
+  01big-world          base   n=10 stat 0.0% capGems/1kR 750 deaths 1.00 kills 0.00
+  01big-world          hh     n=10 stat 0.0% capGems/1kR 727 deaths 1.00 kills 0.00
+  01boss-battle        base   n=10 stat 3.0% capGems/1kR 2072 deaths 3.60 kills 1.30
+  01boss-battle        hh     n=10 stat 3.9% capGems/1kR 2183 deaths 4.00 kills 1.40
+  01broken-curve       base   n=10 stat 0.0% capGems/1kR 922 deaths 3.60 kills 4.10
+  01broken-curve       hh     n=10 stat 0.0% capGems/1kR 925 deaths 3.70 kills 4.30
+  01concentrated-wealth base   n=10 stat 0.2% capGems/1kR 580 deaths 13.00 kills 17.60
+  01concentrated-wealth hh     n=10 stat 0.0% capGems/1kR 621 deaths 11.90 kills 17.30
+  01corridors          base   n=10 stat 0.0% capGems/1kR 786 deaths 5.20 kills 8.90
+  01corridors          hh     n=10 stat 0.1% capGems/1kR 774 deaths 4.60 kills 9.80
+  01elk-arena          base   n=10 stat 1.7% capGems/1kR 744 deaths 8.50 kills 45.50
+  01elk-arena          hh     n=10 stat 1.5% capGems/1kR 739 deaths 10.70 kills 48.40
+  01fracture           base   n=10 stat 0.0% capGems/1kR 819 deaths 2.90 kills 0.00
+  01fracture           hh     n=10 stat 0.0% capGems/1kR 814 deaths 2.30 kills 0.10
+  01gold-rush          base   n=10 stat 0.0% capGems/1kR 262 deaths 14.70 kills 20.20
+  01gold-rush          hh     n=10 stat 0.0% capGems/1kR 275 deaths 15.00 kills 18.70
+  01hooks              base   n=10 stat 0.0% capGems/1kR 800 deaths 14.80 kills 42.10
+  01hooks              hh     n=10 stat 0.0% capGems/1kR 827 deaths 11.30 kills 43.10
+  01islands            base   n=10 stat 0.0% capGems/1kR 1000 deaths 1.80 kills 5.00
+  01islands            hh     n=10 stat 0.1% capGems/1kR 986 deaths 1.70 kills 5.30
+  01shortcut           base   n=10 stat 0.5% capGems/1kR 513 deaths 10.40 kills 16.30
+  01shortcut           hh     n=10 stat 0.3% capGems/1kR 505 deaths 11.60 kills 17.00
+  01starfish           base   n=10 stat 0.1% capGems/1kR 805 deaths 19.30 kills 20.30
+  01starfish           hh     n=10 stat 0.5% capGems/1kR 1020 deaths 15.80 kills 22.90
+  01starvation         base   n=10 stat 0.0% capGems/1kR 535 deaths 15.80 kills 25.90
+  01starvation         hh     n=10 stat 0.0% capGems/1kR 647 deaths 11.00 kills 25.00
+  01the-farm           base   n=10 stat 0.0% capGems/1kR 317 deaths 2.40 kills 4.70
+  01the-farm           hh     n=10 stat 0.0% capGems/1kR 275 deaths 1.30 kills 6.20
+  01yellow-brick-road  base   n=10 stat 16.8% capGems/1kR 674 deaths 7.80 kills 8.50
+  01yellow-brick-road  hh     n=10 stat 13.8% capGems/1kR 644 deaths 8.10 kills 8.60
+
+discordant games (base -> variant): result score | stat% capGems/1kR deaths/kills
++ tm30|00expanse|a               base L 967-1021 @1079 | 0% 910 2/0              -> hh W 1003-825 @970 | 0% 1079 0/1
++ tm30|00packs|b                 base L 448-1018 @1389 | 0% 308 26/13            -> hh W 1014-830 @1674 | 0% 594 25/22
++ tm30|00rushbait-v2|b           base L 914-1005 @1563 | 8% 621 9/8              -> hh W 1059-725 @1587 | 8% 665 7/17
++ tm30|01boss-battle|a           base L 0-655 @2000 | 6% 2253 3/6                -> hh W 1180-783 @1956 | 7% 2160 5/7
+- tm30|01boss-battle|b           base W 1142-8 @1809 | 2% 1317 29/7              -> hh L 847-869 @2000 | 2% 1673 31/7
++ tm30|01starfish|b              base L 320-1015 @1250 | 1% 253 37/14            -> hh W 1116-637 @1570 | 4% 871 24/31
++ tm30|01starvation|b            base L 636-648 @2000 | 0% 314 28/18             -> hh W 1000-288 @1762 | 0% 556 16/24
+- tm30|01the-farm|a              base W 649-271 @2000 | 0% 317 3/13              -> hh L 491-510 @2000 | 0% 272 1/4
++ v27|00rows|a                   base L 905-976 @2000 | 0% 459 0/0               -> hh W 1025-812 @1808 | 0% 567 0/0
+- v27|01shortcut|b               base W 1006-96 @1674 | 0% 526 10/8              -> hh L 710-714 @2000 | 0% 515 17/10
++ v21|01islands|a                base L 946-1000 @1162 | 0% 764 1/11             -> hh W 1004-884 @1070 | 0% 938 3/8
++ edge|01hooks|b                 base L 572-968 @2000 | 0% 297 72/29             -> hh W 792-770 @2000 | 0% 407 60/37
+mechp exit 0

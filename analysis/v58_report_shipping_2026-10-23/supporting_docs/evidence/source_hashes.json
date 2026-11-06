@@ -1,0 +1,147 @@
+[
+  {
+    "path": "src/boss_main.cpp",
+    "sha256": "949efefc41107e2fda46b0255895bd42e4465a989029c112d4fecf84919f7159",
+    "lines": 30
+  },
+  {
+    "path": "src/boss/bot.cpp",
+    "sha256": "26166e45be6986796c92291ce0aa6e93f336503d5215ab2bf05c287c5703c353",
+    "lines": 1489
+  },
+  {
+    "path": "src/boss/draft.cpp",
+    "sha256": "9d93d8bbe4d9d6cbb32d6b9e40d606087bea227c94f2753d41002513e24b2baa",
+    "lines": 73
+  },
+  {
+    "path": "src/boss/bot.h",
+    "sha256": "1a52cf9cecd8f2eb4abcdba2981ef57fe088569acd052628609e632e7333c022",
+    "lines": 173
+  },
+  {
+    "path": "src/boss/policy.h",
+    "sha256": "24ed425aae46d4126ef0c0216531bbfa83dad20d2c9c5eec269d7d2126f166a2",
+    "lines": 20
+  },
+  {
+    "path": "src/boss/random.h",
+    "sha256": "8960db3557f4ef338e6d7936f4fe711a678a5213c52cb1d678e08578886847c8",
+    "lines": 22
+  },
+  {
+    "path": "src/boss/draft.h",
+    "sha256": "53e6db4013a89e4b345673ce9a310497c0d540e9074e30404449bf0a31274a79",
+    "lines": 4
+  },
+  {
+    "path": "src/bot.cpp",
+    "sha256": "6f9d2004df66db1a54ab546df385f2a669de285ef51d5cca9c3c63a653a357ee",
+    "lines": 1516
+  },
+  {
+    "path": "src/bot.h",
+    "sha256": "988001a0f43647532a356539cc387ec525167bf87b0ade2fed1c744738f4f674",
+    "lines": 207
+  },
+  {
+    "path": "src/draft.cpp",
+    "sha256": "fd5a234e0ee1ac8a06c10b5ae208c3cef463724b766587746e20440d86787714",
+    "lines": 92
+  },
+  {
+    "path": "src/draft.h",
+    "sha256": "3bc415128ab7979bf85c9cbb60c8378f54f4b62d5f8668c70de460f51041713c",
+    "lines": 4
+  },
+  {
+    "path": "src/fishx_features.h",
+    "sha256": "de75b26924f2b3b3a07a03ae23cb002caa5c42511661666f6bd34407ac863d91",
+    "lines": 50
+  },
+  {
+    "path": "src/main.cpp",
+    "sha256": "66664f0622b82169b164ebf1847581949bdae617a7b820e3be8423910d2435db",
+    "lines": 55
+  },
+  {
+    "path": "src/random.h",
+    "sha256": "8960db3557f4ef338e6d7936f4fe711a678a5213c52cb1d678e08578886847c8",
+    "lines": 22
+  },
+  {
+    "path": "src/v1_bank_access.h",
+    "sha256": "1143246e26a21618c06163215facb153ec2badf06d96d93bb866cffa28b9b4bf",
+    "lines": 123
+  },
+  {
+    "path": "src/v1_bank_carrier.h",
+    "sha256": "0992a71eacfb08dde42129d12c9fc84923afbea8acb14057da33d1c6a6a01f69",
+    "lines": 28
+  },
+  {
+    "path": "src/v1_bank_channel.h",
+    "sha256": "39b2fd6cccde288922bd9e006a441a206bdda7b69d773fb16c8eeafd36efea14",
+    "lines": 27
+  },
+  {
+    "path": "src/v1_dispatch.h",
+    "sha256": "6c60c83e64abec143421ebf2e8e8e88a920189c59eadd58a7496d1f06647fbc3",
+    "lines": 64
+  },
+  {
+    "path": "src/v1_cycle.h",
+    "sha256": "7f0e6f0b0ef25e98980c6e45e653decb36f9906614f5ac47a378e5188dd3c59b",
+    "lines": 204
+  },
+  {
+    "path": "src/v1_camp_executor.h",
+    "sha256": "03911270bdb66cb5412c79444e79ba74e8b2add53e161ce03d2a75a5720c8aa5",
+    "lines": 103
+  },
+  {
+    "path": "src/v1_kit.h",
+    "sha256": "795c3c4abad9438f78a66970a2b9020fbe59330ab57df4f1a00fd167c1669ef0",
+    "lines": 39
+  },
+  {
+    "path": "src/v1_support.h",
+    "sha256": "c2e60c600d67ba69a1dfeffeb9e0d479d512c04cebd34bb2c1335fc44ee92e09",
+    "lines": 56
+  },
+  {
+    "path": "src/v1_progress.h",
+    "sha256": "4f162ced904983ebcff3ad53a367c3b6651b9b10c67e0eba820fc941b0f4ea42",
+    "lines": 70
+  },
+  {
+    "path": "src/v1_help_packet.h",
+    "sha256": "e10fa364c165bd572f93a234b5d8532341f49b4591dbdb9e2f9607d0642cc021",
+    "lines": 18
+  },
+  {
+    "path": "src/v47_geometry.h",
+    "sha256": "3840505be85b9522fb76ab4c71a6e75e85633c20977a24a94c39a562c0d6caba",
+    "lines": 33
+  },
+  {
+    "path": "src/v1_tactical.h",
+    "sha256": "a0d985e326e8b7a84934c1a1dd69bf9eb660ef628274f83652434f81e32d050e",
+    "lines": 234
+  },
+  {
+    "path": "src/v55_bridge.h",
+    "sha256": "40e03e95618ca5d9a31e542a70b062baf670d9189ec6ea4afd716d3bc371ef26",
+    "lines": 29
+  },
+  {
+    "path": "src/v55_bank.h",
+    "sha256": "7b229be081511f8f7e0cc1a3a4b09c12f28ebfad7c3e33c34dc4c45aec27699a",
+    "lines": 30
+  },
+  {
+    "path": "src/v56_bridge_staging.h",
+    "sha256": "be1451798bb080a5f44d96d6791da0a3a17b4385c678455c347bea540b5802b0",
+    "lines": 48
+  }
+]

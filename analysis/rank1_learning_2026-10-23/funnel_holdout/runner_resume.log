@@ -1,0 +1,1355 @@
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf0c2196-codex-v57-final
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/dmitt/Library/Caches/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf0c2196-codex-v57-final/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf0c2196-codex-v57-final/src/boss/draft.cpp.obj
+[2/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf0c2196-codex-v57-final/src/boss_main.cpp.obj
+[3/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf0c2196-codex-v57-final/src/main.cpp.obj
+[4/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf0c2196-codex-v57-final/src/draft.cpp.obj
+[5/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf0c2196-codex-v57-final/src/boss/bot.cpp.obj
+[6/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf0c2196-codex-v57-final/src/bot.cpp.obj
+[7/8] Linking CXX executable bot.wasm
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf0c2196-mimic-shink
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/dmitt/Library/Caches/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf0c2196-mimic-shink/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf0c2196-mimic-shink/src/main.cpp.obj
+[2/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf0c2196-mimic-shink/src/draft.cpp.obj
+/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf0c2196-mimic-shink/src/draft.cpp:24:23: warning: enumeration value 'golem' not handled in switch [-Wswitch]
+   24 |             switch (c.kind()) {
+      |                     ~~^~~~~~
+1 warning generated.
+[3/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf0c2196-mimic-shink/src/bot.cpp.obj
+[4/5] Linking CXX executable bot.wasm
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf0c2196-mimic-whim
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/dmitt/Library/Caches/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf0c2196-mimic-whim/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf0c2196-mimic-whim/src/main.cpp.obj
+[2/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf0c2196-mimic-whim/src/bot.cpp.obj
+[3/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf0c2196-mimic-whim/src/draft.cpp.obj
+[4/5] Linking CXX executable bot.wasm
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf0c2196-v58-funnel
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/dmitt/Library/Caches/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf0c2196-v58-funnel/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf0c2196-v58-funnel/src/boss/draft.cpp.obj
+[2/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf0c2196-v58-funnel/src/boss_main.cpp.obj
+[3/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf0c2196-v58-funnel/src/draft.cpp.obj
+[4/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf0c2196-v58-funnel/src/main.cpp.obj
+[5/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf0c2196-v58-funnel/src/boss/bot.cpp.obj
+[6/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf0c2196-v58-funnel/src/bot.cpp.obj
+[7/8] Linking CXX executable bot.wasm
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  00ambush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00ambush/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  00ambush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00ambush/b.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  00collision
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00collision/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  00collision
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00collision/b.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00contest/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00contest/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  00collision  Round 0999/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00collision/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  00collision  Round 0997/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00collision/b.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00corners/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00corners/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  00contest  Round 1044/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00contest/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  00contest  Round 1061/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00contest/b.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  00eight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00eight/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  00eight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00eight/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  00ambush  Round 1276/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00ambush/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  00ambush  Round 1268/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00ambush/b.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  00elkring
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00elkring/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  00elkring
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00elkring/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  00corners  Round 0780/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00corners/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  00corners  Round 0824/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00corners/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  00eight  Round 0919/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00eight/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  00eight  Round 0895/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00eight/b.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  00expanse
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00expanse/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  00expanse
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00expanse/b.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  00fragment
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00fragment/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  00fragment
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00fragment/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  00elkring  Round 0715/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00elkring/a.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  00gem-fields
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00gem-fields/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  00elkring  Round 0733/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00elkring/b.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  00gem-fields
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00gem-fields/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  00fragment  Round 1863/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00fragment/a.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  00gem-fields  Round 0732/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00gem-fields/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  00gem-fields  Round 0708/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00gem-fields/b.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00gemfight/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00gemfight/b.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  00great-wall
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00great-wall/a.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  00expanse  Round 0983/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00expanse/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  00expanse  Round 0980/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00expanse/b.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  00fragment  Round 1960/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00fragment/b.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  00great-wall
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00great-wall/b.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  00interlock
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00interlock/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  00interlock
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00interlock/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  00gemfight  Round 0747/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00gemfight/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  00gemfight  Round 0728/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00gemfight/b.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00lanes/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00lanes/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  00interlock  Round 1071/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00interlock/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  00interlock  Round 1071/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00interlock/b.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  00lost-world
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00lost-world/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  00lost-world
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00lost-world/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  00great-wall  Round 1153/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00great-wall/a.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  00monolith
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00monolith/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  00great-wall  Round 1264/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00great-wall/b.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  00monolith
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00monolith/b.repl26a
+[+] TEAM B WIN (vf0c2196-mimic-shink)  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  00lost-world  Round 0675/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00lost-world/a.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  00packs
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00packs/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  00lost-world  Round 0962/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00lost-world/b.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  00packs
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00packs/b.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  00lanes  Round 1063/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00lanes/b.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  00pilgrimage
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00pilgrimage/a.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  00lanes  Round 1105/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00lanes/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  00pilgrimage
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00pilgrimage/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  00monolith  Round 1210/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00monolith/a.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  00quadrants
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00quadrants/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  00monolith  Round 1208/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00monolith/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  00packs  Round 0922/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00packs/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  00packs  Round 0938/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00packs/b.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  00quadrants
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00quadrants/b.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  00reverse-spiral
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00reverse-spiral/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  00reverse-spiral
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00reverse-spiral/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  00quadrants  Round 0598/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00quadrants/a.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  00road-of-riches
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00road-of-riches/a.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  00pilgrimage  Round 1547/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00pilgrimage/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  00quadrants  Round 0577/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00quadrants/b.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  00road-of-riches
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00road-of-riches/b.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  00rows
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00rows/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  00pilgrimage  Round 1718/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00pilgrimage/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  00reverse-spiral  Round 1558/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00reverse-spiral/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  00reverse-spiral  Round 1357/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00reverse-spiral/b.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  00rows
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00rows/b.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  00rushbait-v2
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00rushbait-v2/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  00rushbait-v2
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00rushbait-v2/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  00road-of-riches  Round 1181/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00road-of-riches/a.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  00split
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00split/a.repl26a
+[+] TEAM B WIN (vf0c2196-mimic-shink)  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  00rows  Round 1482/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00rows/a.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  00rushbait-v2  Round 1379/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00rushbait-v2/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  00rushbait-v2  Round 1156/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00rushbait-v2/b.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  00split
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00split/b.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  00stampede
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00stampede/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  00stampede
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00stampede/b.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  00rows  Round 1479/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00rows/b.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  00swirl
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00swirl/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  00road-of-riches  Round 1437/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00road-of-riches/b.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  00swirl
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00swirl/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  00split  Round 0962/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00split/a.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  00swirl  Round 0808/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00swirl/a.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  01big-world
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01big-world/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  01big-world
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01big-world/b.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  00split  Round 0896/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00split/b.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01boss-battle/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  00swirl  Round 0718/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00swirl/b.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01boss-battle/b.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  00stampede  Round 1814/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00stampede/b.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01broken-curve/a.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  00stampede  Round 1913/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/00stampede/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01broken-curve/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  01boss-battle  Round 1228/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01boss-battle/a.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  01broken-curve  Round 1092/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01broken-curve/a.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  01concentrated-wealth
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01concentrated-wealth/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  01concentrated-wealth
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01concentrated-wealth/b.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  01boss-battle  Round 1313/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01boss-battle/b.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  01broken-curve  Round 1199/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01broken-curve/b.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  01corridors
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01corridors/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  01corridors
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01corridors/b.repl26a
+[+] TEAM A WIN (vf0c2196-mimic-shink)  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  01big-world  Round 1539/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01big-world/b.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01elk-arena/a.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  01big-world  Round 1519/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01big-world/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01elk-arena/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  01concentrated-wealth  Round 1317/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01concentrated-wealth/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  01concentrated-wealth  Round 1197/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01concentrated-wealth/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  01corridors  Round 1383/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01corridors/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  01corridors  Round 1297/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01corridors/b.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  01fracture
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01fracture/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  01fracture
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01fracture/b.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01gold-rush/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01gold-rush/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  01elk-arena  Round 1434/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01elk-arena/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  01elk-arena  Round 1223/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01elk-arena/b.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  01hooks
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01hooks/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  01hooks
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01hooks/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  01hooks  Round 1070/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01hooks/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  01hooks  Round 1141/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01hooks/b.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  01islands
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01islands/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  01islands
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01islands/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  01gold-rush  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01gold-rush/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  01gold-rush  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01gold-rush/b.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  01shortcut
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01shortcut/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  01shortcut
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01shortcut/b.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  01fracture  Round 1278/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01fracture/b.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  01starfish
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01starfish/a.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  01fracture  Round 1343/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01fracture/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  01starfish
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01starfish/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  01islands  Round 0935/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01islands/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  01islands  Round 0943/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01islands/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  01shortcut  Round 1514/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01shortcut/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  01shortcut  Round 1626/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01shortcut/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  01starfish  Round 0998/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01starfish/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  01starfish  Round 1018/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01starfish/b.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  01starvation
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01starvation/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  01starvation
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01starvation/b.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  01the-farm
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01the-farm/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  01the-farm
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01the-farm/b.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  01yellow-brick-road
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01yellow-brick-road/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  01yellow-brick-road
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01yellow-brick-road/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  01the-farm  Round 1191/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01the-farm/a.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  00ambush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00ambush/a.repl26a
+[+] TEAM A WIN (vf0c2196-mimic-shink)  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  01the-farm  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01the-farm/b.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  00ambush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00ambush/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  01yellow-brick-road  Round 1060/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01yellow-brick-road/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  01yellow-brick-road  Round 1058/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01yellow-brick-road/b.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  00collision
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00collision/a.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  00collision
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00collision/b.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-shink vs vf0c2196-codex-v57-final  01starvation  Round 1378/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01starvation/b.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00contest/a.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-shink  01starvation  Round 1444/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-shink/01starvation/a.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00contest/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  00collision  Round 1005/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00collision/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  00collision  Round 0974/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00collision/b.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00corners/a.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00corners/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  00contest  Round 1044/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00contest/a.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  00eight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00eight/a.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  00ambush  Round 1368/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00ambush/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  00ambush  Round 1303/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00ambush/b.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  00eight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00eight/b.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  00elkring
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00elkring/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  00contest  Round 1061/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00contest/b.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  00elkring
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00elkring/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  00eight  Round 0893/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00eight/a.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  00expanse
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00expanse/a.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  00corners  Round 0822/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00corners/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  00corners  Round 0827/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00corners/b.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  00eight  Round 0895/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00eight/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  00elkring  Round 0792/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00elkring/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  00elkring  Round 0775/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00elkring/b.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  00expanse
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00expanse/b.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  00fragment
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00fragment/a.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  00fragment
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00fragment/b.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  00gem-fields
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00gem-fields/a.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  00gem-fields
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00gem-fields/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  00expanse  Round 0983/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00expanse/a.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  00gem-fields  Round 0675/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00gem-fields/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  00gem-fields  Round 0623/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00gem-fields/b.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00gemfight/a.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00gemfight/b.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  00great-wall
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00great-wall/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  00expanse  Round 0959/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00expanse/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  00fragment  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00fragment/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  00fragment  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00fragment/b.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  00great-wall
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00great-wall/b.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  00interlock
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00interlock/a.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  00interlock
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00interlock/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  00gemfight  Round 0715/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00gemfight/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  00gemfight  Round 0758/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00gemfight/b.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00lanes/a.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00lanes/b.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  00interlock  Round 1082/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00interlock/b.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  00lost-world
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00lost-world/a.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  00interlock  Round 1121/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00interlock/a.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  00lost-world
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00lost-world/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  00great-wall  Round 1191/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00great-wall/a.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  00monolith
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00monolith/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  00great-wall  Round 1295/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00great-wall/b.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  00monolith
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00monolith/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  00lost-world  Round 0876/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00lost-world/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  00lost-world  Round 1017/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00lost-world/b.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  00packs
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00packs/a.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  00packs
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00packs/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  00lanes  Round 1129/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00lanes/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  00lanes  Round 1115/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00lanes/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  00monolith  Round 1284/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00monolith/a.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  00pilgrimage
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00pilgrimage/a.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  00pilgrimage
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00pilgrimage/b.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  00quadrants
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00quadrants/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  00monolith  Round 1253/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00monolith/b.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  00quadrants
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00quadrants/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  00packs  Round 0829/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00packs/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  00packs  Round 0790/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00packs/b.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  00reverse-spiral
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00reverse-spiral/a.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  00reverse-spiral
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00reverse-spiral/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  00quadrants  Round 0603/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00quadrants/a.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  00road-of-riches
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00road-of-riches/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  00quadrants  Round 0584/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00quadrants/b.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  00road-of-riches
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00road-of-riches/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  00pilgrimage  Round 1445/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00pilgrimage/a.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  00rows
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00rows/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  00pilgrimage  Round 1581/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00pilgrimage/b.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  00rows
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00rows/b.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  00reverse-spiral  Round 1321/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00reverse-spiral/b.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  00rushbait-v2
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00rushbait-v2/a.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  00reverse-spiral  Round 1824/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00reverse-spiral/a.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  00rushbait-v2
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00rushbait-v2/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  00road-of-riches  Round 1459/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00road-of-riches/a.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  00split
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00split/a.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  00rows  Round 1597/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00rows/a.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  00split
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00split/b.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  00rows  Round 1479/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00rows/b.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  00stampede
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00stampede/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  00road-of-riches  Round 1530/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00road-of-riches/b.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  00stampede
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00stampede/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  00rushbait-v2  Round 1685/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00rushbait-v2/a.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  00swirl
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00swirl/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  00rushbait-v2  Round 1615/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00rushbait-v2/b.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  00swirl
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00swirl/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  00split  Round 0840/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00split/a.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  01big-world
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01big-world/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  00split  Round 0869/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00split/b.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  01big-world
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01big-world/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  00stampede  Round 1894/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00stampede/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  00stampede  Round 1787/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00stampede/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  00swirl  Round 0764/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00swirl/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  00swirl  Round 0819/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/00swirl/b.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01boss-battle/a.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01boss-battle/b.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01broken-curve/a.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01broken-curve/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  01big-world  Round 1570/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01big-world/a.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  01concentrated-wealth
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01concentrated-wealth/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  01big-world  Round 1733/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01big-world/b.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  01concentrated-wealth
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01concentrated-wealth/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  01broken-curve  Round 1030/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01broken-curve/a.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  01corridors
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01corridors/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  01broken-curve  Round 1072/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01broken-curve/b.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  01corridors
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01corridors/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  01boss-battle  Round 1119/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01boss-battle/a.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01elk-arena/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  01boss-battle  Round 1299/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01boss-battle/b.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01elk-arena/b.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  01concentrated-wealth  Round 1087/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01concentrated-wealth/b.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  01fracture
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01fracture/a.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  01concentrated-wealth  Round 1166/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01concentrated-wealth/a.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  01fracture
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01fracture/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  01corridors  Round 1326/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01corridors/a.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01gold-rush/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  01corridors  Round 1392/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01corridors/b.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01gold-rush/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  01elk-arena  Round 1124/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01elk-arena/a.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  01hooks
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01hooks/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  01elk-arena  Round 1179/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01elk-arena/b.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  01hooks
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01hooks/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  01fracture  Round 1391/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01fracture/a.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  01islands
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01islands/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  01fracture  Round 1252/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01fracture/b.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  01islands
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01islands/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  01gold-rush  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01gold-rush/a.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  01shortcut
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01shortcut/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  01gold-rush  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01gold-rush/b.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  01shortcut
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01shortcut/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  01hooks  Round 1074/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01hooks/a.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  01starfish
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01starfish/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  01hooks  Round 1012/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01hooks/b.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  01starfish
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01starfish/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  01islands  Round 0978/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01islands/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  01islands  Round 0934/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01islands/b.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  01starvation
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01starvation/a.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  01starvation
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01starvation/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  01shortcut  Round 1725/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01shortcut/a.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  01the-farm
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01the-farm/a.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  01starfish  Round 0900/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01starfish/a.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  01the-farm
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01the-farm/b.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  01shortcut  Round 1716/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01shortcut/b.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  01starfish  Round 0896/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01starfish/b.repl26a
+[|] STARTING  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  01yellow-brick-road
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01yellow-brick-road/a.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  01yellow-brick-road
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01yellow-brick-road/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  01the-farm  Round 1520/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01the-farm/a.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  00ambush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00ambush/a.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  01starvation  Round 1430/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01starvation/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  01starvation  Round 1483/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01starvation/b.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  01the-farm  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01the-farm/b.repl26a
+[+] TEAM A WIN (vf0c2196-codex-v57-final)  vf0c2196-codex-v57-final vs vf0c2196-mimic-whim  01yellow-brick-road  Round 0844/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01yellow-brick-road/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  00ambush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00ambush/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  00collision
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00collision/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  00collision
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00collision/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00contest/a.repl26a
+[+] TEAM B WIN (vf0c2196-codex-v57-final)  vf0c2196-mimic-whim vs vf0c2196-codex-v57-final  01yellow-brick-road  Round 1182/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/base/mimic-whim/01yellow-brick-road/b.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00contest/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  00collision  Round 0965/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00collision/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  00collision  Round 0989/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00collision/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00corners/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00corners/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  00contest  Round 1055/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00contest/a.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  00eight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00eight/a.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  00ambush  Round 1351/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00ambush/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  00contest  Round 1092/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00contest/b.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  00eight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00eight/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  00elkring
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00elkring/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  00ambush  Round 1207/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00ambush/b.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  00elkring
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00elkring/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  00eight  Round 0863/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00eight/a.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  00expanse
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00expanse/a.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  00corners  Round 0762/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00corners/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  00corners  Round 0803/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00corners/b.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  00eight  Round 0898/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00eight/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  00elkring  Round 0775/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00elkring/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  00elkring  Round 0752/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00elkring/b.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  00expanse
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00expanse/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  00fragment
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00fragment/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  00fragment
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00fragment/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  00gem-fields
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00gem-fields/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  00gem-fields
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00gem-fields/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  00gem-fields  Round 0690/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00gem-fields/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  00gem-fields  Round 0770/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00gem-fields/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00gemfight/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00gemfight/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  00expanse  Round 0966/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00expanse/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  00expanse  Round 0946/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00expanse/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  00fragment  Round 1890/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00fragment/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  00fragment  Round 1968/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00fragment/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  00great-wall
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00great-wall/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  00great-wall
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00great-wall/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  00interlock
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00interlock/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  00interlock
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00interlock/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  00gemfight  Round 0738/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00gemfight/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  00gemfight  Round 0765/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00gemfight/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00lanes/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00lanes/b.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  00interlock  Round 1118/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00interlock/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  00lost-world
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00lost-world/a.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  00interlock  Round 1271/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00interlock/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  00lost-world
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00lost-world/b.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  00great-wall  Round 1129/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00great-wall/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  00monolith
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00monolith/a.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  00great-wall  Round 1223/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00great-wall/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  00monolith
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00monolith/b.repl26a
+[+] TEAM B WIN (vf0c2196-mimic-shink)  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  00lost-world  Round 0476/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00lost-world/a.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  00packs
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00packs/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  00lost-world  Round 0955/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00lost-world/b.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  00packs
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00packs/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  00lanes  Round 1100/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00lanes/a.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  00pilgrimage
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00pilgrimage/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  00lanes  Round 1181/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00lanes/b.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  00pilgrimage
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00pilgrimage/b.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  00monolith  Round 1251/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00monolith/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  00quadrants
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00quadrants/a.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  00monolith  Round 1258/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00monolith/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  00quadrants
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00quadrants/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  00packs  Round 0990/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00packs/a.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  00reverse-spiral
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00reverse-spiral/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  00packs  Round 0993/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00packs/b.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  00reverse-spiral
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00reverse-spiral/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  00quadrants  Round 0530/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00quadrants/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  00quadrants  Round 0613/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00quadrants/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  00road-of-riches
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00road-of-riches/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  00road-of-riches
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00road-of-riches/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  00reverse-spiral  Round 1535/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00reverse-spiral/a.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  00rows
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00rows/a.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  00pilgrimage  Round 1589/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00pilgrimage/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  00reverse-spiral  Round 1508/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00reverse-spiral/b.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  00rows
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00rows/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  00rushbait-v2
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00rushbait-v2/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  00pilgrimage  Round 1545/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00pilgrimage/b.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  00rushbait-v2
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00rushbait-v2/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  00rows  Round 1476/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00rows/a.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  00split
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00split/a.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  00road-of-riches  Round 1257/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00road-of-riches/a.repl26a
+[+] TEAM A WIN (vf0c2196-mimic-shink)  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  00road-of-riches  Round 1384/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00road-of-riches/b.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  00split
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00split/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  00stampede
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00stampede/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  00rushbait-v2  Round 1269/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00rushbait-v2/b.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  00stampede
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00stampede/b.repl26a
+[+] TEAM A WIN (vf0c2196-mimic-shink)  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  00rows  Round 1542/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00rows/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  00rushbait-v2  Round 1380/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00rushbait-v2/a.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  00swirl
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00swirl/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  00swirl
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00swirl/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  00split  Round 0932/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00split/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  00split  Round 0908/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00split/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  00swirl  Round 0810/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00swirl/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  00swirl  Round 0900/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00swirl/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  01big-world
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01big-world/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  01big-world
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01big-world/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01boss-battle/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01boss-battle/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  00stampede  Round 1488/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00stampede/a.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01broken-curve/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  00stampede  Round 1679/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/00stampede/b.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01broken-curve/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  01broken-curve  Round 1096/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01broken-curve/a.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  01concentrated-wealth
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01concentrated-wealth/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  01broken-curve  Round 1141/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01broken-curve/b.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  01concentrated-wealth
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01concentrated-wealth/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  01boss-battle  Round 1208/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01boss-battle/a.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  01corridors
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01corridors/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  01boss-battle  Round 1300/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01boss-battle/b.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  01corridors
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01corridors/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  01big-world  Round 1470/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01big-world/a.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01elk-arena/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  01big-world  Round 1467/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01big-world/b.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01elk-arena/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  01concentrated-wealth  Round 1332/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01concentrated-wealth/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  01concentrated-wealth  Round 1279/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01concentrated-wealth/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  01fracture
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01fracture/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  01fracture
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01fracture/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  01corridors  Round 1393/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01corridors/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  01corridors  Round 1381/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01corridors/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01gold-rush/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01gold-rush/b.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  01elk-arena  Round 1174/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01elk-arena/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  01hooks
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01hooks/a.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  01elk-arena  Round 1437/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01elk-arena/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  01hooks
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01hooks/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  01gold-rush  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01gold-rush/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  01gold-rush  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01gold-rush/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  01islands
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01islands/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  01islands
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01islands/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  01fracture  Round 1380/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01fracture/a.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  01hooks  Round 1075/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01hooks/a.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  01shortcut
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01shortcut/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  01shortcut
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01shortcut/b.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  01fracture  Round 1540/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01fracture/b.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  01hooks  Round 1048/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01hooks/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  01starfish
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01starfish/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  01starfish
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01starfish/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  01starfish  Round 0913/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01starfish/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  01starfish  Round 0867/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01starfish/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  01starvation
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01starvation/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  01starvation
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01starvation/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  01islands  Round 0981/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01islands/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  01islands  Round 1090/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01islands/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  01the-farm
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01the-farm/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  01the-farm
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01the-farm/b.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  01shortcut  Round 1743/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01shortcut/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  01yellow-brick-road
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01yellow-brick-road/a.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  01shortcut  Round 1691/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01shortcut/a.repl26a
+[|] STARTING  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  01yellow-brick-road
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01yellow-brick-road/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  01the-farm  Round 1756/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01the-farm/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  01the-farm  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01the-farm/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  00ambush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00ambush/a.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  00ambush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00ambush/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  01starvation  Round 1527/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01starvation/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  01starvation  Round 1471/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01starvation/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-shink  01yellow-brick-road  Round 1152/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01yellow-brick-road/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-shink vs vf0c2196-v58-funnel  01yellow-brick-road  Round 0992/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-shink/01yellow-brick-road/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  00collision
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00collision/a.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  00collision
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00collision/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00contest/a.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00contest/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  00collision  Round 0995/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00collision/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  00collision  Round 0954/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00collision/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00corners/a.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00corners/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  00contest  Round 1055/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00contest/a.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  00eight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00eight/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  00contest  Round 1092/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00contest/b.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  00eight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00eight/b.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  00ambush  Round 1252/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00ambush/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  00elkring
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00elkring/a.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  00ambush  Round 1339/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00ambush/a.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  00elkring
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00elkring/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  00eight  Round 0899/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00eight/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  00eight  Round 0886/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00eight/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  00expanse
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00expanse/a.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  00expanse
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00expanse/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  00corners  Round 0858/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00corners/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  00corners  Round 0875/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00corners/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  00elkring  Round 0763/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00elkring/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  00elkring  Round 0802/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00elkring/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  00fragment
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00fragment/a.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  00fragment
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00fragment/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  00gem-fields
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00gem-fields/a.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  00gem-fields
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00gem-fields/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  00gem-fields  Round 0600/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00gem-fields/a.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00gemfight/a.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  00expanse  Round 0966/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00expanse/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  00expanse  Round 0965/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00expanse/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  00fragment  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00fragment/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  00fragment  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00fragment/b.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  00gem-fields  Round 0640/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00gem-fields/b.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00gemfight/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  00great-wall
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00great-wall/a.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  00great-wall
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00great-wall/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  00interlock
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00interlock/a.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  00interlock
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00interlock/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  00gemfight  Round 0743/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00gemfight/a.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00lanes/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  00gemfight  Round 0763/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00gemfight/b.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00lanes/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  00interlock  Round 1049/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00interlock/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  00interlock  Round 1124/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00interlock/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  00lost-world
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00lost-world/a.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  00lost-world
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00lost-world/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  00great-wall  Round 1184/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00great-wall/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  00great-wall  Round 1127/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00great-wall/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  00monolith
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00monolith/a.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  00monolith
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00monolith/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  00lost-world  Round 0771/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00lost-world/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  00lost-world  Round 0969/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00lost-world/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  00packs
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00packs/a.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  00packs
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00packs/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  00lanes  Round 1138/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00lanes/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  00lanes  Round 1142/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00lanes/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  00pilgrimage
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00pilgrimage/a.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  00pilgrimage
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00pilgrimage/b.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  00monolith  Round 1267/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00monolith/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  00quadrants
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00quadrants/a.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  00monolith  Round 1298/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00monolith/a.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  00quadrants
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00quadrants/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  00packs  Round 0837/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00packs/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  00packs  Round 0836/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00packs/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  00reverse-spiral
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00reverse-spiral/a.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  00reverse-spiral
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00reverse-spiral/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  00quadrants  Round 0551/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00quadrants/a.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  00road-of-riches
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00road-of-riches/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  00quadrants  Round 0584/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00quadrants/b.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  00road-of-riches
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00road-of-riches/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  00pilgrimage  Round 1405/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00pilgrimage/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  00pilgrimage  Round 1444/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00pilgrimage/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  00rows
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00rows/a.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  00rows
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00rows/b.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  00reverse-spiral  Round 1473/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00reverse-spiral/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  00rushbait-v2
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00rushbait-v2/a.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  00reverse-spiral  Round 1901/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00reverse-spiral/a.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  00rushbait-v2
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00rushbait-v2/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  00road-of-riches  Round 1240/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00road-of-riches/a.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  00split
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00split/a.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  00rows  Round 1476/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00rows/a.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  00split
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00split/b.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  00road-of-riches  Round 1488/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00road-of-riches/b.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  00rows  Round 1713/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00rows/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  00stampede
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00stampede/a.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  00stampede
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00stampede/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  00rushbait-v2  Round 1556/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00rushbait-v2/a.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  00swirl
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00swirl/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  00rushbait-v2  Round 1569/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00rushbait-v2/b.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  00swirl
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00swirl/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  00split  Round 0805/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00split/a.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  01big-world
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01big-world/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  00split  Round 0908/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00split/b.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  01big-world
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01big-world/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  00swirl  Round 0800/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00swirl/a.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01boss-battle/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  00swirl  Round 0843/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00swirl/b.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01boss-battle/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  00stampede  Round 1534/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00stampede/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  00stampede  Round 1524/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/00stampede/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01broken-curve/a.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01broken-curve/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  01big-world  Round 1427/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01big-world/a.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  01broken-curve  Round 1078/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01broken-curve/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  01broken-curve  Round 1124/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01broken-curve/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  01concentrated-wealth
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01concentrated-wealth/a.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  01concentrated-wealth
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01concentrated-wealth/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  01corridors
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01corridors/a.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  01boss-battle  Round 1145/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01boss-battle/a.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  01corridors
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01corridors/b.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  01big-world  Round 1377/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01big-world/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01elk-arena/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  01boss-battle  Round 1434/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01boss-battle/b.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01elk-arena/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  01concentrated-wealth  Round 1252/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01concentrated-wealth/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  01concentrated-wealth  Round 1137/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01concentrated-wealth/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  01corridors  Round 1200/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01corridors/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  01corridors  Round 1286/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01corridors/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  01elk-arena  Round 1100/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01elk-arena/a.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  01fracture
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01fracture/a.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  01fracture
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01fracture/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01gold-rush/a.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01gold-rush/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  01hooks
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01hooks/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  01elk-arena  Round 1117/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01elk-arena/b.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  01hooks
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01hooks/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  01hooks  Round 1017/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01hooks/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  01hooks  Round 0977/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01hooks/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  01islands
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01islands/a.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  01islands
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01islands/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  01gold-rush  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01gold-rush/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  01gold-rush  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01gold-rush/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  01shortcut
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01shortcut/a.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  01shortcut
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01shortcut/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  01fracture  Round 1189/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01fracture/a.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  01starfish
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01starfish/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  01fracture  Round 1247/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01fracture/b.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  01starfish
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01starfish/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  01starfish  Round 0847/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01starfish/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  01starfish  Round 0820/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01starfish/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  01starvation
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01starvation/a.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  01starvation
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01starvation/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  01islands  Round 0921/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01islands/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  01islands  Round 0941/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01islands/b.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  01shortcut  Round 1573/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01shortcut/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  01the-farm
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01the-farm/a.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  01the-farm
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01the-farm/b.repl26a
+[|] STARTING  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  01yellow-brick-road
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01yellow-brick-road/a.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  01shortcut  Round 1841/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01shortcut/a.repl26a
+[|] STARTING  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  01yellow-brick-road
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01yellow-brick-road/b.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  01the-farm  Round 1529/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01the-farm/a.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  01yellow-brick-road  Round 0865/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01yellow-brick-road/a.repl26a
+[+] TEAM A WIN (vf0c2196-v58-funnel)  vf0c2196-v58-funnel vs vf0c2196-mimic-whim  01starvation  Round 1367/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01starvation/a.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  01starvation  Round 1273/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01starvation/b.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  01the-farm  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01the-farm/b.repl26a
+[+] TEAM B WIN (vf0c2196-v58-funnel)  vf0c2196-mimic-whim vs vf0c2196-v58-funnel  01yellow-brick-road  Round 1055/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/rank1_learning_2026-10-23/funnel_holdout/games/v58-funnel/mimic-whim/01yellow-brick-road/b.repl26a
+Finished: 320 replay bundles saved, 0 failed
+injected 0 checks into 0 functions
+injected 0 checks into 0 functions
+injected 0 checks into 0 functions
+injected 0 checks into 0 functions

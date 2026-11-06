@@ -1,0 +1,9 @@
+import fs from 'node:fs';import path from 'node:path';import {get,bundle} from '../v57_eval_2026-10-23/http.mjs';
+const dir=import.meta.dirname,label=process.argv[2],out=label==='fish_recent'?dir+'/fish_recent':dir+'/trials/'+label,FISH='1890540d-1ffc-4847-adbf-d0d08772f268';fs.mkdirSync(out+'/games',{recursive:true});
+let rows;if(label==='fish_recent'){
+ const page=JSON.parse(fs.readFileSync(dir+'/fish_ranked.json'));rows=[];fs.mkdirSync(out+'/groups',{recursive:true});
+ for(const i of [0,3,4]){const h=page.groups[i],d=await get('/match-groups/'+h.id);fs.writeFileSync(out+'/groups/'+h.id+'.json',JSON.stringify(d));for(const m of d.matches){const s=m.sides.find(x=>x.teamId===FISH),o=m.sides.find(x=>x.teamId!==FISH);if(m.status==='finished')rows.push({matchId:m.id,groupId:h.id,createdAt:m.createdAt,map:m.map,side:s.side,result:s.result,score:s.score,oppScore:o.score,myDraft:s.draft,oppDraft:o.draft,opponent:o.teamName,opponentId:o.teamId,rounds:m.rounds,kind:h.kind,patchId:m.patchId,file:m.map+'/'+m.id+'.repl26a'});}}
+ fs.writeFileSync(out+'/matches.json',JSON.stringify(rows,null,2));
+}else rows=JSON.parse(fs.readFileSync(out+'/matches.json'));
+let next=0;const index=[],errors=[];await Promise.all(Array.from({length:5},async()=>{for(;;){const g=rows[next++];if(!g)return;try{const f=out+'/games/'+g.file;fs.mkdirSync(path.dirname(f),{recursive:true});if(!fs.existsSync(f))fs.writeFileSync(f,await bundle(g.matchId));index.push(g);console.log('REPLAY',label,index.length,'/',rows.length,g.map);fs.writeFileSync(out+'/games/index.json',JSON.stringify(index,null,2));}catch(e){errors.push({id:g.matchId,error:e.message});}}}));
+fs.writeFileSync(out+'/collection.json',JSON.stringify({at:new Date().toISOString(),total:rows.length,collected:index.length,errors},null,2));if(errors.length)throw Error(JSON.stringify(errors));

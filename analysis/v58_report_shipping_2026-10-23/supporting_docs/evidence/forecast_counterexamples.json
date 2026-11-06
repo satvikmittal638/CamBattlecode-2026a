@@ -1,0 +1,33 @@
+{
+  "exactUploadedPureFunction": true,
+  "fixtures": [
+    {
+      "case": "Cassi at distance3, Strength30, Focus96, slot0 ready, slot1 unavailable",
+      "uploadedTwoTurnForecast": 444,
+      "legalMaximumUnderFixedPositions": 252,
+      "reason": "One192-damage spell plus two30-damage basics. Eight-turn cooldown forbids the same spell on both turns. Other abilities unavailable."
+    },
+    {
+      "case": "Ryth at distance5, Focus100, radius1 ground stun ready",
+      "uploadedSingleTurnForecast": 0,
+      "legalDamageByGroundCast": 100,
+      "reason": "Cast center within range4 and radius1 reaches distance5; uploaded response uses cast-center range only."
+    }
+  ],
+  "controlFlow": [
+    {
+      "case": "Melee tactical escape returns1 after only casting a shield",
+      "uploadedCallerEndsTurn": false,
+      "reason": "No combatWithdraw flag. ranged=false, can_move=true and attackedThisTurn=false make the fight guard false; subsequent help/bank/farm branches remain reachable. This is a code-path proof, not a measured occurrence count."
+    }
+  ],
+  "scope": "Pure deterministic code counterexamples, not full-engine rollout or proof of how many real losses each caused.",
+  "nativeCampRange": {
+    "range": 5,
+    "incorrectRange4RingIn": [
+      "source/src/v1_bank_access.h",
+      "source/src/boss/bot.cpp"
+    ],
+    "nativeEvidence": "native_camp_stats.json"
+  }
+}

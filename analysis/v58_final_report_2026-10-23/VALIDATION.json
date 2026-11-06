@@ -1,0 +1,52 @@
+{
+  "at": "2026-10-23T15:03:19.519029+00:00",
+  "status": "passed",
+  "scope": "Package integrity and evidence consistency; no new gameplay trials.",
+  "checks": {
+    "sourceFilesByteMatched": 29,
+    "archiveFilesByteMatched": 29,
+    "comparisonSourcesMatchFrozenProtocol": true,
+    "exactSourceExcerpts": 33,
+    "findingSections": 18,
+    "relativeLinksChecked": 206,
+    "missingRelativeLinks": 0,
+    "rootImageFiles": 8,
+    "platformReplays": 130,
+    "officialSummaries": 130,
+    "queuedExcluded": 5,
+    "officialScoresOutcomesRoundsMatched": 130,
+    "nativeSteps": 26502007,
+    "localReplays": 280,
+    "localBotFaults": 0
+  },
+  "images": [
+    {
+      "png": "economy_combat.png",
+      "svg": "economy_combat.svg",
+      "width": 2098,
+      "height": 1486
+    },
+    {
+      "png": "local_comparison.png",
+      "svg": "local_comparison.svg",
+      "width": 2098,
+      "height": 1003
+    },
+    {
+      "png": "replay_timelines.png",
+      "svg": "replay_timelines.svg",
+      "width": 2098,
+      "height": 1324
+    },
+    {
+      "png": "capture_deadlock.png",
+      "svg": "capture_deadlock.svg",
+      "width": 1938,
+      "height": 628
+    }
+  ],
+  "readmeWordsIncludingCode": 9632,
+  "newBotChanges": 0,
+  "newSubmissions": 0,
+  "newChallenges": 0
+}

@@ -1,0 +1,775 @@
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe98ea6b-base
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/dmitt/Library/Caches/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe98ea6b-base/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe98ea6b-base/src/main.cpp.obj
+[2/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe98ea6b-base/src/draft.cpp.obj
+[3/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe98ea6b-base/src/bot.cpp.obj
+[4/5] Linking CXX executable bot.wasm
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/v114
+v114 is up to date
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/fish62_f84
+fish62_f84 is up to date
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/tm30_f84
+tm30_f84 is up to date
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe98ea6b-partition
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/dmitt/Library/Caches/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe98ea6b-partition/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe98ea6b-partition/src/main.cpp.obj
+[2/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe98ea6b-partition/src/draft.cpp.obj
+[3/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe98ea6b-partition/src/bot.cpp.obj
+[4/5] Linking CXX executable bot.wasm
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe98ea6b-knowledge
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/dmitt/Library/Caches/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe98ea6b-knowledge/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe98ea6b-knowledge/src/main.cpp.obj
+[2/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe98ea6b-knowledge/src/draft.cpp.obj
+[3/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe98ea6b-knowledge/src/bot.cpp.obj
+[4/5] Linking CXX executable bot.wasm
+[|] STARTING  fe98ea6b-base vs v114  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/v114/00lanes/a.repl26a
+[|] STARTING  v114 vs fe98ea6b-base  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/v114/00lanes/b.repl26a
+[|] STARTING  fe98ea6b-base vs v114  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/v114/02treasure-box/a.repl26a
+[|] STARTING  v114 vs fe98ea6b-base  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/v114/02treasure-box/b.repl26a
+[|] STARTING  fe98ea6b-base vs v114  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/v114/02cuts/a.repl26a
+[|] STARTING  v114 vs fe98ea6b-base  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/v114/02cuts/b.repl26a
+[+] TEAM B WIN (fe98ea6b-base)  v114 vs fe98ea6b-base  02cuts  Round 0997/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/v114/02cuts/b.repl26a
+[|] STARTING  fe98ea6b-base vs v114  00the-line
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/v114/00the-line/a.repl26a
+[+] TEAM A WIN (fe98ea6b-base)  fe98ea6b-base vs v114  00lanes  Round 1223/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/v114/00lanes/a.repl26a
+[+] TEAM B WIN (fe98ea6b-base)  v114 vs fe98ea6b-base  00lanes  Round 1302/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/v114/00lanes/b.repl26a
+[+] TEAM A WIN (fe98ea6b-base)  fe98ea6b-base vs v114  02treasure-box  Round 1395/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/v114/02treasure-box/a.repl26a
+[+] TEAM A WIN (v114)  v114 vs fe98ea6b-base  02treasure-box  Round 1379/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/v114/02treasure-box/b.repl26a
+[+] TEAM B WIN (v114)  fe98ea6b-base vs v114  02cuts  Round 1010/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/v114/02cuts/a.repl26a
+[|] STARTING  v114 vs fe98ea6b-base  00the-line
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/v114/00the-line/b.repl26a
+[|] STARTING  fe98ea6b-base vs v114  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/v114/01elk-arena/a.repl26a
+[|] STARTING  v114 vs fe98ea6b-base  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/v114/01elk-arena/b.repl26a
+[|] STARTING  fe98ea6b-base vs v114  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/v114/01boss-battle/a.repl26a
+[|] STARTING  v114 vs fe98ea6b-base  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/v114/01boss-battle/b.repl26a
+[+] TEAM A WIN (fe98ea6b-base)  fe98ea6b-base vs v114  00the-line  Round 0653/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/v114/00the-line/a.repl26a
+[|] STARTING  fe98ea6b-base vs v114  02guardians
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/v114/02guardians/a.repl26a
+[+] TEAM A WIN (v114)  v114 vs fe98ea6b-base  00the-line  Round 0642/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/v114/00the-line/b.repl26a
+[|] STARTING  v114 vs fe98ea6b-base  02guardians
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/v114/02guardians/b.repl26a
+[+] TEAM B WIN (fe98ea6b-base)  v114 vs fe98ea6b-base  01boss-battle  Round 0870/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/v114/01boss-battle/b.repl26a
+[|] STARTING  fe98ea6b-base vs v114  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/v114/00gemfight/a.repl26a
+[+] TEAM A WIN (fe98ea6b-base)  fe98ea6b-base vs v114  01elk-arena  Round 1259/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/v114/01elk-arena/a.repl26a
+[+] TEAM A WIN (v114)  v114 vs fe98ea6b-base  01elk-arena  Round 1338/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/v114/01elk-arena/b.repl26a
+[+] TEAM A WIN (fe98ea6b-base)  fe98ea6b-base vs v114  01boss-battle  Round 1287/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/v114/01boss-battle/a.repl26a
+[+] TEAM A WIN (fe98ea6b-base)  fe98ea6b-base vs v114  02guardians  Round 1358/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/v114/02guardians/a.repl26a
+[|] STARTING  v114 vs fe98ea6b-base  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/v114/00gemfight/b.repl26a
+[|] STARTING  fe98ea6b-base vs v114  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/v114/00vault/a.repl26a
+[|] STARTING  v114 vs fe98ea6b-base  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/v114/00vault/b.repl26a
+[|] STARTING  fe98ea6b-base vs v114  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/v114/01broken-curve/a.repl26a
+[+] TEAM B WIN (fe98ea6b-base)  v114 vs fe98ea6b-base  02guardians  Round 1326/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/v114/02guardians/b.repl26a
+[|] STARTING  v114 vs fe98ea6b-base  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/v114/01broken-curve/b.repl26a
+[+] TEAM B WIN (v114)  fe98ea6b-base vs v114  00vault  Round 0414/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/v114/00vault/a.repl26a
+[+] TEAM A WIN (v114)  v114 vs fe98ea6b-base  00vault  Round 0358/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/v114/00vault/b.repl26a
+[|] STARTING  fe98ea6b-base vs fish62_f84  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/fish62_f84/00lanes/a.repl26a
+[|] STARTING  fish62_f84 vs fe98ea6b-base  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/fish62_f84/00lanes/b.repl26a
+[+] TEAM A WIN (fe98ea6b-base)  fe98ea6b-base vs v114  00gemfight  Round 1037/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/v114/00gemfight/a.repl26a
+[+] TEAM A WIN (fe98ea6b-base)  fe98ea6b-base vs v114  01broken-curve  Round 1045/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/v114/01broken-curve/a.repl26a
+[|] STARTING  fe98ea6b-base vs fish62_f84  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/fish62_f84/02treasure-box/a.repl26a
+[|] STARTING  fish62_f84 vs fe98ea6b-base  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/fish62_f84/02treasure-box/b.repl26a
+[+] TEAM B WIN (fe98ea6b-base)  v114 vs fe98ea6b-base  00gemfight  Round 1052/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/v114/00gemfight/b.repl26a
+[+] TEAM B WIN (fe98ea6b-base)  v114 vs fe98ea6b-base  01broken-curve  Round 1129/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/v114/01broken-curve/b.repl26a
+[|] STARTING  fe98ea6b-base vs fish62_f84  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/fish62_f84/02cuts/a.repl26a
+[|] STARTING  fish62_f84 vs fe98ea6b-base  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/fish62_f84/02cuts/b.repl26a
+[+] TEAM B WIN (fish62_f84)  fe98ea6b-base vs fish62_f84  02treasure-box  Round 1225/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/fish62_f84/02treasure-box/a.repl26a
+[+] TEAM A WIN (fish62_f84)  fish62_f84 vs fe98ea6b-base  02treasure-box  Round 1339/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/fish62_f84/02treasure-box/b.repl26a
+[|] STARTING  fe98ea6b-base vs fish62_f84  00the-line
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/fish62_f84/00the-line/a.repl26a
+[|] STARTING  fish62_f84 vs fe98ea6b-base  00the-line
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/fish62_f84/00the-line/b.repl26a
+[+] TEAM B WIN (fish62_f84)  fe98ea6b-base vs fish62_f84  00lanes  Round 1175/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/fish62_f84/00lanes/a.repl26a
+[+] TEAM A WIN (fish62_f84)  fish62_f84 vs fe98ea6b-base  00lanes  Round 1123/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/fish62_f84/00lanes/b.repl26a
+[+] TEAM A WIN (fe98ea6b-base)  fe98ea6b-base vs fish62_f84  02cuts  Round 1080/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/fish62_f84/02cuts/a.repl26a
+[+] TEAM B WIN (fe98ea6b-base)  fish62_f84 vs fe98ea6b-base  02cuts  Round 1040/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/fish62_f84/02cuts/b.repl26a
+[|] STARTING  fe98ea6b-base vs fish62_f84  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/fish62_f84/01elk-arena/a.repl26a
+[|] STARTING  fish62_f84 vs fe98ea6b-base  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/fish62_f84/01elk-arena/b.repl26a
+[|] STARTING  fe98ea6b-base vs fish62_f84  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/fish62_f84/01boss-battle/a.repl26a
+[|] STARTING  fish62_f84 vs fe98ea6b-base  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/fish62_f84/01boss-battle/b.repl26a
+[+] TEAM A WIN (fe98ea6b-base)  fe98ea6b-base vs fish62_f84  00the-line  Round 0771/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/fish62_f84/00the-line/a.repl26a
+[+] TEAM A WIN (fish62_f84)  fish62_f84 vs fe98ea6b-base  00the-line  Round 0743/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/fish62_f84/00the-line/b.repl26a
+[|] STARTING  fe98ea6b-base vs fish62_f84  02guardians
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/fish62_f84/02guardians/a.repl26a
+[|] STARTING  fish62_f84 vs fe98ea6b-base  02guardians
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/fish62_f84/02guardians/b.repl26a
+[+] TEAM B WIN (fe98ea6b-base)  fish62_f84 vs fe98ea6b-base  01boss-battle  Round 0917/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/fish62_f84/01boss-battle/b.repl26a
+[|] STARTING  fe98ea6b-base vs fish62_f84  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/fish62_f84/00gemfight/a.repl26a
+[+] TEAM A WIN (fe98ea6b-base)  fe98ea6b-base vs fish62_f84  01boss-battle  Round 1004/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/fish62_f84/01boss-battle/a.repl26a
+[|] STARTING  fish62_f84 vs fe98ea6b-base  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/fish62_f84/00gemfight/b.repl26a
+[+] TEAM B WIN (fish62_f84)  fe98ea6b-base vs fish62_f84  01elk-arena  Round 1938/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/fish62_f84/01elk-arena/a.repl26a
+[+] TEAM A WIN (fe98ea6b-base)  fe98ea6b-base vs fish62_f84  02guardians  Round 1222/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/fish62_f84/02guardians/a.repl26a
+[+] TEAM B WIN (fe98ea6b-base)  fish62_f84 vs fe98ea6b-base  02guardians  Round 1296/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/fish62_f84/02guardians/b.repl26a
+[|] STARTING  fe98ea6b-base vs fish62_f84  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/fish62_f84/00vault/a.repl26a
+[|] STARTING  fish62_f84 vs fe98ea6b-base  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/fish62_f84/00vault/b.repl26a
+[|] STARTING  fe98ea6b-base vs fish62_f84  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/fish62_f84/01broken-curve/a.repl26a
+[+] TEAM A WIN (fish62_f84)  fish62_f84 vs fe98ea6b-base  01elk-arena  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/fish62_f84/01elk-arena/b.repl26a
+[+] TEAM A WIN (fe98ea6b-base)  fe98ea6b-base vs fish62_f84  00gemfight  Round 0921/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/fish62_f84/00gemfight/a.repl26a
+[+] TEAM B WIN (fe98ea6b-base)  fish62_f84 vs fe98ea6b-base  00gemfight  Round 0873/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/fish62_f84/00gemfight/b.repl26a
+[|] STARTING  fish62_f84 vs fe98ea6b-base  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/fish62_f84/01broken-curve/b.repl26a
+[|] STARTING  fe98ea6b-base vs tm30_f84  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/tm30_f84/00lanes/a.repl26a
+[|] STARTING  tm30_f84 vs fe98ea6b-base  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/tm30_f84/00lanes/b.repl26a
+[+] TEAM B WIN (fish62_f84)  fe98ea6b-base vs fish62_f84  00vault  Round 0413/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/fish62_f84/00vault/a.repl26a
+[|] STARTING  fe98ea6b-base vs tm30_f84  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/tm30_f84/02treasure-box/a.repl26a
+[+] TEAM B WIN (fe98ea6b-base)  fish62_f84 vs fe98ea6b-base  00vault  Round 0664/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/fish62_f84/00vault/b.repl26a
+[+] TEAM A WIN (fe98ea6b-base)  fe98ea6b-base vs fish62_f84  01broken-curve  Round 1075/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/fish62_f84/01broken-curve/a.repl26a
+[|] STARTING  tm30_f84 vs fe98ea6b-base  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/tm30_f84/02treasure-box/b.repl26a
+[|] STARTING  fe98ea6b-base vs tm30_f84  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/tm30_f84/02cuts/a.repl26a
+[+] TEAM B WIN (fe98ea6b-base)  fish62_f84 vs fe98ea6b-base  01broken-curve  Round 0981/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/fish62_f84/01broken-curve/b.repl26a
+[|] STARTING  tm30_f84 vs fe98ea6b-base  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/tm30_f84/02cuts/b.repl26a
+[+] TEAM A WIN (fe98ea6b-base)  fe98ea6b-base vs tm30_f84  00lanes  Round 1270/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/tm30_f84/00lanes/a.repl26a
+[+] TEAM B WIN (fe98ea6b-base)  tm30_f84 vs fe98ea6b-base  00lanes  Round 1267/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/tm30_f84/00lanes/b.repl26a
+[+] TEAM A WIN (fe98ea6b-base)  fe98ea6b-base vs tm30_f84  02treasure-box  Round 1058/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/tm30_f84/02treasure-box/a.repl26a
+[|] STARTING  fe98ea6b-base vs tm30_f84  00the-line
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/tm30_f84/00the-line/a.repl26a
+[|] STARTING  tm30_f84 vs fe98ea6b-base  00the-line
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/tm30_f84/00the-line/b.repl26a
+[|] STARTING  fe98ea6b-base vs tm30_f84  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/tm30_f84/01elk-arena/a.repl26a
+[+] TEAM B WIN (fe98ea6b-base)  tm30_f84 vs fe98ea6b-base  02treasure-box  Round 1106/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/tm30_f84/02treasure-box/b.repl26a
+[|] STARTING  tm30_f84 vs fe98ea6b-base  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/tm30_f84/01elk-arena/b.repl26a
+[+] TEAM B WIN (fe98ea6b-base)  tm30_f84 vs fe98ea6b-base  02cuts  Round 1134/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/tm30_f84/02cuts/b.repl26a
+[|] STARTING  fe98ea6b-base vs tm30_f84  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/tm30_f84/01boss-battle/a.repl26a
+[+] TEAM A WIN (fe98ea6b-base)  fe98ea6b-base vs tm30_f84  02cuts  Round 1198/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/tm30_f84/02cuts/a.repl26a
+[|] STARTING  tm30_f84 vs fe98ea6b-base  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/tm30_f84/01boss-battle/b.repl26a
+[+] TEAM A WIN (fe98ea6b-base)  fe98ea6b-base vs tm30_f84  00the-line  Round 0751/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/tm30_f84/00the-line/a.repl26a
+[|] STARTING  fe98ea6b-base vs tm30_f84  02guardians
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/tm30_f84/02guardians/a.repl26a
+[+] TEAM B WIN (fe98ea6b-base)  tm30_f84 vs fe98ea6b-base  00the-line  Round 1389/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/tm30_f84/00the-line/b.repl26a
+[|] STARTING  tm30_f84 vs fe98ea6b-base  02guardians
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/tm30_f84/02guardians/b.repl26a
+[+] TEAM A WIN (fe98ea6b-base)  fe98ea6b-base vs tm30_f84  01elk-arena  Round 1275/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/tm30_f84/01elk-arena/a.repl26a
+[+] TEAM B WIN (fe98ea6b-base)  tm30_f84 vs fe98ea6b-base  01boss-battle  Round 0789/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/tm30_f84/01boss-battle/b.repl26a
+[|] STARTING  fe98ea6b-base vs tm30_f84  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/tm30_f84/00gemfight/a.repl26a
+[|] STARTING  tm30_f84 vs fe98ea6b-base  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/tm30_f84/00gemfight/b.repl26a
+[+] TEAM B WIN (fe98ea6b-base)  tm30_f84 vs fe98ea6b-base  01elk-arena  Round 1578/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/tm30_f84/01elk-arena/b.repl26a
+[+] TEAM A WIN (fe98ea6b-base)  fe98ea6b-base vs tm30_f84  01boss-battle  Round 1153/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/tm30_f84/01boss-battle/a.repl26a
+[|] STARTING  fe98ea6b-base vs tm30_f84  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/tm30_f84/00vault/a.repl26a
+[|] STARTING  tm30_f84 vs fe98ea6b-base  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/tm30_f84/00vault/b.repl26a
+[+] TEAM A WIN (fe98ea6b-base)  fe98ea6b-base vs tm30_f84  02guardians  Round 1141/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/tm30_f84/02guardians/a.repl26a
+[|] STARTING  fe98ea6b-base vs tm30_f84  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/tm30_f84/01broken-curve/a.repl26a
+[+] TEAM B WIN (fe98ea6b-base)  tm30_f84 vs fe98ea6b-base  02guardians  Round 1014/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/tm30_f84/02guardians/b.repl26a
+[|] STARTING  tm30_f84 vs fe98ea6b-base  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/tm30_f84/01broken-curve/b.repl26a
+[+] TEAM A WIN (tm30_f84)  tm30_f84 vs fe98ea6b-base  00vault  Round 0295/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/tm30_f84/00vault/b.repl26a
+[|] STARTING  fe98ea6b-partition vs v114  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/v114/00lanes/a.repl26a
+[+] TEAM A WIN (fe98ea6b-base)  fe98ea6b-base vs tm30_f84  00vault  Round 0449/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/tm30_f84/00vault/a.repl26a
+[|] STARTING  v114 vs fe98ea6b-partition  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/v114/00lanes/b.repl26a
+[+] TEAM B WIN (tm30_f84)  fe98ea6b-base vs tm30_f84  00gemfight  Round 0800/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/tm30_f84/00gemfight/a.repl26a
+[|] STARTING  fe98ea6b-partition vs v114  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/v114/02treasure-box/a.repl26a
+[+] TEAM B WIN (fe98ea6b-base)  tm30_f84 vs fe98ea6b-base  00gemfight  Round 0906/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/tm30_f84/00gemfight/b.repl26a
+[|] STARTING  v114 vs fe98ea6b-partition  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/v114/02treasure-box/b.repl26a
+[+] TEAM A WIN (fe98ea6b-base)  fe98ea6b-base vs tm30_f84  01broken-curve  Round 1014/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/tm30_f84/01broken-curve/a.repl26a
+[|] STARTING  fe98ea6b-partition vs v114  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/v114/02cuts/a.repl26a
+[+] TEAM B WIN (fe98ea6b-base)  tm30_f84 vs fe98ea6b-base  01broken-curve  Round 1188/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/base/tm30_f84/01broken-curve/b.repl26a
+[|] STARTING  v114 vs fe98ea6b-partition  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/v114/02cuts/b.repl26a
+[+] TEAM A WIN (fe98ea6b-partition)  fe98ea6b-partition vs v114  00lanes  Round 1133/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/v114/00lanes/a.repl26a
+[+] TEAM B WIN (fe98ea6b-partition)  v114 vs fe98ea6b-partition  00lanes  Round 1144/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/v114/00lanes/b.repl26a
+[|] STARTING  fe98ea6b-partition vs v114  00the-line
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/v114/00the-line/a.repl26a
+[|] STARTING  v114 vs fe98ea6b-partition  00the-line
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/v114/00the-line/b.repl26a
+[+] TEAM A WIN (fe98ea6b-partition)  fe98ea6b-partition vs v114  02treasure-box  Round 1107/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/v114/02treasure-box/a.repl26a
+[+] TEAM B WIN (fe98ea6b-partition)  v114 vs fe98ea6b-partition  02treasure-box  Round 1213/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/v114/02treasure-box/b.repl26a
+[|] STARTING  fe98ea6b-partition vs v114  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/v114/01elk-arena/a.repl26a
+[|] STARTING  v114 vs fe98ea6b-partition  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/v114/01elk-arena/b.repl26a
+[+] TEAM B WIN (v114)  fe98ea6b-partition vs v114  02cuts  Round 1010/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/v114/02cuts/a.repl26a
+[|] STARTING  fe98ea6b-partition vs v114  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/v114/01boss-battle/a.repl26a
+[+] TEAM B WIN (fe98ea6b-partition)  v114 vs fe98ea6b-partition  02cuts  Round 0997/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/v114/02cuts/b.repl26a
+[|] STARTING  v114 vs fe98ea6b-partition  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/v114/01boss-battle/b.repl26a
+[+] TEAM A WIN (fe98ea6b-partition)  fe98ea6b-partition vs v114  00the-line  Round 0653/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/v114/00the-line/a.repl26a
+[|] STARTING  fe98ea6b-partition vs v114  02guardians
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/v114/02guardians/a.repl26a
+[+] TEAM A WIN (v114)  v114 vs fe98ea6b-partition  00the-line  Round 0642/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/v114/00the-line/b.repl26a
+[|] STARTING  v114 vs fe98ea6b-partition  02guardians
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/v114/02guardians/b.repl26a
+[+] TEAM A WIN (fe98ea6b-partition)  fe98ea6b-partition vs v114  01elk-arena  Round 1329/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/v114/01elk-arena/a.repl26a
+[+] TEAM A WIN (v114)  v114 vs fe98ea6b-partition  01elk-arena  Round 1384/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/v114/01elk-arena/b.repl26a
+[+] TEAM A WIN (fe98ea6b-partition)  fe98ea6b-partition vs v114  01boss-battle  Round 0992/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/v114/01boss-battle/a.repl26a
+[+] TEAM B WIN (fe98ea6b-partition)  v114 vs fe98ea6b-partition  01boss-battle  Round 1000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/v114/01boss-battle/b.repl26a
+[|] STARTING  fe98ea6b-partition vs v114  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/v114/00gemfight/a.repl26a
+[|] STARTING  v114 vs fe98ea6b-partition  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/v114/00gemfight/b.repl26a
+[|] STARTING  fe98ea6b-partition vs v114  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/v114/00vault/a.repl26a
+[|] STARTING  v114 vs fe98ea6b-partition  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/v114/00vault/b.repl26a
+[+] TEAM A WIN (fe98ea6b-partition)  fe98ea6b-partition vs v114  02guardians  Round 1375/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/v114/02guardians/a.repl26a
+[+] TEAM A WIN (v114)  v114 vs fe98ea6b-partition  02guardians  Round 1626/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/v114/02guardians/b.repl26a
+[|] STARTING  fe98ea6b-partition vs v114  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/v114/01broken-curve/a.repl26a
+[|] STARTING  v114 vs fe98ea6b-partition  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/v114/01broken-curve/b.repl26a
+[+] TEAM B WIN (v114)  fe98ea6b-partition vs v114  00vault  Round 0414/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/v114/00vault/a.repl26a
+[+] TEAM A WIN (v114)  v114 vs fe98ea6b-partition  00vault  Round 0358/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/v114/00vault/b.repl26a
+[|] STARTING  fe98ea6b-partition vs fish62_f84  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/fish62_f84/00lanes/a.repl26a
+[|] STARTING  fish62_f84 vs fe98ea6b-partition  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/fish62_f84/00lanes/b.repl26a
+[+] TEAM A WIN (fe98ea6b-partition)  fe98ea6b-partition vs v114  00gemfight  Round 1037/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/v114/00gemfight/a.repl26a
+[+] TEAM B WIN (fe98ea6b-partition)  v114 vs fe98ea6b-partition  00gemfight  Round 1052/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/v114/00gemfight/b.repl26a
+[+] TEAM A WIN (fe98ea6b-partition)  fe98ea6b-partition vs v114  01broken-curve  Round 1045/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/v114/01broken-curve/a.repl26a
+[+] TEAM B WIN (fe98ea6b-partition)  v114 vs fe98ea6b-partition  01broken-curve  Round 1129/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/v114/01broken-curve/b.repl26a
+[|] STARTING  fe98ea6b-partition vs fish62_f84  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/fish62_f84/02treasure-box/a.repl26a
+[|] STARTING  fish62_f84 vs fe98ea6b-partition  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/fish62_f84/02treasure-box/b.repl26a
+[|] STARTING  fe98ea6b-partition vs fish62_f84  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/fish62_f84/02cuts/a.repl26a
+[|] STARTING  fish62_f84 vs fe98ea6b-partition  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/fish62_f84/02cuts/b.repl26a
+[+] TEAM A WIN (fish62_f84)  fish62_f84 vs fe98ea6b-partition  02treasure-box  Round 1243/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/fish62_f84/02treasure-box/b.repl26a
+[|] STARTING  fe98ea6b-partition vs fish62_f84  00the-line
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/fish62_f84/00the-line/a.repl26a
+[+] TEAM A WIN (fe98ea6b-partition)  fe98ea6b-partition vs fish62_f84  00lanes  Round 1156/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/fish62_f84/00lanes/a.repl26a
+[+] TEAM A WIN (fish62_f84)  fish62_f84 vs fe98ea6b-partition  00lanes  Round 1223/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/fish62_f84/00lanes/b.repl26a
+[+] TEAM B WIN (fish62_f84)  fe98ea6b-partition vs fish62_f84  02treasure-box  Round 1263/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/fish62_f84/02treasure-box/a.repl26a
+[+] TEAM A WIN (fe98ea6b-partition)  fe98ea6b-partition vs fish62_f84  02cuts  Round 1080/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/fish62_f84/02cuts/a.repl26a
+[+] TEAM B WIN (fe98ea6b-partition)  fish62_f84 vs fe98ea6b-partition  02cuts  Round 1040/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/fish62_f84/02cuts/b.repl26a
+[|] STARTING  fish62_f84 vs fe98ea6b-partition  00the-line
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/fish62_f84/00the-line/b.repl26a
+[|] STARTING  fe98ea6b-partition vs fish62_f84  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/fish62_f84/01elk-arena/a.repl26a
+[|] STARTING  fish62_f84 vs fe98ea6b-partition  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/fish62_f84/01elk-arena/b.repl26a
+[|] STARTING  fe98ea6b-partition vs fish62_f84  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/fish62_f84/01boss-battle/a.repl26a
+[|] STARTING  fish62_f84 vs fe98ea6b-partition  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/fish62_f84/01boss-battle/b.repl26a
+[+] TEAM A WIN (fe98ea6b-partition)  fe98ea6b-partition vs fish62_f84  00the-line  Round 0771/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/fish62_f84/00the-line/a.repl26a
+[|] STARTING  fe98ea6b-partition vs fish62_f84  02guardians
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/fish62_f84/02guardians/a.repl26a
+[+] TEAM A WIN (fish62_f84)  fish62_f84 vs fe98ea6b-partition  00the-line  Round 0743/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/fish62_f84/00the-line/b.repl26a
+[|] STARTING  fish62_f84 vs fe98ea6b-partition  02guardians
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/fish62_f84/02guardians/b.repl26a
+[+] TEAM A WIN (fe98ea6b-partition)  fe98ea6b-partition vs fish62_f84  01boss-battle  Round 0934/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/fish62_f84/01boss-battle/a.repl26a
+[+] TEAM B WIN (fe98ea6b-partition)  fish62_f84 vs fe98ea6b-partition  01boss-battle  Round 0999/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/fish62_f84/01boss-battle/b.repl26a
+[|] STARTING  fe98ea6b-partition vs fish62_f84  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/fish62_f84/00gemfight/a.repl26a
+[|] STARTING  fish62_f84 vs fe98ea6b-partition  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/fish62_f84/00gemfight/b.repl26a
+[+] TEAM B WIN (fe98ea6b-partition)  fish62_f84 vs fe98ea6b-partition  01elk-arena  Round 1338/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/fish62_f84/01elk-arena/b.repl26a
+[|] STARTING  fe98ea6b-partition vs fish62_f84  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/fish62_f84/00vault/a.repl26a
+[+] TEAM A WIN (fe98ea6b-partition)  fe98ea6b-partition vs fish62_f84  02guardians  Round 1180/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/fish62_f84/02guardians/a.repl26a
+[|] STARTING  fish62_f84 vs fe98ea6b-partition  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/fish62_f84/00vault/b.repl26a
+[+] TEAM A WIN (fe98ea6b-partition)  fe98ea6b-partition vs fish62_f84  01elk-arena  Round 1761/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/fish62_f84/01elk-arena/a.repl26a
+[|] STARTING  fe98ea6b-partition vs fish62_f84  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/fish62_f84/01broken-curve/a.repl26a
+[+] TEAM B WIN (fe98ea6b-partition)  fish62_f84 vs fe98ea6b-partition  02guardians  Round 1301/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/fish62_f84/02guardians/b.repl26a
+[|] STARTING  fish62_f84 vs fe98ea6b-partition  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/fish62_f84/01broken-curve/b.repl26a
+[+] TEAM B WIN (fish62_f84)  fe98ea6b-partition vs fish62_f84  00vault  Round 0413/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/fish62_f84/00vault/a.repl26a
+[|] STARTING  fe98ea6b-partition vs tm30_f84  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/tm30_f84/00lanes/a.repl26a
+[+] TEAM B WIN (fe98ea6b-partition)  fish62_f84 vs fe98ea6b-partition  00gemfight  Round 0873/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/fish62_f84/00gemfight/b.repl26a
+[|] STARTING  tm30_f84 vs fe98ea6b-partition  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/tm30_f84/00lanes/b.repl26a
+[+] TEAM A WIN (fe98ea6b-partition)  fe98ea6b-partition vs fish62_f84  00gemfight  Round 0921/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/fish62_f84/00gemfight/a.repl26a
+[+] TEAM B WIN (fe98ea6b-partition)  fish62_f84 vs fe98ea6b-partition  00vault  Round 0664/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/fish62_f84/00vault/b.repl26a
+[|] STARTING  fe98ea6b-partition vs tm30_f84  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/tm30_f84/02treasure-box/a.repl26a
+[|] STARTING  tm30_f84 vs fe98ea6b-partition  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/tm30_f84/02treasure-box/b.repl26a
+[+] TEAM A WIN (fe98ea6b-partition)  fe98ea6b-partition vs fish62_f84  01broken-curve  Round 1075/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/fish62_f84/01broken-curve/a.repl26a
+[+] TEAM B WIN (fe98ea6b-partition)  fish62_f84 vs fe98ea6b-partition  01broken-curve  Round 0981/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/fish62_f84/01broken-curve/b.repl26a
+[|] STARTING  fe98ea6b-partition vs tm30_f84  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/tm30_f84/02cuts/a.repl26a
+[|] STARTING  tm30_f84 vs fe98ea6b-partition  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/tm30_f84/02cuts/b.repl26a
+[+] TEAM A WIN (fe98ea6b-partition)  fe98ea6b-partition vs tm30_f84  02treasure-box  Round 1074/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/tm30_f84/02treasure-box/a.repl26a
+[+] TEAM B WIN (fe98ea6b-partition)  tm30_f84 vs fe98ea6b-partition  02treasure-box  Round 1004/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/tm30_f84/02treasure-box/b.repl26a
+[|] STARTING  fe98ea6b-partition vs tm30_f84  00the-line
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/tm30_f84/00the-line/a.repl26a
+[|] STARTING  tm30_f84 vs fe98ea6b-partition  00the-line
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/tm30_f84/00the-line/b.repl26a
+[+] TEAM A WIN (fe98ea6b-partition)  fe98ea6b-partition vs tm30_f84  00lanes  Round 1289/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/tm30_f84/00lanes/a.repl26a
+[|] STARTING  fe98ea6b-partition vs tm30_f84  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/tm30_f84/01elk-arena/a.repl26a
+[+] TEAM B WIN (fe98ea6b-partition)  tm30_f84 vs fe98ea6b-partition  00lanes  Round 1269/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/tm30_f84/00lanes/b.repl26a
+[|] STARTING  tm30_f84 vs fe98ea6b-partition  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/tm30_f84/01elk-arena/b.repl26a
+[+] TEAM B WIN (fe98ea6b-partition)  tm30_f84 vs fe98ea6b-partition  02cuts  Round 1134/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/tm30_f84/02cuts/b.repl26a
+[|] STARTING  fe98ea6b-partition vs tm30_f84  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/tm30_f84/01boss-battle/a.repl26a
+[+] TEAM A WIN (fe98ea6b-partition)  fe98ea6b-partition vs tm30_f84  02cuts  Round 1198/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/tm30_f84/02cuts/a.repl26a
+[|] STARTING  tm30_f84 vs fe98ea6b-partition  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/tm30_f84/01boss-battle/b.repl26a
+[+] TEAM A WIN (fe98ea6b-partition)  fe98ea6b-partition vs tm30_f84  00the-line  Round 0751/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/tm30_f84/00the-line/a.repl26a
+[|] STARTING  fe98ea6b-partition vs tm30_f84  02guardians
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/tm30_f84/02guardians/a.repl26a
+[+] TEAM B WIN (fe98ea6b-partition)  tm30_f84 vs fe98ea6b-partition  00the-line  Round 1389/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/tm30_f84/00the-line/b.repl26a
+[|] STARTING  tm30_f84 vs fe98ea6b-partition  02guardians
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/tm30_f84/02guardians/b.repl26a
+[+] TEAM B WIN (fe98ea6b-partition)  tm30_f84 vs fe98ea6b-partition  01boss-battle  Round 0775/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/tm30_f84/01boss-battle/b.repl26a
+[|] STARTING  fe98ea6b-partition vs tm30_f84  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/tm30_f84/00gemfight/a.repl26a
+[+] TEAM A WIN (fe98ea6b-partition)  fe98ea6b-partition vs tm30_f84  01elk-arena  Round 1275/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/tm30_f84/01elk-arena/a.repl26a
+[|] STARTING  tm30_f84 vs fe98ea6b-partition  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/tm30_f84/00gemfight/b.repl26a
+[+] TEAM B WIN (fe98ea6b-partition)  tm30_f84 vs fe98ea6b-partition  01elk-arena  Round 1447/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/tm30_f84/01elk-arena/b.repl26a
+[|] STARTING  fe98ea6b-partition vs tm30_f84  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/tm30_f84/00vault/a.repl26a
+[+] TEAM A WIN (fe98ea6b-partition)  fe98ea6b-partition vs tm30_f84  01boss-battle  Round 1340/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/tm30_f84/01boss-battle/a.repl26a
+[|] STARTING  tm30_f84 vs fe98ea6b-partition  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/tm30_f84/00vault/b.repl26a
+[+] TEAM A WIN (fe98ea6b-partition)  fe98ea6b-partition vs tm30_f84  02guardians  Round 1105/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/tm30_f84/02guardians/a.repl26a
+[|] STARTING  fe98ea6b-partition vs tm30_f84  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/tm30_f84/01broken-curve/a.repl26a
+[+] TEAM B WIN (fe98ea6b-partition)  tm30_f84 vs fe98ea6b-partition  02guardians  Round 1096/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/tm30_f84/02guardians/b.repl26a
+[|] STARTING  tm30_f84 vs fe98ea6b-partition  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/tm30_f84/01broken-curve/b.repl26a
+[+] TEAM A WIN (fe98ea6b-partition)  fe98ea6b-partition vs tm30_f84  00vault  Round 0449/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/tm30_f84/00vault/a.repl26a
+[|] STARTING  fe98ea6b-knowledge vs v114  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/v114/00lanes/a.repl26a
+[+] TEAM A WIN (tm30_f84)  tm30_f84 vs fe98ea6b-partition  00vault  Round 0295/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/tm30_f84/00vault/b.repl26a
+[|] STARTING  v114 vs fe98ea6b-knowledge  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/v114/00lanes/b.repl26a
+[+] TEAM B WIN (tm30_f84)  fe98ea6b-partition vs tm30_f84  00gemfight  Round 0800/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/tm30_f84/00gemfight/a.repl26a
+[|] STARTING  fe98ea6b-knowledge vs v114  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/v114/02treasure-box/a.repl26a
+[+] TEAM B WIN (fe98ea6b-partition)  tm30_f84 vs fe98ea6b-partition  00gemfight  Round 0906/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/tm30_f84/00gemfight/b.repl26a
+[|] STARTING  v114 vs fe98ea6b-knowledge  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/v114/02treasure-box/b.repl26a
+[+] TEAM A WIN (fe98ea6b-partition)  fe98ea6b-partition vs tm30_f84  01broken-curve  Round 1014/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/tm30_f84/01broken-curve/a.repl26a
+[|] STARTING  fe98ea6b-knowledge vs v114  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/v114/02cuts/a.repl26a
+[+] TEAM B WIN (fe98ea6b-partition)  tm30_f84 vs fe98ea6b-partition  01broken-curve  Round 1188/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/partition/tm30_f84/01broken-curve/b.repl26a
+[|] STARTING  v114 vs fe98ea6b-knowledge  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/v114/02cuts/b.repl26a
+[+] TEAM A WIN (fe98ea6b-knowledge)  fe98ea6b-knowledge vs v114  00lanes  Round 1153/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/v114/00lanes/a.repl26a
+[+] TEAM A WIN (fe98ea6b-knowledge)  fe98ea6b-knowledge vs v114  02treasure-box  Round 1052/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/v114/02treasure-box/a.repl26a
+[|] STARTING  fe98ea6b-knowledge vs v114  00the-line
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/v114/00the-line/a.repl26a
+[|] STARTING  v114 vs fe98ea6b-knowledge  00the-line
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/v114/00the-line/b.repl26a
+[+] TEAM B WIN (fe98ea6b-knowledge)  v114 vs fe98ea6b-knowledge  00lanes  Round 1137/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/v114/00lanes/b.repl26a
+[|] STARTING  fe98ea6b-knowledge vs v114  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/v114/01elk-arena/a.repl26a
+[+] TEAM B WIN (fe98ea6b-knowledge)  v114 vs fe98ea6b-knowledge  02treasure-box  Round 1539/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/v114/02treasure-box/b.repl26a
+[|] STARTING  v114 vs fe98ea6b-knowledge  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/v114/01elk-arena/b.repl26a
+[+] TEAM B WIN (v114)  fe98ea6b-knowledge vs v114  02cuts  Round 1010/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/v114/02cuts/a.repl26a
+[|] STARTING  fe98ea6b-knowledge vs v114  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/v114/01boss-battle/a.repl26a
+[+] TEAM B WIN (fe98ea6b-knowledge)  v114 vs fe98ea6b-knowledge  02cuts  Round 1015/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/v114/02cuts/b.repl26a
+[+] TEAM A WIN (fe98ea6b-knowledge)  fe98ea6b-knowledge vs v114  00the-line  Round 0653/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/v114/00the-line/a.repl26a
+[+] TEAM A WIN (v114)  v114 vs fe98ea6b-knowledge  00the-line  Round 0642/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/v114/00the-line/b.repl26a
+[|] STARTING  v114 vs fe98ea6b-knowledge  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/v114/01boss-battle/b.repl26a
+[|] STARTING  fe98ea6b-knowledge vs v114  02guardians
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/v114/02guardians/a.repl26a
+[|] STARTING  v114 vs fe98ea6b-knowledge  02guardians
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/v114/02guardians/b.repl26a
+[+] TEAM A WIN (fe98ea6b-knowledge)  fe98ea6b-knowledge vs v114  01elk-arena  Round 1368/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/v114/01elk-arena/a.repl26a
+[|] STARTING  fe98ea6b-knowledge vs v114  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/v114/00gemfight/a.repl26a
+[+] TEAM A WIN (v114)  v114 vs fe98ea6b-knowledge  01elk-arena  Round 1435/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/v114/01elk-arena/b.repl26a
+[|] STARTING  v114 vs fe98ea6b-knowledge  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/v114/00gemfight/b.repl26a
+[+] TEAM A WIN (v114)  v114 vs fe98ea6b-knowledge  02guardians  Round 1298/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/v114/02guardians/b.repl26a
+[|] STARTING  fe98ea6b-knowledge vs v114  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/v114/00vault/a.repl26a
+[+] TEAM A WIN (fe98ea6b-knowledge)  fe98ea6b-knowledge vs v114  02guardians  Round 1419/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/v114/02guardians/a.repl26a
+[|] STARTING  v114 vs fe98ea6b-knowledge  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/v114/00vault/b.repl26a
+[+] TEAM B WIN (fe98ea6b-knowledge)  v114 vs fe98ea6b-knowledge  01boss-battle  Round 0839/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/v114/01boss-battle/b.repl26a
+[|] STARTING  fe98ea6b-knowledge vs v114  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/v114/01broken-curve/a.repl26a
+[+] TEAM B WIN (v114)  fe98ea6b-knowledge vs v114  01boss-battle  Round 1263/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/v114/01boss-battle/a.repl26a
+[|] STARTING  v114 vs fe98ea6b-knowledge  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/v114/01broken-curve/b.repl26a
+[+] TEAM B WIN (v114)  fe98ea6b-knowledge vs v114  00vault  Round 0414/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/v114/00vault/a.repl26a
+[+] TEAM A WIN (v114)  v114 vs fe98ea6b-knowledge  00vault  Round 0358/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/v114/00vault/b.repl26a
+[|] STARTING  fe98ea6b-knowledge vs fish62_f84  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/fish62_f84/00lanes/a.repl26a
+[|] STARTING  fish62_f84 vs fe98ea6b-knowledge  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/fish62_f84/00lanes/b.repl26a
+[+] TEAM A WIN (fe98ea6b-knowledge)  fe98ea6b-knowledge vs v114  00gemfight  Round 1043/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/v114/00gemfight/a.repl26a
+[+] TEAM B WIN (fe98ea6b-knowledge)  v114 vs fe98ea6b-knowledge  00gemfight  Round 1052/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/v114/00gemfight/b.repl26a
+[+] TEAM A WIN (fe98ea6b-knowledge)  fe98ea6b-knowledge vs v114  01broken-curve  Round 0985/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/v114/01broken-curve/a.repl26a
+[+] TEAM B WIN (fe98ea6b-knowledge)  v114 vs fe98ea6b-knowledge  01broken-curve  Round 1129/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/v114/01broken-curve/b.repl26a
+[|] STARTING  fe98ea6b-knowledge vs fish62_f84  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/fish62_f84/02treasure-box/a.repl26a
+[|] STARTING  fish62_f84 vs fe98ea6b-knowledge  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/fish62_f84/02treasure-box/b.repl26a
+[|] STARTING  fe98ea6b-knowledge vs fish62_f84  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/fish62_f84/02cuts/a.repl26a
+[|] STARTING  fish62_f84 vs fe98ea6b-knowledge  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/fish62_f84/02cuts/b.repl26a
+[+] TEAM A WIN (fish62_f84)  fish62_f84 vs fe98ea6b-knowledge  02treasure-box  Round 1223/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/fish62_f84/02treasure-box/b.repl26a
+[+] TEAM B WIN (fe98ea6b-knowledge)  fish62_f84 vs fe98ea6b-knowledge  02cuts  Round 1040/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/fish62_f84/02cuts/b.repl26a
+[|] STARTING  fe98ea6b-knowledge vs fish62_f84  00the-line
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/fish62_f84/00the-line/a.repl26a
+[|] STARTING  fish62_f84 vs fe98ea6b-knowledge  00the-line
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/fish62_f84/00the-line/b.repl26a
+[+] TEAM A WIN (fe98ea6b-knowledge)  fe98ea6b-knowledge vs fish62_f84  00lanes  Round 1185/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/fish62_f84/00lanes/a.repl26a
+[+] TEAM A WIN (fish62_f84)  fish62_f84 vs fe98ea6b-knowledge  00lanes  Round 1172/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/fish62_f84/00lanes/b.repl26a
+[+] TEAM B WIN (fish62_f84)  fe98ea6b-knowledge vs fish62_f84  02treasure-box  Round 1430/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/fish62_f84/02treasure-box/a.repl26a
+[+] TEAM A WIN (fe98ea6b-knowledge)  fe98ea6b-knowledge vs fish62_f84  02cuts  Round 1042/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/fish62_f84/02cuts/a.repl26a
+[|] STARTING  fe98ea6b-knowledge vs fish62_f84  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/fish62_f84/01elk-arena/a.repl26a
+[|] STARTING  fish62_f84 vs fe98ea6b-knowledge  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/fish62_f84/01elk-arena/b.repl26a
+[|] STARTING  fe98ea6b-knowledge vs fish62_f84  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/fish62_f84/01boss-battle/a.repl26a
+[|] STARTING  fish62_f84 vs fe98ea6b-knowledge  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/fish62_f84/01boss-battle/b.repl26a
+[+] TEAM A WIN (fish62_f84)  fish62_f84 vs fe98ea6b-knowledge  00the-line  Round 0743/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/fish62_f84/00the-line/b.repl26a
+[|] STARTING  fe98ea6b-knowledge vs fish62_f84  02guardians
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/fish62_f84/02guardians/a.repl26a
+[+] TEAM A WIN (fe98ea6b-knowledge)  fe98ea6b-knowledge vs fish62_f84  00the-line  Round 0771/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/fish62_f84/00the-line/a.repl26a
+[|] STARTING  fish62_f84 vs fe98ea6b-knowledge  02guardians
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/fish62_f84/02guardians/b.repl26a
+[+] TEAM B WIN (fe98ea6b-knowledge)  fish62_f84 vs fe98ea6b-knowledge  01boss-battle  Round 0952/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/fish62_f84/01boss-battle/b.repl26a
+[|] STARTING  fe98ea6b-knowledge vs fish62_f84  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/fish62_f84/00gemfight/a.repl26a
+[+] TEAM A WIN (fe98ea6b-knowledge)  fe98ea6b-knowledge vs fish62_f84  01boss-battle  Round 1069/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/fish62_f84/01boss-battle/a.repl26a
+[|] STARTING  fish62_f84 vs fe98ea6b-knowledge  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/fish62_f84/00gemfight/b.repl26a
+[+] TEAM A WIN (fe98ea6b-knowledge)  fe98ea6b-knowledge vs fish62_f84  01elk-arena  Round 1376/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/fish62_f84/01elk-arena/a.repl26a
+[|] STARTING  fe98ea6b-knowledge vs fish62_f84  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/fish62_f84/00vault/a.repl26a
+[+] TEAM A WIN (fe98ea6b-knowledge)  fe98ea6b-knowledge vs fish62_f84  02guardians  Round 1180/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/fish62_f84/02guardians/a.repl26a
+[|] STARTING  fish62_f84 vs fe98ea6b-knowledge  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/fish62_f84/00vault/b.repl26a
+[+] TEAM A WIN (fish62_f84)  fish62_f84 vs fe98ea6b-knowledge  01elk-arena  Round 1592/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/fish62_f84/01elk-arena/b.repl26a
+[|] STARTING  fe98ea6b-knowledge vs fish62_f84  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/fish62_f84/01broken-curve/a.repl26a
+[+] TEAM B WIN (fe98ea6b-knowledge)  fish62_f84 vs fe98ea6b-knowledge  02guardians  Round 1374/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/fish62_f84/02guardians/b.repl26a
+[|] STARTING  fish62_f84 vs fe98ea6b-knowledge  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/fish62_f84/01broken-curve/b.repl26a
+[+] TEAM B WIN (fish62_f84)  fe98ea6b-knowledge vs fish62_f84  00vault  Round 0413/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/fish62_f84/00vault/a.repl26a
+[+] TEAM B WIN (fe98ea6b-knowledge)  fish62_f84 vs fe98ea6b-knowledge  00vault  Round 0664/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/fish62_f84/00vault/b.repl26a
+[|] STARTING  fe98ea6b-knowledge vs tm30_f84  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/tm30_f84/00lanes/a.repl26a
+[|] STARTING  tm30_f84 vs fe98ea6b-knowledge  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/tm30_f84/00lanes/b.repl26a
+[+] TEAM A WIN (fe98ea6b-knowledge)  fe98ea6b-knowledge vs fish62_f84  00gemfight  Round 0921/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/fish62_f84/00gemfight/a.repl26a
+[+] TEAM B WIN (fe98ea6b-knowledge)  fish62_f84 vs fe98ea6b-knowledge  00gemfight  Round 0873/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/fish62_f84/00gemfight/b.repl26a
+[+] TEAM A WIN (fe98ea6b-knowledge)  fe98ea6b-knowledge vs fish62_f84  01broken-curve  Round 1074/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/fish62_f84/01broken-curve/a.repl26a
+[+] TEAM B WIN (fe98ea6b-knowledge)  fish62_f84 vs fe98ea6b-knowledge  01broken-curve  Round 0981/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/fish62_f84/01broken-curve/b.repl26a
+[|] STARTING  fe98ea6b-knowledge vs tm30_f84  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/tm30_f84/02treasure-box/a.repl26a
+[|] STARTING  tm30_f84 vs fe98ea6b-knowledge  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/tm30_f84/02treasure-box/b.repl26a
+[|] STARTING  fe98ea6b-knowledge vs tm30_f84  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/tm30_f84/02cuts/a.repl26a
+[|] STARTING  tm30_f84 vs fe98ea6b-knowledge  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/tm30_f84/02cuts/b.repl26a
+[+] TEAM B WIN (fe98ea6b-knowledge)  tm30_f84 vs fe98ea6b-knowledge  02treasure-box  Round 0990/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/tm30_f84/02treasure-box/b.repl26a
+[|] STARTING  fe98ea6b-knowledge vs tm30_f84  00the-line
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/tm30_f84/00the-line/a.repl26a
+[+] TEAM A WIN (fe98ea6b-knowledge)  fe98ea6b-knowledge vs tm30_f84  02treasure-box  Round 1092/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/tm30_f84/02treasure-box/a.repl26a
+[+] TEAM B WIN (fe98ea6b-knowledge)  tm30_f84 vs fe98ea6b-knowledge  02cuts  Round 1010/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/tm30_f84/02cuts/b.repl26a
+[|] STARTING  tm30_f84 vs fe98ea6b-knowledge  00the-line
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/tm30_f84/00the-line/b.repl26a
+[|] STARTING  fe98ea6b-knowledge vs tm30_f84  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/tm30_f84/01elk-arena/a.repl26a
+[+] TEAM B WIN (fe98ea6b-knowledge)  tm30_f84 vs fe98ea6b-knowledge  00lanes  Round 1165/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/tm30_f84/00lanes/b.repl26a
+[|] STARTING  tm30_f84 vs fe98ea6b-knowledge  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/tm30_f84/01elk-arena/b.repl26a
+[+] TEAM A WIN (fe98ea6b-knowledge)  fe98ea6b-knowledge vs tm30_f84  00lanes  Round 1302/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/tm30_f84/00lanes/a.repl26a
+[+] TEAM A WIN (fe98ea6b-knowledge)  fe98ea6b-knowledge vs tm30_f84  02cuts  Round 1205/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/tm30_f84/02cuts/a.repl26a
+[|] STARTING  fe98ea6b-knowledge vs tm30_f84  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/tm30_f84/01boss-battle/a.repl26a
+[|] STARTING  tm30_f84 vs fe98ea6b-knowledge  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/tm30_f84/01boss-battle/b.repl26a
+[+] TEAM A WIN (fe98ea6b-knowledge)  fe98ea6b-knowledge vs tm30_f84  00the-line  Round 0751/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/tm30_f84/00the-line/a.repl26a
+[|] STARTING  fe98ea6b-knowledge vs tm30_f84  02guardians
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/tm30_f84/02guardians/a.repl26a
+[+] TEAM B WIN (fe98ea6b-knowledge)  tm30_f84 vs fe98ea6b-knowledge  00the-line  Round 1389/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/tm30_f84/00the-line/b.repl26a
+[|] STARTING  tm30_f84 vs fe98ea6b-knowledge  02guardians
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/tm30_f84/02guardians/b.repl26a
+[+] TEAM B WIN (fe98ea6b-knowledge)  tm30_f84 vs fe98ea6b-knowledge  01boss-battle  Round 0849/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/tm30_f84/01boss-battle/b.repl26a
+[|] STARTING  fe98ea6b-knowledge vs tm30_f84  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/tm30_f84/00gemfight/a.repl26a
+[+] TEAM A WIN (fe98ea6b-knowledge)  fe98ea6b-knowledge vs tm30_f84  01elk-arena  Round 1321/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/tm30_f84/01elk-arena/a.repl26a
+[|] STARTING  tm30_f84 vs fe98ea6b-knowledge  00gemfight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/tm30_f84/00gemfight/b.repl26a
+[+] TEAM B WIN (fe98ea6b-knowledge)  tm30_f84 vs fe98ea6b-knowledge  01elk-arena  Round 1763/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/tm30_f84/01elk-arena/b.repl26a
+[+] TEAM A WIN (fe98ea6b-knowledge)  fe98ea6b-knowledge vs tm30_f84  01boss-battle  Round 1497/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/tm30_f84/01boss-battle/a.repl26a
+[+] TEAM A WIN (fe98ea6b-knowledge)  fe98ea6b-knowledge vs tm30_f84  02guardians  Round 1047/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/tm30_f84/02guardians/a.repl26a
+[|] STARTING  fe98ea6b-knowledge vs tm30_f84  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/tm30_f84/00vault/a.repl26a
+[|] STARTING  tm30_f84 vs fe98ea6b-knowledge  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/tm30_f84/00vault/b.repl26a
+[|] STARTING  fe98ea6b-knowledge vs tm30_f84  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/tm30_f84/01broken-curve/a.repl26a
+[+] TEAM B WIN (fe98ea6b-knowledge)  tm30_f84 vs fe98ea6b-knowledge  02guardians  Round 1096/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/tm30_f84/02guardians/b.repl26a
+[|] STARTING  tm30_f84 vs fe98ea6b-knowledge  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/tm30_f84/01broken-curve/b.repl26a
+[+] TEAM B WIN (fe98ea6b-knowledge)  tm30_f84 vs fe98ea6b-knowledge  00gemfight  Round 0906/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/tm30_f84/00gemfight/b.repl26a
+[+] TEAM B WIN (tm30_f84)  fe98ea6b-knowledge vs tm30_f84  00gemfight  Round 1310/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/tm30_f84/00gemfight/a.repl26a
+[+] TEAM A WIN (fe98ea6b-knowledge)  fe98ea6b-knowledge vs tm30_f84  00vault  Round 0449/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/tm30_f84/00vault/a.repl26a
+[+] TEAM A WIN (tm30_f84)  tm30_f84 vs fe98ea6b-knowledge  00vault  Round 0295/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/tm30_f84/00vault/b.repl26a
+[+] TEAM A WIN (fe98ea6b-knowledge)  fe98ea6b-knowledge vs tm30_f84  01broken-curve  Round 1008/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/tm30_f84/01broken-curve/a.repl26a
+[+] TEAM B WIN (fe98ea6b-knowledge)  tm30_f84 vs fe98ea6b-knowledge  01broken-curve  Round 1160/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v124_opportunity_2026-10-30/scan_screen/games/knowledge/tm30_f84/01broken-curve/b.repl26a
+Finished: 180 replay bundles saved, 0 failed
+injected 0 checks into 0 functions
+injected 0 checks into 0 functions
+injected 0 checks into 0 functions

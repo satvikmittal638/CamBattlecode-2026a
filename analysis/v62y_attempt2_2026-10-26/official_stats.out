@@ -1,0 +1,16 @@
+2026-10-26T13:51:49.578Z summaries 0/0, wrote 0, failed 0
+2026-10-26T13:53:06.225Z summaries 15/15, wrote 15, failed 0
+2026-10-26T13:54:30.757Z summaries 41/41, wrote 26, failed 0
+2026-10-26T13:55:50.963Z summaries 64/64, wrote 23, failed 0
+2026-10-26T13:57:09.052Z summaries 84/84, wrote 20, failed 0
+2026-10-26T13:58:25.414Z summaries 103/103, wrote 19, failed 0
+2026-10-26T13:59:40.645Z summaries 121/121, wrote 18, failed 0
+2026-10-26T14:01:04.580Z summaries 139/139, wrote 18, failed 0
+2026-10-26T14:03:15.613Z summaries 157/157, wrote 18, failed 0
+fail d76554c0-6ac4-44cd-8177-94b1ceef865e GET /matches/d76554c0-6ac4-44cd-8177-94b1ceef865e/summary: 429 {"error":"Rate limit exceeded"}
+2026-10-26T14:05:48.890Z summaries 182/183, wrote 25, failed 1
+fail 8d493d0a-2eae-4add-8bfc-4e9ce16ed6e0 GET /matches/8d493d0a-2eae-4add-8bfc-4e9ce16ed6e0/summary: 429 {"error":"Rate limit exceeded"}
+fail 11bf029e-7478-4d43-836c-89998fb2ce12 GET /matches/11bf029e-7478-4d43-836c-89998fb2ce12/summary: 429 {"error":"Rate limit exceeded"}
+2026-10-26T14:08:29.570Z summaries 206/208, wrote 24, failed 2
+2026-10-26T14:11:37.530Z summaries 241/241, wrote 35, failed 0
+2026-10-26T14:12:48.425Z summaries 250/250, wrote 9, failed 0

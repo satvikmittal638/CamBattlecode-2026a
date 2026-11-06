@@ -1,0 +1,236 @@
+{
+  "s19_baseline": {
+    "all": {
+      "n": 50,
+      "baselineWins": 14,
+      "candidateWins": 17,
+      "gains": 3,
+      "losses": 0,
+      "net": 3,
+      "marginPerGame": 46.98,
+      "descriptiveMcNemarP": 0.25
+    },
+    "incomeTarget": {
+      "n": 10,
+      "baselineWins": 2,
+      "candidateWins": 4,
+      "gains": 2,
+      "losses": 0,
+      "net": 2,
+      "marginPerGame": 72.5,
+      "descriptiveMcNemarP": 0.5
+    },
+    "other": {
+      "n": 40,
+      "baselineWins": 12,
+      "candidateWins": 13,
+      "gains": 1,
+      "losses": 0,
+      "net": 1,
+      "marginPerGame": 40.6,
+      "descriptiveMcNemarP": 1
+    },
+    "weak": {
+      "n": 35,
+      "baselineWins": 6,
+      "candidateWins": 8,
+      "gains": 2,
+      "losses": 0,
+      "net": 2,
+      "marginPerGame": 21.142857142857142,
+      "descriptiveMcNemarP": 0.5
+    },
+    "strong": {
+      "n": 15,
+      "baselineWins": 8,
+      "candidateWins": 9,
+      "gains": 1,
+      "losses": 0,
+      "net": 1,
+      "marginPerGame": 107.26666666666667,
+      "descriptiveMcNemarP": 1
+    },
+    "near": {
+      "n": 25,
+      "baselineWins": 6,
+      "candidateWins": 7,
+      "gains": 1,
+      "losses": 0,
+      "net": 1,
+      "marginPerGame": 20.8,
+      "descriptiveMcNemarP": 1
+    },
+    "half": {
+      "n": 25,
+      "baselineWins": 8,
+      "candidateWins": 10,
+      "gains": 2,
+      "losses": 0,
+      "net": 2,
+      "marginPerGame": 73.16,
+      "descriptiveMcNemarP": 0.5
+    },
+    "opponentBlock95WinRateDelta": [
+      0.0,
+      0.12
+    ],
+    "wrongVersions": 0,
+    "botErrors": 0
+  },
+  "s19_candidate": {
+    "all": {
+      "n": 50,
+      "baselineWins": 15,
+      "candidateWins": 17,
+      "gains": 2,
+      "losses": 0,
+      "net": 2,
+      "marginPerGame": 12.04,
+      "descriptiveMcNemarP": 0.5
+    },
+    "incomeTarget": {
+      "n": 10,
+      "baselineWins": 2,
+      "candidateWins": 4,
+      "gains": 2,
+      "losses": 0,
+      "net": 2,
+      "marginPerGame": 60.2,
+      "descriptiveMcNemarP": 0.5
+    },
+    "other": {
+      "n": 40,
+      "baselineWins": 13,
+      "candidateWins": 13,
+      "gains": 0,
+      "losses": 0,
+      "net": 0,
+      "marginPerGame": 0.0,
+      "descriptiveMcNemarP": 1
+    },
+    "weak": {
+      "n": 35,
+      "baselineWins": 6,
+      "candidateWins": 8,
+      "gains": 2,
+      "losses": 0,
+      "net": 2,
+      "marginPerGame": 17.2,
+      "descriptiveMcNemarP": 0.5
+    },
+    "strong": {
+      "n": 15,
+      "baselineWins": 9,
+      "candidateWins": 9,
+      "gains": 0,
+      "losses": 0,
+      "net": 0,
+      "marginPerGame": 0.0,
+      "descriptiveMcNemarP": 1
+    },
+    "near": {
+      "n": 25,
+      "baselineWins": 6,
+      "candidateWins": 7,
+      "gains": 1,
+      "losses": 0,
+      "net": 1,
+      "marginPerGame": 25.44,
+      "descriptiveMcNemarP": 1
+    },
+    "half": {
+      "n": 25,
+      "baselineWins": 9,
+      "candidateWins": 10,
+      "gains": 1,
+      "losses": 0,
+      "net": 1,
+      "marginPerGame": -1.36,
+      "descriptiveMcNemarP": 1
+    },
+    "opponentBlock95WinRateDelta": [
+      0.0,
+      0.1
+    ],
+    "wrongVersions": 0,
+    "botErrors": 0
+  },
+  "s20_v114": {
+    "all": {
+      "n": 50,
+      "baselineWins": 11,
+      "candidateWins": 17,
+      "gains": 8,
+      "losses": 2,
+      "net": 6,
+      "marginPerGame": 177.4,
+      "descriptiveMcNemarP": 0.109375
+    },
+    "incomeTarget": {
+      "n": 10,
+      "baselineWins": 3,
+      "candidateWins": 4,
+      "gains": 1,
+      "losses": 0,
+      "net": 1,
+      "marginPerGame": 27.0,
+      "descriptiveMcNemarP": 1
+    },
+    "other": {
+      "n": 40,
+      "baselineWins": 8,
+      "candidateWins": 13,
+      "gains": 7,
+      "losses": 2,
+      "net": 5,
+      "marginPerGame": 215.0,
+      "descriptiveMcNemarP": 0.1796875
+    },
+    "weak": {
+      "n": 35,
+      "baselineWins": 5,
+      "candidateWins": 8,
+      "gains": 4,
+      "losses": 1,
+      "net": 3,
+      "marginPerGame": 140.25714285714287,
+      "descriptiveMcNemarP": 0.375
+    },
+    "strong": {
+      "n": 15,
+      "baselineWins": 6,
+      "candidateWins": 9,
+      "gains": 4,
+      "losses": 1,
+      "net": 3,
+      "marginPerGame": 264.06666666666666,
+      "descriptiveMcNemarP": 0.375
+    },
+    "near": {
+      "n": 25,
+      "baselineWins": 6,
+      "candidateWins": 7,
+      "gains": 2,
+      "losses": 1,
+      "net": 1,
+      "marginPerGame": 73.28,
+      "descriptiveMcNemarP": 1
+    },
+    "half": {
+      "n": 25,
+      "baselineWins": 5,
+      "candidateWins": 10,
+      "gains": 6,
+      "losses": 1,
+      "net": 5,
+      "marginPerGame": 281.52,
+      "descriptiveMcNemarP": 0.125
+    },
+    "opponentBlock95WinRateDelta": [
+      0.0,
+      0.22
+    ],
+    "wrongVersions": 0,
+    "botErrors": 0
+  }
+}

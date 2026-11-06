@@ -1,0 +1,177 @@
+diff -ru analysis/v54_review/v53/files.json analysis/v54_review/v54/files.json
+--- analysis/v54_review/v53/files.json	2026-10-22 20:03:33
++++ analysis/v54_review/v54/files.json	2026-10-22 20:03:36
+@@ -29,11 +29,11 @@
+   },
+   {
+     "path": "src/bot.cpp",
+-    "size": 75962
++    "size": 76595
+   },
+   {
+     "path": "src/bot.h",
+-    "size": 7607
++    "size": 7711
+   },
+   {
+     "path": "src/draft.cpp",
+@@ -49,7 +49,7 @@
+   },
+   {
+     "path": "src/main.cpp",
+-    "size": 2609
++    "size": 2612
+   },
+   {
+     "path": "src/random.h",
+@@ -89,7 +89,7 @@
+   },
+   {
+     "path": "src/v1_progress.h",
+-    "size": 4527
++    "size": 4548
+   },
+   {
+     "path": "src/v1_support.h",
+@@ -98,5 +98,9 @@
+   {
+     "path": "src/v1_tactical.h",
+     "size": 16056
++  },
++  {
++    "path": "src/v47_geometry.h",
++    "size": 1811
+   }
+ ]
+\ No newline at end of file
+diff -ru analysis/v54_review/v53/src/bot.cpp analysis/v54_review/v54/src/bot.cpp
+--- analysis/v54_review/v53/src/bot.cpp	2026-10-22 20:03:35
++++ analysis/v54_review/v54/src/bot.cpp	2026-10-22 20:03:37
+@@ -104,16 +104,18 @@
+     roots &= ~staticBlocked;
+     r.distance.compute(staticBlocked, roots, visited);
+     r.complete = true;
++    r.linear = r.distance.export_linear_buffer();
+     // The immutable result remains usable, but no dynamic decision may continue
+     // if an unexpectedly costly host search crossed a round boundary.
+     enough();
+ }
+ int Bot::routeAt(const Route* r, vec2 p) const {
+     if (!r || !r->complete) return -1;
++    if(r->linear.size()==static_cast<std::size_t>(W*H))return r->linear[idx(p)];
+     return r->distance.get(p);
+ }
+ std::uint16_t Bot::gdist(const Group& g, vec2 p) const {
+-    const int d = routeAt(g.route.get(), p);
++    const int d = groupGeometryReady ? routeAt(g.route.get(), p) : -1;
+     return d < 0 ? heuristic(g.tiles, p) : d;
+ }
+ std::uint16_t Bot::altarDistance(int a, vec2 p) const {
+@@ -1213,7 +1215,7 @@
+     progressKind=travel;
+     auto& me = bc::self();
+     const vec2 pos = me.position();
+-    int t = chooseTarget();
++    int t = capturing && target >= 0 ? target : chooseTarget();
+     if (capturing && target >= 0) t = target;  // never abandon a capture in progress
+     if (t != target) { target = t; capturing = false; captureSince = -1; }
+     if (target < 0) return;
+@@ -1351,6 +1353,13 @@
+         handleLowHp(true);setPriority(lowMode);
+         stage="stunned";writeStatus(lowMode);return;
+     }
++    // A channel consumes the turn. Refresh full camp beliefs when it ends,
++    // instead of paying for observation and target scoring during every tick.
++    if(me.is_recalling()||me.is_submitting_gems()||me.is_teleporting()){
++        if(!me.is_submitting_gems()||!bankChannelThreat()){
++            wasSubmitting=me.is_submitting_gems();setPriority(lowMode);writeStatus(lowMode);return;
++        }
++    }
+     stage = "know";
+     if(!stalledRetreat)updateKnowledge();
+     if(!enough(24000)){stage="budget";return;}
+@@ -1475,6 +1484,7 @@
+     writeStatus(false);
+ }
+ 
++#include "v47_geometry.h"
+ #include "v1_progress.h"
+ #include "v1_dispatch.h"
+ 
+diff -ru analysis/v54_review/v53/src/bot.h analysis/v54_review/v54/src/bot.h
+--- analysis/v54_review/v53/src/bot.h	2026-10-22 20:03:35
++++ analysis/v54_review/v54/src/bot.h	2026-10-22 20:03:37
+@@ -21,6 +21,7 @@
+ struct Route {
+     std::vector<vec2> roots;
+     cambc::distance_field distance;
++    std::vector<std::uint16_t> linear;
+     bool complete = false;
+ };
+ 
+@@ -63,6 +64,7 @@
+ private:
+     // ---- world (static) ----
+     bool inited = false;
++    bool groupGeometryReady = false;
+     int W = 0, H = 0;
+     int slot = 0, partnerSlot = -1, cassiSlot = -1;
+     int nAllies = 0;
+@@ -140,6 +142,7 @@
+     int homeDistance(vec2 p) const;
+     void openingMove();
+     void planWork();
++    void warmGeometry();
+     void releaseCapture();
+     void refreshCapture();
+     void noteMotion(vec2 position);
+diff -ru analysis/v54_review/v53/src/main.cpp analysis/v54_review/v54/src/main.cpp
+--- analysis/v54_review/v53/src/main.cpp	2026-10-22 20:03:35
++++ analysis/v54_review/v54/src/main.cpp	2026-10-22 20:03:37
+@@ -39,7 +39,7 @@
+ 
+ int runBoss();
+ int main() {
+-    std::puts("build v47p");
++    std::puts("build v53-geo");
+     if(cambc::is_draft()) {
+         bool regular=false,boss=false;
+         for(const auto& group:cambc::map::camp_groups())if(group.gem_value()>0) {
+diff -ru analysis/v54_review/v53/src/v1_progress.h analysis/v54_review/v54/src/v1_progress.h
+--- analysis/v54_review/v53/src/v1_progress.h	2026-10-22 20:03:36
++++ analysis/v54_review/v54/src/v1_progress.h	2026-10-22 20:03:39
+@@ -64,4 +64,5 @@
+     fallbackRequested=false;
+     try{play_step();}catch(const TurnAbort&){progressFinish();throw;}
+     progressFinish();
++    warmGeometry();
+ }
+Only in analysis/v54_review/v54/src: v47_geometry.h
+diff -ru analysis/v54_review/v53/submission.json analysis/v54_review/v54/submission.json
+--- analysis/v54_review/v53/submission.json	2026-10-22 20:03:33
++++ analysis/v54_review/v54/submission.json	2026-10-22 20:03:36
+@@ -1,14 +1,14 @@
+ {
+-  "id": "5037e5d4-2e54-4227-be45-a3d5bc048a37",
+-  "version": 53,
+-  "note": "Claude_bestShit",
++  "id": "9ffe9fbb-c82d-4160-8491-0c79772cc4bf",
++  "version": 54,
++  "note": "Codex_shit1",
+   "fileName": "bot.zip",
+   "language": "cpp",
+-  "status": "inactive",
+-  "size": 76636,
+-  "uploadedBy": "2003fc6d-fb3d-40aa-9d58-6d709e54f7b9",
+-  "createdAt": "2026-10-22T08:47:12.032Z",
+-  "statusAt": "2026-10-22T14:02:35.016Z",
++  "status": "active",
++  "size": 77788,
++  "uploadedBy": "70410a67-73c5-4450-9634-694d274525b1",
++  "createdAt": "2026-10-22T14:00:31.716Z",
++  "statusAt": "2026-10-22T14:32:38.054Z",
+   "hasLog": true,
+-  "active": false
++  "active": true
+ }
+\ No newline at end of file

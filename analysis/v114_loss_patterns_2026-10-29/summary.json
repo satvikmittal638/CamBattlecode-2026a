@@ -1,0 +1,304 @@
+{
+  "scope": "All 35 losses and 34 wins from the existing one-match-per-map v114 archive, engine 2.0.0. Observational comparisons, not controlled ablations.",
+  "losses": {
+    "games": 35,
+    "opponents": 18,
+    "us": {
+      "deaths": 15.114,
+      "kills": 2.543,
+      "capGems": 574.057,
+      "capGold": 3197.029,
+      "deathGems": 156.229,
+      "activityShare": {
+        "move": 0.495,
+        "farm": 0.13545,
+        "channel": 0.04464,
+        "spawnHeal": 0.00632,
+        "capture": 0.03475,
+        "idle": 0.05143,
+        "fight": 0.04829,
+        "dead": 0.17919,
+        "stun": 0.00493
+      },
+      "checkpoint300": {
+        "score": 82.2,
+        "worth": 721.057,
+        "equipment": 566.571,
+        "unspent": 154.486,
+        "capGems": 129.771,
+        "deaths": 2.914
+      },
+      "deathTotal": 529,
+      "deathWithoutGems": 386,
+      "deathAloneWithin6": 286,
+      "deathOutnumberedWithin6": 260,
+      "tributeDeaths": 2,
+      "tributeDeathGems": 234,
+      "lowTwoTurnsBeforeDeath": 394,
+      "medianDeathGemsPerGame": 66
+    },
+    "opponent": {
+      "deaths": 4.343,
+      "kills": 13.971,
+      "capGems": 974.257,
+      "capGold": 4855.314,
+      "deathGems": 48.714,
+      "activityShare": {
+        "idle": 0.05149,
+        "channel": 0.12152,
+        "move": 0.48974,
+        "farm": 0.17007,
+        "spawnHeal": 0.00978,
+        "dead": 0.05185,
+        "stun": 0.00467,
+        "fight": 0.05568,
+        "capture": 0.0452
+      },
+      "checkpoint300": {
+        "score": 184.543,
+        "worth": 1185.743,
+        "equipment": 1006.286,
+        "unspent": 179.457,
+        "capGems": 207.2,
+        "deaths": 1.086
+      },
+      "deathTotal": 152,
+      "deathWithoutGems": 105,
+      "deathAloneWithin6": 63,
+      "deathOutnumberedWithin6": 32,
+      "tributeDeaths": 3,
+      "tributeDeathGems": 615,
+      "lowTwoTurnsBeforeDeath": 123,
+      "medianDeathGemsPerGame": 0
+    }
+  },
+  "wins": {
+    "games": 34,
+    "opponents": 12,
+    "us": {
+      "deaths": 5.824,
+      "kills": 10.294,
+      "capGems": 1052.5,
+      "capGold": 6394.382,
+      "deathGems": 43.647,
+      "activityShare": {
+        "move": 0.57201,
+        "farm": 0.15448,
+        "idle": 0.0368,
+        "stun": 0.00445,
+        "fight": 0.04595,
+        "dead": 0.0583,
+        "capture": 0.05696,
+        "channel": 0.06411,
+        "spawnHeal": 0.00695
+      },
+      "checkpoint300": {
+        "score": 108.941,
+        "worth": 1187.235,
+        "equipment": 983.824,
+        "unspent": 203.412,
+        "capGems": 130.912,
+        "deaths": 1.353
+      },
+      "deathTotal": 198,
+      "deathWithoutGems": 141,
+      "deathAloneWithin6": 116,
+      "deathOutnumberedWithin6": 97,
+      "tributeDeaths": 1,
+      "tributeDeathGems": 43,
+      "lowTwoTurnsBeforeDeath": 177,
+      "medianDeathGemsPerGame": 18.0
+    },
+    "opponent": {
+      "deaths": 11.647,
+      "kills": 4.529,
+      "capGems": 619.971,
+      "capGold": 3611.324,
+      "deathGems": 59.235,
+      "activityShare": {
+        "move": 0.45001,
+        "channel": 0.17223,
+        "farm": 0.13563,
+        "fight": 0.04344,
+        "stun": 0.00465,
+        "dead": 0.11573,
+        "spawnHeal": 0.00653,
+        "idle": 0.03772,
+        "capture": 0.03405
+      },
+      "checkpoint300": {
+        "score": 100.471,
+        "worth": 752.853,
+        "equipment": 597.353,
+        "unspent": 155.5,
+        "capGems": 121.412,
+        "deaths": 1.765
+      },
+      "deathTotal": 396,
+      "deathWithoutGems": 292,
+      "deathAloneWithin6": 160,
+      "deathOutnumberedWithin6": 120,
+      "tributeDeaths": 2,
+      "tributeDeathGems": 140,
+      "lowTwoTurnsBeforeDeath": 281,
+      "medianDeathGemsPerGame": 31.0
+    }
+  },
+  "sameOpponentSubset": {
+    "loss": {
+      "games": 21,
+      "opponents": 9,
+      "us": {
+        "deaths": 14.19,
+        "kills": 1.857,
+        "capGems": 613.429,
+        "capGold": 3483.714,
+        "deathGems": 188.81,
+        "activityShare": {
+          "move": 0.54486,
+          "farm": 0.13517,
+          "channel": 0.04466,
+          "spawnHeal": 0.00622,
+          "capture": 0.03522,
+          "idle": 0.03488,
+          "fight": 0.03836,
+          "dead": 0.15725,
+          "stun": 0.00338
+        },
+        "checkpoint300": {
+          "score": 82.905,
+          "worth": 732.0,
+          "equipment": 575.714,
+          "unspent": 156.286,
+          "capGems": 134.571,
+          "deaths": 2.476
+        },
+        "deathTotal": 298,
+        "deathWithoutGems": 210,
+        "deathAloneWithin6": 173,
+        "deathOutnumberedWithin6": 144,
+        "tributeDeaths": 1,
+        "tributeDeathGems": 168,
+        "lowTwoTurnsBeforeDeath": 215,
+        "medianDeathGemsPerGame": 68
+      },
+      "opponent": {
+        "deaths": 3.762,
+        "kills": 13.095,
+        "capGems": 975.333,
+        "capGold": 5267.0,
+        "deathGems": 59.143,
+        "activityShare": {
+          "idle": 0.06082,
+          "channel": 0.13657,
+          "move": 0.50063,
+          "farm": 0.16753,
+          "spawnHeal": 0.00816,
+          "dead": 0.0427,
+          "stun": 0.00378,
+          "fight": 0.04298,
+          "capture": 0.03683
+        },
+        "checkpoint300": {
+          "score": 162.762,
+          "worth": 1211.619,
+          "equipment": 1045.714,
+          "unspent": 165.905,
+          "capGems": 188.952,
+          "deaths": 1.0
+        },
+        "deathTotal": 79,
+        "deathWithoutGems": 55,
+        "deathAloneWithin6": 30,
+        "deathOutnumberedWithin6": 11,
+        "tributeDeaths": 2,
+        "tributeDeathGems": 558,
+        "lowTwoTurnsBeforeDeath": 66,
+        "medianDeathGemsPerGame": 0
+      }
+    },
+    "win": {
+      "games": 30,
+      "opponents": 9,
+      "us": {
+        "deaths": 6.3,
+        "kills": 10.467,
+        "capGems": 1063.2,
+        "capGold": 6217.333,
+        "deathGems": 46.5,
+        "activityShare": {
+          "move": 0.57976,
+          "farm": 0.15349,
+          "idle": 0.03555,
+          "stun": 0.00454,
+          "fight": 0.04566,
+          "dead": 0.06157,
+          "capture": 0.05085,
+          "channel": 0.06184,
+          "spawnHeal": 0.00676
+        },
+        "checkpoint300": {
+          "score": 111.5,
+          "worth": 1158.1,
+          "equipment": 959.0,
+          "unspent": 199.1,
+          "capGems": 132.3,
+          "deaths": 1.5
+        },
+        "deathTotal": 189,
+        "deathWithoutGems": 135,
+        "deathAloneWithin6": 109,
+        "deathOutnumberedWithin6": 95,
+        "tributeDeaths": 1,
+        "tributeDeathGems": 43,
+        "lowTwoTurnsBeforeDeath": 170,
+        "medianDeathGemsPerGame": 18.0
+      },
+      "opponent": {
+        "deaths": 11.767,
+        "kills": 4.933,
+        "capGems": 628.0,
+        "capGold": 3642.767,
+        "deathGems": 58.533,
+        "activityShare": {
+          "move": 0.46687,
+          "channel": 0.15911,
+          "farm": 0.13598,
+          "fight": 0.0436,
+          "stun": 0.00466,
+          "dead": 0.11423,
+          "spawnHeal": 0.00644,
+          "idle": 0.04011,
+          "capture": 0.029
+        },
+        "checkpoint300": {
+          "score": 103.6,
+          "worth": 778.667,
+          "equipment": 617.0,
+          "unspent": 161.667,
+          "capGems": 121.433,
+          "deaths": 1.7
+        },
+        "deathTotal": 353,
+        "deathWithoutGems": 256,
+        "deathAloneWithin6": 143,
+        "deathOutnumberedWithin6": 105,
+        "tributeDeaths": 0,
+        "tributeDeathGems": 0,
+        "lowTwoTurnsBeforeDeath": 249,
+        "medianDeathGemsPerGame": 31.0
+      }
+    }
+  },
+  "flags": {
+    "lossBehindWorth300": 29,
+    "lossOutcaptured": 32,
+    "lossCapturedBelow1000": 31,
+    "lossInferiorKillCount": 33,
+    "lossTenDeathsOrMore": 21,
+    "lossLostAtLeast100Gems": 15,
+    "lossGoldLeadGemDeficit": 6,
+    "lossOpponentUsedNewFamily": 3
+  },
+  "verification": "All 69 own captured-gem, dropped-gem and death totals agree with the independently generated prior review summaries."
+}

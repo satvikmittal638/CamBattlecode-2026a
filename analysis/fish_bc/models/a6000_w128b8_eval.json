@@ -1,0 +1,475 @@
+{
+ "overall": {
+  "move": 0.8153,
+  "attack_decision": 0.9650583333333334,
+  "attack_tile_when_attack": 0.9075152640612251,
+  "cast_slot": 0.928875,
+  "special_when_special": 0.5664957264957265,
+  "ward_decision": 0.9591416666666667
+ },
+ "n": 120000,
+ "by_type": {
+  "Ryth": {
+   "n": 3510,
+   "move": 0.7478632478632479,
+   "attack_decision": 0.9626780626780627,
+   "attack_tile_when_attack": 0.8733509234828496,
+   "cast_slot": 0.9242165242165242,
+   "special_when_special": 0.2857142857142857,
+   "ward_decision": 0.9447293447293448
+  },
+  "VesperVale": {
+   "n": 24409,
+   "move": 0.8296120283501986,
+   "attack_decision": 0.9518620181080749,
+   "attack_tile_when_attack": 0.8886295864125502,
+   "cast_slot": 0.9261338031054119,
+   "special_when_special": 0.5911764705882353,
+   "ward_decision": 0.9624318898766848
+  },
+  "Vendetta": {
+   "n": 22729,
+   "move": 0.8131462008887325,
+   "attack_decision": 0.9695103172158915,
+   "attack_tile_when_attack": 0.8971411284223264,
+   "cast_slot": 0.9131506005543578,
+   "special_when_special": 0.5375,
+   "ward_decision": 0.9555633771833341
+  },
+  "Cassi": {
+   "n": 15492,
+   "move": 0.8212625871417506,
+   "attack_decision": 0.9643687064291248,
+   "attack_tile_when_attack": 0.915952380952381,
+   "cast_slot": 0.9544280919184095,
+   "special_when_special": 0.5903614457831325,
+   "ward_decision": 0.9604957397366383
+  },
+  "Issac": {
+   "n": 16177,
+   "move": 0.8150460530382642,
+   "attack_decision": 0.969833714532979,
+   "attack_tile_when_attack": 0.9185012701100762,
+   "cast_slot": 0.9275514619521543,
+   "special_when_special": 0.5502958579881657,
+   "ward_decision": 0.9577795635779193
+  },
+  "Marcella": {
+   "n": 10586,
+   "move": 0.8154165879463442,
+   "attack_decision": 0.9769506895900245,
+   "attack_tile_when_attack": 0.9228453142642078,
+   "cast_slot": 0.9672208577366332,
+   "special_when_special": 0.6086956521739131,
+   "ward_decision": 0.9668430001889288
+  },
+  "Ren": {
+   "n": 468,
+   "move": 0.8653846153846154,
+   "attack_decision": 0.9743589743589743,
+   "attack_tile_when_attack": 0.9623655913978495,
+   "cast_slot": 0.9123931623931624,
+   "special_when_special": 0.5555555555555556,
+   "ward_decision": 0.9465811965811965
+  },
+  "Varg": {
+   "n": 1407,
+   "move": 0.9125799573560768,
+   "attack_decision": 0.9914712153518124,
+   "attack_tile_when_attack": 0.9380733944954128,
+   "cast_slot": 0.9673063255152807,
+   "special_when_special": 0.9696969696969697,
+   "ward_decision": 0.9779673063255153
+  },
+  "HeartOfRuin": {
+   "n": 25222,
+   "move": 0.8028705098723337,
+   "attack_decision": 0.9648719371976846,
+   "attack_tile_when_attack": 0.9182412790697675,
+   "cast_slot": 0.913567520418682,
+   "special_when_special": 0.5543672014260249,
+   "ward_decision": 0.9571802394734755
+  }
+ },
+ "by_enemy_distance": {
+  "enemy<=2": {
+   "n": 6772,
+   "move": 0.7179562906083875,
+   "attack_decision": 0.9142055522740697,
+   "attack_tile_when_attack": 0.9110455311973018,
+   "cast_slot": 0.9282339043118725,
+   "special_when_special": 0.6595744680851063,
+   "ward_decision": 0.9393089190785587
+  },
+  "enemy 3-5": {
+   "n": 13225,
+   "move": 0.6532325141776938,
+   "attack_decision": 0.9317958412098298,
+   "attack_tile_when_attack": 0.6939172749391728,
+   "cast_slot": 0.8895274102079395,
+   "special_when_special": 0.13520408163265307,
+   "ward_decision": 0.9453308128544423
+  },
+  "enemy 6-8": {
+   "n": 13613,
+   "move": 0.695805480055829,
+   "attack_decision": 0.9551164328215677,
+   "attack_tile_when_attack": 0.7699836867862969,
+   "cast_slot": 0.93991037978403,
+   "special_when_special": 0.31788079470198677,
+   "ward_decision": 0.9474032175126718
+  },
+  "no enemy near": {
+   "n": 86390,
+   "move": 0.8665702048848246,
+   "attack_decision": 0.9757032063896284,
+   "attack_tile_when_attack": 0.9326097461249675,
+   "cast_slot": 0.9332098622525755,
+   "special_when_special": 0.7029021151008362,
+   "ward_decision": 0.9646602616043524
+  }
+ },
+ "move_confusion": [
+  [
+   7997,
+   304,
+   578,
+   370,
+   765,
+   132,
+   557,
+   119,
+   384
+  ],
+  [
+   248,
+   2361,
+   303,
+   36,
+   289,
+   67,
+   104,
+   84,
+   86
+  ],
+  [
+   602,
+   223,
+   9611,
+   141,
+   869,
+   443,
+   521,
+   86,
+   603
+  ],
+  [
+   393,
+   39,
+   169,
+   4349,
+   473,
+   151,
+   371,
+   74,
+   128
+  ],
+  [
+   373,
+   146,
+   532,
+   220,
+   49256,
+   234,
+   499,
+   113,
+   467
+  ],
+  [
+   137,
+   60,
+   448,
+   136,
+   429,
+   5041,
+   136,
+   83,
+   395
+  ],
+  [
+   571,
+   83,
+   610,
+   458,
+   1062,
+   159,
+   9807,
+   272,
+   603
+  ],
+  [
+   92,
+   100,
+   122,
+   44,
+   338,
+   49,
+   326,
+   2423,
+   351
+  ],
+  [
+   318,
+   81,
+   482,
+   115,
+   708,
+   416,
+   437,
+   247,
+   6991
+  ]
+ ],
+ "permutation_importance": {
+  "grid:wall": [
+   0.0915,
+   0.0041
+  ],
+  "scalar:prev_move_dx": [
+   0.0874,
+   0.0039
+  ],
+  "scalar:prev_move_dy": [
+   0.0718,
+   0.0037
+  ],
+  "grid:enemy_ranged": [
+   0.0682,
+   0.0566
+  ],
+  "grid:camp_tile_static": [
+   0.0592,
+   0.0128
+  ],
+  "grid:group_reward_ready": [
+   0.0442,
+   0.0059
+  ],
+  "scalar:hp_frac": [
+   0.0438,
+   0.0121
+  ],
+  "grid:ally_hp": [
+   0.0437,
+   0.0048
+  ],
+  "grid:enemy_cd_ready": [
+   0.0329,
+   0.0286
+  ],
+  "grid:inside": [
+   0.0282,
+   0.0017
+  ],
+  "grid:enemy_hp": [
+   0.0262,
+   0.0153
+  ],
+  "grid:camp_hp": [
+   0.0218,
+   0.0063
+  ],
+  "grid:camp_awake": [
+   0.0179,
+   0.0208
+  ],
+  "scalar:cd1": [
+   0.02,
+   0.011
+  ],
+  "grid:group_respawning": [
+   0.0193,
+   0.0027
+  ],
+  "grid:bush": [
+   0.0162,
+   0.0003
+  ],
+  "scalar:nearest_enemy_d": [
+   0.0149,
+   0.0065
+  ],
+  "grid:altar": [
+   0.0141,
+   0.001
+  ],
+  "scalar:gems": [
+   0.014,
+   0.005
+  ],
+  "scalar:prev_attacked": [
+   0.0103,
+   0.0135
+  ],
+  "grid:camp_str": [
+   0.0112,
+   0.0057
+  ],
+  "scalar:cd0": [
+   0.0098,
+   0.0061
+  ],
+  "scalar:can_attack": [
+   0.0076,
+   0.0027
+  ],
+  "scalar:gold": [
+   0.0071,
+   0.0
+  ],
+  "scalar:n_enemies_vis": [
+   0.0064,
+   0.0035
+  ],
+  "scalar:can_move": [
+   0.0063,
+   0.0018
+  ],
+  "scalar:spawn_dy": [
+   0.0058,
+   0.0004
+  ],
+  "grid:group_value": [
+   0.0056,
+   0.0042
+  ],
+  "scalar:range": [
+   0.0049,
+   0.003
+  ],
+  "scalar:enemy_spawn_dy": [
+   0.0047,
+   0.0001
+  ],
+  "scalar:recalling": [
+   0.0041,
+   0.0023
+  ],
+  "scalar:on_own_spawn": [
+   0.0038,
+   0.0021
+  ],
+  "scalar:can_cast": [
+   0.0037,
+   0.0017
+  ],
+  "scalar:shards": [
+   0.0035,
+   0.0024
+  ],
+  "scalar:spawn_dx": [
+   0.0034,
+   0.0001
+  ],
+  "grid:own_spawn": [
+   0.0033,
+   0.0008
+  ],
+  "scalar:strength": [
+   0.0029,
+   0.0008
+  ],
+  "scalar:enemy_spawn_d": [
+   0.002,
+   0.0011
+  ],
+  "scalar:bank_own": [
+   0.0019,
+   0.0006
+  ],
+  "scalar:map_h": [
+   0.0018,
+   0.0006
+  ],
+  "scalar:hp_change": [
+   0.0017,
+   0.0004
+  ],
+  "scalar:enemy_spawn_dx": [
+   0.0016,
+   -0.0001
+  ],
+  "scalar:max_hp": [
+   0.0016,
+   0.0014
+  ],
+  "scalar:nearest_camp_d": [
+   0.0014,
+   0.0008
+  ],
+  "scalar:n_allies_vis": [
+   0.0013,
+   0.0001
+  ],
+  "scalar:rounds_since_attack": [
+   0.0003,
+   0.0012
+  ],
+  "grid:enemy_spawn": [
+   0.0012,
+   0.0004
+  ],
+  "scalar:prev_cast": [
+   0.0012,
+   -0.0002
+  ],
+  "scalar:spawn_d": [
+   0.0011,
+   0.0003
+  ],
+  "scalar:priority": [
+   0.0009,
+   0.0006
+  ],
+  "scalar:altar_d": [
+   0.0007,
+   0.0
+  ],
+  "grid:ally_bag": [
+   0.0007,
+   0.0001
+  ],
+  "scalar:map_w": [
+   0.0005,
+   0.0003
+  ],
+  "scalar:submitting": [
+   0.0005,
+   0.0003
+  ],
+  "scalar:bank_enemy": [
+   -0.0009,
+   0.0002
+  ],
+  "scalar:focus": [
+   0.0001,
+   0.0001
+  ],
+  "grid:enemy_bag": [
+   0.0001,
+   0.0001
+  ],
+  "scalar:altar_dy": [
+   0.0001,
+   0.0001
+  ],
+  "scalar:round": [
+   -0.0004,
+   0.0001
+  ],
+  "scalar:altar_dx": [
+   -0.0,
+   0.0001
+  ]
+ }
+}

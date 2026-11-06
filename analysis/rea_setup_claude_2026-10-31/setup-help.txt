@@ -1,0 +1,24 @@
+rea setup — Configure agent integrations and optional analysis providers
+
+Usage: rea setup [options]
+
+Options:
+  --yes, -y               Approve user-owned setup actions without prompting
+  --install-hopper        Also approve Hopper installation with --yes
+  --client <array>        Agent integration to configure; repeat for multiple agents
+  --skill-client <array>  Existing client skill destination to update; repeatable
+  --all-detected          Configure every detected supported agent
+  --skill                 Override the bundled skill included with agent integrations
+  --dry-run               Print the resolved plan without applying it
+  --accessible            Use sequential accessible setup prompts
+
+Global Options:
+  --filter-output <keys>              Filter output by key paths (e.g. foo,bar.baz,a[0,3])
+  --format <toon|json|yaml|md|jsonl>  Output format
+  --full-output                       Show full output envelope
+  --help                              Show help
+  --llms, --llms-full                 Print LLM-readable manifest
+  --schema                            Show JSON Schema for command
+  --token-count                       Print token count of output (instead of output)
+  --token-limit <n>                   Limit output to n tokens
+  --token-offset <n>                  Skip first n tokens of output

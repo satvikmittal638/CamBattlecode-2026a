@@ -1,0 +1,160 @@
+{
+  "at": "2026-10-23T08:11:01.986105+00:00",
+  "v57SourceFilesUnchanged": 28,
+  "v57SourceHashes": [
+    {
+      "path": "workspace/bots/codex-v57-final/src/boss_main.cpp",
+      "sha256": "f8bc345df1eb18bd0a049440c4acebe457e1053a163edc1f86af706cac469baf"
+    },
+    {
+      "path": "workspace/bots/codex-v57-final/src/boss/bot.h",
+      "sha256": "8a50b6fae6641321538254a17538cff418b8d6f6a31b76389d86c1d7bc015ee2"
+    },
+    {
+      "path": "workspace/bots/codex-v57-final/src/boss/draft.h",
+      "sha256": "f7a290129d06ae8b502ace35f6667d90575b1d437ad7f5f821e52928258615d2"
+    },
+    {
+      "path": "workspace/bots/codex-v57-final/src/boss/draft.cpp",
+      "sha256": "2a5cadb81594e18a7897acf2f8aeb428b0289f6f35acd6d3b805787389205f3d"
+    },
+    {
+      "path": "workspace/bots/codex-v57-final/src/boss/bot.cpp",
+      "sha256": "09173b8e2d07774472e9f61b2d246667bf487f1e0a33836c4f81d7c7458493e6"
+    },
+    {
+      "path": "workspace/bots/codex-v57-final/src/bot.h",
+      "sha256": "4196d2f7d4c10a0b99a5ef26c21ce56324b39f1a603a0c9538fba7e27552ec76"
+    },
+    {
+      "path": "workspace/bots/codex-v57-final/src/draft.cpp",
+      "sha256": "8ea6c2bb2d27c685aa9ac5953af925f1effaa478f95e727546376ab797b1b3dc"
+    },
+    {
+      "path": "workspace/bots/codex-v57-final/src/bot.cpp",
+      "sha256": "6612b5b3dcd429e50f0beb852ec3acd73dae37b8efcab7011bd2f7d981979bb4"
+    },
+    {
+      "path": "workspace/bots/codex-v57-final/src/boss/random.h",
+      "sha256": "5ae547e5a1686c12e00be206016fef798691db1da563adb3ed83fce355284910"
+    },
+    {
+      "path": "workspace/bots/codex-v57-final/src/boss/policy.h",
+      "sha256": "cd3e3f62024358bfb089852bf43909c16fe188201ff2d62280863a656cbd8a54"
+    },
+    {
+      "path": "workspace/bots/codex-v57-final/src/random.h",
+      "sha256": "5ae547e5a1686c12e00be206016fef798691db1da563adb3ed83fce355284910"
+    },
+    {
+      "path": "workspace/bots/codex-v57-final/src/v1_bank_access.h",
+      "sha256": "60c4e8ce22ded289f102170aa8b39a4bc30349367a33d2d24ec7e056bc94453e"
+    },
+    {
+      "path": "workspace/bots/codex-v57-final/src/main.cpp",
+      "sha256": "7827dc3350d509193b08b0e3d97d8109f77fc4766f896546563cea459db4882c"
+    },
+    {
+      "path": "workspace/bots/codex-v57-final/src/fishx_features.h",
+      "sha256": "a46e85094d9a0b8e2abf3b32f2be19dd55bcb0fdcca80d0e66d12dd31e295c4c"
+    },
+    {
+      "path": "workspace/bots/codex-v57-final/src/draft.h",
+      "sha256": "15ddeaeb4ab39f6e3e80647fad56de9c0da7fc728d4c24ca83475060703a7bfd"
+    },
+    {
+      "path": "workspace/bots/codex-v57-final/src/v1_bank_channel.h",
+      "sha256": "3f9ff0c424c64fd743c0b8816dbe2b3895839aca204f5cc8f68044e5567b7f2f"
+    },
+    {
+      "path": "workspace/bots/codex-v57-final/src/v1_bank_carrier.h",
+      "sha256": "806c1ea949b02944e659dc377ae61cba53a98b414333da0b0ce0b1b79f06188f"
+    },
+    {
+      "path": "workspace/bots/codex-v57-final/src/v1_cycle.h",
+      "sha256": "8c323096a20bcb7f63aa470dc01f6ecc882a997c1d962e45f4bfe274bcd829bf"
+    },
+    {
+      "path": "workspace/bots/codex-v57-final/src/v1_camp_executor.h",
+      "sha256": "6fe38343307a74713f6db2f773693c33e08215b57507c2375acd0f74ab98e3a8"
+    },
+    {
+      "path": "workspace/bots/codex-v57-final/src/v1_dispatch.h",
+      "sha256": "9ece2826c405d5f7f4ac416d21cffae64171443a5803795dc8d5cb7b330580ff"
+    },
+    {
+      "path": "workspace/bots/codex-v57-final/src/v1_help_packet.h",
+      "sha256": "43712c54b3f678d93249e7b5e1e957e9f6f28e9a59f3bd1fa0eeb06c3bd9ca66"
+    },
+    {
+      "path": "workspace/bots/codex-v57-final/src/v1_tactical.h",
+      "sha256": "d05c51a3b4e8313e327f87dc19b2c572f1c6e7a19d72fbf67a75527e165e92b6"
+    },
+    {
+      "path": "workspace/bots/codex-v57-final/src/v1_progress.h",
+      "sha256": "24b8228dc9be458ae8f507e355c41302199cecdfdff82c27494af2023d81c994"
+    },
+    {
+      "path": "workspace/bots/codex-v57-final/src/v1_support.h",
+      "sha256": "c04591671c5ebf9f4bcb5744679ae8424473d7191c4e1edb99c504cb41585b83"
+    },
+    {
+      "path": "workspace/bots/codex-v57-final/src/v1_kit.h",
+      "sha256": "eefd73c476997bb27a9bf5cf8632e9b5ab89b4cbf7d24bdbf6f0bd0922d31542"
+    },
+    {
+      "path": "workspace/bots/codex-v57-final/src/v55_bridge.h",
+      "sha256": "dba38db31e2b5592196a38aa1511d56fb7e3098e2894447366d23fbfd569e710"
+    },
+    {
+      "path": "workspace/bots/codex-v57-final/src/v55_bank.h",
+      "sha256": "b5752e033ed257b5d5b9453975c35dd7c2a6c7826ae9e733e5c5aabed97fc8b9"
+    },
+    {
+      "path": "workspace/bots/codex-v57-final/src/v47_geometry.h",
+      "sha256": "0330c5f4061b8b33aa8623e4d3b56650f4b91b1e753a7e00e8250e952b9d1634"
+    }
+  ],
+  "modelsDeployed": false,
+  "newPlatformChallenges": 0,
+  "checks": [
+    {
+      "dataset": "observer",
+      "coverage": 400,
+      "examples": 180015,
+      "splits": {
+        "validation": 32518,
+        "train": 117063,
+        "test_initial": 5229,
+        "test": 25205
+      },
+      "nativeDecodeErrors": 0
+    },
+    {
+      "dataset": "expert",
+      "coverage": 220,
+      "examples": 435868,
+      "splits": {
+        "validation": 47676,
+        "train": 290293,
+        "test_initial": 17846,
+        "test_fish": 44411,
+        "test": 35642
+      },
+      "nativeDecodeErrors": 0
+    }
+  ],
+  "files": {
+    "extract.mjs": "be11612a2eb02daaeddbdf562cf9a0a3a3c6db59e2f67d9ac6d8d2a155c9551e",
+    "train_confirm.py": "370c50dbdd260f614e5648c746cb0d0f636b8ccf3c4a9d7334a9da6f1c6dc0e6",
+    "train_bandit.py": "d41ea634602a24f7adbbff14394fcee8044f941545ced5193b20af63022fd2e9",
+    "confirmation/PROTOCOL.json": "70e74b13d55364cafbe301c25b1401e4be0ee2b86e8ed9a8ce6db9c21d4ac3fc",
+    "confirmation/results.json": "cd1e56b1574ce0870036ac53c52fe3fca4a6f637ca83437ceadbcdece2f12c26",
+    "bandit_results.json": "ee9472327597fd4cc15bf8d330427ed3f2a7c581864a5f4ec0610dd1698c744d",
+    "docs_verification.json": "2ed2ffae0718a22e4ccff648a4feca75c5db65b77ea9d4ed463eebfb4e4e56df",
+    "REPORT.md": "ec8c4ceadcf9b3221eecd3e9229eddfa0ed7dc128212c2c879045ceccd3577c8",
+    "confirmation_results.png": "1eb38d86efd33268cf1659ce123ae43552478039d81652801ab956adf27a94c3",
+    "confirmation_results.svg": "e0712c8353220f36da84bb481179ecd79bf6a5f828cbcefd88b397eed50b9d16",
+    "ablation_distillation.json": "ded23a3144a435201455fd2365dae0352090e70d4f818170cba50429dcad87b0"
+  }
+}

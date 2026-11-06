@@ -1,0 +1,17 @@
+==> Fetching hopper-disassembler from homebrew/cask
+Error: SIGTERM
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/concurrent-ruby-1.3.8/lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:53:in 'Thread::ConditionVariable#wait'
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/concurrent-ruby-1.3.8/lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:53:in 'Concurrent::Synchronization::MutexLockableObject#ns_wait'
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/concurrent-ruby-1.3.8/lib/concurrent-ruby/concurrent/synchronization/abstract_lockable_object.rb:44:in 'block in Concurrent::Synchronization::AbstractLockableObject#ns_wait_until'
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/concurrent-ruby-1.3.8/lib/concurrent-ruby/concurrent/synchronization/abstract_lockable_object.rb:40:in 'Kernel#loop'
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/concurrent-ruby-1.3.8/lib/concurrent-ruby/concurrent/synchronization/abstract_lockable_object.rb:40:in 'Concurrent::Synchronization::AbstractLockableObject#ns_wait_until'
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/concurrent-ruby-1.3.8/lib/concurrent-ruby/concurrent/atomic/event.rb:87:in 'block in Concurrent::Event#wait'
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/concurrent-ruby-1.3.8/lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in 'block in Concurrent::Synchronization::MutexLockableObject#synchronize'
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/concurrent-ruby-1.3.8/lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in 'Thread::Mutex#synchronize'
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/concurrent-ruby-1.3.8/lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in 'Concurrent::Synchronization::MutexLockableObject#synchronize'
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/concurrent-ruby-1.3.8/lib/concurrent-ruby/concurrent/atomic/event.rb:84:in 'Concurrent::Event#wait'
+/opt/homebrew/Library/Homebrew/download_queue.rb:289:in 'Homebrew::DownloadQueue#fetch'
+/opt/homebrew/Library/Homebrew/cmd/fetch.rb:84:in 'Homebrew::Cmd::FetchCmd#run'
+/opt/homebrew/Library/Homebrew/brew.rb:147:in '<main>'
+You have disabled automatic updates and have not updated today.
+Do not report this issue until you've run `brew update` and tried again.

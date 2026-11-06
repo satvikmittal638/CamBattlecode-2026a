@@ -1,0 +1,41 @@
+{
+ "dir": "replays_recent/0_Agentic-Loop-Builders_v21",
+ "games": 102,
+ "nextTarget": {
+  "n": 1830,
+  "nearestShare": 0.38,
+  "top2Share": 0.5,
+  "avgDist": 14.95,
+  "avgNearest": 6.71,
+  "avgDelay": 33.19,
+  "extraDist": 8.24,
+  "commonSkips": {
+   "Elk1 -> Wolf1": 111,
+   "GoldCluster2 -> Elk6+GemCluster6": 101,
+   "Wolf1 -> Elk1": 94,
+   "Wolf1 -> Wolf1": 94,
+   "GoldCluster1 -> GoldCluster3": 93,
+   "GoldCluster1 -> Wolf1": 67,
+   "Wolf1 -> Wolf2": 56,
+   "Elk1 -> Elk1": 53
+  }
+ },
+ "tribute": {
+  "perGame": 19.3,
+  "gemsAvg": 45.05,
+  "gemsP25": 22,
+  "gemsP50": 36,
+  "gemsP75": 48,
+  "capturesBetween": 0.82,
+  "roundsBetween": 77.84
+ },
+ "recall": {
+  "perGame": 32.2,
+  "hpfAvg": 0.55,
+  "hpfP50": 0.48,
+  "goldAvg": 82.06,
+  "afterTributeShare": 0.05,
+  "healthyRecallShare": 0.39,
+  "carryingGemsShare": 0.08
+ }
+}

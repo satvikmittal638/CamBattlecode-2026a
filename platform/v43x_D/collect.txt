@@ -1,0 +1,56 @@
+near_r53   5/5  avg gem diff 467
+near_r54   3/5  avg gem diff 193
+near_r55   4/5  avg gem diff 345
+near_r56   1/5  avg gem diff -106
+near_r57   2/5  avg gem diff -64
+near_r59   4/5  avg gem diff 532
+near_r60   5/5  avg gem diff 478
+near_r61   3/5  avg gem diff -48
+near_r62   3/5  avg gem diff 142
+near_r63   4/5  avg gem diff 145
+half_r24   3/5  avg gem diff 207
+half_r25   2/5  avg gem diff -123
+half_r26   1/5  avg gem diff -564
+half_r27   2/5  avg gem diff -190
+half_r28   1/5  avg gem diff -29
+half_r29   2/5  avg gem diff -2
+half_r30   2/5  avg gem diff -123
+half_r31   2/5  avg gem diff -130
+half_r32   4/5  avg gem diff 358
+half_r33   5/5  avg gem diff 814
+TOTAL 58/100
+  00ambush                 near_r53:Wa near_r61:Wb half_r28:La
+  00collision              near_r53:Wb near_r61:Wa half_r28:Lb
+  00contest                near_r53:Wa near_r61:Lb half_r28:La
+  00corners                near_r53:Wb near_r61:La half_r28:Lb
+  00eight                  near_r53:Wa near_r61:Wb half_r28:Wa
+  00elkring                near_r54:Lb near_r62:Wa half_r29:Lb
+  00expanse                near_r54:Wa near_r62:Lb half_r29:Wa
+  00fragment               near_r54:Wb near_r62:Wa half_r29:Wb
+  00interlock              near_r54:Wa near_r62:Wb half_r29:La
+  00lanes                  near_r54:Lb near_r62:La half_r29:Lb
+  00monolith               near_r55:Wa near_r63:Wb half_r30:La
+  00packs                  near_r55:Wb near_r63:Wa half_r30:Lb
+  00pilgrimage             near_r55:Wa near_r63:Wb half_r30:Wa
+  00quadrants              near_r55:Lb near_r63:La half_r30:Lb
+  00reverse_spiral         near_r55:Wa near_r63:Wb half_r30:Wa
+  00rows                   near_r56:Lb half_r24:Wa half_r31:Wb
+  00rushbait_v2            near_r56:La half_r24:Lb half_r31:La
+  00split                  near_r56:Lb half_r24:La half_r31:Lb
+  00stampede               near_r56:Wa half_r24:Wb half_r31:Wa
+  00swirl                  near_r56:Lb half_r24:Wa half_r31:Lb
+  01big_world              near_r57:La half_r25:Wb half_r32:La
+  01boss_battle            near_r57:Wb half_r25:La half_r32:Wb
+  01broken_curve           near_r57:La half_r25:Lb half_r32:Wa
+  01concentrated_wealth    near_r57:Lb half_r25:La half_r32:Wb
+  01corridors              near_r57:Wa half_r25:Wb half_r32:Wa
+  01elk_arena              near_r59:Wb half_r26:La half_r33:Wb
+  01fracture               near_r59:La half_r26:Wb half_r33:Wa
+  01gold_rush              near_r59:Wb half_r26:La half_r33:Wb
+  01hooks                  near_r59:Wa half_r26:Lb half_r33:Wa
+  01islands                near_r59:Wb half_r26:La half_r33:Wb
+  01shortcut               near_r60:Wa half_r27:Lb
+  01starfish               near_r60:Wb half_r27:Wa
+  01starvation             near_r60:Wa half_r27:Lb
+  01the_farm               near_r60:Wb half_r27:La
+  01yellow_brick_road      near_r60:Wa half_r27:Wb

@@ -1,0 +1,56 @@
+r1         0/10  avg gem diff -573
+r2         0/10  avg gem diff -696
+r3         0/10  avg gem diff -541
+r5         2/10  avg gem diff -453
+r7         0/10  avg gem diff -596
+r9         2/10  avg gem diff -505
+r12        2/10  avg gem diff -374
+r15        1/10  avg gem diff -586
+r18        3/10  avg gem diff -208
+r22        3/10  avg gem diff -237
+r26        4/10  avg gem diff -249
+r30        5/10  avg gem diff -238
+r35        1/10  avg gem diff -362
+r40        5/10  avg gem diff -117
+r45        4/10  avg gem diff -53
+r50        4/10  avg gem diff -35
+r58        5/10  avg gem diff -121
+r66        2/10  avg gem diff -395
+r75        6/10  avg gem diff 114
+r85        7/10  avg gem diff 358
+TOTAL 56/200
+  00ambush                 r1:Lb r9:Wb r26:Wa r50:La
+  00collision              r1:La r9:La r26:Lb r50:Lb
+  00contest                r2:La r5:Lb r9:La r15:Lb r22:Wa r30:Lb r40:La r50:Lb r66:La r85:Lb
+  00corners                r1:Lb r9:Lb r26:La r50:Wa
+  00eight                  r1:La r9:La r26:Lb r50:Wb
+  00elkring                r1:Lb r3:La r7:Lb r12:La r18:Lb r26:Wa r35:Lb r45:La r58:Wb r75:La
+  00expanse                r1:Lb r9:Wb r26:Wa r50:Wa
+  00fragment               r2:Lb r12:La r30:La r58:Lb
+  00interlock              r2:La r12:Wb r30:Lb r58:Wa
+  00lanes                  r1:La r3:Lb r7:La r12:Lb r18:La r26:Lb r35:La r45:Lb r58:La r75:Lb
+  00monolith               r2:La r5:Lb r9:La r15:Lb r22:La r30:Wb r40:La r50:Lb r66:La r85:Wb
+  00packs                  r2:Lb r12:La r30:La r58:Wb
+  00pilgrimage             r2:La r12:Wb r30:Wb r58:La
+  00quadrants              r2:Lb r12:La r30:Wa r58:Wb
+  00reverse_spiral         r3:La r15:La r35:Lb r66:Lb
+  00rows                   r1:La r3:Lb r7:La r12:Lb r18:La r26:Lb r35:La r45:Lb r58:La r75:Lb
+  00rushbait_v2            r2:Lb r5:La r9:Lb r15:La r22:Lb r30:Wa r40:Lb r50:La r66:Wb r85:Wa
+  00split                  r1:La r3:Lb r7:La r12:Lb r18:La r26:Wb r35:La r45:Lb r58:La r75:Wb
+  00stampede               r3:Lb r15:Lb r35:Wa r66:La
+  00swirl                  r3:La r15:La r35:Lb r66:Lb
+  01big_world              r3:Lb r15:Lb r35:La r66:La
+  01boss_battle            r3:La r15:Wa r35:Lb r66:Lb
+  01broken_curve           r5:La r18:Wb r40:Wb r75:Wa
+  01concentrated_wealth    r5:Wb r18:Wa r40:Wa r75:Wb
+  01corridors              r5:La r18:Wb r40:Wb r75:Wa
+  01elk_arena              r5:Wb r18:La r40:Wa r75:Wb
+  01fracture               r2:Lb r5:La r9:Lb r15:La r22:Lb r30:Wa r40:Wb r50:La r66:Wb r85:Wa
+  01gold_rush              r5:La r18:Lb r40:Lb r75:Wa
+  01hooks                  r7:Lb r22:Lb r45:La r85:Wa
+  01islands                r7:La r22:Wa r45:Lb r85:Wb
+  01shortcut               r7:Lb r22:Lb r45:Wa r85:La
+  01starfish               r7:La r22:Wa r45:Wb r85:Wb
+  01starvation             r7:Lb r22:Lb r45:Wa r85:Wa
+  01the_farm               r2:La r5:Lb r9:La r15:Lb r22:La r30:Lb r40:La r50:Wb r66:La r85:Lb
+  01yellow_brick_road      r1:Lb r3:La r7:Lb r12:La r18:Lb r26:La r35:Lb r45:Wa r58:Wb r75:La

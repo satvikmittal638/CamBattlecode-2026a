@@ -1,0 +1,1105 @@
+{
+  "at": "2026-10-25T12:29:25.222Z",
+  "families": {
+    "3": [
+      "6",
+      "2",
+      "3"
+    ],
+    "4": [
+      "6",
+      "2",
+      "1",
+      "7"
+    ],
+    "5": [
+      "1",
+      "2",
+      "0",
+      "10",
+      "6"
+    ]
+  },
+  "cases": [
+    {
+      "case": "00ambush/a",
+      "previous": "c9f08bf0-9741-416c-ab16-b56a8468584a",
+      "selected": "05df2b56-cf0b-41f0-8f0b-204cd75880d8",
+      "compatible": true,
+      "probeExact": true,
+      "observedOrInferredDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ]
+    },
+    {
+      "case": "00ambush/b",
+      "previous": "9a843db0-7094-4beb-a85c-36a395b364af",
+      "selected": "d5a85122-c078-499f-aae3-4a77eb081100",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ]
+    },
+    {
+      "case": "00collision/a",
+      "previous": "e5373b6b-6efe-4123-9f1f-feeddf318a65",
+      "selected": "e5373b6b-6efe-4123-9f1f-feeddf318a65",
+      "compatible": false,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "6",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "case": "00collision/b",
+      "previous": "2ab924cb-158a-4fc4-bf83-0e5a9f4b50ca",
+      "selected": "2ab924cb-158a-4fc4-bf83-0e5a9f4b50ca",
+      "compatible": false,
+      "probeExact": true,
+      "observedOrInferredDraft": [
+        "6",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "case": "00contest/a",
+      "previous": "bcffa7a4-2139-4c72-92d0-b72363b5f09e",
+      "selected": "4958f48f-e308-4f9d-8ae1-33bec1fc841d",
+      "compatible": true,
+      "probeExact": true,
+      "observedOrInferredDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ]
+    },
+    {
+      "case": "00contest/b",
+      "previous": "5aabd250-2d84-4430-a39a-b0c6468e68e6",
+      "selected": "5e28adb6-2924-4f95-a8a3-167c569c9a1d",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ]
+    },
+    {
+      "case": "00corners/a",
+      "previous": "48302838-e323-4818-b643-078cbbe4cbab",
+      "selected": "48302838-e323-4818-b643-078cbbe4cbab",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ]
+    },
+    {
+      "case": "00corners/b",
+      "previous": "82eb81bb-053a-4780-ac08-43c5c6f1118f",
+      "selected": "7c16fda2-b8b1-4352-8ae4-90d5bc101f66",
+      "compatible": true,
+      "probeExact": true,
+      "observedOrInferredDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ]
+    },
+    {
+      "case": "00eight/a",
+      "previous": "7b567325-f4cb-40e9-a5aa-e44eb6a5c67d",
+      "selected": "d61e31a6-a8c8-44a8-a493-21e4c0462478",
+      "compatible": true,
+      "probeExact": true,
+      "observedOrInferredDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ]
+    },
+    {
+      "case": "00eight/b",
+      "previous": "39ae2741-794b-4ae6-92f4-557a083749e5",
+      "selected": "2959b821-0f8b-4b01-9265-9bf71f49c55c",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ]
+    },
+    {
+      "case": "00elkring/a",
+      "previous": "0d34565e-2783-4315-b7cc-1f27fc6a7cdb",
+      "selected": "23b971a7-d028-4ec4-9855-539097f17233",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ]
+    },
+    {
+      "case": "00elkring/b",
+      "previous": "bfd62699-bccf-425a-b88f-c1e95badd174",
+      "selected": "6918ceac-2f7b-413a-bdfe-b251aafdd04d",
+      "compatible": true,
+      "probeExact": true,
+      "observedOrInferredDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ]
+    },
+    {
+      "case": "00expanse/a",
+      "previous": "75a4869c-e4a8-4b34-8b54-7b7ef195ea5f",
+      "selected": "2ce84cdc-0460-45c3-8bd3-c8c43b6a6467",
+      "compatible": true,
+      "probeExact": true,
+      "observedOrInferredDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ]
+    },
+    {
+      "case": "00expanse/b",
+      "previous": "8047a9cd-61f8-4df9-9a11-8de93a2e5243",
+      "selected": "03a63d81-316b-4895-8996-d376c1fd7b79",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ]
+    },
+    {
+      "case": "00fragment/a",
+      "previous": "498707ba-f6e4-447d-bcc2-c7f8ab87eae2",
+      "selected": "f5755d66-0baa-4884-8e49-a618cc5f1dc3",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "6",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "case": "00fragment/b",
+      "previous": "eb7ac2e6-7452-444f-bebb-66021cea7cf1",
+      "selected": "bbf5c4ce-c70f-47e8-9324-f1c1eebb0f87",
+      "compatible": true,
+      "probeExact": true,
+      "observedOrInferredDraft": [
+        "6",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "case": "00gem_fields/a",
+      "previous": "dbcd82af-31e8-406f-8390-4327a63c33e3",
+      "selected": "ee953365-ae83-48b9-8066-a6c544b65312",
+      "compatible": true,
+      "probeExact": true,
+      "observedOrInferredDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ]
+    },
+    {
+      "case": "00gem_fields/b",
+      "previous": "b7330ad4-cc74-48c2-93d4-4fc1ed0b11da",
+      "selected": "6a9c4514-ee1d-4a72-8edb-68e80e8fd756",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ]
+    },
+    {
+      "case": "00gemfight/a",
+      "previous": "3e2e2029-30b1-4cae-8d60-82f8ae69fb1f",
+      "selected": "fbd9bfc6-35b1-4d17-a64b-3bea458b71a0",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "6",
+        "2",
+        "1",
+        "7"
+      ]
+    },
+    {
+      "case": "00gemfight/b",
+      "previous": "c8f93444-d8db-47b2-8410-fb8581edf372",
+      "selected": "61d211f7-7a5f-408d-a4e1-d758a5b3d269",
+      "compatible": true,
+      "probeExact": true,
+      "observedOrInferredDraft": [
+        "6",
+        "2",
+        "1",
+        "7"
+      ]
+    },
+    {
+      "case": "00great_wall/a",
+      "previous": "d444bf0a-dae5-4697-828e-d17e4d51f6f5",
+      "selected": "8189fb23-1ff7-4385-946a-9a081779f25e",
+      "compatible": true,
+      "probeExact": true,
+      "observedOrInferredDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ]
+    },
+    {
+      "case": "00great_wall/b",
+      "previous": "7d51cbe0-d034-4001-b86a-da9c8ae9ebf6",
+      "selected": "cbadd82e-87e2-4e66-ab28-8dff9131169c",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ]
+    },
+    {
+      "case": "00interlock/a",
+      "previous": "8cbd746f-713b-4239-aac5-6726ea254d30",
+      "selected": "f5f91df3-d498-443e-b8fd-8b7babdd60b4",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "6",
+        "2",
+        "1",
+        "7"
+      ]
+    },
+    {
+      "case": "00interlock/b",
+      "previous": "5a6123cb-3841-4f60-9120-7b0f32172009",
+      "selected": "fb11680d-dc6a-438c-b798-401ca16134c2",
+      "compatible": true,
+      "probeExact": true,
+      "observedOrInferredDraft": [
+        "6",
+        "2",
+        "1",
+        "7"
+      ]
+    },
+    {
+      "case": "00lanes/a",
+      "previous": "afbedd31-e22e-4328-a8d8-4d3f7a26c051",
+      "selected": "8327937f-ba5a-4ba8-8087-a0bf9d63e783",
+      "compatible": true,
+      "probeExact": true,
+      "observedOrInferredDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ]
+    },
+    {
+      "case": "00lanes/b",
+      "previous": "b3a3d1f8-cc6d-4884-b2b3-73b5a1a87ed5",
+      "selected": "4726c8c2-21b1-4ebb-87e1-971d38496a48",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ]
+    },
+    {
+      "case": "00lost_world/a",
+      "previous": "83b19ceb-6bed-448c-8e38-a065ef1cbfe6",
+      "selected": "49068b73-30a7-482c-ad18-8a0252a8ea8f",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ]
+    },
+    {
+      "case": "00lost_world/b",
+      "previous": "389abc66-b139-4b25-8214-d2edc5f1687e",
+      "selected": "17d04d84-2b93-45c5-9d4e-670394104888",
+      "compatible": true,
+      "probeExact": true,
+      "observedOrInferredDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ]
+    },
+    {
+      "case": "00monolith/a",
+      "previous": "dfa1cf38-381c-4e1d-9a34-bf36bc1dd19c",
+      "selected": "87ab9489-fd9f-479d-85de-09f38b0d1874",
+      "compatible": true,
+      "probeExact": true,
+      "observedOrInferredDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ]
+    },
+    {
+      "case": "00monolith/b",
+      "previous": "758213dc-44ed-46e2-bb63-2e55df43b93b",
+      "selected": "99680a28-bd3d-44d3-a51d-37ea97a8cb4e",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ]
+    },
+    {
+      "case": "00packs/a",
+      "previous": "09569d03-8d91-4e76-b7f3-f2ecd410906e",
+      "selected": "f2dbd95a-52b2-409e-98b9-74b4a8f5c0e7",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "6",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "case": "00packs/b",
+      "previous": "0d60e742-77ac-47f9-909f-e5ca1f44da9e",
+      "selected": "9aa1e98c-2756-4857-8136-6f0a87d28de1",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "6",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "case": "00pilgrimage/a",
+      "previous": "f4db1abf-4288-4eba-bb18-ea19fe258191",
+      "selected": "6b05220c-f4e4-419d-98bb-335874e8ce34",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ]
+    },
+    {
+      "case": "00pilgrimage/b",
+      "previous": "86726cdf-64f2-413c-b762-685a264ca23e",
+      "selected": "f7c3a2fa-bcd7-41db-a510-c36b64f70f77",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ]
+    },
+    {
+      "case": "00quadrants/a",
+      "previous": "4cba89b1-4b5b-4135-a1dc-bae2c06f5525",
+      "selected": "e5b7f6d4-a2d8-4bdf-be08-704831e63352",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ]
+    },
+    {
+      "case": "00quadrants/b",
+      "previous": "db8e5512-fe8f-4d75-abfb-fd30ad97acf3",
+      "selected": "84e4e30b-c8da-4e78-9e0b-c996c009b076",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ]
+    },
+    {
+      "case": "00reverse_spiral/a",
+      "previous": "0f7f5a8b-a9bd-4eff-aea3-cca79e916c6e",
+      "selected": "98fcd55b-6900-47ec-8a81-fd416c431a58",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "6",
+        "2",
+        "1",
+        "7"
+      ]
+    },
+    {
+      "case": "00reverse_spiral/b",
+      "previous": "e5254438-f173-484b-b06b-2ee5e4d93f3a",
+      "selected": "55c99260-7dce-415b-a36e-ab4902b5ba13",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "6",
+        "2",
+        "1",
+        "7"
+      ]
+    },
+    {
+      "case": "00road_of_riches/a",
+      "previous": "ad46ad02-de6b-4fb8-9659-4cef64870b13",
+      "selected": "e3297aa4-048d-40b1-82f5-fceb2d16b2e6",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ]
+    },
+    {
+      "case": "00road_of_riches/b",
+      "previous": "2a4f954b-597c-423a-91fa-783eb5493816",
+      "selected": "bde733c9-0faa-4d00-b10d-3211cbe1d943",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ]
+    },
+    {
+      "case": "00rows/a",
+      "previous": "1ea426c5-a2dd-4a08-a824-b515dfb2591e",
+      "selected": "47a70c19-0f80-48a9-b8af-e83aa42597ca",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "6",
+        "2",
+        "1",
+        "7"
+      ]
+    },
+    {
+      "case": "00rows/b",
+      "previous": "d1f0fd71-61df-4073-b954-8f3ea610131a",
+      "selected": "1e68868a-7a85-4ba4-b787-1a4dbab3c79a",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "6",
+        "2",
+        "1",
+        "7"
+      ]
+    },
+    {
+      "case": "00rushbait_v2/a",
+      "previous": "7b319541-1f46-4ae5-9c9e-b4cca35c5b0d",
+      "selected": "d35c2ea2-a1bb-4b21-b398-f3ad3c2d901e",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "6",
+        "2",
+        "1",
+        "7"
+      ]
+    },
+    {
+      "case": "00rushbait_v2/b",
+      "previous": "b5e695ba-4d9e-4956-9dd2-f20ff8de3186",
+      "selected": "8578aea0-2ec7-4d4f-ae56-ebae111fb428",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "6",
+        "2",
+        "1",
+        "7"
+      ]
+    },
+    {
+      "case": "00split/a",
+      "previous": "466ef5a8-3e67-450f-bbc5-de6b19ce7c3e",
+      "selected": "3c387dcb-a44d-490c-a451-597c74234e82",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ]
+    },
+    {
+      "case": "00split/b",
+      "previous": "c44467c6-2276-474d-9e58-bfae6693b7d6",
+      "selected": "eb3eed1a-36d3-4725-9c0b-f6932a5084c9",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ]
+    },
+    {
+      "case": "00stampede/a",
+      "previous": "94dc49f6-c7b8-444e-b6c5-1a595c898664",
+      "selected": "c7f31efb-0581-4c82-8f23-38ea0be1584a",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ]
+    },
+    {
+      "case": "00stampede/b",
+      "previous": "d1de4778-cccb-4ee8-b57e-da57e9e2a31f",
+      "selected": "6f385f5f-8175-4115-a51b-1cf939e9f98a",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ]
+    },
+    {
+      "case": "00swirl/a",
+      "previous": "b7928490-fc09-4232-84a4-fd13a488d5f8",
+      "selected": "5804e14b-10a6-4942-a788-e40d8d82b284",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "6",
+        "2",
+        "1",
+        "7"
+      ]
+    },
+    {
+      "case": "00swirl/b",
+      "previous": "661cbcd6-ea6c-4828-a9b0-9aeb3bde350b",
+      "selected": "bbe825b9-ec98-42be-9802-ec6e906c6c79",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "6",
+        "2",
+        "1",
+        "7"
+      ]
+    },
+    {
+      "case": "01big_world/a",
+      "previous": "b255f55f-0c67-43f9-a99c-df2c587ca8ff",
+      "selected": "92af9985-3d68-489a-bd4d-f5d9fe6dacfd",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ]
+    },
+    {
+      "case": "01big_world/b",
+      "previous": "87230c71-89e0-4d9d-a24f-a42db5980dba",
+      "selected": "18fb2912-6427-4fbb-af75-b7453ef143e1",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ]
+    },
+    {
+      "case": "01boss_battle/a",
+      "previous": "b7a77b20-2e99-4660-aaff-a94200f0600d",
+      "selected": "9b01c20c-2140-48a0-9d15-5d6fa95c7845",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ]
+    },
+    {
+      "case": "01boss_battle/b",
+      "previous": "aca3b3dc-4961-42e2-aebd-37063e97805b",
+      "selected": "7255f100-f66d-4e6d-b86e-28d893f59a2e",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ]
+    },
+    {
+      "case": "01broken_curve/a",
+      "previous": "569e2ff6-6d40-4705-8bfa-dd178a56cc19",
+      "selected": "8696d078-b806-4a3f-bd68-bf57bf7c0a82",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "6",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "case": "01broken_curve/b",
+      "previous": "065a4f04-3525-49e4-951c-bb2cfab0f98b",
+      "selected": "c60a624e-f585-4208-92d1-0faa96ca9415",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "6",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "case": "01concentrated_wealth/a",
+      "previous": "ce427238-6e10-4de6-bc35-3d49a06bdd37",
+      "selected": "58c96edd-da61-40c6-b1ff-c3ac9fe1806f",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ]
+    },
+    {
+      "case": "01concentrated_wealth/b",
+      "previous": "af8b9785-6f9a-47b3-ae8a-880a8a8841e1",
+      "selected": "35d55ec4-0ecf-4645-bd92-33f75f99df27",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ]
+    },
+    {
+      "case": "01corridors/a",
+      "previous": "121985a0-90bd-463e-8ab3-f29f62d0b601",
+      "selected": "76947875-f3a3-4666-a797-159a91dcb93b",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ]
+    },
+    {
+      "case": "01corridors/b",
+      "previous": "c7b593d8-1923-4f91-9653-08de0ca45b46",
+      "selected": "da7823ee-a99e-4f06-b2c4-f57c063a310b",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ]
+    },
+    {
+      "case": "01elk_arena/a",
+      "previous": "f09ec7e6-02ed-4e20-b26a-42e7d1509cc5",
+      "selected": "4aff5182-c27a-443b-aac6-bc0789d36a4d",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ]
+    },
+    {
+      "case": "01elk_arena/b",
+      "previous": "989f49e9-5185-4696-a923-bcf9e5491236",
+      "selected": "955dddf6-c4e2-459a-930b-44addaaa118a",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ]
+    },
+    {
+      "case": "01fracture/a",
+      "previous": "22d9912a-ce1a-4023-9e1a-56f639ae3c26",
+      "selected": "df918a7d-0bd9-4d11-90a3-ea11ccc5c301",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ]
+    },
+    {
+      "case": "01fracture/b",
+      "previous": "73f79a7c-7dd0-4f84-8f39-f9b2468e5f45",
+      "selected": "e1e9e619-1701-4bd6-aa39-b2d9e4cbbe95",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ]
+    },
+    {
+      "case": "01gold_rush/a",
+      "previous": "17239b33-e4be-4ad8-9ffc-80a9b46618da",
+      "selected": "def41428-a928-4d65-962b-d936d4a0cf60",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "6",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "case": "01gold_rush/b",
+      "previous": "f55b6887-0073-40f5-af63-41890e735a7b",
+      "selected": "2d14de49-a932-4d10-a14a-cf50ed609ab0",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "6",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "case": "01hooks/a",
+      "previous": "9729c769-a644-4d24-86c0-4b22b73e5b84",
+      "selected": "e8271be3-4d05-4260-b231-a05b0c434864",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "6",
+        "2",
+        "1",
+        "7"
+      ]
+    },
+    {
+      "case": "01hooks/b",
+      "previous": "45c2d08e-fddf-4fc6-8ec1-ca87babd78b6",
+      "selected": "678fb5ad-71e2-41ef-a12a-1d6e65a238f0",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "6",
+        "2",
+        "1",
+        "7"
+      ]
+    },
+    {
+      "case": "01islands/a",
+      "previous": "14fee132-37df-4ff1-a655-441343eb6723",
+      "selected": "a0e9a230-e9a2-4b88-a7cc-9824077a04d1",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ]
+    },
+    {
+      "case": "01islands/b",
+      "previous": "e67ba7e9-cebe-4dcd-b912-cda2b71396e4",
+      "selected": "89d61fb1-fca5-4d3b-ae7d-4e19e9e736df",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ]
+    },
+    {
+      "case": "01shortcut/a",
+      "previous": "67fc981f-e710-4bf7-be7f-7de53fbf9546",
+      "selected": "6d475092-fd41-4bd3-b463-32f05918bf95",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "6",
+        "2",
+        "1",
+        "7"
+      ]
+    },
+    {
+      "case": "01shortcut/b",
+      "previous": "ad972788-861b-4014-96ce-21c3a768ceab",
+      "selected": "eb81396d-b8ac-4a5f-983b-e003dadb23e9",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "6",
+        "2",
+        "1",
+        "7"
+      ]
+    },
+    {
+      "case": "01starfish/a",
+      "previous": "ab14ec56-8b5e-426c-ba39-7d1dea6486d4",
+      "selected": "7917fa93-a919-4565-a67e-494be840e452",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ]
+    },
+    {
+      "case": "01starfish/b",
+      "previous": "e1d15531-38aa-41e4-83d5-04505d8847a4",
+      "selected": "0e6b6716-7be4-4d68-abf1-8cfbb6d7ef63",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ]
+    },
+    {
+      "case": "01starvation/a",
+      "previous": "851bf77c-bff8-4a67-a0be-89d4c7274b83",
+      "selected": "3cee322e-7e6b-4f1f-9211-c30b305c104a",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ]
+    },
+    {
+      "case": "01starvation/b",
+      "previous": "ba5657bc-48c2-4e3e-8929-c4998b887b25",
+      "selected": "cb657007-80c3-438e-99a4-092fbf106d63",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ]
+    },
+    {
+      "case": "01the_farm/a",
+      "previous": "e458877f-2c90-48c6-b295-af7452e12d33",
+      "selected": "54ff5d36-ecea-4071-8c0c-a8cfac71c9b8",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "6",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "case": "01the_farm/b",
+      "previous": "85199556-460d-44bb-8484-92db671531b2",
+      "selected": "5ba00dcf-91c2-4530-93f5-c1d7813e076a",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "6",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "case": "01yellow_brick_road/a",
+      "previous": "15e3e37d-acc7-4961-9266-10c549b813b7",
+      "selected": "9cd34ad6-3be1-4b18-8a8c-618b0bd8b7a1",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ]
+    },
+    {
+      "case": "01yellow_brick_road/b",
+      "previous": "3dfc415c-5a80-4b89-842b-76c4daa89ccd",
+      "selected": "812dd308-9c53-4645-a526-d2bf3ce7c43d",
+      "compatible": true,
+      "probeExact": false,
+      "observedOrInferredDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ]
+    }
+  ]
+}

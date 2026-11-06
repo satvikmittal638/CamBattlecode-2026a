@@ -1,0 +1,209 @@
+{
+ "P": {
+  "all": {
+   "heavy": {
+    "n": 282938,
+    "die": 8052
+   },
+   "win": {
+    "n": 463453,
+    "die": 2200
+   },
+   "loss": {
+    "n": 366291,
+    "die": 4250
+   }
+  },
+  "idle_enemy_adjacent": {
+   "heavy": {
+    "n": 2951,
+    "die": 636
+   },
+   "win": {
+    "n": 4530,
+    "die": 238
+   },
+   "loss": {
+    "n": 1589,
+    "die": 291
+   }
+  },
+  "lowhp": {
+   "heavy": {
+    "n": 24408,
+    "die": 4492
+   },
+   "win": {
+    "n": 23688,
+    "die": 1726
+   },
+   "loss": {
+    "n": 18445,
+    "die": 2016
+   }
+  },
+  "heart_shield_used": {
+   "heavy": {
+    "n": 712,
+    "die": 175
+   },
+   "win": {
+    "n": 727,
+    "die": 44
+   },
+   "loss": {
+    "n": 510,
+    "die": 28
+   }
+  },
+  "outnumbered_holds": {
+   "heavy": {
+    "n": 792,
+    "die": 371
+   },
+   "win": {
+    "n": 1090,
+    "die": 233
+   },
+   "loss": {
+    "n": 364,
+    "die": 148
+   }
+  },
+  "lowhp_stays_in_camp_range": {
+   "heavy": {
+    "n": 937,
+    "die": 397
+   },
+   "win": {
+    "n": 775,
+    "die": 191
+   },
+   "loss": {
+    "n": 590,
+    "die": 149
+   }
+  },
+  "critical_hp_no_escape": {
+   "heavy": {
+    "n": 890,
+    "die": 519
+   },
+   "win": {
+    "n": 495,
+    "die": 212
+   },
+   "loss": {
+    "n": 375,
+    "die": 195
+   }
+  },
+  "lowhp_ready_slot_unused": {
+   "heavy": {
+    "n": 2735,
+    "die": 1432
+   },
+   "win": {
+    "n": 1928,
+    "die": 689
+   },
+   "loss": {
+    "n": 1734,
+    "die": 736
+   }
+  },
+  "outnumbered_retreats": {
+   "heavy": {
+    "n": 795,
+    "die": 421
+   },
+   "loss": {
+    "n": 434,
+    "die": 196
+   },
+   "win": {
+    "n": 827,
+    "die": 263
+   }
+  },
+  "heart_shield_unused": {
+   "heavy": {
+    "n": 394,
+    "die": 54
+   },
+   "win": {
+    "n": 367,
+    "die": 18
+   },
+   "loss": {
+    "n": 173,
+    "die": 10
+   }
+  },
+  "tribute_under_threat": {
+   "heavy": {
+    "n": 58,
+    "die": 1
+   },
+   "win": {
+    "n": 137,
+    "die": 4
+   },
+   "loss": {
+    "n": 75,
+    "die": 2
+   }
+  },
+  "recall_under_threat": {
+   "win": {
+    "n": 120,
+    "die": 0
+   },
+   "loss": {
+    "n": 26,
+    "die": 0
+   },
+   "heavy": {
+    "n": 5,
+    "die": 0
+   }
+  },
+  "fuel_preempted_near_enemy": {
+   "win": {
+    "n": 1,
+    "die": 0
+   },
+   "loss": {
+    "n": 1,
+    "die": 0
+   }
+  }
+ },
+ "deathCover": {
+  "all": 1613,
+  "lowhp": 1309,
+  "heart_shield_used": 174,
+  "outnumbered_holds": 213,
+  "idle_enemy_adjacent": 509,
+  "critical_hp_no_escape": 400,
+  "lowhp_ready_slot_unused": 602,
+  "outnumbered_retreats": 228,
+  "heart_shield_unused": 46,
+  "lowhp_stays_in_camp_range": 228,
+  "tribute_under_threat": 1
+ },
+ "heavyDeaths": 1613,
+ "examples": {
+  "all": [],
+  "lowhp": [],
+  "heart_shield_used": [],
+  "outnumbered_holds": [],
+  "idle_enemy_adjacent": [],
+  "critical_hp_no_escape": [],
+  "lowhp_ready_slot_unused": [],
+  "outnumbered_retreats": [],
+  "heart_shield_unused": [],
+  "lowhp_stays_in_camp_range": [],
+  "tribute_under_threat": []
+ }
+}

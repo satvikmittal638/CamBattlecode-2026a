@@ -1,0 +1,5 @@
+import fs from 'node:fs';import path from 'node:path';import crypto from 'node:crypto';import {get} from './http.mjs';
+const dir=import.meta.dirname,plan=JSON.parse(fs.readFileSync(dir+'/plan.json')),out=dir+'/source';fs.mkdirSync(out,{recursive:true});
+const {files}=await get('/submissions/'+plan.submissionId+'/files');const hashes=[];
+for(let i=0;i<files.length;i+=5)await Promise.all(files.slice(i,i+5).map(async f=>{const p=path.resolve(out,f.path);if(!p.startsWith(out+'/'))throw Error('Unsafe source path');const d=await get('/submissions/'+plan.submissionId+'/file?path='+encodeURIComponent(f.path));fs.mkdirSync(path.dirname(p),{recursive:true});fs.writeFileSync(p,d.text);const base=path.resolve(dir,'../v54_review/v54',f.path);hashes.push({path:f.path,sha256:crypto.createHash('sha256').update(d.text).digest('hex'),matchesEarlierV54:fs.existsSync(base)&&fs.readFileSync(base,'utf8')===d.text});}));
+fs.writeFileSync(dir+'/source_hashes.json',JSON.stringify(hashes,null,2));console.log('Fetched',files.length,'files; identical to previously reviewed v54:',hashes.every(x=>x.matchesEarlierV54));

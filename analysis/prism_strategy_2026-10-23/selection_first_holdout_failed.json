@@ -1,0 +1,29 @@
+{
+  "bot": "prism-balanced",
+  "reason": "Tied best Prism development wins (35/60), better mean margin and fewer heavy losses than the higher-cap variant. Selection frozen before untouched-map/new-opponent holdout.",
+  "development": {
+    "games": 60,
+    "wins": 35,
+    "meanMargin": 159.95,
+    "heavyLosses": 8,
+    "faults": 0,
+    "errors": 0
+  },
+  "baselineV58": {
+    "games": 60,
+    "wins": 31,
+    "meanMargin": 80.41666666666667,
+    "heavyLosses": 9,
+    "faults": 0,
+    "errors": 0
+  },
+  "baselineV57": {
+    "games": 60,
+    "wins": 40,
+    "meanMargin": 178.13333333333333,
+    "heavyLosses": 8,
+    "faults": 0,
+    "errors": 0
+  },
+  "holdoutCriteria": "Zero faults/errors, complete games, candidate wins and mean margin at least v58; disclose v57 comparison separately. This is a requested Prism experiment, not presumed superiority over v57."
+}

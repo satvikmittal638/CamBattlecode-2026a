@@ -1,0 +1,16 @@
+{
+  "decision_rule": "Repair repeated execution starvation; do not select by small local win changes.",
+  "trigger": "Three consecutive farm budget failures at the same position, no movement/attack and no currently visible enemy",
+  "action": "Execute previous still-valid task once with fresh turn budget; current combat/healing remain earlier in turn",
+  "expiry": "One round; ally capture/respawn/stall validity rechecked",
+  "local_results": {
+    "base": 45,
+    "immediate": 50,
+    "confirmed": 46,
+    "games_each": 72,
+    "faults": 0
+  },
+  "lanes": "All six baseline games zero score; all six confirmed games positive score.",
+  "next_test": "100 matched online games versus prior v128 cohort; fixed teams/maps/sides.",
+  "active_preference": "User updated: make best bot active, supersedes restore125; release lock after testing."
+}

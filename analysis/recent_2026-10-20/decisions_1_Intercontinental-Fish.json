@@ -1,0 +1,41 @@
+{
+ "dir": "replays_recent/1_Intercontinental-Fish",
+ "games": 136,
+ "nextTarget": {
+  "n": 2458,
+  "nearestShare": 0.4,
+  "top2Share": 0.58,
+  "avgDist": 11.45,
+  "avgNearest": 5.45,
+  "avgDelay": 26.48,
+  "extraDist": 5.99,
+  "commonSkips": {
+   "Elk1 -> Wolf1": 176,
+   "Wolf1 -> Wolf1": 168,
+   "Monolith1 -> GoldCluster3": 121,
+   "Wolf1 -> Elk1": 109,
+   "GoldCluster1 -> GoldCluster3": 82,
+   "Elk1+GoldCluster1 -> Elk1+GoldCluster1": 66,
+   "GoldCluster1 -> Wolf1": 59,
+   "Wolf1 -> Wolf2": 53
+  }
+ },
+ "tribute": {
+  "perGame": 16,
+  "gemsAvg": 68.02,
+  "gemsP25": 36,
+  "gemsP50": 54,
+  "gemsP75": 80,
+  "capturesBetween": 1.42,
+  "roundsBetween": 95.9
+ },
+ "recall": {
+  "perGame": 28.2,
+  "hpfAvg": 0.57,
+  "hpfP50": 0.57,
+  "goldAvg": 152.35,
+  "afterTributeShare": 0,
+  "healthyRecallShare": 0.42,
+  "carryingGemsShare": 0.55
+ }
+}

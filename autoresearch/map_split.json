@@ -1,0 +1,431 @@
+{
+ "source": "v121-v129, 492 groups",
+ "threshold": "weak wr<0.40, strong wr>=0.60, n>=5",
+ "weak": [
+  {
+   "map": "00road_of_riches",
+   "local": "00road-of-riches",
+   "n": 31,
+   "wr": 0
+  },
+  {
+   "map": "01yellow_brick_road",
+   "local": "01yellow-brick-road",
+   "n": 14,
+   "wr": 0
+  },
+  {
+   "map": "00lanes",
+   "local": "00lanes",
+   "n": 119,
+   "wr": 0.05042016806722689
+  },
+  {
+   "map": "01big_world",
+   "local": "01big-world",
+   "n": 39,
+   "wr": 0.07692307692307693
+  },
+  {
+   "map": "00monolith",
+   "local": "00monolith",
+   "n": 23,
+   "wr": 0.08695652173913043
+  },
+  {
+   "map": "02treasure_box",
+   "local": "02treasure-box",
+   "n": 110,
+   "wr": 0.13636363636363635
+  },
+  {
+   "map": "00breadcrumbs",
+   "local": "00breadcrumbs",
+   "n": 29,
+   "wr": 0.20689655172413793
+  },
+  {
+   "map": "02tangle",
+   "local": "02tangle",
+   "n": 72,
+   "wr": 0.20833333333333334
+  },
+  {
+   "map": "00swirl",
+   "local": "00swirl",
+   "n": 61,
+   "wr": 0.21311475409836064
+  },
+  {
+   "map": "01hooks",
+   "local": "01hooks",
+   "n": 26,
+   "wr": 0.23076923076923078
+  },
+  {
+   "map": "00dunes",
+   "local": "00dunes",
+   "n": 28,
+   "wr": 0.25
+  },
+  {
+   "map": "01boss_battle",
+   "local": "01boss-battle",
+   "n": 120,
+   "wr": 0.2833333333333333
+  },
+  {
+   "map": "00lost_world",
+   "local": "00lost-world",
+   "n": 21,
+   "wr": 0.2857142857142857
+  },
+  {
+   "map": "02geodes",
+   "local": "02geodes",
+   "n": 24,
+   "wr": 0.2916666666666667
+  },
+  {
+   "map": "00quadrants",
+   "local": "00quadrants",
+   "n": 27,
+   "wr": 0.2962962962962963
+  },
+  {
+   "map": "01shortcut",
+   "local": "01shortcut",
+   "n": 20,
+   "wr": 0.3
+  },
+  {
+   "map": "00great_wall",
+   "local": "00great-wall",
+   "n": 22,
+   "wr": 0.3181818181818182
+  },
+  {
+   "map": "00galaxy",
+   "local": "00galaxy",
+   "n": 30,
+   "wr": 0.3333333333333333
+  },
+  {
+   "map": "00oasis",
+   "local": "00oasis",
+   "n": 39,
+   "wr": 0.358974358974359
+  },
+  {
+   "map": "00collision",
+   "local": "00collision",
+   "n": 25,
+   "wr": 0.36
+  },
+  {
+   "map": "00the_line",
+   "local": "00the-line",
+   "n": 71,
+   "wr": 0.36619718309859156
+  },
+  {
+   "map": "adgato_gemcombat1",
+   "local": "adgato-gemcombat1",
+   "n": 13,
+   "wr": 0.38461538461538464
+  }
+ ],
+ "strong": [
+  {
+   "map": "02gift_wrapping",
+   "local": "02gift-wrapping",
+   "n": 24,
+   "wr": 0.875
+  },
+  {
+   "map": "00eight",
+   "local": "00eight",
+   "n": 14,
+   "wr": 0.8571428571428571
+  },
+  {
+   "map": "00stampede",
+   "local": "00stampede",
+   "n": 32,
+   "wr": 0.84375
+  },
+  {
+   "map": "02the_pond",
+   "local": "02the-pond",
+   "n": 38,
+   "wr": 0.8157894736842105
+  },
+  {
+   "map": "02harvest",
+   "local": "02harvest",
+   "n": 20,
+   "wr": 0.8
+  },
+  {
+   "map": "00expanse",
+   "local": "00expanse",
+   "n": 22,
+   "wr": 0.7727272727272727
+  },
+  {
+   "map": "02guardians",
+   "local": "02guardians",
+   "n": 82,
+   "wr": 0.7439024390243902
+  },
+  {
+   "map": "00gem_fields",
+   "local": "00gem-fields",
+   "n": 25,
+   "wr": 0.72
+  },
+  {
+   "map": "00reverse_spiral",
+   "local": "00reverse-spiral",
+   "n": 32,
+   "wr": 0.71875
+  },
+  {
+   "map": "01starvation",
+   "local": "01starvation",
+   "n": 32,
+   "wr": 0.71875
+  },
+  {
+   "map": "02fields",
+   "local": "02fields",
+   "n": 45,
+   "wr": 0.7111111111111111
+  },
+  {
+   "map": "02arena",
+   "local": "02arena",
+   "n": 16,
+   "wr": 0.6875
+  },
+  {
+   "map": "adgato_gemcombat2",
+   "local": "adgato-gemcombat2",
+   "n": 16,
+   "wr": 0.6875
+  },
+  {
+   "map": "00elkring",
+   "local": "00elkring",
+   "n": 19,
+   "wr": 0.6842105263157895
+  },
+  {
+   "map": "01corridors",
+   "local": "01corridors",
+   "n": 27,
+   "wr": 0.6666666666666666
+  },
+  {
+   "map": "01islands",
+   "local": "01islands",
+   "n": 27,
+   "wr": 0.6666666666666666
+  },
+  {
+   "map": "00interlock",
+   "local": "00interlock",
+   "n": 12,
+   "wr": 0.6666666666666666
+  },
+  {
+   "map": "00rows",
+   "local": "00rows",
+   "n": 22,
+   "wr": 0.6363636363636364
+  },
+  {
+   "map": "00crater",
+   "local": "00crater",
+   "n": 19,
+   "wr": 0.631578947368421
+  },
+  {
+   "map": "00pilgrimage",
+   "local": "00pilgrimage",
+   "n": 34,
+   "wr": 0.6176470588235294
+  },
+  {
+   "map": "00anvil",
+   "local": "00anvil",
+   "n": 38,
+   "wr": 0.6052631578947368
+  },
+  {
+   "map": "00gemfight",
+   "local": "00gemfight",
+   "n": 30,
+   "wr": 0.6
+  },
+  {
+   "map": "00fragment",
+   "local": "00fragment",
+   "n": 25,
+   "wr": 0.6
+  },
+  {
+   "map": "00packs",
+   "local": "00packs",
+   "n": 20,
+   "wr": 0.6
+  },
+  {
+   "map": "02famine",
+   "local": "02famine",
+   "n": 20,
+   "wr": 0.6
+  }
+ ],
+ "middle": [
+  {
+   "map": "01the_farm",
+   "local": "01the-farm",
+   "n": 12,
+   "wr": 0.4166666666666667
+  },
+  {
+   "map": "01broken_curve",
+   "local": "01broken-curve",
+   "n": 38,
+   "wr": 0.42105263157894735
+  },
+  {
+   "map": "02uncharted_lands",
+   "local": "02uncharted-lands",
+   "n": 82,
+   "wr": 0.4268292682926829
+  },
+  {
+   "map": "01fracture",
+   "local": "01fracture",
+   "n": 14,
+   "wr": 0.42857142857142855
+  },
+  {
+   "map": "adgato_gemcombat4",
+   "local": "adgato-gemcombat4",
+   "n": 16,
+   "wr": 0.4375
+  },
+  {
+   "map": "adgato_gemcombat5",
+   "local": "adgato-gemcombat5",
+   "n": 16,
+   "wr": 0.4375
+  },
+  {
+   "map": "00ribs",
+   "local": "00ribs",
+   "n": 20,
+   "wr": 0.45
+  },
+  {
+   "map": "02cuts",
+   "local": "02cuts",
+   "n": 64,
+   "wr": 0.453125
+  },
+  {
+   "map": "02crossing",
+   "local": "02crossing",
+   "n": 22,
+   "wr": 0.45454545454545453
+  },
+  {
+   "map": "00contest",
+   "local": "00contest",
+   "n": 31,
+   "wr": 0.4838709677419355
+  },
+  {
+   "map": "00rushbait_v2",
+   "local": "00rushbait-v2",
+   "n": 28,
+   "wr": 0.5
+  },
+  {
+   "map": "adgato_gemcombat3",
+   "local": "adgato-gemcombat3",
+   "n": 8,
+   "wr": 0.5
+  },
+  {
+   "map": "02stalactites",
+   "local": "02stalactites",
+   "n": 29,
+   "wr": 0.5172413793103449
+  },
+  {
+   "map": "00split",
+   "local": "00split",
+   "n": 21,
+   "wr": 0.5238095238095238
+  },
+  {
+   "map": "00corners",
+   "local": "00corners",
+   "n": 115,
+   "wr": 0.5304347826086957
+  },
+  {
+   "map": "01concentrated_wealth",
+   "local": "01concentrated-wealth",
+   "n": 39,
+   "wr": 0.5384615384615384
+  },
+  {
+   "map": "02the_pack",
+   "local": "02the-pack",
+   "n": 37,
+   "wr": 0.5405405405405406
+  },
+  {
+   "map": "00vault",
+   "local": "00vault",
+   "n": 38,
+   "wr": 0.5526315789473685
+  },
+  {
+   "map": "00quarry",
+   "local": "00quarry",
+   "n": 34,
+   "wr": 0.5588235294117647
+  },
+  {
+   "map": "01gold_rush",
+   "local": "01gold-rush",
+   "n": 23,
+   "wr": 0.5652173913043478
+  },
+  {
+   "map": "00ambush",
+   "local": "00ambush",
+   "n": 24,
+   "wr": 0.5833333333333334
+  },
+  {
+   "map": "01starfish",
+   "local": "01starfish",
+   "n": 17,
+   "wr": 0.5882352941176471
+  },
+  {
+   "map": "01elk_arena",
+   "local": "01elk-arena",
+   "n": 77,
+   "wr": 0.5974025974025974
+  }
+ ],
+ "unclassified": []
+}

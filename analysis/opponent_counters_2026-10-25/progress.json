@@ -1,0 +1,78 @@
+{
+  "order": [
+    "Intercontinental Fish",
+    "Mite",
+    "Claudus Maximus",
+    "Trzy Kwaterki",
+    "Willow Best Girl"
+  ],
+  "stages": [
+    {
+      "target": "Intercontinental Fish",
+      "submissionId": "7d0e0c5c-2634-4b6d-bfb8-7e9a13ccd9c0",
+      "version": 84,
+      "winRate": 0.75,
+      "wins": 60,
+      "games": 80,
+      "mapsWithWin": 38,
+      "mapsTested": 40,
+      "bothSidesWonMaps": 22,
+      "nativeValidated": 80,
+      "nativeErrors": 0,
+      "sourceVerified": true,
+      "objectiveReached": true,
+      "nextTarget": "Mite",
+      "unsolvedMaps": [
+        "00rushbait_v2",
+        "01corridors"
+      ]
+    },
+    {
+      "target": "Mite",
+      "status": "v85 failed 0/15; rebuilding from directly probed live draft families",
+      "targetId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+      "candidate": "mite-atlas-01",
+      "referenceCases": 80,
+      "currentDraftCompatibleReferences": 74,
+      "rankedReferences": 67,
+      "version": 85,
+      "note": "TARGET: Mite | mite01 | 40-map / both-side overfit counter",
+      "sourceVerified": true,
+      "wins": 0,
+      "games": 15,
+      "liveDraftFamilies": {
+        "3": [
+          "6",
+          "2",
+          "3"
+        ],
+        "4": [
+          "6",
+          "2",
+          "1",
+          "7"
+        ],
+        "5": [
+          "1",
+          "2",
+          "0",
+          "10",
+          "6"
+        ]
+      },
+      "nextCandidate": "mite-atlas-02"
+    },
+    {
+      "target": "Claudus Maximus",
+      "status": "pending Mite completion"
+    },
+    {
+      "target": "Trzy Kwaterki",
+      "status": "pending Claudus Maximus completion"
+    },
+    {
+      "target": "Willow Best Girl",
+      "status": "pending Trzy Kwaterki completion"
+    }
+  ]
+}

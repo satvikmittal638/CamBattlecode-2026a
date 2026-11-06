@@ -1,0 +1,1043 @@
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe5d93c2-base
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe5d93c2-base/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/4] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe5d93c2-base/src/boss/bot.cpp.obj
+[2/4] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe5d93c2-base/src/bot.cpp.obj
+[3/4] Linking CXX executable bot.wasm
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/v54-frozen
+v54-frozen is up to date
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/v27
+v27 is up to date
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/mimic-mite
+mimic-mite is up to date
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe5d93c2-jungle
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/dmitt/Library/Caches/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe5d93c2-jungle/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe5d93c2-jungle/src/boss/draft.cpp.obj
+[2/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe5d93c2-jungle/src/boss_main.cpp.obj
+[3/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe5d93c2-jungle/src/main.cpp.obj
+[4/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe5d93c2-jungle/src/draft.cpp.obj
+[5/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe5d93c2-jungle/src/boss/bot.cpp.obj
+[6/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe5d93c2-jungle/src/bot.cpp.obj
+[7/8] Linking CXX executable bot.wasm
+[|] STARTING  fe5d93c2-base vs v54-frozen  00ambush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/00ambush/a.repl26a
+[|] STARTING  v54-frozen vs fe5d93c2-base  00ambush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/00ambush/b.repl26a
+[|] STARTING  fe5d93c2-base vs v54-frozen  00collision
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/00collision/a.repl26a
+[|] STARTING  v54-frozen vs fe5d93c2-base  00collision
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/00collision/b.repl26a
+[|] STARTING  fe5d93c2-base vs v54-frozen  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/00contest/a.repl26a
+[|] STARTING  v54-frozen vs fe5d93c2-base  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/00contest/b.repl26a
+[+] TEAM A WIN (fe5d93c2-base)  fe5d93c2-base vs v54-frozen  00collision  Round 1004/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/00collision/a.repl26a
+[+] TEAM A WIN (v54-frozen)  v54-frozen vs fe5d93c2-base  00collision  Round 1045/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/00collision/b.repl26a
+[|] STARTING  fe5d93c2-base vs v54-frozen  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/00corners/a.repl26a
+[|] STARTING  v54-frozen vs fe5d93c2-base  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/00corners/b.repl26a
+[+] TEAM B WIN (v54-frozen)  fe5d93c2-base vs v54-frozen  00ambush  Round 1283/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/00ambush/a.repl26a
+[+] TEAM B WIN (fe5d93c2-base)  v54-frozen vs fe5d93c2-base  00ambush  Round 1343/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/00ambush/b.repl26a
+[|] STARTING  fe5d93c2-base vs v54-frozen  00eight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/00eight/a.repl26a
+[|] STARTING  v54-frozen vs fe5d93c2-base  00eight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/00eight/b.repl26a
+[+] TEAM A WIN (v54-frozen)  v54-frozen vs fe5d93c2-base  00contest  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/00contest/b.repl26a
+[|] STARTING  fe5d93c2-base vs v54-frozen  00elkring
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/00elkring/a.repl26a
+[+] TEAM A WIN (fe5d93c2-base)  fe5d93c2-base vs v54-frozen  00contest  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/00contest/a.repl26a
+[|] STARTING  v54-frozen vs fe5d93c2-base  00elkring
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/00elkring/b.repl26a
+[+] TEAM A WIN (v54-frozen)  v54-frozen vs fe5d93c2-base  00corners  Round 1169/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/00corners/b.repl26a
+[|] STARTING  fe5d93c2-base vs v54-frozen  00expanse
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/00expanse/a.repl26a
+[+] TEAM A WIN (fe5d93c2-base)  fe5d93c2-base vs v54-frozen  00corners  Round 1197/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/00corners/a.repl26a
+[+] TEAM A WIN (fe5d93c2-base)  fe5d93c2-base vs v54-frozen  00elkring  Round 0903/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/00elkring/a.repl26a
+[+] TEAM A WIN (v54-frozen)  v54-frozen vs fe5d93c2-base  00elkring  Round 0773/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/00elkring/b.repl26a
+[|] STARTING  v54-frozen vs fe5d93c2-base  00expanse
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/00expanse/b.repl26a
+[|] STARTING  fe5d93c2-base vs v54-frozen  00fragment
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/00fragment/a.repl26a
+[|] STARTING  v54-frozen vs fe5d93c2-base  00fragment
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/00fragment/b.repl26a
+[+] TEAM B WIN (v54-frozen)  fe5d93c2-base vs v54-frozen  00eight  Round 1081/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/00eight/a.repl26a
+[|] STARTING  fe5d93c2-base vs v54-frozen  00interlock
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/00interlock/a.repl26a
+[+] TEAM B WIN (fe5d93c2-base)  v54-frozen vs fe5d93c2-base  00eight  Round 1129/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/00eight/b.repl26a
+[|] STARTING  v54-frozen vs fe5d93c2-base  00interlock
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/00interlock/b.repl26a
+[+] TEAM A WIN (fe5d93c2-base)  fe5d93c2-base vs v54-frozen  00fragment  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/00fragment/a.repl26a
+[+] TEAM A WIN (v54-frozen)  v54-frozen vs fe5d93c2-base  00fragment  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/00fragment/b.repl26a
+[|] STARTING  fe5d93c2-base vs v54-frozen  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/00lanes/a.repl26a
+[|] STARTING  v54-frozen vs fe5d93c2-base  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/00lanes/b.repl26a
+[+] TEAM B WIN (v54-frozen)  fe5d93c2-base vs v54-frozen  00expanse  Round 0964/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/00expanse/a.repl26a
+[|] STARTING  fe5d93c2-base vs v54-frozen  00monolith
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/00monolith/a.repl26a
+[+] TEAM B WIN (fe5d93c2-base)  v54-frozen vs fe5d93c2-base  00expanse  Round 0964/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/00expanse/b.repl26a
+[+] TEAM B WIN (fe5d93c2-base)  v54-frozen vs fe5d93c2-base  00interlock  Round 1482/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/00interlock/b.repl26a
+[|] STARTING  v54-frozen vs fe5d93c2-base  00monolith
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/00monolith/b.repl26a
+[|] STARTING  fe5d93c2-base vs v54-frozen  01big-world
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/01big-world/a.repl26a
+[+] TEAM B WIN (v54-frozen)  fe5d93c2-base vs v54-frozen  00interlock  Round 1545/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/00interlock/a.repl26a
+[|] STARTING  v54-frozen vs fe5d93c2-base  01big-world
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/01big-world/b.repl26a
+[+] TEAM B WIN (v54-frozen)  fe5d93c2-base vs v54-frozen  00monolith  Round 1253/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/00monolith/a.repl26a
+[|] STARTING  fe5d93c2-base vs v54-frozen  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/01boss-battle/a.repl26a
+[+] TEAM A WIN (fe5d93c2-base)  fe5d93c2-base vs v54-frozen  00lanes  Round 1139/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/00lanes/a.repl26a
+[|] STARTING  v54-frozen vs fe5d93c2-base  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/01boss-battle/b.repl26a
+[+] TEAM B WIN (fe5d93c2-base)  v54-frozen vs fe5d93c2-base  00lanes  Round 1147/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/00lanes/b.repl26a
+[+] TEAM B WIN (fe5d93c2-base)  v54-frozen vs fe5d93c2-base  00monolith  Round 1235/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/00monolith/b.repl26a
+[|] STARTING  fe5d93c2-base vs v54-frozen  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/01broken-curve/a.repl26a
+[|] STARTING  v54-frozen vs fe5d93c2-base  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/01broken-curve/b.repl26a
+[+] TEAM A WIN (fe5d93c2-base)  fe5d93c2-base vs v54-frozen  01big-world  Round 1437/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/01big-world/a.repl26a
+[|] STARTING  fe5d93c2-base vs v54-frozen  01concentrated-wealth
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/01concentrated-wealth/a.repl26a
+[+] TEAM A WIN (v54-frozen)  v54-frozen vs fe5d93c2-base  01big-world  Round 1437/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/01big-world/b.repl26a
+[|] STARTING  v54-frozen vs fe5d93c2-base  01concentrated-wealth
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/01concentrated-wealth/b.repl26a
+[+] TEAM B WIN (v54-frozen)  fe5d93c2-base vs v54-frozen  01broken-curve  Round 1145/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/01broken-curve/a.repl26a
+[|] STARTING  fe5d93c2-base vs v54-frozen  01corridors
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/01corridors/a.repl26a
+[+] TEAM B WIN (fe5d93c2-base)  v54-frozen vs fe5d93c2-base  01broken-curve  Round 1169/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/01broken-curve/b.repl26a
+[|] STARTING  v54-frozen vs fe5d93c2-base  01corridors
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/01corridors/b.repl26a
+[+] TEAM B WIN (v54-frozen)  fe5d93c2-base vs v54-frozen  01concentrated-wealth  Round 1271/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/01concentrated-wealth/a.repl26a
+[|] STARTING  fe5d93c2-base vs v54-frozen  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/01elk-arena/a.repl26a
+[+] TEAM B WIN (fe5d93c2-base)  v54-frozen vs fe5d93c2-base  01concentrated-wealth  Round 1415/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/01concentrated-wealth/b.repl26a
+[|] STARTING  v54-frozen vs fe5d93c2-base  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/01elk-arena/b.repl26a
+[+] TEAM A WIN (v54-frozen)  v54-frozen vs fe5d93c2-base  01corridors  Round 1729/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/01corridors/b.repl26a
+[|] STARTING  fe5d93c2-base vs v54-frozen  01fracture
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/01fracture/a.repl26a
+[+] TEAM A WIN (fe5d93c2-base)  fe5d93c2-base vs v54-frozen  01boss-battle  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/01boss-battle/a.repl26a
+[+] TEAM B WIN (v54-frozen)  fe5d93c2-base vs v54-frozen  01corridors  Round 1956/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/01corridors/a.repl26a
+[|] STARTING  v54-frozen vs fe5d93c2-base  01fracture
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/01fracture/b.repl26a
+[|] STARTING  fe5d93c2-base vs v54-frozen  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/01gold-rush/a.repl26a
+[+] TEAM A WIN (v54-frozen)  v54-frozen vs fe5d93c2-base  01boss-battle  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/01boss-battle/b.repl26a
+[|] STARTING  v54-frozen vs fe5d93c2-base  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/01gold-rush/b.repl26a
+[+] TEAM A WIN (v54-frozen)  v54-frozen vs fe5d93c2-base  01elk-arena  Round 1523/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/01elk-arena/b.repl26a
+[|] STARTING  fe5d93c2-base vs v54-frozen  01hooks
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/01hooks/a.repl26a
+[+] TEAM A WIN (fe5d93c2-base)  fe5d93c2-base vs v54-frozen  01gold-rush  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/01gold-rush/a.repl26a
+[|] STARTING  v54-frozen vs fe5d93c2-base  01hooks
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/01hooks/b.repl26a
+[+] TEAM A WIN (v54-frozen)  v54-frozen vs fe5d93c2-base  01gold-rush  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/01gold-rush/b.repl26a
+[|] STARTING  fe5d93c2-base vs v54-frozen  01islands
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/01islands/a.repl26a
+[+] TEAM A WIN (fe5d93c2-base)  fe5d93c2-base vs v54-frozen  01elk-arena  Round 1996/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/01elk-arena/a.repl26a
+[|] STARTING  v54-frozen vs fe5d93c2-base  01islands
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/01islands/b.repl26a
+[+] TEAM A WIN (fe5d93c2-base)  fe5d93c2-base vs v54-frozen  01fracture  Round 1333/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/01fracture/a.repl26a
+[|] STARTING  fe5d93c2-base vs v27  00ambush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/00ambush/a.repl26a
+[+] TEAM A WIN (v54-frozen)  v54-frozen vs fe5d93c2-base  01fracture  Round 1333/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/01fracture/b.repl26a
+[|] STARTING  v27 vs fe5d93c2-base  00ambush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/00ambush/b.repl26a
+[+] TEAM B WIN (fe5d93c2-base)  v54-frozen vs fe5d93c2-base  01hooks  Round 1290/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/01hooks/b.repl26a
+[|] STARTING  fe5d93c2-base vs v27  00collision
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/00collision/a.repl26a
+[+] TEAM A WIN (fe5d93c2-base)  fe5d93c2-base vs v54-frozen  01hooks  Round 1702/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/01hooks/a.repl26a
+[|] STARTING  v27 vs fe5d93c2-base  00collision
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/00collision/b.repl26a
+[+] TEAM A WIN (fe5d93c2-base)  fe5d93c2-base vs v54-frozen  01islands  Round 1227/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/01islands/a.repl26a
+[+] TEAM A WIN (v54-frozen)  v54-frozen vs fe5d93c2-base  01islands  Round 1040/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v54-frozen/01islands/b.repl26a
+[|] STARTING  fe5d93c2-base vs v27  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/00contest/a.repl26a
+[|] STARTING  v27 vs fe5d93c2-base  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/00contest/b.repl26a
+[+] TEAM A WIN (fe5d93c2-base)  fe5d93c2-base vs v27  00collision  Round 1166/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/00collision/a.repl26a
+[|] STARTING  fe5d93c2-base vs v27  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/00corners/a.repl26a
+[+] TEAM A WIN (fe5d93c2-base)  fe5d93c2-base vs v27  00ambush  Round 1427/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/00ambush/a.repl26a
+[+] TEAM B WIN (fe5d93c2-base)  v27 vs fe5d93c2-base  00collision  Round 1210/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/00collision/b.repl26a
+[|] STARTING  v27 vs fe5d93c2-base  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/00corners/b.repl26a
+[|] STARTING  fe5d93c2-base vs v27  00eight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/00eight/a.repl26a
+[+] TEAM B WIN (fe5d93c2-base)  v27 vs fe5d93c2-base  00ambush  Round 1304/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/00ambush/b.repl26a
+[|] STARTING  v27 vs fe5d93c2-base  00eight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/00eight/b.repl26a
+[+] TEAM A WIN (fe5d93c2-base)  fe5d93c2-base vs v27  00eight  Round 0993/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/00eight/a.repl26a
+[+] TEAM B WIN (fe5d93c2-base)  v27 vs fe5d93c2-base  00eight  Round 0862/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/00eight/b.repl26a
+[|] STARTING  fe5d93c2-base vs v27  00elkring
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/00elkring/a.repl26a
+[|] STARTING  v27 vs fe5d93c2-base  00elkring
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/00elkring/b.repl26a
+[+] TEAM A WIN (fe5d93c2-base)  fe5d93c2-base vs v27  00corners  Round 0870/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/00corners/a.repl26a
+[+] TEAM B WIN (fe5d93c2-base)  v27 vs fe5d93c2-base  00corners  Round 0851/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/00corners/b.repl26a
+[|] STARTING  fe5d93c2-base vs v27  00expanse
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/00expanse/a.repl26a
+[|] STARTING  v27 vs fe5d93c2-base  00expanse
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/00expanse/b.repl26a
+[+] TEAM A WIN (fe5d93c2-base)  fe5d93c2-base vs v27  00contest  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/00contest/a.repl26a
+[|] STARTING  fe5d93c2-base vs v27  00fragment
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/00fragment/a.repl26a
+[+] TEAM B WIN (fe5d93c2-base)  v27 vs fe5d93c2-base  00contest  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/00contest/b.repl26a
+[|] STARTING  v27 vs fe5d93c2-base  00fragment
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/00fragment/b.repl26a
+[+] TEAM A WIN (fe5d93c2-base)  fe5d93c2-base vs v27  00elkring  Round 0788/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/00elkring/a.repl26a
+[+] TEAM B WIN (fe5d93c2-base)  v27 vs fe5d93c2-base  00elkring  Round 0787/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/00elkring/b.repl26a
+[|] STARTING  fe5d93c2-base vs v27  00interlock
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/00interlock/a.repl26a
+[|] STARTING  v27 vs fe5d93c2-base  00interlock
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/00interlock/b.repl26a
+[+] TEAM A WIN (fe5d93c2-base)  fe5d93c2-base vs v27  00fragment  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/00fragment/a.repl26a
+[|] STARTING  fe5d93c2-base vs v27  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/00lanes/a.repl26a
+[+] TEAM B WIN (fe5d93c2-base)  v27 vs fe5d93c2-base  00fragment  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/00fragment/b.repl26a
+[|] STARTING  v27 vs fe5d93c2-base  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/00lanes/b.repl26a
+[+] TEAM B WIN (fe5d93c2-base)  v27 vs fe5d93c2-base  00expanse  Round 0915/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/00expanse/b.repl26a
+[|] STARTING  fe5d93c2-base vs v27  00monolith
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/00monolith/a.repl26a
+[+] TEAM A WIN (fe5d93c2-base)  fe5d93c2-base vs v27  00expanse  Round 1054/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/00expanse/a.repl26a
+[|] STARTING  v27 vs fe5d93c2-base  00monolith
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/00monolith/b.repl26a
+[+] TEAM B WIN (fe5d93c2-base)  v27 vs fe5d93c2-base  00interlock  Round 1039/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/00interlock/b.repl26a
+[|] STARTING  fe5d93c2-base vs v27  01big-world
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/01big-world/a.repl26a
+[+] TEAM A WIN (fe5d93c2-base)  fe5d93c2-base vs v27  00interlock  Round 1110/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/00interlock/a.repl26a
+[|] STARTING  v27 vs fe5d93c2-base  01big-world
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/01big-world/b.repl26a
+[+] TEAM A WIN (fe5d93c2-base)  fe5d93c2-base vs v27  00monolith  Round 1225/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/00monolith/a.repl26a
+[|] STARTING  fe5d93c2-base vs v27  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/01boss-battle/a.repl26a
+[+] TEAM A WIN (fe5d93c2-base)  fe5d93c2-base vs v27  00lanes  Round 1125/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/00lanes/a.repl26a
+[|] STARTING  v27 vs fe5d93c2-base  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/01boss-battle/b.repl26a
+[+] TEAM B WIN (fe5d93c2-base)  v27 vs fe5d93c2-base  00monolith  Round 1205/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/00monolith/b.repl26a
+[|] STARTING  fe5d93c2-base vs v27  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/01broken-curve/a.repl26a
+[+] TEAM B WIN (fe5d93c2-base)  v27 vs fe5d93c2-base  00lanes  Round 1733/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/00lanes/b.repl26a
+[+] TEAM A WIN (fe5d93c2-base)  fe5d93c2-base vs v27  01broken-curve  Round 1169/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/01broken-curve/a.repl26a
+[|] STARTING  v27 vs fe5d93c2-base  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/01broken-curve/b.repl26a
+[|] STARTING  fe5d93c2-base vs v27  01concentrated-wealth
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/01concentrated-wealth/a.repl26a
+[+] TEAM A WIN (fe5d93c2-base)  fe5d93c2-base vs v27  01big-world  Round 1437/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/01big-world/a.repl26a
+[|] STARTING  v27 vs fe5d93c2-base  01concentrated-wealth
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/01concentrated-wealth/b.repl26a
+[+] TEAM B WIN (fe5d93c2-base)  v27 vs fe5d93c2-base  01big-world  Round 1695/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/01big-world/b.repl26a
+[|] STARTING  fe5d93c2-base vs v27  01corridors
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/01corridors/a.repl26a
+[+] TEAM B WIN (fe5d93c2-base)  v27 vs fe5d93c2-base  01broken-curve  Round 1062/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/01broken-curve/b.repl26a
+[|] STARTING  v27 vs fe5d93c2-base  01corridors
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/01corridors/b.repl26a
+[+] TEAM B WIN (fe5d93c2-base)  v27 vs fe5d93c2-base  01concentrated-wealth  Round 1144/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/01concentrated-wealth/b.repl26a
+[|] STARTING  fe5d93c2-base vs v27  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/01elk-arena/a.repl26a
+[+] TEAM B WIN (fe5d93c2-base)  v27 vs fe5d93c2-base  01boss-battle  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/01boss-battle/b.repl26a
+[|] STARTING  v27 vs fe5d93c2-base  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/01elk-arena/b.repl26a
+[+] TEAM A WIN (fe5d93c2-base)  fe5d93c2-base vs v27  01boss-battle  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/01boss-battle/a.repl26a
+[|] STARTING  fe5d93c2-base vs v27  01fracture
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/01fracture/a.repl26a
+[+] TEAM A WIN (fe5d93c2-base)  fe5d93c2-base vs v27  01concentrated-wealth  Round 1701/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/01concentrated-wealth/a.repl26a
+[|] STARTING  v27 vs fe5d93c2-base  01fracture
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/01fracture/b.repl26a
+[+] TEAM A WIN (fe5d93c2-base)  fe5d93c2-base vs v27  01corridors  Round 1331/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/01corridors/a.repl26a
+[|] STARTING  fe5d93c2-base vs v27  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/01gold-rush/a.repl26a
+[+] TEAM B WIN (fe5d93c2-base)  v27 vs fe5d93c2-base  01corridors  Round 1528/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/01corridors/b.repl26a
+[|] STARTING  v27 vs fe5d93c2-base  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/01gold-rush/b.repl26a
+[+] TEAM B WIN (fe5d93c2-base)  v27 vs fe5d93c2-base  01elk-arena  Round 1233/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/01elk-arena/b.repl26a
+[|] STARTING  fe5d93c2-base vs v27  01hooks
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/01hooks/a.repl26a
+[+] TEAM A WIN (fe5d93c2-base)  fe5d93c2-base vs v27  01elk-arena  Round 1350/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/01elk-arena/a.repl26a
+[|] STARTING  v27 vs fe5d93c2-base  01hooks
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/01hooks/b.repl26a
+[+] TEAM A WIN (fe5d93c2-base)  fe5d93c2-base vs v27  01gold-rush  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/01gold-rush/a.repl26a
+[|] STARTING  fe5d93c2-base vs v27  01islands
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/01islands/a.repl26a
+[+] TEAM A WIN (fe5d93c2-base)  fe5d93c2-base vs v27  01fracture  Round 1177/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/01fracture/a.repl26a
+[|] STARTING  v27 vs fe5d93c2-base  01islands
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/01islands/b.repl26a
+[+] TEAM B WIN (fe5d93c2-base)  v27 vs fe5d93c2-base  01fracture  Round 1233/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/01fracture/b.repl26a
+[|] STARTING  fe5d93c2-base vs mimic-mite  00ambush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/00ambush/a.repl26a
+[+] TEAM B WIN (fe5d93c2-base)  v27 vs fe5d93c2-base  01gold-rush  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/01gold-rush/b.repl26a
+[|] STARTING  mimic-mite vs fe5d93c2-base  00ambush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/00ambush/b.repl26a
+[+] TEAM A WIN (fe5d93c2-base)  fe5d93c2-base vs v27  01hooks  Round 1164/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/01hooks/a.repl26a
+[|] STARTING  fe5d93c2-base vs mimic-mite  00collision
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/00collision/a.repl26a
+[+] TEAM B WIN (fe5d93c2-base)  v27 vs fe5d93c2-base  01hooks  Round 1297/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/01hooks/b.repl26a
+[|] STARTING  mimic-mite vs fe5d93c2-base  00collision
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/00collision/b.repl26a
+[+] TEAM A WIN (fe5d93c2-base)  fe5d93c2-base vs v27  01islands  Round 1004/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/01islands/a.repl26a
+[|] STARTING  fe5d93c2-base vs mimic-mite  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/00contest/a.repl26a
+[+] TEAM B WIN (fe5d93c2-base)  v27 vs fe5d93c2-base  01islands  Round 1044/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/v27/01islands/b.repl26a
+[|] STARTING  mimic-mite vs fe5d93c2-base  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/00contest/b.repl26a
+[+] TEAM A WIN (fe5d93c2-base)  fe5d93c2-base vs mimic-mite  00collision  Round 1163/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/00collision/a.repl26a
+[+] TEAM B WIN (fe5d93c2-base)  mimic-mite vs fe5d93c2-base  00collision  Round 1212/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/00collision/b.repl26a
+[|] STARTING  fe5d93c2-base vs mimic-mite  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/00corners/a.repl26a
+[|] STARTING  mimic-mite vs fe5d93c2-base  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/00corners/b.repl26a
+[+] TEAM A WIN (fe5d93c2-base)  fe5d93c2-base vs mimic-mite  00ambush  Round 1349/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/00ambush/a.repl26a
+[|] STARTING  fe5d93c2-base vs mimic-mite  00eight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/00eight/a.repl26a
+[+] TEAM B WIN (fe5d93c2-base)  mimic-mite vs fe5d93c2-base  00ambush  Round 1313/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/00ambush/b.repl26a
+[|] STARTING  mimic-mite vs fe5d93c2-base  00eight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/00eight/b.repl26a
+[+] TEAM B WIN (fe5d93c2-base)  mimic-mite vs fe5d93c2-base  00contest  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/00contest/b.repl26a
+[|] STARTING  fe5d93c2-base vs mimic-mite  00elkring
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/00elkring/a.repl26a
+[+] TEAM A WIN (fe5d93c2-base)  fe5d93c2-base vs mimic-mite  00contest  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/00contest/a.repl26a
+[+] TEAM A WIN (fe5d93c2-base)  fe5d93c2-base vs mimic-mite  00eight  Round 1044/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/00eight/a.repl26a
+[|] STARTING  mimic-mite vs fe5d93c2-base  00elkring
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/00elkring/b.repl26a
+[|] STARTING  fe5d93c2-base vs mimic-mite  00expanse
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/00expanse/a.repl26a
+[+] TEAM A WIN (fe5d93c2-base)  fe5d93c2-base vs mimic-mite  00corners  Round 0866/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/00corners/a.repl26a
+[|] STARTING  mimic-mite vs fe5d93c2-base  00expanse
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/00expanse/b.repl26a
+[+] TEAM B WIN (fe5d93c2-base)  mimic-mite vs fe5d93c2-base  00corners  Round 1085/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/00corners/b.repl26a
+[|] STARTING  fe5d93c2-base vs mimic-mite  00fragment
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/00fragment/a.repl26a
+[+] TEAM A WIN (fe5d93c2-base)  fe5d93c2-base vs mimic-mite  00elkring  Round 0697/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/00elkring/a.repl26a
+[|] STARTING  mimic-mite vs fe5d93c2-base  00fragment
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/00fragment/b.repl26a
+[+] TEAM B WIN (fe5d93c2-base)  mimic-mite vs fe5d93c2-base  00eight  Round 1048/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/00eight/b.repl26a
+[+] TEAM B WIN (fe5d93c2-base)  mimic-mite vs fe5d93c2-base  00elkring  Round 0749/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/00elkring/b.repl26a
+[|] STARTING  fe5d93c2-base vs mimic-mite  00interlock
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/00interlock/a.repl26a
+[|] STARTING  mimic-mite vs fe5d93c2-base  00interlock
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/00interlock/b.repl26a
+[+] TEAM B WIN (fe5d93c2-base)  mimic-mite vs fe5d93c2-base  00expanse  Round 0903/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/00expanse/b.repl26a
+[+] TEAM A WIN (fe5d93c2-base)  fe5d93c2-base vs mimic-mite  00fragment  Round 1639/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/00fragment/a.repl26a
+[|] STARTING  fe5d93c2-base vs mimic-mite  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/00lanes/a.repl26a
+[|] STARTING  mimic-mite vs fe5d93c2-base  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/00lanes/b.repl26a
+[+] TEAM A WIN (fe5d93c2-base)  fe5d93c2-base vs mimic-mite  00expanse  Round 1057/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/00expanse/a.repl26a
+[+] TEAM B WIN (fe5d93c2-base)  mimic-mite vs fe5d93c2-base  00fragment  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/00fragment/b.repl26a
+[|] STARTING  fe5d93c2-base vs mimic-mite  00monolith
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/00monolith/a.repl26a
+[|] STARTING  mimic-mite vs fe5d93c2-base  00monolith
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/00monolith/b.repl26a
+[+] TEAM A WIN (fe5d93c2-base)  fe5d93c2-base vs mimic-mite  00interlock  Round 1116/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/00interlock/a.repl26a
+[+] TEAM B WIN (fe5d93c2-base)  mimic-mite vs fe5d93c2-base  00interlock  Round 1162/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/00interlock/b.repl26a
+[|] STARTING  fe5d93c2-base vs mimic-mite  01big-world
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/01big-world/a.repl26a
+[|] STARTING  mimic-mite vs fe5d93c2-base  01big-world
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/01big-world/b.repl26a
+[+] TEAM A WIN (fe5d93c2-base)  fe5d93c2-base vs mimic-mite  00monolith  Round 1207/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/00monolith/a.repl26a
+[+] TEAM B WIN (fe5d93c2-base)  mimic-mite vs fe5d93c2-base  00monolith  Round 1206/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/00monolith/b.repl26a
+[|] STARTING  fe5d93c2-base vs mimic-mite  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/01boss-battle/a.repl26a
+[|] STARTING  mimic-mite vs fe5d93c2-base  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/01boss-battle/b.repl26a
+[+] TEAM A WIN (fe5d93c2-base)  fe5d93c2-base vs mimic-mite  00lanes  Round 1133/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/00lanes/a.repl26a
+[+] TEAM B WIN (fe5d93c2-base)  mimic-mite vs fe5d93c2-base  00lanes  Round 1091/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/00lanes/b.repl26a
+[|] STARTING  fe5d93c2-base vs mimic-mite  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/01broken-curve/a.repl26a
+[|] STARTING  mimic-mite vs fe5d93c2-base  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/01broken-curve/b.repl26a
+[+] TEAM A WIN (fe5d93c2-base)  fe5d93c2-base vs mimic-mite  01big-world  Round 1437/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/01big-world/a.repl26a
+[|] STARTING  fe5d93c2-base vs mimic-mite  01concentrated-wealth
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/01concentrated-wealth/a.repl26a
+[+] TEAM B WIN (fe5d93c2-base)  mimic-mite vs fe5d93c2-base  01big-world  Round 1694/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/01big-world/b.repl26a
+[|] STARTING  mimic-mite vs fe5d93c2-base  01concentrated-wealth
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/01concentrated-wealth/b.repl26a
+[+] TEAM B WIN (mimic-mite)  fe5d93c2-base vs mimic-mite  01broken-curve  Round 1064/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/01broken-curve/a.repl26a
+[+] TEAM B WIN (fe5d93c2-base)  mimic-mite vs fe5d93c2-base  01broken-curve  Round 1134/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/01broken-curve/b.repl26a
+[|] STARTING  fe5d93c2-base vs mimic-mite  01corridors
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/01corridors/a.repl26a
+[|] STARTING  mimic-mite vs fe5d93c2-base  01corridors
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/01corridors/b.repl26a
+[+] TEAM B WIN (mimic-mite)  fe5d93c2-base vs mimic-mite  01concentrated-wealth  Round 1487/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/01concentrated-wealth/a.repl26a
+[|] STARTING  fe5d93c2-base vs mimic-mite  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/01elk-arena/a.repl26a
+[+] TEAM B WIN (fe5d93c2-base)  mimic-mite vs fe5d93c2-base  01concentrated-wealth  Round 1311/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/01concentrated-wealth/b.repl26a
+[|] STARTING  mimic-mite vs fe5d93c2-base  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/01elk-arena/b.repl26a
+[+] TEAM A WIN (fe5d93c2-base)  fe5d93c2-base vs mimic-mite  01boss-battle  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/01boss-battle/a.repl26a
+[+] TEAM B WIN (fe5d93c2-base)  mimic-mite vs fe5d93c2-base  01boss-battle  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/01boss-battle/b.repl26a
+[+] TEAM A WIN (fe5d93c2-base)  fe5d93c2-base vs mimic-mite  01corridors  Round 1500/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/01corridors/a.repl26a
+[+] TEAM B WIN (fe5d93c2-base)  mimic-mite vs fe5d93c2-base  01corridors  Round 1403/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/01corridors/b.repl26a
+[|] STARTING  fe5d93c2-base vs mimic-mite  01fracture
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/01fracture/a.repl26a
+[|] STARTING  mimic-mite vs fe5d93c2-base  01fracture
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/01fracture/b.repl26a
+[|] STARTING  fe5d93c2-base vs mimic-mite  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/01gold-rush/a.repl26a
+[|] STARTING  mimic-mite vs fe5d93c2-base  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/01gold-rush/b.repl26a
+[+] TEAM A WIN (fe5d93c2-base)  fe5d93c2-base vs mimic-mite  01elk-arena  Round 1408/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/01elk-arena/a.repl26a
+[|] STARTING  fe5d93c2-base vs mimic-mite  01hooks
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/01hooks/a.repl26a
+[+] TEAM B WIN (fe5d93c2-base)  mimic-mite vs fe5d93c2-base  01elk-arena  Round 1440/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/01elk-arena/b.repl26a
+[|] STARTING  mimic-mite vs fe5d93c2-base  01hooks
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/01hooks/b.repl26a
+[+] TEAM A WIN (mimic-mite)  mimic-mite vs fe5d93c2-base  01gold-rush  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/01gold-rush/b.repl26a
+[+] TEAM A WIN (fe5d93c2-base)  fe5d93c2-base vs mimic-mite  01hooks  Round 1154/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/01hooks/a.repl26a
+[+] TEAM B WIN (fe5d93c2-base)  mimic-mite vs fe5d93c2-base  01hooks  Round 1136/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/01hooks/b.repl26a
+[|] STARTING  fe5d93c2-base vs mimic-mite  01islands
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/01islands/a.repl26a
+[|] STARTING  mimic-mite vs fe5d93c2-base  01islands
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/01islands/b.repl26a
+[|] STARTING  fe5d93c2-jungle vs v54-frozen  00ambush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/00ambush/a.repl26a
+[+] TEAM B WIN (mimic-mite)  fe5d93c2-base vs mimic-mite  01gold-rush  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/01gold-rush/a.repl26a
+[|] STARTING  v54-frozen vs fe5d93c2-jungle  00ambush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/00ambush/b.repl26a
+[+] TEAM A WIN (fe5d93c2-base)  fe5d93c2-base vs mimic-mite  01fracture  Round 1267/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/01fracture/a.repl26a
+[|] STARTING  fe5d93c2-jungle vs v54-frozen  00collision
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/00collision/a.repl26a
+[+] TEAM B WIN (fe5d93c2-base)  mimic-mite vs fe5d93c2-base  01fracture  Round 1415/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/01fracture/b.repl26a
+[|] STARTING  v54-frozen vs fe5d93c2-jungle  00collision
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/00collision/b.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs v54-frozen  00collision  Round 1238/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/00collision/a.repl26a
+[|] STARTING  fe5d93c2-jungle vs v54-frozen  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/00contest/a.repl26a
+[+] TEAM A WIN (v54-frozen)  v54-frozen vs fe5d93c2-jungle  00collision  Round 1355/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/00collision/b.repl26a
+[|] STARTING  v54-frozen vs fe5d93c2-jungle  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/00contest/b.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs v54-frozen  00ambush  Round 1314/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/00ambush/a.repl26a
+[+] TEAM B WIN (fe5d93c2-jungle)  v54-frozen vs fe5d93c2-jungle  00ambush  Round 1268/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/00ambush/b.repl26a
+[|] STARTING  fe5d93c2-jungle vs v54-frozen  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/00corners/a.repl26a
+[|] STARTING  v54-frozen vs fe5d93c2-jungle  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/00corners/b.repl26a
+[+] TEAM A WIN (fe5d93c2-base)  fe5d93c2-base vs mimic-mite  01islands  Round 0962/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/01islands/a.repl26a
+[+] TEAM B WIN (fe5d93c2-base)  mimic-mite vs fe5d93c2-base  01islands  Round 1078/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/base/mimic-mite/01islands/b.repl26a
+[|] STARTING  fe5d93c2-jungle vs v54-frozen  00eight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/00eight/a.repl26a
+[|] STARTING  v54-frozen vs fe5d93c2-jungle  00eight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/00eight/b.repl26a
+[+] TEAM A WIN (v54-frozen)  v54-frozen vs fe5d93c2-jungle  00corners  Round 1005/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/00corners/b.repl26a
+[|] STARTING  fe5d93c2-jungle vs v54-frozen  00elkring
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/00elkring/a.repl26a
+[+] TEAM B WIN (v54-frozen)  fe5d93c2-jungle vs v54-frozen  00corners  Round 1144/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/00corners/a.repl26a
+[|] STARTING  v54-frozen vs fe5d93c2-jungle  00elkring
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/00elkring/b.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs v54-frozen  00contest  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/00contest/a.repl26a
+[|] STARTING  fe5d93c2-jungle vs v54-frozen  00expanse
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/00expanse/a.repl26a
+[+] TEAM A WIN (v54-frozen)  v54-frozen vs fe5d93c2-jungle  00contest  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/00contest/b.repl26a
+[|] STARTING  v54-frozen vs fe5d93c2-jungle  00expanse
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/00expanse/b.repl26a
+[+] TEAM B WIN (v54-frozen)  fe5d93c2-jungle vs v54-frozen  00eight  Round 1048/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/00eight/a.repl26a
+[|] STARTING  fe5d93c2-jungle vs v54-frozen  00fragment
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/00fragment/a.repl26a
+[+] TEAM B WIN (fe5d93c2-jungle)  v54-frozen vs fe5d93c2-jungle  00eight  Round 1134/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/00eight/b.repl26a
+[|] STARTING  v54-frozen vs fe5d93c2-jungle  00fragment
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/00fragment/b.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs v54-frozen  00elkring  Round 0828/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/00elkring/a.repl26a
+[|] STARTING  fe5d93c2-jungle vs v54-frozen  00interlock
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/00interlock/a.repl26a
+[+] TEAM A WIN (v54-frozen)  v54-frozen vs fe5d93c2-jungle  00elkring  Round 0830/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/00elkring/b.repl26a
+[|] STARTING  v54-frozen vs fe5d93c2-jungle  00interlock
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/00interlock/b.repl26a
+[+] TEAM B WIN (v54-frozen)  fe5d93c2-jungle vs v54-frozen  00expanse  Round 0925/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/00expanse/a.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs v54-frozen  00fragment  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/00fragment/a.repl26a
+[|] STARTING  fe5d93c2-jungle vs v54-frozen  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/00lanes/a.repl26a
+[|] STARTING  v54-frozen vs fe5d93c2-jungle  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/00lanes/b.repl26a
+[+] TEAM A WIN (v54-frozen)  v54-frozen vs fe5d93c2-jungle  00fragment  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/00fragment/b.repl26a
+[|] STARTING  fe5d93c2-jungle vs v54-frozen  00monolith
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/00monolith/a.repl26a
+[+] TEAM B WIN (fe5d93c2-jungle)  v54-frozen vs fe5d93c2-jungle  00expanse  Round 1053/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/00expanse/b.repl26a
+[|] STARTING  v54-frozen vs fe5d93c2-jungle  00monolith
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/00monolith/b.repl26a
+[+] TEAM B WIN (fe5d93c2-jungle)  v54-frozen vs fe5d93c2-jungle  00interlock  Round 1330/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/00interlock/b.repl26a
+[|] STARTING  fe5d93c2-jungle vs v54-frozen  01big-world
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/01big-world/a.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs v54-frozen  00interlock  Round 1652/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/00interlock/a.repl26a
+[|] STARTING  v54-frozen vs fe5d93c2-jungle  01big-world
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/01big-world/b.repl26a
+[+] TEAM B WIN (fe5d93c2-jungle)  v54-frozen vs fe5d93c2-jungle  00lanes  Round 1134/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/00lanes/b.repl26a
+[|] STARTING  fe5d93c2-jungle vs v54-frozen  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/01boss-battle/a.repl26a
+[+] TEAM B WIN (v54-frozen)  fe5d93c2-jungle vs v54-frozen  00lanes  Round 1144/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/00lanes/a.repl26a
+[|] STARTING  v54-frozen vs fe5d93c2-jungle  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/01boss-battle/b.repl26a
+[+] TEAM B WIN (v54-frozen)  fe5d93c2-jungle vs v54-frozen  00monolith  Round 1266/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/00monolith/a.repl26a
+[+] TEAM B WIN (fe5d93c2-jungle)  v54-frozen vs fe5d93c2-jungle  00monolith  Round 1318/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/00monolith/b.repl26a
+[|] STARTING  fe5d93c2-jungle vs v54-frozen  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/01broken-curve/a.repl26a
+[|] STARTING  v54-frozen vs fe5d93c2-jungle  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/01broken-curve/b.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs v54-frozen  01broken-curve  Round 1137/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/01broken-curve/a.repl26a
+[+] TEAM A WIN (v54-frozen)  v54-frozen vs fe5d93c2-jungle  01broken-curve  Round 1143/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/01broken-curve/b.repl26a
+[|] STARTING  fe5d93c2-jungle vs v54-frozen  01concentrated-wealth
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/01concentrated-wealth/a.repl26a
+[|] STARTING  v54-frozen vs fe5d93c2-jungle  01concentrated-wealth
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/01concentrated-wealth/b.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs v54-frozen  01big-world  Round 1399/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/01big-world/a.repl26a
+[|] STARTING  fe5d93c2-jungle vs v54-frozen  01corridors
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/01corridors/a.repl26a
+[+] TEAM B WIN (fe5d93c2-jungle)  v54-frozen vs fe5d93c2-jungle  01big-world  Round 1436/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/01big-world/b.repl26a
+[|] STARTING  v54-frozen vs fe5d93c2-jungle  01corridors
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/01corridors/b.repl26a
+[+] TEAM B WIN (v54-frozen)  fe5d93c2-jungle vs v54-frozen  01boss-battle  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/01boss-battle/a.repl26a
+[+] TEAM B WIN (fe5d93c2-jungle)  v54-frozen vs fe5d93c2-jungle  01boss-battle  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/01boss-battle/b.repl26a
+[+] TEAM B WIN (v54-frozen)  fe5d93c2-jungle vs v54-frozen  01concentrated-wealth  Round 1418/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/01concentrated-wealth/a.repl26a
+[+] TEAM B WIN (fe5d93c2-jungle)  v54-frozen vs fe5d93c2-jungle  01concentrated-wealth  Round 1335/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/01concentrated-wealth/b.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs v54-frozen  01corridors  Round 1480/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/01corridors/a.repl26a
+[|] STARTING  fe5d93c2-jungle vs v54-frozen  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/01elk-arena/a.repl26a
+[|] STARTING  v54-frozen vs fe5d93c2-jungle  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/01elk-arena/b.repl26a
+[|] STARTING  fe5d93c2-jungle vs v54-frozen  01fracture
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/01fracture/a.repl26a
+[|] STARTING  v54-frozen vs fe5d93c2-jungle  01fracture
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/01fracture/b.repl26a
+[|] STARTING  fe5d93c2-jungle vs v54-frozen  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/01gold-rush/a.repl26a
+[+] TEAM A WIN (v54-frozen)  v54-frozen vs fe5d93c2-jungle  01corridors  Round 1731/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/01corridors/b.repl26a
+[|] STARTING  v54-frozen vs fe5d93c2-jungle  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/01gold-rush/b.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs v54-frozen  01gold-rush  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/01gold-rush/a.repl26a
+[|] STARTING  fe5d93c2-jungle vs v54-frozen  01hooks
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/01hooks/a.repl26a
+[+] TEAM A WIN (v54-frozen)  v54-frozen vs fe5d93c2-jungle  01gold-rush  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/01gold-rush/b.repl26a
+[|] STARTING  v54-frozen vs fe5d93c2-jungle  01hooks
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/01hooks/b.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs v54-frozen  01elk-arena  Round 1422/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/01elk-arena/a.repl26a
+[|] STARTING  fe5d93c2-jungle vs v54-frozen  01islands
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/01islands/a.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs v54-frozen  01fracture  Round 1342/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/01fracture/a.repl26a
+[|] STARTING  v54-frozen vs fe5d93c2-jungle  01islands
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/01islands/b.repl26a
+[+] TEAM A WIN (v54-frozen)  v54-frozen vs fe5d93c2-jungle  01elk-arena  Round 1505/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/01elk-arena/b.repl26a
+[|] STARTING  fe5d93c2-jungle vs v27  00ambush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/00ambush/a.repl26a
+[+] TEAM A WIN (v54-frozen)  v54-frozen vs fe5d93c2-jungle  01fracture  Round 1331/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/01fracture/b.repl26a
+[|] STARTING  v27 vs fe5d93c2-jungle  00ambush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/00ambush/b.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs v54-frozen  01hooks  Round 1430/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/01hooks/a.repl26a
+[+] TEAM B WIN (fe5d93c2-jungle)  v54-frozen vs fe5d93c2-jungle  01hooks  Round 1275/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/01hooks/b.repl26a
+[|] STARTING  fe5d93c2-jungle vs v27  00collision
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/00collision/a.repl26a
+[|] STARTING  v27 vs fe5d93c2-jungle  00collision
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/00collision/b.repl26a
+[+] TEAM B WIN (v54-frozen)  fe5d93c2-jungle vs v54-frozen  01islands  Round 1007/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/01islands/a.repl26a
+[|] STARTING  fe5d93c2-jungle vs v27  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/00contest/a.repl26a
+[+] TEAM A WIN (v54-frozen)  v54-frozen vs fe5d93c2-jungle  01islands  Round 1001/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v54-frozen/01islands/b.repl26a
+[|] STARTING  v27 vs fe5d93c2-jungle  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/00contest/b.repl26a
+[+] TEAM B WIN (fe5d93c2-jungle)  v27 vs fe5d93c2-jungle  00ambush  Round 1269/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/00ambush/b.repl26a
+[|] STARTING  fe5d93c2-jungle vs v27  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/00corners/a.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs v27  00ambush  Round 1480/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/00ambush/a.repl26a
+[|] STARTING  v27 vs fe5d93c2-jungle  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/00corners/b.repl26a
+[+] TEAM B WIN (fe5d93c2-jungle)  v27 vs fe5d93c2-jungle  00collision  Round 1077/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/00collision/b.repl26a
+[|] STARTING  fe5d93c2-jungle vs v27  00eight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/00eight/a.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs v27  00collision  Round 1316/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/00collision/a.repl26a
+[|] STARTING  v27 vs fe5d93c2-jungle  00eight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/00eight/b.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs v27  00contest  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/00contest/a.repl26a
+[|] STARTING  fe5d93c2-jungle vs v27  00elkring
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/00elkring/a.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs v27  00eight  Round 0908/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/00eight/a.repl26a
+[|] STARTING  v27 vs fe5d93c2-jungle  00elkring
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/00elkring/b.repl26a
+[+] TEAM B WIN (fe5d93c2-jungle)  v27 vs fe5d93c2-jungle  00contest  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/00contest/b.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs v27  00corners  Round 0923/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/00corners/a.repl26a
+[|] STARTING  fe5d93c2-jungle vs v27  00expanse
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/00expanse/a.repl26a
+[|] STARTING  v27 vs fe5d93c2-jungle  00expanse
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/00expanse/b.repl26a
+[+] TEAM B WIN (fe5d93c2-jungle)  v27 vs fe5d93c2-jungle  00eight  Round 0907/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/00eight/b.repl26a
+[|] STARTING  fe5d93c2-jungle vs v27  00fragment
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/00fragment/a.repl26a
+[+] TEAM B WIN (fe5d93c2-jungle)  v27 vs fe5d93c2-jungle  00corners  Round 0955/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/00corners/b.repl26a
+[|] STARTING  v27 vs fe5d93c2-jungle  00fragment
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/00fragment/b.repl26a
+[+] TEAM B WIN (fe5d93c2-jungle)  v27 vs fe5d93c2-jungle  00elkring  Round 0800/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/00elkring/b.repl26a
+[|] STARTING  fe5d93c2-jungle vs v27  00interlock
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/00interlock/a.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs v27  00elkring  Round 0794/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/00elkring/a.repl26a
+[|] STARTING  v27 vs fe5d93c2-jungle  00interlock
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/00interlock/b.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs v27  00fragment  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/00fragment/a.repl26a
+[|] STARTING  fe5d93c2-jungle vs v27  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/00lanes/a.repl26a
+[+] TEAM B WIN (fe5d93c2-jungle)  v27 vs fe5d93c2-jungle  00fragment  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/00fragment/b.repl26a
+[|] STARTING  v27 vs fe5d93c2-jungle  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/00lanes/b.repl26a
+[+] TEAM B WIN (fe5d93c2-jungle)  v27 vs fe5d93c2-jungle  00expanse  Round 0923/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/00expanse/b.repl26a
+[|] STARTING  fe5d93c2-jungle vs v27  00monolith
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/00monolith/a.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs v27  00expanse  Round 1020/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/00expanse/a.repl26a
+[|] STARTING  v27 vs fe5d93c2-jungle  00monolith
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/00monolith/b.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs v27  00interlock  Round 1145/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/00interlock/a.repl26a
+[+] TEAM B WIN (fe5d93c2-jungle)  v27 vs fe5d93c2-jungle  00interlock  Round 1083/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/00interlock/b.repl26a
+[|] STARTING  fe5d93c2-jungle vs v27  01big-world
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/01big-world/a.repl26a
+[|] STARTING  v27 vs fe5d93c2-jungle  01big-world
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/01big-world/b.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs v27  00lanes  Round 1126/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/00lanes/a.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs v27  00monolith  Round 1299/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/00monolith/a.repl26a
+[|] STARTING  fe5d93c2-jungle vs v27  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/01boss-battle/a.repl26a
+[|] STARTING  v27 vs fe5d93c2-jungle  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/01boss-battle/b.repl26a
+[+] TEAM B WIN (fe5d93c2-jungle)  v27 vs fe5d93c2-jungle  00lanes  Round 1133/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/00lanes/b.repl26a
+[|] STARTING  fe5d93c2-jungle vs v27  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/01broken-curve/a.repl26a
+[+] TEAM B WIN (fe5d93c2-jungle)  v27 vs fe5d93c2-jungle  00monolith  Round 1316/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/00monolith/b.repl26a
+[|] STARTING  v27 vs fe5d93c2-jungle  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/01broken-curve/b.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs v27  01big-world  Round 1399/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/01big-world/a.repl26a
+[+] TEAM B WIN (fe5d93c2-jungle)  v27 vs fe5d93c2-jungle  01big-world  Round 1436/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/01big-world/b.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs v27  01broken-curve  Round 1163/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/01broken-curve/a.repl26a
+[+] TEAM B WIN (fe5d93c2-jungle)  v27 vs fe5d93c2-jungle  01broken-curve  Round 1162/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/01broken-curve/b.repl26a
+[|] STARTING  fe5d93c2-jungle vs v27  01concentrated-wealth
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/01concentrated-wealth/a.repl26a
+[|] STARTING  v27 vs fe5d93c2-jungle  01concentrated-wealth
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/01concentrated-wealth/b.repl26a
+[|] STARTING  fe5d93c2-jungle vs v27  01corridors
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/01corridors/a.repl26a
+[|] STARTING  v27 vs fe5d93c2-jungle  01corridors
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/01corridors/b.repl26a
+[+] TEAM B WIN (fe5d93c2-jungle)  v27 vs fe5d93c2-jungle  01boss-battle  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/01boss-battle/b.repl26a
+[|] STARTING  fe5d93c2-jungle vs v27  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/01elk-arena/a.repl26a
+[+] TEAM B WIN (fe5d93c2-jungle)  v27 vs fe5d93c2-jungle  01concentrated-wealth  Round 1163/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/01concentrated-wealth/b.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs v27  01corridors  Round 1380/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/01corridors/a.repl26a
+[|] STARTING  v27 vs fe5d93c2-jungle  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/01elk-arena/b.repl26a
+[|] STARTING  fe5d93c2-jungle vs v27  01fracture
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/01fracture/a.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs v27  01boss-battle  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/01boss-battle/a.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs v27  01concentrated-wealth  Round 1322/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/01concentrated-wealth/a.repl26a
+[+] TEAM B WIN (fe5d93c2-jungle)  v27 vs fe5d93c2-jungle  01corridors  Round 1370/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/01corridors/b.repl26a
+[|] STARTING  v27 vs fe5d93c2-jungle  01fracture
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/01fracture/b.repl26a
+[|] STARTING  fe5d93c2-jungle vs v27  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/01gold-rush/a.repl26a
+[|] STARTING  v27 vs fe5d93c2-jungle  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/01gold-rush/b.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs v27  01gold-rush  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/01gold-rush/a.repl26a
+[+] TEAM B WIN (fe5d93c2-jungle)  v27 vs fe5d93c2-jungle  01gold-rush  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/01gold-rush/b.repl26a
+[|] STARTING  fe5d93c2-jungle vs v27  01hooks
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/01hooks/a.repl26a
+[|] STARTING  v27 vs fe5d93c2-jungle  01hooks
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/01hooks/b.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs v27  01elk-arena  Round 1259/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/01elk-arena/a.repl26a
+[|] STARTING  fe5d93c2-jungle vs v27  01islands
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/01islands/a.repl26a
+[+] TEAM B WIN (fe5d93c2-jungle)  v27 vs fe5d93c2-jungle  01elk-arena  Round 1243/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/01elk-arena/b.repl26a
+[|] STARTING  v27 vs fe5d93c2-jungle  01islands
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/01islands/b.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs v27  01fracture  Round 1338/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/01fracture/a.repl26a
+[+] TEAM B WIN (fe5d93c2-jungle)  v27 vs fe5d93c2-jungle  01fracture  Round 1297/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/01fracture/b.repl26a
+[|] STARTING  fe5d93c2-jungle vs mimic-mite  00ambush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/00ambush/a.repl26a
+[|] STARTING  mimic-mite vs fe5d93c2-jungle  00ambush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/00ambush/b.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs v27  01hooks  Round 1179/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/01hooks/a.repl26a
+[+] TEAM B WIN (fe5d93c2-jungle)  v27 vs fe5d93c2-jungle  01hooks  Round 1300/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/01hooks/b.repl26a
+[|] STARTING  fe5d93c2-jungle vs mimic-mite  00collision
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/00collision/a.repl26a
+[|] STARTING  mimic-mite vs fe5d93c2-jungle  00collision
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/00collision/b.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs v27  01islands  Round 0873/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/01islands/a.repl26a
+[|] STARTING  fe5d93c2-jungle vs mimic-mite  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/00contest/a.repl26a
+[+] TEAM B WIN (fe5d93c2-jungle)  v27 vs fe5d93c2-jungle  01islands  Round 0914/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/v27/01islands/b.repl26a
+[|] STARTING  mimic-mite vs fe5d93c2-jungle  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/00contest/b.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs mimic-mite  00collision  Round 1097/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/00collision/a.repl26a
+[+] TEAM B WIN (fe5d93c2-jungle)  mimic-mite vs fe5d93c2-jungle  00collision  Round 1226/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/00collision/b.repl26a
+[|] STARTING  fe5d93c2-jungle vs mimic-mite  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/00corners/a.repl26a
+[|] STARTING  mimic-mite vs fe5d93c2-jungle  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/00corners/b.repl26a
+[+] TEAM B WIN (fe5d93c2-jungle)  mimic-mite vs fe5d93c2-jungle  00ambush  Round 1232/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/00ambush/b.repl26a
+[|] STARTING  fe5d93c2-jungle vs mimic-mite  00eight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/00eight/a.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs mimic-mite  00ambush  Round 1252/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/00ambush/a.repl26a
+[|] STARTING  mimic-mite vs fe5d93c2-jungle  00eight
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/00eight/b.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs mimic-mite  00contest  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/00contest/a.repl26a
+[+] TEAM B WIN (fe5d93c2-jungle)  mimic-mite vs fe5d93c2-jungle  00contest  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/00contest/b.repl26a
+[|] STARTING  fe5d93c2-jungle vs mimic-mite  00elkring
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/00elkring/a.repl26a
+[|] STARTING  mimic-mite vs fe5d93c2-jungle  00elkring
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/00elkring/b.repl26a
+[+] TEAM B WIN (fe5d93c2-jungle)  mimic-mite vs fe5d93c2-jungle  00corners  Round 0786/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/00corners/b.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs mimic-mite  00eight  Round 1219/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/00eight/a.repl26a
+[+] TEAM B WIN (fe5d93c2-jungle)  mimic-mite vs fe5d93c2-jungle  00eight  Round 1147/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/00eight/b.repl26a
+[|] STARTING  fe5d93c2-jungle vs mimic-mite  00expanse
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/00expanse/a.repl26a
+[|] STARTING  mimic-mite vs fe5d93c2-jungle  00expanse
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/00expanse/b.repl26a
+[|] STARTING  fe5d93c2-jungle vs mimic-mite  00fragment
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/00fragment/a.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs mimic-mite  00corners  Round 1163/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/00corners/a.repl26a
+[|] STARTING  mimic-mite vs fe5d93c2-jungle  00fragment
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/00fragment/b.repl26a
+[+] TEAM B WIN (fe5d93c2-jungle)  mimic-mite vs fe5d93c2-jungle  00elkring  Round 0840/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/00elkring/b.repl26a
+[|] STARTING  fe5d93c2-jungle vs mimic-mite  00interlock
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/00interlock/a.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs mimic-mite  00elkring  Round 0709/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/00elkring/a.repl26a
+[|] STARTING  mimic-mite vs fe5d93c2-jungle  00interlock
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/00interlock/b.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs mimic-mite  00fragment  Round 1728/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/00fragment/a.repl26a
+[|] STARTING  fe5d93c2-jungle vs mimic-mite  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/00lanes/a.repl26a
+[+] TEAM B WIN (fe5d93c2-jungle)  mimic-mite vs fe5d93c2-jungle  00expanse  Round 0973/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/00expanse/b.repl26a
+[|] STARTING  mimic-mite vs fe5d93c2-jungle  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/00lanes/b.repl26a
+[+] TEAM B WIN (fe5d93c2-jungle)  mimic-mite vs fe5d93c2-jungle  00fragment  Round 1969/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/00fragment/b.repl26a
+[|] STARTING  fe5d93c2-jungle vs mimic-mite  00monolith
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/00monolith/a.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs mimic-mite  00expanse  Round 0982/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/00expanse/a.repl26a
+[|] STARTING  mimic-mite vs fe5d93c2-jungle  00monolith
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/00monolith/b.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs mimic-mite  00interlock  Round 1169/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/00interlock/a.repl26a
+[+] TEAM B WIN (fe5d93c2-jungle)  mimic-mite vs fe5d93c2-jungle  00interlock  Round 1060/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/00interlock/b.repl26a
+[|] STARTING  fe5d93c2-jungle vs mimic-mite  01big-world
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/01big-world/a.repl26a
+[|] STARTING  mimic-mite vs fe5d93c2-jungle  01big-world
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/01big-world/b.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs mimic-mite  00monolith  Round 1241/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/00monolith/a.repl26a
+[|] STARTING  fe5d93c2-jungle vs mimic-mite  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/01boss-battle/a.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs mimic-mite  00lanes  Round 1097/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/00lanes/a.repl26a
+[+] TEAM B WIN (fe5d93c2-jungle)  mimic-mite vs fe5d93c2-jungle  00monolith  Round 1263/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/00monolith/b.repl26a
+[|] STARTING  mimic-mite vs fe5d93c2-jungle  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/01boss-battle/b.repl26a
+[|] STARTING  fe5d93c2-jungle vs mimic-mite  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/01broken-curve/a.repl26a
+[+] TEAM B WIN (fe5d93c2-jungle)  mimic-mite vs fe5d93c2-jungle  00lanes  Round 1040/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/00lanes/b.repl26a
+[|] STARTING  mimic-mite vs fe5d93c2-jungle  01broken-curve
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/01broken-curve/b.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs mimic-mite  01big-world  Round 1399/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/01big-world/a.repl26a
+[|] STARTING  fe5d93c2-jungle vs mimic-mite  01concentrated-wealth
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/01concentrated-wealth/a.repl26a
+[+] TEAM B WIN (fe5d93c2-jungle)  mimic-mite vs fe5d93c2-jungle  01big-world  Round 1436/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/01big-world/b.repl26a
+[|] STARTING  mimic-mite vs fe5d93c2-jungle  01concentrated-wealth
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/01concentrated-wealth/b.repl26a
+[+] TEAM B WIN (mimic-mite)  fe5d93c2-jungle vs mimic-mite  01broken-curve  Round 1081/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/01broken-curve/a.repl26a
+[|] STARTING  fe5d93c2-jungle vs mimic-mite  01corridors
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/01corridors/a.repl26a
+[+] TEAM B WIN (fe5d93c2-jungle)  mimic-mite vs fe5d93c2-jungle  01broken-curve  Round 1130/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/01broken-curve/b.repl26a
+[|] STARTING  mimic-mite vs fe5d93c2-jungle  01corridors
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/01corridors/b.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs mimic-mite  01corridors  Round 1481/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/01corridors/a.repl26a
+[|] STARTING  fe5d93c2-jungle vs mimic-mite  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/01elk-arena/a.repl26a
+[+] TEAM B WIN (fe5d93c2-jungle)  mimic-mite vs fe5d93c2-jungle  01concentrated-wealth  Round 1205/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/01concentrated-wealth/b.repl26a
+[|] STARTING  mimic-mite vs fe5d93c2-jungle  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/01elk-arena/b.repl26a
+[+] TEAM B WIN (mimic-mite)  fe5d93c2-jungle vs mimic-mite  01concentrated-wealth  Round 1697/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/01concentrated-wealth/a.repl26a
+[|] STARTING  fe5d93c2-jungle vs mimic-mite  01fracture
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/01fracture/a.repl26a
+[+] TEAM B WIN (fe5d93c2-jungle)  mimic-mite vs fe5d93c2-jungle  01corridors  Round 1344/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/01corridors/b.repl26a
+[|] STARTING  mimic-mite vs fe5d93c2-jungle  01fracture
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/01fracture/b.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs mimic-mite  01boss-battle  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/01boss-battle/a.repl26a
+[|] STARTING  fe5d93c2-jungle vs mimic-mite  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/01gold-rush/a.repl26a
+[+] TEAM B WIN (fe5d93c2-jungle)  mimic-mite vs fe5d93c2-jungle  01boss-battle  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/01boss-battle/b.repl26a
+[|] STARTING  mimic-mite vs fe5d93c2-jungle  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/01gold-rush/b.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs mimic-mite  01elk-arena  Round 1351/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/01elk-arena/a.repl26a
+[|] STARTING  fe5d93c2-jungle vs mimic-mite  01hooks
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/01hooks/a.repl26a
+[+] TEAM B WIN (fe5d93c2-jungle)  mimic-mite vs fe5d93c2-jungle  01elk-arena  Round 1618/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/01elk-arena/b.repl26a
+[|] STARTING  mimic-mite vs fe5d93c2-jungle  01hooks
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/01hooks/b.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs mimic-mite  01gold-rush  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/01gold-rush/a.repl26a
+[|] STARTING  fe5d93c2-jungle vs mimic-mite  01islands
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/01islands/a.repl26a
+[+] TEAM B WIN (fe5d93c2-jungle)  mimic-mite vs fe5d93c2-jungle  01gold-rush  Round 1896/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/01gold-rush/b.repl26a
+[|] STARTING  mimic-mite vs fe5d93c2-jungle  01islands
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/01islands/b.repl26a
+[+] TEAM B WIN (fe5d93c2-jungle)  mimic-mite vs fe5d93c2-jungle  01fracture  Round 1293/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/01fracture/b.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs mimic-mite  01hooks  Round 1191/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/01hooks/a.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs mimic-mite  01fracture  Round 1329/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/01fracture/a.repl26a
+[+] TEAM B WIN (fe5d93c2-jungle)  mimic-mite vs fe5d93c2-jungle  01hooks  Round 1189/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/01hooks/b.repl26a
+[+] TEAM A WIN (fe5d93c2-jungle)  fe5d93c2-jungle vs mimic-mite  01islands  Round 0980/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/01islands/a.repl26a
+[+] TEAM B WIN (fe5d93c2-jungle)  mimic-mite vs fe5d93c2-jungle  01islands  Round 1065/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v55_improvement_2026-10-23/jungle_full/games/jungle/mimic-mite/01islands/b.repl26a
+Finished: 252 replay bundles saved, 0 failed
+injected 0 checks into 0 functions
+injected 0 checks into 0 functions

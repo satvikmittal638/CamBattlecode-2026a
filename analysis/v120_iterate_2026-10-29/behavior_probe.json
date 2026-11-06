@@ -1,0 +1,153 @@
+[
+  {
+    "map": "01boss_battle",
+    "stages": {
+      "opening": 30,
+      "v1-camp-actions": 1675,
+      "low": 292,
+      "v1-spawn-heal": 24,
+      "route-step": 249,
+      "farm": 124,
+      "x-commit": 5,
+      "x-shop-recall": 79,
+      "v1-score-budget": 3,
+      "route": 7,
+      "capture-yield": 9,
+      "iterate-camp-hit": 2,
+      "outmatched-step": 1
+    },
+    "final": {
+      "final": true,
+      "round": 501,
+      "outcome": 0,
+      "submitted": [
+        0,
+        0
+      ]
+    },
+    "errors": 0,
+    "moveTurns": 1241,
+    "attackTurns": 811
+  },
+  {
+    "map": "02treasure_box",
+    "stages": {
+      "opening": 9,
+      "v1-camp-actions": 155,
+      "stunned": 18,
+      "x-commit": 63,
+      "v1-burst-escape": 3,
+      "route": 4,
+      "v1-spawn-heal": 34,
+      "x-melee-parting": 29,
+      "farm": 42,
+      "low": 39,
+      "route-step": 100,
+      "v36-heart-control": 5,
+      "v1-two-turn-fight": 27,
+      "reset": 29,
+      "repair-focus-escape": 20,
+      "fight": 33,
+      "v1-cycle": 71,
+      "v41-affordable-task": 8,
+      "v1-assigned-help": 6,
+      "outmatched-step": 35,
+      "x-recall-guard": 5,
+      "retreat-home": 7,
+      "tribute": 1,
+      "v1-score-budget": 7
+    },
+    "final": {
+      "final": true,
+      "round": 151,
+      "outcome": 0,
+      "submitted": [
+        23,
+        0
+      ]
+    },
+    "errors": 0,
+    "moveTurns": 313,
+    "attackTurns": 149
+  },
+  {
+    "map": "01elk_arena",
+    "stages": {
+      "opening": 10,
+      "v1-camp-actions": 334,
+      "x-commit": 11,
+      "low": 40,
+      "v1-spawn-heal": 5,
+      "reset": 37,
+      "v1-two-turn-fight": 21,
+      "x-melee-parting": 4,
+      "farm": 80,
+      "v1-assigned-help": 7,
+      "repair-focus-escape": 14,
+      "outmatched-step": 12,
+      "v1-score-budget": 1,
+      "v36-heart-control": 1,
+      "route-step": 90,
+      "v41-affordable-task": 2,
+      "route": 15,
+      "fight": 33,
+      "v1-burst-escape": 9,
+      "main": 5,
+      "v1-cycle": 5,
+      "x-shop-recall": 10,
+      "route-blocked": 3,
+      "capture-yield": 1
+    },
+    "final": {
+      "final": true,
+      "round": 151,
+      "outcome": 0,
+      "submitted": [
+        72,
+        0
+      ]
+    },
+    "errors": 0,
+    "moveTurns": 398,
+    "attackTurns": 161
+  },
+  {
+    "map": "02guardians",
+    "stages": {
+      "v1-score-budget": 6,
+      "v1-camp-actions": 705,
+      "route-step": 145,
+      "route": 6,
+      "farm": 71,
+      "v1-two-turn-fight": 24,
+      "reset": 84,
+      "stunned": 7,
+      "v1-burst-escape": 3,
+      "x-melee-parting": 8,
+      "low": 65,
+      "repair-focus-escape": 1,
+      "v1-cycle": 5,
+      "v1-spawn-heal": 12,
+      "retreat-home": 5,
+      "v36-heart-control": 5,
+      "fight": 2,
+      "v1-assigned-help": 2,
+      "x-shop-recall": 30,
+      "iterate-camp-hit": 8,
+      "capture-yield": 4,
+      "route-occupied": 2
+    },
+    "final": {
+      "final": true,
+      "round": 301,
+      "outcome": 0,
+      "submitted": [
+        0,
+        0
+      ]
+    },
+    "errors": 0,
+    "moveTurns": 650,
+    "attackTurns": 377
+  }
+]

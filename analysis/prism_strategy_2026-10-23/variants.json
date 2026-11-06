@@ -1,0 +1,22 @@
+{
+  "prism-v57-control": {
+    "policy": false,
+    "front": false,
+    "roster": false
+  },
+  "prism-roster": {
+    "policy": false,
+    "front": false,
+    "roster": true
+  },
+  "prism-core": {
+    "policy": true,
+    "front": false,
+    "roster": true
+  },
+  "prism-front": {
+    "policy": true,
+    "front": true,
+    "roster": true
+  }
+}

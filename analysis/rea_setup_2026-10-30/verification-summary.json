@@ -1,0 +1,27 @@
+{
+  "reaVersion": "6.8.0",
+  "privateNodeVersion": "22.23.4",
+  "gameNodeVersionUnchanged": "22.6.0",
+  "skillInstalled": true,
+  "fridaVersion": "17.23.2",
+  "mcpRegistrationVerified": true,
+  "mcpTools": 229,
+  "mcpPrompts": 6,
+  "hopper": {
+    "installed": true,
+    "version": "5.19.6-demo",
+    "app": "/Users/dmitt/Applications/Hopper Disassembler.app",
+    "launcher": "/Users/dmitt/Applications/Hopper Disassembler.app/Contents/MacOS/hopper",
+    "sha256": "fbf8e465487df69e62fde866d34c96dff8085e4d4bed1fb0d6513879d3cc5550",
+    "checksumVerified": true,
+    "publisherVerified": true,
+    "publisherTeam": "2AMA2753NF"
+  },
+  "nativeProviderReadinessHealthy": true,
+  "nativeFunctionalTest": "blocked_by_macos_apple_events",
+  "automationApproval": "User explicitly approved Visual Studio Code control of Hopper. Do not request the same approval again.",
+  "automationBlocker": "macOS denies the Apple Event; Visual Studio Code is absent from System Settings > Privacy & Security > Automation. Public tccutil reset of this client followed by retry did not resolve it.",
+  "nextStep": "Restart Visual Studio Code to load the new MCP connection, then retry the approved native check and authorize the macOS prompt if it appears.",
+  "unrelatedCodexSettingsPreserved": true,
+  "browsersUsed": false
+}

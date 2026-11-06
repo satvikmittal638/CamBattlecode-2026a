@@ -1,0 +1,66 @@
+{
+  "control": {
+    "groups": 20,
+    "games": 100,
+    "version": 121,
+    "wins": 41,
+    "matchErrors": 0,
+    "botErrors": 0,
+    "statisticalReplays": 100,
+    "visualReplays": 100,
+    "lossesVisuallyInspected": 59
+  },
+  "candidate": {
+    "groups": 20,
+    "games": 100,
+    "version": 126,
+    "wins": 40,
+    "matchErrors": 0,
+    "botErrors": 0,
+    "statisticalReplays": 100,
+    "visualReplays": 100,
+    "lossesVisuallyInspected": 60
+  },
+  "candidateFrozenSourceFiles": 22,
+  "guardStopped": {
+    "at": "2026-10-29T22:05:34.725Z",
+    "reason": "completion observed in guard log"
+  },
+  "finalRestore": {
+    "at": "2026-10-29T22:14:55.787Z",
+    "active": {
+      "id": "b86f3c88-dbff-4e8a-8c5b-a901cd3e44d9",
+      "version": 125,
+      "note": "cy3: v114 + altar lock + Cassi&Issac draft (6 units)",
+      "fileName": "bot.zip",
+      "language": "cpp",
+      "status": "active",
+      "size": 54732,
+      "uploadedBy": "b641b468-62cf-4880-8ed5-bdef7809b952",
+      "createdAt": "2026-10-29T21:29:15.683Z",
+      "statusAt": "2026-10-29T22:14:52.832Z",
+      "hasLog": true,
+      "active": true
+    },
+    "selected": {
+      "id": "b86f3c88-dbff-4e8a-8c5b-a901cd3e44d9",
+      "version": 125,
+      "note": "cy3: v114 + altar lock + Cassi&Issac draft (6 units)",
+      "fileName": "bot.zip",
+      "language": "cpp",
+      "status": "active",
+      "size": 54732,
+      "uploadedBy": "b641b468-62cf-4880-8ed5-bdef7809b952",
+      "createdAt": "2026-10-29T21:29:15.683Z",
+      "statusAt": "2026-10-29T22:14:52.832Z",
+      "hasLog": true,
+      "active": true
+    },
+    "pinned": true
+  },
+  "lockReleased": {
+    "at": "2026-10-29T22:14:55.790Z",
+    "reason": "one-time v125 restoration after external v127 activation"
+  },
+  "lockExists": false
+}

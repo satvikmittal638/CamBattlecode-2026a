@@ -1,0 +1,42 @@
+r10        0/5  avg gem diff -615
+r24        2/5  avg gem diff -311
+r39        0/5  avg gem diff -452
+r54        0/5  avg gem diff -545
+r69        0/5  avg gem diff -238
+r84        2/5  avg gem diff -233
+r99        1/5  avg gem diff -120
+r114       3/5  avg gem diff -56
+r129       0/5  avg gem diff -375
+r145       4/5  avg gem diff 211
+r159       1/5  avg gem diff -366
+r174       5/5  avg gem diff 429
+r189       3/5  avg gem diff 117
+r205       3/5  avg gem diff 370
+r219       4/5  avg gem diff 323
+r234       3/5  avg gem diff 234
+r249       3/5  avg gem diff 340
+r264       4/5  avg gem diff 672
+r279       4/5  avg gem diff 223
+r295       5/5  avg gem diff 663
+TOTAL 47/100
+  00ambush                 r10:La r69:Lb r129:La r189:Wb r249:Wa
+  00collision              r10:Lb r69:La r129:Lb r189:Wa r264:Wb
+  00contest                r10:La r69:Lb r129:La r205:Lb r264:La
+  00corners                r10:Lb r69:La r145:Lb r205:Wa r264:Wb
+  00eight                  r10:La r84:Lb r145:Wa r205:Wb r264:Wa
+  00elkring                r24:Wb r84:Wa r145:Wb r205:La r264:Wb
+  00expanse                r24:Wa r84:Wb r145:Wa r205:Wb r279:Wa
+  00fragment               r24:Lb r84:La r145:Wb r219:Wa r279:Wb
+  00interlock              r24:La r84:Lb r159:La r219:Wb r279:Wa
+  00lanes                  r24:Lb r99:La r159:Lb r219:La r279:Wb
+  00monolith               r39:La r99:Lb r159:La r219:Wb r279:La
+  01big_world              r39:Lb r99:La r159:Wb r219:Wa r295:Wb
+  01boss_battle            r39:La r99:Wb r159:La r234:Lb r295:Wa
+  01broken_curve           r39:Lb r99:La r174:Wb r234:Wa r295:Wb
+  01concentrated_wealth    r39:La r114:Wb r174:Wa r234:Lb r295:Wa
+  01corridors              r54:Lb r114:Wa r174:Wb r234:Wa r295:Wb
+  01elk_arena              r54:La r114:Lb r174:Wa r234:Wb
+  01fracture               r54:Lb r114:Wa r174:Wb r249:La
+  01gold_rush              r54:La r114:Lb r189:La r249:Wb
+  01hooks                  r54:Lb r129:La r189:Wb r249:Wa
+  01islands                r69:La r129:Lb r189:La r249:Lb

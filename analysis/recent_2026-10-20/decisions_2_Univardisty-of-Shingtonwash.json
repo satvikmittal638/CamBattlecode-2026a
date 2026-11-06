@@ -1,0 +1,41 @@
+{
+ "dir": "replays_recent/2_Univardisty-of-Shingtonwash",
+ "games": 136,
+ "nextTarget": {
+  "n": 2394,
+  "nearestShare": 0.42,
+  "top2Share": 0.6,
+  "avgDist": 12.09,
+  "avgNearest": 6.15,
+  "avgDelay": 23.99,
+  "extraDist": 5.94,
+  "commonSkips": {
+   "Elk1 -> Wolf1": 158,
+   "GoldCluster1 -> Wolf1": 114,
+   "Wolf1 -> Elk1": 104,
+   "Monolith1 -> GoldCluster3": 90,
+   "Wolf1 -> Wolf1": 76,
+   "GoldCluster2 -> Wolf1": 71,
+   "Elk1+GoldCluster1 -> Elk1+GoldCluster1": 67,
+   "GoldCluster1 -> GoldCluster3": 54
+  }
+ },
+ "tribute": {
+  "perGame": 15,
+  "gemsAvg": 76.13,
+  "gemsP25": 36,
+  "gemsP50": 68,
+  "gemsP75": 96,
+  "capturesBetween": 1.24,
+  "roundsBetween": 89.48
+ },
+ "recall": {
+  "perGame": 24.1,
+  "hpfAvg": 0.55,
+  "hpfP50": 0.52,
+  "goldAvg": 86.35,
+  "afterTributeShare": 0.01,
+  "healthyRecallShare": 0.38,
+  "carryingGemsShare": 0.39
+ }
+}

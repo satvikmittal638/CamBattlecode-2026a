@@ -1,0 +1,1562 @@
+[
+  {
+    "case": "00ambush/a",
+    "old": "b96dae9b-4dbf-444c-b280-00fb540793d8",
+    "new": "b96dae9b-4dbf-444c-b280-00fb540793d8",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-24T19:30:19.288Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "9",
+      "3"
+    ]
+  },
+  {
+    "case": "00ambush/b",
+    "old": "d1f44bb2-18e2-4023-9b09-145333d92171",
+    "new": "d1f44bb2-18e2-4023-9b09-145333d92171",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-24T23:04:54.611Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "9",
+      "3"
+    ]
+  },
+  {
+    "case": "00collision/a",
+    "old": "01daadfd-e646-410e-b2a1-dff1e08e8fe5",
+    "new": "f04c751e-d2a5-43f0-8070-4b73a26e3ca0",
+    "changed": true,
+    "kind": "ranked",
+    "at": "2026-10-25T11:20:19.657Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "11",
+      "6"
+    ]
+  },
+  {
+    "case": "00collision/b",
+    "old": "3690fb9f-8ff1-43f1-8554-0e06568d75bc",
+    "new": "3690fb9f-8ff1-43f1-8554-0e06568d75bc",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-25T08:50:08.734Z",
+    "reason": [
+      "Retain a trajectory already reproduced in current live play, or identical until a precisely diagnosed item-sale encoding error.",
+      "Exact sold emblem identities are now preserved; revalidate the resulting bot."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "11",
+      "6"
+    ]
+  },
+  {
+    "case": "00contest/a",
+    "old": "5ea77c40-5023-4e49-8d34-df907b24645f",
+    "new": "5ea77c40-5023-4e49-8d34-df907b24645f",
+    "changed": false,
+    "kind": "unranked",
+    "at": "2026-10-25T10:00:45.623Z",
+    "reason": [
+      "Retain a trajectory already reproduced in current live play, or identical until a precisely diagnosed item-sale encoding error.",
+      "Exact sold emblem identities are now preserved; revalidate the resulting bot."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3",
+      "6"
+    ]
+  },
+  {
+    "case": "00contest/b",
+    "old": "0bdc8a36-7938-4ae0-9321-787934e9f1ee",
+    "new": "0bdc8a36-7938-4ae0-9321-787934e9f1ee",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-25T09:50:07.853Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3",
+      "6"
+    ]
+  },
+  {
+    "case": "00corners/a",
+    "old": "da31b145-6650-4e0d-998a-d5e0ac31503d",
+    "new": "da31b145-6650-4e0d-998a-d5e0ac31503d",
+    "changed": false,
+    "kind": "unranked",
+    "at": "2026-10-25T10:00:45.634Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3",
+      "6"
+    ]
+  },
+  {
+    "case": "00corners/b",
+    "old": "cc140c35-a197-4dff-9262-f46332be611f",
+    "new": "cc140c35-a197-4dff-9262-f46332be611f",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-25T05:20:07.573Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3",
+      "6"
+    ]
+  },
+  {
+    "case": "00eight/a",
+    "old": "f47c73c4-95ee-4790-9022-1d62bac3cd37",
+    "new": "f47c73c4-95ee-4790-9022-1d62bac3cd37",
+    "changed": false,
+    "kind": "unranked",
+    "at": "2026-10-25T10:00:45.646Z",
+    "reason": [
+      "Retain a trajectory already reproduced in current live play, or identical until a precisely diagnosed item-sale encoding error.",
+      "Exact sold emblem identities are now preserved; revalidate the resulting bot."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3",
+      "7"
+    ]
+  },
+  {
+    "case": "00eight/b",
+    "old": "b767e30b-d16b-4310-8615-2251ee240ed2",
+    "new": "a2168549-fbc6-4feb-bcce-b6955f5abae5",
+    "changed": true,
+    "kind": "ranked",
+    "at": "2026-10-25T10:50:07.484Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3",
+      "7"
+    ]
+  },
+  {
+    "case": "00elkring/a",
+    "old": "eabca870-e44a-41c5-bffe-f530ce9fb3ce",
+    "new": "eabca870-e44a-41c5-bffe-f530ce9fb3ce",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-25T05:50:09.985Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3",
+      "6"
+    ]
+  },
+  {
+    "case": "00elkring/b",
+    "old": "18d31085-e84c-42ad-8a91-cc5798d28199",
+    "new": "18d31085-e84c-42ad-8a91-cc5798d28199",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-24T18:50:22.198Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged.",
+      "No winning reference with current Fish draft is available in this corpus. This is a known incompatible provisional fallback and must not be counted as solved."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3",
+      "6"
+    ]
+  },
+  {
+    "case": "00expanse/a",
+    "old": "bcf322c8-acda-4184-848a-3322133509eb",
+    "new": "bcf322c8-acda-4184-848a-3322133509eb",
+    "changed": false,
+    "kind": "unranked",
+    "at": "2026-10-25T10:00:45.664Z",
+    "reason": [
+      "Retain a trajectory already reproduced in current live play, or identical until a precisely diagnosed item-sale encoding error.",
+      "Exact sold emblem identities are now preserved; revalidate the resulting bot."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "9",
+      "3"
+    ]
+  },
+  {
+    "case": "00expanse/b",
+    "old": "869a3c04-283e-4471-b933-25d04f93200d",
+    "new": "869a3c04-283e-4471-b933-25d04f93200d",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-24T11:50:20.577Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "9",
+      "3"
+    ]
+  },
+  {
+    "case": "00fragment/a",
+    "old": "585e847f-81d0-4156-9a43-f47b2eb87804",
+    "new": "585e847f-81d0-4156-9a43-f47b2eb87804",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-25T08:20:08.535Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "11",
+      "6"
+    ]
+  },
+  {
+    "case": "00fragment/b",
+    "old": "ef9a7e36-edd9-4444-97e8-43492e88b808",
+    "new": "ef9a7e36-edd9-4444-97e8-43492e88b808",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-25T07:50:07.897Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "11",
+      "6"
+    ]
+  },
+  {
+    "case": "00gem_fields/a",
+    "old": "2168bd36-749b-45de-94ad-1bb1259a4d68",
+    "new": "2168bd36-749b-45de-94ad-1bb1259a4d68",
+    "changed": false,
+    "kind": "unranked",
+    "at": "2026-10-25T09:30:30.453Z",
+    "reason": [
+      "Retain a trajectory already reproduced in current live play, or identical until a precisely diagnosed item-sale encoding error.",
+      "Exact sold emblem identities are now preserved; revalidate the resulting bot."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3",
+      "6"
+    ]
+  },
+  {
+    "case": "00gem_fields/b",
+    "old": "31d64688-b034-4c05-bc81-155368365f96",
+    "new": "31d64688-b034-4c05-bc81-155368365f96",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-24T10:50:10.582Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged.",
+      "No winning reference with current Fish draft is available in this corpus. This is a known incompatible provisional fallback and must not be counted as solved."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3",
+      "6"
+    ]
+  },
+  {
+    "case": "00gemfight/a",
+    "old": "185b38db-cb9e-4f85-af6b-26196d11ebd2",
+    "new": "185b38db-cb9e-4f85-af6b-26196d11ebd2",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-25T04:20:18.474Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3"
+    ]
+  },
+  {
+    "case": "00gemfight/b",
+    "old": "ec38ca39-37d8-4f73-9bdb-d282b491ec8e",
+    "new": "ec38ca39-37d8-4f73-9bdb-d282b491ec8e",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-24T14:50:10.273Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3"
+    ]
+  },
+  {
+    "case": "00great_wall/a",
+    "old": "0f682c81-4996-49ff-b2bc-2f92fda963cc",
+    "new": "0f682c81-4996-49ff-b2bc-2f92fda963cc",
+    "changed": false,
+    "kind": "unranked",
+    "at": "2026-10-25T08:10:52.764Z",
+    "reason": [
+      "Retain a trajectory already reproduced in current live play, or identical until a precisely diagnosed item-sale encoding error.",
+      "Exact sold emblem identities are now preserved; revalidate the resulting bot."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3",
+      "6"
+    ]
+  },
+  {
+    "case": "00great_wall/b",
+    "old": "05c8da09-ca09-4950-9940-9fa6bc58b02d",
+    "new": "05c8da09-ca09-4950-9940-9fa6bc58b02d",
+    "changed": false,
+    "kind": "unranked",
+    "at": "2026-10-24T19:43:10.086Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3",
+      "6"
+    ]
+  },
+  {
+    "case": "00interlock/a",
+    "old": "3d377114-ab7b-4ebd-ab88-9620f53d3236",
+    "new": "3d377114-ab7b-4ebd-ab88-9620f53d3236",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-24T19:50:12.661Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3"
+    ]
+  },
+  {
+    "case": "00interlock/b",
+    "old": "b7399135-43a4-4f64-9203-123f0878d4d0",
+    "new": "b7399135-43a4-4f64-9203-123f0878d4d0",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-25T05:30:07.831Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3"
+    ]
+  },
+  {
+    "case": "00lanes/a",
+    "old": "f00eddea-82bc-46b2-ad0a-29a544315dc2",
+    "new": "f00eddea-82bc-46b2-ad0a-29a544315dc2",
+    "changed": false,
+    "kind": "unranked",
+    "at": "2026-10-24T20:55:52.814Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3",
+      "6"
+    ]
+  },
+  {
+    "case": "00lanes/b",
+    "old": "f4776c24-ceaa-45e8-8513-2e34a4f847ff",
+    "new": "f4776c24-ceaa-45e8-8513-2e34a4f847ff",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-24T21:40:20.586Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3",
+      "6"
+    ]
+  },
+  {
+    "case": "00lost_world/a",
+    "old": "9603bb2e-b656-41ea-904f-0018c6aff83e",
+    "new": "9603bb2e-b656-41ea-904f-0018c6aff83e",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-25T07:10:08.138Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3",
+      "6"
+    ]
+  },
+  {
+    "case": "00lost_world/b",
+    "old": "26bd4321-795d-49b1-a635-f696b8515c6e",
+    "new": "26bd4321-795d-49b1-a635-f696b8515c6e",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-24T17:50:19.338Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged.",
+      "No winning reference with current Fish draft is available in this corpus. This is a known incompatible provisional fallback and must not be counted as solved."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3",
+      "6"
+    ]
+  },
+  {
+    "case": "00monolith/a",
+    "old": "ac48e51c-0047-4030-baf2-e0e4cb7d1deb",
+    "new": "ac48e51c-0047-4030-baf2-e0e4cb7d1deb",
+    "changed": false,
+    "kind": "unranked",
+    "at": "2026-10-25T04:12:56.802Z",
+    "reason": [
+      "Retain a trajectory already reproduced in current live play, or identical until a precisely diagnosed item-sale encoding error.",
+      "Exact sold emblem identities are now preserved; revalidate the resulting bot."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3",
+      "6"
+    ]
+  },
+  {
+    "case": "00monolith/b",
+    "old": "33008908-9370-4615-af03-7c2d08073c39",
+    "new": "33008908-9370-4615-af03-7c2d08073c39",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-22T21:50:07.721Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged.",
+      "No winning reference with current Fish draft is available in this corpus. This is a known incompatible provisional fallback and must not be counted as solved."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3",
+      "6"
+    ]
+  },
+  {
+    "case": "00packs/a",
+    "old": "c95c01aa-9b8b-44fd-8eba-a97dfd07079d",
+    "new": "c95c01aa-9b8b-44fd-8eba-a97dfd07079d",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-25T06:40:08.044Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "11",
+      "6"
+    ]
+  },
+  {
+    "case": "00packs/b",
+    "old": "e42443d9-53e5-4273-95e3-342df4c4307a",
+    "new": "e42443d9-53e5-4273-95e3-342df4c4307a",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-25T02:00:18.003Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "11",
+      "6"
+    ]
+  },
+  {
+    "case": "00pilgrimage/a",
+    "old": "404e4a0c-d67d-4ba5-82b4-c7bdbaeda793",
+    "new": "57d4d582-da6d-4b0f-a57b-10465f160ad7",
+    "changed": true,
+    "kind": "ranked",
+    "at": "2026-10-25T11:00:08.407Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3",
+      "8"
+    ]
+  },
+  {
+    "case": "00pilgrimage/b",
+    "old": "47fd4a55-47b1-4e8d-8148-00e00bcd4364",
+    "new": "47fd4a55-47b1-4e8d-8148-00e00bcd4364",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-24T13:10:13.530Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged.",
+      "No winning reference with current Fish draft is available in this corpus. This is a known incompatible provisional fallback and must not be counted as solved."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3",
+      "8"
+    ]
+  },
+  {
+    "case": "00quadrants/a",
+    "old": "ecaf79e8-6f83-4d63-ac24-a412290e27a3",
+    "new": "ecaf79e8-6f83-4d63-ac24-a412290e27a3",
+    "changed": false,
+    "kind": "unranked",
+    "at": "2026-10-25T06:05:07.817Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3",
+      "6"
+    ]
+  },
+  {
+    "case": "00quadrants/b",
+    "old": "a62f393d-63ae-424e-a2f3-e6e31ac046bd",
+    "new": "a62f393d-63ae-424e-a2f3-e6e31ac046bd",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-25T06:10:08.612Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3",
+      "6"
+    ]
+  },
+  {
+    "case": "00reverse_spiral/a",
+    "old": "6fb61963-1f4c-431d-8a98-29f249b52ede",
+    "new": "5fbf1465-2221-43b7-80b2-9d4b4a4ef13e",
+    "changed": true,
+    "kind": "ranked",
+    "at": "2026-10-25T11:00:08.408Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3"
+    ]
+  },
+  {
+    "case": "00reverse_spiral/b",
+    "old": "76f7e566-16ab-4ae2-b064-9a2d58c8d447",
+    "new": "76f7e566-16ab-4ae2-b064-9a2d58c8d447",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-24T13:50:20.654Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3"
+    ]
+  },
+  {
+    "case": "00road_of_riches/a",
+    "old": "0bc2c3ba-f0db-4190-a5f4-a1d38bb4b095",
+    "new": "0bc2c3ba-f0db-4190-a5f4-a1d38bb4b095",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-24T04:30:14.551Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "9",
+      "3"
+    ]
+  },
+  {
+    "case": "00road_of_riches/b",
+    "old": "562579df-51c3-42de-817f-6990b26f5912",
+    "new": "562579df-51c3-42de-817f-6990b26f5912",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-25T07:00:09.013Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "9",
+      "3"
+    ]
+  },
+  {
+    "case": "00rows/a",
+    "old": "08f3980f-988d-47b9-8682-971f947f9600",
+    "new": "08f3980f-988d-47b9-8682-971f947f9600",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-25T08:40:07.646Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "9"
+    ]
+  },
+  {
+    "case": "00rows/b",
+    "old": "02eab036-5259-47b4-b738-2eed78688c57",
+    "new": "02eab036-5259-47b4-b738-2eed78688c57",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-25T01:00:11.002Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "9"
+    ]
+  },
+  {
+    "case": "00rushbait_v2/a",
+    "old": "b8e094a1-64a0-412c-9e4b-d2381f3d7b9e",
+    "new": "b8e094a1-64a0-412c-9e4b-d2381f3d7b9e",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-24T00:50:15.135Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3"
+    ]
+  },
+  {
+    "case": "00rushbait_v2/b",
+    "old": "38007640-25e9-40c6-8357-307ee8ed55f9",
+    "new": "38007640-25e9-40c6-8357-307ee8ed55f9",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-24T17:20:08.683Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3"
+    ]
+  },
+  {
+    "case": "00split/a",
+    "old": "47644037-92f1-4cfd-ab20-5df2da9d2722",
+    "new": "47644037-92f1-4cfd-ab20-5df2da9d2722",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-25T07:10:08.138Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3",
+      "6"
+    ]
+  },
+  {
+    "case": "00split/b",
+    "old": "a0f19d57-dbd5-4f92-bd00-6cfe31895006",
+    "new": "227bda3f-7c77-4be0-8571-245e215e8c70",
+    "changed": true,
+    "kind": "ranked",
+    "at": "2026-10-25T10:30:21.598Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3",
+      "6"
+    ]
+  },
+  {
+    "case": "00stampede/a",
+    "old": "626102d8-766d-43fd-a088-2f6368e6277f",
+    "new": "626102d8-766d-43fd-a088-2f6368e6277f",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-25T09:00:08.643Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3",
+      "6"
+    ]
+  },
+  {
+    "case": "00stampede/b",
+    "old": "facd9841-d329-493c-aa65-9a69ebf571c0",
+    "new": "6b70ed72-6636-44b4-acb1-17ef26cc15a8",
+    "changed": true,
+    "kind": "ranked",
+    "at": "2026-10-25T10:30:21.600Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3",
+      "6"
+    ]
+  },
+  {
+    "case": "00swirl/a",
+    "old": "a3f31138-a10b-4161-a380-7bb8875705ee",
+    "new": "a3f31138-a10b-4161-a380-7bb8875705ee",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-25T09:10:09.201Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3"
+    ]
+  },
+  {
+    "case": "00swirl/b",
+    "old": "0913edc8-933b-48f8-bb20-c8f5f0b4133e",
+    "new": "0913edc8-933b-48f8-bb20-c8f5f0b4133e",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-24T19:20:19.937Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3"
+    ]
+  },
+  {
+    "case": "01big_world/a",
+    "old": "67c4e62f-51db-4606-96ca-5741ef0a41c2",
+    "new": "67c4e62f-51db-4606-96ca-5741ef0a41c2",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-25T07:10:08.136Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "9",
+      "3"
+    ]
+  },
+  {
+    "case": "01big_world/b",
+    "old": "0331846a-36b7-4783-9e81-fd4743b4cc4a",
+    "new": "0331846a-36b7-4783-9e81-fd4743b4cc4a",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-24T21:00:25.408Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "9",
+      "3"
+    ]
+  },
+  {
+    "case": "01boss_battle/a",
+    "old": "a73dc6aa-576f-4d05-b33c-115674113f68",
+    "new": "a73dc6aa-576f-4d05-b33c-115674113f68",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-25T09:30:10.930Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3",
+      "6"
+    ]
+  },
+  {
+    "case": "01boss_battle/b",
+    "old": "d5941cf2-e8fb-485e-946c-6c27a80e652d",
+    "new": "d5941cf2-e8fb-485e-946c-6c27a80e652d",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-25T02:30:08.030Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3",
+      "6"
+    ]
+  },
+  {
+    "case": "01broken_curve/a",
+    "old": "45ec628c-e2a2-4cc5-ae24-0dfbb194daff",
+    "new": "45ec628c-e2a2-4cc5-ae24-0dfbb194daff",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-25T04:20:18.475Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "11",
+      "6"
+    ]
+  },
+  {
+    "case": "01broken_curve/b",
+    "old": "6fbaed62-c03c-465a-9f28-4a9e83b21a38",
+    "new": "6fbaed62-c03c-465a-9f28-4a9e83b21a38",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-25T07:00:09.016Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "11",
+      "6"
+    ]
+  },
+  {
+    "case": "01concentrated_wealth/a",
+    "old": "d040c259-8427-4d64-ba17-61497e6e5c42",
+    "new": "d040c259-8427-4d64-ba17-61497e6e5c42",
+    "changed": false,
+    "kind": "unranked",
+    "at": "2026-10-25T05:48:23.401Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3",
+      "8"
+    ]
+  },
+  {
+    "case": "01concentrated_wealth/b",
+    "old": "544d49ed-975a-4ca4-b418-9b0cc092bbc8",
+    "new": "544d49ed-975a-4ca4-b418-9b0cc092bbc8",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-25T09:40:09.337Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3",
+      "8"
+    ]
+  },
+  {
+    "case": "01corridors/a",
+    "old": "ea7bb569-1f2d-4e04-a818-6c39bd79d3ab",
+    "new": "ea7bb569-1f2d-4e04-a818-6c39bd79d3ab",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-24T19:10:12.856Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged.",
+      "No winning reference with current Fish draft is available in this corpus. This is a known incompatible provisional fallback and must not be counted as solved."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3",
+      "7"
+    ]
+  },
+  {
+    "case": "01corridors/b",
+    "old": "555e9ed8-bdb7-465d-a94f-f80a9ba9852e",
+    "new": "555e9ed8-bdb7-465d-a94f-f80a9ba9852e",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-24T18:30:14.909Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged.",
+      "No winning reference with current Fish draft is available in this corpus. This is a known incompatible provisional fallback and must not be counted as solved."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3",
+      "7"
+    ]
+  },
+  {
+    "case": "01elk_arena/a",
+    "old": "5ce9134e-0a38-459e-acd1-2a6395a13fea",
+    "new": "5ce9134e-0a38-459e-acd1-2a6395a13fea",
+    "changed": false,
+    "kind": "unranked",
+    "at": "2026-10-24T23:53:48.321Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3",
+      "6"
+    ]
+  },
+  {
+    "case": "01elk_arena/b",
+    "old": "846372d0-d54b-41b8-80f6-c1cb924f9d60",
+    "new": "846372d0-d54b-41b8-80f6-c1cb924f9d60",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-25T05:20:07.575Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3",
+      "6"
+    ]
+  },
+  {
+    "case": "01fracture/a",
+    "old": "92b07f47-f994-4d0d-b8f9-f10d131f65a2",
+    "new": "92b07f47-f994-4d0d-b8f9-f10d131f65a2",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-25T06:50:06.612Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3",
+      "8"
+    ]
+  },
+  {
+    "case": "01fracture/b",
+    "old": "380bbabc-d934-431c-b0a9-6ff5f40c7850",
+    "new": "a1ff81bb-6276-4397-83c4-1dc5d8474e6a",
+    "changed": true,
+    "kind": "ranked",
+    "at": "2026-10-25T10:30:21.599Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3",
+      "8"
+    ]
+  },
+  {
+    "case": "01gold_rush/a",
+    "old": "98a7842f-e567-4d7d-aa47-abdd8c5d94b6",
+    "new": "98a7842f-e567-4d7d-aa47-abdd8c5d94b6",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-25T07:30:07.986Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "11",
+      "2"
+    ]
+  },
+  {
+    "case": "01gold_rush/b",
+    "old": "789d91be-950b-4a27-aa89-8c948b691763",
+    "new": "789d91be-950b-4a27-aa89-8c948b691763",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-25T10:00:09.894Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "11",
+      "2"
+    ]
+  },
+  {
+    "case": "01hooks/a",
+    "old": "e29f5285-81e9-4db9-843b-34d36eb1674e",
+    "new": "e29f5285-81e9-4db9-843b-34d36eb1674e",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-25T04:00:07.291Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3"
+    ]
+  },
+  {
+    "case": "01hooks/b",
+    "old": "063a8dfc-9e32-4028-ae77-3051afed6e3c",
+    "new": "ed738cba-20e4-4525-92bd-efe23cb9b7e1",
+    "changed": true,
+    "kind": "ranked",
+    "at": "2026-10-25T10:50:07.485Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3"
+    ]
+  },
+  {
+    "case": "01islands/a",
+    "old": "6ba3e5d5-2983-4a70-99b9-c0313fbb134b",
+    "new": "7b09a3ad-9ed8-42c9-b028-36a034bbf607",
+    "changed": true,
+    "kind": "ranked",
+    "at": "2026-10-25T11:30:13.582Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "9",
+      "3"
+    ]
+  },
+  {
+    "case": "01islands/b",
+    "old": "f163a2d4-ec52-41fc-9b59-cd770337d599",
+    "new": "f163a2d4-ec52-41fc-9b59-cd770337d599",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-25T06:20:09.146Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "9",
+      "3"
+    ]
+  },
+  {
+    "case": "01shortcut/a",
+    "old": "cd22ac34-640e-40af-96e1-3be42b8ee545",
+    "new": "cd22ac34-640e-40af-96e1-3be42b8ee545",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-24T14:10:15.995Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3"
+    ]
+  },
+  {
+    "case": "01shortcut/b",
+    "old": "d999fdb4-17f7-4dea-ac41-2da19067bce6",
+    "new": "d999fdb4-17f7-4dea-ac41-2da19067bce6",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-25T10:00:09.894Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3"
+    ]
+  },
+  {
+    "case": "01starfish/a",
+    "old": "57eb1dc3-566a-4d9a-9164-cd30af8b1951",
+    "new": "57eb1dc3-566a-4d9a-9164-cd30af8b1951",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-25T03:30:07.884Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3",
+      "7"
+    ]
+  },
+  {
+    "case": "01starfish/b",
+    "old": "a0ff3e2f-24e1-4731-8a96-cb122ace20cb",
+    "new": "a0ff3e2f-24e1-4731-8a96-cb122ace20cb",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-25T01:00:11.002Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3",
+      "7"
+    ]
+  },
+  {
+    "case": "01starvation/a",
+    "old": "8d52b4b4-1e7f-4199-997f-b49df4b744de",
+    "new": "8d52b4b4-1e7f-4199-997f-b49df4b744de",
+    "changed": false,
+    "kind": "unranked",
+    "at": "2026-10-25T09:33:59.169Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3",
+      "8"
+    ]
+  },
+  {
+    "case": "01starvation/b",
+    "old": "eb3b4fe7-b766-4e9f-842a-305e507c294d",
+    "new": "8c656ae7-f2be-41e6-b4c5-0e4a19a46a31",
+    "changed": true,
+    "kind": "ranked",
+    "at": "2026-10-25T10:50:07.485Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3",
+      "8"
+    ]
+  },
+  {
+    "case": "01the_farm/a",
+    "old": "ad8244a8-62c9-42b6-8a68-490cdc743e88",
+    "new": "e99201f4-b3cb-4972-84ee-79d177e56944",
+    "changed": true,
+    "kind": "ranked",
+    "at": "2026-10-25T10:40:15.766Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "11",
+      "6"
+    ]
+  },
+  {
+    "case": "01the_farm/b",
+    "old": "704168dd-a385-4d32-832c-971402ea2f74",
+    "new": "704168dd-a385-4d32-832c-971402ea2f74",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-25T09:40:09.337Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "11",
+      "6"
+    ]
+  },
+  {
+    "case": "01yellow_brick_road/a",
+    "old": "911e77d0-039b-418d-82a1-f563690794fe",
+    "new": "911e77d0-039b-418d-82a1-f563690794fe",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-25T00:50:10.884Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3",
+      "6"
+    ]
+  },
+  {
+    "case": "01yellow_brick_road/b",
+    "old": "39a7b015-9a21-47b6-a6b9-12d4d69cf8cc",
+    "new": "39a7b015-9a21-47b6-a6b9-12d4d69cf8cc",
+    "changed": false,
+    "kind": "ranked",
+    "at": "2026-10-25T08:10:09.471Z",
+    "reason": [
+      "Select a public win whose Fish draft matches the latest ranked evidence and, where available, our current live tests.",
+      "Prefer ranked references to reduce the risk of selecting a different opponent policy from unranked history.",
+      "Preserve the whole winning sequence and validate it live; a matching draft does not prove the entire Fish policy is unchanged."
+    ],
+    "canonicalFishDraft": [
+      "1",
+      "2",
+      "11",
+      "3",
+      "6"
+    ]
+  }
+]

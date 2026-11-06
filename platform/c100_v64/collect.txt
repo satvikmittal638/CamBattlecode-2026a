@@ -1,0 +1,22 @@
+fetch failed
+fetch failed
+node:internal/deps/undici/undici:13178
+      Error.captureStackTrace(err);
+            ^
+
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:13178:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async fetchRetry (file:///Users/dmitt/Desktop/CamBattlecode/tools/bclib.mjs:18:18)
+    at async api (file:///Users/dmitt/Desktop/CamBattlecode/tools/bclib.mjs:43:17)
+    at async file:///Users/dmitt/Desktop/CamBattlecode/tools/collect_challenges.mjs:24:9 {
+  [cause]: Error: getaddrinfo ENOTFOUND 2026a.battlecode.co.uk
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: '2026a.battlecode.co.uk'
+  }
+}
+
+Node.js v22.6.0

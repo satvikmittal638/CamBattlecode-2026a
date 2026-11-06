@@ -1,0 +1,254 @@
+{
+ "dir": "top_replays/2_KratosMessi",
+ "matches": 60,
+ "winRate": 0.767,
+ "byMap": {
+  "collision": {
+   "games": 6,
+   "wins": 5
+  },
+  "interlock": {
+   "games": 9,
+   "wins": 8
+  },
+  "monolith": {
+   "games": 7,
+   "wins": 5
+  },
+  "packs": {
+   "games": 7,
+   "wins": 5
+  },
+  "corners": {
+   "games": 8,
+   "wins": 6
+  },
+  "rows": {
+   "games": 6,
+   "wins": 3
+  },
+  "elkring": {
+   "games": 6,
+   "wins": 5
+  },
+  "lanes": {
+   "games": 7,
+   "wins": 6
+  },
+  "expanse": {
+   "games": 4,
+   "wins": 3
+  }
+ },
+ "draftPickRate": {
+  "Varg": 1,
+  "CassiAndIssac": 1,
+  "Vendetta": 1,
+  "Ryth": 0.72,
+  "Tavi": 0.47
+ },
+ "draftOrderTop": {
+  "1:Varg": 60,
+  "2:CassiAndIssac": 60,
+  "3:Vendetta": 60,
+  "4:Ryth": 43,
+  "5:Tavi": 28
+ },
+ "avgRounds": 502.18,
+ "avgGemDiff": 255.62,
+ "perGame": {
+  "captures": 25.93,
+  "firstCaptureRound": 31.03,
+  "tributes": 25.75,
+  "gemsPerTribute": 40.65,
+  "firstTributeRound": 60.52,
+  "recalls": 22.07,
+  "wards": 0,
+  "altarLocks": 0.3,
+  "consumablesUsed": 0,
+  "kills": 3.87,
+  "deaths": 1.93,
+  "prioritySets": 0
+ },
+ "attackTargets": {
+  "champion": 5641,
+  "camp": 37535,
+  "other": 182
+ },
+ "campTargets": {
+  "Wolf": 20545,
+  "Elk": 9615,
+  "GoldCluster": 1789,
+  "GemCluster": 5586
+ },
+ "spatial": {
+  "enemyHalfFrac": 0.1,
+  "meanSpawnDistFrac": 0.36,
+  "groupedFrac": 0.48
+ },
+ "perChampion": {
+  "Varg": {
+   "games": 60,
+   "topBuildOrders": {
+    "Jungle:Health > Durability:Health > Power:Strength": 5,
+    "Jungle:Health > consumable2 > Power:Strength > Power:Strength > Power:Strength": 4,
+    "Jungle:Health": 3
+   },
+   "avgFinalItems": {
+    "Monster Emblem of Strength": 0.9,
+    "Power Shard of Strength": 1.4,
+    "Power Emblem of Strength": 2.1,
+    "Durability Emblem of Health": 0.5,
+    "Jungle Emblem of Health": 0.8,
+    "Durability Shard of Health": 0.2,
+    "Jungle Shard of Health": 0.3,
+    "Monster Shard of Strength": 0.2
+   },
+   "abilities": {
+    "Shield->champion": 1597,
+    "AttackReset->champion": 1161
+   },
+   "attacksPer100Rounds": 26.09,
+   "killsPerGame": 1.02,
+   "deathsPerGame": 0.2,
+   "gemsTributedPerGame": 267.87,
+   "recallsPerGame": 4.18
+  },
+  "Cassi": {
+   "games": 60,
+   "topBuildOrders": {
+    "(none)": 22,
+    "Monster:Focus > consumable2": 6,
+    "Monster:Focus": 3
+   },
+   "avgFinalItems": {
+    "Monster Emblem of Focus": 0.5,
+    "Power Shard of Strength": 0.8,
+    "Power Emblem of Strength": 0.5,
+    "Jungle Emblem of Health": 0.3,
+    "Jungle Shard of Health": 0.2,
+    "Monster Shard of Focus": 0.3
+   },
+   "abilities": {
+    "Damage->camp": 1431,
+    "Cc->champion": 402,
+    "Damage->champion": 352
+   },
+   "attacksPer100Rounds": 28.55,
+   "killsPerGame": 0.5,
+   "deathsPerGame": 0.55,
+   "gemsTributedPerGame": 126.07,
+   "recallsPerGame": 3.3
+  },
+  "Issac": {
+   "games": 60,
+   "topBuildOrders": {
+    "(none)": 7,
+    "Jungle:Health > Durability:Health > Power:Strength": 4,
+    "Jungle:Health > consumable2 > Power:Strength > Durability:Health > Power:Strength > Power:Strength": 3
+   },
+   "avgFinalItems": {
+    "Monster Emblem of Strength": 0.9,
+    "Power Shard of Strength": 1.1,
+    "Power Emblem of Strength": 1.6,
+    "Durability Emblem of Health": 0.5,
+    "Jungle Emblem of Health": 0.7,
+    "Jungle Shard of Health": 0.4,
+    "Durability Shard of Health": 0.2,
+    "Monster Shard of Strength": 0.1
+   },
+   "abilities": {
+    "Dash->tile": 2103,
+    "AttackReset->champion": 1319
+   },
+   "attacksPer100Rounds": 30.25,
+   "killsPerGame": 0.45,
+   "deathsPerGame": 0.55,
+   "gemsTributedPerGame": 201.15,
+   "recallsPerGame": 4.68
+  },
+  "Vendetta": {
+   "games": 60,
+   "topBuildOrders": {
+    "Jungle:Health > Durability:Health > Power:Strength": 5,
+    "Monster:Strength > consumable2": 5,
+    "Jungle:Health > Power:Strength > Durability:Health": 3
+   },
+   "avgFinalItems": {
+    "Monster Emblem of Strength": 0.9,
+    "Power Shard of Strength": 1.3,
+    "Power Emblem of Strength": 1.9,
+    "Durability Emblem of Health": 0.6,
+    "Jungle Emblem of Health": 0.8,
+    "Monster Shard of Strength": 0.3,
+    "Durability Shard of Health": 0.3,
+    "Jungle Shard of Health": 0.2
+   },
+   "abilities": {
+    "Dash->tile": 2325,
+    "AttackReset->champion": 1347
+   },
+   "attacksPer100Rounds": 27.87,
+   "killsPerGame": 0.88,
+   "deathsPerGame": 0.22,
+   "gemsTributedPerGame": 244.12,
+   "recallsPerGame": 5.33
+  },
+  "Ryth": {
+   "games": 43,
+   "topBuildOrders": {
+    "Jungle:Health > Durability:Health > Power:Strength": 6,
+    "Monster:Strength": 4,
+    "Jungle:Health > consumable2 > Power:Strength > Power:Strength > Power:Strength": 2
+   },
+   "avgFinalItems": {
+    "Monster Shard of Strength": 0.4,
+    "Monster Emblem of Strength": 0.8,
+    "Power Shard of Strength": 1,
+    "Power Emblem of Strength": 1.6,
+    "Durability Emblem of Health": 0.4,
+    "Jungle Emblem of Health": 0.7,
+    "Jungle Shard of Health": 0.3,
+    "Durability Shard of Health": 0.1
+   },
+   "abilities": {
+    "AttackReset->champion": 794,
+    "AoeDamage->champion": 347,
+    "AoeDamage->camp": 215
+   },
+   "attacksPer100Rounds": 27.51,
+   "killsPerGame": 0.98,
+   "deathsPerGame": 0.3,
+   "gemsTributedPerGame": 201.91,
+   "recallsPerGame": 4.35
+  },
+  "Tavi": {
+   "games": 28,
+   "topBuildOrders": {
+    "Jungle:Health > consumable2 > Power:Strength > Durability:Health > Power:Strength": 2,
+    "Monster:Strength > Jungle:Health > Power:Strength": 2,
+    "consumable2 > Jungle:Health > Power:Strength": 2
+   },
+   "avgFinalItems": {
+    "Monster Emblem of Strength": 0.8,
+    "Jungle Shard of Health": 0.4,
+    "Power Shard of Strength": 0.8,
+    "Power Emblem of Strength": 1.1,
+    "Durability Emblem of Health": 0.4,
+    "Jungle Emblem of Health": 0.7,
+    "Monster Shard of Strength": 0.4,
+    "Durability Shard of Health": 0.4
+   },
+   "abilities": {
+    "AttackReset->champion": 599,
+    "Cc->camp": 589,
+    "Cc->champion": 153
+   },
+   "attacksPer100Rounds": 30.74,
+   "killsPerGame": 0.68,
+   "deathsPerGame": 0.43,
+   "gemsTributedPerGame": 134.71,
+   "recallsPerGame": 3.11
+  }
+ }
+}

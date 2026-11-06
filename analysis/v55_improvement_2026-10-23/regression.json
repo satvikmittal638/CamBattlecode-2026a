@@ -1,0 +1,14 @@
+{
+  "before": {
+    "readySecondarySpellDamage": 0,
+    "aoeEdgeDamage": 0,
+    "escapeTile": 0
+  },
+  "after": {
+    "readySecondarySpellDamage": 100,
+    "aoeEdgeDamage": 100,
+    "escapeTile": 1
+  },
+  "expectedSafeTile": 1,
+  "allPassed": true
+}

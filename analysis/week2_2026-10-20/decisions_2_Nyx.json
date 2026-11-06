@@ -1,0 +1,41 @@
+{
+ "dir": "replays_week2/2_Nyx",
+ "games": 126,
+ "nextTarget": {
+  "n": 8832,
+  "nearestShare": 0.38,
+  "top2Share": 0.56,
+  "avgDist": 13.19,
+  "avgNearest": 6.92,
+  "avgDelay": 23.33,
+  "extraDist": 6.27,
+  "commonSkips": {
+   "GoldCluster2 -> GoldCluster2": 377,
+   "Monolith1 -> GoldCluster2": 349,
+   "GoldCluster4+Monolith1 -> GemCluster1+Wolf1": 204,
+   "GoldCluster4+Monolith1 -> GoldCluster5": 170,
+   "Monolith1 -> GoldCluster4": 138,
+   "GoldCluster1 -> GoldCluster2": 96,
+   "Elk1+GemCluster1+GoldCluster1 -> Elk1+GemCluster1+GoldCluster1": 87,
+   "GoldCluster5 -> GemCluster1+Wolf1": 76
+  }
+ },
+ "tribute": {
+  "perGame": 30.9,
+  "gemsAvg": 31.96,
+  "gemsP25": 15,
+  "gemsP50": 22,
+  "gemsP75": 44,
+  "capturesBetween": 2.42,
+  "roundsBetween": 118.39
+ },
+ "recall": {
+  "perGame": 88.3,
+  "hpfAvg": 0.68,
+  "hpfP50": 0.75,
+  "goldAvg": 84.86,
+  "afterTributeShare": 0,
+  "healthyRecallShare": 0.56,
+  "carryingGemsShare": 0.39
+ }
+}

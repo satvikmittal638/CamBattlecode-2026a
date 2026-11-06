@@ -1,0 +1,984 @@
+{
+ "dir": "analysis/v43x/v44/brawl_us",
+ "overall": {
+  "games": 34,
+  "winRate": 0.35,
+  "avgRounds": 1534,
+  "tributedAt": {
+   "100": 8.3,
+   "200": 19.9,
+   "300": 38.7,
+   "400": 61.9,
+   "500": 88.1,
+   "700": 150.6,
+   "1000": 283.9
+  },
+  "netWorthAt": {
+   "150": 453.5,
+   "300": 993.7,
+   "500": 1918.9
+  },
+  "firstCapture": 42.5,
+  "firstTribute": 217.9,
+  "capturesPer100": 3.7,
+  "gemsPerCapture": 6,
+  "goldPerCapture": 49.9,
+  "grouping": 0.8,
+  "enemySideFrac": 0.1,
+  "activity": {
+   "HeartOfRuin": {
+    "walk": 0.419,
+    "dead": 0.237,
+    "idle": 0.109,
+    "farm": 0.106,
+    "fight": 0.061,
+    "recall": 0.046,
+    "tribute": 0.021
+   },
+   "_all": {
+    "walk": 0.489,
+    "dead": 0.214,
+    "farm": 0.101,
+    "idle": 0.101,
+    "fight": 0.051,
+    "recall": 0.034,
+    "tribute": 0.01
+   },
+   "Tavi": {
+    "walk": 0.488,
+    "dead": 0.233,
+    "farm": 0.104,
+    "idle": 0.1,
+    "fight": 0.049,
+    "recall": 0.02,
+    "tribute": 0.006
+   },
+   "VesperVale": {
+    "walk": 0.485,
+    "dead": 0.184,
+    "farm": 0.123,
+    "idle": 0.108,
+    "fight": 0.054,
+    "recall": 0.04,
+    "tribute": 0.007
+   },
+   "Ryth": {
+    "walk": 0.533,
+    "dead": 0.214,
+    "idle": 0.089,
+    "farm": 0.081,
+    "fight": 0.045,
+    "recall": 0.031,
+    "tribute": 0.007
+   },
+   "Varg": {
+    "walk": 0.579,
+    "dead": 0.189,
+    "idle": 0.085,
+    "farm": 0.066,
+    "fight": 0.037,
+    "recall": 0.035,
+    "tribute": 0.009
+   }
+  }
+ },
+ "byMap": {
+  "00collision": {
+   "games": 3,
+   "winRate": 0,
+   "avgRounds": 1152,
+   "tributedAt": {
+    "100": 18.3,
+    "200": 30.7,
+    "300": 60,
+    "400": 103,
+    "500": 120.3,
+    "700": 193.7,
+    "1000": 293
+   },
+   "netWorthAt": {
+    "150": 393.7,
+    "300": 891,
+    "500": 1545
+   },
+   "firstCapture": 18.3,
+   "firstTribute": 85,
+   "capturesPer100": 4.6,
+   "gemsPerCapture": 4.6,
+   "goldPerCapture": 32.7,
+   "grouping": 0.4,
+   "enemySideFrac": 0.1,
+   "activity": {
+    "HeartOfRuin": {
+     "walk": 0.354,
+     "dead": 0.22,
+     "farm": 0.173,
+     "idle": 0.113,
+     "fight": 0.074,
+     "recall": 0.042,
+     "tribute": 0.024
+    },
+    "_all": {
+     "walk": 0.376,
+     "dead": 0.244,
+     "farm": 0.172,
+     "idle": 0.105,
+     "fight": 0.05,
+     "recall": 0.04,
+     "tribute": 0.013
+    },
+    "Tavi": {
+     "dead": 0.356,
+     "walk": 0.327,
+     "farm": 0.15,
+     "idle": 0.11,
+     "fight": 0.034,
+     "recall": 0.017,
+     "tribute": 0.006
+    },
+    "VesperVale": {
+     "walk": 0.446,
+     "farm": 0.193,
+     "dead": 0.156,
+     "idle": 0.092,
+     "recall": 0.061,
+     "fight": 0.043,
+     "tribute": 0.009
+    }
+   }
+  },
+  "00eight": {
+   "games": 3,
+   "winRate": 0.67,
+   "avgRounds": 1054.7,
+   "tributedAt": {
+    "100": 19,
+    "200": 56.3,
+    "300": 72.7,
+    "400": 142.7,
+    "500": 171.3,
+    "700": 339,
+    "1000": 582
+   },
+   "netWorthAt": {
+    "150": 404.3,
+    "300": 949.3,
+    "500": 2159
+   },
+   "firstCapture": 32.7,
+   "firstTribute": 50,
+   "capturesPer100": 2.6,
+   "gemsPerCapture": 10.2,
+   "goldPerCapture": 64.5,
+   "grouping": 1.2,
+   "enemySideFrac": 0.1,
+   "activity": {
+    "HeartOfRuin": {
+     "walk": 0.387,
+     "dead": 0.172,
+     "farm": 0.13,
+     "idle": 0.107,
+     "fight": 0.085,
+     "tribute": 0.061,
+     "recall": 0.057
+    },
+    "_all": {
+     "walk": 0.449,
+     "dead": 0.189,
+     "farm": 0.15,
+     "idle": 0.089,
+     "fight": 0.061,
+     "recall": 0.042,
+     "tribute": 0.019
+    },
+    "Tavi": {
+     "walk": 0.457,
+     "dead": 0.279,
+     "farm": 0.109,
+     "fight": 0.064,
+     "idle": 0.06,
+     "recall": 0.023,
+     "tribute": 0.008
+    },
+    "VesperVale": {
+     "walk": 0.419,
+     "farm": 0.215,
+     "dead": 0.171,
+     "idle": 0.082,
+     "fight": 0.065,
+     "recall": 0.039,
+     "tribute": 0.008
+    },
+    "Ryth": {
+     "walk": 0.477,
+     "dead": 0.191,
+     "farm": 0.147,
+     "idle": 0.093,
+     "fight": 0.044,
+     "recall": 0.039,
+     "tribute": 0.009
+    },
+    "Varg": {
+     "walk": 0.506,
+     "farm": 0.15,
+     "dead": 0.135,
+     "idle": 0.104,
+     "recall": 0.049,
+     "fight": 0.047,
+     "tribute": 0.01
+    }
+   }
+  },
+  "00fragment": {
+   "games": 3,
+   "winRate": 0.33,
+   "avgRounds": 1882.3,
+   "tributedAt": {
+    "100": 13.7,
+    "200": 29,
+    "300": 49.7,
+    "400": 66.3,
+    "500": 83,
+    "700": 125.3,
+    "1000": 213
+   },
+   "netWorthAt": {
+    "150": 273.3,
+    "300": 644,
+    "500": 1390.7
+   },
+   "firstCapture": 44.3,
+   "firstTribute": 26.3,
+   "capturesPer100": 2.8,
+   "gemsPerCapture": 3.6,
+   "goldPerCapture": 33.8,
+   "grouping": 0.8,
+   "enemySideFrac": 0.1,
+   "activity": {
+    "HeartOfRuin": {
+     "walk": 0.3,
+     "dead": 0.285,
+     "idle": 0.175,
+     "farm": 0.096,
+     "fight": 0.079,
+     "recall": 0.047,
+     "tribute": 0.018
+    },
+    "_all": {
+     "walk": 0.33,
+     "dead": 0.288,
+     "idle": 0.158,
+     "farm": 0.114,
+     "fight": 0.066,
+     "recall": 0.033,
+     "tribute": 0.011
+    },
+    "Tavi": {
+     "walk": 0.375,
+     "dead": 0.307,
+     "idle": 0.13,
+     "farm": 0.102,
+     "fight": 0.06,
+     "recall": 0.018,
+     "tribute": 0.008
+    },
+    "VesperVale": {
+     "walk": 0.316,
+     "dead": 0.272,
+     "idle": 0.169,
+     "farm": 0.143,
+     "fight": 0.059,
+     "recall": 0.034,
+     "tribute": 0.007
+    }
+   }
+  },
+  "00reverse_spiral": {
+   "games": 3,
+   "winRate": 0.67,
+   "avgRounds": 1457,
+   "tributedAt": {
+    "100": 14.7,
+    "200": 31.7,
+    "300": 56.3,
+    "400": 93.3,
+    "500": 152,
+    "700": 214.3,
+    "1000": 458
+   },
+   "netWorthAt": {
+    "150": 246.7,
+    "300": 537.7,
+    "500": 1207.7
+   },
+   "firstCapture": 56,
+   "firstTribute": 109.3,
+   "capturesPer100": 2.3,
+   "gemsPerCapture": 8.8,
+   "goldPerCapture": 43.4,
+   "grouping": 0.5,
+   "enemySideFrac": 0.2,
+   "activity": {
+    "HeartOfRuin": {
+     "walk": 0.529,
+     "farm": 0.178,
+     "dead": 0.101,
+     "idle": 0.058,
+     "recall": 0.057,
+     "tribute": 0.039,
+     "fight": 0.038
+    },
+    "_all": {
+     "walk": 0.567,
+     "farm": 0.147,
+     "dead": 0.14,
+     "idle": 0.055,
+     "fight": 0.038,
+     "recall": 0.035,
+     "tribute": 0.017
+    },
+    "Tavi": {
+     "walk": 0.564,
+     "dead": 0.184,
+     "farm": 0.111,
+     "idle": 0.054,
+     "fight": 0.051,
+     "recall": 0.024,
+     "tribute": 0.012
+    },
+    "VesperVale": {
+     "walk": 0.548,
+     "dead": 0.206,
+     "farm": 0.13,
+     "idle": 0.05,
+     "fight": 0.035,
+     "recall": 0.023,
+     "tribute": 0.006
+    },
+    "Ryth": {
+     "walk": 0.626,
+     "farm": 0.17,
+     "dead": 0.069,
+     "idle": 0.059,
+     "recall": 0.037,
+     "fight": 0.027,
+     "tribute": 0.011
+    }
+   }
+  },
+  "00stampede": {
+   "games": 3,
+   "winRate": 1,
+   "avgRounds": 1889.3,
+   "tributedAt": {
+    "100": 0,
+    "200": 0,
+    "300": 0,
+    "400": 0,
+    "500": 0,
+    "700": 0,
+    "1000": 160
+   },
+   "netWorthAt": {
+    "150": 699.7,
+    "300": 1315,
+    "500": 2609
+   },
+   "firstCapture": 21.3,
+   "firstTribute": 885.3,
+   "capturesPer100": 4.7,
+   "gemsPerCapture": 4.7,
+   "goldPerCapture": 57.1,
+   "grouping": 0.9,
+   "enemySideFrac": 0.1,
+   "activity": {
+    "HeartOfRuin": {
+     "walk": 0.585,
+     "dead": 0.132,
+     "idle": 0.113,
+     "farm": 0.068,
+     "recall": 0.037,
+     "fight": 0.037,
+     "tribute": 0.028
+    },
+    "_all": {
+     "walk": 0.664,
+     "idle": 0.137,
+     "dead": 0.075,
+     "farm": 0.051,
+     "fight": 0.034,
+     "recall": 0.028,
+     "tribute": 0.01
+    },
+    "Tavi": {
+     "walk": 0.642,
+     "idle": 0.178,
+     "dead": 0.085,
+     "farm": 0.048,
+     "fight": 0.039,
+     "recall": 0.008
+    },
+    "VesperVale": {
+     "walk": 0.65,
+     "idle": 0.16,
+     "dead": 0.076,
+     "farm": 0.047,
+     "fight": 0.04,
+     "recall": 0.025,
+     "tribute": 0.003
+    },
+    "Ryth": {
+     "walk": 0.702,
+     "idle": 0.145,
+     "farm": 0.057,
+     "dead": 0.043,
+     "recall": 0.028,
+     "fight": 0.026
+    },
+    "Varg": {
+     "walk": 0.741,
+     "idle": 0.091,
+     "recall": 0.043,
+     "dead": 0.038,
+     "farm": 0.037,
+     "fight": 0.031,
+     "tribute": 0.02
+    }
+   }
+  },
+  "00swirl": {
+   "games": 3,
+   "winRate": 0,
+   "avgRounds": 1298,
+   "tributedAt": {
+    "100": 15,
+    "200": 22.7,
+    "300": 35.3,
+    "400": 45.3,
+    "500": 78.3,
+    "700": 160.7,
+    "1000": 211.7
+   },
+   "netWorthAt": {
+    "150": 640.3,
+    "300": 1037.7,
+    "500": 1880.7
+   },
+   "firstCapture": 31.7,
+   "firstTribute": 61.7,
+   "capturesPer100": 2.3,
+   "gemsPerCapture": 2.4,
+   "goldPerCapture": 28.2,
+   "grouping": 1,
+   "enemySideFrac": 0.2,
+   "activity": {
+    "HeartOfRuin": {
+     "dead": 0.527,
+     "walk": 0.204,
+     "fight": 0.079,
+     "farm": 0.072,
+     "idle": 0.062,
+     "recall": 0.044,
+     "tribute": 0.013
+    },
+    "_all": {
+     "dead": 0.505,
+     "walk": 0.249,
+     "fight": 0.081,
+     "farm": 0.07,
+     "idle": 0.058,
+     "recall": 0.033,
+     "tribute": 0.005
+    },
+    "Tavi": {
+     "dead": 0.509,
+     "walk": 0.274,
+     "fight": 0.072,
+     "farm": 0.072,
+     "idle": 0.04,
+     "recall": 0.03,
+     "tribute": 0.003
+    },
+    "VesperVale": {
+     "dead": 0.481,
+     "walk": 0.266,
+     "farm": 0.091,
+     "fight": 0.089,
+     "idle": 0.044,
+     "recall": 0.028,
+     "tribute": 0.001
+    },
+    "Ryth": {
+     "dead": 0.501,
+     "walk": 0.251,
+     "idle": 0.087,
+     "fight": 0.082,
+     "farm": 0.044,
+     "recall": 0.03,
+     "tribute": 0.004
+    }
+   }
+  },
+  "01corridors": {
+   "games": 3,
+   "winRate": 0.67,
+   "avgRounds": 1539.7,
+   "tributedAt": {
+    "100": 2.7,
+    "200": 13.3,
+    "300": 26.7,
+    "400": 40,
+    "500": 64,
+    "700": 142.7,
+    "1000": 406
+   },
+   "netWorthAt": {
+    "150": 233.3,
+    "300": 724.3,
+    "500": 1633.3
+   },
+   "firstCapture": 56.7,
+   "firstTribute": 151.3,
+   "capturesPer100": 1.8,
+   "gemsPerCapture": 15.3,
+   "goldPerCapture": 127.1,
+   "grouping": 0.6,
+   "enemySideFrac": 0,
+   "activity": {
+    "HeartOfRuin": {
+     "walk": 0.595,
+     "dead": 0.117,
+     "farm": 0.106,
+     "fight": 0.052,
+     "recall": 0.051,
+     "idle": 0.047,
+     "tribute": 0.031
+    },
+    "_all": {
+     "walk": 0.686,
+     "farm": 0.12,
+     "dead": 0.07,
+     "idle": 0.038,
+     "recall": 0.036,
+     "fight": 0.035,
+     "tribute": 0.014
+    },
+    "Tavi": {
+     "walk": 0.73,
+     "farm": 0.152,
+     "idle": 0.042,
+     "fight": 0.036,
+     "recall": 0.021,
+     "dead": 0.013,
+     "tribute": 0.005
+    },
+    "VesperVale": {
+     "walk": 0.696,
+     "farm": 0.159,
+     "recall": 0.04,
+     "idle": 0.036,
+     "fight": 0.031,
+     "dead": 0.026,
+     "tribute": 0.011
+    },
+    "Ryth": {
+     "walk": 0.743,
+     "farm": 0.082,
+     "dead": 0.066,
+     "idle": 0.035,
+     "recall": 0.031,
+     "fight": 0.029,
+     "tribute": 0.015
+    },
+    "Varg": {
+     "walk": 0.665,
+     "dead": 0.129,
+     "farm": 0.103,
+     "recall": 0.035,
+     "idle": 0.03,
+     "fight": 0.027,
+     "tribute": 0.01
+    }
+   }
+  },
+  "01elk_arena": {
+   "games": 3,
+   "winRate": 0,
+   "avgRounds": 1490.3,
+   "tributedAt": {
+    "100": 0,
+    "200": 0,
+    "300": 32,
+    "400": 32,
+    "500": 56,
+    "700": 56,
+    "1000": 56
+   },
+   "netWorthAt": {
+    "150": 652.3,
+    "300": 1548.3,
+    "500": 2481
+   },
+   "firstCapture": 30.3,
+   "firstTribute": 365.5,
+   "capturesPer100": 8.3,
+   "gemsPerCapture": 0,
+   "goldPerCapture": 14.1,
+   "grouping": 1,
+   "enemySideFrac": 0.1,
+   "activity": {
+    "HeartOfRuin": {
+     "dead": 0.497,
+     "walk": 0.241,
+     "idle": 0.12,
+     "fight": 0.093,
+     "farm": 0.025,
+     "recall": 0.024
+    },
+    "_all": {
+     "dead": 0.392,
+     "walk": 0.326,
+     "idle": 0.138,
+     "fight": 0.07,
+     "farm": 0.051,
+     "recall": 0.022,
+     "tribute": 0.001
+    },
+    "Tavi": {
+     "walk": 0.379,
+     "dead": 0.307,
+     "idle": 0.152,
+     "farm": 0.103,
+     "fight": 0.049,
+     "recall": 0.01
+    },
+    "VesperVale": {
+     "walk": 0.367,
+     "dead": 0.284,
+     "idle": 0.144,
+     "fight": 0.108,
+     "farm": 0.059,
+     "recall": 0.034,
+     "tribute": 0.004
+    },
+    "Ryth": {
+     "dead": 0.406,
+     "walk": 0.35,
+     "idle": 0.125,
+     "fight": 0.054,
+     "farm": 0.045,
+     "recall": 0.02
+    },
+    "Varg": {
+     "dead": 0.467,
+     "walk": 0.293,
+     "idle": 0.151,
+     "fight": 0.044,
+     "recall": 0.024,
+     "farm": 0.021
+    }
+   }
+  },
+  "01gold_rush": {
+   "games": 3,
+   "winRate": 0,
+   "avgRounds": 2000,
+   "tributedAt": {
+    "100": 0,
+    "200": 0,
+    "300": 0,
+    "400": 7.3,
+    "500": 18.3,
+    "700": 44,
+    "1000": 104.7
+   },
+   "netWorthAt": {
+    "150": 538,
+    "300": 1366.3,
+    "500": 3023
+   },
+   "firstCapture": 66.3,
+   "firstTribute": 371,
+   "capturesPer100": 4.2,
+   "gemsPerCapture": 1.2,
+   "goldPerCapture": 62,
+   "grouping": 0.7,
+   "enemySideFrac": 0.5,
+   "activity": {
+    "HeartOfRuin": {
+     "walk": 0.393,
+     "idle": 0.184,
+     "farm": 0.182,
+     "dead": 0.141,
+     "recall": 0.067,
+     "fight": 0.026,
+     "tribute": 0.008
+    },
+    "_all": {
+     "walk": 0.465,
+     "idle": 0.174,
+     "farm": 0.166,
+     "dead": 0.1,
+     "recall": 0.053,
+     "fight": 0.032,
+     "tribute": 0.01
+    },
+    "Tavi": {
+     "walk": 0.499,
+     "farm": 0.166,
+     "idle": 0.163,
+     "dead": 0.1,
+     "fight": 0.038,
+     "recall": 0.024,
+     "tribute": 0.009
+    },
+    "VesperVale": {
+     "walk": 0.504,
+     "idle": 0.176,
+     "farm": 0.15,
+     "recall": 0.069,
+     "dead": 0.059,
+     "fight": 0.031,
+     "tribute": 0.012
+    }
+   }
+  },
+  "01hooks": {
+   "games": 3,
+   "winRate": 0.67,
+   "avgRounds": 1389.7,
+   "tributedAt": {
+    "100": 0,
+    "200": 7.3,
+    "300": 29.3,
+    "400": 58.7,
+    "500": 88,
+    "700": 172.3,
+    "1000": 392.3
+   },
+   "netWorthAt": {
+    "150": 458.3,
+    "300": 1046.3,
+    "500": 1892.3
+   },
+   "firstCapture": 30,
+   "firstTribute": 260.7,
+   "capturesPer100": 4.8,
+   "gemsPerCapture": 6.1,
+   "goldPerCapture": 43,
+   "grouping": 0.9,
+   "enemySideFrac": 0.2,
+   "activity": {
+    "HeartOfRuin": {
+     "walk": 0.341,
+     "dead": 0.275,
+     "idle": 0.14,
+     "fight": 0.082,
+     "farm": 0.081,
+     "recall": 0.052,
+     "tribute": 0.029
+    },
+    "_all": {
+     "walk": 0.394,
+     "dead": 0.268,
+     "idle": 0.119,
+     "farm": 0.086,
+     "fight": 0.074,
+     "recall": 0.042,
+     "tribute": 0.017
+    },
+    "Tavi": {
+     "walk": 0.397,
+     "dead": 0.32,
+     "idle": 0.096,
+     "farm": 0.087,
+     "fight": 0.069,
+     "recall": 0.021,
+     "tribute": 0.01
+    },
+    "VesperVale": {
+     "walk": 0.427,
+     "dead": 0.205,
+     "idle": 0.121,
+     "farm": 0.105,
+     "fight": 0.077,
+     "recall": 0.052,
+     "tribute": 0.012
+    },
+    "Ryth": {
+     "walk": 0.413,
+     "dead": 0.273,
+     "idle": 0.119,
+     "farm": 0.07,
+     "fight": 0.066,
+     "recall": 0.041,
+     "tribute": 0.017
+    }
+   }
+  },
+  "01starfish": {
+   "games": 2,
+   "winRate": 0,
+   "avgRounds": 1469,
+   "tributedAt": {
+    "100": 15.5,
+    "200": 35,
+    "300": 54.5,
+    "400": 90,
+    "500": 153,
+    "700": 242,
+    "1000": 322
+   },
+   "netWorthAt": {
+    "150": 653,
+    "300": 1244,
+    "500": 2016
+   },
+   "firstCapture": 46.5,
+   "firstTribute": 45,
+   "capturesPer100": 2.3,
+   "gemsPerCapture": 10.6,
+   "goldPerCapture": 70.1,
+   "grouping": 0.8,
+   "enemySideFrac": 0,
+   "activity": {
+    "HeartOfRuin": {
+     "walk": 0.408,
+     "dead": 0.289,
+     "farm": 0.121,
+     "idle": 0.06,
+     "fight": 0.059,
+     "recall": 0.052,
+     "tribute": 0.011
+    },
+    "_all": {
+     "walk": 0.419,
+     "dead": 0.317,
+     "farm": 0.117,
+     "idle": 0.062,
+     "fight": 0.041,
+     "recall": 0.038,
+     "tribute": 0.006
+    },
+    "Tavi": {
+     "walk": 0.422,
+     "dead": 0.326,
+     "farm": 0.128,
+     "idle": 0.049,
+     "fight": 0.039,
+     "recall": 0.033,
+     "tribute": 0.003
+    },
+    "VesperVale": {
+     "walk": 0.417,
+     "dead": 0.312,
+     "farm": 0.151,
+     "idle": 0.05,
+     "fight": 0.034,
+     "recall": 0.032,
+     "tribute": 0.004
+    },
+    "Ryth": {
+     "walk": 0.443,
+     "dead": 0.309,
+     "farm": 0.09,
+     "idle": 0.075,
+     "recall": 0.039,
+     "fight": 0.037,
+     "tribute": 0.007
+    },
+    "Varg": {
+     "walk": 0.406,
+     "dead": 0.35,
+     "farm": 0.092,
+     "idle": 0.078,
+     "fight": 0.037,
+     "recall": 0.032,
+     "tribute": 0.005
+    }
+   }
+  },
+  "01starvation": {
+   "games": 2,
+   "winRate": 0,
+   "avgRounds": 1880,
+   "tributedAt": {
+    "100": 0,
+    "200": 16,
+    "300": 60,
+    "400": 80,
+    "500": 98,
+    "700": 146,
+    "1000": 190
+   },
+   "netWorthAt": {
+    "150": 246.5,
+    "300": 559.5,
+    "500": 872
+   },
+   "firstCapture": 94.5,
+   "firstTribute": 184,
+   "capturesPer100": 2.6,
+   "gemsPerCapture": 5.3,
+   "goldPerCapture": 19.4,
+   "grouping": 0.4,
+   "enemySideFrac": 0.1,
+   "activity": {
+    "HeartOfRuin": {
+     "walk": 0.662,
+     "dead": 0.161,
+     "idle": 0.057,
+     "fight": 0.057,
+     "farm": 0.035,
+     "recall": 0.022,
+     "tribute": 0.006
+    },
+    "_all": {
+     "walk": 0.7,
+     "dead": 0.136,
+     "idle": 0.053,
+     "fight": 0.045,
+     "farm": 0.039,
+     "recall": 0.022,
+     "tribute": 0.005
+    },
+    "Tavi": {
+     "walk": 0.705,
+     "dead": 0.194,
+     "fight": 0.04,
+     "idle": 0.028,
+     "farm": 0.017,
+     "recall": 0.014,
+     "tribute": 0.002
+    },
+    "VesperVale": {
+     "walk": 0.698,
+     "idle": 0.082,
+     "farm": 0.075,
+     "dead": 0.065,
+     "fight": 0.04,
+     "recall": 0.034,
+     "tribute": 0.007
+    },
+    "Ryth": {
+     "walk": 0.672,
+     "dead": 0.178,
+     "fight": 0.047,
+     "farm": 0.042,
+     "idle": 0.04,
+     "recall": 0.018,
+     "tribute": 0.003
+    },
+    "Varg": {
+     "walk": 0.764,
+     "dead": 0.081,
+     "idle": 0.056,
+     "fight": 0.044,
+     "recall": 0.025,
+     "farm": 0.025,
+     "tribute": 0.006
+    }
+   }
+  }
+ }
+}

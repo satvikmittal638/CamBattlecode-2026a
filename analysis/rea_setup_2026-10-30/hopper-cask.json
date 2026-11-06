@@ -1,0 +1,95 @@
+{
+  "formulae": [],
+  "casks": [
+    {
+      "token": "hopper-disassembler",
+      "full_token": "hopper-disassembler",
+      "old_tokens": [],
+      "tap": "homebrew/cask",
+      "name": [
+        "Hopper Disassembler"
+      ],
+      "desc": "Reverse engineering tool that lets you disassemble, decompile and debug your app",
+      "homepage": "https://www.hopperapp.com/",
+      "url": "https://www.hopperapp.com/downloader/public/Hopper-6.6.1-demo.dmg",
+      "url_specs": {
+        "user_agent": ":browser"
+      },
+      "version": "6.6.1",
+      "autobump": true,
+      "no_autobump_message": null,
+      "skip_livecheck": false,
+      "installed": null,
+      "installed_time": null,
+      "bundle_version": null,
+      "bundle_short_version": null,
+      "pinned": false,
+      "pinned_version": null,
+      "outdated": false,
+      "sha256": "164970efae0f60e622b08ac1f74037c3abe7269d99b00d5772e7b3342f826f7b",
+      "artifacts": [
+        {
+          "uninstall": [
+            {
+              "launchctl": "com.cryptic-apps.ExternalAPI",
+              "quit": "com.cryptic-apps.hopper-web-4"
+            }
+          ]
+        },
+        {
+          "app": [
+            "Hopper Disassembler.app"
+          ],
+          "target": "/Applications/Hopper Disassembler.app"
+        },
+        {
+          "zap": [
+            {
+              "trash": [
+                "~/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/com.cryptic-apps.hopper-web-4.sfl*",
+                "~/Library/Application Support/Hopper Disassembler v4",
+                "~/Library/Application Support/Hopper",
+                "~/Library/Caches/com.apple.helpd/Generated/com.cryptic-apps.hopper-web-4.help*",
+                "~/Library/Caches/com.cryptic-apps.hopper-web-4",
+                "~/Library/HTTPStorages/com.cryptic-apps.hopper-web-4",
+                "~/Library/Preferences/com.cryptic-apps.hopper-web-4.plist",
+                "~/Library/Saved Application State/com.cryptic-apps.hopper-web-4.savedState"
+              ]
+            }
+          ]
+        }
+      ],
+      "caveats": null,
+      "caveats_rosetta": null,
+      "depends_on": {
+        "macos": {
+          ">=": [
+            "12"
+          ]
+        }
+      },
+      "conflicts_with": null,
+      "container": null,
+      "rename": [],
+      "auto_updates": true,
+      "deprecated": false,
+      "deprecation_date": null,
+      "deprecation_reason": null,
+      "deprecation_replacement_formula": null,
+      "deprecation_replacement_cask": null,
+      "deprecate_args": null,
+      "disabled": false,
+      "disable_date": null,
+      "disable_reason": null,
+      "disable_replacement_formula": null,
+      "disable_replacement_cask": null,
+      "disable_args": null,
+      "tap_git_head": "a13d6498ba59e84ed2d153dddec2f580e143516f",
+      "languages": [],
+      "ruby_source_path": "Casks/h/hopper-disassembler.rb",
+      "ruby_source_checksum": {
+        "sha256": "f34ad13d4bf63019c67a963e3ecc9bcf57ed812685f77d680e5f09f9c46692fd"
+      }
+    }
+  ]
+}

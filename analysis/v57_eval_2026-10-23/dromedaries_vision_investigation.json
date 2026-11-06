@@ -1,0 +1,186 @@
+{
+  "wards": {
+    "ours": 0,
+    "theirs": 53
+  },
+  "vendettaBeforeDeath": [
+    {
+      "r": 594,
+      "p": {
+        "x": 22,
+        "y": 16
+      },
+      "hp": 2720,
+      "visibleEnemies": [
+        {
+          "id": 5,
+          "type": "HeartOfRuin",
+          "p": {
+            "x": 23,
+            "y": 20
+          }
+        },
+        {
+          "id": 6,
+          "type": "Cassi",
+          "p": {
+            "x": 25,
+            "y": 22
+          }
+        },
+        {
+          "id": 7,
+          "type": "Issac",
+          "p": {
+            "x": 20,
+            "y": 17
+          }
+        },
+        {
+          "id": 8,
+          "type": "Ryth",
+          "p": {
+            "x": 26,
+            "y": 24
+          }
+        },
+        {
+          "id": 9,
+          "type": "Willow",
+          "p": {
+            "x": 26,
+            "y": 22
+          }
+        },
+        {
+          "id": 10,
+          "type": "Marcella",
+          "p": {
+            "x": 23,
+            "y": 21
+          }
+        }
+      ],
+      "killerPosition": {
+        "x": 23,
+        "y": 21
+      },
+      "killerVisible": true
+    },
+    {
+      "r": 595,
+      "p": {
+        "x": 22,
+        "y": 16
+      },
+      "hp": 2720,
+      "visibleEnemies": [
+        {
+          "id": 6,
+          "type": "Cassi",
+          "p": {
+            "x": 25,
+            "y": 22
+          }
+        },
+        {
+          "id": 7,
+          "type": "Issac",
+          "p": {
+            "x": 21,
+            "y": 18
+          }
+        },
+        {
+          "id": 8,
+          "type": "Ryth",
+          "p": {
+            "x": 26,
+            "y": 24
+          }
+        },
+        {
+          "id": 9,
+          "type": "Willow",
+          "p": {
+            "x": 26,
+            "y": 22
+          }
+        },
+        {
+          "id": 10,
+          "type": "Marcella",
+          "p": {
+            "x": 23,
+            "y": 21
+          }
+        }
+      ],
+      "killerPosition": {
+        "x": 23,
+        "y": 21
+      },
+      "killerVisible": true
+    },
+    {
+      "r": 596,
+      "p": {
+        "x": 22,
+        "y": 17
+      },
+      "hp": 2720,
+      "visibleEnemies": [
+        {
+          "id": 5,
+          "type": "HeartOfRuin",
+          "p": {
+            "x": 23,
+            "y": 20
+          }
+        },
+        {
+          "id": 6,
+          "type": "Cassi",
+          "p": {
+            "x": 25,
+            "y": 22
+          }
+        },
+        {
+          "id": 8,
+          "type": "Ryth",
+          "p": {
+            "x": 25,
+            "y": 23
+          }
+        },
+        {
+          "id": 9,
+          "type": "Willow",
+          "p": {
+            "x": 26,
+            "y": 22
+          }
+        },
+        {
+          "id": 10,
+          "type": "Marcella",
+          "p": {
+            "x": 23,
+            "y": 21
+          }
+        }
+      ],
+      "killerPosition": {
+        "x": 23,
+        "y": 21
+      },
+      "killerVisible": true
+    }
+  ],
+  "inputKinds": [],
+  "wardExports": [
+    "Game_API_Champion_GetWards",
+    "Game_API_Champion_GetWardPositions"
+  ]
+}

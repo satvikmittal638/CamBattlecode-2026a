@@ -1,0 +1,50 @@
+{
+  "at": "2026-10-23T07:44:54.761506+00:00",
+  "sourceVersion": 57,
+  "sourceUnchanged": true,
+  "scope": "Offline ML and cached local-game contextual-bandit experiments; no active bot changes/uploads.",
+  "selection": "Twenty strongest half-cohort opponents, four largest-deficit maps per opponent; intentionally heavy-loss-biased, not population-representative. Add20 current rank1 games as separate unseen-teacher imitation holdout.",
+  "observerGames": 80,
+  "expertGames": 100,
+  "opponentSplits": {
+    "26824601-d225-427f-bd2d-ce8aa9faa392": "train",
+    "a4350547-b7a1-47b1-9031-4f7f084ad0d8": "train",
+    "7fbd85fc-ea4a-422e-86f4-624b6b7e0c72": "train",
+    "36258abf-3fd0-4827-8fa5-2a217438cf6f": "train",
+    "3ec4a701-a9b5-498f-9361-eea4a6dd1cde": "train",
+    "59f5706f-16db-4ae0-bb3f-deadb41cdc50": "train",
+    "a1e82708-dfd3-4609-8b9a-69f652d12185": "train",
+    "fa706d6e-9f66-44b0-bd81-1ed3dad69a99": "train",
+    "8df7e1cd-0d60-413b-9331-f5427ce9ca88": "train",
+    "197f3952-fd35-499a-9a01-4abdf3196600": "train",
+    "616e95e4-36ee-4669-b9b6-edfe818a7470": "train",
+    "4851bec0-9af2-4413-a07b-c70bbb4cde21": "train",
+    "c0a5d0a5-eb8f-4aa7-8d6a-8e74ed78874c": "train",
+    "d559d741-ac53-411e-bc4e-36b8f3d12d5a": "train",
+    "bbe481a7-4575-4826-9a3e-f81c28205de8": "validation",
+    "38e6d8c4-1608-44f5-956b-08390f564336": "validation",
+    "547efb5b-57e5-4355-8501-3b331f506d62": "validation",
+    "de4b4211-4d8b-4755-a37f-3955b7cbdd8a": "test",
+    "d2ef7d2c-be90-44e8-be4e-807bc580cc7c": "test",
+    "de0b1e3c-39fb-473c-8244-61c1133ad612": "test"
+  },
+  "splitSizes": {
+    "train": 14,
+    "validation": 3,
+    "test": 3
+  },
+  "features": "Personal API observations at own turn start only; IDs, source names, match outcomes, future actions and map names excluded from model features. History updates only from already observed frames.",
+  "MLTargets": [
+    "Next visible enemy approach / unchanged-distance / retreat, with and without observed history",
+    "Expert own-turn action category; behavioral imitation is not an optimal-action or win-rate claim."
+  ],
+  "MLModels": [
+    "Training-majority / persistence baselines",
+    "Regularized multinomial logistic regression",
+    "Extra trees",
+    "Histogram gradient boosting"
+  ],
+  "evaluation": "Opponent-disjoint train/validation/test; rank1 teacher entirely separate. Report macro-F1, balanced accuracy, per-game accuracy and class prevalence. No random-frame split. No per-frame accuracy claim of strategy improvement.",
+  "RL": "Offline single-decision contextual bandit (REINFORCE) choosing v57 or Vesper-funnel at draft, from paired cached whole-game engine outcomes. Not multi-turn PPO. Group holdout maps and reserve opponent controllers. Compare fixed policies and random mixture.",
+  "deployment": "Any predictive gain requires a subsequent policy/in-engine trial; do not upload an offline accuracy result."
+}

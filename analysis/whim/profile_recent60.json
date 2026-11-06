@@ -1,0 +1,249 @@
+{
+ "dir": "top_replays/3_WHIM",
+ "matches": 60,
+ "winRate": 0.817,
+ "byMap": {
+  "packs": {
+   "games": 6,
+   "wins": 4
+  },
+  "interlock": {
+   "games": 7,
+   "wins": 5
+  },
+  "collision": {
+   "games": 9,
+   "wins": 9
+  },
+  "rows": {
+   "games": 7,
+   "wins": 7
+  },
+  "expanse": {
+   "games": 7,
+   "wins": 6
+  },
+  "monolith": {
+   "games": 5,
+   "wins": 5
+  },
+  "lanes": {
+   "games": 5,
+   "wins": 3
+  },
+  "elkring": {
+   "games": 5,
+   "wins": 3
+  },
+  "corners": {
+   "games": 9,
+   "wins": 7
+  }
+ },
+ "draftPickRate": {
+  "Varg": 1,
+  "Ryth": 1,
+  "Vendetta": 1,
+  "Ren": 0.63,
+  "Marcella": 0.4
+ },
+ "draftOrderTop": {
+  "1:Varg": 60,
+  "2:Ryth": 60,
+  "3:Vendetta": 60,
+  "4:Ren": 38,
+  "5:Marcella": 24
+ },
+ "avgRounds": 510.47,
+ "avgGemDiff": 371.1,
+ "perGame": {
+  "captures": 24.23,
+  "firstCaptureRound": 32.5,
+  "tributes": 20.23,
+  "gemsPerTribute": 51.9,
+  "firstTributeRound": 68.8,
+  "recalls": 20.17,
+  "wards": 0,
+  "altarLocks": 2.78,
+  "consumablesUsed": 0,
+  "kills": 5.77,
+  "deaths": 2.1,
+  "prioritySets": 0
+ },
+ "attackTargets": {
+  "champion": 7501,
+  "camp": 29960,
+  "other": 126
+ },
+ "campTargets": {
+  "GoldCluster": 1306,
+  "GemCluster": 4510,
+  "Wolf": 17923,
+  "Elk": 6221
+ },
+ "spatial": {
+  "enemyHalfFrac": 0.23,
+  "meanSpawnDistFrac": 0.38,
+  "groupedFrac": 0.4
+ },
+ "perChampion": {
+  "Varg": {
+   "games": 60,
+   "topBuildOrders": {
+    "Monster:Strength > Monster:Strength > Monster:Strength > Monster:Strength > Jungle:Health > Jungle:Health > Jungle:Health > Jungle:Health > Power:Strength > Power:Strength": 15,
+    "Monster:Strength > Monster:Strength > Monster:Strength > Monster:Strength > consumable2 > Jungle:Health > Jungle:Health > Jungle:Health > Jungle:Health > Power:Strength": 12,
+    "(none)": 6
+   },
+   "avgFinalItems": {
+    "Monster Emblem of Strength": 0.9,
+    "Power Emblem of Strength": 1.1,
+    "Power Emblem of Health": 0.2,
+    "Durability Emblem of Health": 0.5,
+    "Jungle Emblem of Health": 0.8,
+    "Bruiser Emblem of Strength": 0.5,
+    "Power Shard of Strength": 0.7,
+    "Bruiser Shard of Strength": 0.2,
+    "Power Shard of Health": 0.2,
+    "Durability Shard of Health": 0.1,
+    "Monster Shard of Strength": 0.1,
+    "Jungle Shard of Health": 0.1
+   },
+   "abilities": {
+    "Shield->champion": 1978,
+    "AttackReset->champion": 1390
+   },
+   "attacksPer100Rounds": 32.07,
+   "killsPerGame": 1.92,
+   "deathsPerGame": 0.4,
+   "gemsTributedPerGame": 292.13,
+   "recallsPerGame": 4.23
+  },
+  "Ryth": {
+   "games": 60,
+   "topBuildOrders": {
+    "Monster:Strength > Monster:Strength > Monster:Strength > Monster:Strength > Jungle:Health > Jungle:Health > Jungle:Health > Jungle:Health > Power:Strength > Power:Strength": 23,
+    "Monster:Strength > Monster:Strength > Monster:Strength > Monster:Strength > consumable2 > Jungle:Health > Jungle:Health > Jungle:Health > Jungle:Health > Power:Strength": 5,
+    "Monster:Strength > Monster:Strength > Monster:Strength > Monster:Strength > Jungle:Health > consumable2 > Jungle:Health > Jungle:Health > Jungle:Health > Power:Strength": 4
+   },
+   "avgFinalItems": {
+    "Monster Emblem of Strength": 0.9,
+    "Power Emblem of Strength": 1.1,
+    "Jungle Emblem of Health": 0.7,
+    "Durability Shard of Health": 0.1,
+    "Power Shard of Strength": 0.4,
+    "Durability Emblem of Health": 0.6,
+    "Bruiser Emblem of Strength": 0.5,
+    "Power Shard of Health": 0.2,
+    "Bruiser Shard of Strength": 0.1,
+    "Jungle Shard of Health": 0.3,
+    "Monster Shard of Strength": 0.3,
+    "Power Emblem of Health": 0.1
+   },
+   "abilities": {
+    "AttackReset->champion": 1353,
+    "AoeDamage->camp": 975,
+    "AoeDamage->champion": 343
+   },
+   "attacksPer100Rounds": 30.65,
+   "killsPerGame": 1.23,
+   "deathsPerGame": 0.75,
+   "gemsTributedPerGame": 228.88,
+   "recallsPerGame": 4.78
+  },
+  "Vendetta": {
+   "games": 60,
+   "topBuildOrders": {
+    "Monster:Strength > Monster:Strength > Monster:Strength > Monster:Strength > Jungle:Health > Jungle:Health > Jungle:Health > Jungle:Health > Power:Strength > Power:Strength": 32,
+    "Monster:Strength > Monster:Strength > Monster:Strength > Monster:Strength > Jungle:Health > consumable2 > Jungle:Health > Jungle:Health > Jungle:Health > Power:Strength": 5,
+    "Monster:Strength > Monster:Strength > Monster:Strength > Monster:Strength > Jungle:Health > Jungle:Health > Jungle:Health > Jungle:Health > consumable2 > Power:Strength": 3
+   },
+   "avgFinalItems": {
+    "Monster Emblem of Strength": 1,
+    "Power Emblem of Strength": 1.8,
+    "Power Shard of Health": 0.4,
+    "Power Emblem of Health": 0.6,
+    "Durability Emblem of Health": 0.8,
+    "Jungle Emblem of Health": 0.9,
+    "Bruiser Emblem of Strength": 0.7,
+    "Power Shard of Strength": 0.7,
+    "Monster Shard of Strength": 0.1,
+    "Bruiser Shard of Strength": 0.2,
+    "Durability Shard of Health": 0.1,
+    "Jungle Shard of Health": 0
+   },
+   "abilities": {
+    "Dash->tile": 2000,
+    "AttackReset->champion": 1740
+   },
+   "attacksPer100Rounds": 32.86,
+   "killsPerGame": 1.37,
+   "deathsPerGame": 0.48,
+   "gemsTributedPerGame": 305.68,
+   "recallsPerGame": 5.98
+  },
+  "Ren": {
+   "games": 38,
+   "topBuildOrders": {
+    "Monster:Strength > Monster:Strength > Monster:Strength > Monster:Strength > Jungle:Health > Jungle:Health > Jungle:Health > Jungle:Health > Power:Strength > Power:Strength": 17,
+    "Monster:Strength > Monster:Strength > Monster:Strength > Monster:Strength > Jungle:Health > consumable2 > Jungle:Health > Jungle:Health > Jungle:Health > Power:Strength": 5,
+    "Monster:Strength > consumable2 > Monster:Strength > Monster:Strength > Monster:Strength > Jungle:Health > Jungle:Health > Jungle:Health > Jungle:Health": 2
+   },
+   "avgFinalItems": {
+    "Monster Emblem of Strength": 0.9,
+    "Jungle Shard of Health": 0.2,
+    "Power Shard of Strength": 0.7,
+    "Power Emblem of Strength": 1.3,
+    "Durability Emblem of Health": 0.6,
+    "Jungle Emblem of Health": 0.8,
+    "Bruiser Emblem of Strength": 0.5,
+    "Power Shard of Health": 0.5,
+    "Durability Shard of Health": 0.3,
+    "Power Emblem of Health": 0.1,
+    "Bruiser Shard of Strength": 0.1,
+    "Monster Shard of Strength": 0.2
+   },
+   "abilities": {
+    "Dash->tile": 1234,
+    "Cc->camp": 644,
+    "Cc->champion": 227
+   },
+   "attacksPer100Rounds": 27.2,
+   "killsPerGame": 1.16,
+   "deathsPerGame": 0.37,
+   "gemsTributedPerGame": 230.37,
+   "recallsPerGame": 5.5
+  },
+  "Marcella": {
+   "games": 24,
+   "topBuildOrders": {
+    "Monster:Strength > Monster:Strength > Monster:Strength > Monster:Strength > Jungle:Health > Jungle:Health > Jungle:Health > Jungle:Health > Power:Strength > Power:Strength": 7,
+    "Monster:Strength > Monster:Strength > Monster:Strength > Monster:Strength > Jungle:Health > consumable2 > Jungle:Health > Jungle:Health > Jungle:Health > Power:Strength": 4,
+    "Monster:Strength > Monster:Strength > Monster:Strength > Monster:Strength > consumable2": 2
+   },
+   "avgFinalItems": {
+    "Monster Emblem of Strength": 0.8,
+    "Power Emblem of Strength": 0.9,
+    "Durability Shard of Health": 0.8,
+    "Jungle Emblem of Health": 0.7,
+    "Monster Shard of Strength": 0.4,
+    "Durability Emblem of Health": 0.3,
+    "Bruiser Shard of Strength": 0.3,
+    "Power Shard of Strength": 0.3,
+    "Bruiser Emblem of Strength": 0.2,
+    "Power Emblem of Health": 0.1,
+    "Jungle Shard of Health": 0.2,
+    "Power Shard of Health": 0.2
+   },
+   "abilities": {
+    "AttackReset->champion": 525,
+    "Damage->camp": 355,
+    "Damage->champion": 169
+   },
+   "attacksPer100Rounds": 30.93,
+   "killsPerGame": 1.29,
+   "deathsPerGame": 0.58,
+   "gemsTributedPerGame": 193.83,
+   "recallsPerGame": 4.21
+  }
+ }
+}

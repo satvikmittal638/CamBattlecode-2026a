@@ -1,0 +1,13 @@
+motion state_logistic validation F1 0.44715 test F1 0.45304
+motion state_extra_trees validation F1 0.45449 test F1 0.50178
+motion state_hist_boost validation F1 0.46187 test F1 0.50859
+motion history_logistic validation F1 0.46427 test F1 0.50248
+motion history_extra_trees validation F1 0.48547 test F1 0.55126
+motion history_hist_boost validation F1 0.51519 test F1 0.57623
+action state_logistic validation F1 0.34061 test F1 0.37984
+action state_extra_trees validation F1 0.49505 test F1 0.56398
+action state_hist_boost validation F1 0.54151 test F1 0.60021
+action history_logistic validation F1 0.39228 test F1 0.46319
+action history_extra_trees validation F1 0.63776 test F1 0.67348
+action history_hist_boost validation F1 0.6409 test F1 0.70035
+All supervised experiments complete

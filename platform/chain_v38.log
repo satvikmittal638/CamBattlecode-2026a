@@ -1,0 +1,402 @@
+2026-10-20T19:30:51Z start v38
+2026-10-20T19:30:52.536Z version 38 active
+2026-10-20T19:30:54.059Z sent r10 -> 66acb581-a4ad-4b74-805c-e0cc2d5ae1f4
+2026-10-20T19:30:55.841Z sent r24 -> 54075792-b4d2-4ea5-ab89-6aa6eb6eca6e
+2026-10-20T19:30:57.151Z sent r39 -> d47e4ae1-9222-433e-b0d2-d5886cebb237
+2026-10-20T19:30:59.568Z sent r54 -> 5e8dfe7c-0db7-4ef4-84bb-a7eb7967d97a
+2026-10-20T19:31:01.390Z sent r69 -> a53b0075-3649-4119-af5e-abc670bd8ae5
+2026-10-20T19:31:03.438Z sent r84 -> c30a5d2a-8bd6-4b67-81ee-34dea3bc6955
+2026-10-20T19:31:04.843Z sent r99 -> 57d0c016-c33a-453d-b465-c6112f476688
+2026-10-20T19:31:06.201Z sent r114 -> d60e9bd5-3cd0-413b-9659-a59b85419242
+2026-10-20T19:31:07.608Z sent r129 -> 2309fbd7-8e9a-4a90-a4c3-9ec5eafcf492
+2026-10-20T19:31:08.827Z sent r145 -> 02652a9b-aeed-47c6-b1e6-7eeab60b6cdb
+2026-10-20T19:31:10.119Z sent r159 -> 0f77ad21-57dd-421b-8f8e-fb1f478ff960
+2026-10-20T19:31:11.457Z sent r174 -> 3bf39de6-93af-41f9-830a-ad23fa529c75
+2026-10-20T19:31:12.570Z sent r189 -> ad6bab8f-ab1c-4694-806b-08ee99937153
+2026-10-20T19:31:13.708Z sent r205 -> cd7ffce6-82a2-4782-b486-ede2dfd5b823
+2026-10-20T19:31:15.136Z sent r219 -> b34876e2-4284-42b2-8631-33199c2ea5c0
+2026-10-20T19:31:16.608Z sent r234 -> 9ed5d435-7075-470d-9c97-182a2d78f02b
+2026-10-20T19:31:17.691Z sent r249 -> 13be4ada-37c2-4f0c-adbb-57971c50c886
+2026-10-20T19:31:19.001Z sent r264 -> 25735bef-5a3c-4a81-a6d5-90ecaf7bfb61
+2026-10-20T19:31:20.461Z sent r279 -> 035039ce-1103-40c2-b3dc-3668b4cdfc92
+2026-10-20T19:31:21.595Z sent r295 -> 6d3d6d62-43c6-4dcd-bd6a-5b255483df66
+2026-10-20T19:31:27.509Z groups {"finished":1,"queued":19}
+2026-10-20T19:32:32.962Z groups {"finished":9,"running":1,"queued":10}
+2026-10-20T19:33:37.166Z groups {"finished":14,"queued":6}
+2026-10-20T19:34:41.655Z groups {"finished":20}
+2026-10-20T19:37:56.299Z done
+v38: 55/100 wins (/Users/dmitt/Desktop/CamBattlecode/platform/unranked_v38)
+ALL         v38 55/100 | v33 56/100 | v36 56/100 | v37 51/100
+boss maps   v38 5/10 | v33 5/10 | v36 4/10 | v37 4/10
+tier 1-60    v38 2/20 | v33 2/20 | v36 5/20 | v37 3/20
+tier 61-130  v38 10/25 | v33 13/25 | v36 9/25 | v37 9/25
+tier 131-200 v38 12/20 | v33 12/20 | v36 12/20 | v37 11/20
+tier 201-300 v38 31/35 | v33 29/35 | v36 30/35 | v37 28/35
+v38 vs v33: flips +12/-13
+v38 vs v36: flips +8/-9
+v38 vs v37: flips +7/-3
+UNLOCKED
+LOCKED by v36-rerun
+{
+ "team": {
+  "id": "6b04505b-d16c-4196-b7c6-53a4688a32ca",
+  "name": "Agentic Loop Builders"
+ },
+ "submissionGrace": null,
+ "frozen": false,
+ "submissionPause": null,
+ "compilationPaused": false,
+ "upcomingTournament": null,
+ "compilerAvailable": true,
+ "active": {
+  "id": "6d82989d-4318-44e0-b4da-ad134ef870f3",
+  "version": 38,
+  "note": null,
+  "fileName": "bot.zip",
+  "language": "cpp",
+  "status": "active",
+  "size": 71521,
+  "uploadedBy": "2003fc6d-fb3d-40aa-9d58-6d709e54f7b9",
+  "createdAt": "2026-10-20T19:25:36.905Z",
+  "statusAt": "2026-10-20T19:35:00.022Z",
+  "hasLog": true,
+  "active": true
+ },
+ "selected": {
+  "id": "f8204905-2aa6-43a4-baf5-011fa77e7fff",
+  "version": 36,
+  "note": null,
+  "fileName": "bot.zip",
+  "language": "cpp",
+  "status": "queued",
+  "size": 70825,
+  "uploadedBy": "2003fc6d-fb3d-40aa-9d58-6d709e54f7b9",
+  "createdAt": "2026-10-20T17:32:15.702Z",
+  "statusAt": "2026-10-20T19:37:57.033Z",
+  "hasLog": true,
+  "active": false
+ },
+ "pinned": true,
+ "submissions": [
+  {
+   "id": "6d82989d-4318-44e0-b4da-ad134ef870f3",
+   "version": 38,
+   "note": null,
+   "fileName": "bot.zip",
+   "language": "cpp",
+   "status": "active",
+   "size": 71521,
+   "uploadedBy": "2003fc6d-fb3d-40aa-9d58-6d709e54f7b9",
+   "createdAt": "2026-10-20T19:25:36.905Z",
+   "statusAt": "2026-10-20T19:35:00.022Z",
+   "hasLog": true,
+   "active": true
+  },
+  {
+   "id": "d6f34d2c-1ed9-4aeb-831f-9c2142539d90",
+   "version": 37,
+   "note": null,
+   "fileName": "bot.zip",
+   "language": "cpp",
+   "status": "inactive",
+   "size": 70823,
+   "uploadedBy": "2003fc6d-fb3d-40aa-9d58-6d709e54f7b9",
+   "createdAt": "2026-10-20T18:06:11.928Z",
+   "statusAt": "2026-10-20T18:55:48.566Z",
+   "hasLog": true,
+   "active": false
+  },
+  {
+   "id": "f8204905-2aa6-43a4-baf5-011fa77e7fff",
+   "version": 36,
+   "note": null,
+   "fileName": "bot.zip",
+   "language": "cpp",
+   "status": "queued",
+   "size": 70825,
+   "uploadedBy": "2003fc6d-fb3d-40aa-9d58-6d709e54f7b9",
+   "createdAt": "2026-10-20T17:32:15.702Z",
+   "statusAt": "2026-10-20T19:37:57.033Z",
+   "hasLog": true,
+   "active": false
+  },
+  {
+   "id": "f334f551-c66f-4afd-afde-3d09e24641ec",
+   "version": 35,
+   "note": null,
+   "fileName": "bot.zip",
+   "language": "cpp",
+   "status": "inactive",
+   "size": 70493,
+   "uploadedBy": "2003fc6d-fb3d-40aa-9d58-6d709e54f7b9",
+   "createdAt": "2026-10-20T17:17:01.020Z",
+   "statusAt": "2026-10-20T17:34:24.977Z",
+   "hasLog": true,
+   "active": false
+  },
+  {
+   "id": "4a117ee1-306f-40d1-990e-37f7e473cba8",
+   "version": 34,
+   "note": null,
+   "fileName": "bot.zip",
+   "language": "cpp",
+   "status": "inactive",
+   "size": 69878,
+   "uploadedBy": "2003fc6d-fb3d-40aa-9d58-6d709e54f7b9",
+   "createdAt": "2026-10-20T16:55:40.865Z",
+   "statusAt": "2026-10-20T17:20:51.074Z",
+   "hasLog": true,
+   "active": false
+  },
+  {
+   "id": "e658c55b-75a0-4bb1-8371-2186cd1b442b",
+   "version": 33,
+   "note": null,
+   "fileName": "bot.zip",
+   "language": "cpp",
+   "status": "inactive",
+   "size": 69878,
+   "uploadedBy": "2003fc6d-fb3d-40aa-9d58-6d709e54f7b9",
+   "createdAt": "2026-10-20T16:37:48.034Z",
+   "statusAt": "2026-10-20T17:00:47.314Z",
+   "hasLog": true,
+   "active": false
+  },
+  {
+   "id": "8f48483c-10c5-4f65-8877-ca16a33c6ed8",
+   "version": 32,
+   "note": null,
+   "fileName": "bot.zip",
+   "language": "cpp",
+   "status": "inactive",
+   "size": 69216,
+   "uploadedBy": "2003fc6d-fb3d-40aa-9d58-6d709e54f7b9",
+   "createdAt": "2026-10-20T14:23:38.108Z",
+   "statusAt": "2026-10-20T16:41:00.915Z",
+   "hasLog": true,
+   "active": false
+  },
+  {
+   "id": "e61a4e84-6303-40c2-958b-5d29b5428bad",
+   "version": 31,
+   "note": null,
+   "fileName": "bot.zip",
+   "language": "cpp",
+   "status": "inactive",
+   "size": 67611,
+   "uploadedBy": "2003fc6d-fb3d-40aa-9d58-6d709e54f7b9",
+   "createdAt": "2026-10-20T12:43:44.954Z",
+   "statusAt": "2026-10-20T14:32:46.479Z",
+   "hasLog": true,
+   "active": false
+  },
+  {
+   "id": "7df3e7ef-2abe-475f-8bb5-871271f1beb5",
+   "version": 30,
+   "note": null,
+   "fileName": "bot.zip",
+   "language": "cpp",
+   "status": "inactive",
+   "size": 64980,
+   "uploadedBy": "70410a67-73c5-4450-9634-694d274525b1",
+   "createdAt": "2026-10-20T08:04:34.274Z",
+   "statusAt": "2026-10-20T12:49:04.632Z",
+   "hasLog": true,
+   "active": false
+  },
+  {
+   "id": "52e64b88-4c0f-4e18-808a-b93c4b976056",
+   "version": 29,
+   "note": null,
+   "fileName": "bot.zip",
+   "language": "cpp",
+   "status": "inactive",
+   "size": 57659,
+   "uploadedBy": "2003fc6d-fb3d-40aa-9d58-6d709e54f7b9",
+   "createdAt": "2026-10-20T07:58:01.898Z",
+   "statusAt": "2026-10-20T12:49:04.632Z",
+   "hasLog": true,
+   "active": false
+  },
+  {
+   "id": "937cdd72-a834-4380-af22-b204613f38c8",
+   "version": 28,
+   "note": null,
+   "fileName": "bot.zip",
+   "language": "cpp",
+   "status": "inactive",
+   "size": 64953,
+   "uploadedBy": "70410a67-73c5-4450-9634-694d274525b1",
+   "createdAt": "2026-10-20T07:37:35.363Z",
+   "statusAt": "2026-10-20T18:26:01.520Z",
+   "hasLog": true,
+   "active": false
+  },
+  {
+   "id": "8cdf48e3-e973-48d5-90be-f41565b22a20",
+   "version": 27,
+   "note": null,
+   "fileName": "bot.zip",
+   "language": "cpp",
+   "status": "inactive",
+   "size": 54510,
+   "uploadedBy": "2003fc6d-fb3d-40aa-9d58-6d709e54f7b9",
+   "createdAt": "2026-10-20T06:55:41.673Z",
+   "statusAt": "2026-10-20T08:00:47.322Z",
+   "hasLog": true,
+   "active": false
+  },
+  {
+   "id": "4f38cbc0-a230-47f3-b62f-92ac40e0df8b",
+   "version": 26,
+   "note": null,
+   "fileName": "bot.zip",
+   "language": "cpp",
+   "status": "inactive",
+   "size": 54028,
+   "uploadedBy": "2003fc6d-fb3d-40aa-9d58-6d709e54f7b9",
+   "createdAt": "2026-10-20T05:35:49.473Z",
+   "statusAt": "2026-10-20T07:01:12.639Z",
+   "hasLog": true,
+   "active": false
+  },
+  {
+   "id": "6c3263d7-cb06-45b9-8321-ef80028fbd53",
+   "version": 25,
+   "note": null,
+   "fileName": "bot.zip",
+   "language": "cpp",
+   "status": "inactive",
+   "size": 58345,
+   "uploadedBy": "70410a67-73c5-4450-9634-694d274525b1",
+   "createdAt": "2026-10-19T22:58:07.942Z",
+   "statusAt": "2026-10-20T18:26:02.391Z",
+   "hasLog": true,
+   "active": false
+  },
+  {
+   "id": "3b78f990-5810-4d21-b1a2-b6328af2fcdf",
+   "version": 24,
+   "note": null,
+   "fileName": "bot.zip",
+   "language": "cpp",
+   "status": "inactive",
+   "size": 119159,
+   "uploadedBy": "70410a67-73c5-4450-9634-694d274525b1",
+   "createdAt": "2026-10-18T17:33:26.538Z",
+   "statusAt": "2026-10-18T17:42:06.211Z",
+   "hasLog": true,
+   "active": false
+  },
+  {
+   "id": "fef6b399-f843-44a2-ba38-84472e1d5722",
+   "version": 23,
+   "note": null,
+   "fileName": "bot.zip",
+   "language": "cpp",
+   "status": "inactive",
+   "size": 74153,
+   "uploadedBy": "70410a67-73c5-4450-9634-694d274525b1",
+   "createdAt": "2026-10-18T17:22:59.903Z",
+   "statusAt": "2026-10-18T17:31:01.673Z",
+   "hasLog": true,
+   "active": false
+  },
+  {
+   "id": "1b090d36-2c5b-490d-8dfb-94aff8a04d7b",
+   "version": 22,
+   "note": null,
+   "fileName": "bot.zip",
+   "language": "cpp",
+   "status": "inactive",
+   "size": 73670,
+   "uploadedBy": "70410a67-73c5-4450-9634-694d274525b1",
+   "createdAt": "2026-10-18T17:07:30.549Z",
+   "statusAt": "2026-10-18T17:19:57.841Z",
+   "hasLog": true,
+   "active": false
+  },
+  {
+   "id": "f3d21cf7-4ec0-4a0a-b091-879dc30bc380",
+   "version": 21,
+   "note": null,
+   "fileName": "bot.zip",
+   "language": "cpp",
+   "status": "inactive",
+   "size": 44614,
+   "uploadedBy": "70410a67-73c5-4450-9634-694d274525b1",
+   "createdAt": "2026-10-18T14:01:11.563Z",
+   "statusAt": "2026-10-19T23:01:06.228Z",
+   "hasLog": true,
+   "active": false
+  },
+  {
+   "id": "466335e5-e773-4bed-b7b3-27e4b4cccee3",
+   "version": 20,
+   "note": null,
+   "fileName": "bot.zip",
+   "language": "cpp",
+   "status": "inactive",
+   "size": 50075,
+   "uploadedBy": "70410a67-73c5-4450-9634-694d274525b1",
+   "createdAt": "2026-10-18T08:32:39.321Z",
+   "statusAt": "2026-10-18T08:36:47.258Z",
+   "hasLog": true,
+   "active": false
+  },
+  {
+   "id": "1051c674-7c8d-4909-9a99-70556b8af898",
+   "version": 19,
+   "note": null,
+   "fileName": "bot.zip",
+   "language": "cpp",
+   "status": "inactive",
+   "size": 49341,
+   "uploadedBy": "70410a67-73c5-4450-9634-694d274525b1",
+   "createdAt": "2026-10-18T08:11:48.709Z",
+   "statusAt": "2026-10-18T08:33:11.409Z",
+   "hasLog": true,
+   "active": false
+  }
+ ],
+ "more": true,
+ "maxBytes": 5242880
+}
+2026-10-20T19:40:31.761Z version 36 active
+2026-10-20T19:40:33.910Z sent r10 -> b53c80c0-4ad2-4558-9b2a-dac285325f8a
+2026-10-20T19:40:35.549Z sent r24 -> 3880c4b0-fcd5-4ed7-9bdf-48256a90667a
+2026-10-20T19:40:36.980Z sent r39 -> 5f4e8572-1109-41f6-b9a3-118c2da65bb8
+2026-10-20T19:40:38.173Z sent r54 -> 4f8180ef-a7f0-4ed2-aeeb-ce8728fa4227
+2026-10-20T19:40:39.721Z sent r69 -> d2c5416f-332a-4c5e-9408-6f10e75b2a89
+2026-10-20T19:40:41.006Z sent r84 -> 278e4ea9-aca3-49b9-ae8a-c1c4367e535f
+2026-10-20T19:40:42.444Z sent r99 -> c740b32c-50e8-4a42-8daa-84b552642fcd
+2026-10-20T19:40:43.425Z sent r114 -> b5ae8087-e046-4642-92f0-c751d2336eee
+2026-10-20T19:40:44.428Z sent r129 -> 4eb3b8c2-1b66-4df7-9703-02613e7f734d
+2026-10-20T19:40:45.523Z sent r145 -> 6f0c96d8-f384-4b3d-b980-5ffc31e8a9ff
+2026-10-20T19:40:46.459Z sent r159 -> 525846ae-55f2-454a-b14b-01c55c7c5590
+2026-10-20T19:40:47.362Z sent r174 -> e9d31e6c-d532-43dd-9690-c728bda351f6
+2026-10-20T19:40:48.420Z sent r189 -> 2b54c59e-7040-43e6-984f-33ca3c8ec06f
+2026-10-20T19:40:49.527Z sent r205 -> 998a5b17-f638-45b9-8be3-60c53d8fed13
+2026-10-20T19:40:50.614Z sent r219 -> de6d9a9a-d867-4d36-8fb3-beafb3f4deb5
+2026-10-20T19:40:51.012Z quota 50/50, next slot at 2026-10-20T19:42:22.489Z
+2026-10-20T19:42:26.036Z sent r234 -> ac4c940d-e515-4a93-a9e1-dc6890803bd5
+2026-10-20T19:42:27.359Z sent r249 -> 0f233d93-285f-40bd-bcae-1fad8896e20a
+2026-10-20T19:42:28.306Z sent r264 -> cb1efe06-0724-49f3-b55e-0e06bb3513d0
+2026-10-20T19:42:29.416Z sent r279 -> 524f4275-7628-4ea6-9841-e0151f3b7c52
+2026-10-20T19:42:30.579Z sent r295 -> 106a7ba9-a361-47de-b18f-293dd1167d98
+2026-10-20T19:42:35.302Z groups {"finished":5,"running":1,"queued":14}
+2026-10-20T19:43:40.802Z groups {"finished":15,"running":2,"queued":3}
+2026-10-20T19:44:46.253Z groups {"finished":20}
+2026-10-20T19:47:53.891Z done
+v36: 52/100 wins (/Users/dmitt/Desktop/CamBattlecode/platform/unranked_v36c)
+ALL         v36 52/100 | v38 55/100 | v33 56/100 | v36 56/100 | v37 51/100
+boss maps   v36 4/10 | v38 5/10 | v33 5/10 | v36 4/10 | v37 4/10
+tier 1-60    v36 4/20 | v38 2/20 | v33 2/20 | v36 5/20 | v37 3/20
+tier 61-130  v36 8/25 | v38 10/25 | v33 13/25 | v36 9/25 | v37 9/25
+tier 131-200 v36 10/20 | v38 12/20 | v33 12/20 | v36 12/20 | v37 11/20
+tier 201-300 v36 30/35 | v38 31/35 | v33 29/35 | v36 30/35 | v37 28/35
+v36 vs v38: flips +5/-8
+v36 vs v33: flips +8/-12
+v36 vs v36: flips +1/-5
+v36 vs v37: flips +7/-6
+2026-10-20T19:47:53Z chain done

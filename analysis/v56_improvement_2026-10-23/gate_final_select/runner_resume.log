@@ -1,0 +1,436 @@
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-v56-frozen
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/dmitt/Library/Caches/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-v56-frozen/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-v56-frozen/src/boss_main.cpp.obj
+[2/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-v56-frozen/src/main.cpp.obj
+[3/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-v56-frozen/src/boss/draft.cpp.obj
+[4/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-v56-frozen/src/draft.cpp.obj
+[5/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-v56-frozen/src/boss/bot.cpp.obj
+[6/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-v56-frozen/src/bot.cpp.obj
+[7/8] Linking CXX executable bot.wasm
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-codex-v55
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/dmitt/Library/Caches/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-codex-v55/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-codex-v55/src/boss_main.cpp.obj
+[2/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-codex-v55/src/boss/draft.cpp.obj
+[3/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-codex-v55/src/main.cpp.obj
+[4/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-codex-v55/src/draft.cpp.obj
+[5/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-codex-v55/src/boss/bot.cpp.obj
+[6/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-codex-v55/src/bot.cpp.obj
+[7/8] Linking CXX executable bot.wasm
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-mimic-mite
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/dmitt/Library/Caches/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-mimic-mite/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-mimic-mite/src/draft.cpp.obj
+[2/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-mimic-mite/src/main.cpp.obj
+[3/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-mimic-mite/src/bot.cpp.obj
+[4/5] Linking CXX executable bot.wasm
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-mimic-shink
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/dmitt/Library/Caches/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-mimic-shink/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-mimic-shink/src/main.cpp.obj
+[2/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-mimic-shink/src/draft.cpp.obj
+/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-mimic-shink/src/draft.cpp:24:23: warning: enumeration value 'golem' not handled in switch [-Wswitch]
+   24 |             switch (c.kind()) {
+      |                     ~~^~~~~~
+1 warning generated.
+[3/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-mimic-shink/src/bot.cpp.obj
+[4/5] Linking CXX executable bot.wasm
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-mimic-whim
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/dmitt/Library/Caches/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-mimic-whim/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-mimic-whim/src/main.cpp.obj
+[2/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-mimic-whim/src/draft.cpp.obj
+[3/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-mimic-whim/src/bot.cpp.obj
+[4/5] Linking CXX executable bot.wasm
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-v27
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/dmitt/Library/Caches/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-v27/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-v27/src/boss_main.cpp.obj
+[2/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-v27/src/boss/draft.cpp.obj
+[3/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-v27/src/draft.cpp.obj
+[4/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-v27/src/main.cpp.obj
+[5/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-v27/src/bot.cpp.obj
+[6/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-v27/src/boss/bot.cpp.obj
+[7/8] Linking CXX executable bot.wasm
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-codex-v57-simple
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/dmitt/Library/Caches/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-codex-v57-simple/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-codex-v57-simple/src/boss/draft.cpp.obj
+[2/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-codex-v57-simple/src/boss_main.cpp.obj
+[3/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-codex-v57-simple/src/main.cpp.obj
+[4/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-codex-v57-simple/src/draft.cpp.obj
+[5/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-codex-v57-simple/src/boss/bot.cpp.obj
+[6/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-codex-v57-simple/src/bot.cpp.obj
+[7/8] Linking CXX executable bot.wasm
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-codex-v57
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/dmitt/Library/Caches/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-codex-v57/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-codex-v57/src/boss_main.cpp.obj
+[2/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-codex-v57/src/boss/draft.cpp.obj
+[3/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-codex-v57/src/main.cpp.obj
+[4/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-codex-v57/src/draft.cpp.obj
+[5/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-codex-v57/src/boss/bot.cpp.obj
+[6/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/vf14a245-codex-v57/src/bot.cpp.obj
+[7/8] Linking CXX executable bot.wasm
+[|] STARTING  vf14a245-v56-frozen vs vf14a245-v56-frozen  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/base/v56-frozen/00contest/a.repl26a
+[|] STARTING  vf14a245-v56-frozen vs vf14a245-v56-frozen  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/base/v56-frozen/00contest/b.repl26a
+[|] STARTING  vf14a245-v56-frozen vs vf14a245-v56-frozen  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/base/v56-frozen/01boss-battle/a.repl26a
+[|] STARTING  vf14a245-v56-frozen vs vf14a245-v56-frozen  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/base/v56-frozen/01boss-battle/b.repl26a
+[|] STARTING  vf14a245-v56-frozen vs vf14a245-codex-v55  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/base/codex-v55/00contest/a.repl26a
+[|] STARTING  vf14a245-codex-v55 vs vf14a245-v56-frozen  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/base/codex-v55/00contest/b.repl26a
+[+] TEAM A WIN (vf14a245-codex-v55)  vf14a245-codex-v55 vs vf14a245-v56-frozen  00contest  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/base/codex-v55/00contest/b.repl26a
+[|] STARTING  vf14a245-v56-frozen vs vf14a245-codex-v55  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/base/codex-v55/01boss-battle/a.repl26a
+[+] TEAM A WIN (vf14a245-v56-frozen)  vf14a245-v56-frozen vs vf14a245-v56-frozen  00contest  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/base/v56-frozen/00contest/a.repl26a
+[+] TEAM A WIN (vf14a245-v56-frozen)  vf14a245-v56-frozen vs vf14a245-v56-frozen  00contest  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/base/v56-frozen/00contest/b.repl26a
+[+] TEAM A WIN (vf14a245-v56-frozen)  vf14a245-v56-frozen vs vf14a245-codex-v55  00contest  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/base/codex-v55/00contest/a.repl26a
+[|] STARTING  vf14a245-codex-v55 vs vf14a245-v56-frozen  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/base/codex-v55/01boss-battle/b.repl26a
+[|] STARTING  vf14a245-v56-frozen vs vf14a245-mimic-mite  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/base/mimic-mite/00contest/a.repl26a
+[|] STARTING  vf14a245-mimic-mite vs vf14a245-v56-frozen  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/base/mimic-mite/00contest/b.repl26a
+[+] TEAM B WIN (vf14a245-v56-frozen)  vf14a245-v56-frozen vs vf14a245-v56-frozen  01boss-battle  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/base/v56-frozen/01boss-battle/a.repl26a
+[+] TEAM B WIN (vf14a245-v56-frozen)  vf14a245-v56-frozen vs vf14a245-v56-frozen  01boss-battle  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/base/v56-frozen/01boss-battle/b.repl26a
+[|] STARTING  vf14a245-v56-frozen vs vf14a245-mimic-mite  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/base/mimic-mite/01boss-battle/a.repl26a
+[|] STARTING  vf14a245-mimic-mite vs vf14a245-v56-frozen  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/base/mimic-mite/01boss-battle/b.repl26a
+[+] TEAM A WIN (vf14a245-v56-frozen)  vf14a245-v56-frozen vs vf14a245-mimic-mite  00contest  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/base/mimic-mite/00contest/a.repl26a
+[+] TEAM B WIN (vf14a245-v56-frozen)  vf14a245-mimic-mite vs vf14a245-v56-frozen  00contest  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/base/mimic-mite/00contest/b.repl26a
+[|] STARTING  vf14a245-v56-frozen vs vf14a245-mimic-shink  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/base/mimic-shink/00contest/a.repl26a
+[|] STARTING  vf14a245-mimic-shink vs vf14a245-v56-frozen  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/base/mimic-shink/00contest/b.repl26a
+[+] TEAM B WIN (vf14a245-codex-v55)  vf14a245-v56-frozen vs vf14a245-codex-v55  01boss-battle  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/base/codex-v55/01boss-battle/a.repl26a
+[|] STARTING  vf14a245-v56-frozen vs vf14a245-mimic-shink  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/base/mimic-shink/01boss-battle/a.repl26a
+[+] TEAM B WIN (vf14a245-v56-frozen)  vf14a245-codex-v55 vs vf14a245-v56-frozen  01boss-battle  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/base/codex-v55/01boss-battle/b.repl26a
+[|] STARTING  vf14a245-mimic-shink vs vf14a245-v56-frozen  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/base/mimic-shink/01boss-battle/b.repl26a
+[+] TEAM A WIN (vf14a245-v56-frozen)  vf14a245-v56-frozen vs vf14a245-mimic-shink  00contest  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/base/mimic-shink/00contest/a.repl26a
+[+] TEAM B WIN (vf14a245-v56-frozen)  vf14a245-mimic-shink vs vf14a245-v56-frozen  00contest  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/base/mimic-shink/00contest/b.repl26a
+[|] STARTING  vf14a245-v56-frozen vs vf14a245-mimic-whim  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/base/mimic-whim/00contest/a.repl26a
+[|] STARTING  vf14a245-mimic-whim vs vf14a245-v56-frozen  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/base/mimic-whim/00contest/b.repl26a
+[+] TEAM B WIN (vf14a245-v56-frozen)  vf14a245-mimic-mite vs vf14a245-v56-frozen  01boss-battle  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/base/mimic-mite/01boss-battle/b.repl26a
+[|] STARTING  vf14a245-v56-frozen vs vf14a245-mimic-whim  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/base/mimic-whim/01boss-battle/a.repl26a
+[+] TEAM A WIN (vf14a245-v56-frozen)  vf14a245-v56-frozen vs vf14a245-mimic-shink  01boss-battle  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/base/mimic-shink/01boss-battle/a.repl26a
+[+] TEAM B WIN (vf14a245-v56-frozen)  vf14a245-mimic-shink vs vf14a245-v56-frozen  01boss-battle  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/base/mimic-shink/01boss-battle/b.repl26a
+[|] STARTING  vf14a245-mimic-whim vs vf14a245-v56-frozen  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/base/mimic-whim/01boss-battle/b.repl26a
+[|] STARTING  vf14a245-v56-frozen vs vf14a245-v27  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/base/v27/00contest/a.repl26a
+[+] TEAM A WIN (vf14a245-v56-frozen)  vf14a245-v56-frozen vs vf14a245-mimic-mite  01boss-battle  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/base/mimic-mite/01boss-battle/a.repl26a
+[|] STARTING  vf14a245-v27 vs vf14a245-v56-frozen  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/base/v27/00contest/b.repl26a
+[+] TEAM A WIN (vf14a245-v56-frozen)  vf14a245-v56-frozen vs vf14a245-mimic-whim  00contest  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/base/mimic-whim/00contest/a.repl26a
+[|] STARTING  vf14a245-v56-frozen vs vf14a245-v27  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/base/v27/01boss-battle/a.repl26a
+[+] TEAM B WIN (vf14a245-v56-frozen)  vf14a245-mimic-whim vs vf14a245-v56-frozen  00contest  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/base/mimic-whim/00contest/b.repl26a
+[|] STARTING  vf14a245-v27 vs vf14a245-v56-frozen  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/base/v27/01boss-battle/b.repl26a
+[+] TEAM A WIN (vf14a245-v56-frozen)  vf14a245-v56-frozen vs vf14a245-mimic-whim  01boss-battle  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/base/mimic-whim/01boss-battle/a.repl26a
+[+] TEAM B WIN (vf14a245-v56-frozen)  vf14a245-mimic-whim vs vf14a245-v56-frozen  01boss-battle  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/base/mimic-whim/01boss-battle/b.repl26a
+[+] TEAM A WIN (vf14a245-v56-frozen)  vf14a245-v56-frozen vs vf14a245-v27  00contest  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/base/v27/00contest/a.repl26a
+[|] STARTING  vf14a245-codex-v57-simple vs vf14a245-v56-frozen  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57-simple/v56-frozen/00contest/a.repl26a
+[|] STARTING  vf14a245-v56-frozen vs vf14a245-codex-v57-simple  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57-simple/v56-frozen/00contest/b.repl26a
+[|] STARTING  vf14a245-codex-v57-simple vs vf14a245-v56-frozen  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57-simple/v56-frozen/01boss-battle/a.repl26a
+[+] TEAM B WIN (vf14a245-v56-frozen)  vf14a245-v27 vs vf14a245-v56-frozen  00contest  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/base/v27/00contest/b.repl26a
+[|] STARTING  vf14a245-v56-frozen vs vf14a245-codex-v57-simple  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57-simple/v56-frozen/01boss-battle/b.repl26a
+[+] TEAM A WIN (vf14a245-v56-frozen)  vf14a245-v56-frozen vs vf14a245-v27  01boss-battle  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/base/v27/01boss-battle/a.repl26a
+[|] STARTING  vf14a245-codex-v57-simple vs vf14a245-codex-v55  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57-simple/codex-v55/00contest/a.repl26a
+[+] TEAM B WIN (vf14a245-v56-frozen)  vf14a245-v27 vs vf14a245-v56-frozen  01boss-battle  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/base/v27/01boss-battle/b.repl26a
+[|] STARTING  vf14a245-codex-v55 vs vf14a245-codex-v57-simple  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57-simple/codex-v55/00contest/b.repl26a
+[+] TEAM B WIN (vf14a245-codex-v57-simple)  vf14a245-v56-frozen vs vf14a245-codex-v57-simple  00contest  Round 1460/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57-simple/v56-frozen/00contest/b.repl26a
+[|] STARTING  vf14a245-codex-v57-simple vs vf14a245-codex-v55  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57-simple/codex-v55/01boss-battle/a.repl26a
+[+] TEAM A WIN (vf14a245-codex-v57-simple)  vf14a245-codex-v57-simple vs vf14a245-v56-frozen  00contest  Round 1569/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57-simple/v56-frozen/00contest/a.repl26a
+[|] STARTING  vf14a245-codex-v55 vs vf14a245-codex-v57-simple  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57-simple/codex-v55/01boss-battle/b.repl26a
+[+] TEAM A WIN (vf14a245-codex-v57-simple)  vf14a245-codex-v57-simple vs vf14a245-v56-frozen  01boss-battle  Round 1134/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57-simple/v56-frozen/01boss-battle/a.repl26a
+[|] STARTING  vf14a245-codex-v57-simple vs vf14a245-mimic-mite  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57-simple/mimic-mite/00contest/a.repl26a
+[+] TEAM A WIN (vf14a245-v56-frozen)  vf14a245-v56-frozen vs vf14a245-codex-v57-simple  01boss-battle  Round 1438/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57-simple/v56-frozen/01boss-battle/b.repl26a
+[|] STARTING  vf14a245-mimic-mite vs vf14a245-codex-v57-simple  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57-simple/mimic-mite/00contest/b.repl26a
+[+] TEAM A WIN (vf14a245-codex-v57-simple)  vf14a245-codex-v57-simple vs vf14a245-codex-v55  00contest  Round 1569/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57-simple/codex-v55/00contest/a.repl26a
+[+] TEAM A WIN (vf14a245-codex-v57-simple)  vf14a245-codex-v57-simple vs vf14a245-mimic-mite  00contest  Round 1044/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57-simple/mimic-mite/00contest/a.repl26a
+[|] STARTING  vf14a245-codex-v57-simple vs vf14a245-mimic-mite  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57-simple/mimic-mite/01boss-battle/a.repl26a
+[|] STARTING  vf14a245-mimic-mite vs vf14a245-codex-v57-simple  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57-simple/mimic-mite/01boss-battle/b.repl26a
+[+] TEAM B WIN (vf14a245-codex-v57-simple)  vf14a245-codex-v55 vs vf14a245-codex-v57-simple  00contest  Round 1460/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57-simple/codex-v55/00contest/b.repl26a
+[|] STARTING  vf14a245-codex-v57-simple vs vf14a245-mimic-shink  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57-simple/mimic-shink/00contest/a.repl26a
+[+] TEAM B WIN (vf14a245-codex-v57-simple)  vf14a245-codex-v55 vs vf14a245-codex-v57-simple  01boss-battle  Round 1301/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57-simple/codex-v55/01boss-battle/b.repl26a
+[+] TEAM B WIN (vf14a245-codex-v57-simple)  vf14a245-mimic-mite vs vf14a245-codex-v57-simple  00contest  Round 1061/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57-simple/mimic-mite/00contest/b.repl26a
+[|] STARTING  vf14a245-mimic-shink vs vf14a245-codex-v57-simple  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57-simple/mimic-shink/00contest/b.repl26a
+[|] STARTING  vf14a245-codex-v57-simple vs vf14a245-mimic-shink  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57-simple/mimic-shink/01boss-battle/a.repl26a
+[+] TEAM A WIN (vf14a245-codex-v57-simple)  vf14a245-codex-v57-simple vs vf14a245-codex-v55  01boss-battle  Round 1470/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57-simple/codex-v55/01boss-battle/a.repl26a
+[|] STARTING  vf14a245-mimic-shink vs vf14a245-codex-v57-simple  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57-simple/mimic-shink/01boss-battle/b.repl26a
+[+] TEAM A WIN (vf14a245-codex-v57-simple)  vf14a245-codex-v57-simple vs vf14a245-mimic-shink  00contest  Round 1044/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57-simple/mimic-shink/00contest/a.repl26a
+[|] STARTING  vf14a245-codex-v57-simple vs vf14a245-mimic-whim  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57-simple/mimic-whim/00contest/a.repl26a
+[+] TEAM B WIN (vf14a245-codex-v57-simple)  vf14a245-mimic-shink vs vf14a245-codex-v57-simple  00contest  Round 1061/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57-simple/mimic-shink/00contest/b.repl26a
+[+] TEAM A WIN (vf14a245-codex-v57-simple)  vf14a245-codex-v57-simple vs vf14a245-mimic-whim  00contest  Round 1044/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57-simple/mimic-whim/00contest/a.repl26a
+[|] STARTING  vf14a245-mimic-whim vs vf14a245-codex-v57-simple  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57-simple/mimic-whim/00contest/b.repl26a
+[|] STARTING  vf14a245-codex-v57-simple vs vf14a245-mimic-whim  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57-simple/mimic-whim/01boss-battle/a.repl26a
+[+] TEAM A WIN (vf14a245-codex-v57-simple)  vf14a245-codex-v57-simple vs vf14a245-mimic-shink  01boss-battle  Round 1228/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57-simple/mimic-shink/01boss-battle/a.repl26a
+[|] STARTING  vf14a245-mimic-whim vs vf14a245-codex-v57-simple  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57-simple/mimic-whim/01boss-battle/b.repl26a
+[+] TEAM B WIN (vf14a245-codex-v57-simple)  vf14a245-mimic-shink vs vf14a245-codex-v57-simple  01boss-battle  Round 1313/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57-simple/mimic-shink/01boss-battle/b.repl26a
+[|] STARTING  vf14a245-codex-v57-simple vs vf14a245-v27  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57-simple/v27/00contest/a.repl26a
+[+] TEAM A WIN (vf14a245-codex-v57-simple)  vf14a245-codex-v57-simple vs vf14a245-mimic-mite  01boss-battle  Round 1165/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57-simple/mimic-mite/01boss-battle/a.repl26a
+[|] STARTING  vf14a245-v27 vs vf14a245-codex-v57-simple  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57-simple/v27/00contest/b.repl26a
+[+] TEAM B WIN (vf14a245-codex-v57-simple)  vf14a245-mimic-mite vs vf14a245-codex-v57-simple  01boss-battle  Round 1370/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57-simple/mimic-mite/01boss-battle/b.repl26a
+[+] TEAM B WIN (vf14a245-codex-v57-simple)  vf14a245-mimic-whim vs vf14a245-codex-v57-simple  00contest  Round 1061/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57-simple/mimic-whim/00contest/b.repl26a
+[|] STARTING  vf14a245-codex-v57-simple vs vf14a245-v27  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57-simple/v27/01boss-battle/a.repl26a
+[|] STARTING  vf14a245-v27 vs vf14a245-codex-v57-simple  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57-simple/v27/01boss-battle/b.repl26a
+[+] TEAM A WIN (vf14a245-codex-v57-simple)  vf14a245-codex-v57-simple vs vf14a245-mimic-whim  01boss-battle  Round 1119/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57-simple/mimic-whim/01boss-battle/a.repl26a
+[|] STARTING  vf14a245-codex-v57 vs vf14a245-v56-frozen  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57/v56-frozen/00contest/a.repl26a
+[+] TEAM B WIN (vf14a245-codex-v57-simple)  vf14a245-mimic-whim vs vf14a245-codex-v57-simple  01boss-battle  Round 1299/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57-simple/mimic-whim/01boss-battle/b.repl26a
+[|] STARTING  vf14a245-v56-frozen vs vf14a245-codex-v57  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57/v56-frozen/00contest/b.repl26a
+[+] TEAM A WIN (vf14a245-codex-v57-simple)  vf14a245-codex-v57-simple vs vf14a245-v27  00contest  Round 1780/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57-simple/v27/00contest/a.repl26a
+[+] TEAM B WIN (vf14a245-codex-v57-simple)  vf14a245-v27 vs vf14a245-codex-v57-simple  00contest  Round 1316/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57-simple/v27/00contest/b.repl26a
+[|] STARTING  vf14a245-codex-v57 vs vf14a245-v56-frozen  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57/v56-frozen/01boss-battle/a.repl26a
+[|] STARTING  vf14a245-v56-frozen vs vf14a245-codex-v57  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57/v56-frozen/01boss-battle/b.repl26a
+[+] TEAM A WIN (vf14a245-codex-v57)  vf14a245-codex-v57 vs vf14a245-v56-frozen  00contest  Round 1569/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57/v56-frozen/00contest/a.repl26a
+[+] TEAM B WIN (vf14a245-codex-v57)  vf14a245-v56-frozen vs vf14a245-codex-v57  00contest  Round 1460/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57/v56-frozen/00contest/b.repl26a
+[|] STARTING  vf14a245-codex-v57 vs vf14a245-codex-v55  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57/codex-v55/00contest/a.repl26a
+[|] STARTING  vf14a245-codex-v55 vs vf14a245-codex-v57  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57/codex-v55/00contest/b.repl26a
+[+] TEAM A WIN (vf14a245-codex-v57-simple)  vf14a245-codex-v57-simple vs vf14a245-v27  01boss-battle  Round 1199/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57-simple/v27/01boss-battle/a.repl26a
+[+] TEAM B WIN (vf14a245-codex-v57-simple)  vf14a245-v27 vs vf14a245-codex-v57-simple  01boss-battle  Round 1268/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57-simple/v27/01boss-battle/b.repl26a
+[|] STARTING  vf14a245-codex-v57 vs vf14a245-codex-v55  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57/codex-v55/01boss-battle/a.repl26a
+[|] STARTING  vf14a245-codex-v55 vs vf14a245-codex-v57  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57/codex-v55/01boss-battle/b.repl26a
+[+] TEAM A WIN (vf14a245-codex-v57)  vf14a245-codex-v57 vs vf14a245-v56-frozen  01boss-battle  Round 1224/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57/v56-frozen/01boss-battle/a.repl26a
+[|] STARTING  vf14a245-codex-v57 vs vf14a245-mimic-mite  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57/mimic-mite/00contest/a.repl26a
+[+] TEAM A WIN (vf14a245-v56-frozen)  vf14a245-v56-frozen vs vf14a245-codex-v57  01boss-battle  Round 1425/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57/v56-frozen/01boss-battle/b.repl26a
+[|] STARTING  vf14a245-mimic-mite vs vf14a245-codex-v57  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57/mimic-mite/00contest/b.repl26a
+[+] TEAM B WIN (vf14a245-codex-v57)  vf14a245-codex-v55 vs vf14a245-codex-v57  00contest  Round 1460/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57/codex-v55/00contest/b.repl26a
+[|] STARTING  vf14a245-codex-v57 vs vf14a245-mimic-mite  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57/mimic-mite/01boss-battle/a.repl26a
+[+] TEAM A WIN (vf14a245-codex-v57)  vf14a245-codex-v57 vs vf14a245-codex-v55  00contest  Round 1569/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57/codex-v55/00contest/a.repl26a
+[|] STARTING  vf14a245-mimic-mite vs vf14a245-codex-v57  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57/mimic-mite/01boss-battle/b.repl26a
+[+] TEAM B WIN (vf14a245-codex-v57)  vf14a245-codex-v55 vs vf14a245-codex-v57  01boss-battle  Round 1190/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57/codex-v55/01boss-battle/b.repl26a
+[|] STARTING  vf14a245-codex-v57 vs vf14a245-mimic-shink  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57/mimic-shink/00contest/a.repl26a
+[+] TEAM A WIN (vf14a245-codex-v57)  vf14a245-codex-v57 vs vf14a245-mimic-mite  00contest  Round 1044/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57/mimic-mite/00contest/a.repl26a
+[|] STARTING  vf14a245-mimic-shink vs vf14a245-codex-v57  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57/mimic-shink/00contest/b.repl26a
+[+] TEAM B WIN (vf14a245-codex-v55)  vf14a245-codex-v57 vs vf14a245-codex-v55  01boss-battle  Round 1314/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57/codex-v55/01boss-battle/a.repl26a
+[|] STARTING  vf14a245-codex-v57 vs vf14a245-mimic-shink  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57/mimic-shink/01boss-battle/a.repl26a
+[+] TEAM B WIN (vf14a245-codex-v57)  vf14a245-mimic-mite vs vf14a245-codex-v57  00contest  Round 1061/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57/mimic-mite/00contest/b.repl26a
+[|] STARTING  vf14a245-mimic-shink vs vf14a245-codex-v57  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57/mimic-shink/01boss-battle/b.repl26a
+[+] TEAM A WIN (vf14a245-codex-v57)  vf14a245-codex-v57 vs vf14a245-mimic-shink  00contest  Round 1044/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57/mimic-shink/00contest/a.repl26a
+[+] TEAM B WIN (vf14a245-codex-v57)  vf14a245-mimic-shink vs vf14a245-codex-v57  00contest  Round 1061/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57/mimic-shink/00contest/b.repl26a
+[|] STARTING  vf14a245-codex-v57 vs vf14a245-mimic-whim  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57/mimic-whim/00contest/a.repl26a
+[|] STARTING  vf14a245-mimic-whim vs vf14a245-codex-v57  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57/mimic-whim/00contest/b.repl26a
+[+] TEAM A WIN (vf14a245-codex-v57)  vf14a245-codex-v57 vs vf14a245-mimic-shink  01boss-battle  Round 1276/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57/mimic-shink/01boss-battle/a.repl26a
+[|] STARTING  vf14a245-codex-v57 vs vf14a245-mimic-whim  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57/mimic-whim/01boss-battle/a.repl26a
+[+] TEAM B WIN (vf14a245-codex-v57)  vf14a245-mimic-shink vs vf14a245-codex-v57  01boss-battle  Round 1409/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57/mimic-shink/01boss-battle/b.repl26a
+[|] STARTING  vf14a245-mimic-whim vs vf14a245-codex-v57  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57/mimic-whim/01boss-battle/b.repl26a
+[+] TEAM A WIN (vf14a245-codex-v57)  vf14a245-codex-v57 vs vf14a245-mimic-whim  00contest  Round 1044/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57/mimic-whim/00contest/a.repl26a
+[|] STARTING  vf14a245-codex-v57 vs vf14a245-v27  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57/v27/00contest/a.repl26a
+[+] TEAM B WIN (vf14a245-codex-v57)  vf14a245-mimic-whim vs vf14a245-codex-v57  00contest  Round 1061/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57/mimic-whim/00contest/b.repl26a
+[|] STARTING  vf14a245-v27 vs vf14a245-codex-v57  00contest
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57/v27/00contest/b.repl26a
+[+] TEAM A WIN (vf14a245-codex-v57)  vf14a245-codex-v57 vs vf14a245-mimic-mite  01boss-battle  Round 1204/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57/mimic-mite/01boss-battle/a.repl26a
+[+] TEAM A WIN (vf14a245-codex-v57)  vf14a245-codex-v57 vs vf14a245-mimic-whim  01boss-battle  Round 1119/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57/mimic-whim/01boss-battle/a.repl26a
+[|] STARTING  vf14a245-codex-v57 vs vf14a245-v27  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57/v27/01boss-battle/a.repl26a
+[|] STARTING  vf14a245-v27 vs vf14a245-codex-v57  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57/v27/01boss-battle/b.repl26a
+[+] TEAM B WIN (vf14a245-codex-v57)  vf14a245-mimic-mite vs vf14a245-codex-v57  01boss-battle  Round 1288/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57/mimic-mite/01boss-battle/b.repl26a
+[+] TEAM B WIN (vf14a245-codex-v57)  vf14a245-mimic-whim vs vf14a245-codex-v57  01boss-battle  Round 1299/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57/mimic-whim/01boss-battle/b.repl26a
+[+] TEAM B WIN (vf14a245-codex-v57)  vf14a245-v27 vs vf14a245-codex-v57  00contest  Round 1316/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57/v27/00contest/b.repl26a
+[+] TEAM A WIN (vf14a245-codex-v57)  vf14a245-codex-v57 vs vf14a245-v27  00contest  Round 1780/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57/v27/00contest/a.repl26a
+[+] TEAM A WIN (vf14a245-codex-v57)  vf14a245-codex-v57 vs vf14a245-v27  01boss-battle  Round 1199/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57/v27/01boss-battle/a.repl26a
+[+] TEAM B WIN (vf14a245-codex-v57)  vf14a245-v27 vs vf14a245-codex-v57  01boss-battle  Round 1228/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/v56_improvement_2026-10-23/gate_final_select/games/codex-v57/v27/01boss-battle/b.repl26a
+Finished: 72 replay bundles saved, 0 failed
+injected 0 checks into 0 functions
+injected 0 checks into 0 functions
+injected 0 checks into 0 functions
+injected 0 checks into 0 functions
+injected 0 checks into 0 functions
+injected 0 checks into 0 functions
+injected 0 checks into 0 functions
+injected 0 checks into 0 functions

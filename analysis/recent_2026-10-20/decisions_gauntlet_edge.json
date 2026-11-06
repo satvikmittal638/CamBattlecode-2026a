@@ -1,0 +1,41 @@
+{
+ "dir": "local_eval/gauntlet/edge",
+ "games": 170,
+ "nextTarget": {
+  "n": 2868,
+  "nearestShare": 0.4,
+  "top2Share": 0.54,
+  "avgDist": 12.96,
+  "avgNearest": 6.06,
+  "avgDelay": 34.9,
+  "extraDist": 6.9,
+  "commonSkips": {
+   "Elk1 -> Wolf1": 187,
+   "GoldCluster1 -> Wolf1": 142,
+   "Wolf1 -> Wolf1": 141,
+   "Monolith1 -> GoldCluster3": 116,
+   "GoldCluster2 -> Elk6+GemCluster6": 112,
+   "Wolf1 -> Elk1": 102,
+   "Elk2+GemCluster1 -> Elk1+GoldCluster3": 80,
+   "Elk1 -> Elk1": 63
+  }
+ },
+ "tribute": {
+  "perGame": 23.2,
+  "gemsAvg": 44.24,
+  "gemsP25": 22,
+  "gemsP50": 36,
+  "gemsP75": 48,
+  "capturesBetween": 0.75,
+  "roundsBetween": 77.32
+ },
+ "recall": {
+  "perGame": 35.5,
+  "hpfAvg": 0.57,
+  "hpfP50": 0.5,
+  "goldAvg": 90.89,
+  "afterTributeShare": 0.07,
+  "healthyRecallShare": 0.36,
+  "carryingGemsShare": 0.06
+ }
+}

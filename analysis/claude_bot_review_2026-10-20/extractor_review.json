@@ -1,0 +1,40 @@
+{
+  "camp_state": {
+    "trace": "tools/turn_trace.mjs stores Game_API_Camp_GetState as cp.awake raw integer",
+    "extractor": "tools/fish/ex_turns.mjs uses if c.awake as boolean",
+    "sdk_contract": "workspace/sdk/cpp/cambc.h state(): 0 dead, 1 alive/awake, 2 asleep",
+    "synthetic_counterexample": {
+      "asleep_camp_strength": 100,
+      "expected_armedAwake5": 0,
+      "observed_armedAwake5": 100
+    }
+  },
+  "ward_distance": {
+    "extractor": "tools/fish/ex_events.mjs subtracts turn-start self.x/y for every Place ward event",
+    "synthetic_counterexample": {
+      "turn_start": [
+        0,
+        0
+      ],
+      "move_to": [
+        3,
+        0
+      ],
+      "ward_to": [
+        6,
+        0
+      ],
+      "distance_at_placement": 3,
+      "extracted_distance": 6
+    }
+  },
+  "engagement_features": {
+    "extractor": "tools/fish/ex_engage.mjs selects actual hit target for positive open labels, nearest enemy for negatives",
+    "implication": "e_* features are target-dependent and not a uniform pre-decision state feature; causal or deployable engagement thresholds need separate validation"
+  },
+  "camp_model_split": {
+    "script": "tools/ml/fit_clogit.mjs",
+    "actual_default": "20% split by decision index hash, not game ID",
+    "implication": "same-match decisions can occur in training and test; blanket game-CV claim is inaccurate"
+  }
+}

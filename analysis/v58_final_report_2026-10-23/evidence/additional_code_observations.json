@@ -1,0 +1,30 @@
+{
+  "scope": "Additional exact-code observations for the v58 README; no new game trials.",
+  "gateProtection": {
+    "gateGames": 4,
+    "gateGamesWithCassiIssacPick": 0,
+    "allowedThreatTypes": [
+      "Cassi",
+      "Issac"
+    ],
+    "defaultGateDraft": [
+      "HeartOfRuin",
+      "Stellar",
+      "Tavi",
+      "Prism",
+      "Ren"
+    ],
+    "result": "bankChannelThreat is false for every default gate draft champion, also disabling retreatBankCarrier through this trigger."
+  },
+  "wealthComparison": {
+    "selfShards": 20,
+    "selfGold": 0,
+    "allyShards": 10,
+    "allyGold": 600,
+    "selfComparedWealth": 20,
+    "allyComparedWealth": 10,
+    "allyTotalShardEquivalentWealth": 30,
+    "handoffPredicate": true,
+    "scope": "Arithmetic illustration of asymmetric wealth comparison, not a measured match-level improvement."
+  }
+}

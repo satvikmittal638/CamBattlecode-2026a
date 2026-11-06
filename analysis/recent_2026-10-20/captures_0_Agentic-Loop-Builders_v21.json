@@ -1,0 +1,627 @@
+{
+ "dir": "replays_recent/0_Agentic-Loop-Builders_v21",
+ "overall": {
+  "games": 102,
+  "capturesPerGame": 14.5,
+  "theirCapturesPerGame": 18.5,
+  "avgCapturers": 1,
+  "avgClear": 22.3,
+  "avgWait": 6.6,
+  "enemySideShare": 0.12,
+  "byGroup": {
+   "Wolf1": {
+    "perGame": 6.27,
+    "clear": 16.8,
+    "capturers": 1,
+    "wait": 5.9
+   },
+   "Elk1": {
+    "perGame": 1.75,
+    "clear": 26,
+    "capturers": 1,
+    "wait": 6.8
+   },
+   "Wolf2": {
+    "perGame": 1.43,
+    "clear": 21.4,
+    "capturers": 1,
+    "wait": 8.1
+   },
+   "GoldCluster3": {
+    "perGame": 0.96,
+    "clear": 15.2,
+    "capturers": 1,
+    "wait": 10.4
+   },
+   "Elk1+GoldCluster1": {
+    "perGame": 0.93,
+    "clear": 16.4,
+    "capturers": 1,
+    "wait": 5.7
+   },
+   "GoldCluster1+Wolf1": {
+    "perGame": 0.64,
+    "clear": 15,
+    "capturers": 1,
+    "wait": 5.6
+   },
+   "Wolf3": {
+    "perGame": 0.59,
+    "clear": 19.9,
+    "capturers": 1,
+    "wait": 5.4
+   },
+   "Elk2": {
+    "perGame": 0.3,
+    "clear": 27.6,
+    "capturers": 1,
+    "wait": 5.4
+   },
+   "GemCluster2+GoldCluster2": {
+    "perGame": 0.3,
+    "clear": 17.3,
+    "capturers": 1,
+    "wait": 6.6
+   },
+   "Elk1+GemCluster2+Wolf1": {
+    "perGame": 0.24,
+    "clear": 20.5,
+    "capturers": 1,
+    "wait": 6
+   },
+   "Elk1+Wolf1": {
+    "perGame": 0.21,
+    "clear": 11.2,
+    "capturers": 1,
+    "wait": 6.6
+   },
+   "GemCluster1+GoldCluster1+Wolf2": {
+    "perGame": 0.17,
+    "clear": 67.7,
+    "capturers": 1.1,
+    "wait": 9.2
+   }
+  },
+  "openings": {
+   "Elk1+GemCluster2+Wolf1@240 > Elk1+GemCluster2+Wolf1@356 > Elk1+GemCluster2+Wolf1@436": 6,
+   "Wolf3@30 > Wolf3@128 > Wolf3@176": 4,
+   "": 4
+  }
+ },
+ "byMap": {
+  "ambush": {
+   "games": 6,
+   "capturesPerGame": 4,
+   "theirCapturesPerGame": 7.3,
+   "avgCapturers": 1,
+   "avgClear": 20.5,
+   "avgWait": 6,
+   "enemySideShare": 0,
+   "byGroup": {
+    "Elk1+GemCluster2+Wolf1": {
+     "perGame": 4,
+     "clear": 20.5,
+     "capturers": 1,
+     "wait": 6
+    }
+   },
+   "openings": {
+    "Elk1+GemCluster2+Wolf1@240 > Elk1+GemCluster2+Wolf1@356 > Elk1+GemCluster2+Wolf1@436": 6
+   }
+  },
+  "collision": {
+   "games": 6,
+   "capturesPerGame": 17,
+   "theirCapturesPerGame": 21.2,
+   "avgCapturers": 1,
+   "avgClear": 21.8,
+   "avgWait": 6.4,
+   "enemySideShare": 0,
+   "byGroup": {
+    "Wolf1": {
+     "perGame": 14.5,
+     "clear": 19.5,
+     "capturers": 1,
+     "wait": 6.5
+    },
+    "Elk1": {
+     "perGame": 2.33,
+     "clear": 30,
+     "capturers": 1,
+     "wait": 5.3
+    },
+    "Elk3": {
+     "perGame": 0.17,
+     "clear": 73,
+     "capturers": 1,
+     "wait": 7
+    }
+   },
+   "openings": {
+    "Wolf1@94 > Wolf1@142 > Wolf1@212": 1,
+    "Wolf1@60 > Wolf1@120 > Wolf1@136": 1,
+    "Wolf1@22 > Wolf1@114 > Wolf1@146": 1
+   }
+  },
+  "contest": {
+   "games": 6,
+   "capturesPerGame": 19,
+   "theirCapturesPerGame": 42,
+   "avgCapturers": 1,
+   "avgClear": 37.3,
+   "avgWait": 10,
+   "enemySideShare": 0.24,
+   "byGroup": {
+    "GoldCluster3": {
+     "perGame": 16.33,
+     "clear": 15.2,
+     "capturers": 1,
+     "wait": 10.4
+    },
+    "Monolith1": {
+     "perGame": 2.67,
+     "clear": 167.1,
+     "capturers": 1,
+     "wait": 7.6
+    }
+   },
+   "openings": {
+    "GoldCluster3@87 > GoldCluster3@141 > GoldCluster3@221": 1,
+    "GoldCluster3@26 > GoldCluster3@50 > GoldCluster3@100": 1,
+    "GoldCluster3@92 > GoldCluster3@214 > GoldCluster3@226": 1
+   }
+  },
+  "corners": {
+   "games": 6,
+   "capturesPerGame": 23.5,
+   "theirCapturesPerGame": 19.7,
+   "avgCapturers": 1,
+   "avgClear": 22.4,
+   "avgWait": 5.8,
+   "enemySideShare": 0.12,
+   "byGroup": {
+    "Wolf1": {
+     "perGame": 11.5,
+     "clear": 22.4,
+     "capturers": 1,
+     "wait": 5.3
+    },
+    "Elk1": {
+     "perGame": 11.33,
+     "clear": 23.2,
+     "capturers": 1,
+     "wait": 6.3
+    },
+    "Elk2+GemCluster1": {
+     "perGame": 0.67,
+     "clear": 9.3,
+     "capturers": 1,
+     "wait": 3.3
+    }
+   },
+   "openings": {
+    "Wolf1@15 > Wolf1@53 > Elk1@93": 1,
+    "Wolf1@16 > Wolf1@88 > Wolf1@88": 1,
+    "Wolf1@16 > Wolf1@62 > Wolf1@124": 1
+   }
+  },
+  "eight": {
+   "games": 6,
+   "capturesPerGame": 12,
+   "theirCapturesPerGame": 11,
+   "avgCapturers": 1,
+   "avgClear": 28.4,
+   "avgWait": 12,
+   "enemySideShare": 0.21,
+   "byGroup": {
+    "Wolf2": {
+     "perGame": 7.17,
+     "clear": 26.7,
+     "capturers": 1,
+     "wait": 14.1
+    },
+    "Wolf1": {
+     "perGame": 2.83,
+     "clear": 11.2,
+     "capturers": 1,
+     "wait": 10.9
+    },
+    "Elk2": {
+     "perGame": 1.17,
+     "clear": 21,
+     "capturers": 1,
+     "wait": 6
+    },
+    "Elk3+GemCluster1+GoldCluster1": {
+     "perGame": 0.83,
+     "clear": 106,
+     "capturers": 1,
+     "wait": 5.4
+    }
+   },
+   "openings": {
+    "Wolf2@216 > Wolf1@312 > Wolf1@414": 2,
+    "Wolf2@70 > Wolf2@96 > Wolf2@182": 1,
+    "Wolf2@80 > Wolf2@110 > Wolf2@156": 1
+   }
+  },
+  "elkring": {
+   "games": 6,
+   "capturesPerGame": 15.8,
+   "theirCapturesPerGame": 14.3,
+   "avgCapturers": 1,
+   "avgClear": 16.4,
+   "avgWait": 5.7,
+   "enemySideShare": 0,
+   "byGroup": {
+    "Elk1+GoldCluster1": {
+     "perGame": 15.83,
+     "clear": 16.4,
+     "capturers": 1,
+     "wait": 5.7
+    }
+   },
+   "openings": {
+    "Elk1+GoldCluster1@78 > Elk1+GoldCluster1@122 > Elk1+GoldCluster1@146": 1,
+    "Elk1+GoldCluster1@17 > Elk1+GoldCluster1@17 > Elk1+GoldCluster1@27": 1,
+    "Elk1+GoldCluster1@58 > Elk1+GoldCluster1@72 > Elk1+GoldCluster1@104": 1
+   }
+  },
+  "expanse": {
+   "games": 6,
+   "capturesPerGame": 18.5,
+   "theirCapturesPerGame": 22.8,
+   "avgCapturers": 1,
+   "avgClear": 18.6,
+   "avgWait": 5.6,
+   "enemySideShare": 0,
+   "byGroup": {
+    "Wolf1": {
+     "perGame": 12.33,
+     "clear": 20.9,
+     "capturers": 1,
+     "wait": 5.8
+    },
+    "Elk1": {
+     "perGame": 3,
+     "clear": 14.8,
+     "capturers": 1,
+     "wait": 5.3
+    },
+    "Wolf2": {
+     "perGame": 2.83,
+     "clear": 14.9,
+     "capturers": 1,
+     "wait": 5
+    },
+    "Elk2+GemCluster2": {
+     "perGame": 0.33,
+     "clear": 8,
+     "capturers": 1,
+     "wait": 4
+    }
+   },
+   "openings": {
+    "Wolf1@60 > Wolf1@128 > Wolf1@158": 1,
+    "Wolf1@60 > Wolf2@84 > Wolf1@128": 1,
+    "Wolf1@21 > Wolf1@23 > Wolf1@39": 1
+   }
+  },
+  "fragment": {
+   "games": 6,
+   "capturesPerGame": 14.3,
+   "theirCapturesPerGame": 15.3,
+   "avgCapturers": 1,
+   "avgClear": 14.2,
+   "avgWait": 5.8,
+   "enemySideShare": 0,
+   "byGroup": {
+    "GoldCluster1+Wolf1": {
+     "perGame": 10.83,
+     "clear": 15,
+     "capturers": 1,
+     "wait": 5.6
+    },
+    "Elk1+Wolf1": {
+     "perGame": 3.5,
+     "clear": 11.2,
+     "capturers": 1,
+     "wait": 6.6
+    }
+   },
+   "openings": {
+    "GoldCluster1+Wolf1@18 > GoldCluster1+Wolf1@80 > GoldCluster1+Wolf1@112": 1,
+    "GoldCluster1+Wolf1@18 > GoldCluster1+Wolf1@126 > GoldCluster1+Wolf1@222": 1,
+    "GoldCluster1+Wolf1@185 > GoldCluster1+Wolf1@265 > Elk1+Wolf1@329": 1
+   }
+  },
+  "interlock": {
+   "games": 6,
+   "capturesPerGame": 24.3,
+   "theirCapturesPerGame": 20.5,
+   "avgCapturers": 1,
+   "avgClear": 13.4,
+   "avgWait": 5,
+   "enemySideShare": 0.04,
+   "byGroup": {
+    "Wolf1": {
+     "perGame": 20.67,
+     "clear": 9.9,
+     "capturers": 1,
+     "wait": 4.9
+    },
+    "Elk2": {
+     "perGame": 3.67,
+     "clear": 32.4,
+     "capturers": 1,
+     "wait": 5.2
+    }
+   },
+   "openings": {
+    "Wolf1@26 > Wolf1@42 > Wolf1@70": 1,
+    "Wolf1@19 > Wolf1@19 > Wolf1@71": 1,
+    "Wolf1@15 > Wolf1@19 > Wolf1@39": 1
+   }
+  },
+  "lanes": {
+   "games": 6,
+   "capturesPerGame": 28.2,
+   "theirCapturesPerGame": 28,
+   "avgCapturers": 1,
+   "avgClear": 17.7,
+   "avgWait": 6.1,
+   "enemySideShare": 0.05,
+   "byGroup": {
+    "Wolf1": {
+     "perGame": 21.17,
+     "clear": 14.4,
+     "capturers": 1,
+     "wait": 6.5
+    },
+    "Elk1": {
+     "perGame": 7,
+     "clear": 27.1,
+     "capturers": 1,
+     "wait": 4.8
+    }
+   },
+   "openings": {
+    "Wolf1@41 > Wolf1@41 > Wolf1@43": 2,
+    "Wolf1@40 > Wolf1@64 > Wolf1@68": 1,
+    "Wolf1@40 > Wolf1@46 > Wolf1@48": 1
+   }
+  },
+  "monolith": {
+   "games": 6,
+   "capturesPerGame": 18.2,
+   "theirCapturesPerGame": 19.7,
+   "avgCapturers": 1,
+   "avgClear": 17,
+   "avgWait": 4.9,
+   "enemySideShare": 0,
+   "byGroup": {
+    "Wolf2": {
+     "perGame": 8.67,
+     "clear": 17.3,
+     "capturers": 1,
+     "wait": 5.3
+    },
+    "Wolf1": {
+     "perGame": 8,
+     "clear": 15.1,
+     "capturers": 1,
+     "wait": 4.5
+    },
+    "Elk1": {
+     "perGame": 1.5,
+     "clear": 24.7,
+     "capturers": 1,
+     "wait": 5.1
+    }
+   },
+   "openings": {
+    "Wolf1@36 > Wolf2@70 > Wolf2@144": 2,
+    "Wolf2@70 > Wolf2@82 > Wolf1@100": 1,
+    "Wolf2@31 > Wolf1@39 > Wolf2@87": 1
+   }
+  },
+  "packs": {
+   "games": 6,
+   "capturesPerGame": 11.2,
+   "theirCapturesPerGame": 8.8,
+   "avgCapturers": 1,
+   "avgClear": 20.5,
+   "avgWait": 6.4,
+   "enemySideShare": 0,
+   "byGroup": {
+    "Wolf2": {
+     "perGame": 5.67,
+     "clear": 24.1,
+     "capturers": 1,
+     "wait": 6.4
+    },
+    "GemCluster2+GoldCluster2": {
+     "perGame": 5.17,
+     "clear": 17.3,
+     "capturers": 1,
+     "wait": 6.6
+    },
+    "Elk2": {
+     "perGame": 0.33,
+     "clear": 8,
+     "capturers": 1,
+     "wait": 6
+    }
+   },
+   "openings": {
+    "GemCluster2+GoldCluster2@28 > GemCluster2+GoldCluster2@36 > Wolf2@80": 2,
+    "GemCluster2+GoldCluster2@28 > GemCluster2+GoldCluster2@36 > Wolf2@78": 1,
+    "GemCluster2+GoldCluster2@29 > Wolf2@129 > Wolf2@131": 1
+   }
+  },
+  "pilgrimage": {
+   "games": 6,
+   "capturesPerGame": 5.5,
+   "theirCapturesPerGame": 14.8,
+   "avgCapturers": 1,
+   "avgClear": 69.4,
+   "avgWait": 7.8,
+   "enemySideShare": 0,
+   "byGroup": {
+    "GemCluster1+GoldCluster1+Wolf2": {
+     "perGame": 2.83,
+     "clear": 67.7,
+     "capturers": 1.1,
+     "wait": 9.2
+    },
+    "GemCluster2+Wolf2": {
+     "perGame": 2.5,
+     "clear": 71.2,
+     "capturers": 1,
+     "wait": 5.3
+    },
+    "GoldCluster2": {
+     "perGame": 0.17,
+     "clear": null,
+     "capturers": 1,
+     "wait": 21
+    }
+   },
+   "openings": {
+    "GemCluster2+Wolf2@670 > GemCluster1+GoldCluster1+Wolf2@706 > GemCluster1+GoldCluster1+Wolf2@964": 1,
+    "GemCluster2+Wolf2@282 > GemCluster2+Wolf2@404 > GemCluster2+Wolf2@406": 1,
+    "GemCluster2+Wolf2@170 > GemCluster1+GoldCluster1+Wolf2@262 > GemCluster1+GoldCluster1+Wolf2@496": 1
+   }
+  },
+  "rows": {
+   "games": 6,
+   "capturesPerGame": 10,
+   "theirCapturesPerGame": 8.7,
+   "avgCapturers": 1,
+   "avgClear": 19.9,
+   "avgWait": 5.4,
+   "enemySideShare": 0,
+   "byGroup": {
+    "Wolf3": {
+     "perGame": 10,
+     "clear": 19.9,
+     "capturers": 1,
+     "wait": 5.4
+    }
+   },
+   "openings": {
+    "Wolf3@30 > Wolf3@128 > Wolf3@176": 4,
+    "Wolf3@31 > Wolf3@59 > Wolf3@59": 1,
+    "Wolf3@30 > Wolf3@124 > Wolf3@128": 1
+   }
+  },
+  "rushbait_v2": {
+   "games": 6,
+   "capturesPerGame": 20.3,
+   "theirCapturesPerGame": 29.3,
+   "avgCapturers": 1,
+   "avgClear": 24.9,
+   "avgWait": 7.6,
+   "enemySideShare": 0.77,
+   "byGroup": {
+    "Wolf1": {
+     "perGame": 15.67,
+     "clear": 21.1,
+     "capturers": 1,
+     "wait": 6
+    },
+    "Elk1": {
+     "perGame": 4.67,
+     "clear": 36.5,
+     "capturers": 1,
+     "wait": 13
+    }
+   },
+   "openings": {
+    "Wolf1@40 > Wolf1@124 > Wolf1@158": 1,
+    "Wolf1@56 > Wolf1@118 > Wolf1@146": 1,
+    "Wolf1@32 > Wolf1@42 > Wolf1@52": 1
+   }
+  },
+  "stampede": {
+   "games": 6,
+   "capturesPerGame": 0.5,
+   "theirCapturesPerGame": 23.7,
+   "avgCapturers": 1,
+   "avgClear": 270.5,
+   "avgWait": 8.3,
+   "enemySideShare": 0,
+   "byGroup": {
+    "Elk6+GemCluster6": {
+     "perGame": 0.5,
+     "clear": 270.5,
+     "capturers": 1,
+     "wait": 8.3
+    }
+   },
+   "openings": {
+    "": 4,
+    "Elk6+GemCluster6@442": 1,
+    "Elk6+GemCluster6@979 > Elk6+GemCluster6@979": 1
+   }
+  },
+  "swirl": {
+   "games": 6,
+   "capturesPerGame": 4,
+   "theirCapturesPerGame": 6.5,
+   "avgCapturers": 1,
+   "avgClear": 20.7,
+   "avgWait": 8.9,
+   "enemySideShare": 0.42,
+   "byGroup": {
+    "Elk1+GoldCluster3": {
+     "perGame": 1.5,
+     "clear": 16.4,
+     "capturers": 1.1,
+     "wait": 13.8
+    },
+    "Elk2+GemCluster2": {
+     "perGame": 0.67,
+     "clear": 4.8,
+     "capturers": 1,
+     "wait": 6
+    },
+    "Wolf4": {
+     "perGame": 0.5,
+     "clear": 28.7,
+     "capturers": 1,
+     "wait": 6
+    },
+    "GoldCluster1+Wolf2": {
+     "perGame": 0.33,
+     "clear": 14.5,
+     "capturers": 1,
+     "wait": 6
+    },
+    "GoldCluster1+Wolf3": {
+     "perGame": 0.33,
+     "clear": 156,
+     "capturers": 1,
+     "wait": 3
+    },
+    "Elk2+GemCluster1": {
+     "perGame": 0.33,
+     "clear": 6,
+     "capturers": 1,
+     "wait": 9
+    },
+    "Elk1+GemCluster2+Wolf3": {
+     "perGame": 0.33,
+     "clear": 5,
+     "capturers": 1,
+     "wait": 6
+    }
+   },
+   "openings": {
+    "Elk1+GoldCluster3@24": 1,
+    "GoldCluster1+Wolf2@206 > Elk1+GoldCluster3@596": 1,
+    "Elk1+GoldCluster3@24 > Elk1+GoldCluster3@144 > Wolf4@272": 1
+   }
+  }
+ }
+}

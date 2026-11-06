@@ -1,0 +1,615 @@
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe6d5c91-base
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/dmitt/Library/Caches/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe6d5c91-base/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe6d5c91-base/src/main.cpp.obj
+[2/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe6d5c91-base/src/draft.cpp.obj
+[3/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe6d5c91-base/src/bot.cpp.obj
+[4/5] Linking CXX executable bot.wasm
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/v125-review-base-1030
+v125-review-base-1030 is up to date
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/fish62_f84
+fish62_f84 is up to date
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/tm30_f84
+tm30_f84 is up to date
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe6d5c91-planned
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/dmitt/Library/Caches/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe6d5c91-planned/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe6d5c91-planned/src/main.cpp.obj
+[2/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe6d5c91-planned/src/draft.cpp.obj
+[3/5] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fe6d5c91-planned/src/bot.cpp.obj
+[4/5] Linking CXX executable bot.wasm
+[|] STARTING  fe6d5c91-base vs v125-review-base-1030  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/v125-review-base-1030/00corners/a.repl26a
+[|] STARTING  v125-review-base-1030 vs fe6d5c91-base  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/v125-review-base-1030/00corners/b.repl26a
+[|] STARTING  fe6d5c91-base vs v125-review-base-1030  00swirl
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/v125-review-base-1030/00swirl/a.repl26a
+[|] STARTING  v125-review-base-1030 vs fe6d5c91-base  00swirl
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/v125-review-base-1030/00swirl/b.repl26a
+[|] STARTING  fe6d5c91-base vs v125-review-base-1030  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/v125-review-base-1030/02treasure-box/a.repl26a
+[|] STARTING  v125-review-base-1030 vs fe6d5c91-base  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/v125-review-base-1030/02treasure-box/b.repl26a
+[+] TEAM A WIN (fe6d5c91-base)  fe6d5c91-base vs v125-review-base-1030  00swirl  Round 1110/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/v125-review-base-1030/00swirl/a.repl26a
+[+] TEAM A WIN (v125-review-base-1030)  v125-review-base-1030 vs fe6d5c91-base  00swirl  Round 1037/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/v125-review-base-1030/00swirl/b.repl26a
+[|] STARTING  fe6d5c91-base vs v125-review-base-1030  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/v125-review-base-1030/00vault/a.repl26a
+[|] STARTING  v125-review-base-1030 vs fe6d5c91-base  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/v125-review-base-1030/00vault/b.repl26a
+[+] TEAM A WIN (fe6d5c91-base)  fe6d5c91-base vs v125-review-base-1030  00corners  Round 1266/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/v125-review-base-1030/00corners/a.repl26a
+[|] STARTING  fe6d5c91-base vs v125-review-base-1030  00monolith
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/v125-review-base-1030/00monolith/a.repl26a
+[+] TEAM A WIN (v125-review-base-1030)  v125-review-base-1030 vs fe6d5c91-base  00corners  Round 1448/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/v125-review-base-1030/00corners/b.repl26a
+[|] STARTING  v125-review-base-1030 vs fe6d5c91-base  00monolith
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/v125-review-base-1030/00monolith/b.repl26a
+[+] TEAM A WIN (fe6d5c91-base)  fe6d5c91-base vs v125-review-base-1030  00vault  Round 0578/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/v125-review-base-1030/00vault/a.repl26a
+[+] TEAM A WIN (v125-review-base-1030)  v125-review-base-1030 vs fe6d5c91-base  00vault  Round 0625/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/v125-review-base-1030/00vault/b.repl26a
+[|] STARTING  fe6d5c91-base vs v125-review-base-1030  02tangle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/v125-review-base-1030/02tangle/a.repl26a
+[|] STARTING  v125-review-base-1030 vs fe6d5c91-base  02tangle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/v125-review-base-1030/02tangle/b.repl26a
+[+] TEAM B WIN (v125-review-base-1030)  fe6d5c91-base vs v125-review-base-1030  00monolith  Round 1120/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/v125-review-base-1030/00monolith/a.repl26a
+[+] TEAM B WIN (fe6d5c91-base)  v125-review-base-1030 vs fe6d5c91-base  00monolith  Round 1105/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/v125-review-base-1030/00monolith/b.repl26a
+[|] STARTING  fe6d5c91-base vs v125-review-base-1030  02uncharted-lands
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/v125-review-base-1030/02uncharted-lands/a.repl26a
+[|] STARTING  v125-review-base-1030 vs fe6d5c91-base  02uncharted-lands
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/v125-review-base-1030/02uncharted-lands/b.repl26a
+[+] TEAM B WIN (v125-review-base-1030)  fe6d5c91-base vs v125-review-base-1030  02treasure-box  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/v125-review-base-1030/02treasure-box/a.repl26a
+[+] TEAM B WIN (fe6d5c91-base)  v125-review-base-1030 vs fe6d5c91-base  02treasure-box  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/v125-review-base-1030/02treasure-box/b.repl26a
+[|] STARTING  fe6d5c91-base vs v125-review-base-1030  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/v125-review-base-1030/00lanes/a.repl26a
+[|] STARTING  v125-review-base-1030 vs fe6d5c91-base  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/v125-review-base-1030/00lanes/b.repl26a
+[+] TEAM B WIN (v125-review-base-1030)  fe6d5c91-base vs v125-review-base-1030  02tangle  Round 1545/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/v125-review-base-1030/02tangle/a.repl26a
+[+] TEAM B WIN (fe6d5c91-base)  v125-review-base-1030 vs fe6d5c91-base  02tangle  Round 1545/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/v125-review-base-1030/02tangle/b.repl26a
+[+] TEAM B WIN (fe6d5c91-base)  v125-review-base-1030 vs fe6d5c91-base  02uncharted-lands  Round 0840/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/v125-review-base-1030/02uncharted-lands/b.repl26a
+[|] STARTING  fe6d5c91-base vs v125-review-base-1030  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/v125-review-base-1030/02cuts/a.repl26a
+[|] STARTING  v125-review-base-1030 vs fe6d5c91-base  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/v125-review-base-1030/02cuts/b.repl26a
+[|] STARTING  fe6d5c91-base vs v125-review-base-1030  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/v125-review-base-1030/01boss-battle/a.repl26a
+[+] TEAM B WIN (v125-review-base-1030)  fe6d5c91-base vs v125-review-base-1030  02uncharted-lands  Round 0875/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/v125-review-base-1030/02uncharted-lands/a.repl26a
+[|] STARTING  v125-review-base-1030 vs fe6d5c91-base  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/v125-review-base-1030/01boss-battle/b.repl26a
+[+] TEAM B WIN (v125-review-base-1030)  fe6d5c91-base vs v125-review-base-1030  00lanes  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/v125-review-base-1030/00lanes/a.repl26a
+[|] STARTING  fe6d5c91-base vs v125-review-base-1030  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/v125-review-base-1030/01elk-arena/a.repl26a
+[+] TEAM B WIN (fe6d5c91-base)  v125-review-base-1030 vs fe6d5c91-base  00lanes  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/v125-review-base-1030/00lanes/b.repl26a
+[|] STARTING  v125-review-base-1030 vs fe6d5c91-base  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/v125-review-base-1030/01elk-arena/b.repl26a
+[+] TEAM B WIN (v125-review-base-1030)  fe6d5c91-base vs v125-review-base-1030  02cuts  Round 1043/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/v125-review-base-1030/02cuts/a.repl26a
+[+] TEAM B WIN (fe6d5c91-base)  v125-review-base-1030 vs fe6d5c91-base  02cuts  Round 1038/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/v125-review-base-1030/02cuts/b.repl26a
+[+] TEAM B WIN (v125-review-base-1030)  fe6d5c91-base vs v125-review-base-1030  01boss-battle  Round 1457/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/v125-review-base-1030/01boss-battle/a.repl26a
+[+] TEAM B WIN (fe6d5c91-base)  v125-review-base-1030 vs fe6d5c91-base  01boss-battle  Round 1466/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/v125-review-base-1030/01boss-battle/b.repl26a
+[|] STARTING  fe6d5c91-base vs v125-review-base-1030  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/v125-review-base-1030/01gold-rush/a.repl26a
+[|] STARTING  v125-review-base-1030 vs fe6d5c91-base  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/v125-review-base-1030/01gold-rush/b.repl26a
+[|] STARTING  fe6d5c91-base vs fish62_f84  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/fish62_f84/00corners/a.repl26a
+[|] STARTING  fish62_f84 vs fe6d5c91-base  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/fish62_f84/00corners/b.repl26a
+[+] TEAM A WIN (fe6d5c91-base)  fe6d5c91-base vs v125-review-base-1030  01elk-arena  Round 1384/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/v125-review-base-1030/01elk-arena/a.repl26a
+[+] TEAM A WIN (v125-review-base-1030)  v125-review-base-1030 vs fe6d5c91-base  01elk-arena  Round 1451/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/v125-review-base-1030/01elk-arena/b.repl26a
+[|] STARTING  fe6d5c91-base vs fish62_f84  00swirl
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/fish62_f84/00swirl/a.repl26a
+[|] STARTING  fish62_f84 vs fe6d5c91-base  00swirl
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/fish62_f84/00swirl/b.repl26a
+[+] TEAM B WIN (v125-review-base-1030)  fe6d5c91-base vs v125-review-base-1030  01gold-rush  Round 1531/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/v125-review-base-1030/01gold-rush/a.repl26a
+[+] TEAM B WIN (fe6d5c91-base)  v125-review-base-1030 vs fe6d5c91-base  01gold-rush  Round 1531/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/v125-review-base-1030/01gold-rush/b.repl26a
+[+] TEAM A WIN (fe6d5c91-base)  fe6d5c91-base vs fish62_f84  00swirl  Round 0912/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/fish62_f84/00swirl/a.repl26a
+[+] TEAM A WIN (fish62_f84)  fish62_f84 vs fe6d5c91-base  00swirl  Round 1094/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/fish62_f84/00swirl/b.repl26a
+[|] STARTING  fe6d5c91-base vs fish62_f84  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/fish62_f84/02treasure-box/a.repl26a
+[|] STARTING  fish62_f84 vs fe6d5c91-base  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/fish62_f84/02treasure-box/b.repl26a
+[|] STARTING  fe6d5c91-base vs fish62_f84  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/fish62_f84/00vault/a.repl26a
+[|] STARTING  fish62_f84 vs fe6d5c91-base  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/fish62_f84/00vault/b.repl26a
+[+] TEAM B WIN (fe6d5c91-base)  fish62_f84 vs fe6d5c91-base  00corners  Round 1153/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/fish62_f84/00corners/b.repl26a
+[|] STARTING  fe6d5c91-base vs fish62_f84  00monolith
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/fish62_f84/00monolith/a.repl26a
+[+] TEAM A WIN (fe6d5c91-base)  fe6d5c91-base vs fish62_f84  00corners  Round 1194/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/fish62_f84/00corners/a.repl26a
+[|] STARTING  fish62_f84 vs fe6d5c91-base  00monolith
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/fish62_f84/00monolith/b.repl26a
+[+] TEAM A WIN (fe6d5c91-base)  fe6d5c91-base vs fish62_f84  00vault  Round 0542/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/fish62_f84/00vault/a.repl26a
+[+] TEAM A WIN (fish62_f84)  fish62_f84 vs fe6d5c91-base  00vault  Round 0755/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/fish62_f84/00vault/b.repl26a
+[|] STARTING  fe6d5c91-base vs fish62_f84  02tangle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/fish62_f84/02tangle/a.repl26a
+[|] STARTING  fish62_f84 vs fe6d5c91-base  02tangle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/fish62_f84/02tangle/b.repl26a
+[+] TEAM B WIN (fish62_f84)  fe6d5c91-base vs fish62_f84  02treasure-box  Round 1282/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/fish62_f84/02treasure-box/a.repl26a
+[+] TEAM B WIN (fe6d5c91-base)  fish62_f84 vs fe6d5c91-base  00monolith  Round 1104/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/fish62_f84/00monolith/b.repl26a
+[|] STARTING  fe6d5c91-base vs fish62_f84  02uncharted-lands
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/fish62_f84/02uncharted-lands/a.repl26a
+[|] STARTING  fish62_f84 vs fe6d5c91-base  02uncharted-lands
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/fish62_f84/02uncharted-lands/b.repl26a
+[+] TEAM A WIN (fe6d5c91-base)  fe6d5c91-base vs fish62_f84  00monolith  Round 1245/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/fish62_f84/00monolith/a.repl26a
+[|] STARTING  fe6d5c91-base vs fish62_f84  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/fish62_f84/00lanes/a.repl26a
+[+] TEAM A WIN (fish62_f84)  fish62_f84 vs fe6d5c91-base  02treasure-box  Round 1472/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/fish62_f84/02treasure-box/b.repl26a
+[|] STARTING  fish62_f84 vs fe6d5c91-base  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/fish62_f84/00lanes/b.repl26a
+[+] TEAM B WIN (fish62_f84)  fe6d5c91-base vs fish62_f84  02uncharted-lands  Round 0917/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/fish62_f84/02uncharted-lands/a.repl26a
+[+] TEAM B WIN (fe6d5c91-base)  fish62_f84 vs fe6d5c91-base  02uncharted-lands  Round 0887/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/fish62_f84/02uncharted-lands/b.repl26a
+[|] STARTING  fe6d5c91-base vs fish62_f84  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/fish62_f84/02cuts/a.repl26a
+[|] STARTING  fish62_f84 vs fe6d5c91-base  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/fish62_f84/02cuts/b.repl26a
+[+] TEAM B WIN (fe6d5c91-base)  fish62_f84 vs fe6d5c91-base  02tangle  Round 1445/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/fish62_f84/02tangle/b.repl26a
+[+] TEAM B WIN (fish62_f84)  fe6d5c91-base vs fish62_f84  00lanes  Round 1155/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/fish62_f84/00lanes/a.repl26a
+[+] TEAM A WIN (fish62_f84)  fish62_f84 vs fe6d5c91-base  00lanes  Round 1169/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/fish62_f84/00lanes/b.repl26a
+[|] STARTING  fe6d5c91-base vs fish62_f84  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/fish62_f84/01boss-battle/a.repl26a
+[|] STARTING  fish62_f84 vs fe6d5c91-base  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/fish62_f84/01boss-battle/b.repl26a
+[|] STARTING  fe6d5c91-base vs fish62_f84  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/fish62_f84/01elk-arena/a.repl26a
+[+] TEAM B WIN (fish62_f84)  fe6d5c91-base vs fish62_f84  02tangle  Round 1407/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/fish62_f84/02tangle/a.repl26a
+[|] STARTING  fish62_f84 vs fe6d5c91-base  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/fish62_f84/01elk-arena/b.repl26a
+[+] TEAM B WIN (fe6d5c91-base)  fish62_f84 vs fe6d5c91-base  02cuts  Round 1037/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/fish62_f84/02cuts/b.repl26a
+[|] STARTING  fe6d5c91-base vs fish62_f84  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/fish62_f84/01gold-rush/a.repl26a
+[+] TEAM B WIN (fish62_f84)  fe6d5c91-base vs fish62_f84  02cuts  Round 1121/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/fish62_f84/02cuts/a.repl26a
+[|] STARTING  fish62_f84 vs fe6d5c91-base  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/fish62_f84/01gold-rush/b.repl26a
+[+] TEAM B WIN (fe6d5c91-base)  fish62_f84 vs fe6d5c91-base  01boss-battle  Round 1304/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/fish62_f84/01boss-battle/b.repl26a
+[|] STARTING  fe6d5c91-base vs tm30_f84  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/tm30_f84/00corners/a.repl26a
+[+] TEAM B WIN (fish62_f84)  fe6d5c91-base vs fish62_f84  01boss-battle  Round 1947/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/fish62_f84/01boss-battle/a.repl26a
+[|] STARTING  tm30_f84 vs fe6d5c91-base  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/tm30_f84/00corners/b.repl26a
+[+] TEAM A WIN (fe6d5c91-base)  fe6d5c91-base vs fish62_f84  01elk-arena  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/fish62_f84/01elk-arena/a.repl26a
+[+] TEAM A WIN (fish62_f84)  fish62_f84 vs fe6d5c91-base  01elk-arena  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/fish62_f84/01elk-arena/b.repl26a
+[|] STARTING  fe6d5c91-base vs tm30_f84  00swirl
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/tm30_f84/00swirl/a.repl26a
+[|] STARTING  tm30_f84 vs fe6d5c91-base  00swirl
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/tm30_f84/00swirl/b.repl26a
+[+] TEAM A WIN (fe6d5c91-base)  fe6d5c91-base vs fish62_f84  01gold-rush  Round 1674/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/fish62_f84/01gold-rush/a.repl26a
+[+] TEAM B WIN (fe6d5c91-base)  fish62_f84 vs fe6d5c91-base  01gold-rush  Round 1337/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/fish62_f84/01gold-rush/b.repl26a
+[|] STARTING  fe6d5c91-base vs tm30_f84  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/tm30_f84/02treasure-box/a.repl26a
+[|] STARTING  tm30_f84 vs fe6d5c91-base  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/tm30_f84/02treasure-box/b.repl26a
+[+] TEAM A WIN (fe6d5c91-base)  fe6d5c91-base vs tm30_f84  00corners  Round 1076/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/tm30_f84/00corners/a.repl26a
+[|] STARTING  fe6d5c91-base vs tm30_f84  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/tm30_f84/00vault/a.repl26a
+[+] TEAM B WIN (fe6d5c91-base)  tm30_f84 vs fe6d5c91-base  00corners  Round 0910/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/tm30_f84/00corners/b.repl26a
+[+] TEAM A WIN (fe6d5c91-base)  fe6d5c91-base vs tm30_f84  00swirl  Round 0942/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/tm30_f84/00swirl/a.repl26a
+[+] TEAM B WIN (fe6d5c91-base)  tm30_f84 vs fe6d5c91-base  00swirl  Round 1148/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/tm30_f84/00swirl/b.repl26a
+[|] STARTING  tm30_f84 vs fe6d5c91-base  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/tm30_f84/00vault/b.repl26a
+[|] STARTING  fe6d5c91-base vs tm30_f84  00monolith
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/tm30_f84/00monolith/a.repl26a
+[|] STARTING  tm30_f84 vs fe6d5c91-base  00monolith
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/tm30_f84/00monolith/b.repl26a
+[+] TEAM A WIN (fe6d5c91-base)  fe6d5c91-base vs tm30_f84  02treasure-box  Round 1088/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/tm30_f84/02treasure-box/a.repl26a
+[|] STARTING  fe6d5c91-base vs tm30_f84  02tangle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/tm30_f84/02tangle/a.repl26a
+[+] TEAM B WIN (fe6d5c91-base)  tm30_f84 vs fe6d5c91-base  02treasure-box  Round 1182/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/tm30_f84/02treasure-box/b.repl26a
+[|] STARTING  tm30_f84 vs fe6d5c91-base  02tangle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/tm30_f84/02tangle/b.repl26a
+[+] TEAM A WIN (fe6d5c91-base)  fe6d5c91-base vs tm30_f84  00vault  Round 0360/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/tm30_f84/00vault/a.repl26a
+[|] STARTING  fe6d5c91-base vs tm30_f84  02uncharted-lands
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/tm30_f84/02uncharted-lands/a.repl26a
+[+] TEAM B WIN (fe6d5c91-base)  tm30_f84 vs fe6d5c91-base  00vault  Round 0401/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/tm30_f84/00vault/b.repl26a
+[|] STARTING  tm30_f84 vs fe6d5c91-base  02uncharted-lands
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/tm30_f84/02uncharted-lands/b.repl26a
+[+] TEAM A WIN (fe6d5c91-base)  fe6d5c91-base vs tm30_f84  00monolith  Round 1086/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/tm30_f84/00monolith/a.repl26a
+[+] TEAM B WIN (fe6d5c91-base)  tm30_f84 vs fe6d5c91-base  00monolith  Round 1190/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/tm30_f84/00monolith/b.repl26a
+[+] TEAM A WIN (fe6d5c91-base)  fe6d5c91-base vs tm30_f84  02uncharted-lands  Round 0904/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/tm30_f84/02uncharted-lands/a.repl26a
+[|] STARTING  fe6d5c91-base vs tm30_f84  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/tm30_f84/00lanes/a.repl26a
+[|] STARTING  tm30_f84 vs fe6d5c91-base  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/tm30_f84/00lanes/b.repl26a
+[|] STARTING  fe6d5c91-base vs tm30_f84  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/tm30_f84/02cuts/a.repl26a
+[+] TEAM B WIN (fe6d5c91-base)  tm30_f84 vs fe6d5c91-base  02uncharted-lands  Round 0849/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/tm30_f84/02uncharted-lands/b.repl26a
+[|] STARTING  tm30_f84 vs fe6d5c91-base  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/tm30_f84/02cuts/b.repl26a
+[+] TEAM B WIN (tm30_f84)  fe6d5c91-base vs tm30_f84  02tangle  Round 1602/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/tm30_f84/02tangle/a.repl26a
+[+] TEAM B WIN (fe6d5c91-base)  tm30_f84 vs fe6d5c91-base  02tangle  Round 1438/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/tm30_f84/02tangle/b.repl26a
+[|] STARTING  fe6d5c91-base vs tm30_f84  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/tm30_f84/01boss-battle/a.repl26a
+[|] STARTING  tm30_f84 vs fe6d5c91-base  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/tm30_f84/01boss-battle/b.repl26a
+[+] TEAM A WIN (fe6d5c91-base)  fe6d5c91-base vs tm30_f84  02cuts  Round 1182/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/tm30_f84/02cuts/a.repl26a
+[+] TEAM B WIN (fe6d5c91-base)  tm30_f84 vs fe6d5c91-base  02cuts  Round 1158/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/tm30_f84/02cuts/b.repl26a
+[|] STARTING  fe6d5c91-base vs tm30_f84  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/tm30_f84/01elk-arena/a.repl26a
+[|] STARTING  tm30_f84 vs fe6d5c91-base  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/tm30_f84/01elk-arena/b.repl26a
+[+] TEAM B WIN (tm30_f84)  fe6d5c91-base vs tm30_f84  00lanes  Round 1456/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/tm30_f84/00lanes/a.repl26a
+[|] STARTING  fe6d5c91-base vs tm30_f84  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/tm30_f84/01gold-rush/a.repl26a
+[+] TEAM A WIN (tm30_f84)  tm30_f84 vs fe6d5c91-base  00lanes  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/tm30_f84/00lanes/b.repl26a
+[|] STARTING  tm30_f84 vs fe6d5c91-base  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/tm30_f84/01gold-rush/b.repl26a
+[+] TEAM B WIN (fe6d5c91-base)  tm30_f84 vs fe6d5c91-base  01boss-battle  Round 1069/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/tm30_f84/01boss-battle/b.repl26a
+[|] STARTING  fe6d5c91-planned vs v125-review-base-1030  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/v125-review-base-1030/00corners/a.repl26a
+[+] TEAM B WIN (tm30_f84)  fe6d5c91-base vs tm30_f84  01boss-battle  Round 1811/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/tm30_f84/01boss-battle/a.repl26a
+[|] STARTING  v125-review-base-1030 vs fe6d5c91-planned  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/v125-review-base-1030/00corners/b.repl26a
+[+] TEAM B WIN (fe6d5c91-base)  tm30_f84 vs fe6d5c91-base  01gold-rush  Round 1151/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/tm30_f84/01gold-rush/b.repl26a
+[|] STARTING  fe6d5c91-planned vs v125-review-base-1030  00swirl
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/v125-review-base-1030/00swirl/a.repl26a
+[+] TEAM A WIN (fe6d5c91-base)  fe6d5c91-base vs tm30_f84  01gold-rush  Round 1321/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/tm30_f84/01gold-rush/a.repl26a
+[|] STARTING  v125-review-base-1030 vs fe6d5c91-planned  00swirl
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/v125-review-base-1030/00swirl/b.repl26a
+[+] TEAM A WIN (fe6d5c91-planned)  fe6d5c91-planned vs v125-review-base-1030  00corners  Round 1014/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/v125-review-base-1030/00corners/a.repl26a
+[|] STARTING  fe6d5c91-planned vs v125-review-base-1030  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/v125-review-base-1030/02treasure-box/a.repl26a
+[+] TEAM A WIN (fe6d5c91-base)  fe6d5c91-base vs tm30_f84  01elk-arena  Round 1433/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/tm30_f84/01elk-arena/a.repl26a
+[|] STARTING  v125-review-base-1030 vs fe6d5c91-planned  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/v125-review-base-1030/02treasure-box/b.repl26a
+[+] TEAM B WIN (fe6d5c91-base)  tm30_f84 vs fe6d5c91-base  01elk-arena  Round 1691/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/base/tm30_f84/01elk-arena/b.repl26a
+[|] STARTING  fe6d5c91-planned vs v125-review-base-1030  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/v125-review-base-1030/00vault/a.repl26a
+[+] TEAM A WIN (fe6d5c91-planned)  fe6d5c91-planned vs v125-review-base-1030  00swirl  Round 1098/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/v125-review-base-1030/00swirl/a.repl26a
+[+] TEAM A WIN (v125-review-base-1030)  v125-review-base-1030 vs fe6d5c91-planned  00swirl  Round 0966/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/v125-review-base-1030/00swirl/b.repl26a
+[|] STARTING  v125-review-base-1030 vs fe6d5c91-planned  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/v125-review-base-1030/00vault/b.repl26a
+[|] STARTING  fe6d5c91-planned vs v125-review-base-1030  00monolith
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/v125-review-base-1030/00monolith/a.repl26a
+[+] TEAM B WIN (fe6d5c91-planned)  v125-review-base-1030 vs fe6d5c91-planned  00corners  Round 1343/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/v125-review-base-1030/00corners/b.repl26a
+[+] TEAM B WIN (v125-review-base-1030)  fe6d5c91-planned vs v125-review-base-1030  00vault  Round 0620/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/v125-review-base-1030/00vault/a.repl26a
+[|] STARTING  v125-review-base-1030 vs fe6d5c91-planned  00monolith
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/v125-review-base-1030/00monolith/b.repl26a
+[|] STARTING  fe6d5c91-planned vs v125-review-base-1030  02tangle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/v125-review-base-1030/02tangle/a.repl26a
+[+] TEAM B WIN (fe6d5c91-planned)  v125-review-base-1030 vs fe6d5c91-planned  00vault  Round 0362/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/v125-review-base-1030/00vault/b.repl26a
+[|] STARTING  v125-review-base-1030 vs fe6d5c91-planned  02tangle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/v125-review-base-1030/02tangle/b.repl26a
+[+] TEAM B WIN (v125-review-base-1030)  fe6d5c91-planned vs v125-review-base-1030  00monolith  Round 1120/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/v125-review-base-1030/00monolith/a.repl26a
+[+] TEAM B WIN (fe6d5c91-planned)  v125-review-base-1030 vs fe6d5c91-planned  00monolith  Round 1105/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/v125-review-base-1030/00monolith/b.repl26a
+[|] STARTING  fe6d5c91-planned vs v125-review-base-1030  02uncharted-lands
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/v125-review-base-1030/02uncharted-lands/a.repl26a
+[|] STARTING  v125-review-base-1030 vs fe6d5c91-planned  02uncharted-lands
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/v125-review-base-1030/02uncharted-lands/b.repl26a
+[+] TEAM B WIN (v125-review-base-1030)  fe6d5c91-planned vs v125-review-base-1030  02treasure-box  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/v125-review-base-1030/02treasure-box/a.repl26a
+[|] STARTING  fe6d5c91-planned vs v125-review-base-1030  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/v125-review-base-1030/00lanes/a.repl26a
+[+] TEAM A WIN (fe6d5c91-planned)  fe6d5c91-planned vs v125-review-base-1030  02tangle  Round 1414/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/v125-review-base-1030/02tangle/a.repl26a
+[|] STARTING  v125-review-base-1030 vs fe6d5c91-planned  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/v125-review-base-1030/00lanes/b.repl26a
+[+] TEAM B WIN (fe6d5c91-planned)  v125-review-base-1030 vs fe6d5c91-planned  02treasure-box  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/v125-review-base-1030/02treasure-box/b.repl26a
+[|] STARTING  fe6d5c91-planned vs v125-review-base-1030  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/v125-review-base-1030/02cuts/a.repl26a
+[+] TEAM B WIN (fe6d5c91-planned)  v125-review-base-1030 vs fe6d5c91-planned  02tangle  Round 1474/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/v125-review-base-1030/02tangle/b.repl26a
+[|] STARTING  v125-review-base-1030 vs fe6d5c91-planned  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/v125-review-base-1030/02cuts/b.repl26a
+[+] TEAM B WIN (fe6d5c91-planned)  v125-review-base-1030 vs fe6d5c91-planned  02uncharted-lands  Round 0840/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/v125-review-base-1030/02uncharted-lands/b.repl26a
+[|] STARTING  fe6d5c91-planned vs v125-review-base-1030  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/v125-review-base-1030/01boss-battle/a.repl26a
+[+] TEAM B WIN (v125-review-base-1030)  fe6d5c91-planned vs v125-review-base-1030  02uncharted-lands  Round 0875/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/v125-review-base-1030/02uncharted-lands/a.repl26a
+[|] STARTING  v125-review-base-1030 vs fe6d5c91-planned  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/v125-review-base-1030/01boss-battle/b.repl26a
+[+] TEAM B WIN (v125-review-base-1030)  fe6d5c91-planned vs v125-review-base-1030  02cuts  Round 1043/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/v125-review-base-1030/02cuts/a.repl26a
+[|] STARTING  fe6d5c91-planned vs v125-review-base-1030  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/v125-review-base-1030/01elk-arena/a.repl26a
+[+] TEAM A WIN (fe6d5c91-planned)  fe6d5c91-planned vs v125-review-base-1030  00lanes  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/v125-review-base-1030/00lanes/a.repl26a
+[+] TEAM B WIN (fe6d5c91-planned)  v125-review-base-1030 vs fe6d5c91-planned  00lanes  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/v125-review-base-1030/00lanes/b.repl26a
+[|] STARTING  v125-review-base-1030 vs fe6d5c91-planned  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/v125-review-base-1030/01elk-arena/b.repl26a
+[|] STARTING  fe6d5c91-planned vs v125-review-base-1030  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/v125-review-base-1030/01gold-rush/a.repl26a
+[+] TEAM B WIN (fe6d5c91-planned)  v125-review-base-1030 vs fe6d5c91-planned  02cuts  Round 1038/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/v125-review-base-1030/02cuts/b.repl26a
+[|] STARTING  v125-review-base-1030 vs fe6d5c91-planned  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/v125-review-base-1030/01gold-rush/b.repl26a
+[+] TEAM B WIN (v125-review-base-1030)  fe6d5c91-planned vs v125-review-base-1030  01boss-battle  Round 1182/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/v125-review-base-1030/01boss-battle/a.repl26a
+[+] TEAM B WIN (fe6d5c91-planned)  v125-review-base-1030 vs fe6d5c91-planned  01boss-battle  Round 1139/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/v125-review-base-1030/01boss-battle/b.repl26a
+[|] STARTING  fe6d5c91-planned vs fish62_f84  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/fish62_f84/00corners/a.repl26a
+[|] STARTING  fish62_f84 vs fe6d5c91-planned  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/fish62_f84/00corners/b.repl26a
+[+] TEAM B WIN (v125-review-base-1030)  fe6d5c91-planned vs v125-review-base-1030  01gold-rush  Round 1531/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/v125-review-base-1030/01gold-rush/a.repl26a
+[|] STARTING  fe6d5c91-planned vs fish62_f84  00swirl
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/fish62_f84/00swirl/a.repl26a
+[+] TEAM A WIN (fe6d5c91-planned)  fe6d5c91-planned vs v125-review-base-1030  01elk-arena  Round 1485/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/v125-review-base-1030/01elk-arena/a.repl26a
+[|] STARTING  fish62_f84 vs fe6d5c91-planned  00swirl
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/fish62_f84/00swirl/b.repl26a
+[+] TEAM A WIN (v125-review-base-1030)  v125-review-base-1030 vs fe6d5c91-planned  01elk-arena  Round 1451/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/v125-review-base-1030/01elk-arena/b.repl26a
+[+] TEAM B WIN (fe6d5c91-planned)  v125-review-base-1030 vs fe6d5c91-planned  01gold-rush  Round 1449/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/v125-review-base-1030/01gold-rush/b.repl26a
+[+] TEAM A WIN (fe6d5c91-planned)  fe6d5c91-planned vs fish62_f84  00swirl  Round 0941/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/fish62_f84/00swirl/a.repl26a
+[|] STARTING  fe6d5c91-planned vs fish62_f84  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/fish62_f84/02treasure-box/a.repl26a
+[|] STARTING  fish62_f84 vs fe6d5c91-planned  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/fish62_f84/02treasure-box/b.repl26a
+[|] STARTING  fe6d5c91-planned vs fish62_f84  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/fish62_f84/00vault/a.repl26a
+[+] TEAM A WIN (fe6d5c91-planned)  fe6d5c91-planned vs fish62_f84  00corners  Round 1011/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/fish62_f84/00corners/a.repl26a
+[|] STARTING  fish62_f84 vs fe6d5c91-planned  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/fish62_f84/00vault/b.repl26a
+[+] TEAM A WIN (fish62_f84)  fish62_f84 vs fe6d5c91-planned  00corners  Round 1247/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/fish62_f84/00corners/b.repl26a
+[|] STARTING  fe6d5c91-planned vs fish62_f84  00monolith
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/fish62_f84/00monolith/a.repl26a
+[+] TEAM A WIN (fe6d5c91-planned)  fe6d5c91-planned vs fish62_f84  00vault  Round 0542/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/fish62_f84/00vault/a.repl26a
+[|] STARTING  fish62_f84 vs fe6d5c91-planned  00monolith
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/fish62_f84/00monolith/b.repl26a
+[+] TEAM A WIN (fish62_f84)  fish62_f84 vs fe6d5c91-planned  00vault  Round 0755/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/fish62_f84/00vault/b.repl26a
+[|] STARTING  fe6d5c91-planned vs fish62_f84  02tangle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/fish62_f84/02tangle/a.repl26a
+[+] TEAM A WIN (fish62_f84)  fish62_f84 vs fe6d5c91-planned  00swirl  Round 1711/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/fish62_f84/00swirl/b.repl26a
+[|] STARTING  fish62_f84 vs fe6d5c91-planned  02tangle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/fish62_f84/02tangle/b.repl26a
+[+] TEAM A WIN (fish62_f84)  fish62_f84 vs fe6d5c91-planned  02treasure-box  Round 1214/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/fish62_f84/02treasure-box/b.repl26a
+[|] STARTING  fe6d5c91-planned vs fish62_f84  02uncharted-lands
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/fish62_f84/02uncharted-lands/a.repl26a
+[+] TEAM A WIN (fe6d5c91-planned)  fe6d5c91-planned vs fish62_f84  02treasure-box  Round 1527/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/fish62_f84/02treasure-box/a.repl26a
+[|] STARTING  fish62_f84 vs fe6d5c91-planned  02uncharted-lands
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/fish62_f84/02uncharted-lands/b.repl26a
+[+] TEAM A WIN (fe6d5c91-planned)  fe6d5c91-planned vs fish62_f84  00monolith  Round 1245/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/fish62_f84/00monolith/a.repl26a
+[+] TEAM B WIN (fe6d5c91-planned)  fish62_f84 vs fe6d5c91-planned  00monolith  Round 1104/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/fish62_f84/00monolith/b.repl26a
+[|] STARTING  fe6d5c91-planned vs fish62_f84  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/fish62_f84/00lanes/a.repl26a
+[|] STARTING  fish62_f84 vs fe6d5c91-planned  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/fish62_f84/00lanes/b.repl26a
+[+] TEAM B WIN (fish62_f84)  fe6d5c91-planned vs fish62_f84  02uncharted-lands  Round 0917/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/fish62_f84/02uncharted-lands/a.repl26a
+[|] STARTING  fe6d5c91-planned vs fish62_f84  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/fish62_f84/02cuts/a.repl26a
+[+] TEAM B WIN (fe6d5c91-planned)  fish62_f84 vs fe6d5c91-planned  02uncharted-lands  Round 0887/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/fish62_f84/02uncharted-lands/b.repl26a
+[|] STARTING  fish62_f84 vs fe6d5c91-planned  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/fish62_f84/02cuts/b.repl26a
+[+] TEAM B WIN (fish62_f84)  fe6d5c91-planned vs fish62_f84  02tangle  Round 1333/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/fish62_f84/02tangle/a.repl26a
+[|] STARTING  fe6d5c91-planned vs fish62_f84  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/fish62_f84/01boss-battle/a.repl26a
+[+] TEAM A WIN (fish62_f84)  fish62_f84 vs fe6d5c91-planned  02tangle  Round 1382/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/fish62_f84/02tangle/b.repl26a
+[|] STARTING  fish62_f84 vs fe6d5c91-planned  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/fish62_f84/01boss-battle/b.repl26a
+[+] TEAM B WIN (fish62_f84)  fe6d5c91-planned vs fish62_f84  00lanes  Round 1188/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/fish62_f84/00lanes/a.repl26a
+[+] TEAM B WIN (fish62_f84)  fe6d5c91-planned vs fish62_f84  02cuts  Round 1121/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/fish62_f84/02cuts/a.repl26a
+[|] STARTING  fe6d5c91-planned vs fish62_f84  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/fish62_f84/01elk-arena/a.repl26a
+[|] STARTING  fish62_f84 vs fe6d5c91-planned  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/fish62_f84/01elk-arena/b.repl26a
+[+] TEAM A WIN (fish62_f84)  fish62_f84 vs fe6d5c91-planned  00lanes  Round 1199/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/fish62_f84/00lanes/b.repl26a
+[+] TEAM A WIN (fish62_f84)  fish62_f84 vs fe6d5c91-planned  02cuts  Round 1086/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/fish62_f84/02cuts/b.repl26a
+[|] STARTING  fe6d5c91-planned vs fish62_f84  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/fish62_f84/01gold-rush/a.repl26a
+[|] STARTING  fish62_f84 vs fe6d5c91-planned  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/fish62_f84/01gold-rush/b.repl26a
+[+] TEAM B WIN (fe6d5c91-planned)  fish62_f84 vs fe6d5c91-planned  01boss-battle  Round 1341/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/fish62_f84/01boss-battle/b.repl26a
+[|] STARTING  fe6d5c91-planned vs tm30_f84  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/tm30_f84/00corners/a.repl26a
+[+] TEAM B WIN (fish62_f84)  fe6d5c91-planned vs fish62_f84  01boss-battle  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/fish62_f84/01boss-battle/a.repl26a
+[|] STARTING  tm30_f84 vs fe6d5c91-planned  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/tm30_f84/00corners/b.repl26a
+[+] TEAM B WIN (fe6d5c91-planned)  fish62_f84 vs fe6d5c91-planned  01gold-rush  Round 1337/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/fish62_f84/01gold-rush/b.repl26a
+[|] STARTING  fe6d5c91-planned vs tm30_f84  00swirl
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/tm30_f84/00swirl/a.repl26a
+[+] TEAM A WIN (fe6d5c91-planned)  fe6d5c91-planned vs fish62_f84  01gold-rush  Round 1674/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/fish62_f84/01gold-rush/a.repl26a
+[|] STARTING  tm30_f84 vs fe6d5c91-planned  00swirl
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/tm30_f84/00swirl/b.repl26a
+[+] TEAM A WIN (fe6d5c91-planned)  fe6d5c91-planned vs fish62_f84  01elk-arena  Round 1791/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/fish62_f84/01elk-arena/a.repl26a
+[|] STARTING  fe6d5c91-planned vs tm30_f84  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/tm30_f84/02treasure-box/a.repl26a
+[+] TEAM B WIN (fe6d5c91-planned)  fish62_f84 vs fe6d5c91-planned  01elk-arena  Round 1831/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/fish62_f84/01elk-arena/b.repl26a
+[+] TEAM A WIN (fe6d5c91-planned)  fe6d5c91-planned vs tm30_f84  00swirl  Round 0970/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/tm30_f84/00swirl/a.repl26a
+[|] STARTING  tm30_f84 vs fe6d5c91-planned  02treasure-box
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/tm30_f84/02treasure-box/b.repl26a
+[|] STARTING  fe6d5c91-planned vs tm30_f84  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/tm30_f84/00vault/a.repl26a
+[+] TEAM A WIN (fe6d5c91-planned)  fe6d5c91-planned vs tm30_f84  00corners  Round 1179/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/tm30_f84/00corners/a.repl26a
+[|] STARTING  tm30_f84 vs fe6d5c91-planned  00vault
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/tm30_f84/00vault/b.repl26a
+[+] TEAM B WIN (fe6d5c91-planned)  tm30_f84 vs fe6d5c91-planned  00swirl  Round 1280/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/tm30_f84/00swirl/b.repl26a
+[|] STARTING  fe6d5c91-planned vs tm30_f84  00monolith
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/tm30_f84/00monolith/a.repl26a
+[+] TEAM B WIN (fe6d5c91-planned)  tm30_f84 vs fe6d5c91-planned  00corners  Round 1140/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/tm30_f84/00corners/b.repl26a
+[|] STARTING  tm30_f84 vs fe6d5c91-planned  00monolith
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/tm30_f84/00monolith/b.repl26a
+[+] TEAM A WIN (fe6d5c91-planned)  fe6d5c91-planned vs tm30_f84  00vault  Round 0360/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/tm30_f84/00vault/a.repl26a
+[|] STARTING  fe6d5c91-planned vs tm30_f84  02tangle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/tm30_f84/02tangle/a.repl26a
+[+] TEAM B WIN (fe6d5c91-planned)  tm30_f84 vs fe6d5c91-planned  00vault  Round 0411/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/tm30_f84/00vault/b.repl26a
+[|] STARTING  tm30_f84 vs fe6d5c91-planned  02tangle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/tm30_f84/02tangle/b.repl26a
+[+] TEAM A WIN (fe6d5c91-planned)  fe6d5c91-planned vs tm30_f84  02treasure-box  Round 1061/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/tm30_f84/02treasure-box/a.repl26a
+[|] STARTING  fe6d5c91-planned vs tm30_f84  02uncharted-lands
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/tm30_f84/02uncharted-lands/a.repl26a
+[+] TEAM B WIN (fe6d5c91-planned)  tm30_f84 vs fe6d5c91-planned  02treasure-box  Round 1115/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/tm30_f84/02treasure-box/b.repl26a
+[|] STARTING  tm30_f84 vs fe6d5c91-planned  02uncharted-lands
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/tm30_f84/02uncharted-lands/b.repl26a
+[+] TEAM A WIN (fe6d5c91-planned)  fe6d5c91-planned vs tm30_f84  00monolith  Round 1086/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/tm30_f84/00monolith/a.repl26a
+[|] STARTING  fe6d5c91-planned vs tm30_f84  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/tm30_f84/00lanes/a.repl26a
+[+] TEAM B WIN (fe6d5c91-planned)  tm30_f84 vs fe6d5c91-planned  00monolith  Round 1190/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/tm30_f84/00monolith/b.repl26a
+[|] STARTING  tm30_f84 vs fe6d5c91-planned  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/tm30_f84/00lanes/b.repl26a
+[+] TEAM A WIN (fe6d5c91-planned)  fe6d5c91-planned vs tm30_f84  02uncharted-lands  Round 0904/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/tm30_f84/02uncharted-lands/a.repl26a
+[+] TEAM B WIN (fe6d5c91-planned)  tm30_f84 vs fe6d5c91-planned  02uncharted-lands  Round 0849/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/tm30_f84/02uncharted-lands/b.repl26a
+[|] STARTING  fe6d5c91-planned vs tm30_f84  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/tm30_f84/02cuts/a.repl26a
+[|] STARTING  tm30_f84 vs fe6d5c91-planned  02cuts
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/tm30_f84/02cuts/b.repl26a
+[+] TEAM A WIN (fe6d5c91-planned)  fe6d5c91-planned vs tm30_f84  02tangle  Round 1548/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/tm30_f84/02tangle/a.repl26a
+[+] TEAM B WIN (fe6d5c91-planned)  tm30_f84 vs fe6d5c91-planned  02tangle  Round 1493/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/tm30_f84/02tangle/b.repl26a
+[|] STARTING  fe6d5c91-planned vs tm30_f84  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/tm30_f84/01boss-battle/a.repl26a
+[|] STARTING  tm30_f84 vs fe6d5c91-planned  01boss-battle
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/tm30_f84/01boss-battle/b.repl26a
+[+] TEAM B WIN (tm30_f84)  fe6d5c91-planned vs tm30_f84  00lanes  Round 1528/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/tm30_f84/00lanes/a.repl26a
+[|] STARTING  fe6d5c91-planned vs tm30_f84  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/tm30_f84/01elk-arena/a.repl26a
+[+] TEAM B WIN (fe6d5c91-planned)  tm30_f84 vs fe6d5c91-planned  00lanes  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/tm30_f84/00lanes/b.repl26a
+[|] STARTING  tm30_f84 vs fe6d5c91-planned  01elk-arena
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/tm30_f84/01elk-arena/b.repl26a
+[+] TEAM A WIN (fe6d5c91-planned)  fe6d5c91-planned vs tm30_f84  02cuts  Round 1182/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/tm30_f84/02cuts/a.repl26a
+[+] TEAM B WIN (fe6d5c91-planned)  tm30_f84 vs fe6d5c91-planned  02cuts  Round 1167/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/tm30_f84/02cuts/b.repl26a
+[+] TEAM B WIN (fe6d5c91-planned)  tm30_f84 vs fe6d5c91-planned  01boss-battle  Round 1369/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/tm30_f84/01boss-battle/b.repl26a
+[|] STARTING  fe6d5c91-planned vs tm30_f84  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/tm30_f84/01gold-rush/a.repl26a
+[|] STARTING  tm30_f84 vs fe6d5c91-planned  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/tm30_f84/01gold-rush/b.repl26a
+[+] TEAM A WIN (fe6d5c91-planned)  fe6d5c91-planned vs tm30_f84  01boss-battle  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/tm30_f84/01boss-battle/a.repl26a
+[+] TEAM A WIN (fe6d5c91-planned)  fe6d5c91-planned vs tm30_f84  01elk-arena  Round 1419/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/tm30_f84/01elk-arena/a.repl26a
+[+] TEAM A WIN (fe6d5c91-planned)  fe6d5c91-planned vs tm30_f84  01gold-rush  Round 1172/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/tm30_f84/01gold-rush/a.repl26a
+[+] TEAM B WIN (fe6d5c91-planned)  tm30_f84 vs fe6d5c91-planned  01gold-rush  Round 1144/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/tm30_f84/01gold-rush/b.repl26a
+[+] TEAM B WIN (fe6d5c91-planned)  tm30_f84 vs fe6d5c91-planned  01elk-arena  Round 1653/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/current_improve_2026-10-30/planned_screen/games/planned/tm30_f84/01elk-arena/b.repl26a
+Finished: 144 replay bundles saved, 0 failed
+injected 0 checks into 0 functions
+injected 0 checks into 0 functions

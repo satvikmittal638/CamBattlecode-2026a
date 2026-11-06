@@ -1,0 +1,445 @@
+{
+  "verifiedAt": "2026-10-21T13:20:44.262094+00:00",
+  "firstSourceFileWrittenAt": "2026-10-21T13:16:34.978408+00:00",
+  "lastSourceFileWrittenAt": "2026-10-21T13:19:29.860335+00:00",
+  "website": "https://2026a.battlecode.co.uk",
+  "workflow": {
+    "script": "tools/scrape_docs.js",
+    "command": "node tools/scrape_docs.js docs_2026-10-21T13-14",
+    "scraperExitCode": 0,
+    "discoveredPageUrls": 34,
+    "renderedMarkdownPages": 46,
+    "officialExports": 5,
+    "fullPatchNoteArticles": 3,
+    "supplementalWorkflow": "Follow all /game/patch-notes/<id> links and convert main content with the same Playwright/Turndown/GFM workflow; refresh legacy Week 2 plain text.",
+    "generatedSourceFileCount": 55
+  },
+  "latestPublishedPatch": "1.0.2",
+  "websiteCliVersion": "3.0.4",
+  "localCliVersionObserved": "3.0.2",
+  "localSdkVersionObserved": "3.0.2",
+  "runtimeUpdated": false,
+  "sourceFileCount": 54,
+  "changesFromPreviousDocs": {
+    "changed": 15,
+    "added": 3,
+    "unchanged": 36
+  },
+  "patchNotes": [
+    {
+      "source": "https://2026a.battlecode.co.uk/game/patch-notes/e251fa42-fb2a-4d9b-ab8c-2e044f21d599",
+      "file": "pages/patch-notes_e251fa42-fb2a-4d9b-ab8c-2e044f21d599.md",
+      "title": "Patch 1.0.2 Notes",
+      "fetchedAt": "2026-10-21T13:17:52.751Z"
+    },
+    {
+      "source": "https://2026a.battlecode.co.uk/game/patch-notes/7a4caf45-afc3-49d0-838a-9eb9657bafc6",
+      "file": "pages/patch-notes_7a4caf45-afc3-49d0-838a-9eb9657bafc6.md",
+      "title": "Patch 1.0.1 Notes",
+      "fetchedAt": "2026-10-21T13:17:55.124Z"
+    },
+    {
+      "source": "https://2026a.battlecode.co.uk/game/patch-notes/2e172875-28d7-4152-9483-54a3db6d2663",
+      "file": "pages/patch-notes_2e172875-28d7-4152-9483-54a3db6d2663.md",
+      "title": "Patch 1.0.0 Notes - Week 2",
+      "fetchedAt": "2026-10-21T13:17:57.741Z"
+    }
+  ],
+  "files": [
+    {
+      "path": "official/BotAPICpp.md",
+      "sha256": "59c88e086a713cc80eb414f31b25e4ed5ff1be6dbcf311822eeab687cbb2d71a",
+      "bytes": 219974,
+      "previousSha256": "9653d6c3ac8b500567a821f64e33d59639f770609b13edd9e63513e70d513fa3",
+      "change": "changed"
+    },
+    {
+      "path": "official/BotAPIOCaml.md",
+      "sha256": "d9a4e9674f51c66ca25b95ee14063daae3cfd9cb93c5ec994f6c7b7ac94028b9",
+      "bytes": 180555,
+      "previousSha256": "a50260730c44a5df8aaa7fd6320a034e3ac523c0d471cf69858f71b63c347ebd",
+      "change": "changed"
+    },
+    {
+      "path": "official/BotAPIPython.md",
+      "sha256": "0eb4a1291b467c526126d994f0a8e3d38dbfcad2b00850e05a5723e698ce121f",
+      "bytes": 162509,
+      "previousSha256": "5f3ffe9b89563d996909d2dc0875b45af60e21d78794824c044f9b5a0e875835",
+      "change": "changed"
+    },
+    {
+      "path": "official/BotAPIRust.md",
+      "sha256": "298a04569c3a59915b35a3dcbbdc9e16d7357de08ac4c7a320eec5d917d8ad0c",
+      "bytes": 178995,
+      "previousSha256": "527b29617f71ae72408f5f774d11b3d0d31cf21661e7d3322d675b37e567b60a",
+      "change": "changed"
+    },
+    {
+      "path": "official/GameRules.md",
+      "sha256": "98999b86cde9a28a7c5099ee66dd215efee5a3493cde2e65317b08289f75e0a2",
+      "bytes": 35099,
+      "previousSha256": "88788521e126ddc0eec4306be062e22db0c58a9d6556516807ce9ea6221d485d",
+      "change": "changed"
+    },
+    {
+      "path": "pages/docs.md",
+      "sha256": "7556ea8c89e977c33c9f6bb83fe0b1b0679d2181c76f3ba4cc6b47efba25b1dd",
+      "bytes": 2335,
+      "previousSha256": "7556ea8c89e977c33c9f6bb83fe0b1b0679d2181c76f3ba4cc6b47efba25b1dd",
+      "change": "unchanged"
+    },
+    {
+      "path": "pages/docs_bitboards.cpp.md",
+      "sha256": "7afad2a507a16b1049fc2a21f1ae9ccf0fdc1da24442fc18cef533932d3aa79f",
+      "bytes": 7861,
+      "previousSha256": "7afad2a507a16b1049fc2a21f1ae9ccf0fdc1da24442fc18cef533932d3aa79f",
+      "change": "unchanged"
+    },
+    {
+      "path": "pages/docs_bitboards.ocaml.md",
+      "sha256": "e6999022743f611a1af5e6b378362f089ca333c344af28d18cc12f8288f7cb66",
+      "bytes": 8042,
+      "previousSha256": "e6999022743f611a1af5e6b378362f089ca333c344af28d18cc12f8288f7cb66",
+      "change": "unchanged"
+    },
+    {
+      "path": "pages/docs_bitboards.python.md",
+      "sha256": "69250c3d03aa283574b8767591fb3830006ac8890b2390c01fe340b1a16c5471",
+      "bytes": 7883,
+      "previousSha256": "69250c3d03aa283574b8767591fb3830006ac8890b2390c01fe340b1a16c5471",
+      "change": "unchanged"
+    },
+    {
+      "path": "pages/docs_bitboards.rust.md",
+      "sha256": "4fbe921680dc729508ca0d55c72d6b80209612449f4fbbd2f481cefd80ba0696",
+      "bytes": 8044,
+      "previousSha256": "4fbe921680dc729508ca0d55c72d6b80209612449f4fbbd2f481cefd80ba0696",
+      "change": "unchanged"
+    },
+    {
+      "path": "pages/docs_camps.md",
+      "sha256": "1cbae74ff8b606f89f03f8444ec11151310f3ba25c3f2fabf3008fb67cd930a7",
+      "bytes": 2650,
+      "previousSha256": "1cbae74ff8b606f89f03f8444ec11151310f3ba25c3f2fabf3008fb67cd930a7",
+      "change": "unchanged"
+    },
+    {
+      "path": "pages/docs_cassi-and-issac.md",
+      "sha256": "11c237e5ca1971db602614b19183ff44bdb83e932d07d7cea1ac8b81109b343d",
+      "bytes": 1393,
+      "previousSha256": "11c237e5ca1971db602614b19183ff44bdb83e932d07d7cea1ac8b81109b343d",
+      "change": "unchanged"
+    },
+    {
+      "path": "pages/docs_champions.md",
+      "sha256": "b1399892dabbea3e5bcb20da0d4ca5ac85c8b89d2c54ebd87983b94d7f57c3e2",
+      "bytes": 4902,
+      "previousSha256": "5af1a9a086a6873d64026078ac7557686313422503e5107fa6584212cde46500",
+      "change": "changed"
+    },
+    {
+      "path": "pages/docs_combat.md",
+      "sha256": "451f8e0f884f2b063e99aa1998e4aca667ead3e4f57de9f79dfbe0d932652c4a",
+      "bytes": 2501,
+      "previousSha256": "451f8e0f884f2b063e99aa1998e4aca667ead3e4f57de9f79dfbe0d932652c4a",
+      "change": "unchanged"
+    },
+    {
+      "path": "pages/docs_death-and-recall.md",
+      "sha256": "9e49011c44559dceb55e4099e5f21219c67fe5c8e4f6a42ed075a63550a433ec",
+      "bytes": 1711,
+      "previousSha256": "9e49011c44559dceb55e4099e5f21219c67fe5c8e4f6a42ed075a63550a433ec",
+      "change": "unchanged"
+    },
+    {
+      "path": "pages/docs_distance-fields.cpp.md",
+      "sha256": "0619b14ef26709eadbfa424984747a53459d7f7f82aaa57bca230ffcf5829fa2",
+      "bytes": 7712,
+      "previousSha256": "0619b14ef26709eadbfa424984747a53459d7f7f82aaa57bca230ffcf5829fa2",
+      "change": "unchanged"
+    },
+    {
+      "path": "pages/docs_distance-fields.ocaml.md",
+      "sha256": "4c065ee71732e920bd3b44853ed43f8e076a9d550d55cba006edd769ff181946",
+      "bytes": 8217,
+      "previousSha256": "4c065ee71732e920bd3b44853ed43f8e076a9d550d55cba006edd769ff181946",
+      "change": "unchanged"
+    },
+    {
+      "path": "pages/docs_distance-fields.python.md",
+      "sha256": "7b7dab891759541f2777bacf7a96a51c274819be851588764b12dc37d44ee382",
+      "bytes": 7708,
+      "previousSha256": "7b7dab891759541f2777bacf7a96a51c274819be851588764b12dc37d44ee382",
+      "change": "unchanged"
+    },
+    {
+      "path": "pages/docs_distance-fields.rust.md",
+      "sha256": "8076ee99835882cb8feb412634d071f721f42f3665673fed5c8629ae678f68bd",
+      "bytes": 8134,
+      "previousSha256": "8076ee99835882cb8feb412634d071f721f42f3665673fed5c8629ae678f68bd",
+      "change": "unchanged"
+    },
+    {
+      "path": "pages/docs_draft.md",
+      "sha256": "45a4d0f7a3bd9a1bbed97411759b2839269f2643bb28de2ad82d018b3f9aed11",
+      "bytes": 2568,
+      "previousSha256": "45a4d0f7a3bd9a1bbed97411759b2839269f2643bb28de2ad82d018b3f9aed11",
+      "change": "unchanged"
+    },
+    {
+      "path": "pages/docs_errors.md",
+      "sha256": "ac2e2b20f76f5673447200c34bbb29cc552b2f1e5a1d9cd9c6549035bc599082",
+      "bytes": 11631,
+      "previousSha256": "ac2e2b20f76f5673447200c34bbb29cc552b2f1e5a1d9cd9c6549035bc599082",
+      "change": "unchanged"
+    },
+    {
+      "path": "pages/docs_first-bot.cpp.md",
+      "sha256": "b09e3f081c815eb1ae2432730e06f8d44f3c30721fce90433c3f434b7ad2acfb",
+      "bytes": 6596,
+      "previousSha256": "b09e3f081c815eb1ae2432730e06f8d44f3c30721fce90433c3f434b7ad2acfb",
+      "change": "unchanged"
+    },
+    {
+      "path": "pages/docs_first-bot.ocaml.md",
+      "sha256": "fca1c1b55acd09a70370f086f609f2f85fa1c69951fa042bb8d409b4e5a0c3b2",
+      "bytes": 6798,
+      "previousSha256": "fca1c1b55acd09a70370f086f609f2f85fa1c69951fa042bb8d409b4e5a0c3b2",
+      "change": "unchanged"
+    },
+    {
+      "path": "pages/docs_first-bot.python.md",
+      "sha256": "62207078e814d09a2aae03a23ce9b22e0e55072f781cc8215633ea2e67c67a66",
+      "bytes": 6651,
+      "previousSha256": "62207078e814d09a2aae03a23ce9b22e0e55072f781cc8215633ea2e67c67a66",
+      "change": "unchanged"
+    },
+    {
+      "path": "pages/docs_first-bot.rust.md",
+      "sha256": "b28c9931bebc0f213b21dd19aec6221393c21ead683702f9d3bab7fe55dd62f3",
+      "bytes": 6659,
+      "previousSha256": "b28c9931bebc0f213b21dd19aec6221393c21ead683702f9d3bab7fe55dd62f3",
+      "change": "unchanged"
+    },
+    {
+      "path": "pages/docs_fuel.md",
+      "sha256": "8d22164e284c720360940b58433efc2d06e635b6c97dc67e744501e3a4a0236b",
+      "bytes": 1176,
+      "previousSha256": "8d22164e284c720360940b58433efc2d06e635b6c97dc67e744501e3a4a0236b",
+      "change": "unchanged"
+    },
+    {
+      "path": "pages/docs_gems-and-scoring.md",
+      "sha256": "f3d29feddffe48dcb82f307c61de070fa7cbca3b027d9ebb66afc24b0bf8afc7",
+      "bytes": 3152,
+      "previousSha256": "f3d29feddffe48dcb82f307c61de070fa7cbca3b027d9ebb66afc24b0bf8afc7",
+      "change": "unchanged"
+    },
+    {
+      "path": "pages/docs_glossary.md",
+      "sha256": "051a306ab6f32c9231850dbfd9d5a8837bbb5c53b0ffa17126c41e4691b635f6",
+      "bytes": 2198,
+      "previousSha256": "051a306ab6f32c9231850dbfd9d5a8837bbb5c53b0ffa17126c41e4691b635f6",
+      "change": "unchanged"
+    },
+    {
+      "path": "pages/docs_heart-of-ruin.md",
+      "sha256": "2726103161245ddeccee60376809a38cfe90037d82b45057a095f6ed8bb0fc91",
+      "bytes": 1366,
+      "previousSha256": "b3b96f3094362474d5e6a3033cfee8aff3054181db3a523fff81ce30ac872762",
+      "change": "changed"
+    },
+    {
+      "path": "pages/docs_items.md",
+      "sha256": "7a3afb5fa8d3d4da6dcde56a18765acf608252a1f6d371e2c7ee41e8165645cc",
+      "bytes": 3373,
+      "previousSha256": "7a3afb5fa8d3d4da6dcde56a18765acf608252a1f6d371e2c7ee41e8165645cc",
+      "change": "unchanged"
+    },
+    {
+      "path": "pages/docs_maps-and-movement.md",
+      "sha256": "e88cbc4ad93b4af15e120a1f0b6929ef17902f517ee5f2bd65f42bd9808112e8",
+      "bytes": 2880,
+      "previousSha256": "e88cbc4ad93b4af15e120a1f0b6929ef17902f517ee5f2bd65f42bd9808112e8",
+      "change": "unchanged"
+    },
+    {
+      "path": "pages/docs_marcella.md",
+      "sha256": "1bcad656993222bba9db92c3dbe7d74865df6920ad4632b53023b90f0a398eb3",
+      "bytes": 950,
+      "previousSha256": "1bcad656993222bba9db92c3dbe7d74865df6920ad4632b53023b90f0a398eb3",
+      "change": "unchanged"
+    },
+    {
+      "path": "pages/docs_objective.md",
+      "sha256": "684b2876d88fa16dff27214a337df73987ef46221e06e9011207cea133b5f7b4",
+      "bytes": 2446,
+      "previousSha256": "684b2876d88fa16dff27214a337df73987ef46221e06e9011207cea133b5f7b4",
+      "change": "unchanged"
+    },
+    {
+      "path": "pages/docs_prism.md",
+      "sha256": "8bd19d9e5dce8a9bb5f849c93efdb10ebee4483828a95730de682f4416986828",
+      "bytes": 963,
+      "previousSha256": "9e4ac779f152a41d57cea028b210fd8cafa0f30633efa1a62e3eae6fabcf9aed",
+      "change": "changed"
+    },
+    {
+      "path": "pages/docs_ren.md",
+      "sha256": "5deeea367b648668d56baca2465bee9169f9dd1340f51da75ce05441912bb02a",
+      "bytes": 907,
+      "previousSha256": "b217cadf9107ed32782bef4e4db1d262e21ab868879404bf14fd3a05eab8e945",
+      "change": "changed"
+    },
+    {
+      "path": "pages/docs_ryth.md",
+      "sha256": "d03bcb6c8bd26d59a1bafb08f8e3a345fc4f0f978eeb1c5212fc12186eacdba5",
+      "bytes": 878,
+      "previousSha256": "d03bcb6c8bd26d59a1bafb08f8e3a345fc4f0f978eeb1c5212fc12186eacdba5",
+      "change": "unchanged"
+    },
+    {
+      "path": "pages/docs_shared-memory.md",
+      "sha256": "4f28969de290750c05f8bd30dacddf8cfe4cf0da3cba57697fb323e172ec94ec",
+      "bytes": 675,
+      "previousSha256": "4f28969de290750c05f8bd30dacddf8cfe4cf0da3cba57697fb323e172ec94ec",
+      "change": "unchanged"
+    },
+    {
+      "path": "pages/docs_stellar.md",
+      "sha256": "8ec20ceb8635215eb731ae355ef31e00a0e8a8c4a7fa798d4ac3eec76fa3e156",
+      "bytes": 840,
+      "previousSha256": "0bcf76a163ad4817b9536c94a1d50ef8c4ce7f6491922d4481f17d3c55e8c76b",
+      "change": "changed"
+    },
+    {
+      "path": "pages/docs_tavi.md",
+      "sha256": "4ac815edb36f59b28a7224bfcfe0b7981c7162121bcefbdf9d1ba98e6f3fdf14",
+      "bytes": 1110,
+      "previousSha256": "5d744fea10d2e2f84a2310d65a36c2b5f50786abbd0984f186a59a5f5945a3c1",
+      "change": "changed"
+    },
+    {
+      "path": "pages/docs_varg.md",
+      "sha256": "7542d6706e8ec4dd881406e81127b4a384ea9290d4db798122fb2d471ae4443f",
+      "bytes": 989,
+      "previousSha256": "7542d6706e8ec4dd881406e81127b4a384ea9290d4db798122fb2d471ae4443f",
+      "change": "unchanged"
+    },
+    {
+      "path": "pages/docs_vendetta.md",
+      "sha256": "1fe38980b9006310cb65e5557e76772d448e4c7b0d184691e4d13a09173a21d7",
+      "bytes": 927,
+      "previousSha256": "adcf1908fe9434ee34252fc7efa3906f98dae4c0de796725556e264e744c409e",
+      "change": "changed"
+    },
+    {
+      "path": "pages/docs_vesper-vale.md",
+      "sha256": "eb4d8f631d1d14052b784ed48869261808b2edbc3df71d21922130ab4cec48d8",
+      "bytes": 940,
+      "previousSha256": "90709c582d713dff3d4ec68d6d33d5c2f11eb262ee6776c39d787491b07ab0b2",
+      "change": "changed"
+    },
+    {
+      "path": "pages/docs_vision.md",
+      "sha256": "d1b7b7c4a06b2f3fc89558878f1f70e7c78cf026257bbb0a2469fb2ea822c3fe",
+      "bytes": 2246,
+      "previousSha256": "d1b7b7c4a06b2f3fc89558878f1f70e7c78cf026257bbb0a2469fb2ea822c3fe",
+      "change": "unchanged"
+    },
+    {
+      "path": "pages/docs_vscode.cpp.md",
+      "sha256": "920ec05e0e3fb068ec525dd69f14ed3133a038e9ad9a6b35089ad86f204fb1e9",
+      "bytes": 4057,
+      "previousSha256": "920ec05e0e3fb068ec525dd69f14ed3133a038e9ad9a6b35089ad86f204fb1e9",
+      "change": "unchanged"
+    },
+    {
+      "path": "pages/docs_vscode.ocaml.md",
+      "sha256": "4d35a3f3f85f3601e7e0c3a633f26c71114b8c7ae625b603e6f626627cdd99f3",
+      "bytes": 4676,
+      "previousSha256": "4d35a3f3f85f3601e7e0c3a633f26c71114b8c7ae625b603e6f626627cdd99f3",
+      "change": "unchanged"
+    },
+    {
+      "path": "pages/docs_vscode.python.md",
+      "sha256": "b63ee296d5b6d3d566a40db2a0c9bf1afc81ca11d74eaae774535564003eaec0",
+      "bytes": 4247,
+      "previousSha256": "b63ee296d5b6d3d566a40db2a0c9bf1afc81ca11d74eaae774535564003eaec0",
+      "change": "unchanged"
+    },
+    {
+      "path": "pages/docs_vscode.rust.md",
+      "sha256": "d8724cacef0c720173cf7aa18c91c75e59b029a7a6d2dfa08530b8f7786319de",
+      "bytes": 4297,
+      "previousSha256": "d8724cacef0c720173cf7aa18c91c75e59b029a7a6d2dfa08530b8f7786319de",
+      "change": "unchanged"
+    },
+    {
+      "path": "pages/docs_willow.md",
+      "sha256": "a49eeff246a16c6d0b743b3437ddcff7088392c387ce3af260e85150ee845a37",
+      "bytes": 873,
+      "previousSha256": "a49eeff246a16c6d0b743b3437ddcff7088392c387ce3af260e85150ee845a37",
+      "change": "unchanged"
+    },
+    {
+      "path": "pages/docs_your-first-turn.md",
+      "sha256": "2414f10a44fe77b1dfb110b4f24c1806524b016e9dc550008e8c2ff9357b883f",
+      "bytes": 4789,
+      "previousSha256": "2414f10a44fe77b1dfb110b4f24c1806524b016e9dc550008e8c2ff9357b883f",
+      "change": "unchanged"
+    },
+    {
+      "path": "pages/download.md",
+      "sha256": "01349cdd12f1defb62de2d2266fcf51fcc2c9afe3e02ce5a9c78786591f89c5a",
+      "bytes": 932,
+      "previousSha256": "cc002d26860c591dec86df2dbc7a7c6cd23a6206871de46dd4bed2420fe5b56d",
+      "change": "changed"
+    },
+    {
+      "path": "pages/patch-notes.md",
+      "sha256": "d7d89f4117408a75c21e92cd945e62f00990e06b5abd1da5e8b1f3e333f6915a",
+      "bytes": 1179,
+      "previousSha256": "90c2923653e840f99fb71926edfeeceb29d43633142c82c1917caa073af907f4",
+      "change": "changed"
+    },
+    {
+      "path": "pages/patch-notes_2e172875-28d7-4152-9483-54a3db6d2663.md",
+      "sha256": "70c743e2f184d4f6bb0b6d0b69c9e58753b2607f75e3b9e3cca7f1ea94ca7a70",
+      "bytes": 6826,
+      "previousSha256": null,
+      "change": "added"
+    },
+    {
+      "path": "pages/patch-notes_7a4caf45-afc3-49d0-838a-9eb9657bafc6.md",
+      "sha256": "e35e15bb7bcc657bcaf3023cbe4ae110bee34ffa7d5b72bd5d8f8946f12184db",
+      "bytes": 990,
+      "previousSha256": null,
+      "change": "added"
+    },
+    {
+      "path": "pages/patch-notes_e251fa42-fb2a-4d9b-ab8c-2e044f21d599.md",
+      "sha256": "d3b1e5132519f24c348bdf7371af9c89e05d0139b4fce21830c8774586a212ec",
+      "bytes": 1480,
+      "previousSha256": null,
+      "change": "added"
+    }
+  ],
+  "canonicalDirectory": "docs",
+  "comparisonScope": "Retained source files only; duplicate Week 2 plain-text export intentionally removed.",
+  "cleanup": {
+    "at": "2026-10-21T13:24:38.855892+00:00",
+    "reason": "User requested removing old docs to avoid confusion.",
+    "removedDirectories": [
+      "docs_archive",
+      "docs_2026-10-20T19",
+      "docs_2026-10-21T13-14"
+    ],
+    "removedFiles": [
+      "docs/CHANGES_2026-10-20.md",
+      "docs/WEEK2_PATCH_NOTES_SUMMARY.md",
+      "docs/pages/patch-notes-week2.txt"
+    ],
+    "retainedPatchHistory": "All three articles fetched from the current official patch-note index are retained."
+  }
+}

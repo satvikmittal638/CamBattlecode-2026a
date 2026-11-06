@@ -1,0 +1,57 @@
+diff --color -r analysis/iterations/v43x-C/src/bot.cpp analysis/iterations/v43x-C2/src/bot.cpp
+400c400,401
+<         for (int n = 10; n <= 40; n += 5) { plan.push_back({6, 2, n}); plan.push_back({6, dmg, n}); }
+---
+>         // Open-ended: a finished plan left gold unspent and X_SHOPRECALL recalled forever (v45, rich games).
+>         for (int n = 10; n <= 400; n += 5) { plan.push_back({6, 2, n}); plan.push_back({6, dmg, n}); }
+885c886
+<     std::vector<vec2> threats; float ePow = 0.0f;
+---
+>     std::vector<vec2> threats; float ePow = 0.0f; int foes6 = 0, mates6 = 0;
+887c888
+<         try { if (!e.is_alive() || !e.is_visible()) continue; if (cheb(e.position(), pos) <= 7) { threats.push_back(e.position()); ePow += power(e); } } catch (const TurnAbort&) { throw; } catch (...) {}
+---
+>         try { if (!e.is_alive() || !e.is_visible()) continue; if (cheb(e.position(), pos) <= 7) { threats.push_back(e.position()); ePow += power(e); if (cheb(e.position(), pos) <= 6 && !enemySpawnBB.is_set(e.position())) ++foes6; } } catch (const TurnAbort&) { throw; } catch (...) {}
+895a897
+>             if (d <= 6) ++mates6;
+899c901,904
+<     if (!((near == 0 && ePow > X_THREATRATIO * aPow) || ePow > 2.0f * aPow)) return false;
+---
+>     // X_OUTNUM: count-based only (v45 platform: 5.3 deaths/game outnumbered by 2+; the power-ratio
+>     // X_THREAT trigger fired on single stronger enemies and cost 19 net local games).
+>     if (X_OUTNUM) { if (foes6 < mates6 + 1 + X_OUTNUMBY) return false; }
+>     else if (!((near == 0 && ePow > X_THREATRATIO * aPow) || ePow > 2.0f * aPow)) return false;
+919c924
+<     if (X_THREAT && outgunnedIsolated()) return true;
+---
+>     if ((X_THREAT || X_OUTNUM) && outgunnedIsolated()) return true;
+diff --color -r analysis/iterations/v43x-C/src/fishx_features.h analysis/iterations/v43x-C2/src/fishx_features.h
+40a41,44
+> constexpr bool X_BIGCOMMIT = false;   // big groups (>= X_PACKMINHP): visible healthy uncommitted allies within X_BIGRANGE count as arriving helpers
+> constexpr int X_BIGRANGE = 10;
+> constexpr bool X_OUTNUM = false;      // with outgunnedIsolated: leave when enemies within 6 >= allies within 6 (incl. self) + X_OUTNUMBY
+> constexpr int X_OUTNUMBY = 2;
+diff --color -r analysis/iterations/v43x-C/src/main.cpp analysis/iterations/v43x-C2/src/main.cpp
+42c42
+<     std::puts("build v43x-C");
+---
+>     std::puts("build v43x-C2");
+diff --color -r analysis/iterations/v43x-C/src/v1_cycle.h analysis/iterations/v43x-C2/src/v1_cycle.h
+84a85,101
+>     // X_BIGCOMMIT: visible healthy allies not committed elsewhere count as likely helpers for big
+>     // groups (golem clusters). Otherwise nobody claims first and the X_PACK bonus never starts.
+>     if(X_BIGCOMMIT){
+>         std::vector<int> big;for(const auto& g:groups)if(g.totalHp>=X_PACKMINHP&&!g.monolith&&g.eligible&&g.gems>0)big.push_back(g.id);
+>         if(!big.empty())for(const auto& a:allies){
+>             if(a.id==selfId||!enough(46000))continue;
+>             int as=-1;for(int j=0;j<nAllies;++j)if(rosterHandles[j]==a.id)as=j;
+>             if(as<0||(shared[as]&0xC0))continue;
+>             const auto& i=a.info;if((i.state&(2|4|4096))||i.health<i.max_health*.6f)continue;
+>             const int claim=(shared[as]&63)-1;
+>             for(int gid:big){
+>                 if(gid==claim)continue;
+>                 const int d=gdist(groups[gid],{i.x,i.y});if(d==UNR||d>X_BIGRANGE)continue;
+>                 arrivals[gid].push_back({i.strength,std::max(0,d-i.attack_range-(i.attack_range==1?1:0)),false});
+>             }
+>         }
+>     }

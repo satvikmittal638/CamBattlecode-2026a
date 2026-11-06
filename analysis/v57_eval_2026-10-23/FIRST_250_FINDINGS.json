@@ -1,0 +1,54 @@
+{
+  "sourceUnchanged": true,
+  "firstBatch": {
+    "challenges": 50,
+    "games": 250,
+    "nearChallengeWins": 18,
+    "halfChallengeWins": 2,
+    "gameWins": 103,
+    "nativeSteps": 49537370,
+    "officialDiscrepancies": 0
+  },
+  "runtimeIssue": {
+    "matchId": "34575648-906e-49e7-865c-04e407cb1b8b",
+    "code": 97,
+    "round": 750,
+    "context": "A cached unit query resumed after a 749\u2192750 fuel suspension; raw getter failed outside the action guard. Outer loop invalidates the frame. No native bot fault."
+  },
+  "confirmedRoutingCounterexample": {
+    "matchId": "34575648-906e-49e7-865c-04e407cb1b8b",
+    "round": 596,
+    "ourChampion": "Vendetta",
+    "hp": 2720,
+    "maxHp": 2900,
+    "from": [
+      22,
+      16
+    ],
+    "to": [
+      22,
+      17
+    ],
+    "enemy": "Marcella",
+    "enemyPosition": [
+      23,
+      21
+    ],
+    "enemyFocus": 1515,
+    "enemyStrength": 135,
+    "damageBeforeMitigation": 3030,
+    "damageAfterDurability": 2727,
+    "enemyVisibleBeforeMove": true,
+    "outcome": "Killed by single damage spell after advancing into range four."
+  },
+  "hypothesesNotConfirmed": [
+    "Caster was hidden: disproved by personal-vision audit; it was visible on rounds 594\u2013596.",
+    "Partial gate clearance caused early tribute death: not established; several failed gated games never started a tribute."
+  ],
+  "wardObservation": {
+    "matchId": "34575648-906e-49e7-865c-04e407cb1b8b",
+    "ours": 0,
+    "opponent": 53
+  },
+  "followupStatus": "Separate v58 route experiment; no change to submitted v57 or its frozen 100-challenge tally."
+}

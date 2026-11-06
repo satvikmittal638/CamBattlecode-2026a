@@ -1,0 +1,816 @@
+{
+  "all": {
+    "games": 100,
+    "wins": 41,
+    "ours": {
+      "capGold": 913.35,
+      "capGems": 87.09,
+      "worth": 1074.96,
+      "equipment": 902.7,
+      "deaths": 2.69,
+      "move300": 726.99,
+      "farm300": 258.12
+    },
+    "opponent": {
+      "capGold": 1121.73,
+      "capGems": 143.8,
+      "worth": 1331.94,
+      "equipment": 1144.5,
+      "deaths": 1.72,
+      "move300": 648.02,
+      "farm300": 304.57
+    },
+    "deaths": 1202,
+    "earlyDeaths": 269,
+    "isolatedDeaths": 431,
+    "channelDeaths": 116,
+    "bagGemsAtDeath": 45691,
+    "lossesWithNoEarlyDeath": 12
+  },
+  "losses": {
+    "games": 59,
+    "wins": 0,
+    "ours": {
+      "capGold": 804.8135593220339,
+      "capGems": 79.89830508474576,
+      "worth": 933.0338983050848,
+      "equipment": 774.9152542372881,
+      "deaths": 3.559322033898305,
+      "move300": 682.4915254237288,
+      "farm300": 264.03389830508473
+    },
+    "opponent": {
+      "capGold": 1242.7627118644068,
+      "capGems": 158.5593220338983,
+      "worth": 1552.1016949152543,
+      "equipment": 1338.3050847457628,
+      "deaths": 1.3559322033898304,
+      "move300": 677.1864406779661,
+      "farm300": 338.7118644067797
+    },
+    "deaths": 938,
+    "earlyDeaths": 210,
+    "isolatedDeaths": 349,
+    "channelDeaths": 81,
+    "bagGemsAtDeath": 30666,
+    "lossesWithNoEarlyDeath": 12
+  },
+  "maps": {
+    "00collision": {
+      "games": 1,
+      "wins": 1,
+      "ours": {
+        "capGold": 1235,
+        "capGems": 132,
+        "worth": 1235,
+        "equipment": 1080,
+        "deaths": 0,
+        "move300": 394,
+        "farm300": 268
+      },
+      "opponent": {
+        "capGold": 1281,
+        "capGems": 90,
+        "worth": 1321,
+        "equipment": 1290,
+        "deaths": 0,
+        "move300": 373,
+        "farm300": 295
+      },
+      "deaths": 3,
+      "earlyDeaths": 0,
+      "isolatedDeaths": 2,
+      "channelDeaths": 1,
+      "bagGemsAtDeath": 0,
+      "lossesWithNoEarlyDeath": 0
+    },
+    "00corners": {
+      "games": 1,
+      "wins": 0,
+      "ours": {
+        "capGold": 659,
+        "capGems": 4,
+        "worth": 659,
+        "equipment": 630,
+        "deaths": 9,
+        "move300": 584,
+        "farm300": 84
+      },
+      "opponent": {
+        "capGold": 1050,
+        "capGems": 124,
+        "worth": 1870,
+        "equipment": 1710,
+        "deaths": 0,
+        "move300": 1033,
+        "farm300": 358
+      },
+      "deaths": 30,
+      "earlyDeaths": 9,
+      "isolatedDeaths": 16,
+      "channelDeaths": 1,
+      "bagGemsAtDeath": 107,
+      "lossesWithNoEarlyDeath": 0
+    },
+    "00crater": {
+      "games": 1,
+      "wins": 1,
+      "ours": {
+        "capGold": 220,
+        "capGems": 83,
+        "worth": 374,
+        "equipment": 300,
+        "deaths": 1,
+        "move300": 949,
+        "farm300": 219
+      },
+      "opponent": {
+        "capGold": 479,
+        "capGems": 173,
+        "worth": 519,
+        "equipment": 390,
+        "deaths": 1,
+        "move300": 2,
+        "farm300": 183
+      },
+      "deaths": 11,
+      "earlyDeaths": 1,
+      "isolatedDeaths": 6,
+      "channelDeaths": 0,
+      "bagGemsAtDeath": 0,
+      "lossesWithNoEarlyDeath": 0
+    },
+    "00expanse": {
+      "games": 1,
+      "wins": 1,
+      "ours": {
+        "capGold": 1432,
+        "capGems": 112,
+        "worth": 1462,
+        "equipment": 1110,
+        "deaths": 0,
+        "move300": 902,
+        "farm300": 362
+      },
+      "opponent": {
+        "capGold": 1708,
+        "capGems": 139,
+        "worth": 1780,
+        "equipment": 1590,
+        "deaths": 0,
+        "move300": 840,
+        "farm300": 418
+      },
+      "deaths": 1,
+      "earlyDeaths": 0,
+      "isolatedDeaths": 1,
+      "channelDeaths": 0,
+      "bagGemsAtDeath": 0,
+      "lossesWithNoEarlyDeath": 0
+    },
+    "00fragment": {
+      "games": 1,
+      "wins": 1,
+      "ours": {
+        "capGold": 768,
+        "capGems": 76,
+        "worth": 1101,
+        "equipment": 990,
+        "deaths": 1,
+        "move300": 357,
+        "farm300": 235
+      },
+      "opponent": {
+        "capGold": 674,
+        "capGems": 72,
+        "worth": 624,
+        "equipment": 570,
+        "deaths": 3,
+        "move300": 303,
+        "farm300": 230
+      },
+      "deaths": 1,
+      "earlyDeaths": 1,
+      "isolatedDeaths": 1,
+      "channelDeaths": 0,
+      "bagGemsAtDeath": 0,
+      "lossesWithNoEarlyDeath": 0
+    },
+    "00galaxy": {
+      "games": 1,
+      "wins": 0,
+      "ours": {
+        "capGold": 199,
+        "capGems": 194,
+        "worth": 405,
+        "equipment": 150,
+        "deaths": 0,
+        "move300": 1202,
+        "farm300": 74
+      },
+      "opponent": {
+        "capGold": 299,
+        "capGems": 47,
+        "worth": 359,
+        "equipment": 60,
+        "deaths": 1,
+        "move300": 1067,
+        "farm300": 99
+      },
+      "deaths": 23,
+      "earlyDeaths": 0,
+      "isolatedDeaths": 12,
+      "channelDeaths": 2,
+      "bagGemsAtDeath": 73,
+      "lossesWithNoEarlyDeath": 1
+    },
+    "00lanes": {
+      "games": 20,
+      "wins": 1,
+      "ours": {
+        "capGold": 755.6,
+        "capGems": 54.8,
+        "worth": 844.8,
+        "equipment": 678,
+        "deaths": 1.7,
+        "move300": 755.65,
+        "farm300": 313.65
+      },
+      "opponent": {
+        "capGold": 1285.1,
+        "capGems": 134.45,
+        "worth": 1450.5,
+        "equipment": 1212,
+        "deaths": 1.05,
+        "move300": 712.75,
+        "farm300": 388.2
+      },
+      "deaths": 217,
+      "earlyDeaths": 34,
+      "isolatedDeaths": 92,
+      "channelDeaths": 20,
+      "bagGemsAtDeath": 158,
+      "lossesWithNoEarlyDeath": 4
+    },
+    "00oasis": {
+      "games": 1,
+      "wins": 1,
+      "ours": {
+        "capGold": 614,
+        "capGems": 54,
+        "worth": 1047,
+        "equipment": 930,
+        "deaths": 6,
+        "move300": 470,
+        "farm300": 125
+      },
+      "opponent": {
+        "capGold": 350,
+        "capGems": 66,
+        "worth": 594,
+        "equipment": 540,
+        "deaths": 6,
+        "move300": 487,
+        "farm300": 165
+      },
+      "deaths": 19,
+      "earlyDeaths": 6,
+      "isolatedDeaths": 10,
+      "channelDeaths": 1,
+      "bagGemsAtDeath": 0,
+      "lossesWithNoEarlyDeath": 0
+    },
+    "00pilgrimage": {
+      "games": 1,
+      "wins": 1,
+      "ours": {
+        "capGold": 1215,
+        "capGems": 47,
+        "worth": 1315,
+        "equipment": 960,
+        "deaths": 0,
+        "move300": 1158,
+        "farm300": 168
+      },
+      "opponent": {
+        "capGold": 1307,
+        "capGems": 61,
+        "worth": 1267,
+        "equipment": 1080,
+        "deaths": 1,
+        "move300": 1050,
+        "farm300": 209
+      },
+      "deaths": 2,
+      "earlyDeaths": 0,
+      "isolatedDeaths": 1,
+      "channelDeaths": 0,
+      "bagGemsAtDeath": 0,
+      "lossesWithNoEarlyDeath": 0
+    },
+    "00split": {
+      "games": 1,
+      "wins": 1,
+      "ours": {
+        "capGold": 719,
+        "capGems": 146,
+        "worth": 791,
+        "equipment": 450,
+        "deaths": 1,
+        "move300": 937,
+        "farm300": 252
+      },
+      "opponent": {
+        "capGold": 542,
+        "capGems": 141,
+        "worth": 646,
+        "equipment": 600,
+        "deaths": 0,
+        "move300": 1037,
+        "farm300": 163
+      },
+      "deaths": 2,
+      "earlyDeaths": 1,
+      "isolatedDeaths": 0,
+      "channelDeaths": 0,
+      "bagGemsAtDeath": 25,
+      "lossesWithNoEarlyDeath": 0
+    },
+    "00the_line": {
+      "games": 10,
+      "wins": 3,
+      "ours": {
+        "capGold": 311.9,
+        "capGems": 139.5,
+        "worth": 571.2,
+        "equipment": 489,
+        "deaths": 4.5,
+        "move300": 529.4,
+        "farm300": 162.4
+      },
+      "opponent": {
+        "capGold": 414.1,
+        "capGems": 235.3,
+        "worth": 907.3,
+        "equipment": 738,
+        "deaths": 1.1,
+        "move300": 532.6,
+        "farm300": 195.9
+      },
+      "deaths": 133,
+      "earlyDeaths": 45,
+      "isolatedDeaths": 61,
+      "channelDeaths": 3,
+      "bagGemsAtDeath": 723,
+      "lossesWithNoEarlyDeath": 0
+    },
+    "01big_world": {
+      "games": 1,
+      "wins": 0,
+      "ours": {
+        "capGold": 916,
+        "capGems": 76,
+        "worth": 946,
+        "equipment": 780,
+        "deaths": 0,
+        "move300": 1020,
+        "farm300": 314
+      },
+      "opponent": {
+        "capGold": 1599,
+        "capGems": 197,
+        "worth": 1589,
+        "equipment": 1440,
+        "deaths": 0,
+        "move300": 135,
+        "farm300": 376
+      },
+      "deaths": 0,
+      "earlyDeaths": 0,
+      "isolatedDeaths": 0,
+      "channelDeaths": 0,
+      "bagGemsAtDeath": 0,
+      "lossesWithNoEarlyDeath": 1
+    },
+    "01boss_battle": {
+      "games": 10,
+      "wins": 4,
+      "ours": {
+        "capGold": 1960.2,
+        "capGems": 148,
+        "worth": 1960.2,
+        "equipment": 1848,
+        "deaths": 2.6,
+        "move300": 737.3,
+        "farm300": 435.3
+      },
+      "opponent": {
+        "capGold": 2171.8,
+        "capGems": 192.4,
+        "worth": 2131.8,
+        "equipment": 1923,
+        "deaths": 0.9,
+        "move300": 631.9,
+        "farm300": 481.2
+      },
+      "deaths": 139,
+      "earlyDeaths": 26,
+      "isolatedDeaths": 31,
+      "channelDeaths": 27,
+      "bagGemsAtDeath": 38729,
+      "lossesWithNoEarlyDeath": 0
+    },
+    "01broken_curve": {
+      "games": 1,
+      "wins": 0,
+      "ours": {
+        "capGold": 945,
+        "capGems": 98,
+        "worth": 945,
+        "equipment": 870,
+        "deaths": 3,
+        "move300": 331,
+        "farm300": 226
+      },
+      "opponent": {
+        "capGold": 1262,
+        "capGems": 121,
+        "worth": 1510,
+        "equipment": 1320,
+        "deaths": 0,
+        "move300": 441,
+        "farm300": 266
+      },
+      "deaths": 5,
+      "earlyDeaths": 3,
+      "isolatedDeaths": 2,
+      "channelDeaths": 1,
+      "bagGemsAtDeath": 0,
+      "lossesWithNoEarlyDeath": 0
+    },
+    "01concentrated_wealth": {
+      "games": 1,
+      "wins": 1,
+      "ours": {
+        "capGold": 1163,
+        "capGems": 180,
+        "worth": 1179,
+        "equipment": 1110,
+        "deaths": 2,
+        "move300": 1039,
+        "farm300": 322
+      },
+      "opponent": {
+        "capGold": 680,
+        "capGems": 98,
+        "worth": 914,
+        "equipment": 510,
+        "deaths": 0,
+        "move300": 1041,
+        "farm300": 307
+      },
+      "deaths": 7,
+      "earlyDeaths": 2,
+      "isolatedDeaths": 4,
+      "channelDeaths": 0,
+      "bagGemsAtDeath": 163,
+      "lossesWithNoEarlyDeath": 0
+    },
+    "01elk_arena": {
+      "games": 10,
+      "wins": 8,
+      "ours": {
+        "capGold": 1256.3,
+        "capGems": 52.4,
+        "worth": 1664.6,
+        "equipment": 1392,
+        "deaths": 2.5,
+        "move300": 738.4,
+        "farm300": 143.5
+      },
+      "opponent": {
+        "capGold": 1267.4,
+        "capGems": 81.2,
+        "worth": 1459.6,
+        "equipment": 1251,
+        "deaths": 4.7,
+        "move300": 691,
+        "farm300": 132.7
+      },
+      "deaths": 152,
+      "earlyDeaths": 25,
+      "isolatedDeaths": 18,
+      "channelDeaths": 10,
+      "bagGemsAtDeath": 191,
+      "lossesWithNoEarlyDeath": 0
+    },
+    "01gold_rush": {
+      "games": 1,
+      "wins": 0,
+      "ours": {
+        "capGold": 236,
+        "capGems": 0,
+        "worth": 236,
+        "equipment": 90,
+        "deaths": 8,
+        "move300": 279,
+        "farm300": 72
+      },
+      "opponent": {
+        "capGold": 1646,
+        "capGems": 71,
+        "worth": 2039,
+        "equipment": 1890,
+        "deaths": 2,
+        "move300": 415,
+        "farm300": 146
+      },
+      "deaths": 29,
+      "earlyDeaths": 8,
+      "isolatedDeaths": 19,
+      "channelDeaths": 4,
+      "bagGemsAtDeath": 12,
+      "lossesWithNoEarlyDeath": 0
+    },
+    "01islands": {
+      "games": 1,
+      "wins": 1,
+      "ours": {
+        "capGold": 1383,
+        "capGems": 155,
+        "worth": 1383,
+        "equipment": 1350,
+        "deaths": 1,
+        "move300": 1004,
+        "farm300": 266
+      },
+      "opponent": {
+        "capGold": 1280,
+        "capGems": 264,
+        "worth": 1456,
+        "equipment": 1290,
+        "deaths": 0,
+        "move300": 940,
+        "farm300": 363
+      },
+      "deaths": 2,
+      "earlyDeaths": 1,
+      "isolatedDeaths": 1,
+      "channelDeaths": 0,
+      "bagGemsAtDeath": 0,
+      "lossesWithNoEarlyDeath": 0
+    },
+    "01starfish": {
+      "games": 1,
+      "wins": 1,
+      "ours": {
+        "capGold": 998,
+        "capGems": 106,
+        "worth": 1469,
+        "equipment": 1350,
+        "deaths": 3,
+        "move300": 820,
+        "farm300": 289
+      },
+      "opponent": {
+        "capGold": 780,
+        "capGems": 60,
+        "worth": 1056,
+        "equipment": 990,
+        "deaths": 5,
+        "move300": 19,
+        "farm300": 350
+      },
+      "deaths": 5,
+      "earlyDeaths": 3,
+      "isolatedDeaths": 1,
+      "channelDeaths": 1,
+      "bagGemsAtDeath": 4,
+      "lossesWithNoEarlyDeath": 0
+    },
+    "01starvation": {
+      "games": 1,
+      "wins": 1,
+      "ours": {
+        "capGold": 356,
+        "capGems": 92,
+        "worth": 978,
+        "equipment": 780,
+        "deaths": 4,
+        "move300": 1030,
+        "farm300": 82
+      },
+      "opponent": {
+        "capGold": 319,
+        "capGems": 32,
+        "worth": 669,
+        "equipment": 390,
+        "deaths": 5,
+        "move300": 1038,
+        "farm300": 62
+      },
+      "deaths": 6,
+      "earlyDeaths": 4,
+      "isolatedDeaths": 1,
+      "channelDeaths": 1,
+      "bagGemsAtDeath": 4,
+      "lossesWithNoEarlyDeath": 0
+    },
+    "02cuts": {
+      "games": 10,
+      "wins": 5,
+      "ours": {
+        "capGold": 978.8,
+        "capGems": 129.1,
+        "worth": 1053.8,
+        "equipment": 852,
+        "deaths": 0.1,
+        "move300": 1064.5,
+        "farm300": 291
+      },
+      "opponent": {
+        "capGold": 976.3,
+        "capGems": 142.1,
+        "worth": 943.9,
+        "equipment": 723,
+        "deaths": 0,
+        "move300": 779.1,
+        "farm300": 388.3
+      },
+      "deaths": 11,
+      "earlyDeaths": 1,
+      "isolatedDeaths": 7,
+      "channelDeaths": 1,
+      "bagGemsAtDeath": 203,
+      "lossesWithNoEarlyDeath": 4
+    },
+    "02famine": {
+      "games": 1,
+      "wins": 1,
+      "ours": {
+        "capGold": 672,
+        "capGems": 91,
+        "worth": 902,
+        "equipment": 420,
+        "deaths": 0,
+        "move300": 1204,
+        "farm300": 162
+      },
+      "opponent": {
+        "capGold": 914,
+        "capGems": 159,
+        "worth": 886,
+        "equipment": 630,
+        "deaths": 2,
+        "move300": 1081,
+        "farm300": 256
+      },
+      "deaths": 13,
+      "earlyDeaths": 0,
+      "isolatedDeaths": 10,
+      "channelDeaths": 3,
+      "bagGemsAtDeath": 0,
+      "lossesWithNoEarlyDeath": 0
+    },
+    "02fields": {
+      "games": 1,
+      "wins": 0,
+      "ours": {
+        "capGold": 1051,
+        "capGems": 86,
+        "worth": 1051,
+        "equipment": 1020,
+        "deaths": 6,
+        "move300": 754,
+        "farm300": 249
+      },
+      "opponent": {
+        "capGold": 1458,
+        "capGems": 139,
+        "worth": 1831,
+        "equipment": 1710,
+        "deaths": 0,
+        "move300": 1025,
+        "farm300": 401
+      },
+      "deaths": 10,
+      "earlyDeaths": 6,
+      "isolatedDeaths": 6,
+      "channelDeaths": 2,
+      "bagGemsAtDeath": 11,
+      "lossesWithNoEarlyDeath": 0
+    },
+    "02gift_wrapping": {
+      "games": 1,
+      "wins": 0,
+      "ours": {
+        "capGold": 1998,
+        "capGems": 191,
+        "worth": 2204,
+        "equipment": 2070,
+        "deaths": 0,
+        "move300": 663,
+        "farm300": 588
+      },
+      "opponent": {
+        "capGold": 2058,
+        "capGems": 368,
+        "worth": 2274,
+        "equipment": 1980,
+        "deaths": 0,
+        "move300": 619,
+        "farm300": 727
+      },
+      "deaths": 2,
+      "earlyDeaths": 0,
+      "isolatedDeaths": 0,
+      "channelDeaths": 0,
+      "bagGemsAtDeath": 0,
+      "lossesWithNoEarlyDeath": 1
+    },
+    "02guardians": {
+      "games": 10,
+      "wins": 7,
+      "ours": {
+        "capGold": 708.7,
+        "capGems": 46.2,
+        "worth": 918.6,
+        "equipment": 726,
+        "deaths": 2.6,
+        "move300": 630.8,
+        "farm300": 207.9
+      },
+      "opponent": {
+        "capGold": 433.6,
+        "capGems": 95.8,
+        "worth": 583.8,
+        "equipment": 525,
+        "deaths": 3.4,
+        "move300": 512.1,
+        "farm300": 199.7
+      },
+      "deaths": 145,
+      "earlyDeaths": 26,
+      "isolatedDeaths": 48,
+      "channelDeaths": 20,
+      "bagGemsAtDeath": 3919,
+      "lossesWithNoEarlyDeath": 1
+    },
+    "02the_pack": {
+      "games": 1,
+      "wins": 1,
+      "ours": {
+        "capGold": 320,
+        "capGems": 8,
+        "worth": 320,
+        "equipment": 180,
+        "deaths": 1,
+        "move300": 295,
+        "farm300": 344
+      },
+      "opponent": {
+        "capGold": 700,
+        "capGems": 75,
+        "worth": 640,
+        "equipment": 630,
+        "deaths": 5,
+        "move300": 64,
+        "farm300": 136
+      },
+      "deaths": 2,
+      "earlyDeaths": 1,
+      "isolatedDeaths": 0,
+      "channelDeaths": 0,
+      "bagGemsAtDeath": 0,
+      "lossesWithNoEarlyDeath": 0
+    },
+    "02treasure_box": {
+      "games": 10,
+      "wins": 0,
+      "ours": {
+        "capGold": 696.5,
+        "capGems": 53,
+        "worth": 891.4,
+        "equipment": 702,
+        "deaths": 6.6,
+        "move300": 519,
+        "farm300": 243.7
+      },
+      "opponent": {
+        "capGold": 1345.3,
+        "capGems": 172.6,
+        "worth": 2007.6,
+        "equipment": 1800,
+        "deaths": 1.9,
+        "move300": 607,
+        "farm300": 320.5
+      },
+      "deaths": 232,
+      "earlyDeaths": 66,
+      "isolatedDeaths": 81,
+      "channelDeaths": 18,
+      "bagGemsAtDeath": 1369,
+      "lossesWithNoEarlyDeath": 0
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+ "dir": "replays_week2/2_Nyx",
+ "games": 126,
+ "avgRounds": 1228,
+ "spellTargetsPerGame": {
+  "Cassi:Damage->camp": 36.63,
+  "Ren:Cc->camp": 35.46,
+  "Stellar:Damage->camp": 31.29,
+  "Ryth:AoeDamage->camp": 29.6,
+  "Cassi:Cc->camp": 25.79,
+  "Stellar:AoeDamage->camp": 25.3,
+  "Ren:Cc->enemy": 11.5,
+  "Ryth:AoeDamage->ground": 7.73,
+  "Cassi:Cc->enemy": 7.59,
+  "Cassi:Damage->enemy": 6.91,
+  "Stellar:AoeDamage->ground": 6.51,
+  "Ryth:AoeDamage->enemy": 5.83,
+  "Stellar:Damage->enemy": 5.43,
+  "Stellar:AoeDamage->enemy": 3.63,
+  "Ryth:AoeDamage->ally": 0.58,
+  "Stellar:AoeDamage->ally": 0.29
+ },
+ "stunsOnChampionsPerGame": 19.09,
+ "stunFollowUpSameRound": 0.12,
+ "stunChainRate": 0.03,
+ "openingRange": {
+  "Ren:Cc@4": 5.29,
+  "Cassi:Cc@4": 4.89,
+  "Issac:atk@1": 4.03,
+  "Varg:atk@1": 3.66,
+  "Stellar:Damage@4": 2.64,
+  "Ren:Cc@3": 2.47,
+  "Ryth:AoeDamage@4": 2.29,
+  "Ryth:atk@1": 1.89,
+  "Stellar:AoeDamage@4": 1.67,
+  "Ren:atk@1": 1.43,
+  "Ryth:AoeDamage@3": 1.29,
+  "Ren:Cc@2": 1.02,
+  "Cassi:Damage@4": 0.98,
+  "Cassi:Cc@3": 0.94,
+  "Stellar:atk@3": 0.56,
+  "Stellar:Damage@3": 0.55
+ },
+ "numbersOnPvpHits": {
+  "ahead": 0.47,
+  "even": 0.39,
+  "behind": 0.14
+ },
+ "pvpHitsPerGame": 112.1,
+ "pvpHitsByPhase": {
+  "early": 3505,
+  "mid": 7096,
+  "late": 3521
+ },
+ "firstPvpRound": 247.8,
+ "priorityValues": {
+  "Ren:>100": 3554,
+  "Ryth:>100": 3534,
+  "Cassi:>100": 3214,
+  "Issac:>100": 2418,
+  "Issac:0": 2415,
+  "Stellar:>100": 2274,
+  "Ryth:0": 2199,
+  "Ren:0": 2087,
+  "Cassi:0": 2038,
+  "Varg:>100": 1765,
+  "Varg:0": 1760,
+  "Stellar:0": 1636,
+  "Vendetta:>100": 300,
+  "Vendetta:0": 299
+ },
+ "perGame": {
+  "wards": 121.5,
+  "altarLocks": 0,
+  "consumables": 0,
+  "teleports": 0,
+  "recalls": 88.3,
+  "tributes": 30.9,
+  "captures": 69.6
+ },
+ "gemsPerTribute": 32
+}

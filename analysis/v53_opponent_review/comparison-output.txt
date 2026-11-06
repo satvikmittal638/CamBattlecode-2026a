@@ -1,0 +1,855 @@
+{
+  "scope": {
+    "games": 500,
+    "losses": 262,
+    "opponents": 50,
+    "normalLosses": 241,
+    "sameDraftNormalLosses": 74,
+    "detailedLosses": 44,
+    "prismOpponentLosses": 6
+  },
+  "sameDraft": {
+    "games": 74,
+    "v53": {
+      "capturesPer100": 3.36,
+      "gemCapturesPer100": 2.37,
+      "capturedGems": 580.47,
+      "goldOnlyCapturePct": 29.39,
+      "deaths": 13.5,
+      "outnumberedDeathPct": 49.65,
+      "walkingMovesPerCapture": 82.14,
+      "meanDeposit": 20.55,
+      "smallDepositPct": 55.65,
+      "bank500": 156.03,
+      "bankEvents": 24.86,
+      "capturePhases": [
+        {
+          "round": 100,
+          "gems": 30
+        },
+        {
+          "round": 300,
+          "gems": 97.38
+        },
+        {
+          "round": 600,
+          "gems": 236.51
+        },
+        {
+          "round": 900,
+          "gems": 393.09
+        }
+      ]
+    },
+    "opponent": {
+      "capturesPer100": 4.77,
+      "gemCapturesPer100": 3.79,
+      "capturedGems": 1002.99,
+      "goldOnlyCapturePct": 20.6,
+      "deaths": 3.66,
+      "outnumberedDeathPct": 23.62,
+      "walkingMovesPerCapture": 60.02,
+      "meanDeposit": 31.27,
+      "smallDepositPct": 35.36,
+      "bank500": 268.47,
+      "bankEvents": 32.68,
+      "capturePhases": [
+        {
+          "round": 100,
+          "gems": 44.8
+        },
+        {
+          "round": 300,
+          "gems": 160.19
+        },
+        {
+          "round": 600,
+          "gems": 402.3
+        },
+        {
+          "round": 900,
+          "gems": 684.08
+        }
+      ]
+    }
+  },
+  "selectedTeams": [
+    {
+      "team": "E=mc^2+AI^3",
+      "losses": 9,
+      "normal": {
+        "games": 8,
+        "v53": {
+          "capturesPer100": 3.23,
+          "gemCapturesPer100": 2.23,
+          "capturedGems": 566.25,
+          "goldOnlyCapturePct": 31.06,
+          "deaths": 9,
+          "outnumberedDeathPct": 47.22,
+          "walkingMovesPerCapture": 89.11,
+          "meanDeposit": 20.66,
+          "smallDepositPct": 57.92,
+          "bank500": 123.88,
+          "bankEvents": 25.25,
+          "capturePhases": [
+            {
+              "round": 100,
+              "gems": 17.75
+            },
+            {
+              "round": 300,
+              "gems": 65.25
+            },
+            {
+              "round": 600,
+              "gems": 185.88
+            },
+            {
+              "round": 900,
+              "gems": 332.25
+            }
+          ]
+        },
+        "opponent": {
+          "capturesPer100": 3.94,
+          "gemCapturesPer100": 3.03,
+          "capturedGems": 1035.13,
+          "goldOnlyCapturePct": 23.16,
+          "deaths": 1.5,
+          "outnumberedDeathPct": 41.67,
+          "walkingMovesPerCapture": 70.53,
+          "meanDeposit": 40.8,
+          "smallDepositPct": 21.36,
+          "bank500": 206.13,
+          "bankEvents": 25.75,
+          "capturePhases": [
+            {
+              "round": 100,
+              "gems": 37.75
+            },
+            {
+              "round": 300,
+              "gems": 120
+            },
+            {
+              "round": 600,
+              "gems": 346.5
+            },
+            {
+              "round": 900,
+              "gems": 649.63
+            }
+          ]
+        }
+      }
+    },
+    {
+      "team": "Sneaky Bush Campers",
+      "losses": 7,
+      "normal": {
+        "games": 7,
+        "v53": {
+          "capturesPer100": 2.78,
+          "gemCapturesPer100": 1.86,
+          "capturedGems": 454.57,
+          "goldOnlyCapturePct": 33.19,
+          "deaths": 21,
+          "outnumberedDeathPct": 49.66,
+          "walkingMovesPerCapture": 80,
+          "meanDeposit": 19.3,
+          "smallDepositPct": 54.97,
+          "bank500": 145.57,
+          "bankEvents": 21.57,
+          "capturePhases": [
+            {
+              "round": 100,
+              "gems": 23.57
+            },
+            {
+              "round": 300,
+              "gems": 89.14
+            },
+            {
+              "round": 600,
+              "gems": 212.14
+            },
+            {
+              "round": 900,
+              "gems": 301.57
+            }
+          ]
+        },
+        "opponent": {
+          "capturesPer100": 6.48,
+          "gemCapturesPer100": 3.83,
+          "capturedGems": 857.43,
+          "goldOnlyCapturePct": 40.9,
+          "deaths": 1.86,
+          "outnumberedDeathPct": 0,
+          "walkingMovesPerCapture": 36.95,
+          "meanDeposit": 27.3,
+          "smallDepositPct": 30.94,
+          "bank500": 329.14,
+          "bankEvents": 31.86,
+          "capturePhases": [
+            {
+              "round": 100,
+              "gems": 33.14
+            },
+            {
+              "round": 300,
+              "gems": 170.43
+            },
+            {
+              "round": 600,
+              "gems": 470.86
+            },
+            {
+              "round": 900,
+              "gems": 644.29
+            }
+          ]
+        }
+      }
+    },
+    {
+      "team": "SilverSamurai",
+      "losses": 6,
+      "normal": {
+        "games": 6,
+        "v53": {
+          "capturesPer100": 5.17,
+          "gemCapturesPer100": 4.47,
+          "capturedGems": 703.17,
+          "goldOnlyCapturePct": 13.65,
+          "deaths": 5.5,
+          "outnumberedDeathPct": 51.52,
+          "walkingMovesPerCapture": 56.45,
+          "meanDeposit": 19.24,
+          "smallDepositPct": 55.61,
+          "bank500": 307.83,
+          "bankEvents": 32.67,
+          "capturePhases": [
+            {
+              "round": 100,
+              "gems": 53
+            },
+            {
+              "round": 300,
+              "gems": 185
+            },
+            {
+              "round": 600,
+              "gems": 450.33
+            },
+            {
+              "round": 900,
+              "gems": 601.33
+            }
+          ]
+        },
+        "opponent": {
+          "capturesPer100": 8.07,
+          "gemCapturesPer100": 8.07,
+          "capturedGems": 1089.17,
+          "goldOnlyCapturePct": 0,
+          "deaths": 4.67,
+          "outnumberedDeathPct": 7.14,
+          "walkingMovesPerCapture": 42.34,
+          "meanDeposit": 37.84,
+          "smallDepositPct": 0.62,
+          "bank500": 488.17,
+          "bankEvents": 26.83,
+          "capturePhases": [
+            {
+              "round": 100,
+              "gems": 98.33
+            },
+            {
+              "round": 300,
+              "gems": 314
+            },
+            {
+              "round": 600,
+              "gems": 711
+            },
+            {
+              "round": 900,
+              "gems": 925.67
+            }
+          ]
+        }
+      }
+    },
+    {
+      "team": "subscribe to caterpillow",
+      "losses": 6,
+      "normal": {
+        "games": 6,
+        "v53": {
+          "capturesPer100": 3.75,
+          "gemCapturesPer100": 2.8,
+          "capturedGems": 747,
+          "goldOnlyCapturePct": 25.37,
+          "deaths": 3.33,
+          "outnumberedDeathPct": 35,
+          "walkingMovesPerCapture": 85.56,
+          "meanDeposit": 23.12,
+          "smallDepositPct": 53.07,
+          "bank500": 205.5,
+          "bankEvents": 29.83,
+          "capturePhases": [
+            {
+              "round": 100,
+              "gems": 38
+            },
+            {
+              "round": 300,
+              "gems": 117.5
+            },
+            {
+              "round": 600,
+              "gems": 332.67
+            },
+            {
+              "round": 900,
+              "gems": 494.67
+            }
+          ]
+        },
+        "opponent": {
+          "capturesPer100": 5.04,
+          "gemCapturesPer100": 3.92,
+          "capturedGems": 1062.67,
+          "goldOnlyCapturePct": 22.22,
+          "deaths": 3.67,
+          "outnumberedDeathPct": 31.82,
+          "walkingMovesPerCapture": 62.89,
+          "meanDeposit": 35.99,
+          "smallDepositPct": 15.29,
+          "bank500": 327.33,
+          "bankEvents": 28.33,
+          "capturePhases": [
+            {
+              "round": 100,
+              "gems": 51.33
+            },
+            {
+              "round": 300,
+              "gems": 176.5
+            },
+            {
+              "round": 600,
+              "gems": 472.83
+            },
+            {
+              "round": 900,
+              "gems": 697.67
+            }
+          ]
+        }
+      }
+    },
+    {
+      "team": "Valenki",
+      "losses": 6,
+      "normal": {
+        "games": 5,
+        "v53": {
+          "capturesPer100": 2.19,
+          "gemCapturesPer100": 1.7,
+          "capturedGems": 500.6,
+          "goldOnlyCapturePct": 22.63,
+          "deaths": 15.8,
+          "outnumberedDeathPct": 53.16,
+          "walkingMovesPerCapture": 125.35,
+          "meanDeposit": 24.33,
+          "smallDepositPct": 52.58,
+          "bank500": 87.8,
+          "bankEvents": 19.4,
+          "capturePhases": [
+            {
+              "round": 100,
+              "gems": 10.8
+            },
+            {
+              "round": 300,
+              "gems": 40.8
+            },
+            {
+              "round": 600,
+              "gems": 142
+            },
+            {
+              "round": 900,
+              "gems": 255.8
+            }
+          ]
+        },
+        "opponent": {
+          "capturesPer100": 4.02,
+          "gemCapturesPer100": 3.12,
+          "capturedGems": 1050.8,
+          "goldOnlyCapturePct": 22.31,
+          "deaths": 2.8,
+          "outnumberedDeathPct": 42.86,
+          "walkingMovesPerCapture": 66.37,
+          "meanDeposit": 29.38,
+          "smallDepositPct": 29.71,
+          "bank500": 241.4,
+          "bankEvents": 35,
+          "capturePhases": [
+            {
+              "round": 100,
+              "gems": 30.8
+            },
+            {
+              "round": 300,
+              "gems": 134
+            },
+            {
+              "round": 600,
+              "gems": 370.2
+            },
+            {
+              "round": 900,
+              "gems": 651.8
+            }
+          ]
+        }
+      }
+    },
+    {
+      "team": "Mite",
+      "losses": 5,
+      "normal": {
+        "games": 5,
+        "v53": {
+          "capturesPer100": 4.39,
+          "gemCapturesPer100": 3.72,
+          "capturedGems": 681,
+          "goldOnlyCapturePct": 15.22,
+          "deaths": 9.4,
+          "outnumberedDeathPct": 55.32,
+          "walkingMovesPerCapture": 58.53,
+          "meanDeposit": 17.66,
+          "smallDepositPct": 53.37,
+          "bank500": 228.8,
+          "bankEvents": 35.6,
+          "capturePhases": [
+            {
+              "round": 100,
+              "gems": 39.6
+            },
+            {
+              "round": 300,
+              "gems": 144.2
+            },
+            {
+              "round": 600,
+              "gems": 354.8
+            },
+            {
+              "round": 900,
+              "gems": 524.4
+            }
+          ]
+        },
+        "opponent": {
+          "capturesPer100": 8.13,
+          "gemCapturesPer100": 7.8,
+          "capturedGems": 1075.2,
+          "goldOnlyCapturePct": 3.99,
+          "deaths": 4.8,
+          "outnumberedDeathPct": 0,
+          "walkingMovesPerCapture": 39.56,
+          "meanDeposit": 21.81,
+          "smallDepositPct": 55.36,
+          "bank500": 354,
+          "bankEvents": 46.6,
+          "capturePhases": [
+            {
+              "round": 100,
+              "gems": 61.2
+            },
+            {
+              "round": 300,
+              "gems": 219.4
+            },
+            {
+              "round": 600,
+              "gems": 553.8
+            },
+            {
+              "round": 900,
+              "gems": 867.8
+            }
+          ]
+        }
+      }
+    },
+    {
+      "team": "noobers",
+      "losses": 3,
+      "normal": {
+        "games": 2,
+        "v53": {
+          "capturesPer100": 2.17,
+          "gemCapturesPer100": 1.88,
+          "capturedGems": 376.5,
+          "goldOnlyCapturePct": 13.33,
+          "deaths": 33.5,
+          "outnumberedDeathPct": 55.22,
+          "walkingMovesPerCapture": 44.71,
+          "meanDeposit": 9.18,
+          "smallDepositPct": 82.5,
+          "bank500": 74,
+          "bankEvents": 20,
+          "capturePhases": [
+            {
+              "round": 100,
+              "gems": 8
+            },
+            {
+              "round": 300,
+              "gems": 49.5
+            },
+            {
+              "round": 600,
+              "gems": 143.5
+            },
+            {
+              "round": 900,
+              "gems": 197.5
+            }
+          ]
+        },
+        "opponent": {
+          "capturesPer100": 4.55,
+          "gemCapturesPer100": 3.45,
+          "capturedGems": 870,
+          "goldOnlyCapturePct": 24.2,
+          "deaths": 0.5,
+          "outnumberedDeathPct": 100,
+          "walkingMovesPerCapture": 37.27,
+          "meanDeposit": 25.32,
+          "smallDepositPct": 47.5,
+          "bank500": 157.5,
+          "bankEvents": 40,
+          "capturePhases": [
+            {
+              "round": 100,
+              "gems": 17
+            },
+            {
+              "round": 300,
+              "gems": 78
+            },
+            {
+              "round": 600,
+              "gems": 200.5
+            },
+            {
+              "round": 900,
+              "gems": 306.5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "team": "Still Testing",
+      "losses": 2,
+      "normal": {
+        "games": 2,
+        "v53": {
+          "capturesPer100": 3.34,
+          "gemCapturesPer100": 2.63,
+          "capturedGems": 633.5,
+          "goldOnlyCapturePct": 21.25,
+          "deaths": 2.5,
+          "outnumberedDeathPct": 40,
+          "walkingMovesPerCapture": 97.91,
+          "meanDeposit": 19.47,
+          "smallDepositPct": 61.4,
+          "bank500": 124,
+          "bankEvents": 28.5,
+          "capturePhases": [
+            {
+              "round": 100,
+              "gems": 11
+            },
+            {
+              "round": 300,
+              "gems": 87
+            },
+            {
+              "round": 600,
+              "gems": 229
+            },
+            {
+              "round": 900,
+              "gems": 388.5
+            }
+          ]
+        },
+        "opponent": {
+          "capturesPer100": 7.26,
+          "gemCapturesPer100": 6.76,
+          "capturedGems": 1171.5,
+          "goldOnlyCapturePct": 6.9,
+          "deaths": 4,
+          "outnumberedDeathPct": 0,
+          "walkingMovesPerCapture": 39.71,
+          "meanDeposit": 39.47,
+          "smallDepositPct": 17.65,
+          "bank500": 263.5,
+          "bankEvents": 25.5,
+          "capturePhases": [
+            {
+              "round": 100,
+              "gems": 51
+            },
+            {
+              "round": 300,
+              "gems": 196.5
+            },
+            {
+              "round": 600,
+              "gems": 543
+            },
+            {
+              "round": 900,
+              "gems": 933
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "detailSummary": [
+    {
+      "team": "SilverSamurai",
+      "games": 6,
+      "v53": {
+        "firstAttackEpisodes": 79,
+        "firstAttackMeanHp": 0.82,
+        "firstAttackOutnumberedPct": 36.71,
+        "basicAttacks": 646,
+        "focusFollowupPct": 13.78,
+        "firstEmblemCounts": {
+          "Treasure Emblem of Health": 24,
+          "Treasure Emblem of Strength": 6
+        }
+      },
+      "opponent": {
+        "firstAttackEpisodes": 103,
+        "firstAttackMeanHp": 0.76,
+        "firstAttackOutnumberedPct": 12.62,
+        "basicAttacks": 697,
+        "focusFollowupPct": 35.01,
+        "firstEmblemCounts": {
+          "Power Emblem of Strength": 13,
+          "Power Emblem of Focus": 6,
+          "Monster Emblem of Strength": 6,
+          "Jungle Emblem of Strength": 1,
+          "Home Emblem of Health": 1
+        }
+      }
+    },
+    {
+      "team": "noobers",
+      "games": 2,
+      "v53": {
+        "firstAttackEpisodes": 120,
+        "firstAttackMeanHp": 0.8,
+        "firstAttackOutnumberedPct": 35,
+        "basicAttacks": 622,
+        "focusFollowupPct": 34.24,
+        "firstEmblemCounts": {
+          "Treasure Emblem of Health": 4,
+          "Treasure Emblem of Strength": 2
+        }
+      },
+      "opponent": {
+        "firstAttackEpisodes": 135,
+        "firstAttackMeanHp": 0.85,
+        "firstAttackOutnumberedPct": 9.63,
+        "basicAttacks": 862,
+        "focusFollowupPct": 42,
+        "firstEmblemCounts": {
+          "Treasure Emblem of Focus": 2,
+          "Treasure Emblem of Health": 2,
+          "Treasure Emblem of Strength": 2
+        }
+      }
+    },
+    {
+      "team": "Still Testing",
+      "games": 2,
+      "v53": {
+        "firstAttackEpisodes": 12,
+        "firstAttackMeanHp": 0.66,
+        "firstAttackOutnumberedPct": 58.33,
+        "basicAttacks": 60,
+        "focusFollowupPct": 6.67,
+        "firstEmblemCounts": {
+          "Treasure Emblem of Health": 7,
+          "Treasure Emblem of Strength": 2
+        }
+      },
+      "opponent": {
+        "firstAttackEpisodes": 15,
+        "firstAttackMeanHp": 0.65,
+        "firstAttackOutnumberedPct": 13.33,
+        "basicAttacks": 56,
+        "focusFollowupPct": 32.14,
+        "firstEmblemCounts": {
+          "Monster Emblem of Strength": 4,
+          "Jungle Emblem of Strength": 3
+        }
+      }
+    },
+    {
+      "team": "Mite",
+      "games": 5,
+      "v53": {
+        "firstAttackEpisodes": 44,
+        "firstAttackMeanHp": 0.78,
+        "firstAttackOutnumberedPct": 61.36,
+        "basicAttacks": 233,
+        "focusFollowupPct": 6.44,
+        "firstEmblemCounts": {
+          "Treasure Emblem of Health": 18,
+          "Treasure Emblem of Strength": 5
+        }
+      },
+      "opponent": {
+        "firstAttackEpisodes": 78,
+        "firstAttackMeanHp": 0.82,
+        "firstAttackOutnumberedPct": 2.56,
+        "basicAttacks": 278,
+        "focusFollowupPct": 26.26,
+        "firstEmblemCounts": {
+          "Jungle Emblem of Focus": 18,
+          "Jungle Emblem of Strength": 9
+        }
+      }
+    },
+    {
+      "team": "subscribe to caterpillow",
+      "games": 6,
+      "v53": {
+        "firstAttackEpisodes": 100,
+        "firstAttackMeanHp": 0.79,
+        "firstAttackOutnumberedPct": 20,
+        "basicAttacks": 960,
+        "focusFollowupPct": 10.42,
+        "firstEmblemCounts": {
+          "Treasure Emblem of Health": 22,
+          "Treasure Emblem of Strength": 6
+        }
+      },
+      "opponent": {
+        "firstAttackEpisodes": 108,
+        "firstAttackMeanHp": 0.73,
+        "firstAttackOutnumberedPct": 14.81,
+        "basicAttacks": 814,
+        "focusFollowupPct": 13.27,
+        "firstEmblemCounts": {
+          "Treasure Emblem of Focus": 12,
+          "Treasure Emblem of Strength": 12,
+          "Bruiser Emblem of Health": 3
+        }
+      }
+    },
+    {
+      "team": "E=mc^2+AI^3",
+      "games": 8,
+      "v53": {
+        "firstAttackEpisodes": 183,
+        "firstAttackMeanHp": 0.81,
+        "firstAttackOutnumberedPct": 25.14,
+        "basicAttacks": 1397,
+        "focusFollowupPct": 23.12,
+        "firstEmblemCounts": {
+          "Treasure Emblem of Health": 27,
+          "Treasure Emblem of Strength": 8
+        }
+      },
+      "opponent": {
+        "firstAttackEpisodes": 176,
+        "firstAttackMeanHp": 0.81,
+        "firstAttackOutnumberedPct": 16.48,
+        "basicAttacks": 1431,
+        "focusFollowupPct": 25.23,
+        "firstEmblemCounts": {
+          "Treasure Emblem of Health": 28,
+          "Treasure Emblem of Strength": 8
+        }
+      }
+    },
+    {
+      "team": "Sneaky Bush Campers",
+      "games": 7,
+      "v53": {
+        "firstAttackEpisodes": 241,
+        "firstAttackMeanHp": 0.78,
+        "firstAttackOutnumberedPct": 35.27,
+        "basicAttacks": 1669,
+        "focusFollowupPct": 18.15,
+        "firstEmblemCounts": {
+          "Treasure Emblem of Health": 21,
+          "Treasure Emblem of Strength": 6
+        }
+      },
+      "opponent": {
+        "firstAttackEpisodes": 288,
+        "firstAttackMeanHp": 0.86,
+        "firstAttackOutnumberedPct": 10.42,
+        "basicAttacks": 1958,
+        "focusFollowupPct": 36.01,
+        "firstEmblemCounts": {
+          "Treasure Emblem of Health": 7,
+          "Bruiser Emblem of Health": 9,
+          "Power Emblem of Focus": 5,
+          "Jungle Emblem of Strength": 5,
+          "Jungle Emblem of Focus": 4
+        }
+      }
+    },
+    {
+      "team": "Valenki",
+      "games": 5,
+      "v53": {
+        "firstAttackEpisodes": 113,
+        "firstAttackMeanHp": 0.8,
+        "firstAttackOutnumberedPct": 41.59,
+        "basicAttacks": 668,
+        "focusFollowupPct": 14.52,
+        "firstEmblemCounts": {
+          "Treasure Emblem of Health": 15,
+          "Treasure Emblem of Strength": 5
+        }
+      },
+      "opponent": {
+        "firstAttackEpisodes": 135,
+        "firstAttackMeanHp": 0.85,
+        "firstAttackOutnumberedPct": 8.89,
+        "basicAttacks": 947,
+        "focusFollowupPct": 38.86,
+        "firstEmblemCounts": {
+          "Bruiser Emblem of Strength": 8,
+          "Bruiser Emblem of Focus": 5,
+          "Power Emblem of Strength": 5,
+          "Jungle Emblem of Strength": 4
+        }
+      }
+    }
+  ],
+  "matchedBuild": {
+    "n": 35,
+    "match": 35,
+    "full3": 30
+  }
+}

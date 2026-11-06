@@ -1,0 +1,342 @@
+{
+ "group": {
+  "id": "0f2a5e5b-f173-45de-a8ad-a68a9cd2f54f",
+  "kind": "unranked",
+  "gameCount": 5,
+  "status": "finished",
+  "winnerTeamId": "58cf3e57-7f17-4712-903c-88b3a27eb79d",
+  "createdAt": "2026-10-29T16:11:31.353Z",
+  "finishedAt": "2026-10-29T16:12:55.388Z",
+  "ratedAt": null,
+  "sides": [
+   {
+    "side": "a",
+    "teamId": "6b04505b-d16c-4196-b7c6-53a4688a32ca",
+    "teamName": "Agentic Loop Builders",
+    "submissionId": "c31510a8-9504-469e-8e2d-4ad2e5efc6ec",
+    "version": 121,
+    "wins": 2,
+    "ratingBefore": null,
+    "ratingAfter": null
+   },
+   {
+    "side": "b",
+    "teamId": "58cf3e57-7f17-4712-903c-88b3a27eb79d",
+    "teamName": "BBL",
+    "submissionId": null,
+    "version": null,
+    "wins": 3,
+    "ratingBefore": null,
+    "ratingAfter": null
+   }
+  ]
+ },
+ "admin": false,
+ "myTeamId": "6b04505b-d16c-4196-b7c6-53a4688a32ca",
+ "matches": [
+  {
+   "id": "8eaa7dd0-a631-41fa-9703-a9677455da98",
+   "kind": "unranked",
+   "label": null,
+   "status": "finished",
+   "progress": "finished",
+   "errorCode": null,
+   "mapId": "20aedb4d-faa0-49b9-a4eb-93bea93916f5",
+   "summaryAvailable": true,
+   "patchId": "2.0.0:85aa7167b44db7cea97509f55e997750520e33d644e9f4f90d6128c50eba1d21:1",
+   "coinflip": false,
+   "endReason": "gems",
+   "map": "00the_line",
+   "rounds": 997,
+   "replayUrl": "/api/v1/matches/8eaa7dd0-a631-41fa-9703-a9677455da98/bundle",
+   "error": null,
+   "createdAt": "2026-10-29T16:11:31.366Z",
+   "startedAt": "2026-10-29T16:12:50.210Z",
+   "finishedAt": "2026-10-29T16:12:54.522Z",
+   "sides": [
+    {
+     "side": "a",
+     "teamId": "6b04505b-d16c-4196-b7c6-53a4688a32ca",
+     "teamName": "Agentic Loop Builders",
+     "version": 121,
+     "result": "loss",
+     "score": 173,
+     "draft": [
+      "11",
+      "1",
+      "0",
+      "6"
+     ],
+     "botError": null,
+     "ratingBefore": null,
+     "ratingAfter": null,
+     "hasLog": true
+    },
+    {
+     "side": "b",
+     "teamId": "58cf3e57-7f17-4712-903c-88b3a27eb79d",
+     "teamName": "BBL",
+     "version": null,
+     "result": "win",
+     "score": 1098,
+     "draft": [
+      "11",
+      "1",
+      "5",
+      "3"
+     ],
+     "botError": null,
+     "ratingBefore": null,
+     "ratingAfter": null,
+     "hasLog": false
+    }
+   ],
+   "position": 1,
+   "showcase": true
+  },
+  {
+   "id": "c97f636f-6ace-499f-b3d2-3efa53fe6605",
+   "kind": "unranked",
+   "label": null,
+   "status": "finished",
+   "progress": "finished",
+   "errorCode": null,
+   "mapId": "310a18b1-70ce-44df-896e-ce121a568bb3",
+   "summaryAvailable": true,
+   "patchId": "2.0.0:85aa7167b44db7cea97509f55e997750520e33d644e9f4f90d6128c50eba1d21:1",
+   "coinflip": false,
+   "endReason": "gems",
+   "map": "00gemfight",
+   "rounds": 869,
+   "replayUrl": "/api/v1/matches/c97f636f-6ace-499f-b3d2-3efa53fe6605/bundle",
+   "error": null,
+   "createdAt": "2026-10-29T16:11:31.401Z",
+   "startedAt": "2026-10-29T16:12:50.257Z",
+   "finishedAt": "2026-10-29T16:12:54.647Z",
+   "sides": [
+    {
+     "side": "a",
+     "teamId": "6b04505b-d16c-4196-b7c6-53a4688a32ca",
+     "teamName": "Agentic Loop Builders",
+     "version": 121,
+     "result": "loss",
+     "score": 82,
+     "draft": [
+      "11",
+      "1",
+      "0",
+      "6"
+     ],
+     "botError": null,
+     "ratingBefore": null,
+     "ratingAfter": null,
+     "hasLog": true
+    },
+    {
+     "side": "b",
+     "teamId": "58cf3e57-7f17-4712-903c-88b3a27eb79d",
+     "teamName": "BBL",
+     "version": null,
+     "result": "win",
+     "score": 1089,
+     "draft": [
+      "11",
+      "1",
+      "5",
+      "3"
+     ],
+     "botError": null,
+     "ratingBefore": null,
+     "ratingAfter": null,
+     "hasLog": false
+    }
+   ],
+   "position": 2,
+   "showcase": true
+  },
+  {
+   "id": "8e07ca6e-03cb-44ff-a8b4-ec60b622a356",
+   "kind": "unranked",
+   "label": null,
+   "status": "finished",
+   "progress": "finished",
+   "errorCode": null,
+   "mapId": "8c2c2d26-7bca-43e2-9b67-7de966014f56",
+   "summaryAvailable": true,
+   "patchId": "2.0.0:85aa7167b44db7cea97509f55e997750520e33d644e9f4f90d6128c50eba1d21:1",
+   "coinflip": false,
+   "endReason": "gems",
+   "map": "00road_of_riches",
+   "rounds": 1146,
+   "replayUrl": "/api/v1/matches/8e07ca6e-03cb-44ff-a8b4-ec60b622a356/bundle",
+   "error": null,
+   "createdAt": "2026-10-29T16:11:31.428Z",
+   "startedAt": "2026-10-29T16:12:50.383Z",
+   "finishedAt": "2026-10-29T16:12:55.065Z",
+   "sides": [
+    {
+     "side": "a",
+     "teamId": "6b04505b-d16c-4196-b7c6-53a4688a32ca",
+     "teamName": "Agentic Loop Builders",
+     "version": 121,
+     "result": "loss",
+     "score": 433,
+     "draft": [
+      "11",
+      "1",
+      "0",
+      "6",
+      "2"
+     ],
+     "botError": null,
+     "ratingBefore": null,
+     "ratingAfter": null,
+     "hasLog": true
+    },
+    {
+     "side": "b",
+     "teamId": "58cf3e57-7f17-4712-903c-88b3a27eb79d",
+     "teamName": "BBL",
+     "version": null,
+     "result": "win",
+     "score": 1003,
+     "draft": [
+      "11",
+      "8",
+      "6",
+      "10",
+      "3"
+     ],
+     "botError": null,
+     "ratingBefore": null,
+     "ratingAfter": null,
+     "hasLog": false
+    }
+   ],
+   "position": 3,
+   "showcase": true
+  },
+  {
+   "id": "68b5b2c1-9ef9-4f02-a66a-07aaa87fbf7c",
+   "kind": "unranked",
+   "label": null,
+   "status": "finished",
+   "progress": "finished",
+   "errorCode": null,
+   "mapId": "24c4b196-106b-4d69-a9de-e893c24169dc",
+   "summaryAvailable": true,
+   "patchId": "2.0.0:85aa7167b44db7cea97509f55e997750520e33d644e9f4f90d6128c50eba1d21:1",
+   "coinflip": false,
+   "endReason": "gems",
+   "map": "00rows",
+   "rounds": 1428,
+   "replayUrl": "/api/v1/matches/68b5b2c1-9ef9-4f02-a66a-07aaa87fbf7c/bundle",
+   "error": null,
+   "createdAt": "2026-10-29T16:11:31.463Z",
+   "startedAt": "2026-10-29T16:12:50.463Z",
+   "finishedAt": "2026-10-29T16:12:55.110Z",
+   "sides": [
+    {
+     "side": "a",
+     "teamId": "58cf3e57-7f17-4712-903c-88b3a27eb79d",
+     "teamName": "BBL",
+     "version": null,
+     "result": "loss",
+     "score": 777,
+     "draft": [
+      "11",
+      "1",
+      "5",
+      "3"
+     ],
+     "botError": null,
+     "ratingBefore": null,
+     "ratingAfter": null,
+     "hasLog": false
+    },
+    {
+     "side": "b",
+     "teamId": "6b04505b-d16c-4196-b7c6-53a4688a32ca",
+     "teamName": "Agentic Loop Builders",
+     "version": 121,
+     "result": "win",
+     "score": 1013,
+     "draft": [
+      "11",
+      "1",
+      "0",
+      "6"
+     ],
+     "botError": null,
+     "ratingBefore": null,
+     "ratingAfter": null,
+     "hasLog": true
+    }
+   ],
+   "position": 4,
+   "showcase": true
+  },
+  {
+   "id": "17aec846-7fe3-47b4-9011-f4f6c5583946",
+   "kind": "unranked",
+   "label": null,
+   "status": "finished",
+   "progress": "finished",
+   "errorCode": null,
+   "mapId": "57974243-c3b3-4f69-8f17-c60aeeea41a0",
+   "summaryAvailable": true,
+   "patchId": "2.0.0:85aa7167b44db7cea97509f55e997750520e33d644e9f4f90d6128c50eba1d21:1",
+   "coinflip": false,
+   "endReason": "gems",
+   "map": "01islands",
+   "rounds": 1071,
+   "replayUrl": "/api/v1/matches/17aec846-7fe3-47b4-9011-f4f6c5583946/bundle",
+   "error": null,
+   "createdAt": "2026-10-29T16:11:31.481Z",
+   "startedAt": "2026-10-29T16:12:50.501Z",
+   "finishedAt": "2026-10-29T16:12:55.365Z",
+   "sides": [
+    {
+     "side": "a",
+     "teamId": "6b04505b-d16c-4196-b7c6-53a4688a32ca",
+     "teamName": "Agentic Loop Builders",
+     "version": 121,
+     "result": "win",
+     "score": 1021,
+     "draft": [
+      "11",
+      "1",
+      "0",
+      "6",
+      "2"
+     ],
+     "botError": null,
+     "ratingBefore": null,
+     "ratingAfter": null,
+     "hasLog": true
+    },
+    {
+     "side": "b",
+     "teamId": "58cf3e57-7f17-4712-903c-88b3a27eb79d",
+     "teamName": "BBL",
+     "version": null,
+     "result": "loss",
+     "score": 824,
+     "draft": [
+      "10",
+      "5",
+      "1",
+      "3",
+      "8"
+     ],
+     "botError": null,
+     "ratingBefore": null,
+     "ratingAfter": null,
+     "hasLog": false
+    }
+   ],
+   "position": 5,
+   "showcase": true
+  }
+ ]
+}

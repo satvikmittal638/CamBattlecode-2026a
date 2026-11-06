@@ -1,0 +1,28 @@
+1207 deaths alone vs 2+ enemies within 6 (no ally within 6)
+by outcome class: { heavy: 887, win: 168, loss: 152 }
+warning rounds (2+ enemies within 8 before death): {
+  '1': 4,
+  '2': 11,
+  '3': 21,
+  '4': 23,
+  '5': 23,
+  '6': 45,
+  '7': 44,
+  '8': 67,
+  '9': 75,
+  '10': 63,
+  '11': 84,
+  '12': 747
+}
+with >=3 rounds warning: 1192; HP at warning: mean 0.79; ally within 8 at warning: 579
+  in the window: camp attacks in 1085, champion attacks in 964, stepped toward enemies (>=1) 1033, mostly away 452
+  carrying 20+ gems at warning: 158; by round: {"<200":158,"200-600":420,"600+":629}
+by type: {
+  VesperVale: 260,
+  Vendetta: 201,
+  HeartOfRuin: 283,
+  Ryth: 241,
+  Marcella: 220,
+  Stellar: 1,
+  Tavi: 1
+}

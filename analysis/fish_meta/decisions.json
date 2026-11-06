@@ -1,0 +1,41 @@
+{
+ "dir": "corpus_fish_all",
+ "games": 275,
+ "nextTarget": {
+  "n": 4627,
+  "nearestShare": 0.4,
+  "top2Share": 0.57,
+  "avgDist": 11.14,
+  "avgNearest": 5.5,
+  "avgDelay": 26.27,
+  "extraDist": 5.64,
+  "commonSkips": {
+   "Elk1 -> Wolf1": 176,
+   "Wolf1 -> Wolf1": 168,
+   "Monolith1 -> GoldCluster3": 121,
+   "Wolf1 -> Elk1": 109,
+   "GoldCluster1 -> GoldCluster3": 82,
+   "GoldCluster2 -> GoldCluster2": 81,
+   "Monolith1 -> GoldCluster4": 68,
+   "Elk1+GoldCluster1 -> Elk1+GoldCluster1": 66
+  }
+ },
+ "tribute": {
+  "perGame": 15,
+  "gemsAvg": 73.23,
+  "gemsP25": 44,
+  "gemsP50": 60,
+  "gemsP75": 88,
+  "capturesBetween": 1.28,
+  "roundsBetween": 91.68
+ },
+ "recall": {
+  "perGame": 28.6,
+  "hpfAvg": 0.56,
+  "hpfP50": 0.53,
+  "goldAvg": 142.59,
+  "afterTributeShare": 0,
+  "healthyRecallShare": 0.41,
+  "carryingGemsShare": 0.53
+ }
+}

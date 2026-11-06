@@ -1,0 +1,41 @@
+{
+ "dir": "platform/v26/games_them",
+ "games": 50,
+ "nextTarget": {
+  "n": 2805,
+  "nearestShare": 0.4,
+  "top2Share": 0.59,
+  "avgDist": 13.2,
+  "avgNearest": 7.05,
+  "avgDelay": 23.87,
+  "extraDist": 6.15,
+  "commonSkips": {
+   "GoldCluster2 -> GoldCluster2": 103,
+   "Monolith1 -> GoldCluster2": 74,
+   "GoldCluster4+Monolith1 -> GemCluster1+Wolf1": 44,
+   "Monolith1 -> GoldCluster4": 43,
+   "GoldCluster2 -> Elk1+GemCluster1": 40,
+   "GoldCluster4+Monolith1 -> GoldCluster5": 39,
+   "GoldCluster5 -> GemCluster1+Wolf1": 36,
+   "GoldCluster2 -> GoldCluster1+Wolf1": 27
+  }
+ },
+ "tribute": {
+  "perGame": 33.4,
+  "gemsAvg": 31.32,
+  "gemsP25": 11,
+  "gemsP50": 22,
+  "gemsP75": 44,
+  "capturesBetween": 1.76,
+  "roundsBetween": 124.43
+ },
+ "recall": {
+  "perGame": 667.4,
+  "hpfAvg": 0.82,
+  "hpfP50": 1,
+  "goldAvg": 34.33,
+  "afterTributeShare": 0.01,
+  "healthyRecallShare": 0.73,
+  "carryingGemsShare": 0.21
+ }
+}

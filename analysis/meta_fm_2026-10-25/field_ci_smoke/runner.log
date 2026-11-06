@@ -1,0 +1,171 @@
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/fee8277b-base
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/dmitt/Library/Caches/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/dmitt/Desktop/CamBattlecode/workspace/bots/fee8277b-base/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fee8277b-base/src/boss/draft.cpp.obj
+[2/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fee8277b-base/src/main.cpp.obj
+[3/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fee8277b-base/src/boss_main.cpp.obj
+[4/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fee8277b-base/src/draft.cpp.obj
+[5/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fee8277b-base/src/boss/bot.cpp.obj
+[6/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fee8277b-base/src/bot.cpp.obj
+[7/8] Linking CXX executable bot.wasm
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/mimic-mite
+mimic-mite is up to date
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/codex-v57
+codex-v57 is up to date
+Building /Users/dmitt/Desktop/CamBattlecode/workspace/bots/fee8277b-ci
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/dmitt/Library/Caches/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/dmitt/Desktop/CamBattlecode/workspace/bots/fee8277b-ci/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fee8277b-ci/src/boss/draft.cpp.obj
+[2/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fee8277b-ci/src/boss_main.cpp.obj
+[3/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fee8277b-ci/src/main.cpp.obj
+[4/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fee8277b-ci/src/draft.cpp.obj
+[5/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fee8277b-ci/src/boss/bot.cpp.obj
+[6/8] Building CXX object CMakeFiles/bot.dir/Users/dmitt/Desktop/CamBattlecode/workspace/bots/fee8277b-ci/src/bot.cpp.obj
+[7/8] Linking CXX executable bot.wasm
+[|] STARTING  fee8277b-base vs mimic-mite  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/base/mimic-mite/00lanes/a.repl26a
+[|] STARTING  mimic-mite vs fee8277b-base  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/base/mimic-mite/00lanes/b.repl26a
+[|] STARTING  fee8277b-base vs mimic-mite  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/base/mimic-mite/01gold-rush/a.repl26a
+[|] STARTING  mimic-mite vs fee8277b-base  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/base/mimic-mite/01gold-rush/b.repl26a
+[|] STARTING  fee8277b-base vs mimic-mite  00fragment
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/base/mimic-mite/00fragment/a.repl26a
+[|] STARTING  mimic-mite vs fee8277b-base  00fragment
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/base/mimic-mite/00fragment/b.repl26a
+[+] TEAM A WIN (fee8277b-base)  fee8277b-base vs mimic-mite  00fragment  Round 1791/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/base/mimic-mite/00fragment/a.repl26a
+[+] TEAM B WIN (fee8277b-base)  mimic-mite vs fee8277b-base  00fragment  Round 1875/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/base/mimic-mite/00fragment/b.repl26a
+[|] STARTING  fee8277b-base vs mimic-mite  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/base/mimic-mite/00corners/a.repl26a
+[|] STARTING  mimic-mite vs fee8277b-base  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/base/mimic-mite/00corners/b.repl26a
+[+] TEAM A WIN (fee8277b-base)  fee8277b-base vs mimic-mite  01gold-rush  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/base/mimic-mite/01gold-rush/a.repl26a
+[+] TEAM A WIN (mimic-mite)  mimic-mite vs fee8277b-base  01gold-rush  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/base/mimic-mite/01gold-rush/b.repl26a
+[|] STARTING  fee8277b-base vs codex-v57  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/base/codex-v57/00lanes/a.repl26a
+[|] STARTING  codex-v57 vs fee8277b-base  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/base/codex-v57/00lanes/b.repl26a
+[+] TEAM A WIN (fee8277b-base)  fee8277b-base vs mimic-mite  00lanes  Round 1106/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/base/mimic-mite/00lanes/a.repl26a
+[|] STARTING  fee8277b-base vs codex-v57  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/base/codex-v57/01gold-rush/a.repl26a
+[+] TEAM B WIN (fee8277b-base)  mimic-mite vs fee8277b-base  00lanes  Round 1170/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/base/mimic-mite/00lanes/b.repl26a
+[|] STARTING  codex-v57 vs fee8277b-base  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/base/codex-v57/01gold-rush/b.repl26a
+[+] TEAM A WIN (fee8277b-base)  fee8277b-base vs mimic-mite  00corners  Round 0921/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/base/mimic-mite/00corners/a.repl26a
+[|] STARTING  fee8277b-base vs codex-v57  00fragment
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/base/codex-v57/00fragment/a.repl26a
+[+] TEAM B WIN (fee8277b-base)  codex-v57 vs fee8277b-base  00lanes  Round 1153/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/base/codex-v57/00lanes/b.repl26a
+[|] STARTING  codex-v57 vs fee8277b-base  00fragment
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/base/codex-v57/00fragment/b.repl26a
+[+] TEAM B WIN (fee8277b-base)  mimic-mite vs fee8277b-base  00corners  Round 1100/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/base/mimic-mite/00corners/b.repl26a
+[+] TEAM A WIN (fee8277b-base)  fee8277b-base vs codex-v57  00lanes  Round 1141/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/base/codex-v57/00lanes/a.repl26a
+[|] STARTING  fee8277b-base vs codex-v57  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/base/codex-v57/00corners/a.repl26a
+[|] STARTING  codex-v57 vs fee8277b-base  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/base/codex-v57/00corners/b.repl26a
+[+] TEAM A WIN (fee8277b-base)  fee8277b-base vs codex-v57  01gold-rush  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/base/codex-v57/01gold-rush/a.repl26a
+[|] STARTING  fee8277b-ci vs mimic-mite  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/ci/mimic-mite/00lanes/a.repl26a
+[+] TEAM A WIN (codex-v57)  codex-v57 vs fee8277b-base  01gold-rush  Round 1904/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/base/codex-v57/01gold-rush/b.repl26a
+[+] TEAM A WIN (fee8277b-base)  fee8277b-base vs codex-v57  00fragment  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/base/codex-v57/00fragment/a.repl26a
+[|] STARTING  mimic-mite vs fee8277b-ci  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/ci/mimic-mite/00lanes/b.repl26a
+[|] STARTING  fee8277b-ci vs mimic-mite  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/ci/mimic-mite/01gold-rush/a.repl26a
+[+] TEAM B WIN (fee8277b-base)  codex-v57 vs fee8277b-base  00fragment  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/base/codex-v57/00fragment/b.repl26a
+[|] STARTING  mimic-mite vs fee8277b-ci  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/ci/mimic-mite/01gold-rush/b.repl26a
+[+] TEAM A WIN (codex-v57)  codex-v57 vs fee8277b-base  00corners  Round 1150/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/base/codex-v57/00corners/b.repl26a
+[|] STARTING  fee8277b-ci vs mimic-mite  00fragment
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/ci/mimic-mite/00fragment/a.repl26a
+[+] TEAM B WIN (codex-v57)  fee8277b-base vs codex-v57  00corners  Round 1322/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/base/codex-v57/00corners/a.repl26a
+[|] STARTING  mimic-mite vs fee8277b-ci  00fragment
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/ci/mimic-mite/00fragment/b.repl26a
+[+] TEAM A WIN (fee8277b-ci)  fee8277b-ci vs mimic-mite  01gold-rush  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/ci/mimic-mite/01gold-rush/a.repl26a
+[+] TEAM A WIN (mimic-mite)  mimic-mite vs fee8277b-ci  01gold-rush  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/ci/mimic-mite/01gold-rush/b.repl26a
+[|] STARTING  fee8277b-ci vs mimic-mite  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/ci/mimic-mite/00corners/a.repl26a
+[|] STARTING  mimic-mite vs fee8277b-ci  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/ci/mimic-mite/00corners/b.repl26a
+[+] TEAM A WIN (fee8277b-ci)  fee8277b-ci vs mimic-mite  00fragment  Round 1791/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/ci/mimic-mite/00fragment/a.repl26a
+[|] STARTING  fee8277b-ci vs codex-v57  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/ci/codex-v57/00lanes/a.repl26a
+[+] TEAM B WIN (fee8277b-ci)  mimic-mite vs fee8277b-ci  00fragment  Round 1965/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/ci/mimic-mite/00fragment/b.repl26a
+[|] STARTING  codex-v57 vs fee8277b-ci  00lanes
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/ci/codex-v57/00lanes/b.repl26a
+[+] TEAM A WIN (fee8277b-ci)  fee8277b-ci vs mimic-mite  00lanes  Round 1106/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/ci/mimic-mite/00lanes/a.repl26a
+[|] STARTING  fee8277b-ci vs codex-v57  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/ci/codex-v57/01gold-rush/a.repl26a
+[+] TEAM B WIN (fee8277b-ci)  mimic-mite vs fee8277b-ci  00lanes  Round 1170/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/ci/mimic-mite/00lanes/b.repl26a
+[|] STARTING  codex-v57 vs fee8277b-ci  01gold-rush
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/ci/codex-v57/01gold-rush/b.repl26a
+[+] TEAM A WIN (fee8277b-ci)  fee8277b-ci vs mimic-mite  00corners  Round 0957/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/ci/mimic-mite/00corners/a.repl26a
+[+] TEAM A WIN (fee8277b-ci)  fee8277b-ci vs codex-v57  00lanes  Round 1141/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/ci/codex-v57/00lanes/a.repl26a
+[+] TEAM B WIN (fee8277b-ci)  codex-v57 vs fee8277b-ci  00lanes  Round 1153/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/ci/codex-v57/00lanes/b.repl26a
+[+] TEAM A WIN (fee8277b-ci)  fee8277b-ci vs codex-v57  01gold-rush  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/ci/codex-v57/01gold-rush/a.repl26a
+[+] TEAM A WIN (codex-v57)  codex-v57 vs fee8277b-ci  01gold-rush  Round 1904/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/ci/codex-v57/01gold-rush/b.repl26a
+[|] STARTING  fee8277b-ci vs codex-v57  00fragment
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/ci/codex-v57/00fragment/a.repl26a
+[|] STARTING  codex-v57 vs fee8277b-ci  00fragment
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/ci/codex-v57/00fragment/b.repl26a
+[|] STARTING  fee8277b-ci vs codex-v57  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/ci/codex-v57/00corners/a.repl26a
+[|] STARTING  codex-v57 vs fee8277b-ci  00corners
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/ci/codex-v57/00corners/b.repl26a
+[+] TEAM B WIN (fee8277b-ci)  mimic-mite vs fee8277b-ci  00corners  Round 1103/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/ci/mimic-mite/00corners/b.repl26a
+[+] TEAM A WIN (fee8277b-ci)  fee8277b-ci vs codex-v57  00fragment  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/ci/codex-v57/00fragment/a.repl26a
+[+] TEAM B WIN (fee8277b-ci)  codex-v57 vs fee8277b-ci  00fragment  Round 2000/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/ci/codex-v57/00fragment/b.repl26a
+[+] TEAM A WIN (codex-v57)  codex-v57 vs fee8277b-ci  00corners  Round 1150/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/ci/codex-v57/00corners/b.repl26a
+[+] TEAM A WIN (fee8277b-ci)  fee8277b-ci vs codex-v57  00corners  Round 1247/2000
+    Replay: /Users/dmitt/Desktop/CamBattlecode/analysis/meta_fm_2026-10-25/field_ci_smoke/games/ci/codex-v57/00corners/a.repl26a
+Finished: 32 replay bundles saved, 0 failed
+injected 0 checks into 0 functions
+injected 0 checks into 0 functions

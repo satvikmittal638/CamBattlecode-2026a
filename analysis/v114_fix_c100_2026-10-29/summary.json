@@ -1,0 +1,5291 @@
+{
+  "trial": {
+    "all": {
+      "games": 100,
+      "wins": 37,
+      "meanMargin": -191.19,
+      "meanRounds": 1162.15,
+      "errors": 0,
+      "capGems": [
+        683.92,
+        892.41
+      ],
+      "capGold": [
+        4120.71,
+        4467.25
+      ],
+      "deaths": [
+        11.29,
+        7.34
+      ],
+      "deathGems": [
+        68.36,
+        80.4
+      ],
+      "kills": [
+        6.05,
+        10.04
+      ],
+      "captures": [
+        42.65,
+        54.15
+      ],
+      "newFamilyPurchases": [
+        0,
+        13.75
+      ],
+      "worth300": [
+        965.3,
+        1097.73
+      ],
+      "equipment300": [
+        803.7,
+        940.2
+      ],
+      "capGems300": [
+        137.46,
+        170.36
+      ],
+      "capGold300": [
+        761.94,
+        891.93
+      ],
+      "deaths300": [
+        2.09,
+        1.48
+      ],
+      "kills300": [
+        1.09,
+        1.64
+      ],
+      "unspent300": [
+        161.6,
+        157.53
+      ],
+      "carriedAtEnd": [
+        37.66,
+        38.83
+      ],
+      "deadTurnFraction": [
+        0.129,
+        0.079
+      ],
+      "deathContexts": {
+        "n": 1129,
+        "alone": 525,
+        "outnumbered": 532,
+        "channel": 75,
+        "zeroBag": 913,
+        "lowFor2Turns": 762
+      },
+      "idleRunsAtLeast20": [
+        {
+          "map": "01elk_arena",
+          "label": "near_r100_01",
+          "id": 1,
+          "start": 245,
+          "n": 26,
+          "bag": 0
+        },
+        {
+          "map": "00fragment",
+          "label": "near_r101_02",
+          "id": 2,
+          "start": 201,
+          "n": 20,
+          "bag": 0
+        },
+        {
+          "map": "00fragment",
+          "label": "near_r101_02",
+          "id": 0,
+          "start": 1331,
+          "n": 20,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r102_03",
+          "id": 1,
+          "start": 222,
+          "n": 35,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r102_03",
+          "id": 4,
+          "start": 496,
+          "n": 27,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r102_03",
+          "id": 0,
+          "start": 504,
+          "n": 23,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r102_03",
+          "id": 4,
+          "start": 723,
+          "n": 28,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r102_03",
+          "id": 4,
+          "start": 1137,
+          "n": 34,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r102_03",
+          "id": 0,
+          "start": 1141,
+          "n": 30,
+          "bag": 0
+        },
+        {
+          "map": "01boss_battle",
+          "label": "near_r108_07",
+          "id": 6,
+          "start": 740,
+          "n": 259,
+          "bag": 697
+        },
+        {
+          "map": "01boss_battle",
+          "label": "near_r108_07",
+          "id": 8,
+          "start": 1080,
+          "n": 25,
+          "bag": 200
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r111_10",
+          "id": 5,
+          "start": 34,
+          "n": 26,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r111_10",
+          "id": 5,
+          "start": 795,
+          "n": 22,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r111_10",
+          "id": 7,
+          "start": 833,
+          "n": 24,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r111_10",
+          "id": 6,
+          "start": 862,
+          "n": 24,
+          "bag": 0
+        },
+        {
+          "map": "adgato_gemcombat4",
+          "label": "near_r111_10",
+          "id": 1,
+          "start": 36,
+          "n": 21,
+          "bag": 0
+        },
+        {
+          "map": "adgato_gemcombat4",
+          "label": "near_r111_10",
+          "id": 4,
+          "start": 33,
+          "n": 30,
+          "bag": 0
+        },
+        {
+          "map": "adgato_gemcombat4",
+          "label": "near_r111_10",
+          "id": 1,
+          "start": 105,
+          "n": 20,
+          "bag": 0
+        },
+        {
+          "map": "adgato_gemcombat4",
+          "label": "near_r111_10",
+          "id": 0,
+          "start": 315,
+          "n": 29,
+          "bag": 0
+        },
+        {
+          "map": "01elk_arena",
+          "label": "strong_r48_01",
+          "id": 2,
+          "start": 728,
+          "n": 22,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "strong_r50_03",
+          "id": 4,
+          "start": 404,
+          "n": 25,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "strong_r50_03",
+          "id": 1,
+          "start": 497,
+          "n": 37,
+          "bag": 0
+        },
+        {
+          "map": "01boss_battle",
+          "label": "strong_r51_04",
+          "id": 4,
+          "start": 706,
+          "n": 20,
+          "bag": 19
+        },
+        {
+          "map": "01concentrated_wealth",
+          "label": "strong_r53_06",
+          "id": 5,
+          "start": 230,
+          "n": 20,
+          "bag": 0
+        },
+        {
+          "map": "01yellow_brick_road",
+          "label": "strong_r55_08",
+          "id": 10,
+          "start": 666,
+          "n": 25,
+          "bag": 0
+        },
+        {
+          "map": "01yellow_brick_road",
+          "label": "strong_r55_08",
+          "id": 6,
+          "start": 666,
+          "n": 25,
+          "bag": 0
+        },
+        {
+          "map": "02guardians",
+          "label": "strong_r56_09",
+          "id": 4,
+          "start": 1178,
+          "n": 35,
+          "bag": 0
+        },
+        {
+          "map": "02guardians",
+          "label": "strong_r56_09",
+          "id": 7,
+          "start": 1189,
+          "n": 26,
+          "bag": 0
+        },
+        {
+          "map": "02guardians",
+          "label": "strong_r56_09",
+          "id": 7,
+          "start": 1218,
+          "n": 21,
+          "bag": 0
+        },
+        {
+          "map": "02guardians",
+          "label": "strong_r56_09",
+          "id": 6,
+          "start": 1217,
+          "n": 25,
+          "bag": 15
+        },
+        {
+          "map": "02guardians",
+          "label": "strong_r56_09",
+          "id": 6,
+          "start": 1251,
+          "n": 29,
+          "bag": 15
+        },
+        {
+          "map": "02treasure_box",
+          "label": "strong_r56_09",
+          "id": 6,
+          "start": 245,
+          "n": 41,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "strong_r57_10",
+          "id": 5,
+          "start": 34,
+          "n": 26,
+          "bag": 0
+        }
+      ]
+    },
+    "loss": {
+      "games": 63,
+      "wins": 0,
+      "meanMargin": -613.825,
+      "meanRounds": 1127.19,
+      "errors": 0,
+      "capGems": [
+        492.413,
+        1067.556
+      ],
+      "capGold": [
+        3235.905,
+        4970.016
+      ],
+      "deaths": [
+        15.397,
+        4.413
+      ],
+      "deathGems": [
+        97.667,
+        76.873
+      ],
+      "kills": [
+        3.429,
+        13.968
+      ],
+      "captures": [
+        35.143,
+        58.381
+      ],
+      "newFamilyPurchases": [
+        0,
+        17.889
+      ],
+      "worth300": [
+        834.317,
+        1203.286
+      ],
+      "equipment300": [
+        690.476,
+        1050
+      ],
+      "capGems300": [
+        123.143,
+        188.397
+      ],
+      "capGold300": [
+        692.54,
+        921.794
+      ],
+      "deaths300": [
+        2.587,
+        1.063
+      ],
+      "kills300": [
+        0.73,
+        2.206
+      ],
+      "unspent300": [
+        143.841,
+        153.286
+      ],
+      "carriedAtEnd": [
+        39.54,
+        49.492
+      ],
+      "deadTurnFraction": [
+        0.18,
+        0.046
+      ],
+      "deathContexts": {
+        "n": 970,
+        "alone": 447,
+        "outnumbered": 460,
+        "channel": 63,
+        "zeroBag": 777,
+        "lowFor2Turns": 617
+      },
+      "idleRunsAtLeast20": [
+        {
+          "map": "00lanes",
+          "label": "near_r102_03",
+          "id": 1,
+          "start": 222,
+          "n": 35,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r102_03",
+          "id": 4,
+          "start": 496,
+          "n": 27,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r102_03",
+          "id": 0,
+          "start": 504,
+          "n": 23,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r102_03",
+          "id": 4,
+          "start": 723,
+          "n": 28,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r102_03",
+          "id": 4,
+          "start": 1137,
+          "n": 34,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r102_03",
+          "id": 0,
+          "start": 1141,
+          "n": 30,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r111_10",
+          "id": 5,
+          "start": 34,
+          "n": 26,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r111_10",
+          "id": 5,
+          "start": 795,
+          "n": 22,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r111_10",
+          "id": 7,
+          "start": 833,
+          "n": 24,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r111_10",
+          "id": 6,
+          "start": 862,
+          "n": 24,
+          "bag": 0
+        },
+        {
+          "map": "01elk_arena",
+          "label": "strong_r48_01",
+          "id": 2,
+          "start": 728,
+          "n": 22,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "strong_r50_03",
+          "id": 4,
+          "start": 404,
+          "n": 25,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "strong_r50_03",
+          "id": 1,
+          "start": 497,
+          "n": 37,
+          "bag": 0
+        },
+        {
+          "map": "01boss_battle",
+          "label": "strong_r51_04",
+          "id": 4,
+          "start": 706,
+          "n": 20,
+          "bag": 19
+        },
+        {
+          "map": "01yellow_brick_road",
+          "label": "strong_r55_08",
+          "id": 10,
+          "start": 666,
+          "n": 25,
+          "bag": 0
+        },
+        {
+          "map": "01yellow_brick_road",
+          "label": "strong_r55_08",
+          "id": 6,
+          "start": 666,
+          "n": 25,
+          "bag": 0
+        },
+        {
+          "map": "02guardians",
+          "label": "strong_r56_09",
+          "id": 4,
+          "start": 1178,
+          "n": 35,
+          "bag": 0
+        },
+        {
+          "map": "02guardians",
+          "label": "strong_r56_09",
+          "id": 7,
+          "start": 1189,
+          "n": 26,
+          "bag": 0
+        },
+        {
+          "map": "02guardians",
+          "label": "strong_r56_09",
+          "id": 7,
+          "start": 1218,
+          "n": 21,
+          "bag": 0
+        },
+        {
+          "map": "02guardians",
+          "label": "strong_r56_09",
+          "id": 6,
+          "start": 1217,
+          "n": 25,
+          "bag": 15
+        },
+        {
+          "map": "02guardians",
+          "label": "strong_r56_09",
+          "id": 6,
+          "start": 1251,
+          "n": 29,
+          "bag": 15
+        },
+        {
+          "map": "02treasure_box",
+          "label": "strong_r56_09",
+          "id": 6,
+          "start": 245,
+          "n": 41,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "strong_r57_10",
+          "id": 5,
+          "start": 34,
+          "n": 26,
+          "bag": 0
+        }
+      ]
+    },
+    "win": {
+      "games": 37,
+      "wins": 37,
+      "meanMargin": 528.432,
+      "meanRounds": 1221.676,
+      "errors": 0,
+      "capGems": [
+        1010,
+        594.189
+      ],
+      "capGold": [
+        5627.27,
+        3611.189
+      ],
+      "deaths": [
+        4.297,
+        12.324
+      ],
+      "deathGems": [
+        18.459,
+        86.405
+      ],
+      "kills": [
+        10.514,
+        3.351
+      ],
+      "captures": [
+        55.432,
+        46.946
+      ],
+      "newFamilyPurchases": [
+        0,
+        6.703
+      ],
+      "worth300": [
+        1188.324,
+        918
+      ],
+      "equipment300": [
+        996.486,
+        753.243
+      ],
+      "capGems300": [
+        161.838,
+        139.649
+      ],
+      "capGold300": [
+        880.108,
+        841.081
+      ],
+      "deaths300": [
+        1.243,
+        2.189
+      ],
+      "kills300": [
+        1.703,
+        0.676
+      ],
+      "unspent300": [
+        191.838,
+        164.757
+      ],
+      "carriedAtEnd": [
+        34.459,
+        20.676
+      ],
+      "deadTurnFraction": [
+        0.044,
+        0.135
+      ],
+      "deathContexts": {
+        "n": 159,
+        "alone": 78,
+        "outnumbered": 72,
+        "channel": 12,
+        "zeroBag": 136,
+        "lowFor2Turns": 145
+      },
+      "idleRunsAtLeast20": [
+        {
+          "map": "01elk_arena",
+          "label": "near_r100_01",
+          "id": 1,
+          "start": 245,
+          "n": 26,
+          "bag": 0
+        },
+        {
+          "map": "00fragment",
+          "label": "near_r101_02",
+          "id": 2,
+          "start": 201,
+          "n": 20,
+          "bag": 0
+        },
+        {
+          "map": "00fragment",
+          "label": "near_r101_02",
+          "id": 0,
+          "start": 1331,
+          "n": 20,
+          "bag": 0
+        },
+        {
+          "map": "01boss_battle",
+          "label": "near_r108_07",
+          "id": 6,
+          "start": 740,
+          "n": 259,
+          "bag": 697
+        },
+        {
+          "map": "01boss_battle",
+          "label": "near_r108_07",
+          "id": 8,
+          "start": 1080,
+          "n": 25,
+          "bag": 200
+        },
+        {
+          "map": "adgato_gemcombat4",
+          "label": "near_r111_10",
+          "id": 1,
+          "start": 36,
+          "n": 21,
+          "bag": 0
+        },
+        {
+          "map": "adgato_gemcombat4",
+          "label": "near_r111_10",
+          "id": 4,
+          "start": 33,
+          "n": 30,
+          "bag": 0
+        },
+        {
+          "map": "adgato_gemcombat4",
+          "label": "near_r111_10",
+          "id": 1,
+          "start": 105,
+          "n": 20,
+          "bag": 0
+        },
+        {
+          "map": "adgato_gemcombat4",
+          "label": "near_r111_10",
+          "id": 0,
+          "start": 315,
+          "n": 29,
+          "bag": 0
+        },
+        {
+          "map": "01concentrated_wealth",
+          "label": "strong_r53_06",
+          "id": 5,
+          "start": 230,
+          "n": 20,
+          "bag": 0
+        }
+      ]
+    },
+    "strong": {
+      "games": 50,
+      "wins": 9,
+      "meanMargin": -426.64,
+      "meanRounds": 1103.14,
+      "errors": 0,
+      "capGems": [
+        585.68,
+        980.16
+      ],
+      "capGold": [
+        3563.44,
+        4649.16
+      ],
+      "deaths": [
+        12.82,
+        5.66
+      ],
+      "deathGems": [
+        98.06,
+        88.38
+      ],
+      "kills": [
+        4.38,
+        11.42
+      ],
+      "captures": [
+        37.04,
+        54.88
+      ],
+      "newFamilyPurchases": [
+        0,
+        18.58
+      ],
+      "worth300": [
+        907.82,
+        1200.44
+      ],
+      "equipment300": [
+        774.6,
+        1031.4
+      ],
+      "capGems300": [
+        127.42,
+        191.22
+      ],
+      "capGold300": [
+        761.56,
+        928.84
+      ],
+      "deaths300": [
+        2.44,
+        1.1
+      ],
+      "kills300": [
+        0.7,
+        1.98
+      ],
+      "unspent300": [
+        133.22,
+        169.04
+      ],
+      "carriedAtEnd": [
+        43.7,
+        42.36
+      ],
+      "deadTurnFraction": [
+        0.159,
+        0.059
+      ],
+      "deathContexts": {
+        "n": 641,
+        "alone": 299,
+        "outnumbered": 293,
+        "channel": 38,
+        "zeroBag": 491,
+        "lowFor2Turns": 421
+      },
+      "idleRunsAtLeast20": [
+        {
+          "map": "01elk_arena",
+          "label": "strong_r48_01",
+          "id": 2,
+          "start": 728,
+          "n": 22,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "strong_r50_03",
+          "id": 4,
+          "start": 404,
+          "n": 25,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "strong_r50_03",
+          "id": 1,
+          "start": 497,
+          "n": 37,
+          "bag": 0
+        },
+        {
+          "map": "01boss_battle",
+          "label": "strong_r51_04",
+          "id": 4,
+          "start": 706,
+          "n": 20,
+          "bag": 19
+        },
+        {
+          "map": "01concentrated_wealth",
+          "label": "strong_r53_06",
+          "id": 5,
+          "start": 230,
+          "n": 20,
+          "bag": 0
+        },
+        {
+          "map": "01yellow_brick_road",
+          "label": "strong_r55_08",
+          "id": 10,
+          "start": 666,
+          "n": 25,
+          "bag": 0
+        },
+        {
+          "map": "01yellow_brick_road",
+          "label": "strong_r55_08",
+          "id": 6,
+          "start": 666,
+          "n": 25,
+          "bag": 0
+        },
+        {
+          "map": "02guardians",
+          "label": "strong_r56_09",
+          "id": 4,
+          "start": 1178,
+          "n": 35,
+          "bag": 0
+        },
+        {
+          "map": "02guardians",
+          "label": "strong_r56_09",
+          "id": 7,
+          "start": 1189,
+          "n": 26,
+          "bag": 0
+        },
+        {
+          "map": "02guardians",
+          "label": "strong_r56_09",
+          "id": 7,
+          "start": 1218,
+          "n": 21,
+          "bag": 0
+        },
+        {
+          "map": "02guardians",
+          "label": "strong_r56_09",
+          "id": 6,
+          "start": 1217,
+          "n": 25,
+          "bag": 15
+        },
+        {
+          "map": "02guardians",
+          "label": "strong_r56_09",
+          "id": 6,
+          "start": 1251,
+          "n": 29,
+          "bag": 15
+        },
+        {
+          "map": "02treasure_box",
+          "label": "strong_r56_09",
+          "id": 6,
+          "start": 245,
+          "n": 41,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "strong_r57_10",
+          "id": 5,
+          "start": 34,
+          "n": 26,
+          "bag": 0
+        }
+      ]
+    },
+    "near": {
+      "games": 50,
+      "wins": 28,
+      "meanMargin": 44.26,
+      "meanRounds": 1221.16,
+      "errors": 0,
+      "capGems": [
+        782.16,
+        804.66
+      ],
+      "capGold": [
+        4677.98,
+        4285.34
+      ],
+      "deaths": [
+        9.76,
+        9.02
+      ],
+      "deathGems": [
+        38.66,
+        72.42
+      ],
+      "kills": [
+        7.72,
+        8.66
+      ],
+      "captures": [
+        48.26,
+        53.42
+      ],
+      "newFamilyPurchases": [
+        0,
+        8.92
+      ],
+      "worth300": [
+        1022.78,
+        995.02
+      ],
+      "equipment300": [
+        832.8,
+        849
+      ],
+      "capGems300": [
+        147.5,
+        149.5
+      ],
+      "capGold300": [
+        762.32,
+        855.02
+      ],
+      "deaths300": [
+        1.74,
+        1.86
+      ],
+      "kills300": [
+        1.48,
+        1.3
+      ],
+      "unspent300": [
+        189.98,
+        146.02
+      ],
+      "carriedAtEnd": [
+        31.62,
+        35.3
+      ],
+      "deadTurnFraction": [
+        0.099,
+        0.098
+      ],
+      "deathContexts": {
+        "n": 488,
+        "alone": 226,
+        "outnumbered": 239,
+        "channel": 37,
+        "zeroBag": 422,
+        "lowFor2Turns": 341
+      },
+      "idleRunsAtLeast20": [
+        {
+          "map": "01elk_arena",
+          "label": "near_r100_01",
+          "id": 1,
+          "start": 245,
+          "n": 26,
+          "bag": 0
+        },
+        {
+          "map": "00fragment",
+          "label": "near_r101_02",
+          "id": 2,
+          "start": 201,
+          "n": 20,
+          "bag": 0
+        },
+        {
+          "map": "00fragment",
+          "label": "near_r101_02",
+          "id": 0,
+          "start": 1331,
+          "n": 20,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r102_03",
+          "id": 1,
+          "start": 222,
+          "n": 35,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r102_03",
+          "id": 4,
+          "start": 496,
+          "n": 27,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r102_03",
+          "id": 0,
+          "start": 504,
+          "n": 23,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r102_03",
+          "id": 4,
+          "start": 723,
+          "n": 28,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r102_03",
+          "id": 4,
+          "start": 1137,
+          "n": 34,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r102_03",
+          "id": 0,
+          "start": 1141,
+          "n": 30,
+          "bag": 0
+        },
+        {
+          "map": "01boss_battle",
+          "label": "near_r108_07",
+          "id": 6,
+          "start": 740,
+          "n": 259,
+          "bag": 697
+        },
+        {
+          "map": "01boss_battle",
+          "label": "near_r108_07",
+          "id": 8,
+          "start": 1080,
+          "n": 25,
+          "bag": 200
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r111_10",
+          "id": 5,
+          "start": 34,
+          "n": 26,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r111_10",
+          "id": 5,
+          "start": 795,
+          "n": 22,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r111_10",
+          "id": 7,
+          "start": 833,
+          "n": 24,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r111_10",
+          "id": 6,
+          "start": 862,
+          "n": 24,
+          "bag": 0
+        },
+        {
+          "map": "adgato_gemcombat4",
+          "label": "near_r111_10",
+          "id": 1,
+          "start": 36,
+          "n": 21,
+          "bag": 0
+        },
+        {
+          "map": "adgato_gemcombat4",
+          "label": "near_r111_10",
+          "id": 4,
+          "start": 33,
+          "n": 30,
+          "bag": 0
+        },
+        {
+          "map": "adgato_gemcombat4",
+          "label": "near_r111_10",
+          "id": 1,
+          "start": 105,
+          "n": 20,
+          "bag": 0
+        },
+        {
+          "map": "adgato_gemcombat4",
+          "label": "near_r111_10",
+          "id": 0,
+          "start": 315,
+          "n": 29,
+          "bag": 0
+        }
+      ]
+    },
+    "a": {
+      "games": 50,
+      "wins": 18,
+      "meanMargin": -190.7,
+      "meanRounds": 1157.94,
+      "errors": 0,
+      "capGems": [
+        670.9,
+        903.32
+      ],
+      "capGold": [
+        4288.4,
+        4505.56
+      ],
+      "deaths": [
+        9.74,
+        8.06
+      ],
+      "deathGems": [
+        40.32,
+        51.5
+      ],
+      "kills": [
+        6.46,
+        8.62
+      ],
+      "captures": [
+        44.92,
+        55.64
+      ],
+      "newFamilyPurchases": [
+        0,
+        15.12
+      ],
+      "worth300": [
+        942.7,
+        1053.34
+      ],
+      "equipment300": [
+        783,
+        909
+      ],
+      "capGems300": [
+        131.98,
+        171.32
+      ],
+      "capGold300": [
+        752.46,
+        876.04
+      ],
+      "deaths300": [
+        1.82,
+        1.42
+      ],
+      "kills300": [
+        0.92,
+        1.46
+      ],
+      "unspent300": [
+        159.7,
+        144.34
+      ],
+      "carriedAtEnd": [
+        16.04,
+        44.3
+      ],
+      "deadTurnFraction": [
+        0.115,
+        0.084
+      ],
+      "deathContexts": {
+        "n": 487,
+        "alone": 182,
+        "outnumbered": 199,
+        "channel": 40,
+        "zeroBag": 393,
+        "lowFor2Turns": 300
+      },
+      "idleRunsAtLeast20": [
+        {
+          "map": "01elk_arena",
+          "label": "near_r100_01",
+          "id": 1,
+          "start": 245,
+          "n": 26,
+          "bag": 0
+        },
+        {
+          "map": "00fragment",
+          "label": "near_r101_02",
+          "id": 2,
+          "start": 201,
+          "n": 20,
+          "bag": 0
+        },
+        {
+          "map": "00fragment",
+          "label": "near_r101_02",
+          "id": 0,
+          "start": 1331,
+          "n": 20,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r102_03",
+          "id": 1,
+          "start": 222,
+          "n": 35,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r102_03",
+          "id": 4,
+          "start": 496,
+          "n": 27,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r102_03",
+          "id": 0,
+          "start": 504,
+          "n": 23,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r102_03",
+          "id": 4,
+          "start": 723,
+          "n": 28,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r102_03",
+          "id": 4,
+          "start": 1137,
+          "n": 34,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r102_03",
+          "id": 0,
+          "start": 1141,
+          "n": 30,
+          "bag": 0
+        },
+        {
+          "map": "adgato_gemcombat4",
+          "label": "near_r111_10",
+          "id": 1,
+          "start": 36,
+          "n": 21,
+          "bag": 0
+        },
+        {
+          "map": "adgato_gemcombat4",
+          "label": "near_r111_10",
+          "id": 4,
+          "start": 33,
+          "n": 30,
+          "bag": 0
+        },
+        {
+          "map": "adgato_gemcombat4",
+          "label": "near_r111_10",
+          "id": 1,
+          "start": 105,
+          "n": 20,
+          "bag": 0
+        },
+        {
+          "map": "adgato_gemcombat4",
+          "label": "near_r111_10",
+          "id": 0,
+          "start": 315,
+          "n": 29,
+          "bag": 0
+        },
+        {
+          "map": "01elk_arena",
+          "label": "strong_r48_01",
+          "id": 2,
+          "start": 728,
+          "n": 22,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "strong_r50_03",
+          "id": 4,
+          "start": 404,
+          "n": 25,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "strong_r50_03",
+          "id": 1,
+          "start": 497,
+          "n": 37,
+          "bag": 0
+        },
+        {
+          "map": "01boss_battle",
+          "label": "strong_r51_04",
+          "id": 4,
+          "start": 706,
+          "n": 20,
+          "bag": 19
+        }
+      ]
+    },
+    "b": {
+      "games": 50,
+      "wins": 19,
+      "meanMargin": -191.68,
+      "meanRounds": 1166.36,
+      "errors": 0,
+      "capGems": [
+        696.94,
+        881.5
+      ],
+      "capGold": [
+        3953.02,
+        4428.94
+      ],
+      "deaths": [
+        12.84,
+        6.62
+      ],
+      "deathGems": [
+        96.4,
+        109.3
+      ],
+      "kills": [
+        5.64,
+        11.46
+      ],
+      "captures": [
+        40.38,
+        52.66
+      ],
+      "newFamilyPurchases": [
+        0,
+        12.38
+      ],
+      "worth300": [
+        987.9,
+        1142.12
+      ],
+      "equipment300": [
+        824.4,
+        971.4
+      ],
+      "capGems300": [
+        142.94,
+        169.4
+      ],
+      "capGold300": [
+        771.42,
+        907.82
+      ],
+      "deaths300": [
+        2.36,
+        1.54
+      ],
+      "kills300": [
+        1.26,
+        1.82
+      ],
+      "unspent300": [
+        163.5,
+        170.72
+      ],
+      "carriedAtEnd": [
+        59.28,
+        33.36
+      ],
+      "deadTurnFraction": [
+        0.144,
+        0.074
+      ],
+      "deathContexts": {
+        "n": 642,
+        "alone": 343,
+        "outnumbered": 333,
+        "channel": 35,
+        "zeroBag": 520,
+        "lowFor2Turns": 462
+      },
+      "idleRunsAtLeast20": [
+        {
+          "map": "01boss_battle",
+          "label": "near_r108_07",
+          "id": 6,
+          "start": 740,
+          "n": 259,
+          "bag": 697
+        },
+        {
+          "map": "01boss_battle",
+          "label": "near_r108_07",
+          "id": 8,
+          "start": 1080,
+          "n": 25,
+          "bag": 200
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r111_10",
+          "id": 5,
+          "start": 34,
+          "n": 26,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r111_10",
+          "id": 5,
+          "start": 795,
+          "n": 22,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r111_10",
+          "id": 7,
+          "start": 833,
+          "n": 24,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r111_10",
+          "id": 6,
+          "start": 862,
+          "n": 24,
+          "bag": 0
+        },
+        {
+          "map": "01concentrated_wealth",
+          "label": "strong_r53_06",
+          "id": 5,
+          "start": 230,
+          "n": 20,
+          "bag": 0
+        },
+        {
+          "map": "01yellow_brick_road",
+          "label": "strong_r55_08",
+          "id": 10,
+          "start": 666,
+          "n": 25,
+          "bag": 0
+        },
+        {
+          "map": "01yellow_brick_road",
+          "label": "strong_r55_08",
+          "id": 6,
+          "start": 666,
+          "n": 25,
+          "bag": 0
+        },
+        {
+          "map": "02guardians",
+          "label": "strong_r56_09",
+          "id": 4,
+          "start": 1178,
+          "n": 35,
+          "bag": 0
+        },
+        {
+          "map": "02guardians",
+          "label": "strong_r56_09",
+          "id": 7,
+          "start": 1189,
+          "n": 26,
+          "bag": 0
+        },
+        {
+          "map": "02guardians",
+          "label": "strong_r56_09",
+          "id": 7,
+          "start": 1218,
+          "n": 21,
+          "bag": 0
+        },
+        {
+          "map": "02guardians",
+          "label": "strong_r56_09",
+          "id": 6,
+          "start": 1217,
+          "n": 25,
+          "bag": 15
+        },
+        {
+          "map": "02guardians",
+          "label": "strong_r56_09",
+          "id": 6,
+          "start": 1251,
+          "n": 29,
+          "bag": 15
+        },
+        {
+          "map": "02treasure_box",
+          "label": "strong_r56_09",
+          "id": 6,
+          "start": 245,
+          "n": 41,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "strong_r57_10",
+          "id": 5,
+          "start": 34,
+          "n": 26,
+          "bag": 0
+        }
+      ]
+    }
+  },
+  "archive": {
+    "all": {
+      "games": 69,
+      "wins": 34,
+      "meanMargin": -89.246,
+      "meanRounds": 1221.362,
+      "errors": 0,
+      "capGems": [
+        809.812,
+        799.681
+      ],
+      "capGold": [
+        4772.536,
+        4242.333
+      ],
+      "deaths": [
+        10.536,
+        7.942
+      ],
+      "deathGems": [
+        100.754,
+        53.899
+      ],
+      "kills": [
+        6.362,
+        9.319
+      ],
+      "captures": [
+        47.957,
+        57.942
+      ],
+      "newFamilyPurchases": [
+        0,
+        4.971
+      ],
+      "worth300": [
+        950.768,
+        972.435
+      ],
+      "equipment300": [
+        772.174,
+        804.783
+      ],
+      "capGems300": [
+        130.333,
+        164.928
+      ],
+      "capGold300": [
+        807.246,
+        763.71
+      ],
+      "deaths300": [
+        2.145,
+        1.42
+      ],
+      "kills300": [
+        0.855,
+        1.725
+      ],
+      "unspent300": [
+        178.594,
+        167.652
+      ],
+      "carriedAtEnd": [
+        40.043,
+        40.971
+      ],
+      "deadTurnFraction": [
+        0.123,
+        0.085
+      ],
+      "deathContexts": {
+        "n": 727,
+        "alone": 402,
+        "outnumbered": 357,
+        "channel": 43,
+        "zeroBag": 527,
+        "lowFor2Turns": 574
+      },
+      "idleRunsAtLeast20": [
+        {
+          "map": "00road_of_riches",
+          "label": "umamusume",
+          "id": 6,
+          "start": 404,
+          "n": 28,
+          "bag": 0
+        },
+        {
+          "map": "00road_of_riches",
+          "label": "umamusume",
+          "id": 8,
+          "start": 405,
+          "n": 29,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "geese geese go",
+          "id": 5,
+          "start": 6,
+          "n": 22,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "geese geese go",
+          "id": 6,
+          "start": 7,
+          "n": 23,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "geese geese go",
+          "id": 5,
+          "start": 68,
+          "n": 22,
+          "bag": 4
+        },
+        {
+          "map": "00lanes",
+          "label": "geese geese go",
+          "id": 5,
+          "start": 153,
+          "n": 30,
+          "bag": 4
+        },
+        {
+          "map": "00lanes",
+          "label": "geese geese go",
+          "id": 7,
+          "start": 151,
+          "n": 63,
+          "bag": 11
+        },
+        {
+          "map": "00lanes",
+          "label": "geese geese go",
+          "id": 9,
+          "start": 145,
+          "n": 74,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "geese geese go",
+          "id": 7,
+          "start": 254,
+          "n": 26,
+          "bag": 11
+        },
+        {
+          "map": "00lanes",
+          "label": "geese geese go",
+          "id": 7,
+          "start": 313,
+          "n": 39,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "geese geese go",
+          "id": 9,
+          "start": 237,
+          "n": 142,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "geese geese go",
+          "id": 7,
+          "start": 407,
+          "n": 35,
+          "bag": 4
+        },
+        {
+          "map": "00lanes",
+          "label": "geese geese go",
+          "id": 9,
+          "start": 386,
+          "n": 93,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "geese geese go",
+          "id": 8,
+          "start": 197,
+          "n": 287,
+          "bag": 4
+        },
+        {
+          "map": "00lanes",
+          "label": "geese geese go",
+          "id": 7,
+          "start": 549,
+          "n": 26,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "geese geese go",
+          "id": 9,
+          "start": 486,
+          "n": 293,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "geese geese go",
+          "id": 8,
+          "start": 491,
+          "n": 289,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "geese geese go",
+          "id": 7,
+          "start": 576,
+          "n": 216,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "geese geese go",
+          "id": 7,
+          "start": 800,
+          "n": 36,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "geese geese go",
+          "id": 6,
+          "start": 502,
+          "n": 341,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "geese geese go",
+          "id": 5,
+          "start": 191,
+          "n": 701,
+          "bag": 4
+        },
+        {
+          "map": "00lanes",
+          "label": "geese geese go",
+          "id": 7,
+          "start": 852,
+          "n": 42,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "geese geese go",
+          "id": 9,
+          "start": 855,
+          "n": 55,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "geese geese go",
+          "id": 8,
+          "start": 785,
+          "n": 127,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "geese geese go",
+          "id": 5,
+          "start": 898,
+          "n": 20,
+          "bag": 0
+        },
+        {
+          "map": "00crater",
+          "label": "San Andreas Salt",
+          "id": 3,
+          "start": 787,
+          "n": 32,
+          "bag": 64
+        },
+        {
+          "map": "02treasure_box",
+          "label": "MFF1",
+          "id": 2,
+          "start": 651,
+          "n": 20,
+          "bag": 0
+        },
+        {
+          "map": "02the_pack",
+          "label": "EvilMangohh",
+          "id": 3,
+          "start": 185,
+          "n": 28,
+          "bag": 0
+        },
+        {
+          "map": "02the_pack",
+          "label": "EvilMangohh",
+          "id": 3,
+          "start": 294,
+          "n": 41,
+          "bag": 4
+        },
+        {
+          "map": "02the_pack",
+          "label": "EvilMangohh",
+          "id": 3,
+          "start": 397,
+          "n": 20,
+          "bag": 4
+        },
+        {
+          "map": "adgato_gemcombat4",
+          "label": "DLLM",
+          "id": 4,
+          "start": 33,
+          "n": 30,
+          "bag": 0
+        },
+        {
+          "map": "adgato_gemcombat4",
+          "label": "DLLM",
+          "id": 1,
+          "start": 36,
+          "n": 31,
+          "bag": 0
+        },
+        {
+          "map": "adgato_gemcombat4",
+          "label": "DLLM",
+          "id": 2,
+          "start": 299,
+          "n": 30,
+          "bag": 0
+        },
+        {
+          "map": "00fragment",
+          "label": "smurphy",
+          "id": 0,
+          "start": 104,
+          "n": 20,
+          "bag": 0
+        },
+        {
+          "map": "00fragment",
+          "label": "smurphy",
+          "id": 2,
+          "start": 922,
+          "n": 23,
+          "bag": 0
+        },
+        {
+          "map": "00fragment",
+          "label": "smurphy",
+          "id": 0,
+          "start": 1077,
+          "n": 24,
+          "bag": 0
+        },
+        {
+          "map": "00fragment",
+          "label": "smurphy",
+          "id": 0,
+          "start": 1177,
+          "n": 22,
+          "bag": 0
+        },
+        {
+          "map": "00fragment",
+          "label": "smurphy",
+          "id": 0,
+          "start": 1265,
+          "n": 26,
+          "bag": 0
+        },
+        {
+          "map": "00fragment",
+          "label": "smurphy",
+          "id": 1,
+          "start": 1452,
+          "n": 21,
+          "bag": 0
+        },
+        {
+          "map": "00fragment",
+          "label": "smurphy",
+          "id": 2,
+          "start": 1538,
+          "n": 23,
+          "bag": 0
+        },
+        {
+          "map": "00fragment",
+          "label": "smurphy",
+          "id": 0,
+          "start": 1898,
+          "n": 21,
+          "bag": 0
+        }
+      ]
+    },
+    "loss": {
+      "games": 35,
+      "wins": 0,
+      "meanMargin": -599.086,
+      "meanRounds": 1101.486,
+      "errors": 0,
+      "capGems": [
+        574.057,
+        974.257
+      ],
+      "capGold": [
+        3197.029,
+        4855.314
+      ],
+      "deaths": [
+        15.114,
+        4.343
+      ],
+      "deathGems": [
+        156.229,
+        48.714
+      ],
+      "kills": [
+        2.543,
+        13.971
+      ],
+      "captures": [
+        32.543,
+        62.286
+      ],
+      "newFamilyPurchases": [
+        0,
+        3.143
+      ],
+      "worth300": [
+        721.057,
+        1185.743
+      ],
+      "equipment300": [
+        566.571,
+        1006.286
+      ],
+      "capGems300": [
+        129.771,
+        207.2
+      ],
+      "capGold300": [
+        626.6,
+        864.086
+      ],
+      "deaths300": [
+        2.914,
+        1.086
+      ],
+      "kills300": [
+        0.571,
+        2.6
+      ],
+      "unspent300": [
+        154.486,
+        179.457
+      ],
+      "carriedAtEnd": [
+        37.686,
+        66.143
+      ],
+      "deadTurnFraction": [
+        0.187,
+        0.048
+      ],
+      "deathContexts": {
+        "n": 529,
+        "alone": 286,
+        "outnumbered": 260,
+        "channel": 27,
+        "zeroBag": 386,
+        "lowFor2Turns": 397
+      },
+      "idleRunsAtLeast20": [
+        {
+          "map": "00road_of_riches",
+          "label": "umamusume",
+          "id": 6,
+          "start": 404,
+          "n": 28,
+          "bag": 0
+        },
+        {
+          "map": "00road_of_riches",
+          "label": "umamusume",
+          "id": 8,
+          "start": 405,
+          "n": 29,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "geese geese go",
+          "id": 5,
+          "start": 6,
+          "n": 22,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "geese geese go",
+          "id": 6,
+          "start": 7,
+          "n": 23,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "geese geese go",
+          "id": 5,
+          "start": 68,
+          "n": 22,
+          "bag": 4
+        },
+        {
+          "map": "00lanes",
+          "label": "geese geese go",
+          "id": 5,
+          "start": 153,
+          "n": 30,
+          "bag": 4
+        },
+        {
+          "map": "00lanes",
+          "label": "geese geese go",
+          "id": 7,
+          "start": 151,
+          "n": 63,
+          "bag": 11
+        },
+        {
+          "map": "00lanes",
+          "label": "geese geese go",
+          "id": 9,
+          "start": 145,
+          "n": 74,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "geese geese go",
+          "id": 7,
+          "start": 254,
+          "n": 26,
+          "bag": 11
+        },
+        {
+          "map": "00lanes",
+          "label": "geese geese go",
+          "id": 7,
+          "start": 313,
+          "n": 39,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "geese geese go",
+          "id": 9,
+          "start": 237,
+          "n": 142,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "geese geese go",
+          "id": 7,
+          "start": 407,
+          "n": 35,
+          "bag": 4
+        },
+        {
+          "map": "00lanes",
+          "label": "geese geese go",
+          "id": 9,
+          "start": 386,
+          "n": 93,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "geese geese go",
+          "id": 8,
+          "start": 197,
+          "n": 287,
+          "bag": 4
+        },
+        {
+          "map": "00lanes",
+          "label": "geese geese go",
+          "id": 7,
+          "start": 549,
+          "n": 26,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "geese geese go",
+          "id": 9,
+          "start": 486,
+          "n": 293,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "geese geese go",
+          "id": 8,
+          "start": 491,
+          "n": 289,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "geese geese go",
+          "id": 7,
+          "start": 576,
+          "n": 216,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "geese geese go",
+          "id": 7,
+          "start": 800,
+          "n": 36,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "geese geese go",
+          "id": 6,
+          "start": 502,
+          "n": 341,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "geese geese go",
+          "id": 5,
+          "start": 191,
+          "n": 701,
+          "bag": 4
+        },
+        {
+          "map": "00lanes",
+          "label": "geese geese go",
+          "id": 7,
+          "start": 852,
+          "n": 42,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "geese geese go",
+          "id": 9,
+          "start": 855,
+          "n": 55,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "geese geese go",
+          "id": 8,
+          "start": 785,
+          "n": 127,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "geese geese go",
+          "id": 5,
+          "start": 898,
+          "n": 20,
+          "bag": 0
+        },
+        {
+          "map": "02treasure_box",
+          "label": "MFF1",
+          "id": 2,
+          "start": 651,
+          "n": 20,
+          "bag": 0
+        },
+        {
+          "map": "02the_pack",
+          "label": "EvilMangohh",
+          "id": 3,
+          "start": 185,
+          "n": 28,
+          "bag": 0
+        },
+        {
+          "map": "02the_pack",
+          "label": "EvilMangohh",
+          "id": 3,
+          "start": 294,
+          "n": 41,
+          "bag": 4
+        },
+        {
+          "map": "02the_pack",
+          "label": "EvilMangohh",
+          "id": 3,
+          "start": 397,
+          "n": 20,
+          "bag": 4
+        },
+        {
+          "map": "adgato_gemcombat4",
+          "label": "DLLM",
+          "id": 4,
+          "start": 33,
+          "n": 30,
+          "bag": 0
+        },
+        {
+          "map": "adgato_gemcombat4",
+          "label": "DLLM",
+          "id": 1,
+          "start": 36,
+          "n": 31,
+          "bag": 0
+        },
+        {
+          "map": "adgato_gemcombat4",
+          "label": "DLLM",
+          "id": 2,
+          "start": 299,
+          "n": 30,
+          "bag": 0
+        }
+      ]
+    }
+  },
+  "perOpponent": [
+    {
+      "label": "strong_r48_01",
+      "opponent": "DOOMSDAY",
+      "pool": "strong",
+      "rank": 48,
+      "games": 5,
+      "wins": 0,
+      "meanMargin": -612.4,
+      "meanRounds": 1239,
+      "errors": 0,
+      "capGems": [
+        467.2,
+        1014.4
+      ],
+      "capGold": [
+        3836.6,
+        3529
+      ],
+      "deaths": [
+        13.6,
+        4.4
+      ],
+      "deathGems": [
+        39.2,
+        6.8
+      ],
+      "kills": [
+        2,
+        12.8
+      ],
+      "captures": [
+        66.6,
+        81.2
+      ],
+      "newFamilyPurchases": [
+        0,
+        73.6
+      ],
+      "worth300": [
+        823,
+        969.2
+      ],
+      "equipment300": [
+        684,
+        786
+      ],
+      "capGems300": [
+        84.8,
+        172.2
+      ],
+      "capGold300": [
+        781,
+        820
+      ],
+      "deaths300": [
+        1.6,
+        1.2
+      ],
+      "kills300": [
+        0.4,
+        1.2
+      ],
+      "unspent300": [
+        139,
+        183.2
+      ],
+      "carriedAtEnd": [
+        11,
+        16.6
+      ],
+      "deadTurnFraction": [
+        0.138,
+        0.043
+      ],
+      "deathContexts": {
+        "n": 68,
+        "alone": 22,
+        "outnumbered": 35,
+        "channel": 2,
+        "zeroBag": 58,
+        "lowFor2Turns": 50
+      },
+      "idleRunsAtLeast20": [
+        {
+          "map": "01elk_arena",
+          "label": "strong_r48_01",
+          "id": 2,
+          "start": 728,
+          "n": 22,
+          "bag": 0
+        }
+      ]
+    },
+    {
+      "label": "near_r100_01",
+      "opponent": "QS2isLaw",
+      "pool": "near",
+      "rank": 100,
+      "games": 5,
+      "wins": 4,
+      "meanMargin": 172.6,
+      "meanRounds": 1411.8,
+      "errors": 0,
+      "capGems": [
+        780.8,
+        713.8
+      ],
+      "capGold": [
+        6137,
+        3860
+      ],
+      "deaths": [
+        12,
+        16.4
+      ],
+      "deathGems": [
+        1.6,
+        46.2
+      ],
+      "kills": [
+        12.4,
+        11.6
+      ],
+      "captures": [
+        73.6,
+        57.4
+      ],
+      "newFamilyPurchases": [
+        0,
+        0
+      ],
+      "worth300": [
+        1136.8,
+        1038
+      ],
+      "equipment300": [
+        990,
+        888
+      ],
+      "capGems300": [
+        91,
+        137.4
+      ],
+      "capGold300": [
+        960.8,
+        865.4
+      ],
+      "deaths300": [
+        2.2,
+        1.2
+      ],
+      "kills300": [
+        0.8,
+        2
+      ],
+      "unspent300": [
+        146.8,
+        150
+      ],
+      "carriedAtEnd": [
+        0,
+        17.2
+      ],
+      "deadTurnFraction": [
+        0.1,
+        0.107
+      ],
+      "deathContexts": {
+        "n": 60,
+        "alone": 19,
+        "outnumbered": 39,
+        "channel": 4,
+        "zeroBag": 59,
+        "lowFor2Turns": 49
+      },
+      "idleRunsAtLeast20": [
+        {
+          "map": "01elk_arena",
+          "label": "near_r100_01",
+          "id": 1,
+          "start": 245,
+          "n": 26,
+          "bag": 0
+        }
+      ]
+    },
+    {
+      "label": "strong_r49_02",
+      "opponent": "SALUTE TO TUNG",
+      "pool": "strong",
+      "rank": 49,
+      "games": 5,
+      "wins": 0,
+      "meanMargin": -466.4,
+      "meanRounds": 970,
+      "errors": 0,
+      "capGems": [
+        637.6,
+        973.4
+      ],
+      "capGold": [
+        2660,
+        4777.8
+      ],
+      "deaths": [
+        17,
+        4.2
+      ],
+      "deathGems": [
+        102,
+        25.2
+      ],
+      "kills": [
+        2.6,
+        15.6
+      ],
+      "captures": [
+        26.4,
+        47.2
+      ],
+      "newFamilyPurchases": [
+        0,
+        29.6
+      ],
+      "worth300": [
+        773.6,
+        1582
+      ],
+      "equipment300": [
+        648,
+        1428
+      ],
+      "capGems300": [
+        220.8,
+        178
+      ],
+      "capGold300": [
+        632.6,
+        1077.6
+      ],
+      "deaths300": [
+        3.8,
+        0.8
+      ],
+      "kills300": [
+        0,
+        3.8
+      ],
+      "unspent300": [
+        125.6,
+        154
+      ],
+      "carriedAtEnd": [
+        10.6,
+        28
+      ],
+      "deadTurnFraction": [
+        0.218,
+        0.042
+      ],
+      "deathContexts": {
+        "n": 85,
+        "alone": 33,
+        "outnumbered": 33,
+        "channel": 4,
+        "zeroBag": 55,
+        "lowFor2Turns": 59
+      },
+      "idleRunsAtLeast20": []
+    },
+    {
+      "label": "near_r101_02",
+      "opponent": "Gem_alert",
+      "pool": "near",
+      "rank": 101,
+      "games": 5,
+      "wins": 4,
+      "meanMargin": 405.8,
+      "meanRounds": 1157.2,
+      "errors": 0,
+      "capGems": [
+        905.2,
+        557
+      ],
+      "capGold": [
+        4512.2,
+        4584.4
+      ],
+      "deaths": [
+        7.6,
+        12.6
+      ],
+      "deathGems": [
+        44.8,
+        77.8
+      ],
+      "kills": [
+        11.4,
+        7.6
+      ],
+      "captures": [
+        49.2,
+        54.8
+      ],
+      "newFamilyPurchases": [
+        0,
+        24.6
+      ],
+      "worth300": [
+        1461,
+        992.6
+      ],
+      "equipment300": [
+        1122,
+        822
+      ],
+      "capGems300": [
+        269.4,
+        100.2
+      ],
+      "capGold300": [
+        832.2,
+        893.8
+      ],
+      "deaths300": [
+        1,
+        3.6
+      ],
+      "kills300": [
+        3.2,
+        1
+      ],
+      "unspent300": [
+        339,
+        170.6
+      ],
+      "carriedAtEnd": [
+        20.4,
+        12
+      ],
+      "deadTurnFraction": [
+        0.079,
+        0.164
+      ],
+      "deathContexts": {
+        "n": 38,
+        "alone": 18,
+        "outnumbered": 11,
+        "channel": 6,
+        "zeroBag": 28,
+        "lowFor2Turns": 25
+      },
+      "idleRunsAtLeast20": [
+        {
+          "map": "00fragment",
+          "label": "near_r101_02",
+          "id": 2,
+          "start": 201,
+          "n": 20,
+          "bag": 0
+        },
+        {
+          "map": "00fragment",
+          "label": "near_r101_02",
+          "id": 0,
+          "start": 1331,
+          "n": 20,
+          "bag": 0
+        }
+      ]
+    },
+    {
+      "label": "strong_r50_03",
+      "opponent": "SquidProxyLovers",
+      "pool": "strong",
+      "rank": 50,
+      "games": 5,
+      "wins": 1,
+      "meanMargin": -201,
+      "meanRounds": 1061.6,
+      "errors": 0,
+      "capGems": [
+        697.8,
+        952.6
+      ],
+      "capGold": [
+        3299.4,
+        3675.8
+      ],
+      "deaths": [
+        10,
+        9.2
+      ],
+      "deathGems": [
+        30,
+        50.2
+      ],
+      "kills": [
+        8.2,
+        9.8
+      ],
+      "captures": [
+        37.4,
+        74.8
+      ],
+      "newFamilyPurchases": [
+        0,
+        38.4
+      ],
+      "worth300": [
+        928.8,
+        1075.2
+      ],
+      "equipment300": [
+        780,
+        948
+      ],
+      "capGems300": [
+        139,
+        224.2
+      ],
+      "capGold300": [
+        663.6,
+        806.6
+      ],
+      "deaths300": [
+        2.2,
+        1.6
+      ],
+      "kills300": [
+        1.2,
+        2.2
+      ],
+      "unspent300": [
+        148.8,
+        127.2
+      ],
+      "carriedAtEnd": [
+        18.4,
+        31.8
+      ],
+      "deadTurnFraction": [
+        0.141,
+        0.094
+      ],
+      "deathContexts": {
+        "n": 50,
+        "alone": 28,
+        "outnumbered": 24,
+        "channel": 1,
+        "zeroBag": 39,
+        "lowFor2Turns": 33
+      },
+      "idleRunsAtLeast20": [
+        {
+          "map": "00lanes",
+          "label": "strong_r50_03",
+          "id": 4,
+          "start": 404,
+          "n": 25,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "strong_r50_03",
+          "id": 1,
+          "start": 497,
+          "n": 37,
+          "bag": 0
+        }
+      ]
+    },
+    {
+      "label": "near_r102_03",
+      "opponent": "Mate in One",
+      "pool": "near",
+      "rank": 102,
+      "games": 5,
+      "wins": 1,
+      "meanMargin": -417.2,
+      "meanRounds": 1044,
+      "errors": 0,
+      "capGems": [
+        485.6,
+        935.2
+      ],
+      "capGold": [
+        4106.6,
+        3251.8
+      ],
+      "deaths": [
+        8.8,
+        8.6
+      ],
+      "deathGems": [
+        36,
+        48.2
+      ],
+      "kills": [
+        7.2,
+        7.8
+      ],
+      "captures": [
+        51.6,
+        57
+      ],
+      "newFamilyPurchases": [
+        0,
+        18.2
+      ],
+      "worth300": [
+        1023.8,
+        854.6
+      ],
+      "equipment300": [
+        810,
+        828
+      ],
+      "capGems300": [
+        94.8,
+        272.6
+      ],
+      "capGold300": [
+        885.4,
+        687
+      ],
+      "deaths300": [
+        2.6,
+        1.6
+      ],
+      "kills300": [
+        0.8,
+        1.6
+      ],
+      "unspent300": [
+        213.8,
+        26.6
+      ],
+      "carriedAtEnd": [
+        8.2,
+        12
+      ],
+      "deadTurnFraction": [
+        0.115,
+        0.082
+      ],
+      "deathContexts": {
+        "n": 44,
+        "alone": 18,
+        "outnumbered": 30,
+        "channel": 3,
+        "zeroBag": 33,
+        "lowFor2Turns": 37
+      },
+      "idleRunsAtLeast20": [
+        {
+          "map": "00lanes",
+          "label": "near_r102_03",
+          "id": 1,
+          "start": 222,
+          "n": 35,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r102_03",
+          "id": 4,
+          "start": 496,
+          "n": 27,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r102_03",
+          "id": 0,
+          "start": 504,
+          "n": 23,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r102_03",
+          "id": 4,
+          "start": 723,
+          "n": 28,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r102_03",
+          "id": 4,
+          "start": 1137,
+          "n": 34,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r102_03",
+          "id": 0,
+          "start": 1141,
+          "n": 30,
+          "bag": 0
+        }
+      ]
+    },
+    {
+      "label": "strong_r51_04",
+      "opponent": "The Party of Heroes",
+      "pool": "strong",
+      "rank": 51,
+      "games": 5,
+      "wins": 1,
+      "meanMargin": -500.4,
+      "meanRounds": 1051.6,
+      "errors": 0,
+      "capGems": [
+        504.6,
+        1052.6
+      ],
+      "capGold": [
+        3847.2,
+        6097
+      ],
+      "deaths": [
+        10.2,
+        2
+      ],
+      "deathGems": [
+        36.6,
+        59.6
+      ],
+      "kills": [
+        1.6,
+        7.6
+      ],
+      "captures": [
+        32.8,
+        57.2
+      ],
+      "newFamilyPurchases": [
+        0,
+        7.2
+      ],
+      "worth300": [
+        781.6,
+        1374.6
+      ],
+      "equipment300": [
+        630,
+        1212
+      ],
+      "capGems300": [
+        99.6,
+        204.8
+      ],
+      "capGold300": [
+        717.4,
+        1225
+      ],
+      "deaths300": [
+        2.4,
+        0.2
+      ],
+      "kills300": [
+        0.2,
+        1.2
+      ],
+      "unspent300": [
+        151.6,
+        162.6
+      ],
+      "carriedAtEnd": [
+        12.4,
+        50.2
+      ],
+      "deadTurnFraction": [
+        0.161,
+        0.019
+      ],
+      "deathContexts": {
+        "n": 51,
+        "alone": 22,
+        "outnumbered": 16,
+        "channel": 4,
+        "zeroBag": 43,
+        "lowFor2Turns": 38
+      },
+      "idleRunsAtLeast20": [
+        {
+          "map": "01boss_battle",
+          "label": "strong_r51_04",
+          "id": 4,
+          "start": 706,
+          "n": 20,
+          "bag": 19
+        }
+      ]
+    },
+    {
+      "label": "near_r103_04",
+      "opponent": "bentheboss",
+      "pool": "near",
+      "rank": 103,
+      "games": 5,
+      "wins": 3,
+      "meanMargin": -55,
+      "meanRounds": 1158.6,
+      "errors": 0,
+      "capGems": [
+        650.2,
+        941.4
+      ],
+      "capGold": [
+        3069.8,
+        5741
+      ],
+      "deaths": [
+        9.6,
+        7.8
+      ],
+      "deathGems": [
+        25.8,
+        53.6
+      ],
+      "kills": [
+        7.8,
+        5.4
+      ],
+      "captures": [
+        37,
+        71.6
+      ],
+      "newFamilyPurchases": [
+        0,
+        22.8
+      ],
+      "worth300": [
+        721,
+        1130.8
+      ],
+      "equipment300": [
+        594,
+        984
+      ],
+      "capGems300": [
+        86.2,
+        153
+      ],
+      "capGold300": [
+        468.8,
+        987
+      ],
+      "deaths300": [
+        2,
+        1.4
+      ],
+      "kills300": [
+        1.4,
+        1.2
+      ],
+      "unspent300": [
+        127,
+        146.8
+      ],
+      "carriedAtEnd": [
+        7,
+        171.8
+      ],
+      "deadTurnFraction": [
+        0.101,
+        0.101
+      ],
+      "deathContexts": {
+        "n": 48,
+        "alone": 27,
+        "outnumbered": 17,
+        "channel": 5,
+        "zeroBag": 43,
+        "lowFor2Turns": 34
+      },
+      "idleRunsAtLeast20": []
+    },
+    {
+      "label": "strong_r52_05",
+      "opponent": "janestreethireusplease",
+      "pool": "strong",
+      "rank": 52,
+      "games": 5,
+      "wins": 0,
+      "meanMargin": -555.6,
+      "meanRounds": 980.8,
+      "errors": 0,
+      "capGems": [
+        595.4,
+        1036.8
+      ],
+      "capGold": [
+        3730.2,
+        4169
+      ],
+      "deaths": [
+        3.2,
+        3.4
+      ],
+      "deathGems": [
+        129.6,
+        75.4
+      ],
+      "kills": [
+        2.8,
+        2.4
+      ],
+      "captures": [
+        33,
+        53.4
+      ],
+      "newFamilyPurchases": [
+        0,
+        35
+      ],
+      "worth300": [
+        864.6,
+        1076.4
+      ],
+      "equipment300": [
+        744,
+        804
+      ],
+      "capGems300": [
+        145.8,
+        211.8
+      ],
+      "capGold300": [
+        765.4,
+        878.6
+      ],
+      "deaths300": [
+        1.4,
+        0.4
+      ],
+      "kills300": [
+        0.4,
+        1
+      ],
+      "unspent300": [
+        120.6,
+        272.4
+      ],
+      "carriedAtEnd": [
+        48.4,
+        55.4
+      ],
+      "deadTurnFraction": [
+        0.063,
+        0.05
+      ],
+      "deathContexts": {
+        "n": 16,
+        "alone": 7,
+        "outnumbered": 4,
+        "channel": 0,
+        "zeroBag": 9,
+        "lowFor2Turns": 15
+      },
+      "idleRunsAtLeast20": []
+    },
+    {
+      "label": "near_r105_05",
+      "opponent": "AlphaSlop",
+      "pool": "near",
+      "rank": 105,
+      "games": 5,
+      "wins": 1,
+      "meanMargin": -324.8,
+      "meanRounds": 1423.6,
+      "errors": 0,
+      "capGems": [
+        715.6,
+        967.6
+      ],
+      "capGold": [
+        5431.8,
+        6014.6
+      ],
+      "deaths": [
+        25.8,
+        7.8
+      ],
+      "deathGems": [
+        55.4,
+        28.2
+      ],
+      "kills": [
+        7.2,
+        25.2
+      ],
+      "captures": [
+        48.8,
+        41.2
+      ],
+      "newFamilyPurchases": [
+        0,
+        0
+      ],
+      "worth300": [
+        1217.8,
+        1589.8
+      ],
+      "equipment300": [
+        1044,
+        1332
+      ],
+      "capGems300": [
+        231,
+        74.4
+      ],
+      "capGold300": [
+        904.8,
+        1274
+      ],
+      "deaths300": [
+        2.8,
+        1.8
+      ],
+      "kills300": [
+        1.4,
+        2.6
+      ],
+      "unspent300": [
+        173.8,
+        257.8
+      ],
+      "carriedAtEnd": [
+        49.4,
+        31
+      ],
+      "deadTurnFraction": [
+        0.216,
+        0.064
+      ],
+      "deathContexts": {
+        "n": 129,
+        "alone": 67,
+        "outnumbered": 72,
+        "channel": 5,
+        "zeroBag": 124,
+        "lowFor2Turns": 59
+      },
+      "idleRunsAtLeast20": []
+    },
+    {
+      "label": "strong_r53_06",
+      "opponent": "Bamboo Teahouse",
+      "pool": "strong",
+      "rank": 53,
+      "games": 5,
+      "wins": 2,
+      "meanMargin": -381,
+      "meanRounds": 1062.4,
+      "errors": 0,
+      "capGems": [
+        792.6,
+        767
+      ],
+      "capGold": [
+        3923.8,
+        3290.8
+      ],
+      "deaths": [
+        8.4,
+        2.6
+      ],
+      "deathGems": [
+        271.6,
+        94.4
+      ],
+      "kills": [
+        2.2,
+        8.4
+      ],
+      "captures": [
+        29.2,
+        38.8
+      ],
+      "newFamilyPurchases": [
+        0,
+        0
+      ],
+      "worth300": [
+        763.8,
+        888.4
+      ],
+      "equipment300": [
+        690,
+        654
+      ],
+      "capGems300": [
+        85.6,
+        239.2
+      ],
+      "capGold300": [
+        675,
+        640.8
+      ],
+      "deaths300": [
+        1.8,
+        0.4
+      ],
+      "kills300": [
+        0.4,
+        1.8
+      ],
+      "unspent300": [
+        73.8,
+        234.4
+      ],
+      "carriedAtEnd": [
+        81.2,
+        40.4
+      ],
+      "deadTurnFraction": [
+        0.141,
+        0.031
+      ],
+      "deathContexts": {
+        "n": 42,
+        "alone": 21,
+        "outnumbered": 21,
+        "channel": 2,
+        "zeroBag": 22,
+        "lowFor2Turns": 24
+      },
+      "idleRunsAtLeast20": [
+        {
+          "map": "01concentrated_wealth",
+          "label": "strong_r53_06",
+          "id": 5,
+          "start": 230,
+          "n": 20,
+          "bag": 0
+        }
+      ]
+    },
+    {
+      "label": "near_r107_06",
+      "opponent": "Feral Monoliths",
+      "pool": "near",
+      "rank": 107,
+      "games": 5,
+      "wins": 4,
+      "meanMargin": 452.2,
+      "meanRounds": 1190.4,
+      "errors": 0,
+      "capGems": [
+        913.2,
+        513
+      ],
+      "capGold": [
+        5920,
+        3422.6
+      ],
+      "deaths": [
+        3,
+        11.2
+      ],
+      "deathGems": [
+        4.4,
+        50.4
+      ],
+      "kills": [
+        9.8,
+        1.4
+      ],
+      "captures": [
+        51.8,
+        29.6
+      ],
+      "newFamilyPurchases": [
+        0,
+        0
+      ],
+      "worth300": [
+        1192.8,
+        568.2
+      ],
+      "equipment300": [
+        978,
+        462
+      ],
+      "capGems300": [
+        96.6,
+        70.6
+      ],
+      "capGold300": [
+        894,
+        554.4
+      ],
+      "deaths300": [
+        1.6,
+        3
+      ],
+      "kills300": [
+        2.4,
+        0.6
+      ],
+      "unspent300": [
+        214.8,
+        106.2
+      ],
+      "carriedAtEnd": [
+        44.4,
+        0
+      ],
+      "deadTurnFraction": [
+        0.039,
+        0.164
+      ],
+      "deathContexts": {
+        "n": 15,
+        "alone": 8,
+        "outnumbered": 5,
+        "channel": 1,
+        "zeroBag": 14,
+        "lowFor2Turns": 15
+      },
+      "idleRunsAtLeast20": []
+    },
+    {
+      "label": "strong_r54_07",
+      "opponent": "the ruliad",
+      "pool": "strong",
+      "rank": 54,
+      "games": 5,
+      "wins": 2,
+      "meanMargin": -301.2,
+      "meanRounds": 1184.6,
+      "errors": 0,
+      "capGems": [
+        593.6,
+        1143.8
+      ],
+      "capGold": [
+        4708.8,
+        5108.6
+      ],
+      "deaths": [
+        6.6,
+        12
+      ],
+      "deathGems": [
+        217.2,
+        452.2
+      ],
+      "kills": [
+        10.4,
+        5.2
+      ],
+      "captures": [
+        43.8,
+        36
+      ],
+      "newFamilyPurchases": [
+        0,
+        0
+      ],
+      "worth300": [
+        1047.8,
+        1210
+      ],
+      "equipment300": [
+        864,
+        1164
+      ],
+      "capGems300": [
+        72.4,
+        215.4
+      ],
+      "capGold300": [
+        898,
+        1090.6
+      ],
+      "deaths300": [
+        1.2,
+        2
+      ],
+      "kills300": [
+        1.2,
+        0.4
+      ],
+      "unspent300": [
+        183.8,
+        46
+      ],
+      "carriedAtEnd": [
+        226.4,
+        39.2
+      ],
+      "deadTurnFraction": [
+        0.076,
+        0.14
+      ],
+      "deathContexts": {
+        "n": 33,
+        "alone": 12,
+        "outnumbered": 8,
+        "channel": 2,
+        "zeroBag": 20,
+        "lowFor2Turns": 19
+      },
+      "idleRunsAtLeast20": []
+    },
+    {
+      "label": "near_r108_07",
+      "opponent": "geese geese go",
+      "pool": "near",
+      "rank": 108,
+      "games": 5,
+      "wins": 3,
+      "meanMargin": 288.4,
+      "meanRounds": 1242.4,
+      "errors": 0,
+      "capGems": [
+        862.8,
+        605
+      ],
+      "capGold": [
+        4606.2,
+        3467.2
+      ],
+      "deaths": [
+        12.4,
+        9.8
+      ],
+      "deathGems": [
+        114.8,
+        154.8
+      ],
+      "kills": [
+        6.4,
+        10.6
+      ],
+      "captures": [
+        35.6,
+        39.2
+      ],
+      "newFamilyPurchases": [
+        0,
+        0
+      ],
+      "worth300": [
+        771.4,
+        1098
+      ],
+      "equipment300": [
+        708,
+        948
+      ],
+      "capGems300": [
+        137.8,
+        96.8
+      ],
+      "capGold300": [
+        627,
+        860.2
+      ],
+      "deaths300": [
+        2.4,
+        1.6
+      ],
+      "kills300": [
+        0.8,
+        2
+      ],
+      "unspent300": [
+        63.4,
+        150
+      ],
+      "carriedAtEnd": [
+        63,
+        31.2
+      ],
+      "deadTurnFraction": [
+        0.156,
+        0.094
+      ],
+      "deathContexts": {
+        "n": 62,
+        "alone": 27,
+        "outnumbered": 22,
+        "channel": 7,
+        "zeroBag": 44,
+        "lowFor2Turns": 53
+      },
+      "idleRunsAtLeast20": [
+        {
+          "map": "01boss_battle",
+          "label": "near_r108_07",
+          "id": 6,
+          "start": 740,
+          "n": 259,
+          "bag": 697
+        },
+        {
+          "map": "01boss_battle",
+          "label": "near_r108_07",
+          "id": 8,
+          "start": 1080,
+          "n": 25,
+          "bag": 200
+        }
+      ]
+    },
+    {
+      "label": "strong_r55_08",
+      "opponent": "F\u00fcrFortnite",
+      "pool": "strong",
+      "rank": 55,
+      "games": 5,
+      "wins": 2,
+      "meanMargin": -208.6,
+      "meanRounds": 1485.4,
+      "errors": 0,
+      "capGems": [
+        561.8,
+        755
+      ],
+      "capGold": [
+        5078.8,
+        7796.2
+      ],
+      "deaths": [
+        30.8,
+        12
+      ],
+      "deathGems": [
+        17.2,
+        1.6
+      ],
+      "kills": [
+        8.4,
+        28.8
+      ],
+      "captures": [
+        46.4,
+        57.4
+      ],
+      "newFamilyPurchases": [
+        0,
+        0
+      ],
+      "worth300": [
+        1229,
+        1511
+      ],
+      "equipment300": [
+        1116,
+        1302
+      ],
+      "capGems300": [
+        89,
+        119.8
+      ],
+      "capGold300": [
+        1047.8,
+        1015
+      ],
+      "deaths300": [
+        5.4,
+        2
+      ],
+      "kills300": [
+        1.2,
+        4
+      ],
+      "unspent300": [
+        113,
+        209
+      ],
+      "carriedAtEnd": [
+        0,
+        15.8
+      ],
+      "deadTurnFraction": [
+        0.276,
+        0.082
+      ],
+      "deathContexts": {
+        "n": 154,
+        "alone": 72,
+        "outnumbered": 96,
+        "channel": 14,
+        "zeroBag": 147,
+        "lowFor2Turns": 85
+      },
+      "idleRunsAtLeast20": [
+        {
+          "map": "01yellow_brick_road",
+          "label": "strong_r55_08",
+          "id": 10,
+          "start": 666,
+          "n": 25,
+          "bag": 0
+        },
+        {
+          "map": "01yellow_brick_road",
+          "label": "strong_r55_08",
+          "id": 6,
+          "start": 666,
+          "n": 25,
+          "bag": 0
+        }
+      ]
+    },
+    {
+      "label": "near_r109_08",
+      "opponent": "San Andreas Salt",
+      "pool": "near",
+      "rank": 109,
+      "games": 5,
+      "wins": 3,
+      "meanMargin": -101.8,
+      "meanRounds": 1221.2,
+      "errors": 0,
+      "capGems": [
+        867.8,
+        951.6
+      ],
+      "capGold": [
+        5033.4,
+        4725.2
+      ],
+      "deaths": [
+        7.4,
+        2.2
+      ],
+      "deathGems": [
+        0,
+        10
+      ],
+      "kills": [
+        2.2,
+        6.8
+      ],
+      "captures": [
+        53.6,
+        83.6
+      ],
+      "newFamilyPurchases": [
+        0,
+        0
+      ],
+      "worth300": [
+        1131.6,
+        1086.4
+      ],
+      "equipment300": [
+        876,
+        882
+      ],
+      "capGems300": [
+        109.4,
+        109.8
+      ],
+      "capGold300": [
+        1014,
+        1043.6
+      ],
+      "deaths300": [
+        0.8,
+        0.4
+      ],
+      "kills300": [
+        0.4,
+        0.4
+      ],
+      "unspent300": [
+        255.6,
+        204.4
+      ],
+      "carriedAtEnd": [
+        60.2,
+        22.2
+      ],
+      "deadTurnFraction": [
+        0.063,
+        0.018
+      ],
+      "deathContexts": {
+        "n": 37,
+        "alone": 11,
+        "outnumbered": 17,
+        "channel": 1,
+        "zeroBag": 37,
+        "lowFor2Turns": 23
+      },
+      "idleRunsAtLeast20": []
+    },
+    {
+      "label": "strong_r56_09",
+      "opponent": "ha\u00b2t",
+      "pool": "strong",
+      "rank": 56,
+      "games": 5,
+      "wins": 1,
+      "meanMargin": -567,
+      "meanRounds": 999,
+      "errors": 0,
+      "capGems": [
+        451.4,
+        1049.4
+      ],
+      "capGold": [
+        3290.8,
+        5820.6
+      ],
+      "deaths": [
+        15,
+        2.6
+      ],
+      "deathGems": [
+        54.8,
+        39
+      ],
+      "kills": [
+        1.6,
+        10.4
+      ],
+      "captures": [
+        24.6,
+        51.6
+      ],
+      "newFamilyPurchases": [
+        0,
+        0
+      ],
+      "worth300": [
+        1219.2,
+        1293.6
+      ],
+      "equipment300": [
+        1032,
+        1212
+      ],
+      "capGems300": [
+        122.8,
+        130
+      ],
+      "capGold300": [
+        1007.4,
+        1088.8
+      ],
+      "deaths300": [
+        2.6,
+        1.4
+      ],
+      "kills300": [
+        1,
+        2.2
+      ],
+      "unspent300": [
+        187.2,
+        81.6
+      ],
+      "carriedAtEnd": [
+        20.6,
+        103.2
+      ],
+      "deadTurnFraction": [
+        0.196,
+        0.036
+      ],
+      "deathContexts": {
+        "n": 75,
+        "alone": 44,
+        "outnumbered": 25,
+        "channel": 3,
+        "zeroBag": 47,
+        "lowFor2Turns": 63
+      },
+      "idleRunsAtLeast20": [
+        {
+          "map": "02guardians",
+          "label": "strong_r56_09",
+          "id": 4,
+          "start": 1178,
+          "n": 35,
+          "bag": 0
+        },
+        {
+          "map": "02guardians",
+          "label": "strong_r56_09",
+          "id": 7,
+          "start": 1189,
+          "n": 26,
+          "bag": 0
+        },
+        {
+          "map": "02guardians",
+          "label": "strong_r56_09",
+          "id": 7,
+          "start": 1218,
+          "n": 21,
+          "bag": 0
+        },
+        {
+          "map": "02guardians",
+          "label": "strong_r56_09",
+          "id": 6,
+          "start": 1217,
+          "n": 25,
+          "bag": 15
+        },
+        {
+          "map": "02guardians",
+          "label": "strong_r56_09",
+          "id": 6,
+          "start": 1251,
+          "n": 29,
+          "bag": 15
+        },
+        {
+          "map": "02treasure_box",
+          "label": "strong_r56_09",
+          "id": 6,
+          "start": 245,
+          "n": 41,
+          "bag": 0
+        }
+      ]
+    },
+    {
+      "label": "near_r110_09",
+      "opponent": "Patient Builder",
+      "pool": "near",
+      "rank": 110,
+      "games": 5,
+      "wins": 2,
+      "meanMargin": -63.2,
+      "meanRounds": 1477.4,
+      "errors": 0,
+      "capGems": [
+        745.2,
+        943.8
+      ],
+      "capGold": [
+        6658.8,
+        6086.6
+      ],
+      "deaths": [
+        8.4,
+        6
+      ],
+      "deathGems": [
+        35.8,
+        123.8
+      ],
+      "kills": [
+        5,
+        7.8
+      ],
+      "captures": [
+        48,
+        58.2
+      ],
+      "newFamilyPurchases": [
+        0,
+        9.8
+      ],
+      "worth300": [
+        914.6,
+        1229.4
+      ],
+      "equipment300": [
+        744,
+        1086
+      ],
+      "capGems300": [
+        71,
+        123
+      ],
+      "capGold300": [
+        837,
+        1162.8
+      ],
+      "deaths300": [
+        1.4,
+        1
+      ],
+      "kills300": [
+        0.6,
+        1.2
+      ],
+      "unspent300": [
+        170.6,
+        143.4
+      ],
+      "carriedAtEnd": [
+        5.4,
+        15.2
+      ],
+      "deadTurnFraction": [
+        0.087,
+        0.066
+      ],
+      "deathContexts": {
+        "n": 42,
+        "alone": 22,
+        "outnumbered": 16,
+        "channel": 5,
+        "zeroBag": 33,
+        "lowFor2Turns": 33
+      },
+      "idleRunsAtLeast20": []
+    },
+    {
+      "label": "strong_r57_10",
+      "opponent": "will think later",
+      "pool": "strong",
+      "rank": 57,
+      "games": 5,
+      "wins": 0,
+      "meanMargin": -472.8,
+      "meanRounds": 997,
+      "errors": 0,
+      "capGems": [
+        554.8,
+        1056.6
+      ],
+      "capGold": [
+        1258.8,
+        2226.8
+      ],
+      "deaths": [
+        13.4,
+        4.2
+      ],
+      "deathGems": [
+        82.4,
+        79.4
+      ],
+      "kills": [
+        4,
+        13.2
+      ],
+      "captures": [
+        30.2,
+        51.2
+      ],
+      "newFamilyPurchases": [
+        0,
+        2
+      ],
+      "worth300": [
+        646.8,
+        1024
+      ],
+      "equipment300": [
+        558,
+        804
+      ],
+      "capGems300": [
+        214.4,
+        216.8
+      ],
+      "capGold300": [
+        427.4,
+        645.4
+      ],
+      "deaths300": [
+        2,
+        1
+      ],
+      "kills300": [
+        1,
+        2
+      ],
+      "unspent300": [
+        88.8,
+        220
+      ],
+      "carriedAtEnd": [
+        8,
+        43
+      ],
+      "deadTurnFraction": [
+        0.183,
+        0.06
+      ],
+      "deathContexts": {
+        "n": 67,
+        "alone": 38,
+        "outnumbered": 31,
+        "channel": 6,
+        "zeroBag": 51,
+        "lowFor2Turns": 35
+      },
+      "idleRunsAtLeast20": [
+        {
+          "map": "00lanes",
+          "label": "strong_r57_10",
+          "id": 5,
+          "start": 34,
+          "n": 26,
+          "bag": 0
+        }
+      ]
+    },
+    {
+      "label": "near_r111_10",
+      "opponent": "EvilMangohh",
+      "pool": "near",
+      "rank": 111,
+      "games": 5,
+      "wins": 3,
+      "meanMargin": 85.6,
+      "meanRounds": 885,
+      "errors": 0,
+      "capGems": [
+        895.2,
+        918.2
+      ],
+      "capGold": [
+        1304,
+        1700
+      ],
+      "deaths": [
+        2.6,
+        7.8
+      ],
+      "deathGems": [
+        68,
+        131.2
+      ],
+      "kills": [
+        7.8,
+        2.4
+      ],
+      "captures": [
+        33.4,
+        41.6
+      ],
+      "newFamilyPurchases": [
+        0,
+        13.8
+      ],
+      "worth300": [
+        657,
+        362.4
+      ],
+      "equipment300": [
+        462,
+        258
+      ],
+      "capGems300": [
+        287.8,
+        357.2
+      ],
+      "capGold300": [
+        199.2,
+        222
+      ],
+      "deaths300": [
+        0.6,
+        3
+      ],
+      "kills300": [
+        3,
+        0.4
+      ],
+      "unspent300": [
+        195,
+        104.4
+      ],
+      "carriedAtEnd": [
+        58.2,
+        40.4
+      ],
+      "deadTurnFraction": [
+        0.039,
+        0.124
+      ],
+      "deathContexts": {
+        "n": 13,
+        "alone": 9,
+        "outnumbered": 10,
+        "channel": 0,
+        "zeroBag": 7,
+        "lowFor2Turns": 13
+      },
+      "idleRunsAtLeast20": [
+        {
+          "map": "00lanes",
+          "label": "near_r111_10",
+          "id": 5,
+          "start": 34,
+          "n": 26,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r111_10",
+          "id": 5,
+          "start": 795,
+          "n": 22,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r111_10",
+          "id": 7,
+          "start": 833,
+          "n": 24,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r111_10",
+          "id": 6,
+          "start": 862,
+          "n": 24,
+          "bag": 0
+        },
+        {
+          "map": "adgato_gemcombat4",
+          "label": "near_r111_10",
+          "id": 1,
+          "start": 36,
+          "n": 21,
+          "bag": 0
+        },
+        {
+          "map": "adgato_gemcombat4",
+          "label": "near_r111_10",
+          "id": 4,
+          "start": 33,
+          "n": 30,
+          "bag": 0
+        },
+        {
+          "map": "adgato_gemcombat4",
+          "label": "near_r111_10",
+          "id": 1,
+          "start": 105,
+          "n": 20,
+          "bag": 0
+        },
+        {
+          "map": "adgato_gemcombat4",
+          "label": "near_r111_10",
+          "id": 0,
+          "start": 315,
+          "n": 29,
+          "bag": 0
+        }
+      ]
+    }
+  ],
+  "diagnosticMaps": {
+    "01elk_arena": {
+      "games": 4,
+      "wins": 2,
+      "meanMargin": -109.5,
+      "meanRounds": 1617.75,
+      "errors": 0,
+      "capGems": [
+        576,
+        652.5
+      ],
+      "capGold": [
+        6728,
+        4461.25
+      ],
+      "deaths": [
+        21.75,
+        25.25
+      ],
+      "deathGems": [
+        36,
+        15
+      ],
+      "kills": [
+        19.75,
+        21.75
+      ],
+      "captures": [
+        120,
+        88
+      ],
+      "newFamilyPurchases": [
+        0,
+        23
+      ],
+      "worth300": [
+        1395.75,
+        1433.25
+      ],
+      "equipment300": [
+        1147.5,
+        1260
+      ],
+      "capGems300": [
+        54,
+        149
+      ],
+      "capGold300": [
+        1163.25,
+        1209.5
+      ],
+      "deaths300": [
+        2.75,
+        2.25
+      ],
+      "kills300": [
+        1.75,
+        2.75
+      ],
+      "unspent300": [
+        248.25,
+        173.25
+      ],
+      "carriedAtEnd": [
+        0,
+        9
+      ],
+      "deadTurnFraction": [
+        0.17,
+        0.158
+      ],
+      "deathContexts": {
+        "n": 87,
+        "alone": 12,
+        "outnumbered": 47,
+        "channel": 5,
+        "zeroBag": 85,
+        "lowFor2Turns": 60
+      },
+      "idleRunsAtLeast20": [
+        {
+          "map": "01elk_arena",
+          "label": "near_r100_01",
+          "id": 1,
+          "start": 245,
+          "n": 26,
+          "bag": 0
+        },
+        {
+          "map": "01elk_arena",
+          "label": "strong_r48_01",
+          "id": 2,
+          "start": 728,
+          "n": 22,
+          "bag": 0
+        }
+      ]
+    },
+    "02treasure_box": {
+      "games": 4,
+      "wins": 0,
+      "meanMargin": -757,
+      "meanRounds": 949.75,
+      "errors": 0,
+      "capGems": [
+        343.75,
+        1019.25
+      ],
+      "capGold": [
+        3314,
+        6381
+      ],
+      "deaths": [
+        22.25,
+        5.75
+      ],
+      "deathGems": [
+        115.5,
+        65.5
+      ],
+      "kills": [
+        5,
+        21.75
+      ],
+      "captures": [
+        28.25,
+        61.75
+      ],
+      "newFamilyPurchases": [
+        0,
+        11.25
+      ],
+      "worth300": [
+        799.75,
+        1729
+      ],
+      "equipment300": [
+        547.5,
+        1635
+      ],
+      "capGems300": [
+        40.75,
+        147.75
+      ],
+      "capGold300": [
+        630.25,
+        1221
+      ],
+      "deaths300": [
+        5,
+        1.75
+      ],
+      "kills300": [
+        1,
+        5
+      ],
+      "unspent300": [
+        252.25,
+        94
+      ],
+      "carriedAtEnd": [
+        23.75,
+        42.25
+      ],
+      "deadTurnFraction": [
+        0.279,
+        0.058
+      ],
+      "deathContexts": {
+        "n": 89,
+        "alone": 35,
+        "outnumbered": 34,
+        "channel": 4,
+        "zeroBag": 55,
+        "lowFor2Turns": 68
+      },
+      "idleRunsAtLeast20": [
+        {
+          "map": "02treasure_box",
+          "label": "strong_r56_09",
+          "id": 6,
+          "start": 245,
+          "n": 41,
+          "bag": 0
+        }
+      ]
+    },
+    "00lanes": {
+      "games": 4,
+      "wins": 0,
+      "meanMargin": -525.5,
+      "meanRounds": 1221.5,
+      "errors": 0,
+      "capGems": [
+        464.75,
+        1027
+      ],
+      "capGold": [
+        3218.75,
+        6140.5
+      ],
+      "deaths": [
+        14.5,
+        5.25
+      ],
+      "deathGems": [
+        5,
+        23.75
+      ],
+      "kills": [
+        4,
+        13.75
+      ],
+      "captures": [
+        43.5,
+        94.75
+      ],
+      "newFamilyPurchases": [
+        0,
+        21.5
+      ],
+      "worth300": [
+        683.5,
+        1330
+      ],
+      "equipment300": [
+        547.5,
+        1080
+      ],
+      "capGems300": [
+        38.75,
+        140.5
+      ],
+      "capGold300": [
+        590.5,
+        1140.75
+      ],
+      "deaths300": [
+        2,
+        1
+      ],
+      "kills300": [
+        0.75,
+        1.5
+      ],
+      "unspent300": [
+        136,
+        250
+      ],
+      "carriedAtEnd": [
+        3.75,
+        3
+      ],
+      "deadTurnFraction": [
+        0.145,
+        0.042
+      ],
+      "deathContexts": {
+        "n": 58,
+        "alone": 29,
+        "outnumbered": 29,
+        "channel": 6,
+        "zeroBag": 53,
+        "lowFor2Turns": 36
+      },
+      "idleRunsAtLeast20": [
+        {
+          "map": "00lanes",
+          "label": "near_r102_03",
+          "id": 1,
+          "start": 222,
+          "n": 35,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r102_03",
+          "id": 4,
+          "start": 496,
+          "n": 27,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r102_03",
+          "id": 0,
+          "start": 504,
+          "n": 23,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r102_03",
+          "id": 4,
+          "start": 723,
+          "n": 28,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r102_03",
+          "id": 4,
+          "start": 1137,
+          "n": 34,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r102_03",
+          "id": 0,
+          "start": 1141,
+          "n": 30,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r111_10",
+          "id": 5,
+          "start": 34,
+          "n": 26,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r111_10",
+          "id": 5,
+          "start": 795,
+          "n": 22,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r111_10",
+          "id": 7,
+          "start": 833,
+          "n": 24,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "near_r111_10",
+          "id": 6,
+          "start": 862,
+          "n": 24,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "strong_r50_03",
+          "id": 4,
+          "start": 404,
+          "n": 25,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "strong_r50_03",
+          "id": 1,
+          "start": 497,
+          "n": 37,
+          "bag": 0
+        },
+        {
+          "map": "00lanes",
+          "label": "strong_r57_10",
+          "id": 5,
+          "start": 34,
+          "n": 26,
+          "bag": 0
+        }
+      ]
+    },
+    "01broken_curve": {
+      "games": 4,
+      "wins": 2,
+      "meanMargin": -117.75,
+      "meanRounds": 979.5,
+      "errors": 0,
+      "capGems": [
+        864.75,
+        978.25
+      ],
+      "capGold": [
+        5364.75,
+        5294.5
+      ],
+      "deaths": [
+        2.75,
+        0.25
+      ],
+      "deathGems": [
+        1,
+        1
+      ],
+      "kills": [
+        0,
+        1
+      ],
+      "captures": [
+        33.5,
+        81.5
+      ],
+      "newFamilyPurchases": [
+        0,
+        27.5
+      ],
+      "worth300": [
+        834.75,
+        1178
+      ],
+      "equipment300": [
+        780,
+        1072.5
+      ],
+      "capGems300": [
+        89.5,
+        189
+      ],
+      "capGold300": [
+        834.75,
+        1077.5
+      ],
+      "deaths300": [
+        2.25,
+        0
+      ],
+      "kills300": [
+        0,
+        0.5
+      ],
+      "unspent300": [
+        54.75,
+        105.5
+      ],
+      "carriedAtEnd": [
+        11,
+        7.75
+      ],
+      "deadTurnFraction": [
+        0.056,
+        0.004
+      ],
+      "deathContexts": {
+        "n": 11,
+        "alone": 5,
+        "outnumbered": 2,
+        "channel": 0,
+        "zeroBag": 10,
+        "lowFor2Turns": 9
+      },
+      "idleRunsAtLeast20": []
+    },
+    "02stalactites": {
+      "games": 4,
+      "wins": 1,
+      "meanMargin": -136,
+      "meanRounds": 812.25,
+      "errors": 0,
+      "capGems": [
+        817.5,
+        701
+      ],
+      "capGold": [
+        547.75,
+        1561.25
+      ],
+      "deaths": [
+        24.25,
+        3.5
+      ],
+      "deathGems": [
+        240,
+        81.75
+      ],
+      "kills": [
+        3.5,
+        24.25
+      ],
+      "captures": [
+        11.75,
+        18.25
+      ],
+      "newFamilyPurchases": [
+        0,
+        13.75
+      ],
+      "worth300": [
+        1135.25,
+        1338.25
+      ],
+      "equipment300": [
+        1042.5,
+        1117.5
+      ],
+      "capGems300": [
+        656,
+        139.75
+      ],
+      "capGold300": [
+        424.75,
+        889
+      ],
+      "deaths300": [
+        3.25,
+        2.25
+      ],
+      "kills300": [
+        2.25,
+        3.25
+      ],
+      "unspent300": [
+        92.75,
+        220.75
+      ],
+      "carriedAtEnd": [
+        1,
+        65
+      ],
+      "deadTurnFraction": [
+        0.281,
+        0.098
+      ],
+      "deathContexts": {
+        "n": 97,
+        "alone": 44,
+        "outnumbered": 57,
+        "channel": 3,
+        "zeroBag": 87,
+        "lowFor2Turns": 38
+      },
+      "idleRunsAtLeast20": []
+    },
+    "00gemfight": {
+      "games": 4,
+      "wins": 1,
+      "meanMargin": -478,
+      "meanRounds": 886.25,
+      "errors": 0,
+      "capGems": [
+        406.75,
+        764
+      ],
+      "capGold": [
+        1281.25,
+        1542
+      ],
+      "deaths": [
+        17,
+        7
+      ],
+      "deathGems": [
+        99,
+        24
+      ],
+      "kills": [
+        6.75,
+        16.75
+      ],
+      "captures": [
+        20,
+        46.75
+      ],
+      "newFamilyPurchases": [
+        0,
+        6
+      ],
+      "worth300": [
+        785.75,
+        873.25
+      ],
+      "equipment300": [
+        705,
+        757.5
+      ],
+      "capGems300": [
+        131,
+        199
+      ],
+      "capGold300": [
+        409.75,
+        415.75
+      ],
+      "deaths300": [
+        4.25,
+        2.75
+      ],
+      "kills300": [
+        2.5,
+        4
+      ],
+      "unspent300": [
+        80.75,
+        115.75
+      ],
+      "carriedAtEnd": [
+        6.5,
+        35.75
+      ],
+      "deadTurnFraction": [
+        0.273,
+        0.12
+      ],
+      "deathContexts": {
+        "n": 68,
+        "alone": 31,
+        "outnumbered": 38,
+        "channel": 2,
+        "zeroBag": 46,
+        "lowFor2Turns": 48
+      },
+      "idleRunsAtLeast20": []
+    },
+    "01boss_battle": {
+      "games": 4,
+      "wins": 1,
+      "meanMargin": -559.75,
+      "meanRounds": 1082.5,
+      "errors": 0,
+      "capGems": [
+        453,
+        1595
+      ],
+      "capGold": [
+        3548.75,
+        11200.25
+      ],
+      "deaths": [
+        12.25,
+        4
+      ],
+      "deathGems": [
+        268,
+        609.75
+      ],
+      "kills": [
+        2.5,
+        4.5
+      ],
+      "captures": [
+        21.75,
+        62.5
+      ],
+      "newFamilyPurchases": [
+        0,
+        8.5
+      ],
+      "worth300": [
+        701.75,
+        2209
+      ],
+      "equipment300": [
+        622.5,
+        2032.5
+      ],
+      "capGems300": [
+        42,
+        201
+      ],
+      "capGold300": [
+        701.75,
+        2239
+      ],
+      "deaths300": [
+        0.25,
+        0.25
+      ],
+      "kills300": [
+        0,
+        0
+      ],
+      "unspent300": [
+        79.25,
+        176.5
+      ],
+      "carriedAtEnd": [
+        353,
+        283.5
+      ],
+      "deadTurnFraction": [
+        0.135,
+        0.042
+      ],
+      "deathContexts": {
+        "n": 49,
+        "alone": 8,
+        "outnumbered": 2,
+        "channel": 8,
+        "zeroBag": 35,
+        "lowFor2Turns": 25
+      },
+      "idleRunsAtLeast20": [
+        {
+          "map": "01boss_battle",
+          "label": "near_r108_07",
+          "id": 6,
+          "start": 740,
+          "n": 259,
+          "bag": 697
+        },
+        {
+          "map": "01boss_battle",
+          "label": "near_r108_07",
+          "id": 8,
+          "start": 1080,
+          "n": 25,
+          "bag": 200
+        },
+        {
+          "map": "01boss_battle",
+          "label": "strong_r51_04",
+          "id": 4,
+          "start": 706,
+          "n": 20,
+          "bag": 19
+        }
+      ]
+    },
+    "02cuts": {
+      "games": 4,
+      "wins": 2,
+      "meanMargin": -62.25,
+      "meanRounds": 1073.25,
+      "errors": 0,
+      "capGems": [
+        869.75,
+        942.25
+      ],
+      "capGold": [
+        4963.25,
+        4824.25
+      ],
+      "deaths": [
+        2.75,
+        2.75
+      ],
+      "deathGems": [
+        0,
+        1
+      ],
+      "kills": [
+        1.5,
+        1.25
+      ],
+      "captures": [
+        41,
+        43.25
+      ],
+      "newFamilyPurchases": [
+        0,
+        10
+      ],
+      "worth300": [
+        1048.75,
+        1345.25
+      ],
+      "equipment300": [
+        840,
+        1012.5
+      ],
+      "capGems300": [
+        142.5,
+        147.5
+      ],
+      "capGold300": [
+        972.75,
+        1352.75
+      ],
+      "deaths300": [
+        0.75,
+        0
+      ],
+      "kills300": [
+        0,
+        0
+      ],
+      "unspent300": [
+        208.75,
+        332.75
+      ],
+      "carriedAtEnd": [
+        16.5,
+        25.75
+      ],
+      "deadTurnFraction": [
+        0.031,
+        0.025
+      ],
+      "deathContexts": {
+        "n": 11,
+        "alone": 8,
+        "outnumbered": 2,
+        "channel": 2,
+        "zeroBag": 11,
+        "lowFor2Turns": 10
+      },
+      "idleRunsAtLeast20": []
+    },
+    "00collision": {
+      "games": 4,
+      "wins": 2,
+      "meanMargin": -132.5,
+      "meanRounds": 1215.25,
+      "errors": 0,
+      "capGems": [
+        696.75,
+        752
+      ],
+      "capGold": [
+        4718.5,
+        4429.25
+      ],
+      "deaths": [
+        6.5,
+        3.5
+      ],
+      "deathGems": [
+        69.5,
+        20.5
+      ],
+      "kills": [
+        2.5,
+        6.5
+      ],
+      "captures": [
+        41.75,
+        49.5
+      ],
+      "newFamilyPurchases": [
+        0,
+        1.75
+      ],
+      "worth300": [
+        1113.25,
+        1018.75
+      ],
+      "equipment300": [
+        967.5,
+        840
+      ],
+      "capGems300": [
+        100,
+        93.75
+      ],
+      "capGold300": [
+        1021.75,
+        945.75
+      ],
+      "deaths300": [
+        0.75,
+        1
+      ],
+      "kills300": [
+        0.75,
+        0.75
+      ],
+      "unspent300": [
+        145.75,
+        178.75
+      ],
+      "carriedAtEnd": [
+        9.25,
+        32
+      ],
+      "deadTurnFraction": [
+        0.106,
+        0.053
+      ],
+      "deathContexts": {
+        "n": 26,
+        "alone": 13,
+        "outnumbered": 9,
+        "channel": 2,
+        "zeroBag": 8,
+        "lowFor2Turns": 12
+      },
+      "idleRunsAtLeast20": []
+    },
+    "00the_line": {
+      "games": 4,
+      "wins": 0,
+      "meanMargin": -474,
+      "meanRounds": 1087.5,
+      "errors": 0,
+      "capGems": [
+        460.25,
+        1153.5
+      ],
+      "capGold": [
+        1743.75,
+        1240.5
+      ],
+      "deaths": [
+        9,
+        6.75
+      ],
+      "deathGems": [
+        65.5,
+        151
+      ],
+      "kills": [
+        6.75,
+        9
+      ],
+      "captures": [
+        27.5,
+        27
+      ],
+      "newFamilyPurchases": [
+        0,
+        6
+      ],
+      "worth300": [
+        698,
+        753.75
+      ],
+      "equipment300": [
+        622.5,
+        652.5
+      ],
+      "capGems300": [
+        185,
+        218.25
+      ],
+      "capGold300": [
+        418,
+        287.5
+      ],
+      "deaths300": [
+        2.75,
+        1.75
+      ],
+      "kills300": [
+        1.75,
+        2.75
+      ],
+      "unspent300": [
+        75.5,
+        101.25
+      ],
+      "carriedAtEnd": [
+        4,
+        52.25
+      ],
+      "deadTurnFraction": [
+        0.141,
+        0.087
+      ],
+      "deathContexts": {
+        "n": 36,
+        "alone": 14,
+        "outnumbered": 15,
+        "channel": 2,
+        "zeroBag": 29,
+        "lowFor2Turns": 32
+      },
+      "idleRunsAtLeast20": []
+    }
+  }
+}

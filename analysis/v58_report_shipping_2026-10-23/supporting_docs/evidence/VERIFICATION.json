@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-23T14:21:00.567063+00:00",
+  "cutoff": {
+    "at": "2026-10-23T13:58:59.309Z",
+    "targetVersion": 58,
+    "targetId": "8f42f685-6d52-4cae-896c-cbb27925a808",
+    "activeVersion": 58,
+    "groups": 27,
+    "matches": 135,
+    "finished": 130,
+    "statusCounts": {
+      "finished": 130,
+      "queued": 5
+    }
+  },
+  "completedGames": 130,
+  "uniqueGames": 130,
+  "uniqueOpponents": 14,
+  "maps": 40,
+  "nativeSteps": 26502007,
+  "officialSummariesVerified": 130,
+  "officialFaults": {
+    "ours": 0,
+    "enemy": 0
+  },
+  "nativeDecodeFailures": 0,
+  "officialOutcomeScoreRoundDiscrepancies": 0,
+  "gemFlowResiduals": [],
+  "downloadedSourceFilesUnchanged": 29,
+  "localGames": 280,
+  "localSourceChanges": [],
+  "newSubmissions": 0,
+  "newChallenges": 0,
+  "rulesSourcesUnchanged": true,
+  "reviewArtifacts": {
+    "REPORT.md": "a8a8aae83f8de1185feeb765c5c09a8424fca9e96ba674dd52afe5ba1f94b804",
+    "SOURCE_REVIEW.md": "092ae5c8583a07cb1e6094668e338281134e922b90d124736e8293afcca07440",
+    "MATCHES.md": "8f734fcd63080a12e2ee90910327cdb04f7f7599588af20c27bbea4793b3b322",
+    "economy_combat.png": "4669ffe270055c9394dd978bab672da4577a1e99dbebe796891a7d61bdd85152",
+    "local_comparison.png": "8986e52dde0f1fdf524fae4b4ef290d31f114068e36b5b64277697be2e8a449c",
+    "replay_timelines.png": "f5c9c12ca07bf5d8d0abf759c0ebedd40f572f67122c199fdd9017fadaf74a5f",
+    "capture_deadlock.png": "587e723d44d70368797baa4e9ad93bd8300ec8c8a6bfd6a3f766c2712d80166f",
+    "forecast_counterexamples.json": "35cbe21e7054ccf94493d0f0678086b3a3ff8d0d585b7def223d0e2299c5e144",
+    "native_camp_stats.json": "0c8eae6abc71eabfd5338f7e64c165ebf773d4ae580159938a8fcfae10d08c5a",
+    "frame_audit.json": "d8a4883fde3cfe3db18bd3efee8e0d6a343bb5f026d70cb38b9957c1013c6999",
+    "idle_case.json": "17b6ba173407ae3e0802f18893fd38f28d95429269ca07432c53c23e94fbd8cb",
+    "v58_source_snapshot.zip": "44239bae1ccc295a11a89bb8e84194b6a7662ea84677d887ee714b104adcdd48"
+  }
+}

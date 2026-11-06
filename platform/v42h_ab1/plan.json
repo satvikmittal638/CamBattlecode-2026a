@@ -1,0 +1,423 @@
+{
+ "created": "2026-10-21T12:35:28.994Z",
+ "candidateBot": "fe50778c-hh",
+ "candidateSrc": {
+  "boss/bot.cpp": "5f723f141aa19bd9081118c19737021b1e15ae49d3b5039d7718052a01b3a764",
+  "boss/bot.h": "7fb839c95d797632d103cab09266f3fa36053ee4b063392ef8f929a6110a5dd1",
+  "boss/draft.cpp": "9d93d8bbe4d9d6cbb32d6b9e40d606087bea227c94f2753d41002513e24b2baa",
+  "boss/draft.h": "53e6db4013a89e4b345673ce9a310497c0d540e9074e30404449bf0a31274a79",
+  "boss/policy.h": "24ed425aae46d4126ef0c0216531bbfa83dad20d2c9c5eec269d7d2126f166a2",
+  "boss/random.h": "8960db3557f4ef338e6d7936f4fe711a678a5213c52cb1d678e08578886847c8",
+  "boss_main.cpp": "949efefc41107e2fda46b0255895bd42e4465a989029c112d4fecf84919f7159",
+  "bot.cpp": "914d537606acbc422b46adb3cd787a86270e7ce901eb871037e5d8bb5b0b4780",
+  "bot.h": "ffd7960c5e265da16e7333ca88a39a511e13f928dc9f27a061436b829d89f665",
+  "draft.cpp": "1d2ff9d0684a075afd6d000998a36f1f4a1bcb4fc0a093a59d4b723bc212528c",
+  "draft.h": "15ddeaeb4ab39f6e3e80647fad56de9c0da7fc728d4c24ca83475060703a7bfd",
+  "fishx_features.h": "f39af02afb581115671e22cf431b486c70dbe19819778e72e3439d6ac444e86c",
+  "main.cpp": "a081ec62c127e70378ceee8ae53b67932d63cf3c75e03442f38bf5ef2a739e8f",
+  "random.h": "5ae547e5a1686c12e00be206016fef798691db1da563adb3ed83fce355284910",
+  "v1_bank_access.h": "1143246e26a21618c06163215facb153ec2badf06d96d93bb866cffa28b9b4bf",
+  "v1_bank_carrier.h": "0992a71eacfb08dde42129d12c9fc84923afbea8acb14057da33d1c6a6a01f69",
+  "v1_bank_channel.h": "39b2fd6cccde288922bd9e006a441a206bdda7b69d773fb16c8eeafd36efea14",
+  "v1_camp_executor.h": "fe31e4ddf8f90aabb32ec112ee84a5430537ac88cbfdae13f96f63aca2d0c359",
+  "v1_cycle.h": "72dde90b224bf85686a7cd9f0a01da92581cfdbaa0ec4437a59375b7c47ab984",
+  "v1_dispatch.h": "6c60c83e64abec143421ebf2e8e8e88a920189c59eadd58a7496d1f06647fbc3",
+  "v1_help_packet.h": "e10fa364c165bd572f93a234b5d8532341f49b4591dbdb9e2f9607d0642cc021",
+  "v1_progress.h": "f1e6de23e3cf5f9a1d0ff7fd0ac5085f5d475ff5f2e26f35e337673817aa27ab",
+  "v1_support.h": "c2e60c600d67ba69a1dfeffeb9e0d479d512c04cebd34bb2c1335fc44ee92e09",
+  "v1_tactical.h": "d67699b4969ab01ee38f19fa9e682846bc70e2962b9fa39bd1b9f812f82db3a9"
+ },
+ "control": {
+  "id": "bfd64c40-f104-41a6-b78b-550f32be559a",
+  "version": 41
+ },
+ "us": {
+  "teamId": "6b04505b-d16c-4196-b7c6-53a4688a32ca",
+  "name": "Agentic Loop Builders",
+  "rank": 76,
+  "rating": 1767
+ },
+ "opponents": [
+  {
+   "code": "A",
+   "teamId": "bbe481a7-4575-4826-9a3e-f81c28205de8",
+   "name": ":3",
+   "rank": 4,
+   "rating": 2103
+  },
+  {
+   "code": "B",
+   "teamId": "1890540d-1ffc-4847-adbf-d0d08772f268",
+   "name": "Intercontinental Fish",
+   "rank": 1,
+   "rating": 2232
+  },
+  {
+   "code": "C",
+   "teamId": "f9d72b03-4526-4213-bc2f-afbf06f2a933",
+   "name": "Bamboo Teahouse",
+   "rank": 47,
+   "rating": 1834
+  },
+  {
+   "code": "D",
+   "teamId": "ec2b57be-fa43-4e3e-9eb0-57b266624d27",
+   "name": "subscribe to caterpillow",
+   "rank": 73,
+   "rating": 1772
+  }
+ ],
+ "nearRule": "ladder rank = ours - 3 (fixed teams excluded)",
+ "mapIds": {
+  "00lanes": "62128fd1-03f3-4ce9-8e11-a953c91137a6",
+  "01the_farm": "2ea6c59f-a555-49a5-832b-dba6e62e0caf",
+  "00swirl": "cc6898bd-c546-4759-8085-dc63d4c1e55b",
+  "01starfish": "541f522e-19b8-45e8-adaa-db87213672a0",
+  "00fragment": "4ddf20e5-c312-4238-b154-6b1bc370fff3"
+ },
+ "sides": [
+  [
+   "a",
+   "b",
+   "a",
+   "b",
+   "a"
+  ],
+  [
+   "b",
+   "a",
+   "b",
+   "a",
+   "b"
+  ]
+ ],
+ "chunks": [
+  {
+   "arm": "candidate",
+   "groups": [
+    {
+     "key": "A1",
+     "opp": "A",
+     "teamId": "bbe481a7-4575-4826-9a3e-f81c28205de8",
+     "maps": [
+      "00lanes",
+      "01the_farm",
+      "00swirl",
+      "01starfish",
+      "00fragment"
+     ],
+     "sides": [
+      "a",
+      "b",
+      "a",
+      "b",
+      "a"
+     ]
+    },
+    {
+     "key": "A2",
+     "opp": "A",
+     "teamId": "bbe481a7-4575-4826-9a3e-f81c28205de8",
+     "maps": [
+      "00lanes",
+      "01the_farm",
+      "00swirl",
+      "01starfish",
+      "00fragment"
+     ],
+     "sides": [
+      "b",
+      "a",
+      "b",
+      "a",
+      "b"
+     ]
+    },
+    {
+     "key": "B1",
+     "opp": "B",
+     "teamId": "1890540d-1ffc-4847-adbf-d0d08772f268",
+     "maps": [
+      "00lanes",
+      "01the_farm",
+      "00swirl",
+      "01starfish",
+      "00fragment"
+     ],
+     "sides": [
+      "a",
+      "b",
+      "a",
+      "b",
+      "a"
+     ]
+    },
+    {
+     "key": "B2",
+     "opp": "B",
+     "teamId": "1890540d-1ffc-4847-adbf-d0d08772f268",
+     "maps": [
+      "00lanes",
+      "01the_farm",
+      "00swirl",
+      "01starfish",
+      "00fragment"
+     ],
+     "sides": [
+      "b",
+      "a",
+      "b",
+      "a",
+      "b"
+     ]
+    }
+   ]
+  },
+  {
+   "arm": "control",
+   "groups": [
+    {
+     "key": "A1",
+     "opp": "A",
+     "teamId": "bbe481a7-4575-4826-9a3e-f81c28205de8",
+     "maps": [
+      "00lanes",
+      "01the_farm",
+      "00swirl",
+      "01starfish",
+      "00fragment"
+     ],
+     "sides": [
+      "a",
+      "b",
+      "a",
+      "b",
+      "a"
+     ]
+    },
+    {
+     "key": "A2",
+     "opp": "A",
+     "teamId": "bbe481a7-4575-4826-9a3e-f81c28205de8",
+     "maps": [
+      "00lanes",
+      "01the_farm",
+      "00swirl",
+      "01starfish",
+      "00fragment"
+     ],
+     "sides": [
+      "b",
+      "a",
+      "b",
+      "a",
+      "b"
+     ]
+    },
+    {
+     "key": "B1",
+     "opp": "B",
+     "teamId": "1890540d-1ffc-4847-adbf-d0d08772f268",
+     "maps": [
+      "00lanes",
+      "01the_farm",
+      "00swirl",
+      "01starfish",
+      "00fragment"
+     ],
+     "sides": [
+      "a",
+      "b",
+      "a",
+      "b",
+      "a"
+     ]
+    },
+    {
+     "key": "B2",
+     "opp": "B",
+     "teamId": "1890540d-1ffc-4847-adbf-d0d08772f268",
+     "maps": [
+      "00lanes",
+      "01the_farm",
+      "00swirl",
+      "01starfish",
+      "00fragment"
+     ],
+     "sides": [
+      "b",
+      "a",
+      "b",
+      "a",
+      "b"
+     ]
+    }
+   ]
+  },
+  {
+   "arm": "control",
+   "groups": [
+    {
+     "key": "C1",
+     "opp": "C",
+     "teamId": "f9d72b03-4526-4213-bc2f-afbf06f2a933",
+     "maps": [
+      "00lanes",
+      "01the_farm",
+      "00swirl",
+      "01starfish",
+      "00fragment"
+     ],
+     "sides": [
+      "a",
+      "b",
+      "a",
+      "b",
+      "a"
+     ]
+    },
+    {
+     "key": "C2",
+     "opp": "C",
+     "teamId": "f9d72b03-4526-4213-bc2f-afbf06f2a933",
+     "maps": [
+      "00lanes",
+      "01the_farm",
+      "00swirl",
+      "01starfish",
+      "00fragment"
+     ],
+     "sides": [
+      "b",
+      "a",
+      "b",
+      "a",
+      "b"
+     ]
+    },
+    {
+     "key": "D1",
+     "opp": "D",
+     "teamId": "ec2b57be-fa43-4e3e-9eb0-57b266624d27",
+     "maps": [
+      "00lanes",
+      "01the_farm",
+      "00swirl",
+      "01starfish",
+      "00fragment"
+     ],
+     "sides": [
+      "a",
+      "b",
+      "a",
+      "b",
+      "a"
+     ]
+    },
+    {
+     "key": "D2",
+     "opp": "D",
+     "teamId": "ec2b57be-fa43-4e3e-9eb0-57b266624d27",
+     "maps": [
+      "00lanes",
+      "01the_farm",
+      "00swirl",
+      "01starfish",
+      "00fragment"
+     ],
+     "sides": [
+      "b",
+      "a",
+      "b",
+      "a",
+      "b"
+     ]
+    }
+   ]
+  },
+  {
+   "arm": "candidate",
+   "groups": [
+    {
+     "key": "C1",
+     "opp": "C",
+     "teamId": "f9d72b03-4526-4213-bc2f-afbf06f2a933",
+     "maps": [
+      "00lanes",
+      "01the_farm",
+      "00swirl",
+      "01starfish",
+      "00fragment"
+     ],
+     "sides": [
+      "a",
+      "b",
+      "a",
+      "b",
+      "a"
+     ]
+    },
+    {
+     "key": "C2",
+     "opp": "C",
+     "teamId": "f9d72b03-4526-4213-bc2f-afbf06f2a933",
+     "maps": [
+      "00lanes",
+      "01the_farm",
+      "00swirl",
+      "01starfish",
+      "00fragment"
+     ],
+     "sides": [
+      "b",
+      "a",
+      "b",
+      "a",
+      "b"
+     ]
+    },
+    {
+     "key": "D1",
+     "opp": "D",
+     "teamId": "ec2b57be-fa43-4e3e-9eb0-57b266624d27",
+     "maps": [
+      "00lanes",
+      "01the_farm",
+      "00swirl",
+      "01starfish",
+      "00fragment"
+     ],
+     "sides": [
+      "a",
+      "b",
+      "a",
+      "b",
+      "a"
+     ]
+    },
+    {
+     "key": "D2",
+     "opp": "D",
+     "teamId": "ec2b57be-fa43-4e3e-9eb0-57b266624d27",
+     "maps": [
+      "00lanes",
+      "01the_farm",
+      "00swirl",
+      "01starfish",
+      "00fragment"
+     ],
+     "sides": [
+      "b",
+      "a",
+      "b",
+      "a",
+      "b"
+     ]
+    }
+   ]
+  }
+ ],
+ "totalGroups": 16,
+ "expectedMatches": 80,
+ "quotaReserve": 10
+}

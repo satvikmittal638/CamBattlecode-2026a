@@ -1,0 +1,6310 @@
+{
+  "at": "2026-10-25T12:49:40.480Z",
+  "version": 86,
+  "labels": [
+    "mite02",
+    "mite02_rest"
+  ],
+  "games": 80,
+  "distinctCells": 80,
+  "wins": 56,
+  "winRate": 0.7,
+  "balancedMatrixComplete": true,
+  "targetWinRateReached": true,
+  "almostAllMapsReached": false,
+  "mapsWithWin": 33,
+  "mapsWonBothSides": 23,
+  "missing": [],
+  "losses": [
+    {
+      "matchId": "b0e68ad5-05a3-47a0-8b19-b7a552911a0e",
+      "groupId": "28b77a1d-64ce-4591-8028-3c14a6b808b1",
+      "createdAt": "2026-10-25T12:46:45.723Z",
+      "map": "00collision",
+      "side": "a",
+      "result": "loss",
+      "score": 0,
+      "oppScore": 1022,
+      "myDraft": [
+        "6",
+        "2",
+        "0"
+      ],
+      "oppDraft": [
+        "6",
+        "2",
+        "3"
+      ],
+      "opponent": "Mite",
+      "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+      "rounds": 795,
+      "kind": "unranked",
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "version": 86,
+      "file": "00collision/b0e68ad5-05a3-47a0-8b19-b7a552911a0e.repl26a"
+    },
+    {
+      "matchId": "4b647409-a302-4525-b6e8-74d4054a959e",
+      "groupId": "99f9024d-3ecb-4b54-81b3-627af28fa196",
+      "createdAt": "2026-10-25T12:42:29.853Z",
+      "map": "00collision",
+      "side": "b",
+      "result": "loss",
+      "score": 0,
+      "oppScore": 1004,
+      "myDraft": [
+        "6",
+        "2",
+        "0"
+      ],
+      "oppDraft": [
+        "6",
+        "2",
+        "3"
+      ],
+      "opponent": "Mite",
+      "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+      "rounds": 765,
+      "kind": "unranked",
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "version": 86,
+      "file": "00collision/4b647409-a302-4525-b6e8-74d4054a959e.repl26a"
+    },
+    {
+      "matchId": "35cc256e-0960-446f-a7da-ae5311dd97d3",
+      "groupId": "99f9024d-3ecb-4b54-81b3-627af28fa196",
+      "createdAt": "2026-10-25T12:42:29.872Z",
+      "map": "00contest",
+      "side": "a",
+      "result": "loss",
+      "score": 0,
+      "oppScore": 0,
+      "myDraft": [
+        "11",
+        "0",
+        "2",
+        "1",
+        "6"
+      ],
+      "oppDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ],
+      "opponent": "Mite",
+      "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+      "rounds": 2000,
+      "kind": "unranked",
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "version": 86,
+      "file": "00contest/35cc256e-0960-446f-a7da-ae5311dd97d3.repl26a"
+    },
+    {
+      "matchId": "e9d7d046-5aa4-4b3d-a899-19bc246344e5",
+      "groupId": "28b77a1d-64ce-4591-8028-3c14a6b808b1",
+      "createdAt": "2026-10-25T12:46:45.828Z",
+      "map": "00gemfight",
+      "side": "a",
+      "result": "loss",
+      "score": 21,
+      "oppScore": 1016,
+      "myDraft": [
+        "6",
+        "2",
+        "0",
+        "1"
+      ],
+      "oppDraft": [
+        "6",
+        "2",
+        "1",
+        "7"
+      ],
+      "opponent": "Mite",
+      "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+      "rounds": 625,
+      "kind": "unranked",
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "version": 86,
+      "file": "00gemfight/e9d7d046-5aa4-4b3d-a899-19bc246344e5.repl26a"
+    },
+    {
+      "matchId": "992a60dd-4e4b-4f48-88b3-b2b29be37bda",
+      "groupId": "145f0aca-02ae-462a-a006-63077d70c387",
+      "createdAt": "2026-10-25T12:42:32.742Z",
+      "map": "00great_wall",
+      "side": "a",
+      "result": "loss",
+      "score": 0,
+      "oppScore": 1002,
+      "myDraft": [
+        "1",
+        "11",
+        "2",
+        "10",
+        "6"
+      ],
+      "oppDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ],
+      "opponent": "Mite",
+      "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+      "rounds": 606,
+      "kind": "unranked",
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "version": 86,
+      "file": "00great_wall/992a60dd-4e4b-4f48-88b3-b2b29be37bda.repl26a"
+    },
+    {
+      "matchId": "ecfd1c32-587a-4226-8794-8055721a58b0",
+      "groupId": "92461a7c-c390-4ebb-9300-7d7ed0e0b4c4",
+      "createdAt": "2026-10-25T12:46:53.117Z",
+      "map": "00great_wall",
+      "side": "b",
+      "result": "loss",
+      "score": 0,
+      "oppScore": 1002,
+      "myDraft": [
+        "1",
+        "11",
+        "2",
+        "10",
+        "6"
+      ],
+      "oppDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ],
+      "opponent": "Mite",
+      "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+      "rounds": 938,
+      "kind": "unranked",
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "version": 86,
+      "file": "00great_wall/ecfd1c32-587a-4226-8794-8055721a58b0.repl26a"
+    },
+    {
+      "matchId": "d8352146-bd00-4a97-915f-0eb3870e94c3",
+      "groupId": "38a035cb-636d-457c-a789-c1835744c805",
+      "createdAt": "2026-10-25T12:46:47.453Z",
+      "map": "00interlock",
+      "side": "a",
+      "result": "loss",
+      "score": 23,
+      "oppScore": 1001,
+      "myDraft": [
+        "6",
+        "2",
+        "0",
+        "1"
+      ],
+      "oppDraft": [
+        "6",
+        "2",
+        "1",
+        "7"
+      ],
+      "opponent": "Mite",
+      "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+      "rounds": 847,
+      "kind": "unranked",
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "version": 86,
+      "file": "00interlock/d8352146-bd00-4a97-915f-0eb3870e94c3.repl26a"
+    },
+    {
+      "matchId": "f042cd7d-f182-4c66-b266-805d83828af9",
+      "groupId": "145f0aca-02ae-462a-a006-63077d70c387",
+      "createdAt": "2026-10-25T12:42:32.809Z",
+      "map": "00lanes",
+      "side": "a",
+      "result": "loss",
+      "score": 278,
+      "oppScore": 1008,
+      "myDraft": [
+        "1",
+        "11",
+        "2",
+        "10",
+        "6"
+      ],
+      "oppDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ],
+      "opponent": "Mite",
+      "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+      "rounds": 785,
+      "kind": "unranked",
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "version": 86,
+      "file": "00lanes/f042cd7d-f182-4c66-b266-805d83828af9.repl26a"
+    },
+    {
+      "matchId": "5cb430b4-35ea-4c77-8003-e1cf3e757377",
+      "groupId": "38a035cb-636d-457c-a789-c1835744c805",
+      "createdAt": "2026-10-25T12:46:47.470Z",
+      "map": "00lost_world",
+      "side": "a",
+      "result": "loss",
+      "score": 0,
+      "oppScore": 1008,
+      "myDraft": [
+        "6",
+        "2",
+        "0",
+        "1",
+        "11"
+      ],
+      "oppDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ],
+      "opponent": "Mite",
+      "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+      "rounds": 383,
+      "kind": "unranked",
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "version": 86,
+      "file": "00lost_world/5cb430b4-35ea-4c77-8003-e1cf3e757377.repl26a"
+    },
+    {
+      "matchId": "b6c5abea-fc07-4609-9750-aa6e8fde4f99",
+      "groupId": "145f0aca-02ae-462a-a006-63077d70c387",
+      "createdAt": "2026-10-25T12:42:32.822Z",
+      "map": "00lost_world",
+      "side": "b",
+      "result": "loss",
+      "score": 21,
+      "oppScore": 1016,
+      "myDraft": [
+        "1",
+        "11",
+        "2",
+        "10",
+        "6"
+      ],
+      "oppDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ],
+      "opponent": "Mite",
+      "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+      "rounds": 404,
+      "kind": "unranked",
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "version": 86,
+      "file": "00lost_world/b6c5abea-fc07-4609-9750-aa6e8fde4f99.repl26a"
+    },
+    {
+      "matchId": "3c7c3aee-77ce-483f-8d2a-18ad5bbee2fe",
+      "groupId": "145f0aca-02ae-462a-a006-63077d70c387",
+      "createdAt": "2026-10-25T12:42:32.834Z",
+      "map": "00monolith",
+      "side": "a",
+      "result": "loss",
+      "score": 141,
+      "oppScore": 1019,
+      "myDraft": [
+        "6",
+        "2",
+        "0",
+        "1",
+        "9"
+      ],
+      "oppDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ],
+      "opponent": "Mite",
+      "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+      "rounds": 1037,
+      "kind": "unranked",
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "version": 86,
+      "file": "00monolith/3c7c3aee-77ce-483f-8d2a-18ad5bbee2fe.repl26a"
+    },
+    {
+      "matchId": "a778b607-2fcb-467a-9a44-cde65e092d02",
+      "groupId": "38a035cb-636d-457c-a789-c1835744c805",
+      "createdAt": "2026-10-25T12:46:47.528Z",
+      "map": "00quadrants",
+      "side": "a",
+      "result": "loss",
+      "score": 118,
+      "oppScore": 1020,
+      "myDraft": [
+        "6",
+        "2",
+        "0",
+        "1",
+        "11"
+      ],
+      "oppDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ],
+      "opponent": "Mite",
+      "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+      "rounds": 441,
+      "kind": "unranked",
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "version": 86,
+      "file": "00quadrants/a778b607-2fcb-467a-9a44-cde65e092d02.repl26a"
+    },
+    {
+      "matchId": "b72d9321-2d6c-4c62-a4b1-66e43b7b0acd",
+      "groupId": "93653c15-dd45-4e82-bc05-542681de1ff5",
+      "createdAt": "2026-10-25T12:46:48.346Z",
+      "map": "00reverse_spiral",
+      "side": "a",
+      "result": "loss",
+      "score": 7,
+      "oppScore": 1027,
+      "myDraft": [
+        "6",
+        "2",
+        "0",
+        "1"
+      ],
+      "oppDraft": [
+        "6",
+        "2",
+        "1",
+        "7"
+      ],
+      "opponent": "Mite",
+      "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+      "rounds": 1062,
+      "kind": "unranked",
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "version": 86,
+      "file": "00reverse_spiral/b72d9321-2d6c-4c62-a4b1-66e43b7b0acd.repl26a"
+    },
+    {
+      "matchId": "4711e03c-5edf-49b7-b010-6d221d79ca43",
+      "groupId": "93653c15-dd45-4e82-bc05-542681de1ff5",
+      "createdAt": "2026-10-25T12:46:48.364Z",
+      "map": "00road_of_riches",
+      "side": "a",
+      "result": "loss",
+      "score": 129,
+      "oppScore": 1025,
+      "myDraft": [
+        "6",
+        "2",
+        "0",
+        "1",
+        "9"
+      ],
+      "oppDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ],
+      "opponent": "Mite",
+      "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+      "rounds": 954,
+      "kind": "unranked",
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "version": 86,
+      "file": "00road_of_riches/4711e03c-5edf-49b7-b010-6d221d79ca43.repl26a"
+    },
+    {
+      "matchId": "1152cec4-1233-4eef-aa3e-e7c68ed749ba",
+      "groupId": "93653c15-dd45-4e82-bc05-542681de1ff5",
+      "createdAt": "2026-10-25T12:46:48.378Z",
+      "map": "00rows",
+      "side": "a",
+      "result": "loss",
+      "score": 459,
+      "oppScore": 1003,
+      "myDraft": [
+        "6",
+        "2",
+        "0",
+        "1"
+      ],
+      "oppDraft": [
+        "6",
+        "2",
+        "1",
+        "7"
+      ],
+      "opponent": "Mite",
+      "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+      "rounds": 1459,
+      "kind": "unranked",
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "version": 86,
+      "file": "00rows/1152cec4-1233-4eef-aa3e-e7c68ed749ba.repl26a"
+    },
+    {
+      "matchId": "be6ba419-7ef8-46e7-b9ec-a64b394ea6a3",
+      "groupId": "4550c1b4-143e-4b28-a753-a09ed811f313",
+      "createdAt": "2026-10-25T12:46:54.977Z",
+      "map": "00rushbait_v2",
+      "side": "b",
+      "result": "loss",
+      "score": 51,
+      "oppScore": 1002,
+      "myDraft": [
+        "11",
+        "1",
+        "2",
+        "6"
+      ],
+      "oppDraft": [
+        "6",
+        "2",
+        "1",
+        "7"
+      ],
+      "opponent": "Mite",
+      "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+      "rounds": 845,
+      "kind": "unranked",
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "version": 86,
+      "file": "00rushbait_v2/be6ba419-7ef8-46e7-b9ec-a64b394ea6a3.repl26a"
+    },
+    {
+      "matchId": "08121a82-181d-4f71-ad22-2595b977513a",
+      "groupId": "da396247-61f6-4273-acbe-ce430546e738",
+      "createdAt": "2026-10-25T12:46:49.301Z",
+      "map": "01boss_battle",
+      "side": "a",
+      "result": "loss",
+      "score": 0,
+      "oppScore": 1330,
+      "myDraft": [
+        "1",
+        "11",
+        "2",
+        "10",
+        "6"
+      ],
+      "oppDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ],
+      "opponent": "Mite",
+      "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+      "rounds": 683,
+      "kind": "unranked",
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "version": 86,
+      "file": "01boss_battle/08121a82-181d-4f71-ad22-2595b977513a.repl26a"
+    },
+    {
+      "matchId": "2da84a63-ca25-4bdd-a095-f67136350f76",
+      "groupId": "a59d3d78-7441-464f-bc82-12e952400ab5",
+      "createdAt": "2026-10-25T12:46:55.794Z",
+      "map": "01boss_battle",
+      "side": "b",
+      "result": "loss",
+      "score": 0,
+      "oppScore": 1003,
+      "myDraft": [
+        "1",
+        "11",
+        "2",
+        "10",
+        "6"
+      ],
+      "oppDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ],
+      "opponent": "Mite",
+      "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+      "rounds": 946,
+      "kind": "unranked",
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "version": 86,
+      "file": "01boss_battle/2da84a63-ca25-4bdd-a095-f67136350f76.repl26a"
+    },
+    {
+      "matchId": "41c0da7e-8649-4741-bedd-b6a378746c33",
+      "groupId": "07fa4b2e-b9bf-48e2-8017-f69bdb65994a",
+      "createdAt": "2026-10-25T12:46:50.147Z",
+      "map": "01corridors",
+      "side": "a",
+      "result": "loss",
+      "score": 0,
+      "oppScore": 1004,
+      "myDraft": [
+        "1",
+        "11",
+        "2",
+        "10",
+        "6"
+      ],
+      "oppDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ],
+      "opponent": "Mite",
+      "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+      "rounds": 975,
+      "kind": "unranked",
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "version": 86,
+      "file": "01corridors/41c0da7e-8649-4741-bedd-b6a378746c33.repl26a"
+    },
+    {
+      "matchId": "2d10218a-73f2-4e75-b2f8-8d6bbe1346f1",
+      "groupId": "a59d3d78-7441-464f-bc82-12e952400ab5",
+      "createdAt": "2026-10-25T12:46:55.850Z",
+      "map": "01corridors",
+      "side": "b",
+      "result": "loss",
+      "score": 0,
+      "oppScore": 1062,
+      "myDraft": [
+        "1",
+        "11",
+        "2",
+        "10",
+        "6"
+      ],
+      "oppDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ],
+      "opponent": "Mite",
+      "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+      "rounds": 924,
+      "kind": "unranked",
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "version": 86,
+      "file": "01corridors/2d10218a-73f2-4e75-b2f8-8d6bbe1346f1.repl26a"
+    },
+    {
+      "matchId": "358d70df-f758-4df7-82a4-2a0cb0e0b8f7",
+      "groupId": "07fa4b2e-b9bf-48e2-8017-f69bdb65994a",
+      "createdAt": "2026-10-25T12:46:50.166Z",
+      "map": "01elk_arena",
+      "side": "a",
+      "result": "loss",
+      "score": 0,
+      "oppScore": 1008,
+      "myDraft": [
+        "1",
+        "11",
+        "2",
+        "10",
+        "6"
+      ],
+      "oppDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ],
+      "opponent": "Mite",
+      "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+      "rounds": 1045,
+      "kind": "unranked",
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "version": 86,
+      "file": "01elk_arena/358d70df-f758-4df7-82a4-2a0cb0e0b8f7.repl26a"
+    },
+    {
+      "matchId": "0456e6e9-5164-47f1-9abf-001fdcdcd321",
+      "groupId": "6da6cb04-b536-4a25-860a-673098e1bc71",
+      "createdAt": "2026-10-25T12:46:56.807Z",
+      "map": "01elk_arena",
+      "side": "b",
+      "result": "loss",
+      "score": 0,
+      "oppScore": 1008,
+      "myDraft": [
+        "1",
+        "11",
+        "2",
+        "10",
+        "6"
+      ],
+      "oppDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ],
+      "opponent": "Mite",
+      "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+      "rounds": 1044,
+      "kind": "unranked",
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "version": 86,
+      "file": "01elk_arena/0456e6e9-5164-47f1-9abf-001fdcdcd321.repl26a"
+    },
+    {
+      "matchId": "2372ccc2-de74-4e3b-9893-8544e0a8e903",
+      "groupId": "07fa4b2e-b9bf-48e2-8017-f69bdb65994a",
+      "createdAt": "2026-10-25T12:46:50.184Z",
+      "map": "01fracture",
+      "side": "a",
+      "result": "loss",
+      "score": 123,
+      "oppScore": 1015,
+      "myDraft": [
+        "1",
+        "11",
+        "2",
+        "10",
+        "6"
+      ],
+      "oppDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ],
+      "opponent": "Mite",
+      "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+      "rounds": 998,
+      "kind": "unranked",
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "version": 86,
+      "file": "01fracture/2372ccc2-de74-4e3b-9893-8544e0a8e903.repl26a"
+    },
+    {
+      "matchId": "00eb8e7a-8412-4576-860b-0509bc70632e",
+      "groupId": "6da6cb04-b536-4a25-860a-673098e1bc71",
+      "createdAt": "2026-10-25T12:46:56.861Z",
+      "map": "01fracture",
+      "side": "b",
+      "result": "loss",
+      "score": 34,
+      "oppScore": 1065,
+      "myDraft": [
+        "1",
+        "11",
+        "2",
+        "10",
+        "6"
+      ],
+      "oppDraft": [
+        "1",
+        "2",
+        "0",
+        "10",
+        "6"
+      ],
+      "opponent": "Mite",
+      "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+      "rounds": 1006,
+      "kind": "unranked",
+      "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+      "version": 86,
+      "file": "01fracture/00eb8e7a-8412-4576-860b-0509bc70632e.repl26a"
+    }
+  ],
+  "cells": [
+    {
+      "map": "00ambush",
+      "side": "a",
+      "matches": [
+        {
+          "matchId": "e0b466ba-4d2a-4ece-981e-50af84fef1e9",
+          "groupId": "99f9024d-3ecb-4b54-81b3-627af28fa196",
+          "createdAt": "2026-10-25T12:42:29.833Z",
+          "map": "00ambush",
+          "side": "a",
+          "result": "win",
+          "score": 1020,
+          "oppScore": 643,
+          "myDraft": [
+            "1",
+            "2",
+            "11",
+            "9",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1044,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00ambush/e0b466ba-4d2a-4ece-981e-50af84fef1e9.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00ambush",
+      "side": "b",
+      "matches": [
+        {
+          "matchId": "75a7deca-73ae-42a0-a725-0111d10f96a3",
+          "groupId": "a8e54ab8-a8be-4147-970e-88ee2ed33982",
+          "createdAt": "2026-10-25T12:46:51.888Z",
+          "map": "00ambush",
+          "side": "b",
+          "result": "win",
+          "score": 1011,
+          "oppScore": 573,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1109,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00ambush/75a7deca-73ae-42a0-a725-0111d10f96a3.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00collision",
+      "side": "a",
+      "matches": [
+        {
+          "matchId": "b0e68ad5-05a3-47a0-8b19-b7a552911a0e",
+          "groupId": "28b77a1d-64ce-4591-8028-3c14a6b808b1",
+          "createdAt": "2026-10-25T12:46:45.723Z",
+          "map": "00collision",
+          "side": "a",
+          "result": "loss",
+          "score": 0,
+          "oppScore": 1022,
+          "myDraft": [
+            "6",
+            "2",
+            "0"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "3"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 795,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00collision/b0e68ad5-05a3-47a0-8b19-b7a552911a0e.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00collision",
+      "side": "b",
+      "matches": [
+        {
+          "matchId": "4b647409-a302-4525-b6e8-74d4054a959e",
+          "groupId": "99f9024d-3ecb-4b54-81b3-627af28fa196",
+          "createdAt": "2026-10-25T12:42:29.853Z",
+          "map": "00collision",
+          "side": "b",
+          "result": "loss",
+          "score": 0,
+          "oppScore": 1004,
+          "myDraft": [
+            "6",
+            "2",
+            "0"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "3"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 765,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00collision/4b647409-a302-4525-b6e8-74d4054a959e.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00contest",
+      "side": "a",
+      "matches": [
+        {
+          "matchId": "35cc256e-0960-446f-a7da-ae5311dd97d3",
+          "groupId": "99f9024d-3ecb-4b54-81b3-627af28fa196",
+          "createdAt": "2026-10-25T12:42:29.872Z",
+          "map": "00contest",
+          "side": "a",
+          "result": "loss",
+          "score": 0,
+          "oppScore": 0,
+          "myDraft": [
+            "11",
+            "0",
+            "2",
+            "1",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 2000,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00contest/35cc256e-0960-446f-a7da-ae5311dd97d3.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00contest",
+      "side": "b",
+      "matches": [
+        {
+          "matchId": "5210ede9-93b8-4bd2-9c2d-211930d0c26c",
+          "groupId": "a8e54ab8-a8be-4147-970e-88ee2ed33982",
+          "createdAt": "2026-10-25T12:46:51.901Z",
+          "map": "00contest",
+          "side": "b",
+          "result": "win",
+          "score": 1000,
+          "oppScore": 0,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1479,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00contest/5210ede9-93b8-4bd2-9c2d-211930d0c26c.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00corners",
+      "side": "a",
+      "matches": [
+        {
+          "matchId": "adb3d0f5-36c3-449e-a603-4c3b9a5e052b",
+          "groupId": "28b77a1d-64ce-4591-8028-3c14a6b808b1",
+          "createdAt": "2026-10-25T12:46:45.743Z",
+          "map": "00corners",
+          "side": "a",
+          "result": "win",
+          "score": 1010,
+          "oppScore": 405,
+          "myDraft": [
+            "1",
+            "0",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 965,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00corners/adb3d0f5-36c3-449e-a603-4c3b9a5e052b.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00corners",
+      "side": "b",
+      "matches": [
+        {
+          "matchId": "024ca8bb-28fd-4931-8df0-f9caac4ca703",
+          "groupId": "99f9024d-3ecb-4b54-81b3-627af28fa196",
+          "createdAt": "2026-10-25T12:42:29.904Z",
+          "map": "00corners",
+          "side": "b",
+          "result": "win",
+          "score": 1022,
+          "oppScore": 247,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1086,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00corners/024ca8bb-28fd-4931-8df0-f9caac4ca703.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00eight",
+      "side": "a",
+      "matches": [
+        {
+          "matchId": "8a0c7149-91d4-4b90-a43d-3b43c3c9bbe6",
+          "groupId": "99f9024d-3ecb-4b54-81b3-627af28fa196",
+          "createdAt": "2026-10-25T12:42:29.936Z",
+          "map": "00eight",
+          "side": "a",
+          "result": "win",
+          "score": 1007,
+          "oppScore": 509,
+          "myDraft": [
+            "6",
+            "0",
+            "7",
+            "10",
+            "5"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1038,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00eight/8a0c7149-91d4-4b90-a43d-3b43c3c9bbe6.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00eight",
+      "side": "b",
+      "matches": [
+        {
+          "matchId": "45fb51f8-cb5c-47b8-bd87-006a2545d0aa",
+          "groupId": "a8e54ab8-a8be-4147-970e-88ee2ed33982",
+          "createdAt": "2026-10-25T12:46:51.913Z",
+          "map": "00eight",
+          "side": "b",
+          "result": "win",
+          "score": 1073,
+          "oppScore": 728,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1241,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00eight/45fb51f8-cb5c-47b8-bd87-006a2545d0aa.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00elkring",
+      "side": "a",
+      "matches": [
+        {
+          "matchId": "a20eed80-8cdf-408f-b042-7515669443a6",
+          "groupId": "28b77a1d-64ce-4591-8028-3c14a6b808b1",
+          "createdAt": "2026-10-25T12:46:45.758Z",
+          "map": "00elkring",
+          "side": "a",
+          "result": "win",
+          "score": 1001,
+          "oppScore": 880,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 870,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00elkring/a20eed80-8cdf-408f-b042-7515669443a6.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00elkring",
+      "side": "b",
+      "matches": [
+        {
+          "matchId": "b9094439-be6d-4a31-b936-d42d6de84e99",
+          "groupId": "f702e446-5a7b-4fb0-baf7-115d841462c8",
+          "createdAt": "2026-10-25T12:42:31.392Z",
+          "map": "00elkring",
+          "side": "b",
+          "result": "win",
+          "score": 1001,
+          "oppScore": 957,
+          "myDraft": [
+            "11",
+            "1",
+            "2",
+            "6",
+            "7"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 855,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00elkring/b9094439-be6d-4a31-b936-d42d6de84e99.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00expanse",
+      "side": "a",
+      "matches": [
+        {
+          "matchId": "5dc1d9ed-70c1-4f18-955f-84d3cb7edbf3",
+          "groupId": "f702e446-5a7b-4fb0-baf7-115d841462c8",
+          "createdAt": "2026-10-25T12:42:31.405Z",
+          "map": "00expanse",
+          "side": "a",
+          "result": "win",
+          "score": 1040,
+          "oppScore": 896,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 984,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00expanse/5dc1d9ed-70c1-4f18-955f-84d3cb7edbf3.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00expanse",
+      "side": "b",
+      "matches": [
+        {
+          "matchId": "2e878d8d-ad01-4689-926f-173d0c17b753",
+          "groupId": "92461a7c-c390-4ebb-9300-7d7ed0e0b4c4",
+          "createdAt": "2026-10-25T12:46:53.010Z",
+          "map": "00expanse",
+          "side": "b",
+          "result": "win",
+          "score": 1015,
+          "oppScore": 863,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1015,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00expanse/2e878d8d-ad01-4689-926f-173d0c17b753.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00fragment",
+      "side": "a",
+      "matches": [
+        {
+          "matchId": "61ec5f1b-8d1d-4aa8-b419-c098c3598725",
+          "groupId": "28b77a1d-64ce-4591-8028-3c14a6b808b1",
+          "createdAt": "2026-10-25T12:46:45.787Z",
+          "map": "00fragment",
+          "side": "a",
+          "result": "win",
+          "score": 1000,
+          "oppScore": 170,
+          "myDraft": [
+            "1",
+            "11",
+            "6"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "3"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1675,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00fragment/61ec5f1b-8d1d-4aa8-b419-c098c3598725.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00fragment",
+      "side": "b",
+      "matches": [
+        {
+          "matchId": "daea8f79-5708-4299-9569-8e61c602b468",
+          "groupId": "f702e446-5a7b-4fb0-baf7-115d841462c8",
+          "createdAt": "2026-10-25T12:42:31.418Z",
+          "map": "00fragment",
+          "side": "b",
+          "result": "win",
+          "score": 1002,
+          "oppScore": 98,
+          "myDraft": [
+            "1",
+            "2",
+            "11"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "3"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1684,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00fragment/daea8f79-5708-4299-9569-8e61c602b468.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00gem_fields",
+      "side": "a",
+      "matches": [
+        {
+          "matchId": "436d90c0-1b95-4020-9c27-7a3df18f4cea",
+          "groupId": "f702e446-5a7b-4fb0-baf7-115d841462c8",
+          "createdAt": "2026-10-25T12:42:31.434Z",
+          "map": "00gem_fields",
+          "side": "a",
+          "result": "win",
+          "score": 1055,
+          "oppScore": 660,
+          "myDraft": [
+            "11",
+            "1",
+            "2",
+            "6",
+            "7"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 825,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00gem_fields/436d90c0-1b95-4020-9c27-7a3df18f4cea.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00gem_fields",
+      "side": "b",
+      "matches": [
+        {
+          "matchId": "316a8980-d39f-4c52-82ac-81048d177c6b",
+          "groupId": "92461a7c-c390-4ebb-9300-7d7ed0e0b4c4",
+          "createdAt": "2026-10-25T12:46:53.060Z",
+          "map": "00gem_fields",
+          "side": "b",
+          "result": "win",
+          "score": 1009,
+          "oppScore": 656,
+          "myDraft": [
+            "6",
+            "1",
+            "2",
+            "7",
+            "11"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 606,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00gem_fields/316a8980-d39f-4c52-82ac-81048d177c6b.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00gemfight",
+      "side": "a",
+      "matches": [
+        {
+          "matchId": "e9d7d046-5aa4-4b3d-a899-19bc246344e5",
+          "groupId": "28b77a1d-64ce-4591-8028-3c14a6b808b1",
+          "createdAt": "2026-10-25T12:46:45.828Z",
+          "map": "00gemfight",
+          "side": "a",
+          "result": "loss",
+          "score": 21,
+          "oppScore": 1016,
+          "myDraft": [
+            "6",
+            "2",
+            "0",
+            "1"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "1",
+            "7"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 625,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00gemfight/e9d7d046-5aa4-4b3d-a899-19bc246344e5.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00gemfight",
+      "side": "b",
+      "matches": [
+        {
+          "matchId": "14144ceb-1c4f-4cb7-a114-bfd4ca13e4c6",
+          "groupId": "f702e446-5a7b-4fb0-baf7-115d841462c8",
+          "createdAt": "2026-10-25T12:42:31.453Z",
+          "map": "00gemfight",
+          "side": "b",
+          "result": "win",
+          "score": 1017,
+          "oppScore": 15,
+          "myDraft": [
+            "1",
+            "2",
+            "11",
+            "10"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "1",
+            "7"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 710,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00gemfight/14144ceb-1c4f-4cb7-a114-bfd4ca13e4c6.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00great_wall",
+      "side": "a",
+      "matches": [
+        {
+          "matchId": "992a60dd-4e4b-4f48-88b3-b2b29be37bda",
+          "groupId": "145f0aca-02ae-462a-a006-63077d70c387",
+          "createdAt": "2026-10-25T12:42:32.742Z",
+          "map": "00great_wall",
+          "side": "a",
+          "result": "loss",
+          "score": 0,
+          "oppScore": 1002,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 606,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00great_wall/992a60dd-4e4b-4f48-88b3-b2b29be37bda.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00great_wall",
+      "side": "b",
+      "matches": [
+        {
+          "matchId": "ecfd1c32-587a-4226-8794-8055721a58b0",
+          "groupId": "92461a7c-c390-4ebb-9300-7d7ed0e0b4c4",
+          "createdAt": "2026-10-25T12:46:53.117Z",
+          "map": "00great_wall",
+          "side": "b",
+          "result": "loss",
+          "score": 0,
+          "oppScore": 1002,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 938,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00great_wall/ecfd1c32-587a-4226-8794-8055721a58b0.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00interlock",
+      "side": "a",
+      "matches": [
+        {
+          "matchId": "d8352146-bd00-4a97-915f-0eb3870e94c3",
+          "groupId": "38a035cb-636d-457c-a789-c1835744c805",
+          "createdAt": "2026-10-25T12:46:47.453Z",
+          "map": "00interlock",
+          "side": "a",
+          "result": "loss",
+          "score": 23,
+          "oppScore": 1001,
+          "myDraft": [
+            "6",
+            "2",
+            "0",
+            "1"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "1",
+            "7"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 847,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00interlock/d8352146-bd00-4a97-915f-0eb3870e94c3.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00interlock",
+      "side": "b",
+      "matches": [
+        {
+          "matchId": "764f5829-2000-4cd1-b194-ae40c758540d",
+          "groupId": "145f0aca-02ae-462a-a006-63077d70c387",
+          "createdAt": "2026-10-25T12:42:32.780Z",
+          "map": "00interlock",
+          "side": "b",
+          "result": "win",
+          "score": 1025,
+          "oppScore": 455,
+          "myDraft": [
+            "1",
+            "2",
+            "11",
+            "10"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "1",
+            "7"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1100,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00interlock/764f5829-2000-4cd1-b194-ae40c758540d.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00lanes",
+      "side": "a",
+      "matches": [
+        {
+          "matchId": "f042cd7d-f182-4c66-b266-805d83828af9",
+          "groupId": "145f0aca-02ae-462a-a006-63077d70c387",
+          "createdAt": "2026-10-25T12:42:32.809Z",
+          "map": "00lanes",
+          "side": "a",
+          "result": "loss",
+          "score": 278,
+          "oppScore": 1008,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 785,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00lanes/f042cd7d-f182-4c66-b266-805d83828af9.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00lanes",
+      "side": "b",
+      "matches": [
+        {
+          "matchId": "2587cae0-a0a7-4cad-b75c-6ac2f4a4dd4c",
+          "groupId": "92461a7c-c390-4ebb-9300-7d7ed0e0b4c4",
+          "createdAt": "2026-10-25T12:46:53.153Z",
+          "map": "00lanes",
+          "side": "b",
+          "result": "win",
+          "score": 1053,
+          "oppScore": 711,
+          "myDraft": [
+            "6",
+            "2",
+            "0",
+            "1",
+            "11"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 969,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00lanes/2587cae0-a0a7-4cad-b75c-6ac2f4a4dd4c.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00lost_world",
+      "side": "a",
+      "matches": [
+        {
+          "matchId": "5cb430b4-35ea-4c77-8003-e1cf3e757377",
+          "groupId": "38a035cb-636d-457c-a789-c1835744c805",
+          "createdAt": "2026-10-25T12:46:47.470Z",
+          "map": "00lost_world",
+          "side": "a",
+          "result": "loss",
+          "score": 0,
+          "oppScore": 1008,
+          "myDraft": [
+            "6",
+            "2",
+            "0",
+            "1",
+            "11"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 383,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00lost_world/5cb430b4-35ea-4c77-8003-e1cf3e757377.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00lost_world",
+      "side": "b",
+      "matches": [
+        {
+          "matchId": "b6c5abea-fc07-4609-9750-aa6e8fde4f99",
+          "groupId": "145f0aca-02ae-462a-a006-63077d70c387",
+          "createdAt": "2026-10-25T12:42:32.822Z",
+          "map": "00lost_world",
+          "side": "b",
+          "result": "loss",
+          "score": 21,
+          "oppScore": 1016,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 404,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00lost_world/b6c5abea-fc07-4609-9750-aa6e8fde4f99.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00monolith",
+      "side": "a",
+      "matches": [
+        {
+          "matchId": "3c7c3aee-77ce-483f-8d2a-18ad5bbee2fe",
+          "groupId": "145f0aca-02ae-462a-a006-63077d70c387",
+          "createdAt": "2026-10-25T12:42:32.834Z",
+          "map": "00monolith",
+          "side": "a",
+          "result": "loss",
+          "score": 141,
+          "oppScore": 1019,
+          "myDraft": [
+            "6",
+            "2",
+            "0",
+            "1",
+            "9"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1037,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00monolith/3c7c3aee-77ce-483f-8d2a-18ad5bbee2fe.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00monolith",
+      "side": "b",
+      "matches": [
+        {
+          "matchId": "08e89d06-e844-425a-90f6-36aaecd9f967",
+          "groupId": "92461a7c-c390-4ebb-9300-7d7ed0e0b4c4",
+          "createdAt": "2026-10-25T12:46:53.181Z",
+          "map": "00monolith",
+          "side": "b",
+          "result": "win",
+          "score": 1132,
+          "oppScore": 791,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 991,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00monolith/08e89d06-e844-425a-90f6-36aaecd9f967.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00packs",
+      "side": "a",
+      "matches": [
+        {
+          "matchId": "a0987a03-8b96-4c93-a942-43f7c739cc83",
+          "groupId": "38a035cb-636d-457c-a789-c1835744c805",
+          "createdAt": "2026-10-25T12:46:47.492Z",
+          "map": "00packs",
+          "side": "a",
+          "result": "win",
+          "score": 1020,
+          "oppScore": 566,
+          "myDraft": [
+            "1",
+            "2",
+            "11"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "3"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1263,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00packs/a0987a03-8b96-4c93-a942-43f7c739cc83.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00packs",
+      "side": "b",
+      "matches": [
+        {
+          "matchId": "859eadbd-43bc-4d4e-94c9-4977f7d8441a",
+          "groupId": "3d9e55cb-d873-4bc7-b758-c92c0f4d8bde",
+          "createdAt": "2026-10-25T12:46:54.117Z",
+          "map": "00packs",
+          "side": "b",
+          "result": "win",
+          "score": 1000,
+          "oppScore": 384,
+          "myDraft": [
+            "1",
+            "2",
+            "11"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "3"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1081,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00packs/859eadbd-43bc-4d4e-94c9-4977f7d8441a.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00pilgrimage",
+      "side": "a",
+      "matches": [
+        {
+          "matchId": "64fd9e71-fee3-4b75-a258-9459ab4dcd57",
+          "groupId": "38a035cb-636d-457c-a789-c1835744c805",
+          "createdAt": "2026-10-25T12:46:47.512Z",
+          "map": "00pilgrimage",
+          "side": "a",
+          "result": "win",
+          "score": 1027,
+          "oppScore": 684,
+          "myDraft": [
+            "9",
+            "11",
+            "1",
+            "0",
+            "7"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1538,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00pilgrimage/64fd9e71-fee3-4b75-a258-9459ab4dcd57.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00pilgrimage",
+      "side": "b",
+      "matches": [
+        {
+          "matchId": "c5c82359-dbb3-47a4-b088-aeca2e782703",
+          "groupId": "3d9e55cb-d873-4bc7-b758-c92c0f4d8bde",
+          "createdAt": "2026-10-25T12:46:54.131Z",
+          "map": "00pilgrimage",
+          "side": "b",
+          "result": "win",
+          "score": 1012,
+          "oppScore": 559,
+          "myDraft": [
+            "1",
+            "2",
+            "11",
+            "3",
+            "8"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1481,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00pilgrimage/c5c82359-dbb3-47a4-b088-aeca2e782703.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00quadrants",
+      "side": "a",
+      "matches": [
+        {
+          "matchId": "a778b607-2fcb-467a-9a44-cde65e092d02",
+          "groupId": "38a035cb-636d-457c-a789-c1835744c805",
+          "createdAt": "2026-10-25T12:46:47.528Z",
+          "map": "00quadrants",
+          "side": "a",
+          "result": "loss",
+          "score": 118,
+          "oppScore": 1020,
+          "myDraft": [
+            "6",
+            "2",
+            "0",
+            "1",
+            "11"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 441,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00quadrants/a778b607-2fcb-467a-9a44-cde65e092d02.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00quadrants",
+      "side": "b",
+      "matches": [
+        {
+          "matchId": "9edb3693-ff13-4fdd-9e6d-6ec9b3e51d3e",
+          "groupId": "3d9e55cb-d873-4bc7-b758-c92c0f4d8bde",
+          "createdAt": "2026-10-25T12:46:54.147Z",
+          "map": "00quadrants",
+          "side": "b",
+          "result": "win",
+          "score": 1035,
+          "oppScore": 843,
+          "myDraft": [
+            "1",
+            "2",
+            "11",
+            "3",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 508,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00quadrants/9edb3693-ff13-4fdd-9e6d-6ec9b3e51d3e.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00reverse_spiral",
+      "side": "a",
+      "matches": [
+        {
+          "matchId": "b72d9321-2d6c-4c62-a4b1-66e43b7b0acd",
+          "groupId": "93653c15-dd45-4e82-bc05-542681de1ff5",
+          "createdAt": "2026-10-25T12:46:48.346Z",
+          "map": "00reverse_spiral",
+          "side": "a",
+          "result": "loss",
+          "score": 7,
+          "oppScore": 1027,
+          "myDraft": [
+            "6",
+            "2",
+            "0",
+            "1"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "1",
+            "7"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1062,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00reverse_spiral/b72d9321-2d6c-4c62-a4b1-66e43b7b0acd.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00reverse_spiral",
+      "side": "b",
+      "matches": [
+        {
+          "matchId": "6931e87a-c79c-4a79-a072-295e51b65919",
+          "groupId": "3d9e55cb-d873-4bc7-b758-c92c0f4d8bde",
+          "createdAt": "2026-10-25T12:46:54.160Z",
+          "map": "00reverse_spiral",
+          "side": "b",
+          "result": "win",
+          "score": 1021,
+          "oppScore": 217,
+          "myDraft": [
+            "1",
+            "6",
+            "0",
+            "2"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "1",
+            "7"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1444,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00reverse_spiral/6931e87a-c79c-4a79-a072-295e51b65919.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00road_of_riches",
+      "side": "a",
+      "matches": [
+        {
+          "matchId": "4711e03c-5edf-49b7-b010-6d221d79ca43",
+          "groupId": "93653c15-dd45-4e82-bc05-542681de1ff5",
+          "createdAt": "2026-10-25T12:46:48.364Z",
+          "map": "00road_of_riches",
+          "side": "a",
+          "result": "loss",
+          "score": 129,
+          "oppScore": 1025,
+          "myDraft": [
+            "6",
+            "2",
+            "0",
+            "1",
+            "9"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 954,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00road_of_riches/4711e03c-5edf-49b7-b010-6d221d79ca43.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00road_of_riches",
+      "side": "b",
+      "matches": [
+        {
+          "matchId": "a112dc1e-170b-4cdf-97b4-9e594e1c7900",
+          "groupId": "3d9e55cb-d873-4bc7-b758-c92c0f4d8bde",
+          "createdAt": "2026-10-25T12:46:54.177Z",
+          "map": "00road_of_riches",
+          "side": "b",
+          "result": "win",
+          "score": 1024,
+          "oppScore": 33,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 666,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00road_of_riches/a112dc1e-170b-4cdf-97b4-9e594e1c7900.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00rows",
+      "side": "a",
+      "matches": [
+        {
+          "matchId": "1152cec4-1233-4eef-aa3e-e7c68ed749ba",
+          "groupId": "93653c15-dd45-4e82-bc05-542681de1ff5",
+          "createdAt": "2026-10-25T12:46:48.378Z",
+          "map": "00rows",
+          "side": "a",
+          "result": "loss",
+          "score": 459,
+          "oppScore": 1003,
+          "myDraft": [
+            "6",
+            "2",
+            "0",
+            "1"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "1",
+            "7"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1459,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00rows/1152cec4-1233-4eef-aa3e-e7c68ed749ba.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00rows",
+      "side": "b",
+      "matches": [
+        {
+          "matchId": "a21d3eed-7a79-4bfb-b9de-49006593d73b",
+          "groupId": "4550c1b4-143e-4b28-a753-a09ed811f313",
+          "createdAt": "2026-10-25T12:46:54.964Z",
+          "map": "00rows",
+          "side": "b",
+          "result": "win",
+          "score": 1010,
+          "oppScore": 540,
+          "myDraft": [
+            "1",
+            "2",
+            "11",
+            "10"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "1",
+            "7"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1061,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00rows/a21d3eed-7a79-4bfb-b9de-49006593d73b.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00rushbait_v2",
+      "side": "a",
+      "matches": [
+        {
+          "matchId": "6f34a076-0b1e-43dc-a38d-ba6e3fca0945",
+          "groupId": "93653c15-dd45-4e82-bc05-542681de1ff5",
+          "createdAt": "2026-10-25T12:46:48.395Z",
+          "map": "00rushbait_v2",
+          "side": "a",
+          "result": "win",
+          "score": 1028,
+          "oppScore": 842,
+          "myDraft": [
+            "2",
+            "6",
+            "11",
+            "1"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "1",
+            "7"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1095,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00rushbait_v2/6f34a076-0b1e-43dc-a38d-ba6e3fca0945.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00rushbait_v2",
+      "side": "b",
+      "matches": [
+        {
+          "matchId": "be6ba419-7ef8-46e7-b9ec-a64b394ea6a3",
+          "groupId": "4550c1b4-143e-4b28-a753-a09ed811f313",
+          "createdAt": "2026-10-25T12:46:54.977Z",
+          "map": "00rushbait_v2",
+          "side": "b",
+          "result": "loss",
+          "score": 51,
+          "oppScore": 1002,
+          "myDraft": [
+            "11",
+            "1",
+            "2",
+            "6"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "1",
+            "7"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 845,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00rushbait_v2/be6ba419-7ef8-46e7-b9ec-a64b394ea6a3.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00split",
+      "side": "a",
+      "matches": [
+        {
+          "matchId": "a541d7e5-1fa0-4558-a5fd-f9aff78c1ce7",
+          "groupId": "93653c15-dd45-4e82-bc05-542681de1ff5",
+          "createdAt": "2026-10-25T12:46:48.425Z",
+          "map": "00split",
+          "side": "a",
+          "result": "win",
+          "score": 1124,
+          "oppScore": 736,
+          "myDraft": [
+            "6",
+            "9",
+            "11",
+            "0",
+            "7"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 754,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00split/a541d7e5-1fa0-4558-a5fd-f9aff78c1ce7.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00split",
+      "side": "b",
+      "matches": [
+        {
+          "matchId": "c6b710cb-dc10-421a-80b6-08befc9a05d2",
+          "groupId": "4550c1b4-143e-4b28-a753-a09ed811f313",
+          "createdAt": "2026-10-25T12:46:54.990Z",
+          "map": "00split",
+          "side": "b",
+          "result": "win",
+          "score": 1016,
+          "oppScore": 807,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 809,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00split/c6b710cb-dc10-421a-80b6-08befc9a05d2.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00stampede",
+      "side": "a",
+      "matches": [
+        {
+          "matchId": "3ab89c60-71d9-4505-9497-caf725d6129e",
+          "groupId": "da396247-61f6-4273-acbe-ce430546e738",
+          "createdAt": "2026-10-25T12:46:49.237Z",
+          "map": "00stampede",
+          "side": "a",
+          "result": "win",
+          "score": 666,
+          "oppScore": 454,
+          "myDraft": [
+            "1",
+            "2",
+            "11",
+            "0",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 2000,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00stampede/3ab89c60-71d9-4505-9497-caf725d6129e.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00stampede",
+      "side": "b",
+      "matches": [
+        {
+          "matchId": "39458410-c64b-4c8d-b280-c1b0c2f589b1",
+          "groupId": "4550c1b4-143e-4b28-a753-a09ed811f313",
+          "createdAt": "2026-10-25T12:46:55.008Z",
+          "map": "00stampede",
+          "side": "b",
+          "result": "win",
+          "score": 1056,
+          "oppScore": 64,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1745,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00stampede/39458410-c64b-4c8d-b280-c1b0c2f589b1.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00swirl",
+      "side": "a",
+      "matches": [
+        {
+          "matchId": "148fef1a-ef41-4e95-9c07-72f55e5ed790",
+          "groupId": "da396247-61f6-4273-acbe-ce430546e738",
+          "createdAt": "2026-10-25T12:46:49.261Z",
+          "map": "00swirl",
+          "side": "a",
+          "result": "win",
+          "score": 1008,
+          "oppScore": 76,
+          "myDraft": [
+            "10",
+            "2",
+            "6",
+            "0"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "1",
+            "7"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1060,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00swirl/148fef1a-ef41-4e95-9c07-72f55e5ed790.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00swirl",
+      "side": "b",
+      "matches": [
+        {
+          "matchId": "c949e8dc-d27f-4ad9-b215-5e2b685dd670",
+          "groupId": "4550c1b4-143e-4b28-a753-a09ed811f313",
+          "createdAt": "2026-10-25T12:46:55.021Z",
+          "map": "00swirl",
+          "side": "b",
+          "result": "win",
+          "score": 1023,
+          "oppScore": 153,
+          "myDraft": [
+            "1",
+            "2",
+            "11",
+            "10"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "1",
+            "7"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 873,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00swirl/c949e8dc-d27f-4ad9-b215-5e2b685dd670.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "01big_world",
+      "side": "a",
+      "matches": [
+        {
+          "matchId": "282be115-49d9-4ef2-8549-86bbf0d8104f",
+          "groupId": "da396247-61f6-4273-acbe-ce430546e738",
+          "createdAt": "2026-10-25T12:46:49.279Z",
+          "map": "01big_world",
+          "side": "a",
+          "result": "win",
+          "score": 1147,
+          "oppScore": 670,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 957,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01big_world/282be115-49d9-4ef2-8549-86bbf0d8104f.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "01big_world",
+      "side": "b",
+      "matches": [
+        {
+          "matchId": "ce8279c5-70cb-4592-a041-332b6e30a80d",
+          "groupId": "a59d3d78-7441-464f-bc82-12e952400ab5",
+          "createdAt": "2026-10-25T12:46:55.776Z",
+          "map": "01big_world",
+          "side": "b",
+          "result": "win",
+          "score": 1011,
+          "oppScore": 649,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 918,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01big_world/ce8279c5-70cb-4592-a041-332b6e30a80d.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "01boss_battle",
+      "side": "a",
+      "matches": [
+        {
+          "matchId": "08121a82-181d-4f71-ad22-2595b977513a",
+          "groupId": "da396247-61f6-4273-acbe-ce430546e738",
+          "createdAt": "2026-10-25T12:46:49.301Z",
+          "map": "01boss_battle",
+          "side": "a",
+          "result": "loss",
+          "score": 0,
+          "oppScore": 1330,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 683,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01boss_battle/08121a82-181d-4f71-ad22-2595b977513a.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "01boss_battle",
+      "side": "b",
+      "matches": [
+        {
+          "matchId": "2da84a63-ca25-4bdd-a095-f67136350f76",
+          "groupId": "a59d3d78-7441-464f-bc82-12e952400ab5",
+          "createdAt": "2026-10-25T12:46:55.794Z",
+          "map": "01boss_battle",
+          "side": "b",
+          "result": "loss",
+          "score": 0,
+          "oppScore": 1003,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 946,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01boss_battle/2da84a63-ca25-4bdd-a095-f67136350f76.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "01broken_curve",
+      "side": "a",
+      "matches": [
+        {
+          "matchId": "c2dbf57c-3195-4367-885f-cf332afff0de",
+          "groupId": "da396247-61f6-4273-acbe-ce430546e738",
+          "createdAt": "2026-10-25T12:46:49.324Z",
+          "map": "01broken_curve",
+          "side": "a",
+          "result": "win",
+          "score": 1029,
+          "oppScore": 728,
+          "myDraft": [
+            "1",
+            "6",
+            "2"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "3"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1072,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01broken_curve/c2dbf57c-3195-4367-885f-cf332afff0de.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "01broken_curve",
+      "side": "b",
+      "matches": [
+        {
+          "matchId": "5b18ed10-73cb-4eda-8a6d-7aba7063cf41",
+          "groupId": "a59d3d78-7441-464f-bc82-12e952400ab5",
+          "createdAt": "2026-10-25T12:46:55.816Z",
+          "map": "01broken_curve",
+          "side": "b",
+          "result": "win",
+          "score": 1003,
+          "oppScore": 995,
+          "myDraft": [
+            "1",
+            "2",
+            "11"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "3"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 797,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01broken_curve/5b18ed10-73cb-4eda-8a6d-7aba7063cf41.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "01concentrated_wealth",
+      "side": "a",
+      "matches": [
+        {
+          "matchId": "6e39c776-6135-4891-8088-18155a1f565b",
+          "groupId": "07fa4b2e-b9bf-48e2-8017-f69bdb65994a",
+          "createdAt": "2026-10-25T12:46:50.129Z",
+          "map": "01concentrated_wealth",
+          "side": "a",
+          "result": "win",
+          "score": 1003,
+          "oppScore": 621,
+          "myDraft": [
+            "1",
+            "2",
+            "11",
+            "9",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1566,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01concentrated_wealth/6e39c776-6135-4891-8088-18155a1f565b.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "01concentrated_wealth",
+      "side": "b",
+      "matches": [
+        {
+          "matchId": "15b70331-0c67-47b6-bd24-92d49ed65ab1",
+          "groupId": "a59d3d78-7441-464f-bc82-12e952400ab5",
+          "createdAt": "2026-10-25T12:46:55.832Z",
+          "map": "01concentrated_wealth",
+          "side": "b",
+          "result": "win",
+          "score": 1057,
+          "oppScore": 190,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1259,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01concentrated_wealth/15b70331-0c67-47b6-bd24-92d49ed65ab1.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "01corridors",
+      "side": "a",
+      "matches": [
+        {
+          "matchId": "41c0da7e-8649-4741-bedd-b6a378746c33",
+          "groupId": "07fa4b2e-b9bf-48e2-8017-f69bdb65994a",
+          "createdAt": "2026-10-25T12:46:50.147Z",
+          "map": "01corridors",
+          "side": "a",
+          "result": "loss",
+          "score": 0,
+          "oppScore": 1004,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 975,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01corridors/41c0da7e-8649-4741-bedd-b6a378746c33.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "01corridors",
+      "side": "b",
+      "matches": [
+        {
+          "matchId": "2d10218a-73f2-4e75-b2f8-8d6bbe1346f1",
+          "groupId": "a59d3d78-7441-464f-bc82-12e952400ab5",
+          "createdAt": "2026-10-25T12:46:55.850Z",
+          "map": "01corridors",
+          "side": "b",
+          "result": "loss",
+          "score": 0,
+          "oppScore": 1062,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 924,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01corridors/2d10218a-73f2-4e75-b2f8-8d6bbe1346f1.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "01elk_arena",
+      "side": "a",
+      "matches": [
+        {
+          "matchId": "358d70df-f758-4df7-82a4-2a0cb0e0b8f7",
+          "groupId": "07fa4b2e-b9bf-48e2-8017-f69bdb65994a",
+          "createdAt": "2026-10-25T12:46:50.166Z",
+          "map": "01elk_arena",
+          "side": "a",
+          "result": "loss",
+          "score": 0,
+          "oppScore": 1008,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1045,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01elk_arena/358d70df-f758-4df7-82a4-2a0cb0e0b8f7.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "01elk_arena",
+      "side": "b",
+      "matches": [
+        {
+          "matchId": "0456e6e9-5164-47f1-9abf-001fdcdcd321",
+          "groupId": "6da6cb04-b536-4a25-860a-673098e1bc71",
+          "createdAt": "2026-10-25T12:46:56.807Z",
+          "map": "01elk_arena",
+          "side": "b",
+          "result": "loss",
+          "score": 0,
+          "oppScore": 1008,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1044,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01elk_arena/0456e6e9-5164-47f1-9abf-001fdcdcd321.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "01fracture",
+      "side": "a",
+      "matches": [
+        {
+          "matchId": "2372ccc2-de74-4e3b-9893-8544e0a8e903",
+          "groupId": "07fa4b2e-b9bf-48e2-8017-f69bdb65994a",
+          "createdAt": "2026-10-25T12:46:50.184Z",
+          "map": "01fracture",
+          "side": "a",
+          "result": "loss",
+          "score": 123,
+          "oppScore": 1015,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 998,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01fracture/2372ccc2-de74-4e3b-9893-8544e0a8e903.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "01fracture",
+      "side": "b",
+      "matches": [
+        {
+          "matchId": "00eb8e7a-8412-4576-860b-0509bc70632e",
+          "groupId": "6da6cb04-b536-4a25-860a-673098e1bc71",
+          "createdAt": "2026-10-25T12:46:56.861Z",
+          "map": "01fracture",
+          "side": "b",
+          "result": "loss",
+          "score": 34,
+          "oppScore": 1065,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1006,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01fracture/00eb8e7a-8412-4576-860b-0509bc70632e.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "01gold_rush",
+      "side": "a",
+      "matches": [
+        {
+          "matchId": "1bc7f973-1737-410d-9a28-bfbb6d0199ec",
+          "groupId": "07fa4b2e-b9bf-48e2-8017-f69bdb65994a",
+          "createdAt": "2026-10-25T12:46:50.198Z",
+          "map": "01gold_rush",
+          "side": "a",
+          "result": "win",
+          "score": 1009,
+          "oppScore": 11,
+          "myDraft": [
+            "1",
+            "2",
+            "11"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "3"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 976,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01gold_rush/1bc7f973-1737-410d-9a28-bfbb6d0199ec.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "01gold_rush",
+      "side": "b",
+      "matches": [
+        {
+          "matchId": "6b061972-2533-4636-af2e-d9cf7bb81795",
+          "groupId": "6da6cb04-b536-4a25-860a-673098e1bc71",
+          "createdAt": "2026-10-25T12:46:56.898Z",
+          "map": "01gold_rush",
+          "side": "b",
+          "result": "win",
+          "score": 1009,
+          "oppScore": 55,
+          "myDraft": [
+            "1",
+            "2",
+            "11"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "3"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1106,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01gold_rush/6b061972-2533-4636-af2e-d9cf7bb81795.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "01hooks",
+      "side": "a",
+      "matches": [
+        {
+          "matchId": "a4500b8f-31b9-4109-a5ad-cb73e248f35f",
+          "groupId": "96fe63b6-01d7-4627-a3f4-716ce8cbd96d",
+          "createdAt": "2026-10-25T12:46:51.022Z",
+          "map": "01hooks",
+          "side": "a",
+          "result": "win",
+          "score": 1012,
+          "oppScore": 44,
+          "myDraft": [
+            "5",
+            "1",
+            "6",
+            "11"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "1",
+            "7"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1062,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01hooks/a4500b8f-31b9-4109-a5ad-cb73e248f35f.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "01hooks",
+      "side": "b",
+      "matches": [
+        {
+          "matchId": "0046664e-208b-4b03-86e6-907f25385d83",
+          "groupId": "6da6cb04-b536-4a25-860a-673098e1bc71",
+          "createdAt": "2026-10-25T12:46:56.916Z",
+          "map": "01hooks",
+          "side": "b",
+          "result": "win",
+          "score": 1001,
+          "oppScore": 33,
+          "myDraft": [
+            "11",
+            "1",
+            "0",
+            "6"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "1",
+            "7"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1138,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01hooks/0046664e-208b-4b03-86e6-907f25385d83.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "01islands",
+      "side": "a",
+      "matches": [
+        {
+          "matchId": "2a59cfe9-8fac-4d2a-be2e-3b9875f25821",
+          "groupId": "96fe63b6-01d7-4627-a3f4-716ce8cbd96d",
+          "createdAt": "2026-10-25T12:46:51.055Z",
+          "map": "01islands",
+          "side": "a",
+          "result": "win",
+          "score": 1024,
+          "oppScore": 787,
+          "myDraft": [
+            "1",
+            "2",
+            "11",
+            "9",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 771,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01islands/2a59cfe9-8fac-4d2a-be2e-3b9875f25821.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "01islands",
+      "side": "b",
+      "matches": [
+        {
+          "matchId": "71092ad6-7fec-48ee-9a31-1ef2df510b95",
+          "groupId": "6da6cb04-b536-4a25-860a-673098e1bc71",
+          "createdAt": "2026-10-25T12:46:56.930Z",
+          "map": "01islands",
+          "side": "b",
+          "result": "win",
+          "score": 1005,
+          "oppScore": 993,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 887,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01islands/71092ad6-7fec-48ee-9a31-1ef2df510b95.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "01shortcut",
+      "side": "a",
+      "matches": [
+        {
+          "matchId": "901d6b36-7e48-43e2-b7a9-5d476073c029",
+          "groupId": "96fe63b6-01d7-4627-a3f4-716ce8cbd96d",
+          "createdAt": "2026-10-25T12:46:51.072Z",
+          "map": "01shortcut",
+          "side": "a",
+          "result": "win",
+          "score": 1186,
+          "oppScore": 250,
+          "myDraft": [
+            "1",
+            "2",
+            "11",
+            "10"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "1",
+            "7"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 882,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01shortcut/901d6b36-7e48-43e2-b7a9-5d476073c029.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "01shortcut",
+      "side": "b",
+      "matches": [
+        {
+          "matchId": "7700d225-d46d-42f2-98db-6e72cd44a023",
+          "groupId": "3bb3a4ad-e02d-4933-aa90-619f9327cbdf",
+          "createdAt": "2026-10-25T12:46:57.757Z",
+          "map": "01shortcut",
+          "side": "b",
+          "result": "win",
+          "score": 1072,
+          "oppScore": 500,
+          "myDraft": [
+            "1",
+            "2",
+            "11",
+            "10"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "1",
+            "7"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 834,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01shortcut/7700d225-d46d-42f2-98db-6e72cd44a023.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "01starfish",
+      "side": "a",
+      "matches": [
+        {
+          "matchId": "9e96e6cc-d436-4810-aa3a-f2539855f1d1",
+          "groupId": "96fe63b6-01d7-4627-a3f4-716ce8cbd96d",
+          "createdAt": "2026-10-25T12:46:51.092Z",
+          "map": "01starfish",
+          "side": "a",
+          "result": "win",
+          "score": 1009,
+          "oppScore": 268,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1259,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01starfish/9e96e6cc-d436-4810-aa3a-f2539855f1d1.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "01starfish",
+      "side": "b",
+      "matches": [
+        {
+          "matchId": "5f2296b5-7aaa-4b0d-97b7-ec058b0c6a4c",
+          "groupId": "3bb3a4ad-e02d-4933-aa90-619f9327cbdf",
+          "createdAt": "2026-10-25T12:46:57.767Z",
+          "map": "01starfish",
+          "side": "b",
+          "result": "win",
+          "score": 1067,
+          "oppScore": 197,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1278,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01starfish/5f2296b5-7aaa-4b0d-97b7-ec058b0c6a4c.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "01starvation",
+      "side": "a",
+      "matches": [
+        {
+          "matchId": "07b04ae5-fe47-48c1-aea4-cf8ca40b2710",
+          "groupId": "96fe63b6-01d7-4627-a3f4-716ce8cbd96d",
+          "createdAt": "2026-10-25T12:46:51.112Z",
+          "map": "01starvation",
+          "side": "a",
+          "result": "win",
+          "score": 1000,
+          "oppScore": 348,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1601,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01starvation/07b04ae5-fe47-48c1-aea4-cf8ca40b2710.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "01starvation",
+      "side": "b",
+      "matches": [
+        {
+          "matchId": "07c21156-058a-4b96-8b86-b0db58a23220",
+          "groupId": "3bb3a4ad-e02d-4933-aa90-619f9327cbdf",
+          "createdAt": "2026-10-25T12:46:57.782Z",
+          "map": "01starvation",
+          "side": "b",
+          "result": "win",
+          "score": 1144,
+          "oppScore": 224,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1657,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01starvation/07c21156-058a-4b96-8b86-b0db58a23220.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "01the_farm",
+      "side": "a",
+      "matches": [
+        {
+          "matchId": "8fb2b13a-0850-4a52-b38d-017bcb21ff44",
+          "groupId": "a8e54ab8-a8be-4147-970e-88ee2ed33982",
+          "createdAt": "2026-10-25T12:46:51.865Z",
+          "map": "01the_farm",
+          "side": "a",
+          "result": "win",
+          "score": 1002,
+          "oppScore": 845,
+          "myDraft": [
+            "1",
+            "2",
+            "11"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "3"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 911,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01the_farm/8fb2b13a-0850-4a52-b38d-017bcb21ff44.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "01the_farm",
+      "side": "b",
+      "matches": [
+        {
+          "matchId": "41b27986-1de6-4518-b3ab-e49a1f80ce10",
+          "groupId": "3bb3a4ad-e02d-4933-aa90-619f9327cbdf",
+          "createdAt": "2026-10-25T12:46:57.794Z",
+          "map": "01the_farm",
+          "side": "b",
+          "result": "win",
+          "score": 1340,
+          "oppScore": 915,
+          "myDraft": [
+            "1",
+            "2",
+            "11"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "3"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1021,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01the_farm/41b27986-1de6-4518-b3ab-e49a1f80ce10.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "01yellow_brick_road",
+      "side": "a",
+      "matches": [
+        {
+          "matchId": "fa6f18c5-16a0-4f65-8c9f-4e33a0b938f6",
+          "groupId": "a8e54ab8-a8be-4147-970e-88ee2ed33982",
+          "createdAt": "2026-10-25T12:46:51.877Z",
+          "map": "01yellow_brick_road",
+          "side": "a",
+          "result": "win",
+          "score": 1004,
+          "oppScore": 530,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1239,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01yellow_brick_road/fa6f18c5-16a0-4f65-8c9f-4e33a0b938f6.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "01yellow_brick_road",
+      "side": "b",
+      "matches": [
+        {
+          "matchId": "9caaa30f-5383-4daa-9acb-32c4ecf1b017",
+          "groupId": "3bb3a4ad-e02d-4933-aa90-619f9327cbdf",
+          "createdAt": "2026-10-25T12:46:57.819Z",
+          "map": "01yellow_brick_road",
+          "side": "b",
+          "result": "win",
+          "score": 1010,
+          "oppScore": 433,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1132,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01yellow_brick_road/9caaa30f-5383-4daa-9acb-32c4ecf1b017.repl26a"
+        }
+      ]
+    }
+  ],
+  "maps": [
+    {
+      "map": "00ambush",
+      "tested": 2,
+      "wins": 2,
+      "rows": [
+        {
+          "matchId": "e0b466ba-4d2a-4ece-981e-50af84fef1e9",
+          "groupId": "99f9024d-3ecb-4b54-81b3-627af28fa196",
+          "createdAt": "2026-10-25T12:42:29.833Z",
+          "map": "00ambush",
+          "side": "a",
+          "result": "win",
+          "score": 1020,
+          "oppScore": 643,
+          "myDraft": [
+            "1",
+            "2",
+            "11",
+            "9",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1044,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00ambush/e0b466ba-4d2a-4ece-981e-50af84fef1e9.repl26a"
+        },
+        {
+          "matchId": "75a7deca-73ae-42a0-a725-0111d10f96a3",
+          "groupId": "a8e54ab8-a8be-4147-970e-88ee2ed33982",
+          "createdAt": "2026-10-25T12:46:51.888Z",
+          "map": "00ambush",
+          "side": "b",
+          "result": "win",
+          "score": 1011,
+          "oppScore": 573,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1109,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00ambush/75a7deca-73ae-42a0-a725-0111d10f96a3.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00collision",
+      "tested": 2,
+      "wins": 0,
+      "rows": [
+        {
+          "matchId": "b0e68ad5-05a3-47a0-8b19-b7a552911a0e",
+          "groupId": "28b77a1d-64ce-4591-8028-3c14a6b808b1",
+          "createdAt": "2026-10-25T12:46:45.723Z",
+          "map": "00collision",
+          "side": "a",
+          "result": "loss",
+          "score": 0,
+          "oppScore": 1022,
+          "myDraft": [
+            "6",
+            "2",
+            "0"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "3"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 795,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00collision/b0e68ad5-05a3-47a0-8b19-b7a552911a0e.repl26a"
+        },
+        {
+          "matchId": "4b647409-a302-4525-b6e8-74d4054a959e",
+          "groupId": "99f9024d-3ecb-4b54-81b3-627af28fa196",
+          "createdAt": "2026-10-25T12:42:29.853Z",
+          "map": "00collision",
+          "side": "b",
+          "result": "loss",
+          "score": 0,
+          "oppScore": 1004,
+          "myDraft": [
+            "6",
+            "2",
+            "0"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "3"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 765,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00collision/4b647409-a302-4525-b6e8-74d4054a959e.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00contest",
+      "tested": 2,
+      "wins": 1,
+      "rows": [
+        {
+          "matchId": "35cc256e-0960-446f-a7da-ae5311dd97d3",
+          "groupId": "99f9024d-3ecb-4b54-81b3-627af28fa196",
+          "createdAt": "2026-10-25T12:42:29.872Z",
+          "map": "00contest",
+          "side": "a",
+          "result": "loss",
+          "score": 0,
+          "oppScore": 0,
+          "myDraft": [
+            "11",
+            "0",
+            "2",
+            "1",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 2000,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00contest/35cc256e-0960-446f-a7da-ae5311dd97d3.repl26a"
+        },
+        {
+          "matchId": "5210ede9-93b8-4bd2-9c2d-211930d0c26c",
+          "groupId": "a8e54ab8-a8be-4147-970e-88ee2ed33982",
+          "createdAt": "2026-10-25T12:46:51.901Z",
+          "map": "00contest",
+          "side": "b",
+          "result": "win",
+          "score": 1000,
+          "oppScore": 0,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1479,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00contest/5210ede9-93b8-4bd2-9c2d-211930d0c26c.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00corners",
+      "tested": 2,
+      "wins": 2,
+      "rows": [
+        {
+          "matchId": "adb3d0f5-36c3-449e-a603-4c3b9a5e052b",
+          "groupId": "28b77a1d-64ce-4591-8028-3c14a6b808b1",
+          "createdAt": "2026-10-25T12:46:45.743Z",
+          "map": "00corners",
+          "side": "a",
+          "result": "win",
+          "score": 1010,
+          "oppScore": 405,
+          "myDraft": [
+            "1",
+            "0",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 965,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00corners/adb3d0f5-36c3-449e-a603-4c3b9a5e052b.repl26a"
+        },
+        {
+          "matchId": "024ca8bb-28fd-4931-8df0-f9caac4ca703",
+          "groupId": "99f9024d-3ecb-4b54-81b3-627af28fa196",
+          "createdAt": "2026-10-25T12:42:29.904Z",
+          "map": "00corners",
+          "side": "b",
+          "result": "win",
+          "score": 1022,
+          "oppScore": 247,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1086,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00corners/024ca8bb-28fd-4931-8df0-f9caac4ca703.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00eight",
+      "tested": 2,
+      "wins": 2,
+      "rows": [
+        {
+          "matchId": "8a0c7149-91d4-4b90-a43d-3b43c3c9bbe6",
+          "groupId": "99f9024d-3ecb-4b54-81b3-627af28fa196",
+          "createdAt": "2026-10-25T12:42:29.936Z",
+          "map": "00eight",
+          "side": "a",
+          "result": "win",
+          "score": 1007,
+          "oppScore": 509,
+          "myDraft": [
+            "6",
+            "0",
+            "7",
+            "10",
+            "5"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1038,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00eight/8a0c7149-91d4-4b90-a43d-3b43c3c9bbe6.repl26a"
+        },
+        {
+          "matchId": "45fb51f8-cb5c-47b8-bd87-006a2545d0aa",
+          "groupId": "a8e54ab8-a8be-4147-970e-88ee2ed33982",
+          "createdAt": "2026-10-25T12:46:51.913Z",
+          "map": "00eight",
+          "side": "b",
+          "result": "win",
+          "score": 1073,
+          "oppScore": 728,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1241,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00eight/45fb51f8-cb5c-47b8-bd87-006a2545d0aa.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00elkring",
+      "tested": 2,
+      "wins": 2,
+      "rows": [
+        {
+          "matchId": "a20eed80-8cdf-408f-b042-7515669443a6",
+          "groupId": "28b77a1d-64ce-4591-8028-3c14a6b808b1",
+          "createdAt": "2026-10-25T12:46:45.758Z",
+          "map": "00elkring",
+          "side": "a",
+          "result": "win",
+          "score": 1001,
+          "oppScore": 880,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 870,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00elkring/a20eed80-8cdf-408f-b042-7515669443a6.repl26a"
+        },
+        {
+          "matchId": "b9094439-be6d-4a31-b936-d42d6de84e99",
+          "groupId": "f702e446-5a7b-4fb0-baf7-115d841462c8",
+          "createdAt": "2026-10-25T12:42:31.392Z",
+          "map": "00elkring",
+          "side": "b",
+          "result": "win",
+          "score": 1001,
+          "oppScore": 957,
+          "myDraft": [
+            "11",
+            "1",
+            "2",
+            "6",
+            "7"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 855,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00elkring/b9094439-be6d-4a31-b936-d42d6de84e99.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00expanse",
+      "tested": 2,
+      "wins": 2,
+      "rows": [
+        {
+          "matchId": "5dc1d9ed-70c1-4f18-955f-84d3cb7edbf3",
+          "groupId": "f702e446-5a7b-4fb0-baf7-115d841462c8",
+          "createdAt": "2026-10-25T12:42:31.405Z",
+          "map": "00expanse",
+          "side": "a",
+          "result": "win",
+          "score": 1040,
+          "oppScore": 896,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 984,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00expanse/5dc1d9ed-70c1-4f18-955f-84d3cb7edbf3.repl26a"
+        },
+        {
+          "matchId": "2e878d8d-ad01-4689-926f-173d0c17b753",
+          "groupId": "92461a7c-c390-4ebb-9300-7d7ed0e0b4c4",
+          "createdAt": "2026-10-25T12:46:53.010Z",
+          "map": "00expanse",
+          "side": "b",
+          "result": "win",
+          "score": 1015,
+          "oppScore": 863,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1015,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00expanse/2e878d8d-ad01-4689-926f-173d0c17b753.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00fragment",
+      "tested": 2,
+      "wins": 2,
+      "rows": [
+        {
+          "matchId": "61ec5f1b-8d1d-4aa8-b419-c098c3598725",
+          "groupId": "28b77a1d-64ce-4591-8028-3c14a6b808b1",
+          "createdAt": "2026-10-25T12:46:45.787Z",
+          "map": "00fragment",
+          "side": "a",
+          "result": "win",
+          "score": 1000,
+          "oppScore": 170,
+          "myDraft": [
+            "1",
+            "11",
+            "6"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "3"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1675,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00fragment/61ec5f1b-8d1d-4aa8-b419-c098c3598725.repl26a"
+        },
+        {
+          "matchId": "daea8f79-5708-4299-9569-8e61c602b468",
+          "groupId": "f702e446-5a7b-4fb0-baf7-115d841462c8",
+          "createdAt": "2026-10-25T12:42:31.418Z",
+          "map": "00fragment",
+          "side": "b",
+          "result": "win",
+          "score": 1002,
+          "oppScore": 98,
+          "myDraft": [
+            "1",
+            "2",
+            "11"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "3"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1684,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00fragment/daea8f79-5708-4299-9569-8e61c602b468.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00gem_fields",
+      "tested": 2,
+      "wins": 2,
+      "rows": [
+        {
+          "matchId": "436d90c0-1b95-4020-9c27-7a3df18f4cea",
+          "groupId": "f702e446-5a7b-4fb0-baf7-115d841462c8",
+          "createdAt": "2026-10-25T12:42:31.434Z",
+          "map": "00gem_fields",
+          "side": "a",
+          "result": "win",
+          "score": 1055,
+          "oppScore": 660,
+          "myDraft": [
+            "11",
+            "1",
+            "2",
+            "6",
+            "7"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 825,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00gem_fields/436d90c0-1b95-4020-9c27-7a3df18f4cea.repl26a"
+        },
+        {
+          "matchId": "316a8980-d39f-4c52-82ac-81048d177c6b",
+          "groupId": "92461a7c-c390-4ebb-9300-7d7ed0e0b4c4",
+          "createdAt": "2026-10-25T12:46:53.060Z",
+          "map": "00gem_fields",
+          "side": "b",
+          "result": "win",
+          "score": 1009,
+          "oppScore": 656,
+          "myDraft": [
+            "6",
+            "1",
+            "2",
+            "7",
+            "11"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 606,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00gem_fields/316a8980-d39f-4c52-82ac-81048d177c6b.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00gemfight",
+      "tested": 2,
+      "wins": 1,
+      "rows": [
+        {
+          "matchId": "e9d7d046-5aa4-4b3d-a899-19bc246344e5",
+          "groupId": "28b77a1d-64ce-4591-8028-3c14a6b808b1",
+          "createdAt": "2026-10-25T12:46:45.828Z",
+          "map": "00gemfight",
+          "side": "a",
+          "result": "loss",
+          "score": 21,
+          "oppScore": 1016,
+          "myDraft": [
+            "6",
+            "2",
+            "0",
+            "1"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "1",
+            "7"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 625,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00gemfight/e9d7d046-5aa4-4b3d-a899-19bc246344e5.repl26a"
+        },
+        {
+          "matchId": "14144ceb-1c4f-4cb7-a114-bfd4ca13e4c6",
+          "groupId": "f702e446-5a7b-4fb0-baf7-115d841462c8",
+          "createdAt": "2026-10-25T12:42:31.453Z",
+          "map": "00gemfight",
+          "side": "b",
+          "result": "win",
+          "score": 1017,
+          "oppScore": 15,
+          "myDraft": [
+            "1",
+            "2",
+            "11",
+            "10"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "1",
+            "7"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 710,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00gemfight/14144ceb-1c4f-4cb7-a114-bfd4ca13e4c6.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00great_wall",
+      "tested": 2,
+      "wins": 0,
+      "rows": [
+        {
+          "matchId": "992a60dd-4e4b-4f48-88b3-b2b29be37bda",
+          "groupId": "145f0aca-02ae-462a-a006-63077d70c387",
+          "createdAt": "2026-10-25T12:42:32.742Z",
+          "map": "00great_wall",
+          "side": "a",
+          "result": "loss",
+          "score": 0,
+          "oppScore": 1002,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 606,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00great_wall/992a60dd-4e4b-4f48-88b3-b2b29be37bda.repl26a"
+        },
+        {
+          "matchId": "ecfd1c32-587a-4226-8794-8055721a58b0",
+          "groupId": "92461a7c-c390-4ebb-9300-7d7ed0e0b4c4",
+          "createdAt": "2026-10-25T12:46:53.117Z",
+          "map": "00great_wall",
+          "side": "b",
+          "result": "loss",
+          "score": 0,
+          "oppScore": 1002,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 938,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00great_wall/ecfd1c32-587a-4226-8794-8055721a58b0.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00interlock",
+      "tested": 2,
+      "wins": 1,
+      "rows": [
+        {
+          "matchId": "d8352146-bd00-4a97-915f-0eb3870e94c3",
+          "groupId": "38a035cb-636d-457c-a789-c1835744c805",
+          "createdAt": "2026-10-25T12:46:47.453Z",
+          "map": "00interlock",
+          "side": "a",
+          "result": "loss",
+          "score": 23,
+          "oppScore": 1001,
+          "myDraft": [
+            "6",
+            "2",
+            "0",
+            "1"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "1",
+            "7"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 847,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00interlock/d8352146-bd00-4a97-915f-0eb3870e94c3.repl26a"
+        },
+        {
+          "matchId": "764f5829-2000-4cd1-b194-ae40c758540d",
+          "groupId": "145f0aca-02ae-462a-a006-63077d70c387",
+          "createdAt": "2026-10-25T12:42:32.780Z",
+          "map": "00interlock",
+          "side": "b",
+          "result": "win",
+          "score": 1025,
+          "oppScore": 455,
+          "myDraft": [
+            "1",
+            "2",
+            "11",
+            "10"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "1",
+            "7"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1100,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00interlock/764f5829-2000-4cd1-b194-ae40c758540d.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00lanes",
+      "tested": 2,
+      "wins": 1,
+      "rows": [
+        {
+          "matchId": "f042cd7d-f182-4c66-b266-805d83828af9",
+          "groupId": "145f0aca-02ae-462a-a006-63077d70c387",
+          "createdAt": "2026-10-25T12:42:32.809Z",
+          "map": "00lanes",
+          "side": "a",
+          "result": "loss",
+          "score": 278,
+          "oppScore": 1008,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 785,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00lanes/f042cd7d-f182-4c66-b266-805d83828af9.repl26a"
+        },
+        {
+          "matchId": "2587cae0-a0a7-4cad-b75c-6ac2f4a4dd4c",
+          "groupId": "92461a7c-c390-4ebb-9300-7d7ed0e0b4c4",
+          "createdAt": "2026-10-25T12:46:53.153Z",
+          "map": "00lanes",
+          "side": "b",
+          "result": "win",
+          "score": 1053,
+          "oppScore": 711,
+          "myDraft": [
+            "6",
+            "2",
+            "0",
+            "1",
+            "11"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 969,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00lanes/2587cae0-a0a7-4cad-b75c-6ac2f4a4dd4c.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00lost_world",
+      "tested": 2,
+      "wins": 0,
+      "rows": [
+        {
+          "matchId": "5cb430b4-35ea-4c77-8003-e1cf3e757377",
+          "groupId": "38a035cb-636d-457c-a789-c1835744c805",
+          "createdAt": "2026-10-25T12:46:47.470Z",
+          "map": "00lost_world",
+          "side": "a",
+          "result": "loss",
+          "score": 0,
+          "oppScore": 1008,
+          "myDraft": [
+            "6",
+            "2",
+            "0",
+            "1",
+            "11"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 383,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00lost_world/5cb430b4-35ea-4c77-8003-e1cf3e757377.repl26a"
+        },
+        {
+          "matchId": "b6c5abea-fc07-4609-9750-aa6e8fde4f99",
+          "groupId": "145f0aca-02ae-462a-a006-63077d70c387",
+          "createdAt": "2026-10-25T12:42:32.822Z",
+          "map": "00lost_world",
+          "side": "b",
+          "result": "loss",
+          "score": 21,
+          "oppScore": 1016,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 404,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00lost_world/b6c5abea-fc07-4609-9750-aa6e8fde4f99.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00monolith",
+      "tested": 2,
+      "wins": 1,
+      "rows": [
+        {
+          "matchId": "3c7c3aee-77ce-483f-8d2a-18ad5bbee2fe",
+          "groupId": "145f0aca-02ae-462a-a006-63077d70c387",
+          "createdAt": "2026-10-25T12:42:32.834Z",
+          "map": "00monolith",
+          "side": "a",
+          "result": "loss",
+          "score": 141,
+          "oppScore": 1019,
+          "myDraft": [
+            "6",
+            "2",
+            "0",
+            "1",
+            "9"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1037,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00monolith/3c7c3aee-77ce-483f-8d2a-18ad5bbee2fe.repl26a"
+        },
+        {
+          "matchId": "08e89d06-e844-425a-90f6-36aaecd9f967",
+          "groupId": "92461a7c-c390-4ebb-9300-7d7ed0e0b4c4",
+          "createdAt": "2026-10-25T12:46:53.181Z",
+          "map": "00monolith",
+          "side": "b",
+          "result": "win",
+          "score": 1132,
+          "oppScore": 791,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 991,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00monolith/08e89d06-e844-425a-90f6-36aaecd9f967.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00packs",
+      "tested": 2,
+      "wins": 2,
+      "rows": [
+        {
+          "matchId": "a0987a03-8b96-4c93-a942-43f7c739cc83",
+          "groupId": "38a035cb-636d-457c-a789-c1835744c805",
+          "createdAt": "2026-10-25T12:46:47.492Z",
+          "map": "00packs",
+          "side": "a",
+          "result": "win",
+          "score": 1020,
+          "oppScore": 566,
+          "myDraft": [
+            "1",
+            "2",
+            "11"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "3"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1263,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00packs/a0987a03-8b96-4c93-a942-43f7c739cc83.repl26a"
+        },
+        {
+          "matchId": "859eadbd-43bc-4d4e-94c9-4977f7d8441a",
+          "groupId": "3d9e55cb-d873-4bc7-b758-c92c0f4d8bde",
+          "createdAt": "2026-10-25T12:46:54.117Z",
+          "map": "00packs",
+          "side": "b",
+          "result": "win",
+          "score": 1000,
+          "oppScore": 384,
+          "myDraft": [
+            "1",
+            "2",
+            "11"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "3"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1081,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00packs/859eadbd-43bc-4d4e-94c9-4977f7d8441a.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00pilgrimage",
+      "tested": 2,
+      "wins": 2,
+      "rows": [
+        {
+          "matchId": "64fd9e71-fee3-4b75-a258-9459ab4dcd57",
+          "groupId": "38a035cb-636d-457c-a789-c1835744c805",
+          "createdAt": "2026-10-25T12:46:47.512Z",
+          "map": "00pilgrimage",
+          "side": "a",
+          "result": "win",
+          "score": 1027,
+          "oppScore": 684,
+          "myDraft": [
+            "9",
+            "11",
+            "1",
+            "0",
+            "7"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1538,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00pilgrimage/64fd9e71-fee3-4b75-a258-9459ab4dcd57.repl26a"
+        },
+        {
+          "matchId": "c5c82359-dbb3-47a4-b088-aeca2e782703",
+          "groupId": "3d9e55cb-d873-4bc7-b758-c92c0f4d8bde",
+          "createdAt": "2026-10-25T12:46:54.131Z",
+          "map": "00pilgrimage",
+          "side": "b",
+          "result": "win",
+          "score": 1012,
+          "oppScore": 559,
+          "myDraft": [
+            "1",
+            "2",
+            "11",
+            "3",
+            "8"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1481,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00pilgrimage/c5c82359-dbb3-47a4-b088-aeca2e782703.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00quadrants",
+      "tested": 2,
+      "wins": 1,
+      "rows": [
+        {
+          "matchId": "a778b607-2fcb-467a-9a44-cde65e092d02",
+          "groupId": "38a035cb-636d-457c-a789-c1835744c805",
+          "createdAt": "2026-10-25T12:46:47.528Z",
+          "map": "00quadrants",
+          "side": "a",
+          "result": "loss",
+          "score": 118,
+          "oppScore": 1020,
+          "myDraft": [
+            "6",
+            "2",
+            "0",
+            "1",
+            "11"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 441,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00quadrants/a778b607-2fcb-467a-9a44-cde65e092d02.repl26a"
+        },
+        {
+          "matchId": "9edb3693-ff13-4fdd-9e6d-6ec9b3e51d3e",
+          "groupId": "3d9e55cb-d873-4bc7-b758-c92c0f4d8bde",
+          "createdAt": "2026-10-25T12:46:54.147Z",
+          "map": "00quadrants",
+          "side": "b",
+          "result": "win",
+          "score": 1035,
+          "oppScore": 843,
+          "myDraft": [
+            "1",
+            "2",
+            "11",
+            "3",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 508,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00quadrants/9edb3693-ff13-4fdd-9e6d-6ec9b3e51d3e.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00reverse_spiral",
+      "tested": 2,
+      "wins": 1,
+      "rows": [
+        {
+          "matchId": "b72d9321-2d6c-4c62-a4b1-66e43b7b0acd",
+          "groupId": "93653c15-dd45-4e82-bc05-542681de1ff5",
+          "createdAt": "2026-10-25T12:46:48.346Z",
+          "map": "00reverse_spiral",
+          "side": "a",
+          "result": "loss",
+          "score": 7,
+          "oppScore": 1027,
+          "myDraft": [
+            "6",
+            "2",
+            "0",
+            "1"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "1",
+            "7"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1062,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00reverse_spiral/b72d9321-2d6c-4c62-a4b1-66e43b7b0acd.repl26a"
+        },
+        {
+          "matchId": "6931e87a-c79c-4a79-a072-295e51b65919",
+          "groupId": "3d9e55cb-d873-4bc7-b758-c92c0f4d8bde",
+          "createdAt": "2026-10-25T12:46:54.160Z",
+          "map": "00reverse_spiral",
+          "side": "b",
+          "result": "win",
+          "score": 1021,
+          "oppScore": 217,
+          "myDraft": [
+            "1",
+            "6",
+            "0",
+            "2"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "1",
+            "7"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1444,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00reverse_spiral/6931e87a-c79c-4a79-a072-295e51b65919.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00road_of_riches",
+      "tested": 2,
+      "wins": 1,
+      "rows": [
+        {
+          "matchId": "4711e03c-5edf-49b7-b010-6d221d79ca43",
+          "groupId": "93653c15-dd45-4e82-bc05-542681de1ff5",
+          "createdAt": "2026-10-25T12:46:48.364Z",
+          "map": "00road_of_riches",
+          "side": "a",
+          "result": "loss",
+          "score": 129,
+          "oppScore": 1025,
+          "myDraft": [
+            "6",
+            "2",
+            "0",
+            "1",
+            "9"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 954,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00road_of_riches/4711e03c-5edf-49b7-b010-6d221d79ca43.repl26a"
+        },
+        {
+          "matchId": "a112dc1e-170b-4cdf-97b4-9e594e1c7900",
+          "groupId": "3d9e55cb-d873-4bc7-b758-c92c0f4d8bde",
+          "createdAt": "2026-10-25T12:46:54.177Z",
+          "map": "00road_of_riches",
+          "side": "b",
+          "result": "win",
+          "score": 1024,
+          "oppScore": 33,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 666,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00road_of_riches/a112dc1e-170b-4cdf-97b4-9e594e1c7900.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00rows",
+      "tested": 2,
+      "wins": 1,
+      "rows": [
+        {
+          "matchId": "1152cec4-1233-4eef-aa3e-e7c68ed749ba",
+          "groupId": "93653c15-dd45-4e82-bc05-542681de1ff5",
+          "createdAt": "2026-10-25T12:46:48.378Z",
+          "map": "00rows",
+          "side": "a",
+          "result": "loss",
+          "score": 459,
+          "oppScore": 1003,
+          "myDraft": [
+            "6",
+            "2",
+            "0",
+            "1"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "1",
+            "7"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1459,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00rows/1152cec4-1233-4eef-aa3e-e7c68ed749ba.repl26a"
+        },
+        {
+          "matchId": "a21d3eed-7a79-4bfb-b9de-49006593d73b",
+          "groupId": "4550c1b4-143e-4b28-a753-a09ed811f313",
+          "createdAt": "2026-10-25T12:46:54.964Z",
+          "map": "00rows",
+          "side": "b",
+          "result": "win",
+          "score": 1010,
+          "oppScore": 540,
+          "myDraft": [
+            "1",
+            "2",
+            "11",
+            "10"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "1",
+            "7"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1061,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00rows/a21d3eed-7a79-4bfb-b9de-49006593d73b.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00rushbait_v2",
+      "tested": 2,
+      "wins": 1,
+      "rows": [
+        {
+          "matchId": "6f34a076-0b1e-43dc-a38d-ba6e3fca0945",
+          "groupId": "93653c15-dd45-4e82-bc05-542681de1ff5",
+          "createdAt": "2026-10-25T12:46:48.395Z",
+          "map": "00rushbait_v2",
+          "side": "a",
+          "result": "win",
+          "score": 1028,
+          "oppScore": 842,
+          "myDraft": [
+            "2",
+            "6",
+            "11",
+            "1"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "1",
+            "7"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1095,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00rushbait_v2/6f34a076-0b1e-43dc-a38d-ba6e3fca0945.repl26a"
+        },
+        {
+          "matchId": "be6ba419-7ef8-46e7-b9ec-a64b394ea6a3",
+          "groupId": "4550c1b4-143e-4b28-a753-a09ed811f313",
+          "createdAt": "2026-10-25T12:46:54.977Z",
+          "map": "00rushbait_v2",
+          "side": "b",
+          "result": "loss",
+          "score": 51,
+          "oppScore": 1002,
+          "myDraft": [
+            "11",
+            "1",
+            "2",
+            "6"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "1",
+            "7"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 845,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00rushbait_v2/be6ba419-7ef8-46e7-b9ec-a64b394ea6a3.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00split",
+      "tested": 2,
+      "wins": 2,
+      "rows": [
+        {
+          "matchId": "a541d7e5-1fa0-4558-a5fd-f9aff78c1ce7",
+          "groupId": "93653c15-dd45-4e82-bc05-542681de1ff5",
+          "createdAt": "2026-10-25T12:46:48.425Z",
+          "map": "00split",
+          "side": "a",
+          "result": "win",
+          "score": 1124,
+          "oppScore": 736,
+          "myDraft": [
+            "6",
+            "9",
+            "11",
+            "0",
+            "7"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 754,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00split/a541d7e5-1fa0-4558-a5fd-f9aff78c1ce7.repl26a"
+        },
+        {
+          "matchId": "c6b710cb-dc10-421a-80b6-08befc9a05d2",
+          "groupId": "4550c1b4-143e-4b28-a753-a09ed811f313",
+          "createdAt": "2026-10-25T12:46:54.990Z",
+          "map": "00split",
+          "side": "b",
+          "result": "win",
+          "score": 1016,
+          "oppScore": 807,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 809,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00split/c6b710cb-dc10-421a-80b6-08befc9a05d2.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00stampede",
+      "tested": 2,
+      "wins": 2,
+      "rows": [
+        {
+          "matchId": "3ab89c60-71d9-4505-9497-caf725d6129e",
+          "groupId": "da396247-61f6-4273-acbe-ce430546e738",
+          "createdAt": "2026-10-25T12:46:49.237Z",
+          "map": "00stampede",
+          "side": "a",
+          "result": "win",
+          "score": 666,
+          "oppScore": 454,
+          "myDraft": [
+            "1",
+            "2",
+            "11",
+            "0",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 2000,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00stampede/3ab89c60-71d9-4505-9497-caf725d6129e.repl26a"
+        },
+        {
+          "matchId": "39458410-c64b-4c8d-b280-c1b0c2f589b1",
+          "groupId": "4550c1b4-143e-4b28-a753-a09ed811f313",
+          "createdAt": "2026-10-25T12:46:55.008Z",
+          "map": "00stampede",
+          "side": "b",
+          "result": "win",
+          "score": 1056,
+          "oppScore": 64,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1745,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00stampede/39458410-c64b-4c8d-b280-c1b0c2f589b1.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "00swirl",
+      "tested": 2,
+      "wins": 2,
+      "rows": [
+        {
+          "matchId": "148fef1a-ef41-4e95-9c07-72f55e5ed790",
+          "groupId": "da396247-61f6-4273-acbe-ce430546e738",
+          "createdAt": "2026-10-25T12:46:49.261Z",
+          "map": "00swirl",
+          "side": "a",
+          "result": "win",
+          "score": 1008,
+          "oppScore": 76,
+          "myDraft": [
+            "10",
+            "2",
+            "6",
+            "0"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "1",
+            "7"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1060,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00swirl/148fef1a-ef41-4e95-9c07-72f55e5ed790.repl26a"
+        },
+        {
+          "matchId": "c949e8dc-d27f-4ad9-b215-5e2b685dd670",
+          "groupId": "4550c1b4-143e-4b28-a753-a09ed811f313",
+          "createdAt": "2026-10-25T12:46:55.021Z",
+          "map": "00swirl",
+          "side": "b",
+          "result": "win",
+          "score": 1023,
+          "oppScore": 153,
+          "myDraft": [
+            "1",
+            "2",
+            "11",
+            "10"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "1",
+            "7"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 873,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "00swirl/c949e8dc-d27f-4ad9-b215-5e2b685dd670.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "01big_world",
+      "tested": 2,
+      "wins": 2,
+      "rows": [
+        {
+          "matchId": "282be115-49d9-4ef2-8549-86bbf0d8104f",
+          "groupId": "da396247-61f6-4273-acbe-ce430546e738",
+          "createdAt": "2026-10-25T12:46:49.279Z",
+          "map": "01big_world",
+          "side": "a",
+          "result": "win",
+          "score": 1147,
+          "oppScore": 670,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 957,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01big_world/282be115-49d9-4ef2-8549-86bbf0d8104f.repl26a"
+        },
+        {
+          "matchId": "ce8279c5-70cb-4592-a041-332b6e30a80d",
+          "groupId": "a59d3d78-7441-464f-bc82-12e952400ab5",
+          "createdAt": "2026-10-25T12:46:55.776Z",
+          "map": "01big_world",
+          "side": "b",
+          "result": "win",
+          "score": 1011,
+          "oppScore": 649,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 918,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01big_world/ce8279c5-70cb-4592-a041-332b6e30a80d.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "01boss_battle",
+      "tested": 2,
+      "wins": 0,
+      "rows": [
+        {
+          "matchId": "08121a82-181d-4f71-ad22-2595b977513a",
+          "groupId": "da396247-61f6-4273-acbe-ce430546e738",
+          "createdAt": "2026-10-25T12:46:49.301Z",
+          "map": "01boss_battle",
+          "side": "a",
+          "result": "loss",
+          "score": 0,
+          "oppScore": 1330,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 683,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01boss_battle/08121a82-181d-4f71-ad22-2595b977513a.repl26a"
+        },
+        {
+          "matchId": "2da84a63-ca25-4bdd-a095-f67136350f76",
+          "groupId": "a59d3d78-7441-464f-bc82-12e952400ab5",
+          "createdAt": "2026-10-25T12:46:55.794Z",
+          "map": "01boss_battle",
+          "side": "b",
+          "result": "loss",
+          "score": 0,
+          "oppScore": 1003,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 946,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01boss_battle/2da84a63-ca25-4bdd-a095-f67136350f76.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "01broken_curve",
+      "tested": 2,
+      "wins": 2,
+      "rows": [
+        {
+          "matchId": "c2dbf57c-3195-4367-885f-cf332afff0de",
+          "groupId": "da396247-61f6-4273-acbe-ce430546e738",
+          "createdAt": "2026-10-25T12:46:49.324Z",
+          "map": "01broken_curve",
+          "side": "a",
+          "result": "win",
+          "score": 1029,
+          "oppScore": 728,
+          "myDraft": [
+            "1",
+            "6",
+            "2"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "3"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1072,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01broken_curve/c2dbf57c-3195-4367-885f-cf332afff0de.repl26a"
+        },
+        {
+          "matchId": "5b18ed10-73cb-4eda-8a6d-7aba7063cf41",
+          "groupId": "a59d3d78-7441-464f-bc82-12e952400ab5",
+          "createdAt": "2026-10-25T12:46:55.816Z",
+          "map": "01broken_curve",
+          "side": "b",
+          "result": "win",
+          "score": 1003,
+          "oppScore": 995,
+          "myDraft": [
+            "1",
+            "2",
+            "11"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "3"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 797,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01broken_curve/5b18ed10-73cb-4eda-8a6d-7aba7063cf41.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "01concentrated_wealth",
+      "tested": 2,
+      "wins": 2,
+      "rows": [
+        {
+          "matchId": "6e39c776-6135-4891-8088-18155a1f565b",
+          "groupId": "07fa4b2e-b9bf-48e2-8017-f69bdb65994a",
+          "createdAt": "2026-10-25T12:46:50.129Z",
+          "map": "01concentrated_wealth",
+          "side": "a",
+          "result": "win",
+          "score": 1003,
+          "oppScore": 621,
+          "myDraft": [
+            "1",
+            "2",
+            "11",
+            "9",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1566,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01concentrated_wealth/6e39c776-6135-4891-8088-18155a1f565b.repl26a"
+        },
+        {
+          "matchId": "15b70331-0c67-47b6-bd24-92d49ed65ab1",
+          "groupId": "a59d3d78-7441-464f-bc82-12e952400ab5",
+          "createdAt": "2026-10-25T12:46:55.832Z",
+          "map": "01concentrated_wealth",
+          "side": "b",
+          "result": "win",
+          "score": 1057,
+          "oppScore": 190,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1259,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01concentrated_wealth/15b70331-0c67-47b6-bd24-92d49ed65ab1.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "01corridors",
+      "tested": 2,
+      "wins": 0,
+      "rows": [
+        {
+          "matchId": "41c0da7e-8649-4741-bedd-b6a378746c33",
+          "groupId": "07fa4b2e-b9bf-48e2-8017-f69bdb65994a",
+          "createdAt": "2026-10-25T12:46:50.147Z",
+          "map": "01corridors",
+          "side": "a",
+          "result": "loss",
+          "score": 0,
+          "oppScore": 1004,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 975,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01corridors/41c0da7e-8649-4741-bedd-b6a378746c33.repl26a"
+        },
+        {
+          "matchId": "2d10218a-73f2-4e75-b2f8-8d6bbe1346f1",
+          "groupId": "a59d3d78-7441-464f-bc82-12e952400ab5",
+          "createdAt": "2026-10-25T12:46:55.850Z",
+          "map": "01corridors",
+          "side": "b",
+          "result": "loss",
+          "score": 0,
+          "oppScore": 1062,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 924,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01corridors/2d10218a-73f2-4e75-b2f8-8d6bbe1346f1.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "01elk_arena",
+      "tested": 2,
+      "wins": 0,
+      "rows": [
+        {
+          "matchId": "358d70df-f758-4df7-82a4-2a0cb0e0b8f7",
+          "groupId": "07fa4b2e-b9bf-48e2-8017-f69bdb65994a",
+          "createdAt": "2026-10-25T12:46:50.166Z",
+          "map": "01elk_arena",
+          "side": "a",
+          "result": "loss",
+          "score": 0,
+          "oppScore": 1008,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1045,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01elk_arena/358d70df-f758-4df7-82a4-2a0cb0e0b8f7.repl26a"
+        },
+        {
+          "matchId": "0456e6e9-5164-47f1-9abf-001fdcdcd321",
+          "groupId": "6da6cb04-b536-4a25-860a-673098e1bc71",
+          "createdAt": "2026-10-25T12:46:56.807Z",
+          "map": "01elk_arena",
+          "side": "b",
+          "result": "loss",
+          "score": 0,
+          "oppScore": 1008,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1044,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01elk_arena/0456e6e9-5164-47f1-9abf-001fdcdcd321.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "01fracture",
+      "tested": 2,
+      "wins": 0,
+      "rows": [
+        {
+          "matchId": "2372ccc2-de74-4e3b-9893-8544e0a8e903",
+          "groupId": "07fa4b2e-b9bf-48e2-8017-f69bdb65994a",
+          "createdAt": "2026-10-25T12:46:50.184Z",
+          "map": "01fracture",
+          "side": "a",
+          "result": "loss",
+          "score": 123,
+          "oppScore": 1015,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 998,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01fracture/2372ccc2-de74-4e3b-9893-8544e0a8e903.repl26a"
+        },
+        {
+          "matchId": "00eb8e7a-8412-4576-860b-0509bc70632e",
+          "groupId": "6da6cb04-b536-4a25-860a-673098e1bc71",
+          "createdAt": "2026-10-25T12:46:56.861Z",
+          "map": "01fracture",
+          "side": "b",
+          "result": "loss",
+          "score": 34,
+          "oppScore": 1065,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1006,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01fracture/00eb8e7a-8412-4576-860b-0509bc70632e.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "01gold_rush",
+      "tested": 2,
+      "wins": 2,
+      "rows": [
+        {
+          "matchId": "1bc7f973-1737-410d-9a28-bfbb6d0199ec",
+          "groupId": "07fa4b2e-b9bf-48e2-8017-f69bdb65994a",
+          "createdAt": "2026-10-25T12:46:50.198Z",
+          "map": "01gold_rush",
+          "side": "a",
+          "result": "win",
+          "score": 1009,
+          "oppScore": 11,
+          "myDraft": [
+            "1",
+            "2",
+            "11"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "3"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 976,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01gold_rush/1bc7f973-1737-410d-9a28-bfbb6d0199ec.repl26a"
+        },
+        {
+          "matchId": "6b061972-2533-4636-af2e-d9cf7bb81795",
+          "groupId": "6da6cb04-b536-4a25-860a-673098e1bc71",
+          "createdAt": "2026-10-25T12:46:56.898Z",
+          "map": "01gold_rush",
+          "side": "b",
+          "result": "win",
+          "score": 1009,
+          "oppScore": 55,
+          "myDraft": [
+            "1",
+            "2",
+            "11"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "3"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1106,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01gold_rush/6b061972-2533-4636-af2e-d9cf7bb81795.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "01hooks",
+      "tested": 2,
+      "wins": 2,
+      "rows": [
+        {
+          "matchId": "a4500b8f-31b9-4109-a5ad-cb73e248f35f",
+          "groupId": "96fe63b6-01d7-4627-a3f4-716ce8cbd96d",
+          "createdAt": "2026-10-25T12:46:51.022Z",
+          "map": "01hooks",
+          "side": "a",
+          "result": "win",
+          "score": 1012,
+          "oppScore": 44,
+          "myDraft": [
+            "5",
+            "1",
+            "6",
+            "11"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "1",
+            "7"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1062,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01hooks/a4500b8f-31b9-4109-a5ad-cb73e248f35f.repl26a"
+        },
+        {
+          "matchId": "0046664e-208b-4b03-86e6-907f25385d83",
+          "groupId": "6da6cb04-b536-4a25-860a-673098e1bc71",
+          "createdAt": "2026-10-25T12:46:56.916Z",
+          "map": "01hooks",
+          "side": "b",
+          "result": "win",
+          "score": 1001,
+          "oppScore": 33,
+          "myDraft": [
+            "11",
+            "1",
+            "0",
+            "6"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "1",
+            "7"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1138,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01hooks/0046664e-208b-4b03-86e6-907f25385d83.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "01islands",
+      "tested": 2,
+      "wins": 2,
+      "rows": [
+        {
+          "matchId": "2a59cfe9-8fac-4d2a-be2e-3b9875f25821",
+          "groupId": "96fe63b6-01d7-4627-a3f4-716ce8cbd96d",
+          "createdAt": "2026-10-25T12:46:51.055Z",
+          "map": "01islands",
+          "side": "a",
+          "result": "win",
+          "score": 1024,
+          "oppScore": 787,
+          "myDraft": [
+            "1",
+            "2",
+            "11",
+            "9",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 771,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01islands/2a59cfe9-8fac-4d2a-be2e-3b9875f25821.repl26a"
+        },
+        {
+          "matchId": "71092ad6-7fec-48ee-9a31-1ef2df510b95",
+          "groupId": "6da6cb04-b536-4a25-860a-673098e1bc71",
+          "createdAt": "2026-10-25T12:46:56.930Z",
+          "map": "01islands",
+          "side": "b",
+          "result": "win",
+          "score": 1005,
+          "oppScore": 993,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 887,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01islands/71092ad6-7fec-48ee-9a31-1ef2df510b95.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "01shortcut",
+      "tested": 2,
+      "wins": 2,
+      "rows": [
+        {
+          "matchId": "901d6b36-7e48-43e2-b7a9-5d476073c029",
+          "groupId": "96fe63b6-01d7-4627-a3f4-716ce8cbd96d",
+          "createdAt": "2026-10-25T12:46:51.072Z",
+          "map": "01shortcut",
+          "side": "a",
+          "result": "win",
+          "score": 1186,
+          "oppScore": 250,
+          "myDraft": [
+            "1",
+            "2",
+            "11",
+            "10"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "1",
+            "7"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 882,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01shortcut/901d6b36-7e48-43e2-b7a9-5d476073c029.repl26a"
+        },
+        {
+          "matchId": "7700d225-d46d-42f2-98db-6e72cd44a023",
+          "groupId": "3bb3a4ad-e02d-4933-aa90-619f9327cbdf",
+          "createdAt": "2026-10-25T12:46:57.757Z",
+          "map": "01shortcut",
+          "side": "b",
+          "result": "win",
+          "score": 1072,
+          "oppScore": 500,
+          "myDraft": [
+            "1",
+            "2",
+            "11",
+            "10"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "1",
+            "7"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 834,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01shortcut/7700d225-d46d-42f2-98db-6e72cd44a023.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "01starfish",
+      "tested": 2,
+      "wins": 2,
+      "rows": [
+        {
+          "matchId": "9e96e6cc-d436-4810-aa3a-f2539855f1d1",
+          "groupId": "96fe63b6-01d7-4627-a3f4-716ce8cbd96d",
+          "createdAt": "2026-10-25T12:46:51.092Z",
+          "map": "01starfish",
+          "side": "a",
+          "result": "win",
+          "score": 1009,
+          "oppScore": 268,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1259,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01starfish/9e96e6cc-d436-4810-aa3a-f2539855f1d1.repl26a"
+        },
+        {
+          "matchId": "5f2296b5-7aaa-4b0d-97b7-ec058b0c6a4c",
+          "groupId": "3bb3a4ad-e02d-4933-aa90-619f9327cbdf",
+          "createdAt": "2026-10-25T12:46:57.767Z",
+          "map": "01starfish",
+          "side": "b",
+          "result": "win",
+          "score": 1067,
+          "oppScore": 197,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1278,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01starfish/5f2296b5-7aaa-4b0d-97b7-ec058b0c6a4c.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "01starvation",
+      "tested": 2,
+      "wins": 2,
+      "rows": [
+        {
+          "matchId": "07b04ae5-fe47-48c1-aea4-cf8ca40b2710",
+          "groupId": "96fe63b6-01d7-4627-a3f4-716ce8cbd96d",
+          "createdAt": "2026-10-25T12:46:51.112Z",
+          "map": "01starvation",
+          "side": "a",
+          "result": "win",
+          "score": 1000,
+          "oppScore": 348,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1601,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01starvation/07b04ae5-fe47-48c1-aea4-cf8ca40b2710.repl26a"
+        },
+        {
+          "matchId": "07c21156-058a-4b96-8b86-b0db58a23220",
+          "groupId": "3bb3a4ad-e02d-4933-aa90-619f9327cbdf",
+          "createdAt": "2026-10-25T12:46:57.782Z",
+          "map": "01starvation",
+          "side": "b",
+          "result": "win",
+          "score": 1144,
+          "oppScore": 224,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1657,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01starvation/07c21156-058a-4b96-8b86-b0db58a23220.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "01the_farm",
+      "tested": 2,
+      "wins": 2,
+      "rows": [
+        {
+          "matchId": "8fb2b13a-0850-4a52-b38d-017bcb21ff44",
+          "groupId": "a8e54ab8-a8be-4147-970e-88ee2ed33982",
+          "createdAt": "2026-10-25T12:46:51.865Z",
+          "map": "01the_farm",
+          "side": "a",
+          "result": "win",
+          "score": 1002,
+          "oppScore": 845,
+          "myDraft": [
+            "1",
+            "2",
+            "11"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "3"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 911,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01the_farm/8fb2b13a-0850-4a52-b38d-017bcb21ff44.repl26a"
+        },
+        {
+          "matchId": "41b27986-1de6-4518-b3ab-e49a1f80ce10",
+          "groupId": "3bb3a4ad-e02d-4933-aa90-619f9327cbdf",
+          "createdAt": "2026-10-25T12:46:57.794Z",
+          "map": "01the_farm",
+          "side": "b",
+          "result": "win",
+          "score": 1340,
+          "oppScore": 915,
+          "myDraft": [
+            "1",
+            "2",
+            "11"
+          ],
+          "oppDraft": [
+            "6",
+            "2",
+            "3"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1021,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01the_farm/41b27986-1de6-4518-b3ab-e49a1f80ce10.repl26a"
+        }
+      ]
+    },
+    {
+      "map": "01yellow_brick_road",
+      "tested": 2,
+      "wins": 2,
+      "rows": [
+        {
+          "matchId": "fa6f18c5-16a0-4f65-8c9f-4e33a0b938f6",
+          "groupId": "a8e54ab8-a8be-4147-970e-88ee2ed33982",
+          "createdAt": "2026-10-25T12:46:51.877Z",
+          "map": "01yellow_brick_road",
+          "side": "a",
+          "result": "win",
+          "score": 1004,
+          "oppScore": 530,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1239,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01yellow_brick_road/fa6f18c5-16a0-4f65-8c9f-4e33a0b938f6.repl26a"
+        },
+        {
+          "matchId": "9caaa30f-5383-4daa-9acb-32c4ecf1b017",
+          "groupId": "3bb3a4ad-e02d-4933-aa90-619f9327cbdf",
+          "createdAt": "2026-10-25T12:46:57.819Z",
+          "map": "01yellow_brick_road",
+          "side": "b",
+          "result": "win",
+          "score": 1010,
+          "oppScore": 433,
+          "myDraft": [
+            "1",
+            "11",
+            "2",
+            "10",
+            "6"
+          ],
+          "oppDraft": [
+            "1",
+            "2",
+            "0",
+            "10",
+            "6"
+          ],
+          "opponent": "Mite",
+          "opponentId": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+          "rounds": 1132,
+          "kind": "unranked",
+          "patchId": "1.0.3:fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f:1",
+          "version": 86,
+          "file": "01yellow_brick_road/9caaa30f-5383-4daa-9acb-32c4ecf1b017.repl26a"
+        }
+      ]
+    }
+  ]
+}

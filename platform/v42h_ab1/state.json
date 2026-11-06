@@ -1,0 +1,1423 @@
+{
+ "started": "2026-10-21T12:36:11.355Z",
+ "startedMs": 1792586171358,
+ "control": {
+  "id": "bfd64c40-f104-41a6-b78b-550f32be559a",
+  "version": 41
+ },
+ "candidate": {
+  "id": "dd3cdbe4-b181-481f-ba19-f7303bf17a37",
+  "version": 42,
+  "uploadedBy": "2003fc6d-fb3d-40aa-9d58-6d709e54f7b9",
+  "createdAt": "2026-10-21T12:36:13.555Z",
+  "size": 72802
+ },
+ "exp": {
+  "id": "dd3cdbe4-b181-481f-ba19-f7303bf17a37",
+  "version": 42,
+  "uploadedBy": "2003fc6d-fb3d-40aa-9d58-6d709e54f7b9",
+  "createdAt": "2026-10-21T12:36:13.555Z",
+  "size": 72802
+ },
+ "pending": null,
+ "external": null,
+ "incomplete": null,
+ "error": null,
+ "chunks": [
+  {
+   "chunk": 0,
+   "arm": "candidate",
+   "id": "dd3cdbe4-b181-481f-ba19-f7303bf17a37",
+   "version": 42,
+   "groups": [
+    {
+     "key": "A1",
+     "opp": "A",
+     "teamId": "bbe481a7-4575-4826-9a3e-f81c28205de8",
+     "maps": [
+      "00lanes",
+      "01the_farm",
+      "00swirl",
+      "01starfish",
+      "00fragment"
+     ],
+     "sides": [
+      "a",
+      "b",
+      "a",
+      "b",
+      "a"
+     ],
+     "groupId": "ba9356c2-ee52-4ba7-b985-d304bbe7a76a",
+     "status": "finished",
+     "matches": [
+      {
+       "matchId": "d209cdc0-7d4d-4380-88af-89646a21b2d2",
+       "map": "00lanes",
+       "side": "a",
+       "status": "finished",
+       "version": 42,
+       "result": "loss",
+       "score": 369,
+       "oppScore": 1003,
+       "rounds": 977,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "7631dffd-8fa1-4172-9dd0-ef52fd8bc500",
+       "map": "01the_farm",
+       "side": "b",
+       "status": "finished",
+       "version": 42,
+       "result": "loss",
+       "score": 230,
+       "oppScore": 1036,
+       "rounds": 996,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "e7dbc948-9729-4c0e-add2-9d11679fb35e",
+       "map": "00swirl",
+       "side": "a",
+       "status": "finished",
+       "version": 42,
+       "result": "win",
+       "score": 1046,
+       "oppScore": 747,
+       "rounds": 1039,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "fbbde8b3-7b7c-42cd-b623-224974ab6e56",
+       "map": "01starfish",
+       "side": "b",
+       "status": "finished",
+       "version": 42,
+       "result": "loss",
+       "score": 177,
+       "oppScore": 1008,
+       "rounds": 1247,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "0499c840-b2ea-45da-a749-206fdec3bfcd",
+       "map": "00fragment",
+       "side": "a",
+       "status": "finished",
+       "version": 42,
+       "result": "loss",
+       "score": 98,
+       "oppScore": 1000,
+       "rounds": 1502,
+       "endReason": "gems"
+      }
+     ],
+     "problems": []
+    },
+    {
+     "key": "A2",
+     "opp": "A",
+     "teamId": "bbe481a7-4575-4826-9a3e-f81c28205de8",
+     "maps": [
+      "00lanes",
+      "01the_farm",
+      "00swirl",
+      "01starfish",
+      "00fragment"
+     ],
+     "sides": [
+      "b",
+      "a",
+      "b",
+      "a",
+      "b"
+     ],
+     "groupId": "6d159975-f5ec-4d25-be36-c42c8f7293f0",
+     "status": "finished",
+     "matches": [
+      {
+       "matchId": "0927db3f-3c34-409f-b9f8-b97c4b8f8618",
+       "map": "00lanes",
+       "side": "b",
+       "status": "finished",
+       "version": 42,
+       "result": "loss",
+       "score": 413,
+       "oppScore": 1004,
+       "rounds": 918,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "9f2f91b9-ce2c-4957-aa14-b8874e78e53e",
+       "map": "01the_farm",
+       "side": "a",
+       "status": "finished",
+       "version": 42,
+       "result": "loss",
+       "score": 172,
+       "oppScore": 1041,
+       "rounds": 802,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "6cc089b5-725f-4653-ae1a-bf36e9766891",
+       "map": "00swirl",
+       "side": "b",
+       "status": "finished",
+       "version": 42,
+       "result": "loss",
+       "score": 120,
+       "oppScore": 1017,
+       "rounds": 812,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "1bec7de2-d5db-4dda-8b13-deda0680203a",
+       "map": "01starfish",
+       "side": "a",
+       "status": "finished",
+       "version": 42,
+       "result": "loss",
+       "score": 405,
+       "oppScore": 1165,
+       "rounds": 1221,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "2d6cfeb8-58de-4be3-b996-e7186deeb564",
+       "map": "00fragment",
+       "side": "b",
+       "status": "finished",
+       "version": 42,
+       "result": "loss",
+       "score": 80,
+       "oppScore": 1003,
+       "rounds": 1510,
+       "endReason": "gems"
+      }
+     ],
+     "problems": []
+    },
+    {
+     "key": "B1",
+     "opp": "B",
+     "teamId": "1890540d-1ffc-4847-adbf-d0d08772f268",
+     "maps": [
+      "00lanes",
+      "01the_farm",
+      "00swirl",
+      "01starfish",
+      "00fragment"
+     ],
+     "sides": [
+      "a",
+      "b",
+      "a",
+      "b",
+      "a"
+     ],
+     "groupId": "736ad702-66f4-446f-afb2-0d3aca63848a",
+     "status": "finished",
+     "matches": [
+      {
+       "matchId": "29deec9b-8470-4e21-8cef-bda7f3f54e31",
+       "map": "00lanes",
+       "side": "a",
+       "status": "finished",
+       "version": 42,
+       "result": "loss",
+       "score": 394,
+       "oppScore": 1004,
+       "rounds": 1091,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "70c2495f-2a66-49a2-903e-81d0be31a5cd",
+       "map": "01the_farm",
+       "side": "b",
+       "status": "finished",
+       "version": 42,
+       "result": "loss",
+       "score": 143,
+       "oppScore": 459,
+       "rounds": 2000,
+       "endReason": "tiebreak_gems"
+      },
+      {
+       "matchId": "113bf7af-2742-4e68-8e18-1bfbf8251939",
+       "map": "00swirl",
+       "side": "a",
+       "status": "finished",
+       "version": 42,
+       "result": "loss",
+       "score": 137,
+       "oppScore": 1019,
+       "rounds": 1085,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "4845dfdf-bcd4-4fb7-8ac5-30ed743b5fd6",
+       "map": "01starfish",
+       "side": "b",
+       "status": "finished",
+       "version": 42,
+       "result": "loss",
+       "score": 66,
+       "oppScore": 1094,
+       "rounds": 1181,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "466c9244-b21e-41b8-be44-3bfbdc59d3f1",
+       "map": "00fragment",
+       "side": "a",
+       "status": "finished",
+       "version": 42,
+       "result": "loss",
+       "score": 40,
+       "oppScore": 1000,
+       "rounds": 1399,
+       "endReason": "gems"
+      }
+     ],
+     "problems": []
+    },
+    {
+     "key": "B2",
+     "opp": "B",
+     "teamId": "1890540d-1ffc-4847-adbf-d0d08772f268",
+     "maps": [
+      "00lanes",
+      "01the_farm",
+      "00swirl",
+      "01starfish",
+      "00fragment"
+     ],
+     "sides": [
+      "b",
+      "a",
+      "b",
+      "a",
+      "b"
+     ],
+     "groupId": "69d4882e-ab99-4017-924b-a0c6b1494996",
+     "status": "finished",
+     "matches": [
+      {
+       "matchId": "52954955-803d-4e9c-af13-94bcba3d455c",
+       "map": "00lanes",
+       "side": "b",
+       "status": "finished",
+       "version": 42,
+       "result": "loss",
+       "score": 358,
+       "oppScore": 1002,
+       "rounds": 1035,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "f5f799aa-2f63-4eca-9058-88577d13918e",
+       "map": "01the_farm",
+       "side": "a",
+       "status": "finished",
+       "version": 42,
+       "result": "loss",
+       "score": 218,
+       "oppScore": 1088,
+       "rounds": 1460,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "4c0584de-b1bd-4a1a-84d2-56c19b1f6655",
+       "map": "00swirl",
+       "side": "b",
+       "status": "finished",
+       "version": 42,
+       "result": "loss",
+       "score": 0,
+       "oppScore": 1016,
+       "rounds": 902,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "ee1909da-a1b6-460d-a326-8b0711e69eb3",
+       "map": "01starfish",
+       "side": "a",
+       "status": "finished",
+       "version": 42,
+       "result": "loss",
+       "score": 133,
+       "oppScore": 1043,
+       "rounds": 1164,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "c452b2cb-3a82-4695-ad18-841807c3b518",
+       "map": "00fragment",
+       "side": "b",
+       "status": "finished",
+       "version": 42,
+       "result": "loss",
+       "score": 66,
+       "oppScore": 1016,
+       "rounds": 1511,
+       "endReason": "gems"
+      }
+     ],
+     "problems": []
+    }
+   ]
+  },
+  {
+   "chunk": 1,
+   "arm": "control",
+   "id": "bfd64c40-f104-41a6-b78b-550f32be559a",
+   "version": 41,
+   "groups": [
+    {
+     "key": "A1",
+     "opp": "A",
+     "teamId": "bbe481a7-4575-4826-9a3e-f81c28205de8",
+     "maps": [
+      "00lanes",
+      "01the_farm",
+      "00swirl",
+      "01starfish",
+      "00fragment"
+     ],
+     "sides": [
+      "a",
+      "b",
+      "a",
+      "b",
+      "a"
+     ],
+     "groupId": "8baee2da-80bc-4f5f-9926-ae418bc66962",
+     "status": "finished",
+     "matches": [
+      {
+       "matchId": "46a31f13-9f0c-4d3c-8341-6ea31b890fd2",
+       "map": "00lanes",
+       "side": "a",
+       "status": "finished",
+       "version": 41,
+       "result": "loss",
+       "score": 324,
+       "oppScore": 1001,
+       "rounds": 957,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "5efc411b-bc47-470b-acaa-f886c3af5c5c",
+       "map": "01the_farm",
+       "side": "b",
+       "status": "finished",
+       "version": 41,
+       "result": "loss",
+       "score": 190,
+       "oppScore": 1000,
+       "rounds": 956,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "4de3266e-4905-4f35-9919-560fed8195d5",
+       "map": "00swirl",
+       "side": "a",
+       "status": "finished",
+       "version": 41,
+       "result": "loss",
+       "score": 487,
+       "oppScore": 1048,
+       "rounds": 963,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "4f2f8ef0-664e-4fa5-9c38-a2825b94690c",
+       "map": "01starfish",
+       "side": "b",
+       "status": "finished",
+       "version": 41,
+       "result": "loss",
+       "score": 204,
+       "oppScore": 1045,
+       "rounds": 1247,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "98093a24-0a24-4b8d-af7e-69e045b89a44",
+       "map": "00fragment",
+       "side": "a",
+       "status": "finished",
+       "version": 41,
+       "result": "loss",
+       "score": 156,
+       "oppScore": 1000,
+       "rounds": 1603,
+       "endReason": "gems"
+      }
+     ],
+     "problems": []
+    },
+    {
+     "key": "A2",
+     "opp": "A",
+     "teamId": "bbe481a7-4575-4826-9a3e-f81c28205de8",
+     "maps": [
+      "00lanes",
+      "01the_farm",
+      "00swirl",
+      "01starfish",
+      "00fragment"
+     ],
+     "sides": [
+      "b",
+      "a",
+      "b",
+      "a",
+      "b"
+     ],
+     "groupId": "ef683426-23a5-4742-b3a3-f4b763060a95",
+     "status": "finished",
+     "matches": [
+      {
+       "matchId": "f46c388e-15dc-45ac-9042-cc4121f4ad71",
+       "map": "00lanes",
+       "side": "b",
+       "status": "finished",
+       "version": 41,
+       "result": "loss",
+       "score": 457,
+       "oppScore": 1003,
+       "rounds": 936,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "a295b987-f4f3-4d2f-a8ee-ad9da2f163c8",
+       "map": "01the_farm",
+       "side": "a",
+       "status": "finished",
+       "version": 41,
+       "result": "loss",
+       "score": 133,
+       "oppScore": 1016,
+       "rounds": 826,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "7fcf4aeb-5df1-4a8b-b2d0-787cb6ac0327",
+       "map": "00swirl",
+       "side": "b",
+       "status": "finished",
+       "version": 41,
+       "result": "loss",
+       "score": 128,
+       "oppScore": 1030,
+       "rounds": 721,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "709748d8-bdce-49df-9bb6-f0921481c1c9",
+       "map": "01starfish",
+       "side": "a",
+       "status": "finished",
+       "version": 41,
+       "result": "loss",
+       "score": 79,
+       "oppScore": 1010,
+       "rounds": 1008,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "30f55fde-4611-492d-8253-b11c61346adf",
+       "map": "00fragment",
+       "side": "b",
+       "status": "finished",
+       "version": 41,
+       "result": "loss",
+       "score": 76,
+       "oppScore": 1012,
+       "rounds": 1551,
+       "endReason": "gems"
+      }
+     ],
+     "problems": []
+    },
+    {
+     "key": "B1",
+     "opp": "B",
+     "teamId": "1890540d-1ffc-4847-adbf-d0d08772f268",
+     "maps": [
+      "00lanes",
+      "01the_farm",
+      "00swirl",
+      "01starfish",
+      "00fragment"
+     ],
+     "sides": [
+      "a",
+      "b",
+      "a",
+      "b",
+      "a"
+     ],
+     "groupId": "fbbec381-ac3d-46be-882e-82f2b3bd0019",
+     "status": "finished",
+     "matches": [
+      {
+       "matchId": "84178c58-da22-44ce-b5ff-78ea7ea25950",
+       "map": "00lanes",
+       "side": "a",
+       "status": "finished",
+       "version": 41,
+       "result": "loss",
+       "score": 535,
+       "oppScore": 1018,
+       "rounds": 1124,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "2c4938f2-28ad-4a85-9450-80930bcab000",
+       "map": "01the_farm",
+       "side": "b",
+       "status": "finished",
+       "version": 41,
+       "result": "loss",
+       "score": 129,
+       "oppScore": 326,
+       "rounds": 2000,
+       "endReason": "tiebreak_gems"
+      },
+      {
+       "matchId": "aeb76ae5-141f-483f-ba86-d0cbb367549a",
+       "map": "00swirl",
+       "side": "a",
+       "status": "finished",
+       "version": 41,
+       "result": "loss",
+       "score": 129,
+       "oppScore": 1000,
+       "rounds": 921,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "5bba21f4-311d-4ef8-8263-2ff30dbe8e73",
+       "map": "01starfish",
+       "side": "b",
+       "status": "finished",
+       "version": 41,
+       "result": "loss",
+       "score": 86,
+       "oppScore": 1021,
+       "rounds": 1027,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "ac0f677f-71f6-4545-9d50-9d0f9d489d16",
+       "map": "00fragment",
+       "side": "a",
+       "status": "finished",
+       "version": 41,
+       "result": "loss",
+       "score": 64,
+       "oppScore": 1000,
+       "rounds": 1379,
+       "endReason": "gems"
+      }
+     ],
+     "problems": []
+    },
+    {
+     "key": "B2",
+     "opp": "B",
+     "teamId": "1890540d-1ffc-4847-adbf-d0d08772f268",
+     "maps": [
+      "00lanes",
+      "01the_farm",
+      "00swirl",
+      "01starfish",
+      "00fragment"
+     ],
+     "sides": [
+      "b",
+      "a",
+      "b",
+      "a",
+      "b"
+     ],
+     "groupId": "44fd0164-8b1a-4fc5-b4d5-84a63bb5af59",
+     "status": "finished",
+     "matches": [
+      {
+       "matchId": "fd307e1b-b44c-4591-9d6b-7a9028b35408",
+       "map": "00lanes",
+       "side": "b",
+       "status": "finished",
+       "version": 41,
+       "result": "loss",
+       "score": 450,
+       "oppScore": 1003,
+       "rounds": 1094,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "2273f26c-7ce7-44ec-a184-e02b1bbacb6b",
+       "map": "01the_farm",
+       "side": "a",
+       "status": "finished",
+       "version": 41,
+       "result": "loss",
+       "score": 205,
+       "oppScore": 409,
+       "rounds": 2000,
+       "endReason": "tiebreak_gems"
+      },
+      {
+       "matchId": "31e72900-2f04-400a-ad38-e86c640a224a",
+       "map": "00swirl",
+       "side": "b",
+       "status": "finished",
+       "version": 41,
+       "result": "loss",
+       "score": 0,
+       "oppScore": 1016,
+       "rounds": 902,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "3409a533-46ee-4041-82f5-f4036ac039c0",
+       "map": "01starfish",
+       "side": "a",
+       "status": "finished",
+       "version": 41,
+       "result": "loss",
+       "score": 153,
+       "oppScore": 1019,
+       "rounds": 1271,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "84729959-ae18-4b5e-8ba9-0656db94a1ca",
+       "map": "00fragment",
+       "side": "b",
+       "status": "finished",
+       "version": 41,
+       "result": "loss",
+       "score": 70,
+       "oppScore": 1004,
+       "rounds": 1452,
+       "endReason": "gems"
+      }
+     ],
+     "problems": []
+    }
+   ]
+  },
+  {
+   "chunk": 2,
+   "arm": "control",
+   "id": "bfd64c40-f104-41a6-b78b-550f32be559a",
+   "version": 41,
+   "groups": [
+    {
+     "key": "C1",
+     "opp": "C",
+     "teamId": "f9d72b03-4526-4213-bc2f-afbf06f2a933",
+     "maps": [
+      "00lanes",
+      "01the_farm",
+      "00swirl",
+      "01starfish",
+      "00fragment"
+     ],
+     "sides": [
+      "a",
+      "b",
+      "a",
+      "b",
+      "a"
+     ],
+     "groupId": "21af2836-620b-445d-a8a6-fb28a3965f46",
+     "status": "finished",
+     "matches": [
+      {
+       "matchId": "80fbb9e2-4825-4c68-a003-768eb550c9c5",
+       "map": "00lanes",
+       "side": "a",
+       "status": "finished",
+       "version": 41,
+       "result": "loss",
+       "score": 350,
+       "oppScore": 1019,
+       "rounds": 1113,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "489a3880-e110-4ed6-8511-2f59f355dcf6",
+       "map": "01the_farm",
+       "side": "b",
+       "status": "finished",
+       "version": 41,
+       "result": "loss",
+       "score": 229,
+       "oppScore": 1033,
+       "rounds": 1186,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "bd2e86de-34ed-42a2-99ff-7b678ea1243f",
+       "map": "00swirl",
+       "side": "a",
+       "status": "finished",
+       "version": 41,
+       "result": "loss",
+       "score": 83,
+       "oppScore": 1005,
+       "rounds": 1279,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "1f93c3e8-3420-4a33-93ef-dd79e215fcd7",
+       "map": "01starfish",
+       "side": "b",
+       "status": "finished",
+       "version": 41,
+       "result": "loss",
+       "score": 715,
+       "oppScore": 1039,
+       "rounds": 1749,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "1583569b-7c51-4f97-8827-9756e57673c3",
+       "map": "00fragment",
+       "side": "a",
+       "status": "finished",
+       "version": 41,
+       "result": "loss",
+       "score": 439,
+       "oppScore": 879,
+       "rounds": 2000,
+       "endReason": "tiebreak_gems"
+      }
+     ],
+     "problems": []
+    },
+    {
+     "key": "C2",
+     "opp": "C",
+     "teamId": "f9d72b03-4526-4213-bc2f-afbf06f2a933",
+     "maps": [
+      "00lanes",
+      "01the_farm",
+      "00swirl",
+      "01starfish",
+      "00fragment"
+     ],
+     "sides": [
+      "b",
+      "a",
+      "b",
+      "a",
+      "b"
+     ],
+     "groupId": "e95abb2e-5458-42e6-abca-2291c11a448c",
+     "status": "finished",
+     "matches": [
+      {
+       "matchId": "0ddda508-bb98-4905-8695-dbec27e49d1a",
+       "map": "00lanes",
+       "side": "b",
+       "status": "finished",
+       "version": 41,
+       "result": "loss",
+       "score": 657,
+       "oppScore": 1008,
+       "rounds": 1305,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "2141cfa2-cdb4-4449-9852-9146247875bc",
+       "map": "01the_farm",
+       "side": "a",
+       "status": "finished",
+       "version": 41,
+       "result": "loss",
+       "score": 239,
+       "oppScore": 1056,
+       "rounds": 1097,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "99a30f71-fad3-49ff-baf1-ac6e444c9209",
+       "map": "00swirl",
+       "side": "b",
+       "status": "finished",
+       "version": 41,
+       "result": "loss",
+       "score": 15,
+       "oppScore": 1014,
+       "rounds": 1025,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "d63dea01-91da-4834-88c9-903988573798",
+       "map": "01starfish",
+       "side": "a",
+       "status": "finished",
+       "version": 41,
+       "result": "win",
+       "score": 1006,
+       "oppScore": 693,
+       "rounds": 1956,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "f1b3fe74-df34-4806-a893-28717d813ddc",
+       "map": "00fragment",
+       "side": "b",
+       "status": "finished",
+       "version": 41,
+       "result": "loss",
+       "score": 68,
+       "oppScore": 1012,
+       "rounds": 1435,
+       "endReason": "gems"
+      }
+     ],
+     "problems": []
+    },
+    {
+     "key": "D1",
+     "opp": "D",
+     "teamId": "ec2b57be-fa43-4e3e-9eb0-57b266624d27",
+     "maps": [
+      "00lanes",
+      "01the_farm",
+      "00swirl",
+      "01starfish",
+      "00fragment"
+     ],
+     "sides": [
+      "a",
+      "b",
+      "a",
+      "b",
+      "a"
+     ],
+     "groupId": "23efc302-4b08-4c5c-94c0-749c05885288",
+     "status": "finished",
+     "matches": [
+      {
+       "matchId": "20a0acbc-fad4-47dd-b5c0-f413b62d8761",
+       "map": "00lanes",
+       "side": "a",
+       "status": "finished",
+       "version": 41,
+       "result": "loss",
+       "score": 247,
+       "oppScore": 1004,
+       "rounds": 930,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "7e45f7bf-7718-4f1a-9175-18daf0572817",
+       "map": "01the_farm",
+       "side": "b",
+       "status": "finished",
+       "version": 41,
+       "result": "loss",
+       "score": 170,
+       "oppScore": 1019,
+       "rounds": 1067,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "9e62cce4-e93d-4daf-a1ef-29f9fd8a55fd",
+       "map": "00swirl",
+       "side": "a",
+       "status": "finished",
+       "version": 41,
+       "result": "win",
+       "score": 1034,
+       "oppScore": 76,
+       "rounds": 914,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "c0cda9a8-0fa8-4b6f-97f1-1241bb00ffea",
+       "map": "01starfish",
+       "side": "b",
+       "status": "finished",
+       "version": 41,
+       "result": "loss",
+       "score": 789,
+       "oppScore": 1008,
+       "rounds": 1458,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "9eb1518f-10a6-47cc-9ee7-ff44df69a040",
+       "map": "00fragment",
+       "side": "a",
+       "status": "finished",
+       "version": 41,
+       "result": "loss",
+       "score": 60,
+       "oppScore": 1002,
+       "rounds": 1355,
+       "endReason": "gems"
+      }
+     ],
+     "problems": []
+    },
+    {
+     "key": "D2",
+     "opp": "D",
+     "teamId": "ec2b57be-fa43-4e3e-9eb0-57b266624d27",
+     "maps": [
+      "00lanes",
+      "01the_farm",
+      "00swirl",
+      "01starfish",
+      "00fragment"
+     ],
+     "sides": [
+      "b",
+      "a",
+      "b",
+      "a",
+      "b"
+     ],
+     "groupId": "abb27d44-ae0c-45c4-8ea3-3fcce78646f4",
+     "status": "finished",
+     "matches": [
+      {
+       "matchId": "2e948799-7f2c-4d75-ab8f-d349df040909",
+       "map": "00lanes",
+       "side": "b",
+       "status": "finished",
+       "version": 41,
+       "result": "loss",
+       "score": 368,
+       "oppScore": 1009,
+       "rounds": 1034,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "3ba39098-5eec-4ab0-9cbd-b754c3648372",
+       "map": "01the_farm",
+       "side": "a",
+       "status": "finished",
+       "version": 41,
+       "result": "loss",
+       "score": 167,
+       "oppScore": 1018,
+       "rounds": 996,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "60a9f630-86c7-4505-aace-f361ec449e54",
+       "map": "00swirl",
+       "side": "b",
+       "status": "finished",
+       "version": 41,
+       "result": "win",
+       "score": 1025,
+       "oppScore": 517,
+       "rounds": 1466,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "406c683a-f5b6-4ecc-991c-e23c3f2b9d83",
+       "map": "01starfish",
+       "side": "a",
+       "status": "finished",
+       "version": 41,
+       "result": "win",
+       "score": 1000,
+       "oppScore": 704,
+       "rounds": 1345,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "dea54d59-588e-4463-9b65-0aa3504bf41f",
+       "map": "00fragment",
+       "side": "b",
+       "status": "finished",
+       "version": 41,
+       "result": "win",
+       "score": 772,
+       "oppScore": 564,
+       "rounds": 2000,
+       "endReason": "tiebreak_gems"
+      }
+     ],
+     "problems": []
+    }
+   ]
+  },
+  {
+   "chunk": 3,
+   "arm": "candidate",
+   "id": "dd3cdbe4-b181-481f-ba19-f7303bf17a37",
+   "version": 42,
+   "groups": [
+    {
+     "key": "C1",
+     "opp": "C",
+     "teamId": "f9d72b03-4526-4213-bc2f-afbf06f2a933",
+     "maps": [
+      "00lanes",
+      "01the_farm",
+      "00swirl",
+      "01starfish",
+      "00fragment"
+     ],
+     "sides": [
+      "a",
+      "b",
+      "a",
+      "b",
+      "a"
+     ],
+     "groupId": "ed59d034-c3b1-4a75-93cf-da39fbbfc291",
+     "status": "finished",
+     "matches": [
+      {
+       "matchId": "fb09b8e9-cee4-4689-9943-7dcebaaf04d2",
+       "map": "00lanes",
+       "side": "a",
+       "status": "finished",
+       "version": 42,
+       "result": "loss",
+       "score": 481,
+       "oppScore": 1002,
+       "rounds": 1176,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "b09b8121-ef2f-4ea1-bef7-c940a33d9435",
+       "map": "01the_farm",
+       "side": "b",
+       "status": "finished",
+       "version": 42,
+       "result": "loss",
+       "score": 318,
+       "oppScore": 1035,
+       "rounds": 1189,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "24f199dd-6542-4cfc-bde2-619dac3bf08b",
+       "map": "00swirl",
+       "side": "a",
+       "status": "finished",
+       "version": 42,
+       "result": "loss",
+       "score": 83,
+       "oppScore": 1005,
+       "rounds": 1279,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "7df88477-2e6f-416a-b717-126efb39d49f",
+       "map": "01starfish",
+       "side": "b",
+       "status": "finished",
+       "version": 42,
+       "result": "win",
+       "score": 1064,
+       "oppScore": 189,
+       "rounds": 1523,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "3e938cd9-fe1b-4a0e-b982-dc1453baf09c",
+       "map": "00fragment",
+       "side": "a",
+       "status": "finished",
+       "version": 42,
+       "result": "loss",
+       "score": 198,
+       "oppScore": 1016,
+       "rounds": 1806,
+       "endReason": "gems"
+      }
+     ],
+     "problems": []
+    },
+    {
+     "key": "C2",
+     "opp": "C",
+     "teamId": "f9d72b03-4526-4213-bc2f-afbf06f2a933",
+     "maps": [
+      "00lanes",
+      "01the_farm",
+      "00swirl",
+      "01starfish",
+      "00fragment"
+     ],
+     "sides": [
+      "b",
+      "a",
+      "b",
+      "a",
+      "b"
+     ],
+     "groupId": "ba179be7-3b1e-40ef-a1db-eceffd721546",
+     "status": "finished",
+     "matches": [
+      {
+       "matchId": "e9fd0c7f-00af-4107-a974-788b5ecd65ba",
+       "map": "00lanes",
+       "side": "b",
+       "status": "finished",
+       "version": 42,
+       "result": "loss",
+       "score": 708,
+       "oppScore": 1021,
+       "rounds": 1219,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "3d0cb34f-65b1-4fcd-bfff-bc6f92d44d07",
+       "map": "01the_farm",
+       "side": "a",
+       "status": "finished",
+       "version": 42,
+       "result": "loss",
+       "score": 782,
+       "oppScore": 1008,
+       "rounds": 1381,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "507c6d4f-aabf-4f41-83ee-61bd9019f045",
+       "map": "00swirl",
+       "side": "b",
+       "status": "finished",
+       "version": 42,
+       "result": "loss",
+       "score": 15,
+       "oppScore": 1014,
+       "rounds": 1025,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "af0ad6d1-e5c1-4033-9908-ad5cd8c01e47",
+       "map": "01starfish",
+       "side": "a",
+       "status": "finished",
+       "version": 42,
+       "result": "win",
+       "score": 1008,
+       "oppScore": 147,
+       "rounds": 1334,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "2108054c-17b2-4c29-a4a1-49dba595ebf3",
+       "map": "00fragment",
+       "side": "b",
+       "status": "finished",
+       "version": 42,
+       "result": "loss",
+       "score": 48,
+       "oppScore": 1020,
+       "rounds": 1427,
+       "endReason": "gems"
+      }
+     ],
+     "problems": []
+    },
+    {
+     "key": "D1",
+     "opp": "D",
+     "teamId": "ec2b57be-fa43-4e3e-9eb0-57b266624d27",
+     "maps": [
+      "00lanes",
+      "01the_farm",
+      "00swirl",
+      "01starfish",
+      "00fragment"
+     ],
+     "sides": [
+      "a",
+      "b",
+      "a",
+      "b",
+      "a"
+     ],
+     "groupId": "d15271f1-4da1-4f00-9aca-09ae9193c66f",
+     "status": "finished",
+     "matches": [
+      {
+       "matchId": "24565c69-6648-4908-97da-6e998807909c",
+       "map": "00lanes",
+       "side": "a",
+       "status": "finished",
+       "version": 42,
+       "result": "loss",
+       "score": 489,
+       "oppScore": 1007,
+       "rounds": 1131,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "7444f380-fc48-43d0-aa15-995124d87eea",
+       "map": "01the_farm",
+       "side": "b",
+       "status": "finished",
+       "version": 42,
+       "result": "loss",
+       "score": 184,
+       "oppScore": 1167,
+       "rounds": 1086,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "10cb5498-1d41-4559-8ae8-d622436c56d8",
+       "map": "00swirl",
+       "side": "a",
+       "status": "finished",
+       "version": 42,
+       "result": "win",
+       "score": 1014,
+       "oppScore": 53,
+       "rounds": 837,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "7194e433-1cfe-4b19-a0f4-0a60c8491092",
+       "map": "01starfish",
+       "side": "b",
+       "status": "finished",
+       "version": 42,
+       "result": "loss",
+       "score": 341,
+       "oppScore": 1058,
+       "rounds": 1126,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "bbd1af87-1f12-42cc-8f69-61bca8ce5e77",
+       "map": "00fragment",
+       "side": "a",
+       "status": "finished",
+       "version": 42,
+       "result": "loss",
+       "score": 118,
+       "oppScore": 1000,
+       "rounds": 1522,
+       "endReason": "gems"
+      }
+     ],
+     "problems": []
+    },
+    {
+     "key": "D2",
+     "opp": "D",
+     "teamId": "ec2b57be-fa43-4e3e-9eb0-57b266624d27",
+     "maps": [
+      "00lanes",
+      "01the_farm",
+      "00swirl",
+      "01starfish",
+      "00fragment"
+     ],
+     "sides": [
+      "b",
+      "a",
+      "b",
+      "a",
+      "b"
+     ],
+     "groupId": "1b9141d5-dd2d-45e8-aa24-2a12fe6ee2f5",
+     "status": "finished",
+     "matches": [
+      {
+       "matchId": "ce36aa01-e78e-4bfe-99e2-c868379ec6e4",
+       "map": "00lanes",
+       "side": "b",
+       "status": "finished",
+       "version": 42,
+       "result": "loss",
+       "score": 464,
+       "oppScore": 1016,
+       "rounds": 1038,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "0cd34f4f-38be-4b34-91d5-c366a7216d0d",
+       "map": "01the_farm",
+       "side": "a",
+       "status": "finished",
+       "version": 42,
+       "result": "loss",
+       "score": 325,
+       "oppScore": 1088,
+       "rounds": 1000,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "dc98aba0-8278-4ef0-9adf-6695613b4ca5",
+       "map": "00swirl",
+       "side": "b",
+       "status": "finished",
+       "version": 42,
+       "result": "win",
+       "score": 1012,
+       "oppScore": 129,
+       "rounds": 1135,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "230eaf69-de20-4ccb-b38f-c3719567e73a",
+       "map": "01starfish",
+       "side": "a",
+       "status": "finished",
+       "version": 42,
+       "result": "win",
+       "score": 1015,
+       "oppScore": 56,
+       "rounds": 1008,
+       "endReason": "gems"
+      },
+      {
+       "matchId": "b281b0aa-fd44-4adc-9f14-375432ad9f33",
+       "map": "00fragment",
+       "side": "b",
+       "status": "finished",
+       "version": 42,
+       "result": "win",
+       "score": 758,
+       "oppScore": 534,
+       "rounds": 2000,
+       "endReason": "tiebreak_gems"
+      }
+     ],
+     "problems": []
+    }
+   ]
+  }
+ ],
+ "finished": "2026-10-21T12:52:23.320Z",
+ "restored": false,
+ "ended": "2026-10-21T12:58:09.027Z",
+ "collection": {
+  "candidate": {
+   "exit": 0,
+   "signal": null,
+   "expected": 40,
+   "indexed": 40,
+   "missing": []
+  },
+  "control": {
+   "exit": 0,
+   "signal": null,
+   "expected": 40,
+   "indexed": 40,
+   "missing": []
+  }
+ }
+}

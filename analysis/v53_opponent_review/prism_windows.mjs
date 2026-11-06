@@ -1,0 +1,7 @@
+import fs from 'node:fs';import path from 'node:path';
+import {dumpReplay,STEP_KINDS} from '../../tools/replay_dump.mjs';
+const root=path.resolve(import.meta.dirname,'../..');const idx=JSON.parse(fs.readFileSync(root+'/platform/c100_v47p/games/index.json'));
+const rows=[];for(const g of idx.filter(g=>g.result==='loss'&&g.oppDraft.includes('5'))){const us=g.side==='a'?0:1,cds=new Map(),windows=[];let count=0;
+ await dumpReplay(root+'/platform/c100_v47p/games/'+g.file,{snapshots:'none',onStep(st,ev,prev){const kind=STEP_KINDS[st.step.kind],a=st.step.actor.kind===1?st.champions.find(c=>c.entity.index===st.step.actor.index):null;if(!a||a.type!==6||a.team===us)return;const cd=cds.get(a.entity.index)||[0,0];if(kind==='Respawn'){cd[0]=cd[1]=0;}if(kind==='Cast ability'&&st.step.abilitySlot<2){const slot=st.step.abilitySlot;if(slot===1&&cd[0]>0){count++;const blast=prev?.filter(c=>c.team===us&&c.alive&&c.position&&Math.max(Math.abs(c.position.x-st.step.to.x),Math.abs(c.position.y-st.step.to.y))<=1).map(c=>({id:c.entity.index,type:c.type,hp:c.health,pos:c.position}))||[];if(blast.length)windows.push({r:st.round,strongerSlotCooldown:cd[0],blast});}cd[slot]=8;}if(kind==='End turn'){cd[0]=Math.max(0,cd[0]-1);cd[1]=Math.max(0,cd[1]-1);}cds.set(a.entity.index,cd);}});
+ rows.push({map:g.map,label:g.label,opponent:g.opponent,matchId:g.matchId,aoeWhileStrongSpellCooling:count,castsWithOurBodiesInBlast:windows});
+}fs.writeFileSync(import.meta.dirname+'/prism_windows.json',JSON.stringify(rows,null,2));console.log(JSON.stringify(rows));

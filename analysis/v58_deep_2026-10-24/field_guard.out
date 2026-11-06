@@ -1,0 +1,7 @@
+field_eval analysis/v58_deep_2026-10-24/field_guard: 540 games in 309s, runner exit 0, source changes 0
+variant            wins gemDiff  codex-v57 prism-v58- mimic-shin  vsBase(+/-/net, dGem) faults err
+base             69/108   205.4      17/36      18/36      34/36  -                           0    0
+safe             71/108   175.9      18/36      19/36      34/36  +10/-8/+2, -29.5            0    0
+np2g             60/108    56.1      11/36      15/36      34/36  +6/-15/-9, -149.4           0    0
+np3g             62/108   114.2      12/36      16/36      34/36  +4/-11/-7, -91.2            0    0
+np2o             54/108     2.9       9/36      12/36      33/36  +3/-18/-15, -202.6          0    0

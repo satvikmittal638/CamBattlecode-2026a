@@ -1,0 +1,21 @@
+import fs from 'node:fs';import {api} from './platform_api.mjs';
+const split=JSON.parse(fs.readFileSync('autoresearch/map_split.json'));
+const opts=await api('GET','/challenges'),rank=opts.requesterRank;
+const pages=await Promise.all([1,2,3].map(p=>api('GET',`/ladder?page=${p}&pageSize=100&category=all`)));
+const teams=pages.flatMap(p=>p.teams),used=new Set(['6b04505b-d16c-4196-b7c6-53a4688a32ca']);
+const pick=c=>{const ts=teams.filter(t=>t.hasBot!==false&&!used.has(t.teamId)).sort((a,b)=>Math.abs(a.rank-c)-Math.abs(b.rank-c)||a.rank-b.rank).slice(0,5);for(const t of ts)used.add(t.teamId);return ts;};
+const near=pick(rank),half=pick(rank/2),available=new Set(opts.maps.map(m=>m.name));
+const weak=split.weak.map(r=>r.map).filter(m=>!['00breadcrumbs','adgato_gemcombat1'].includes(m)&&available.has(m));
+const strong=split.strong.map(r=>r.map).filter(m=>m!=='adgato_gemcombat2'&&available.has(m));
+let wi=0,si=0;
+const specs=[...near.map(t=>['near',t]),...half.map(t=>['half',t])].map(([pool,t],i)=>{
+ const nStrong=i%2?2:1,maps=['00breadcrumbs','adgato_gemcombat1'];
+ while(maps.length<5-nStrong)maps.push(weak[wi++%weak.length]);
+ if(nStrong===2)maps.push('adgato_gemcombat2');
+ maps.push(strong[si++%strong.length]);
+ for(const m of maps)if(!available.has(m))throw Error('Unavailable map '+m);
+ return {label:`s19_${pool}_r${t.rank}_${i+1}`,pool,rank:t.rank,teamId:t.teamId,opponent:t.name,maps,sides:maps.map((_,j)=>(i+j)%2?'b':'a'),cls:maps.map(m=>split.weak.some(r=>r.map===m)?'weak':'strong'),target:maps.map(m=>['00breadcrumbs','adgato_gemcombat1','adgato_gemcombat2'].includes(m))};
+});
+const plan={createdAt:new Date().toISOString(),rank,design:'50 games per arm; 25 near / 25 half; 35 weak / 15 strong; 25 target / 25 other; opponent version pinned between arms',specs};
+fs.writeFileSync('autoresearch/online_plan_s19.json',JSON.stringify(plan,null,1));
+console.log(JSON.stringify({rank,teams:specs.map(s=>[s.pool,s.rank,s.opponent]),weak:specs.flatMap(s=>s.cls).filter(x=>x==='weak').length,target:specs.flatMap(s=>s.target).filter(Boolean).length}));

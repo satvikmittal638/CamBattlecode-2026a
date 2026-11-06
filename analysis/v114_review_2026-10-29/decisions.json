@@ -1,0 +1,41 @@
+{
+ "dir": "analysis/v114_review_2026-10-29/replays",
+ "games": 35,
+ "nextTarget": {
+  "n": 1296,
+  "nearestShare": 0.44,
+  "top2Share": 0.56,
+  "avgDist": 12.45,
+  "avgNearest": 5.54,
+  "avgDelay": 33.35,
+  "extraDist": 6.9,
+  "commonSkips": {
+   "GoldCluster2 -> GoldCluster2": 52,
+   "GoldCluster2+Wolf2 -> GemCluster4+GoldCluster5": 17,
+   "GoldCluster4+Monolith1 -> GoldCluster5": 14,
+   "GoldCluster2 -> Elk2+GemCluster6": 11,
+   "GemCluster1 -> GemCluster2+Wolf1": 11,
+   "Elk4+GemCluster4+GoldCluster4 -> Wolf1": 11,
+   "GoldCluster2 -> Elk1+GemCluster1": 10,
+   "GoldCluster1 -> GoldCluster1+Wolf1": 9
+  }
+ },
+ "tribute": {
+  "perGame": 28.1,
+  "gemsAvg": 28.67,
+  "gemsP25": 8,
+  "gemsP50": 22,
+  "gemsP75": 36,
+  "capturesBetween": 1.44,
+  "roundsBetween": 138.23
+ },
+ "recall": {
+  "perGame": 41.7,
+  "hpfAvg": 0.5,
+  "hpfP50": 0.34,
+  "goldAvg": 143.97,
+  "afterTributeShare": 0.07,
+  "healthyRecallShare": 0.31,
+  "carryingGemsShare": 0.36
+ }
+}
