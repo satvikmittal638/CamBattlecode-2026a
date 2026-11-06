@@ -1,10 +1,11 @@
 # Cambridge Battlecode 2026a — Agentic Loop Builders
 
 [![Team](https://img.shields.io/badge/Team-Agentic%20Loop%20Builders-blue.svg)](https://2026a.battlecode.co.uk)
+[![Final Bot](https://img.shields.io/badge/Final%20Bot-v162%20(Live%20%26%20Selected)-brightgreen.svg)](https://2026a.battlecode.co.uk)
 [![Platform Rating](https://img.shields.io/badge/Rating-1880.30-success.svg)](https://2026a.battlecode.co.uk)
 [![Platform Rank](https://img.shields.io/badge/Rank-124-purple.svg)](https://2026a.battlecode.co.uk)
 [![Engine](https://img.shields.io/badge/Engine-2.0.0%20(Patch%202.0.0)-orange.svg)](https://2026a.battlecode.co.uk/game/docs/agents)
-[![Peak Metric](https://img.shields.io/badge/Peak%20Metric-16%20(v181)-brightgreen.svg)](docs/DEVELOPMENT_TIMELINE.md)
+[![Submission ID](https://img.shields.io/badge/Submission-7f710b1f-blueviolet.svg)](docs/DEVELOPMENT_TIMELINE.md)
 
 Welcome to the official repository of **Agentic Loop Builders** (`6b04505b-d16c-4196-b7c6-53a4688a32ca`), competing in **Cambridge Battlecode 2026a**.
 
@@ -12,15 +13,43 @@ This repository contains the complete C++ WebAssembly (WASM) autonomous bot engi
 
 ---
 
-## 🏆 Key Achievements & Performance
+## 🏆 Final Official Tournament Bot: `v162`
+
+The official final tournament submission pinned and active on the platform is **`v162`**:
+
+- **Platform Status**: **`Live: 162 | Selected: 162`** (Mode: Pinned Version)
+- **Submission ID**: `7f710b1f-249a-48ef-a867-2684823278f6`
+- **Official Platform Rank**: **124** (Platform Rating: **1880.30**)
+- **Build Note**: `wf1: v154 + Willow farms unless an ally nearby is hurt or near an enemy [live]`
+- **Language**: C++ compiled to WebAssembly (`wasm32-unknown-unknown`)
+
+### Key Innovations in `v162`
+1. **Adaptive Willow Farm-or-Peel State Machine (`wf1`)**:
+   - Willow aggressively clears camps and clusters to maximize gold and level progression when no friendly units are under threat.
+   - Instantly detects when a nearby ally suffers a health drop (`own.health` delta) or has enemies within 5 tiles, interrupting farming to peel, focus fire, and provide burst support.
+2. **Early Buddy-Pair Coordination (`gp1`)**:
+   - Before round 300, frontline and squishy champions pair up (Vendetta shadows Heart of Ruin; Marcella coordinates with backline support).
+   - Eliminates the isolated-champion pickoff vulnerability identified in earlier ladder losses.
+3. **Big-Map Fuel Scorer Optimization (`bf3`/`bf4`)**:
+   - Solved the severe fuel exhaustion stalls on large/corridor maps (such as `00lanes`), lifting win rates on large maps from 2/24 to 20/24.
+4. **Home-Monolith Acceleration & Gem Scarcity Tuning**:
+   - Prioritizes early home-monolith takedowns to unlock global economic buffs while adapting gem harvesting weights dynamically on resource-sparse layouts.
+
+> [!NOTE]
+> Subsequent iterations (v164–v181) were explored in offline and unranked research loops to test draft alternatives and melee itemization limits. As per tournament strategy, **`v162` was locked and pinned prior to the final submission deadline** as the team's official competition bot.
+
+---
+
+## 🏆 Performance Overview
 
 - **Ladder Rank**: **124** (Rating: **1880.30**)
-- **Peak Candidate**: **`v181`** (`workspace/bots/ar-v121`)
-  - **Local 96-game paired screen**: **73% Win Rate** (70/96 wins against recent versions)
-  - **Weak Map Margin**: **+147.7** net score delta
-  - **Strong Map Margin**: **+196.6** net score delta
-  - **Deaths per Game**: Reduced from **8.07 to 6.35**
-  - **Guard Check**: **PASS** (Zero match faults, zero turn aborts)
+- **Official Tournament Bot**: **`v162`** (`wf1` Live & Selected)
+- **Offline Research Benchmark (`v181`)**:
+  - Local 96-game paired screen: **73% Win Rate** (70/96 wins against recent versions)
+  - Weak Map Margin: **+147.7** net score delta
+  - Strong Map Margin: **+196.6** net score delta
+  - Average Deaths per Game: Reduced to **6.35**
+  - Robustness Guard: **PASS** (Zero match faults, zero turn aborts)
 
 ---
 

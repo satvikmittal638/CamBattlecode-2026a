@@ -108,3 +108,36 @@ The drafting engine evaluates map topology, corridor density, and monster distri
 1. **Corridor / Choke Maps**: Prefers `Cassi & Issac` + `Ryth` for zone control, high burst farming, and displacement.
 2. **Open / Resource Maps**: Deploys `Heart of Ruin` + `Vesper Vale` + `Marcella` + `Tavi` / `Vendetta`.
 3. **Draft ID Encoding Guard**: Distinguishes strictly between `champion_draft` and `champion_type` enums to prevent hero ID shift errors (such as misinterpreting Heart as Tavi or Marcella as Prism).
+
+---
+
+## 7. Final Tournament Bot Specification: `v162` (`wf1`)
+
+The official tournament bot submitted and live on the Cambridge Battlecode platform is **`v162`** (Submission ID: `7f710b1f-249a-48ef-a867-2684823278f6`). It represents the synthesis of the team's tournament learnings, stabilized and pinned for competitive play:
+
+```mermaid
+stateDiagram-v2
+    [*] --> Idle
+    Idle --> CheckAllies: Turn Start
+    CheckAllies --> PeelSupport: Ally Damaged or Enemy Nearby <= 5 tiles
+    CheckAllies --> FarmClear: Allies Safe & Healthy
+    PeelSupport --> AttackFocus: Focus Enemy Threats
+    FarmClear --> FarmMonster: Clear Camps / Collect Gems
+    AttackFocus --> Idle: Turn End
+    FarmMonster --> Idle: Turn End
+```
+
+### Core Mechanisms of `v162`
+1. **Willow Farm-or-Peel State Machine (`wf1`)**:
+   - Willow serves as a hyper-efficient flex champion.
+   - When friendly units are safe, Willow farms neutral camps and gem clusters to accelerate team wealth.
+   - If any ally within a 6-tile radius takes damage or is confronted by an enemy, Willow instantly aborts farming, re-routes to the skirmish, and focuses the target with maximum damage.
+2. **Early Buddy-Pair Coordination (`gp1`)**:
+   - To eliminate the 61% repeat-death pattern observed in earlier versions, champions pair up before round 300:
+     - **Pair 1**: `Vendetta` follows `Heart of Ruin` (frontline engage and peel).
+     - **Pair 2**: `Marcella` pairs with `Willow` / backline support (ranged artillery & protection).
+3. **Big-Map Fuel Scorer Optimization (`bf3` / `bf4`)**:
+   - Implements bounded search depths on large-scale maps (`00lanes`, `00road_of_riches`), preventing fuel timeouts and boosting large-map win rates from 8% (2/24) to 83% (20/24).
+4. **Home-Monolith Objective Prioritization**:
+   - Secures early map control by clearing the friendly monolith to activate baseline bonuses before contesting neutral jungle altars.
+

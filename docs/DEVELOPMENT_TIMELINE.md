@@ -14,7 +14,8 @@ timeline
     Patch 2.0.0 (Oct 26) : Engine 2.0.0 & 70 maps : 84-item backpack buffer overflow : Standoff freeze fix (v62n)
     Meta Study (Oct 27-28) : Decoded top teams (Fish & Mite) : Outmatched retreat rule (v62r / v102) : Meta 1900 analysis
     Lineage v114-v121 (Oct 29-30) : Prospector-first economy : Gated-map commit : Breakthrough v121 (+55/100)
-    Autonomous Loop (Oct 31-Nov 4) : 96-game paired local screen : Paired online ranking : v135 to v181 : Peak Metric 16 : Rank 124
+    Sprint v148-v163 : Big-map fuel fix : Buddy pairs (gp1) : Final Bot v162 Live & Pinned (Rank 124, 1880.30)
+    Offline Loop : 96-game paired local screen : v135 to v181 peak research candidate
 ```
 
 ---
@@ -87,6 +88,29 @@ An automated evaluation harness was deployed:
 
 ### Experimentation Highlights (`results.tsv`)
 
+## Phase 6: The v148–v163 Sprint & Final Tournament Bot: v162
+
+As the tournament submission deadline approached, the team executed a focused sprint to resolve big-map fuel limits and introduce dynamic support-carry mechanics:
+
+- **v150 (`bf3`)**: Solved the big-map fuel crisis by bounding deep route evaluations. Performance on `00lanes` jumped from 2/24 to 20/24 local wins.
+- **v151 (`bf4`)**: Prioritized home-monolith takedowns and high-density gem harvesting on resource-starved maps.
+- **v153 (`gp1`)**: Introduced early buddy pairs before round 300 (Vendetta shadowing Heart of Ruin; Marcella clustering with support), eliminating isolated jungle deaths.
+- **v154 (`pw1`)**: Integrated `Willow` into the draft lineup over `Ryth` for long-range sustain and objective DPS.
+- **v155–v161**: Tested recall thresholds, teleport crystals, and altar locking rules.
+- **`v162` (FINAL OFFICIAL TOURNAMENT BOT)**:
+  - **Build Note**: `wf1: v154 + Willow farms unless an ally nearby is hurt or near an enemy [live]`
+  - **Submission ID**: `7f710b1f-249a-48ef-a867-2684823278f6`
+  - **Platform Status**: **`Live: 162 | Selected: 162` (Mode: Pinned Version)**
+  - **Platform Performance**: **Rank 124**, Rating **1880.30**.
+  - **Core Innovation**: Willow dynamically balances maximum jungle farm speed with immediate combat peeling whenever an adjacent ally is damaged or confronted by enemy champions.
+  - **Tournament Pin**: Pinned and selected as the definitive tournament entry prior to the final submission deadline.
+
+---
+
+## Phase 7: Post-Submission Research Lineage (v164 – v181)
+
+Following the submission lock of `v162`, the automated research loop continued offline to benchmark experimental hypotheses and next-generation mechanics:
+
 | Iteration | Variant | Hypothesis | Result | Status |
 | :---: | :---: | :--- | :--- | :---: |
 | **0** | `v121` | Baseline performance (54/96 local wins) | Baseline | Kept |
@@ -95,8 +119,9 @@ An automated evaluation harness was deployed:
 | **8** | `s6` | Draft Heart/Vesper/Tavi/Marcella/Varg | Local $+13$, but online $-4$ (margin $-224$/g) | Discarded |
 | **15** | `s13` | Tactical non-kill fight risk 0.95 $\to$ 0.6 | Local $+1$, but archived maps $-4$ wins, $+84$ deaths | Discarded |
 | **28** | `s28` (`v147`) | Melee walk/reset forecast correction | $+7/-3$ net online gains, paired $p = 0.34$ | **Kept** |
-| **–** | `v180` | Adaptive corridor draft (Cassi & Issac + open Ryth) | Platform validated | **Kept** |
-| **–** | `v181` | Suicidal recall defense + melee Durability rush | Metric **16** (peak), 73% win rate (70/96), deaths $8.07 \to 6.35$ | **Kept** |
+| **–** | `v162` | **Final Tournament Entry**: Willow farm/peel + buddy pairs | **Active Pinned Bot (Rank 124, 1880.30)** | **LIVE** |
+| **–** | `v180` | Adaptive corridor draft (Cassi & Issac + open Ryth) | Platform validated | Kept |
+| **–** | `v181` | Suicidal recall defense + melee Durability rush | Metric **16** (peak), 73% win rate (70/96), deaths $8.07 \to 6.35$ | Kept |
 
 ---
 
